@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2021-07-01 09:54\n"
+"PO-Revision-Date: 2021-07-01 14:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -421,13 +421,13 @@ msgstr "硬盘主轴从 0 RPM 到全速的平均启动时间。"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Start/Stop Count"
-msgstr "启停次数"
+msgstr "主轴启停次数"
 
 #: core/smartattribute.cpp:104
 #, kde-format
 msgctxt "SMART attr description"
 msgid "A tally of spindle start/stop cycles."
-msgstr "主轴的启停循环次数的记录。"
+msgstr "盘片主轴的启停循环次数的记录。"
 
 #: core/smartattribute.cpp:105
 #, kde-format
@@ -499,7 +499,7 @@ msgstr "主轴起转重试次数"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of retry of spin start attempts if the first attempt was unsuccessful. An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem."
-msgstr "主轴首次尝试启动未成功后的重试次数。此项属性值增加为硬盘机械的子系统故障的迹象。"
+msgstr "主轴首次未成功启动后的重试次数。此项属性值增加为硬盘机械的子系统故障的迹象。"
 
 #: core/smartattribute.cpp:111
 #, kde-format
@@ -511,158 +511,158 @@ msgstr "磁头校准重试次数"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of recalibrations requested if the first attempt was unsuccessful. An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem."
-msgstr ""
+msgstr "主轴首次未成功校准后的重试次数。此项属性值增加为硬盘机械的子系统故障的迹象。"
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Cycle Count"
-msgstr ""
+msgstr "电源开关次数"
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of full hard disk power on/off cycles."
-msgstr ""
+msgstr "硬盘完全开关电源的循环次数。"
 
 #: core/smartattribute.cpp:113 core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft Read Error Rate"
-msgstr ""
+msgstr "软件读取错误率"
 
 #: core/smartattribute.cpp:113
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Uncorrected read errors reported to the operating system."
-msgstr ""
+msgstr "反馈给操作系统的读取错误数量。"
 
 #: core/smartattribute.cpp:114
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Available Reserved Space"
-msgstr ""
+msgstr "SSD 空余保留空间"
 
 #: core/smartattribute.cpp:114
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of available reserved space as a percentage of reserved space."
-msgstr ""
+msgstr "空余保留空间的百分比。"
 
 #: core/smartattribute.cpp:115
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count"
-msgstr ""
+msgstr "SSD 程序出错次数"
 
 #: core/smartattribute.cpp:115 core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash program operation failures since the drive was deployed."
-msgstr ""
+msgstr "硬盘安装后，闪存程序运行出错的次数。"
 
 #: core/smartattribute.cpp:116 core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count"
-msgstr ""
+msgstr "SSD 擦除出错次数"
 
 #: core/smartattribute.cpp:116
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase operation failures since the drive was deployed."
-msgstr ""
+msgstr "硬盘安装后，闪存的擦除操作出错的次数。"
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Leveling Count"
-msgstr ""
+msgstr "SSD 耗损均衡计数"
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Counts the maximum worst erase count on any block."
-msgstr ""
+msgstr "记录擦除次数最多、最严重的区块的擦除次数。"
 
 #: core/smartattribute.cpp:118
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unexpected power loss count"
-msgstr ""
+msgstr "SSD 意外断电次数"
 
 #: core/smartattribute.cpp:118
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of shutdowns without STANDBY IMMEDIATE as the last command (regardless of PLI activity using capacitor power). Normalized value is always 100."
-msgstr ""
+msgstr "未使用“STANDBY IMMEDIATE”作为最后一条命令的关机次数 (不管是否使用了电容内的电启动 PLI)，正常值应始终为100。"
 
 #: core/smartattribute.cpp:119
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Power Loss Protection Failure"
-msgstr ""
+msgstr "SSD 断电保护失败次数"
 
 #: core/smartattribute.cpp:119
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Last test result, saturated at its maximum value. Bytes 0-1: last test result as microseconds to discharge cap in range [25, 5000000], lower indicates specific error code. Bytes 2-3: minutes since last test. Bytes 4-5: lifetime number of tests. Normalized value is set to 1 on test failure or 11 if the capacitor has been tested in an excessive temperature condition, otherwise 100."
-msgstr ""
+msgstr "最后一次充电饱和至最大值的测试结果。第0至1字节：电容放电至25到5000000范围内的毫秒数，更低的数字表示特定的错误代码。第2至3字节：最后一次测试至今所过去的分钟数。第4至5字节：硬盘寿命内进行测试的次数。失败时常规值为1，电容在温度过高的条件下进行过测试时常规值为11，否则为100。"
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count (chip)"
-msgstr ""
+msgstr "SSD 擦除出错次数 (芯片)"
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase command failures."
-msgstr ""
+msgstr "闪存擦除命令失败的次数。"
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Range Delta"
-msgstr ""
+msgstr "SSD 耗损范围增量"
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Delta between most-worn and least-worn flash blocks."
-msgstr ""
+msgstr "耗损最大和耗损最小的闪存区块之间的差值。"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Used Reserved Block Count Total"
-msgstr ""
+msgstr "SSD 已使用的保留区块总数"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #: core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" Samsung attribute."
-msgstr ""
+msgstr "Pre-Fail (故障预警)，三星专有属性。"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unused Reserved Block Count Total"
-msgstr ""
+msgstr "SSD 未使用的保留区块总数"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" HP attribute."
-msgstr ""
+msgstr "Pre-Fail (故障预警)，惠普专有属性。"
 
 #: core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count Total or Non-4K Aligned Access Count"
-msgstr ""
+msgstr "SSD 程序出错总次数或未 4K 对齐的访问次数"
 
 #: core/smartattribute.cpp:127
 #, kde-format
