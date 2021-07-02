@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2021-07-01 14:21\n"
+"PO-Revision-Date: 2021-07-02 13:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Ni Hui, Feng Chao"
+msgstr "KDE China, Ni Hui, Feng Chao, Wordless Echo, Tyson Tan"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "shuizhuyuanluo@126.com, chaofeng111@gmail.com"
+msgstr "kde-china@kde.org, shuizhuyuanluo@126.com, chaofeng111@gmail.com, wordless@echo.moe, tysontan@tysontan.com"
 
 #: core/device.cpp:33
 #, kde-format
@@ -553,13 +553,13 @@ msgstr "空余保留空间的百分比。"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count"
-msgstr "SSD 程序出错次数"
+msgstr "SSD 编程出错次数"
 
 #: core/smartattribute.cpp:115 core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash program operation failures since the drive was deployed."
-msgstr "硬盘安装后，闪存程序运行出错的次数。"
+msgstr "硬盘部署后，闪存进行编程操作的失败次数。"
 
 #: core/smartattribute.cpp:116 core/smartattribute.cpp:126
 #, kde-format
@@ -571,7 +571,7 @@ msgstr "SSD 擦除出错次数"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase operation failures since the drive was deployed."
-msgstr "硬盘安装后，闪存的擦除操作出错的次数。"
+msgstr "硬盘部署后，闪存的擦除操作出错的次数。"
 
 #: core/smartattribute.cpp:117
 #, kde-format
@@ -644,7 +644,7 @@ msgstr "SSD 已使用的保留区块总数"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" Samsung attribute."
-msgstr "Pre-Fail (故障预警)，三星专有属性。"
+msgstr "“Pre-Fail”(故障预警)，三星的特有属性。"
 
 #: core/smartattribute.cpp:124
 #, kde-format
@@ -656,49 +656,49 @@ msgstr "SSD 未使用的保留区块总数"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" HP attribute."
-msgstr "Pre-Fail (故障预警)，惠普专有属性。"
+msgstr "“Pre-Fail”(故障预警)，惠普的特有属性。"
 
 #: core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count Total or Non-4K Aligned Access Count"
-msgstr "SSD 程序出错总次数或未 4K 对齐的访问次数"
+msgstr "SSD 编程失败的总次数，或未进行 4K 对齐的访问次数"
 
 #: core/smartattribute.cpp:127
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SATA Downshift Error Count"
-msgstr ""
+msgstr "SATA 性能降级错误次数"
 
 #: core/smartattribute.cpp:127
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital and Samsung attribute."
-msgstr ""
+msgstr "西部数据和三星的特有属性。"
 
 #: core/smartattribute.cpp:128
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr ""
+msgstr "端到端错误"
 
 #: core/smartattribute.cpp:128
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Part of HP's SMART IV technology: After transferring through the cache RAM data buffer the parity data between the host and the hard drive did not match."
-msgstr ""
+msgstr "惠普 SMART IV 技术的一部分：主机和硬盘上的奇偶校验数据在传输到缓存在内存上的数据缓冲区后不匹配。"
 
 #: core/smartattribute.cpp:129
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Stability"
-msgstr ""
+msgstr "磁头稳定性"
 
 #: core/smartattribute.cpp:129 core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital attribute."
-msgstr ""
+msgstr "西部数据的特有属性。"
 
 #: core/smartattribute.cpp:130
 #, kde-format
@@ -1568,7 +1568,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
-msgstr ""
+msgstr "BitLocker"
 
 #: fs/filesystem.cpp:473
 #, kde-kuit-format
