@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-08-29 03:52+0200\n"
+"PO-Revision-Date: 2021-07-03 15:06\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kube/kube.appdata.pot\n"
+"X-Crowdin-File-ID: 7983\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: kube.appdata.xml.in:6
+msgid "Kube"
+msgstr "Kube"
+
+#. (itstool) path: component/summary
+#: kube.appdata.xml.in:7
+msgid "E-mail client"
+msgstr "邮件客户端"
+
+#. (itstool) path: description/p
+#: kube.appdata.xml.in:9
+msgid "Kube is a modern communication and collaboration client built with QtQuick on top of a high performance, low resource usage core. It provides online and offline access to all your mail, contacts, calendars, notes, todo's and more. With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use."
+msgstr "Kube 是一个交流与协作的现代客户端。它基于 QtQuick 构建，拥有高性能且低资源占用的核心。Kube 能让您在线或离线访问邮件、联系人、笔记和待办事项等内容。团队自始与设计师和交互设计专家合作，专注于可用性，打造一款不仅具有视觉吸引力且悦于使用的产品。"
+
+#. (itstool) path: description/p
+#: kube.appdata.xml.in:10
+msgid "Communication and collaboration within large groups and spread over several time zones is complex and something of the norm in modern projects and the existing solutions available are not up to that challenge. Kube is a way to simplify and make communication elegant again by focusing on the key needs of users instead of filling it with any feature that comes to mind. Our strict focus on what is actually needed instead of what is wanted brings a new way of collaboration between group members and a simpler way of handling communication."
+msgstr "大团队内部跨时区的沟通与协作是十分复杂的，而现代项目和已有的解决方案无法胜任这种挑战。Kube 专注于用户的关键所需，而非随心所欲地填满功能；是一种简捷的、使沟通再变得优雅的生活方式。我们严格专注于真正的需求，而非想要加给用户的东西；为团队成员协作带来了新的方式，也给处理沟通问题带来了新的办法。"
+
