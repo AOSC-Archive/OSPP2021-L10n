@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2021-07-02 13:14\n"
+"PO-Revision-Date: 2021-07-03 09:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -132,7 +132,7 @@ msgstr "创建新的分区表，放弃之前的操作。"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing Volume Group, nothing to do."
-msgstr "重新调整卷组大小，今日无事可做。"
+msgstr "重新调整卷组大小，未做任何变动。"
 
 #: core/operationstack.cpp:440
 #, kde-kuit-format
@@ -1544,7 +1544,7 @@ msgstr "udf"
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
-msgstr ""
+msgstr "iso9660"
 
 #: fs/filesystem.cpp:469
 #, kde-kuit-format
@@ -1562,7 +1562,7 @@ msgstr "fat12"
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
-msgstr ""
+msgstr "linux_raid_member"
 
 #: fs/filesystem.cpp:472
 #, kde-kuit-format
@@ -1574,13 +1574,13 @@ msgstr "BitLocker"
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
-msgstr ""
+msgstr "apfs"
 
 #: fs/filesystem.cpp:474
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
-msgstr ""
+msgstr "minix"
 
 #: fs/filesystem.cpp:517 fs/luks.cpp:156
 #, kde-kuit-format
@@ -1651,7 +1651,7 @@ msgstr "请输入 %1 的密码句:"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
-msgstr ""
+msgstr "未能成功调整分区 <filename>%1</filename> 上 LUKS 加密部分的大小。"
 
 #: fs/luks.cpp:509 fs/luks2.cpp:116
 #, kde-kuit-format
@@ -1735,7 +1735,7 @@ msgstr "无法打开来源分区 <filename>%1</filename> 上的文件系统以�
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not create backup file <filename>%1</filename>."
-msgstr ""
+msgstr "创建备份 <filename>%1</filename> 失败。"
 
 #: jobs/backupfilesystemjob.cpp:68
 #, kde-kuit-format
@@ -1747,7 +1747,7 @@ msgstr "备份分区 <filename>%1</filename> 上的文件系统到 <filename>%2<
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr ""
+msgstr "检查分区 <filename>%1</filename> 上的文件系统"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -1825,13 +1825,13 @@ msgstr "无法打开设备 <filename>%1</filename> 以创建新分区 <filename>
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
-msgstr ""
+msgstr "创建新分区 <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
-msgstr ""
+msgstr "在设备 <filename>%1</filename> 上创建新分区"
 
 #: jobs/createpartitiontablejob.cpp:49
 #, kde-kuit-format
@@ -1843,37 +1843,37 @@ msgstr "创建分区表失败：无法打开设备 <filename>%1</filename>。"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
-msgstr ""
+msgstr "在设备 <filename>%1</filename> 上创建新的分区表"
 
 #: jobs/createvolumegroupjob.cpp:49
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new Volume Group: <filename>%1</filename> with PV: %2"
-msgstr ""
+msgstr "使用 PV (%2) 创建新卷组 <filename>%1</filename>"
 
 #: jobs/deactivatelogicalvolumejob.cpp:50
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Logical Volumes: <filename>%1</filename>"
-msgstr ""
+msgstr "停用逻辑卷：<filename>%1</filename>"
 
 #: jobs/deactivatevolumegroupjob.cpp:47
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "停用卷组：<filename>%1</filename>"
 
 #: jobs/deletefilesystemjob.cpp:51
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system: file system on <filename>%1</filename> is mounted."
-msgstr ""
+msgstr "无法删除文件系统：<filename>%1</filename> 上的文件系统已被挂载。"
 
 #: jobs/deletefilesystemjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
-msgstr ""
+msgstr "无法删除 <filename>%1</filename> 上的文件系统。"
 
 #: jobs/deletefilesystemjob.cpp:80
 #, kde-kuit-format
@@ -1891,13 +1891,13 @@ msgstr "无法删除分区 <filename>%1</filename> 的文件系统签名：打�
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
-msgstr ""
+msgstr "删除 <filename>%1</filename> 上的文件系统"
 
 #: jobs/deletepartitionjob.cpp:61 plugins/sfdisk/sfdiskpartitiontable.cpp:100
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
-msgstr ""
+msgstr "无法删除分区 <filename>%1</filename>。"
 
 #: jobs/deletepartitionjob.cpp:65
 #, kde-kuit-format
@@ -1915,7 +1915,7 @@ msgstr "删除分区失败：无法打开设备 <filename>%1</filename>。"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
-msgstr ""
+msgstr "删除分区 <filename>%1</filename>"
 
 #: jobs/job.cpp:45
 #, kde-kuit-format
@@ -1927,31 +1927,31 @@ msgstr "用于复制来源和目标不重叠：不需要回滚。"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
-msgstr ""
+msgstr "从 %1 字节到 %2 字节的位置回滚。"
 
 #: jobs/job.cpp:70
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
-msgstr ""
+msgstr "回滚到 %1 字节到 %2 字节的位置。"
 
 #: jobs/job.cpp:74 jobs/job.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to rollback copying."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> 以进行复制回滚。"
 
 #: jobs/job.cpp:86
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback failed: Source or target are not devices."
-msgstr ""
+msgstr "回滚失败：来源或目标并不属于设备。"
 
 #: jobs/job.cpp:106
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Job: %1"
-msgstr ""
+msgstr "任务：%1"
 
 #: jobs/job.cpp:115
 #, kde-kuit-format
@@ -2000,7 +2000,7 @@ msgstr "回滚分区 <filename>%1</filename> 上的文件系统失败。"
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr ""
+msgstr "正在关闭设备，可能要花几秒的时间。"
 
 #: jobs/movefilesystemjob.cpp:79
 #, kde-kuit-format
@@ -2012,13 +2012,13 @@ msgstr "移动分区 <filename>%1</filename> 上的文件系统到扇区 %2"
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Move used PE in %1 on %2 to other available Physical Volumes"
-msgstr ""
+msgstr "正在将 %2 上、%1 内使用过的 PE 移动到其它可用的物理卷。"
 
 #: jobs/removevolumegroupjob.cpp:41
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "删除卷组：<filename>%1</filename>"
 
 #: jobs/resizefilesystemjob.cpp:66
 #, kde-kuit-format
@@ -2031,13 +2031,13 @@ msgstr[0] "分区 <filename>%2</filename> 上的文件系统已经具有 %1 个�
 #, kde-format
 msgctxt "@info:progress"
 msgid "Resizing file system from %1 to %2 sectors."
-msgstr ""
+msgstr "将文件系统的大小从 %1 个扇区调整为 %2 个扇区。"
 
 #: jobs/resizefilesystemjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing a %1 file system using internal backend functions."
-msgstr ""
+msgstr "使用内部的后端功能调整 %1 文件系统的大小。"
 
 #: jobs/resizefilesystemjob.cpp:91
 #, kde-kuit-format
@@ -2049,7 +2049,7 @@ msgstr "分区 <filename>%1</filename> 上的文件系统无法调整大小因�
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Successfully resized file system using internal backend functions."
-msgstr ""
+msgstr "成功使用内部的后端功能调整了文件系统的大小。"
 
 #: jobs/resizefilesystemjob.cpp:123
 #, kde-kuit-format
@@ -2081,32 +2081,32 @@ msgstr[0] "将分区 <filename>%2</filename> 上的文件系统调整为 %1 个�
 msgctxt "@info/plain"
 msgid "Adding LVM Physical Volume %2 to %3."
 msgid_plural "Adding LVM Physical Volumes %2 to %3."
-msgstr[0] ""
+msgstr[0] "正在将 LVM 物理卷 %2 添加到 %3 中。"
 
 #: jobs/resizevolumegroupjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] "从“%3”中删除LVM虚拟卷“%2”"
+msgstr[0] "正在将 %3 中的 LVM 物理卷 %2 删除。"
 
 #: jobs/resizevolumegroupjob.cpp:64
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resizing Volume Group %1 to %2."
-msgstr ""
+msgstr "正在将卷组大小从 %1 调整为 %2。"
 
 #: jobs/restorefilesystemjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open backup file <filename>%1</filename> to restore from."
-msgstr ""
+msgstr "无法打开并使用备份文件 <filename>%1</filename> 进行还原。"
 
 #: jobs/restorefilesystemjob.cpp:64 jobs/shredfilesystemjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open target partition <filename>%1</filename> to restore to."
-msgstr "无法打开目标分区 <filename>%1</filename> 以还原。"
+msgstr "无法打开并使用目标分区 <filename>%1</filename> 进行还原。"
 
 #: jobs/restorefilesystemjob.cpp:100
 #, kde-kuit-format
@@ -2160,13 +2160,13 @@ msgstr "无法打开设备 <filename>%1</filename> 以设定分区 <filename>%2<
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "清除分区 <filename>%1</filename> 的所有标记。"
 
 #: jobs/setpartflagsjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的标记设为“%2”"
 
 #: jobs/setpartgeometryjob.cpp:65
 #, kde-kuit-format
@@ -2184,103 +2184,103 @@ msgstr "设定分区 <filename>%1</filename> 的物理结构：起始扇区：%2
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Partition table of partition <filename>%1</filename> does not support setting attributes. Job ignored."
-msgstr ""
+msgstr "分区 <filename>%1</filename> 上的分区表并不支持设置属性，已忽略。"
 
 #: jobs/setpartitionattributesjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "无法为分区 <filename>%1</filename> 设置属性。"
 
 #: jobs/setpartitionattributesjob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open partition table on device <filename>%1</filename> to set the attributes for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> 上的分区表，故无法为分区 <filename>%2</filename> 设置属性。"
 
 #: jobs/setpartitionattributesjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to set the attributes for partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> ，故无法为分区 <filename>%2</filename> 设置属性。"
 
 #: jobs/setpartitionattributesjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的属性设置为“%2”"
 
 #: jobs/setpartitionlabeljob.cpp:47
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Partition table of partition <filename>%1</filename> does not support setting names. Job ignored."
-msgstr ""
+msgstr "分区 <filename>%1</filename> 上的分区表并不支持设置名字，已忽略。"
 
 #: jobs/setpartitionlabeljob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "无法为分区 <filename>%1</filename> 设置名字。"
 
 #: jobs/setpartitionlabeljob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open partition table on device <filename>%1</filename> to set the name for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> 上的分区表，故无法为分区 <filename>%2</filename> 设置名字。"
 
 #: jobs/setpartitionlabeljob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to set the name for partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> ，故无法为分区 <filename>%2</filename> 设置名字。"
 
 #: jobs/setpartitionlabeljob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的标签设置为“%2”"
 
 #: jobs/setpartitionuuidjob.cpp:47
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Partition table of partition <filename>%1</filename> does not support setting UUIDs. Job ignored."
-msgstr ""
+msgstr "分区 <filename>%1</filename> 上的分区表并不支持设置 UUID，已忽略。"
 
 #: jobs/setpartitionuuidjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "无法为分区 <filename>%1</filename> 设置 UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open partition table on device <filename>%1</filename> to set the UUID for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> 上的分区表，故无法为分区 <filename>%2</filename> 设置 UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to set the UUID for partition <filename>%2</filename>."
-msgstr ""
+msgstr "无法打开设备 <filename>%1</filename> ，故无法为分区 <filename>%2</filename> 设置 UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的 UUID 设置为“%2”"
 
 #: jobs/shredfilesystemjob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open random data source to overwrite file system."
-msgstr ""
+msgstr "无法打开用以覆写文件系统的随机数据源。"
 
 #: jobs/shredfilesystemjob.cpp:77
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Shred the file system on <filename>%1</filename>"
-msgstr ""
+msgstr "粉碎 (shred) <filename>%1</filename> 上的文件系统"
 
 #: ops/backupoperation.cpp:39
 #, kde-kuit-format
@@ -2292,7 +2292,7 @@ msgstr "备份分区 <filename>%1</filename> (%2，%3)到 <filename>%4</filename
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "检查并修复分区 <filename>%1</filename> (%2，%3)"
 
 #: ops/copyoperation.cpp:147 ops/restoreoperation.cpp:131
 #, kde-kuit-format
@@ -2304,25 +2304,25 @@ msgstr "警告：最大化目标分区 <filename>%1</filename> 上的文件系�
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking target partition <filename>%1</filename> after copy failed."
-msgstr ""
+msgstr "复制失败，正在检查目标分区 <filename>%1</filename>。"
 
 #: ops/copyoperation.cpp:158
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying source to target partition failed."
-msgstr ""
+msgstr "未能成功将来源复制到目标分区中。"
 
 #: ops/copyoperation.cpp:161
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating target partition for copying failed."
-msgstr ""
+msgstr "未能成功创建用于复制的目标分区。"
 
 #: ops/copyoperation.cpp:163
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking source partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "未能成功检查来源分区 <filename>%1</filename>。"
 
 #: ops/copyoperation.cpp:170 ops/operation.cpp:174 ops/resizeoperation.cpp:175
 #: ops/restoreoperation.cpp:148
@@ -2359,43 +2359,43 @@ msgstr "复制分区 <filename>%1</filename> (%2，%3)到 <filename>%5</filename
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
-msgstr ""
+msgstr "在分区 <filename>%2</filename> 上创建文件系统 %1"
 
 #: ops/createpartitiontableoperation.cpp:104
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
-msgstr ""
+msgstr "在 <filename>%2</filename> 上创建新的 %1 分区表"
 
 #: ops/createvolumegroupoperation.cpp:36
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new LVM volume group named '%1'."
-msgstr ""
+msgstr "创建名为“%1”的新 LVM 卷组。"
 
 #: ops/deactivatevolumegroupoperation.cpp:35
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate volume group."
-msgstr ""
+msgstr "停用卷组。"
 
 #: ops/deleteoperation.cpp:87
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "粉碎 (shred) 分区 <filename>%1</filename> (%2，%3)"
 
 #: ops/deleteoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "删除分区 <filename>%1</filename> (%2，%3)"
 
 #: ops/newoperation.cpp:200
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
-msgstr ""
+msgstr "在 <filename>%3</filename> 上创建新分区 (%1，%2)"
 
 #: ops/operation.cpp:75
 #, kde-kuit-format
@@ -2437,25 +2437,25 @@ msgstr "错误"
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
-msgstr ""
+msgstr "删除 LVM 卷组。"
 
 #: ops/resizeoperation.cpp:156
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving extended partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "未能成功移动拓展分区 <filename>%1</filename>。"
 
 #: ops/resizeoperation.cpp:165
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> after resize/move failed."
-msgstr ""
+msgstr "调整大小或移动分区失败，正在检查分区 <filename>%1</filename>。"
 
 #: ops/resizeoperation.cpp:168
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing/moving partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "未能成功移动分区 <filename>%1</filename> 或调整其大小。"
 
 #: ops/resizeoperation.cpp:171
 #, kde-kuit-format
@@ -2467,25 +2467,25 @@ msgstr "调整大小/移动前检查分区 <filename>%1</filename> 失败。"
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the left by %2"
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 移动到 %2 左边"
 
 #: ops/resizeoperation.cpp:204
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the right by %2"
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 移动到 %2 右边"
 
 #: ops/resizeoperation.cpp:207
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Grow partition <filename>%1</filename> from %2 to %3"
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 从 %2 增大到 %3"
 
 #: ops/resizeoperation.cpp:210
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Shrink partition <filename>%1</filename> from %2 to %3"
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 从 %2 缩小到 %3"
 
 #: ops/resizeoperation.cpp:213
 #, kde-kuit-format
@@ -2515,7 +2515,7 @@ msgstr "将分区 <filename>%1</filename> 移动到 %2 右边并将其从 %3 缩
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Unknown resize/move action."
-msgstr ""
+msgstr "未知的调整或移动操作。"
 
 #: ops/resizeoperation.cpp:258
 #, kde-kuit-format
@@ -2533,7 +2533,7 @@ msgstr "调整大小/移动失败：无法缩小分区 <filename>%1</filename>�
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "未能成功移动分区 <filename>%1</filename>。"
 
 #: ops/resizeoperation.cpp:287
 #, kde-kuit-format
@@ -2569,7 +2569,7 @@ msgstr "无法为分区 <filename>%1</filename> 还原旧分区大小。"
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr ""
+msgstr "将卷 %1 的大小从 %2 调整为 %3"
 
 #: ops/restoreoperation.cpp:133
 #, kde-kuit-format
@@ -2581,13 +2581,13 @@ msgstr "还原失败后检查目标分区 <filename>%1</filename> 上的文件�
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Restoring file system failed."
-msgstr ""
+msgstr "恢复文件系统失败。"
 
 #: ops/restoreoperation.cpp:141
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating the destination partition to restore to failed."
-msgstr ""
+msgstr "未能成功创建用于还原的目标分区。"
 
 #: ops/restoreoperation.cpp:156
 #, kde-kuit-format
@@ -2605,7 +2605,7 @@ msgstr "从 <filename>%3</filename> 还原分区到 %2 的 <filename>%1</filenam
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的标签设定为“%2”"
 
 #: ops/setfilesystemlabeloperation.cpp:60
 #, kde-kuit-format
@@ -2617,25 +2617,25 @@ msgstr "将分区 <filename>%1</filename> 的标签从“%2”设定为“%3”"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "清除分区 <filename>%1</filename> 的所有标记。"
 
 #: ops/setpartflagsoperation.cpp:64
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "将分区 <filename>%1</filename> 的标记设定为“%2”"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:219
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr ""
+msgstr "找到一个软件 RAID 设备：%1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:249
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
-msgstr ""
+msgstr "找到一个设备：%1"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:65
 #, kde-kuit-format
@@ -2726,55 +2726,55 @@ msgstr "YiB"
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "(unknown unit)"
-msgstr ""
+msgstr "(未知的单位)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
 #: util/externalcommand.cpp:224
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
-msgstr ""
+msgstr "命令：%1 %2"
 
 #: util/externalcommandhelper.cpp:79
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr ""
+msgstr "无法打开并读取设备 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr ""
+msgstr "无法在设备 <filename>%2</filename> 上寻址到 %1。"
 
 #: util/externalcommandhelper.cpp:91
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr ""
+msgstr "无法读取设备 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:110
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr ""
+msgstr "无法打开并写入设备 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:120
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr ""
+msgstr "无法写入设备 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:145
 #, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr ""
+msgstr "无法打开并写入文件 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:150
 #, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr ""
+msgstr "无法写入文件 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:216
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr ""
+msgstr "正在从 %3 复制 %1 个区块（共 %2 字节）至 %4，方向：%5。"
 
 #: util/externalcommandhelper.cpp:217
 #, kde-format
@@ -2792,13 +2792,13 @@ msgstr "右键"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
-msgstr ""
+msgstr "正在以 %1 MiB 每秒的速度进行复制，预计剩余时间：%2"
 
 #: util/externalcommandhelper.cpp:251
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying remainder of block size %1 from %2 to %3."
-msgstr ""
+msgstr "正在从 %2 复制剩余 %1 大小的区块至 %3。"
 
 #: util/externalcommandhelper.cpp:265
 #, kde-format
@@ -2817,19 +2817,19 @@ msgstr[0] "复制 %1 数据块(%2)已完成。"
 #, kde-kuit-format
 msgctxt "@title"
 msgid "<application>KPMcore</application>"
-msgstr ""
+msgstr "<application>KPMcore</application>"
 
 #: util/helpers.cpp:50
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr ""
+msgstr "分区管理库"
 
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "&copy; 2008-2020 KPMcore developers"
-msgstr ""
+msgstr "&copy; 2008-2020 KPMcore 开发者"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -2865,7 +2865,7 @@ msgstr "Teo Mrnjavac"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Calamares maintainer"
-msgstr ""
+msgstr "Calamares 的前维护者"
 
 #: util/helpers.cpp:59
 #, kde-kuit-format
@@ -2889,7 +2889,7 @@ msgstr "Pali Rohár"
 #, kde-format
 msgctxt "@info:credit"
 msgid "UDF support"
-msgstr ""
+msgstr "UDF 支持"
 
 #: util/helpers.cpp:61
 #, kde-kuit-format
@@ -2907,25 +2907,25 @@ msgstr "Calamares 维护者"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr ""
+msgstr "Caio Jordão Carvalho"
 
 #: util/helpers.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr ""
+msgstr "改进了对 SMART 的支持"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "将 KAuth 的相关代码移植到 Polkit"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
