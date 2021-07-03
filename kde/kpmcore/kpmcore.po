@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2021-07-03 09:15\n"
+"PO-Revision-Date: 2021-07-03 09:42\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1903,7 +1903,7 @@ msgstr "无法删除分区 <filename>%1</filename>。"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open partition table on device <filename>%1</filename> to delete partition <filename>%2</filename>."
-msgstr "无法打开设备 <filename>%1</filename> 上的分区表以 删除分区 <filename>%2</filename>。"
+msgstr "无法打开设备 <filename>%1</filename> 上的分区表以删除分区 <filename>%2</filename>。"
 
 #: jobs/deletepartitionjob.cpp:67
 #, kde-kuit-format
