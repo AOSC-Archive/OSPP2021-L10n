@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-11 00:19+0000\n"
-"PO-Revision-Date: 2021-07-13 14:56\n"
+"PO-Revision-Date: 2021-07-14 17:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -797,7 +797,7 @@ msgstr "目标: "
 #: directorymergewindow.cpp:2848
 #, kde-format
 msgid "Save Folder Merge State As..."
-msgstr "将目录合并状态保存为..."
+msgstr "将文件夹合并状态保存为..."
 
 #: directorymergewindow.cpp:2955
 #, kde-format
@@ -828,12 +828,12 @@ msgstr "合并文件"
 #: directorymergewindow.cpp:2959
 #, kde-format
 msgid "Fold All Subfolders"
-msgstr "折叠全部子文件夹"
+msgstr "折叠所有子文件夹"
 
 #: directorymergewindow.cpp:2960
 #, kde-format
 msgid "Unfold All Subfolders"
-msgstr "展开全部子文件夹"
+msgstr "展开所有子文件夹"
 
 #. i18n("Save Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotSaveMergeState, ac, "dir_save_merge_state");
 #. i18n("Load Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotLoadMergeState, ac, "dir_load_merge_state");
@@ -1599,7 +1599,7 @@ msgstr " (32 位)"
 #: main.cpp:104
 #, kde-format
 msgid "Tool for Comparison and Merge of Files and Folders"
-msgstr "用于比较、合并文件和文件夹的工具"
+msgstr "用于比较及合并文件、文件夹的工具"
 
 #: main.cpp:105
 #, kde-format
@@ -1704,7 +1704,7 @@ msgstr "无法将普通文件与非普通文件进行比较。"
 #: MergeFileInfos.cpp:404
 #, kde-format
 msgid "Mix of links and normal files."
-msgstr ""
+msgstr "合并链接与普通文件。"
 
 #: MergeFileInfos.cpp:412
 #, kde-format
@@ -1852,7 +1852,7 @@ msgstr "剩余冲突"
 #, kde-format
 msgid "There is a line end style conflict. Please choose the line end style manually.\n"
 "File not saved."
-msgstr "有一处换行符冲突，请手动选择一个换行符风格。\n"
+msgstr "有一处换行符冲突，请手动选择一种换行符风格。\n"
 "文件未保存。"
 
 #: mergeresultwindow.cpp:2674
@@ -2343,7 +2343,8 @@ msgstr "自动前进延迟(毫秒)："
 #, kde-format
 msgid "When in Auto-Advance mode the result of the current selection is shown \n"
 "for the specified time, before jumping to the next conflict. Range: 0-2000 ms"
-msgstr ""
+msgstr "在自动继续模式下，当前选择的结果会显示一段时间，然后才会跳转至下一个冲突。\n"
+"范围：0 至 2000 毫秒"
 
 #: optiondialog.cpp:951
 #, kde-format
@@ -2358,7 +2359,7 @@ msgstr "显示关于冲突数量信息的对话框"
 #: optiondialog.cpp:957
 #, kde-format
 msgid "White space 2-file merge default:"
-msgstr ""
+msgstr "双文件合并出现空白字符冲突时，默认选择："
 
 #: optiondialog.cpp:962 optiondialog.cpp:975
 #, kde-format
@@ -2368,12 +2369,12 @@ msgstr "手动选择"
 #: optiondialog.cpp:966 optiondialog.cpp:980
 #, kde-format
 msgid "Allow the merge algorithm to automatically select an input for white-space-only changes."
-msgstr ""
+msgstr "仅有空白字符差异时，允许合并算法自动选择其中一个文件的内容。"
 
 #: optiondialog.cpp:970
 #, kde-format
 msgid "White space 3-file merge default:"
-msgstr ""
+msgstr "三文件合并出现空白字符冲突时，默认选择："
 
 #: optiondialog.cpp:984
 #, kde-format
@@ -2394,7 +2395,7 @@ msgstr "合并开始时运行正则表达式自动合并"
 #, kde-format
 msgid "Run the merge for auto merge regular expressions\n"
 "immediately when a merge starts.\n"
-msgstr ""
+msgstr "合并开始时，立即运行自动合并正则表达式。\n"
 
 #: optiondialog.cpp:1008
 #, kde-format
@@ -2404,12 +2405,12 @@ msgstr "版本控制历史合并"
 #: optiondialog.cpp:1016 smalldialogs.cpp:414
 #, kde-format
 msgid "History start regular expression:"
-msgstr ""
+msgstr "版本管理历史首行正则表达式："
 
 #: optiondialog.cpp:1024 smalldialogs.cpp:442
 #, kde-format
 msgid "History entry start regular expression:"
-msgstr ""
+msgstr "版本管理历史记录首行正则表达式："
 
 #: optiondialog.cpp:1040
 #, kde-format
@@ -2419,7 +2420,7 @@ msgstr "历史合并排序"
 #: optiondialog.cpp:1043
 #, kde-format
 msgid "Sort version control history by a key."
-msgstr ""
+msgstr "按照关键字排序版本控制历史记录"
 
 #: optiondialog.cpp:1053
 #, kde-format
@@ -2444,7 +2445,7 @@ msgstr "最大历史记录数："
 #: optiondialog.cpp:1074
 #, kde-format
 msgid "Cut off after specified number. Use -1 for infinite number of entries."
-msgstr ""
+msgstr "舍弃指定数量后的记录，指定 -1 则不舍弃记录。"
 
 #: optiondialog.cpp:1078
 #, kde-format
@@ -2454,14 +2455,15 @@ msgstr "测试您的正则表达式"
 #: optiondialog.cpp:1083
 #, kde-format
 msgid "Irrelevant merge command:"
-msgstr ""
+msgstr "无关合并的指令："
 
 #: optiondialog.cpp:1088
 #, kde-format
 msgid "If specified this script is run after automerge\n"
 "when no other relevant changes were detected.\n"
 "Called with the parameters: filename1 filename2 filename3"
-msgstr ""
+msgstr "在此项不为空且执行自动合并后，如果没有检测到任何相关的更改，\n"
+"这段脚本则会使用“文件名1 文件名2 文件名3”的参数运行。"
 
 #: optiondialog.cpp:1093
 #, kde-format
@@ -2480,12 +2482,12 @@ msgstr "如果从命令行调用 KDiff3 合并文件并且所有\n"
 #: optiondialog.cpp:1129
 #, kde-format
 msgid "Recursive folders"
-msgstr ""
+msgstr "递归文件夹"
 
 #: optiondialog.cpp:1132
 #, kde-format
 msgid "Whether to analyze subfolders or not."
-msgstr ""
+msgstr "是否分析子文件夹。"
 
 #: optiondialog.cpp:1134
 #, kde-format
@@ -2518,35 +2520,38 @@ msgstr "要排除分析的文件名的表达式。\n"
 #: optiondialog.cpp:1156
 #, kde-format
 msgid "Folder-anti-pattern(s):"
-msgstr ""
+msgstr "排除文件夹表达式："
 
 #: optiondialog.cpp:1162
 #, kde-format
 msgid "Pattern(s) of folders to be excluded from analysis. \n"
 "Wildcards: '*' and '?'\n"
 "Several Patterns can be specified by using the separator: ';'"
-msgstr ""
+msgstr "用于将文件夹排除出分析结果的表达式。\n"
+"通配符：“*”和“?”\n"
+"可以使用分隔符“;”来指定多个表达式。"
 
 #: optiondialog.cpp:1167
 #, kde-format
 msgid "Use Ignore File"
-msgstr ""
+msgstr "使用忽略文件"
 
 #: optiondialog.cpp:1171
 #, kde-format
 msgid "Extends the antipattern to anything that would be ignored by source control.\n"
 "Via local ignore files this can be folder-specific."
-msgstr ""
+msgstr "排除任何被版本控制系统忽略的任何文件及文件夹。\n"
+"通过本地忽略文件则可排除特定的文件夹。"
 
 #: optiondialog.cpp:1175
 #, kde-format
 msgid "Find hidden files and folders"
-msgstr ""
+msgstr "查找隐藏的文件和文件夹"
 
 #: optiondialog.cpp:1178
 #, kde-format
 msgid "Finds hidden files and folders."
-msgstr ""
+msgstr "查找隐藏的文件和文件夹。"
 
 #: optiondialog.cpp:1181
 #, kde-format
@@ -2563,13 +2568,14 @@ msgstr "启用：比较链接指向的文件。\n"
 #: optiondialog.cpp:1189
 #, kde-format
 msgid "Follow folder links"
-msgstr ""
+msgstr "追踪文件夹链接"
 
 #: optiondialog.cpp:1193
 #, kde-format
 msgid "On: Compare the folder the link points to.\n"
 "Off: Compare the links."
-msgstr ""
+msgstr "启用：比较链接指向的文件夹。\n"
+"禁用：只比较链接本身。"
 
 #: optiondialog.cpp:1202
 #, kde-format
@@ -2580,29 +2586,32 @@ msgstr "文件名区分大小写"
 #, kde-format
 msgid "The folder comparison will compare files or folders when their names match.\n"
 "Set this option if the case of the names must match. (Default for Windows is off, otherwise on.)"
-msgstr ""
+msgstr "文件夹比较功能将比较名字相同的文件或文件夹。\n"
+"若要区分大小写，则需启用此选项。 (Windows 上默认关闭，其他操作系统默认开启)"
 
 #: optiondialog.cpp:1210
 #, kde-format
 msgid "Unfold all subfolders on load"
-msgstr ""
+msgstr "加载时展开所有子文件夹"
 
 #: optiondialog.cpp:1214
 #, kde-format
 msgid "On: Unfold all subfolders when starting a folder diff.\n"
 "Off: Leave subfolders folded."
-msgstr ""
+msgstr "启用：比较目录时展开所有子文件夹。\n"
+"禁用：子文件夹保持折叠。"
 
 #: optiondialog.cpp:1218
 #, kde-format
 msgid "Skip folder status report"
-msgstr ""
+msgstr "跳过文件夹状态报告"
 
 #: optiondialog.cpp:1222
 #, kde-format
 msgid "On: Do not show the Folder Comparison Status.\n"
 "Off: Show the status dialog on start."
-msgstr ""
+msgstr "启用：不要显示文件夹比较状态。\n"
+"关闭：开始时显示状态对话框。"
 
 #: optiondialog.cpp:1226
 #, kde-format
@@ -2641,7 +2650,9 @@ msgstr "信任文件大小和修改日期(不安全)"
 msgid "Assume that files are equal if the modification date and file length are equal.\n"
 "Files with equal contents but different modification dates will appear as different.\n"
 "Useful for big folders or slow networks."
-msgstr ""
+msgstr "修改日期和文件长度相同的文件会被视为同一文件。\n"
+"相同内容但修改日期不同的文件会被视为不同文件。\n"
+"对大文件夹或慢速网络很有帮助。"
 
 #: optiondialog.cpp:1249
 #, kde-format
@@ -2653,7 +2664,9 @@ msgstr "信任文件大小和修改日期，但日期不相同时使用二进制
 msgid "Assume that files are equal if the modification date and file length are equal.\n"
 "If the dates are not equal but the sizes are, use binary comparison.\n"
 "Useful for big folders or slow networks."
-msgstr ""
+msgstr "修改日期和文件长度相同的文件会被视为同一文件。\n"
+"相同内容但日期不同时，则比较它们的二进制文件。\n"
+"对大文件夹或慢速网络很有帮助。"
 
 #: optiondialog.cpp:1256
 #, kde-format
@@ -2664,19 +2677,22 @@ msgstr "信任文件大小(不安全)"
 #, kde-format
 msgid "Assume that files are equal if their file lengths are equal.\n"
 "Useful for big folders or slow networks when the date is modified during download."
-msgstr ""
+msgstr "文件长度相同的文件会被视为同一文件。\n"
+"对大文件夹或慢速网络 (下载时会改变日期) 很有帮助。"
 
 #: optiondialog.cpp:1265
 #, kde-format
 msgid "Synchronize folders"
-msgstr ""
+msgstr "同步文件夹"
 
 #: optiondialog.cpp:1269
 #, kde-format
 msgid "Offers to store files in both folders so that\n"
 "both folders are the same afterwards.\n"
 "Works only when comparing two folders without specifying a destination."
-msgstr ""
+msgstr "将文件同时储存在两个文件夹中，\n"
+"以使两个文件夹保持一致。\n"
+"仅用于未指定目标的双文件夹比较中。"
 
 #: optiondialog.cpp:1275
 #, kde-format
@@ -2700,7 +2716,9 @@ msgstr "复制较新的文件而不合并(不安全)"
 msgid "Do not look inside, just take the newer file.\n"
 "(Use this only if you know what you are doing!)\n"
 "Only effective when comparing two folders."
-msgstr ""
+msgstr "不比较文件内容，仅选择较新的文件。\n"
+"(请在深思熟虑后使用此选项！)\n"
+"只在比较两个文件夹时有效。"
 
 #: optiondialog.cpp:1294
 #, kde-format
@@ -2910,7 +2928,7 @@ msgstr "正在加载C"
 #: pdiff.cpp:197
 #, kde-format
 msgid "Loading C: %1"
-msgstr ""
+msgstr "正在加载 C：%1"
 
 #: pdiff.cpp:223 pdiff.cpp:224
 #, kde-format
@@ -3065,7 +3083,7 @@ msgstr "配置..."
 #: smalldialogs.cpp:161
 #, kde-format
 msgid "Open Folder"
-msgstr ""
+msgstr "打开文件夹"
 
 #: smalldialogs.cpp:162
 #, kde-format
@@ -3075,7 +3093,7 @@ msgstr "选择输出文件"
 #: smalldialogs.cpp:162 smalldialogs.cpp:163
 #, kde-format
 msgid "all/allfiles (*)"
-msgstr ""
+msgstr "全部内容及所有文件 (*)"
 
 #: smalldialogs.cpp:324
 #, kde-format
@@ -3135,13 +3153,14 @@ msgstr "匹配结果："
 #: smalldialogs.cpp:422
 #, kde-format
 msgid "Example history start line (with leading comment):"
-msgstr ""
+msgstr "历史记录起始行的示例 (带开头的注释)："
 
 #: smalldialogs.cpp:424
 #, kde-format
 msgid "Copy a history start line as used in your files,\n"
 "including the leading comment."
-msgstr ""
+msgstr "复制一段您文件里使用过的历史记录起始行，\n"
+"包括开头的注释。"
 
 #: smalldialogs.cpp:450
 #, kde-format
@@ -3151,13 +3170,14 @@ msgstr "历史排序关键字顺序："
 #: smalldialogs.cpp:458
 #, kde-format
 msgid "Example history entry start line (without leading comment):"
-msgstr ""
+msgstr "历史记录起始行的示例 (不带开头的注释)："
 
 #: smalldialogs.cpp:460
 #, kde-format
 msgid "Copy a history entry start line as used in your files,\n"
 "but omit the leading comment."
-msgstr ""
+msgstr "复制一段您文件里使用过的历史记录起始行，\n"
+"但不要包括开头的注释。"
 
 #: smalldialogs.cpp:474
 #, kde-format
@@ -3225,7 +3245,7 @@ msgstr "行匹配处理可能失败。请检查这个命令：\n"
 #: Utils.cpp:67
 #, kde-format
 msgid "Expecting space after closing quote."
-msgstr ""
+msgstr "闭合引号后应有空格。"
 
 #: Utils.cpp:70
 #, kde-format
