@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2020-06-08 02:17+0200\n"
+"PO-Revision-Date: 2021-07-15 08:05\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kdiff3/org.kde.kdiff3.appdata.pot\n"
+"X-Crowdin-File-ID: 9598\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kdiff3.appdata.xml:6
+msgid "KDiff3"
+msgstr "KDiff3"
+
+#. (itstool) path: component/summary
+#: org.kde.kdiff3.appdata.xml:7
+msgid "A file and folder comparison and merge tool"
+msgstr "一个比较、合并文件和文件夹的工具"
+
+#. (itstool) path: description/p
+#: org.kde.kdiff3.appdata.xml:10
+msgid "KDiff3 is a file and folder diff and merge tool which"
+msgstr "KDiff3 是一个比较、合并文件和文件夹的工具，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:12
+msgid "compares and merges two or three text input files or folders,"
+msgstr "它能比较、合并输入的两份或三份文件和文件夹，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:13
+msgid "shows the differences line by line and character by character(!),"
+msgstr "按单行或单字符显示差异(!)，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:14
+msgid "provides an automatic merge-facility,"
+msgstr "提供自动合并功能，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:15
+msgid "has an editor for comfortable solving of merge-conflicts,"
+msgstr "有一个舒适的编辑器来解决合并冲突，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:16
+msgid "provides network transparency via KIO,"
+msgstr "通过 KIO 提供网络文件透明访问，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:17
+msgid "has options to highlight or hide changes in white-space or comments,"
+msgstr "有选项可以设置高亮或隐藏空白字符和代码注释的更改，"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:18
+msgid "supports Unicode, UTF-8 and other file encodings,"
+msgstr "支持 Unicode, UTF-8 和其他文件编码,"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:19
+msgid "prints differences,"
+msgstr "打印差异,"
+
+#. (itstool) path: ul/li
+#: org.kde.kdiff3.appdata.xml:20
+msgid "supports version control keyword and history merging."
+msgstr "支持版本控制关键词和历史合并。"
+
