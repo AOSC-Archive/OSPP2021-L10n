@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-17 00:34+0000\n"
+"PO-Revision-Date: 2021-07-15 08:59\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kdepim-runtime/kdepim-runtime._desktop_.pot\n"
+"X-Crowdin-File-ID: 8368\n"
+"Language: zh_CN\n"
+
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:3
+msgctxt "Comment"
+msgid "KDE e-mail client"
+msgstr "KDE 邮件客户端"
+
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:52
+msgctxt "Name"
+msgid "KDE Mail"
+msgstr "KDE 电子邮件"
+
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:104
+msgctxt "Name"
+msgid "E-mail successfully sent"
+msgstr "邮件已成功发送"
+
+#: agents/maildispatcher/akonadi_maildispatcher_agent.notifyrc:156
+msgctxt "Name"
+msgid "E-mail sending failed"
+msgstr "发送邮件失败"
+
+#: agents/maildispatcher/maildispatcheragent.desktop:2
+msgctxt "Name"
+msgid "Mail Dispatcher Agent"
+msgstr "邮件签发代理"
+
+#: agents/maildispatcher/maildispatcheragent.desktop:48
+msgctxt "Comment"
+msgid "Dispatches email messages"
+msgstr "发送电子邮件"
+
+#: agents/migration/migrationagent.desktop:2
+msgctxt "Name"
+msgid "Migration Agent"
+msgstr "迁移助手"
+
+#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:3
+msgctxt "Comment"
+msgid "New email notify"
+msgstr "新邮件提醒"
+
+#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:47
+msgctxt "Name"
+msgid "New email notify"
+msgstr "新邮件提醒"
+
+#: agents/newmailnotifier/akonadi_newmailnotifier_agent.notifyrc:94
+msgctxt "Name"
+msgid "New email arrived"
+msgstr "新邮件到达"
+
+#: agents/newmailnotifier/newmailnotifieragent.desktop:2
+msgctxt "Name"
+msgid "New Email Notifier"
+msgstr "新邮件提醒"
+
+#: agents/newmailnotifier/newmailnotifieragent.desktop:48
+msgctxt "Comment"
+msgid "Notifications about newly received emails"
+msgstr "新邮件通知"
+
+#: defaultsetup/defaultaddressbook.desktop:4
+#: resources/contacts/contactsresource.desktop:2
+#: resources/contacts/wizard/contactswizard.desktop:2
+msgctxt "Name"
+msgid "Personal Contacts"
+msgstr "个人联系人"
+
+#: defaultsetup/defaultcalendar.desktop:4
+msgctxt "Name"
+msgid "Personal Calendar"
+msgstr "个人日历"
+
+#: defaultsetup/defaultnotebook.desktop:4
+#: resources/ical/notes/notesresource.desktop:2
+msgctxt "Name"
+msgid "Notes"
+msgstr "注记"
+
+#: kcms/ldap/kcmldap.desktop:12
+msgctxt "Name"
+msgid "LDAP Server Settings"
+msgstr "LDAP 服务器设置"
+
+#: kcms/ldap/kcmldap.desktop:43
+msgctxt "Comment"
+msgid "Configure the available LDAP servers"
+msgstr "配置可用 LDAP 服务器"
+
+#: kcms/ldap/kcmldap.desktop:73
+msgctxt "X-KDE-Keywords"
+msgid "kaddressbook, configure, settings, LDAP"
+msgstr "kaddressbook, configure, settings, LDAP, 地址簿, 配置, 设置"
+
+#: resources/akonotes/akonotesresource.desktop:2
+msgctxt "Name"
+msgid "AkoNotes"
+msgstr "AkoNotes"
+
+#: resources/akonotes/akonotesresource.desktop:48
+msgctxt "Comment"
+msgid "Loads a notes hierarchy from a local maildir folder"
+msgstr "从本地 maildir 文件夹中载入层次型便笺"
+
+#: resources/birthdays/birthdaysresource.desktop:2
+msgctxt "Name"
+msgid "Birthdays & Anniversaries"
+msgstr "生日和纪念日"
+
+#: resources/birthdays/birthdaysresource.desktop:51
+msgctxt "Comment"
+msgid "Provides access to birthday and anniversary dates of contacts in your address book as calendar events"
+msgstr "提供对存储在 KDE 地址簿文件夹中的联系人生日和纪念日的访问支持，并将其作为日历中的事件"
+
+#: resources/contacts/contactsresource.desktop:51
+#: resources/contacts/wizard/contactswizard.desktop:51
+msgctxt "Comment"
+msgid "The address book with personal contacts"
+msgstr "个人联系地址簿"
+
+#: resources/dav/resource/davgroupwareprovider.desktop:4
+msgctxt "Name"
+msgid "DAV Groupware resource provider"
+msgstr "DAV 群件资源提供方"
+
+#: resources/dav/resource/davgroupwareresource.desktop:2
+msgctxt "Name"
+msgid "DAV groupware resource"
+msgstr "DAV 群件资源"
+
+#: resources/dav/resource/davgroupwareresource.desktop:46
+msgctxt "Comment"
+msgid "Resource to manage DAV calendars and address books (CalDAV, GroupDAV)"
+msgstr "管理 DAV 日历和地址簿的资源 (CalDAV、GroupDAV)"
+
+#: resources/dav/services/citadel.desktop:2
+msgctxt "Name"
+msgid "Citadel"
+msgstr "Citadel"
+
+#: resources/dav/services/davical.desktop:2
+msgctxt "Name"
+msgid "Davical"
+msgstr "Davical"
+
+#: resources/dav/services/egroupware.desktop:2
+msgctxt "Name"
+msgid "eGroupware"
+msgstr "eGroupware"
+
+#: resources/dav/services/nextcloud.desktop:2
+msgctxt "Name"
+msgid "Nextcloud"
+msgstr "NextCloud"
+
+#: resources/dav/services/opengroupware.desktop:2
+msgctxt "Name"
+msgid "OpenGroupware"
+msgstr "OpenGroupware"
+
+#: resources/dav/services/owncloud.desktop:2
+msgctxt "Name"
+msgid "ownCloud"
+msgstr "ownCloud"
+
+#: resources/dav/services/owncloud-pre5.desktop:2
+msgctxt "Name"
+msgid "ownCloud (< 5.0)"
+msgstr "ownCloud (5.0 以下)"
+
+#: resources/dav/services/owncloud-pre9.desktop:2
+msgctxt "Name"
+msgid "ownCloud (> 5.0 and < 9.0)"
+msgstr "ownCloud (5.0 以上 9.0 以下)"
+
+#: resources/dav/services/scalix.desktop:2
+msgctxt "Name"
+msgid "Scalix"
+msgstr "Scalix"
+
+#: resources/dav/services/sogo.desktop:2
+msgctxt "Name"
+msgid "ScalableOGo"
+msgstr "ScalableOGo"
+
+#: resources/dav/services/yahoo.desktop:2
+msgctxt "Name"
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: resources/dav/services/zarafa.desktop:2
+msgctxt "Name"
+msgid "Zarafa"
+msgstr "Zarafa"
+
+#: resources/dav/services/zimbra.desktop:2
+msgctxt "Name"
+msgid "Zimbra"
+msgstr "Zimbra"
+
+#: resources/etesync/etesyncresource.desktop:2
+msgctxt "Name"
+msgid "EteSync Groupware Resource"
+msgstr "EteSync 协作平台资源"
+
+#: resources/etesync/etesyncresource.desktop:21
+msgctxt "Comment"
+msgid "Access your encrypted EteSync calendars, contacts and tasks from KDE"
+msgstr "在 KDE 中访问加密的 EteSync 日历、联系人和任务列表"
+
+#: resources/ews/akonadi_ews_resource.notifyrc:3
+msgctxt "Comment"
+msgid "Microsoft Exchange Server (EWS)"
+msgstr "微软 Exchange 服务器（EWS）"
+
+#: resources/ews/akonadi_ews_resource.notifyrc:33
+msgctxt "Name"
+msgid "Microsoft Exchange authentication expired"
+msgstr "Microsoft Exchange 身份验证过期"
+
+#: resources/ews/akonadi_ews_resource.notifyrc:59
+msgctxt "Comment"
+msgid "Credentials used to access Microsoft Exchange are no longer valid"
+msgstr "访问 Microsoft Exchange 所使用的凭据不再有效"
+
+#: resources/ews/ewsmtaresource.desktop:2
+msgctxt "Name"
+msgid "Microsoft Exchange Server (EWS) Mail Transport"
+msgstr "微软 Exchange 服务器（EWS）邮件传输"
+
+#: resources/ews/ewsmtaresource.desktop:33
+msgctxt "Comment"
+msgid "Allows sending e-mail through the Microsoft Exchange server using EWS"
+msgstr "允许通过微软 Exchange 服务器使用 EWS 发送电子邮件"
+
+#: resources/ews/ewsresource.desktop.cmake:2
+msgctxt "Name"
+msgid "Microsoft Exchange Server (EWS)"
+msgstr "微软 Exchange 服务器（EWS）"
+
+#: resources/ews/ewsresource.desktop.cmake:35
+msgctxt "Comment"
+msgid "Provides access to mail, appointments tasks and contacts of a Microsoft Exchange server using EWS"
+msgstr "提供使用 EWS 访问微软 Exchange 服务器上的邮件、计划任务和联系人的功能"
+
+#: resources/ews/wizard/ewswizard.desktop:2
+#: resources/maildir/maildirresource.desktop:2
+#: resources/maildir/wizard/maildirwizard.desktop:2
+msgctxt "Name"
+msgid "Maildir"
+msgstr "邮件目录"
+
+#: resources/ews/wizard/ewswizard.desktop:53
+msgctxt "Comment"
+msgid "Exchange account"
+msgstr "Exchange 帐户"
+
+#: resources/facebook/facebookresource.desktop:2
+msgctxt "Name"
+msgid "Facebook Events"
+msgstr "Facebook 活动"
+
+#: resources/facebook/facebookresource.desktop:34
+msgctxt "Comment"
+msgid "Access your Facebook events from KDE"
+msgstr "在 KDE 中访问您的 Facebook 活动"
+
+#: resources/google-groupware/akonadi_google_resource.notifyrc:3
+#: resources/google-groupware/googleresource.desktop:2
+msgctxt "Name"
+msgid "Google Groupware"
+msgstr "Google 协作平台"
+
+#: resources/google-groupware/akonadi_google_resource.notifyrc:25
+#: resources/google-groupware/googleresource.desktop:24
+msgctxt "Comment"
+msgid "Access your Google Calendars, Contacts and Tasks from KDE"
+msgstr "在 KDE 中访问 Google 日历、联系人和任务列表"
+
+#: resources/google-groupware/akonadi_google_resource.notifyrc:50
+msgctxt "Name"
+msgid "Google Groupware needs to authenticate"
+msgstr "Google 协作平台需要授权"
+
+#: resources/google-groupware/akonadi_google_resource.notifyrc:69
+msgctxt "Comment"
+msgid "Google Groupware has been logged off and needs to be reauthenticated"
+msgstr "Google 协作平台已注销，需要重新授权"
+
+#: resources/icaldir/icaldirresource.desktop:2
+msgctxt "Name"
+msgid "iCal Calendar Folder"
+msgstr "iCal 日历文件夹"
+
+#: resources/icaldir/icaldirresource.desktop:36
+msgctxt "Comment"
+msgid "Provides access to calendar items, each stored in a single file, in a given directory"
+msgstr "提供对被存储在给定目录下单独文件中的日历内容的访问支持"
+
+#: resources/ical/icalresource.desktop:2
+#: resources/ical/wizard/icalwizard.desktop:2
+msgctxt "Name"
+msgid "iCal Calendar File"
+msgstr "iCal 日历文件"
+
+#: resources/ical/icalresource.desktop:36
+#: resources/ical/wizard/icalwizard.desktop:37
+msgctxt "Comment"
+msgid "Loads data from an iCal file"
+msgstr "从 iCal 文件载入数据"
+
+#: resources/ical/notes/notesresource.desktop:74
+msgctxt "Comment"
+msgid "Loads data from a notes file"
+msgstr "从便笺文件载入数据"
+
+#: resources/imap/imapresource.desktop:2
+msgctxt "Name"
+msgid "IMAP E-Mail Server"
+msgstr "IMAP 邮件服务器"
+
+#: resources/imap/imapresource.desktop:50
+msgctxt "Comment"
+msgid "Connects to an IMAP e-mail server"
+msgstr "连接到 IMAP 电子邮件服务器"
+
+#: resources/imap/wizard/imapwizard.desktop:2
+msgctxt "Name"
+msgid "Generic IMAP Email Server"
+msgstr "普通 IMAP 电子邮件服务器"
+
+#: resources/imap/wizard/imapwizard.desktop:49
+msgctxt "Comment"
+msgid "Imap account"
+msgstr "IMAP 账户"
+
+#: resources/kalarm/kalarmdir/kalarmdirresource.desktop:2
+msgctxt "Name"
+msgid "KAlarm Directory"
+msgstr "KAlarm 目录"
+
+#: resources/kalarm/kalarmdir/kalarmdirresource.desktop:46
+msgctxt "Comment"
+msgid "Loads data from a local KAlarm folder"
+msgstr "从本地 KAlarm 文件夹载入数据"
+
+#: resources/kalarm/kalarm/kalarmresource.desktop:2
+msgctxt "Name"
+msgid "KAlarm Calendar File"
+msgstr "KAlarm 日历文件"
+
+#: resources/kalarm/kalarm/kalarmresource.desktop:49
+msgctxt "Comment"
+msgid "Loads data from a KAlarm calendar file"
+msgstr "从 KAlarm 日历文件载入数据"
+
+#: resources/kolab/kolabresource.desktop:2
+#: resources/kolab/wizard/kolabwizard.desktop:2
+msgctxt "Name"
+msgid "Kolab Groupware Server"
+msgstr "Kolab 群件服务器"
+
+#: resources/kolab/kolabresource.desktop:49
+msgctxt "Comment"
+msgid "Provides access to Kolab groupware folders and e-mail on a Kolab IMAP Server."
+msgstr "提供了对 Kolab 群件文件夹 和 Kolab IMAP 服务器上的电子邮件的访问功能。"
+
+#: resources/kolab/wizard/kolabwizard.desktop:50
+msgctxt "Comment"
+msgid "Kolab Groupware Server"
+msgstr "Kolab 群件服务器"
+
+#: resources/maildir/maildirresource.desktop:52
+msgctxt "Comment"
+msgid "Loads data from a local maildir folder"
+msgstr "从本地邮件目录载入数据"
+
+#: resources/maildir/wizard/maildirwizard.desktop:53
+msgctxt "Comment"
+msgid "Maildir account"
+msgstr "Maildir 账户"
+
+#: resources/mbox/mboxresource.desktop:2
+msgctxt "Name"
+msgid "Mbox"
+msgstr "MBox"
+
+#: resources/mbox/mboxresource.desktop:51
+msgctxt "Comment"
+msgid "Loads data from a local mbox file"
+msgstr "从本地 mbox 文件载入数据"
+
+#: resources/mbox/wizard/mailboxwizard.desktop:2
+msgctxt "Name"
+msgid "MailBox"
+msgstr "MailBox"
+
+#: resources/mbox/wizard/mailboxwizard.desktop:52
+msgctxt "Comment"
+msgid "Mailbox account"
+msgstr "MailBox 账户"
+
+#: resources/mixedmaildir/mixedmaildirresource.desktop:2
+msgctxt "Name"
+msgid "KMail Mail Folder"
+msgstr "KMail 邮件文件夹"
+
+#: resources/mixedmaildir/mixedmaildirresource.desktop:46
+msgctxt "Comment"
+msgid "Loads data from a local KMail mail folder"
+msgstr "从本地 KMail 邮件文件夹中载入数据"
+
+#: resources/openxchange/openxchangeresource.desktop:2
+msgctxt "Name"
+msgid "Open-Xchange Groupware Server"
+msgstr "Open-Xchange 群件服务器"
+
+#: resources/openxchange/openxchangeresource.desktop:49
+msgctxt "Comment"
+msgid "Provides access to the appointments, tasks, and contacts of an Open-Xchange groupware server."
+msgstr "提供对存储在 Open-Xchange 服务器上的约会、任务和联系人的访问支持。"
+
+#: resources/pop3/akonadi_pop3_resource.notifyrc:3
+msgctxt "Comment"
+msgid "POP3 Resource"
+msgstr "POP3 资源"
+
+#: resources/pop3/akonadi_pop3_resource.notifyrc:39
+msgctxt "Name"
+msgid "Error While Checking Mail"
+msgstr "检查邮件时出错"
+
+#: resources/pop3/akonadi_pop3_resource.notifyrc:82
+msgctxt "Comment"
+msgid "There was an error while checking for new mail"
+msgstr "检查新邮件时发生错误"
+
+#: resources/pop3/pop3resource.desktop:2
+msgctxt "Name"
+msgid "POP3 E-Mail Server"
+msgstr "POP3 电子邮件服务器"
+
+#: resources/pop3/pop3resource.desktop:50
+msgctxt "Comment"
+msgid "Connects to a POP3 e-mail server"
+msgstr "连接到一个 POP3 电子邮件服务器"
+
+#: resources/pop3/wizard/pop3wizard.desktop:2
+msgctxt "Name"
+msgid "POP3"
+msgstr "POP3"
+
+#: resources/pop3/wizard/pop3wizard.desktop:44
+msgctxt "Comment"
+msgid "Pop3 account"
+msgstr "Pop3 账户"
+
+#: resources/tomboynotes/tomboynotesresource.desktop:2
+msgctxt "Name"
+msgid "Akonadi TomboyNotes Resource"
+msgstr "Akonadi Tomboy 笔记资源"
+
+#: resources/tomboynotes/tomboynotesresource.desktop:36
+msgctxt "Comment"
+msgid "Resource for Tomboy compatible notes server"
+msgstr "Tomboy 兼容的笔记服务器上的资源"
+
+#: resources/vcarddir/vcarddirresource.desktop:2
+#: resources/vcarddir/wizard/vcarddirwizard.desktop:2
+msgctxt "Name"
+msgid "vCard Directory"
+msgstr "vCard 目录"
+
+#: resources/vcarddir/vcarddirresource.desktop:44
+msgctxt "Comment"
+msgid "Loads data from a directory with vCards"
+msgstr "从包含 vCard 文件的目录载入数据"
+
+#: resources/vcarddir/wizard/vcarddirwizard.desktop:45
+msgctxt "Comment"
+msgid "Loads contact from vCard Directory"
+msgstr "从 vCard 目录载入联系人"
+
+#: resources/vcard/vcardresource.desktop:2
+#: resources/vcard/wizard/vcardwizard.desktop:2
+msgctxt "Name"
+msgid "vCard File"
+msgstr "vCard 文件"
+
+#: resources/vcard/vcardresource.desktop:45
+msgctxt "Comment"
+msgid "Loads data from a vCard file"
+msgstr "从 vCard 文件载入数据"
+
+#: resources/vcard/wizard/vcardwizard.desktop:46
+msgctxt "Comment"
+msgid "Loads contact from vCard File"
+msgstr "从 vCard 文件载入联系人"
+
