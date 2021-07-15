@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-11 00:19+0000\n"
-"PO-Revision-Date: 2021-07-15 08:28\n"
+"PO-Revision-Date: 2021-07-15 08:41\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -625,7 +625,7 @@ msgstr "删除( %1 )"
 #: directorymergewindow.cpp:2467
 #, kde-format
 msgid "Error: delete folder operation failed while trying to read the folder."
-msgstr "错误：无法删除文件夹，尝试读取时文件夹出错。"
+msgstr "错误：删除文件夹操作在尝试读取该文件夹时失败。"
 
 #: directorymergewindow.cpp:2483
 #, kde-format
