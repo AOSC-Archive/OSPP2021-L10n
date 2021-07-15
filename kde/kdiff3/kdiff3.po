@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-11 00:19+0000\n"
-"PO-Revision-Date: 2021-07-14 17:20\n"
+"PO-Revision-Date: 2021-07-15 08:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -625,7 +625,7 @@ msgstr "删除( %1 )"
 #: directorymergewindow.cpp:2467
 #, kde-format
 msgid "Error: delete folder operation failed while trying to read the folder."
-msgstr "错误：删除文件夹操作在尝试读取该文件夹时失败。"
+msgstr "错误：无法删除文件夹，尝试读取时文件夹出错。"
 
 #: directorymergewindow.cpp:2483
 #, kde-format
@@ -1599,7 +1599,7 @@ msgstr " (32 位)"
 #: main.cpp:104
 #, kde-format
 msgid "Tool for Comparison and Merge of Files and Folders"
-msgstr "用于比较及合并文件、文件夹的工具"
+msgstr "用于比较、合并文件和文件夹的工具"
 
 #: main.cpp:105
 #, kde-format
@@ -1704,7 +1704,7 @@ msgstr "无法将普通文件与非普通文件进行比较。"
 #: MergeFileInfos.cpp:404
 #, kde-format
 msgid "Mix of links and normal files."
-msgstr "合并链接与普通文件。"
+msgstr "两者为链接与普通文件。"
 
 #: MergeFileInfos.cpp:412
 #, kde-format
