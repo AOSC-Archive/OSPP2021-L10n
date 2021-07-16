@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-03 00:18+0000\n"
-"PO-Revision-Date: 2021-07-15 15:19\n"
+"POT-Creation-Date: 2021-07-15 00:18+0000\n"
+"PO-Revision-Date: 2021-07-16 05:16\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -412,8 +412,8 @@ msgstr "启用 NTLMv2"
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, userAgentGroupBox)
 #: ewsconfigdialog.ui:511
 #, kde-format
-msgid "<html><head/><body><p>Some organizations restrict access to mail only to approved clients, such as Microsoft Outlook. On the server-side this is implemented by analyzing the User-Agent string and only allowing a list of approved clients.</p><p>This setting allows to emulate some well known clients as well as providing a custom User-Agent string.</p><p>Please be advised that bypasing company policies may result in personal consequences.</p></body></html>"
-msgstr "<html><head/><body><p>某些组织仅限制对已批准的客户端（如 Microsoft Outlook）的邮件访问，该功能通过在服务器端分析用户代理字符串并只允许批准的客户端列表来实现这一点。</p><p>此设置允许模拟一些知名客户端以及提供自定义用户代理字符串。</p><p>请注意，绕开相关组织的政策可能会导致个人后果。</p></body></html>"
+msgid "<html><head/><body><p>Some organizations restrict access to mail only to approved clients, such as Microsoft Outlook. On the server-side this is implemented by analyzing the User-Agent string and only allowing a list of approved clients.</p><p>This setting allows to emulate some well known clients as well as providing a custom User-Agent string.</p><p>Please be advised that bypassing company policies may result in personal consequences.</p></body></html>"
+msgstr "<html><head/><body><p>某些组织仅限部分客户端 (如 Microsoft Outlook) 访问邮件。服务器端分析用户代理字符串，并只允许一部分客户端访问。</p><p>此设置可让您模拟一些知名客户端或自定义用户代理字符串。</p><p>请注意，绕开公司政策可能导致的后果将由您自行承担。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, userAgentGroupBox)
 #: ewsconfigdialog.ui:514
