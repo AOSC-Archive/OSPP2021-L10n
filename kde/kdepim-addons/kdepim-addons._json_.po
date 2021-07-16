@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-26 00:29+0000\n"
+"PO-Revision-Date: 2021-07-16 05:56\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kdepim-addons/kdepim-addons._json_.pot\n"
+"X-Crowdin-File-ID: 8344\n"
+"Language: zh_CN\n"
+
+#: akonadi-import-wizard/evolutionv1/evolutionv1importer.json
+msgctxt "Name"
+msgid "Evolution1 Importer"
+msgstr "Evolution1 导入器"
+
+#: akonadi-import-wizard/evolutionv2/evolutionv2importer.json
+msgctxt "Name"
+msgid "Evolution2 Importer"
+msgstr "Evolution2 导入器"
+
+#: akonadi-import-wizard/geary/gearyimporter.json
+msgctxt "Name"
+msgid "Geary Importer"
+msgstr "Geary 导入器"
+
+#: akonadi-import-wizard/mailapp/mailappimporter.json
+msgctxt "Name"
+msgid "MailApp Importer"
+msgstr "MailApp 导入器"
+
+#: akonadi-import-wizard/nylas-mail/nylasmailimporter.json
+msgctxt "Name"
+msgid "Nylas Mail Importer"
+msgstr "Nylas 邮件导入器"
+
+#: akonadi-import-wizard/oe/oeimporter.json
+msgctxt "Name"
+msgid "OE Importer"
+msgstr "OE 导入器"
+
+#: akonadi-import-wizard/opera/operaimporter.json
+msgctxt "Name"
+msgid "Opera Importer"
+msgstr "Opera 导入器"
+
+#: akonadi-import-wizard/pmail/pmailimporter.json
+msgctxt "Name"
+msgid "PMail Importer"
+msgstr "PMail 导入器"
+
+#: akonadi-import-wizard/thebat/thebatimporter.json
+msgctxt "Name"
+msgid "TheBat Importer"
+msgstr "TheBat 导入器"
+
+#: kaddressbook/importexportplugins/csv/kaddressbook_importexportcsvplugin.json
+msgctxt "Name"
+msgid "Import/Export CSV"
+msgstr "导入/导出 CSV 表格"
+
+#: kaddressbook/importexportplugins/gmx/kaddressbook_importexportgmxplugin.json
+msgctxt "Name"
+msgid "Import Export GMX"
+msgstr "导入导出 GMX"
+
+#: kaddressbook/importexportplugins/ldap/kaddressbook_importexportldapplugin.json
+msgctxt "Name"
+msgid "Import/Export LDAP Contacts"
+msgstr "导入/导出 LDAP 联系人"
+
+#: kaddressbook/importexportplugins/ldif/kaddressbook_importexportldifplugin.json
+msgctxt "Name"
+msgid "Import/Export LDIF"
+msgstr "导入/导出 LDIF"
+
+#: kaddressbook/importexportplugins/vcards/kaddressbook_importexportvcardplugin.json
+msgctxt "Name"
+msgid "Import/Export vCard"
+msgstr "导入/导出 vCard 名片"
+
+#: kaddressbook/importexportplugins/windows-contacts/kaddressbook_importexportwindowscontactplugin.json
+msgctxt "Name"
+msgid "Import/Export Windows Contact"
+msgstr "导入或导出 Windows 联系人"
+
+#: kaddressbook/plugins/checkgravatar/kaddressbook_checkgravatarplugin.json
+msgctxt "Name"
+msgid "Check Gravatar"
+msgstr "检查 Gravatar 头像"
+
+#: kaddressbook/plugins/mergecontacts/kaddressbook_mergecontactsplugin.json
+msgctxt "Name"
+msgid "Merge Contacts"
+msgstr "合并联系人"
+
+#: kaddressbook/plugins/searchduplicates/kaddressbook_searchduplicatesplugin.json
+msgctxt "Name"
+msgid "Search Duplicate Contacts"
+msgstr "搜索重复的联系人"
+
+#: kaddressbook/plugins/sendmail/kaddressbook_sendmailplugin.json
+msgctxt "Name"
+msgid "Send Mail"
+msgstr "发送邮件"
+
+#: kaddressbook/plugins/sendvcards/kaddressbook_sendvcardsplugin.json
+msgctxt "Name"
+msgid "Send vCards"
+msgstr "发送 vCard 名片"
+
+#: kmail/checkbeforedeletemailplugins/confirmbeforedeleting/kmail_confirmbeforedeletingplugin.json
+msgctxt "Name"
+msgid "Confirm Before Deleting Emails"
+msgstr "删除邮件前需确认"
+
+#: kmail/editorconvertertextplugins/markdown/plugin/kmail_markdownplugin.json
+msgctxt "Name"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: kmail/editorinitplugins/externalcomposer/kmail_externalcomposereditorplugin.json
+msgctxt "Name"
+msgid "Open external composer"
+msgstr "打开外部编辑器"
+
+#: kmail/editorplugins/autocorrection/kmail_autocorrectioneditorplugin.json
+msgctxt "Name"
+msgid "Autocorrection"
+msgstr "自动更正"
+
+#: kmail/editorplugins/changecase/kmail_changecaseeditorplugin.json
+msgctxt "Name"
+msgid "Change Case"
+msgstr "更改大小写"
+
+#: kmail/editorplugins/insertemail/kmail_insertemaileditorplugin.json
+msgctxt "Name"
+msgid "Insert Email"
+msgstr "插入电子邮件"
+
+#: kmail/editorplugins/insertshorturl/kmail_insertshorturleditorplugin.json
+msgctxt "Name"
+msgid "Insert Short URL"
+msgstr "插入短链接"
+
+#: kmail/editorplugins/insertshorturl/shorturlengineplugin/isgdshorturlengineplugin/pimcommon_isgdshorturlengineplugin.json
+msgctxt "Name"
+msgid "Is.gd"
+msgstr "Is.gd"
+
+#: kmail/editorplugins/insertshorturl/shorturlengineplugin/tinyurlengineplugin/pimcommon_tinyurlengineplugin.json
+msgctxt "Name"
+msgid "TinyUrl"
+msgstr "TinyUrl"
+
+#: kmail/editorplugins/insertshorturl/shorturlengineplugin/triopabshorturlengineplugin/pimcommon_triopabshorturlengineplugin.json
+msgctxt "Name"
+msgid "to.ly"
+msgstr "to.ly"
+
+#: kmail/editorplugins/insertshorturl/shorturlengineplugin/ur1cashorturlengineplugin/pimcommon_ur1cashorturlengineplugin.json
+msgctxt "Name"
+msgid "Ur1Ca"
+msgstr "Ur1Ca"
+
+#: kmail/editorplugins/insertspecialcharacter/kmail_insertspecialcharactereditorplugin.json
+msgctxt "Name"
+msgid "Insert Special Character"
+msgstr "插入特殊字符"
+
+#: kmail/editorplugins/nonbreakingspace/kmail_nonbreakingspaceeditorplugin.json
+msgctxt "Name"
+msgid "Insert Non Breaking Space"
+msgstr "插入不换行空格"
+
+#: kmail/editorplugins/quicktext/kmail_quicktextplugin.json
+msgctxt "Name"
+msgid "Quick Text"
+msgstr "快速文本"
+
+#: kmail/editorplugins/sharetext/kmail_sharetexteditorplugin.json
+msgctxt "Name"
+msgid "Share Text"
+msgstr "分享文本"
+
+#: kmail/editorplugins/zoomtext/kmail_zoomtexteditorplugin.json
+msgctxt "Name"
+msgid "Zoom Text"
+msgstr "缩放文本"
+
+#: kmail/editorsendcheckplugins/automaticaddcontacts/kmail_automaticaddcontactsplugin.json
+msgctxt "Name"
+msgid "Automatic Add Contacts"
+msgstr "自动添加联系人"
+
+#: kmail/editorsendcheckplugins/checkbeforesend/kmail_checkbeforesendplugin.json
+msgctxt "Name"
+msgid "Check Before Send"
+msgstr "发送前检查"
+
+#: kmail/editorsendcheckplugins/confirm-address/kmail_confirmaddressplugin.json
+msgctxt "Name"
+msgid "Confirm Address"
+msgstr "确认地址"
+
+#: kmail/grammarplugins/grammalecte/plugin/kmail_grammalecteplugin.json
+msgctxt "Name"
+msgid "French Grammar Checker"
+msgstr "法语语法检查器"
+
+#: kmail/grammarplugins/languagetool/plugin/kmail_languagetoolplugin.json
+msgctxt "Name"
+msgid "Grammar Checker (LanguageTool)"
+msgstr "语法检查器 (语言工具)"
+
+#: kmail/plugins/antispamplugin/kmail_antispamplugin.json
+msgctxt "Name"
+msgid "Antispam"
+msgstr "垃圾防御"
+
+#: kmail/plugins/antivirusplugin/kmail_antivirusplugin.json
+msgctxt "Name"
+msgid "Antivirus"
+msgstr "病毒防御"
+
+#: kmail/plugins/expertplugin/kmail_expertplugin.json
+msgctxt "Name"
+msgid "Expert Plugin"
+msgstr "专家插件"
+
+#: kmail/plugins/logactivitiesplugin/kmail_logactivitiesplugin.json
+msgctxt "Name"
+msgid "Log Activities"
+msgstr "记录活动日志"
+
+#: kmailtransport/sendmail/sendmailtransport.json
+msgctxt "Name"
+msgid "SendMail Mail Transport"
+msgstr "SendMail 邮件传输"
+
+#: plugins/customtoolsplugins/translatorplugin/pimcommon_translatorplugin.json
+#: plugins/messageviewerplugins/common/translatorplugin/messageviewer_translatorplugin.json
+msgctxt "Name"
+msgid "Translator"
+msgstr "翻译服务"
+
+#: plugins/messageviewerconfigureplugins/dkim-verify/messageviewer_dkimconfigplugin.json
+msgctxt "Name"
+msgid "DKIM Checker"
+msgstr "DKIM 检查器"
+
+#: plugins/messageviewerconfigureplugins/expireaccounttrashfolder/messageviewer_expireaccounttrashfolderconfigplugin.json
+msgctxt "Name"
+msgid "Expire Trash Folder"
+msgstr "定时清空已删除邮件文件夹"
+
+#: plugins/messageviewerconfigureplugins/foldersettings/messageviewer_folderconfiguresettingsplugin.json
+msgctxt "Name"
+msgid "Folder Settings"
+msgstr "文件夹设置"
+
+#: plugins/messageviewerconfigureplugins/gravatar/messageviewer_gravatarconfigplugin.json
+msgctxt "Name"
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: plugins/messageviewerheaderplugins/briefheaderstyleplugin/messageviewer_briefheaderstyleplugin.json
+msgctxt "Name"
+msgid "Brief Header Style"
+msgstr "简要信头风格"
+
+#: plugins/messageviewerheaderplugins/enterpriseheaderstyleplugin/messageviewer_enterpriseheaderstyleplugin.json.cmake
+msgctxt "Name"
+msgid "Enterprise Header Style"
+msgstr "企业信头风格"
+
+#: plugins/messageviewerheaderplugins/fancyheaderstyleplugin/messageviewer_fancyheaderstyleplugin.json
+msgctxt "Name"
+msgid "Fancy Header Style"
+msgstr "亮丽信头风格"
+
+#: plugins/messageviewerheaderplugins/grantleeheaderstyleplugin/messageviewer_grantleeheaderstyleplugin.json
+msgctxt "Name"
+msgid "Grantlee Header Style"
+msgstr "Grantlee 信头风格"
+
+#: plugins/messageviewerheaderplugins/longheaderstyleplugin/messageviewer_longheaderstyleplugin.json
+msgctxt "Name"
+msgid "Long Header Style"
+msgstr "长信头风格"
+
+#: plugins/messageviewerheaderplugins/standardsheaderstyleplugin/messageviewer_standardsheaderstyleplugin.json
+msgctxt "Name"
+msgid "Standards Header Style"
+msgstr "标准信头风格"
+
+#: plugins/messageviewerplugins/common/expandurlplugin/messageviewer_expandurlplugin.json
+msgctxt "Name"
+msgid "Expand URL"
+msgstr "展开 URL"
+
+#: plugins/messageviewerplugins/createeventplugin/messageviewer_createeventplugin.json
+msgctxt "Name"
+msgid "Create Event"
+msgstr "创建事件"
+
+#: plugins/messageviewerplugins/createnoteplugin/messageviewer_createnoteplugin.json
+msgctxt "Name"
+msgid "Create Note"
+msgstr "创建便笺"
+
+#: plugins/messageviewerplugins/createtodoplugin/messageviewer_createtodoplugin.json
+msgctxt "Name"
+msgid "Create Todo"
+msgstr "创建待办事项"
+
+#: plugins/messageviewerplugins/externalscriptplugin/messageviewer_externalscriptplugin.json
+msgctxt "Name"
+msgid "External Script"
+msgstr "外部脚本"
+
+#: plugins/plasma/pimeventsplugin/pimeventsplugin.json
+msgctxt "Name"
+msgid "PIM Events Plugin"
+msgstr "PIM 事件插件"
+
+#: plugins/templateparser/templateparseremailaddressrequesterakonadi.json
+msgctxt "Name"
+msgid "Email Address Akonadi Requester for Template Parser library"
+msgstr "模板分析库的邮件地址 Akonadi 请求器"
+
+#: plugins/webengineurlinterceptor/adblock/messageviewer_adblockurlinterceptor.json
+msgctxt "Name"
+msgid "Adblock"
+msgstr "Adblock"
+
+#: plugins/webengineurlinterceptor/donottrack/messageviewer_donottrackurlinterceptor.json
+msgctxt "Name"
+msgid "Do Not Track"
+msgstr "请勿追踪"
+
+#: kaddressbook/importexportplugins/csv/kaddressbook_importexportcsvplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export CSV."
+msgstr "此插件允许您导入/导出 CSV 表格。"
+
+#: kaddressbook/importexportplugins/gmx/kaddressbook_importexportgmxplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export GMX."
+msgstr "此插件允许您导入/导出 GMX。"
+
+#: kaddressbook/importexportplugins/ldap/kaddressbook_importexportldapplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export LDAP contacts."
+msgstr "此插件允许您导入/导出 LDAP 联系人。"
+
+#: kaddressbook/importexportplugins/ldif/kaddressbook_importexportldifplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export LDIF."
+msgstr "此插件允许您导入/导出 LDIF。"
+
+#: kaddressbook/importexportplugins/vcards/kaddressbook_importexportvcardplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export vCards."
+msgstr "此插件允许您导入/导出 vCard 名片。"
+
+#: kaddressbook/importexportplugins/windows-contacts/kaddressbook_importexportwindowscontactplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to import/export Windows Contacts."
+msgstr "此插件能让您导入或导出 Windows 联系人。"
+
+#: kaddressbook/plugins/checkgravatar/kaddressbook_checkgravatarplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check the Gravatar images."
+msgstr "此插件允许您检查 Gravatar 头像。"
+
+#: kaddressbook/plugins/mergecontacts/kaddressbook_mergecontactsplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to merge contacts."
+msgstr "此插件允许您合并联系人。"
+
+#: kaddressbook/plugins/searchduplicates/kaddressbook_searchduplicatesplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to search duplicate contacts."
+msgstr "此茶碗见允许您搜索重复的联系人。"
+
+#: kaddressbook/plugins/sendmail/kaddressbook_sendmailplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to send email directly to selected contacts."
+msgstr "此插件允许您直接发送邮件给选中的联系人。"
+
+#: kaddressbook/plugins/sendvcards/kaddressbook_sendvcardsplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to send vCard from selected contacts."
+msgstr "此插件允许您发送选定联系人的 vCard 名片。"
+
+#: kmail/checkbeforedeletemailplugins/confirmbeforedeleting/kmail_confirmbeforedeletingplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check if we want to delete specific email"
+msgstr "此插件能让您确认删除特定邮件。"
+
+#: kmail/editorconvertertextplugins/markdown/plugin/kmail_markdownplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to generate html from markdown language"
+msgstr "此插件允许您根据 Markdown 语言生成 HTML"
+
+#: kmail/editorinitplugins/externalcomposer/kmail_externalcomposereditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to use an external composer."
+msgstr "此插件允许您使用外部编辑器。"
+
+#: kmail/editorplugins/autocorrection/kmail_autocorrectioneditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to autocorrect all text in composer or selected text."
+msgstr "此插件允许您自动更正编辑器中的所有文本或者选中文本。"
+
+#: kmail/editorplugins/changecase/kmail_changecaseeditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to change the case of the selected text."
+msgstr "此插件允许您更改所选文本的大小写。"
+
+#: kmail/editorplugins/insertemail/kmail_insertemaileditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to select email and insert it in composer."
+msgstr "此插件允许您选择邮件地址并插入到邮件编辑器中。"
+
+#: kmail/editorplugins/insertshorturl/kmail_insertshorturleditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to generate a shorter URL."
+msgstr "此插件允许您生成较短的 URL。"
+
+#: kmail/editorplugins/insertspecialcharacter/kmail_insertspecialcharactereditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to insert special character in composer."
+msgstr "此插件允许您在编辑器中插入特殊字符。"
+
+#: kmail/editorplugins/nonbreakingspace/kmail_nonbreakingspaceeditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to add non breaking space. It's useful in french language."
+msgstr "此插件允许您添加不换行空格。它在法语中非常有用。"
+
+#: kmail/editorplugins/quicktext/kmail_quicktextplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to insert special text as attachment name, emails etc."
+msgstr "此插件可以让您插入特殊文本作为附件名称、电子邮件等。"
+
+#: kmail/editorplugins/sharetext/kmail_sharetexteditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to share text."
+msgstr "此插件允许您共享文本。"
+
+#: kmail/editorplugins/zoomtext/kmail_zoomtexteditorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to change zoom factor in composer."
+msgstr "此插件允许您更改编辑器的缩放倍数。"
+
+#: kmail/editorsendcheckplugins/automaticaddcontacts/kmail_automaticaddcontactsplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to add automatically email address to addressbook."
+msgstr "此插件允许您自动添加电子邮件地址到地址簿。"
+
+#: kmail/editorsendcheckplugins/checkbeforesend/kmail_checkbeforesendplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check message settings before sending."
+msgstr "此插件允许您在发送前检查信件设置。"
+
+#: kmail/editorsendcheckplugins/confirm-address/kmail_confirmaddressplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check mail before to send it"
+msgstr "此插件允许您在发送前检查邮件"
+
+#: kmail/grammarplugins/grammalecte/plugin/kmail_grammalecteplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check grammar in french only."
+msgstr "此插件可以让您只检查法语语法。"
+
+#: kmail/grammarplugins/languagetool/plugin/kmail_languagetoolplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to check grammar using LanguageTool."
+msgstr "此插件可以让您使用语言工具检查语法。"
+
+#: kmail/plugins/antispamplugin/kmail_antispamplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure Anti Spam in KMail."
+msgstr "此插件允许您配置 KMail 反垃圾邮件机制。"
+
+#: kmail/plugins/antivirusplugin/kmail_antivirusplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure Anti Virus in KMail."
+msgstr "此插件允许您配置 KMail 防病毒机制。"
+
+#: kmail/plugins/expertplugin/kmail_expertplugin.json
+msgctxt "Description"
+msgid "This plugin activates some expert actions."
+msgstr "此插件激活一些专家操作。"
+
+#: kmail/plugins/logactivitiesplugin/kmail_logactivitiesplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to log KMail activities."
+msgstr "此插件允许您记录 KMail 活动日志。"
+
+#: plugins/customtoolsplugins/translatorplugin/pimcommon_translatorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to translate text."
+msgstr "此插件允许您翻译文本。"
+
+#: plugins/messageviewerconfigureplugins/dkim-verify/messageviewer_dkimconfigplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure dkim support."
+msgstr "此插件可以让您配置 dkim 支持。"
+
+#: plugins/messageviewerconfigureplugins/expireaccounttrashfolder/messageviewer_expireaccounttrashfolderconfigplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure expire trash folder for each accounts."
+msgstr "此插件能让您定时清空每个账号的已删除邮件文件夹。"
+
+#: plugins/messageviewerconfigureplugins/foldersettings/messageviewer_folderconfiguresettingsplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure folder settings."
+msgstr "此插件能让您调整文件夹设置。"
+
+#: plugins/messageviewerconfigureplugins/gravatar/messageviewer_gravatarconfigplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to configure gravatar support."
+msgstr "此插件允许您配置 Gravatar 支持。"
+
+#: plugins/messageviewerheaderplugins/briefheaderstyleplugin/messageviewer_briefheaderstyleplugin.json
+msgctxt "Description"
+msgid "This plugin reduces mail header to strict minimum."
+msgstr "此插件将邮件头部精简到最小。"
+
+#: plugins/messageviewerheaderplugins/enterpriseheaderstyleplugin/messageviewer_enterpriseheaderstyleplugin.json.cmake
+msgctxt "Description"
+msgid "This plugin defines a mail header style for enterprise."
+msgstr "此插件定义了企业邮件头部样式。"
+
+#: plugins/messageviewerheaderplugins/fancyheaderstyleplugin/messageviewer_fancyheaderstyleplugin.json
+msgctxt "Description"
+msgid "This plugin provides you a fancy mail header style."
+msgstr "此插件为您提供了花式的邮件头部样式。"
+
+#: plugins/messageviewerheaderplugins/grantleeheaderstyleplugin/messageviewer_grantleeheaderstyleplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to use a Grantlee-based mail header style."
+msgstr "此插件允许您使用基于 Grantlee 的邮件头部样式。"
+
+#: plugins/messageviewerheaderplugins/longheaderstyleplugin/messageviewer_longheaderstyleplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to show all headers from mail."
+msgstr "此插件允许您显示邮件的所有头部。"
+
+#: plugins/messageviewerheaderplugins/standardsheaderstyleplugin/messageviewer_standardsheaderstyleplugin.json
+msgctxt "Description"
+msgid "This plugin defines the standard mail header style."
+msgstr "此插件定义了标注邮件头部样式。"
+
+#: plugins/messageviewerplugins/common/expandurlplugin/messageviewer_expandurlplugin.json
+msgctxt "Description"
+msgid "This plugin expands URL."
+msgstr "此插件可展开 URL。"
+
+#: plugins/messageviewerplugins/common/translatorplugin/messageviewer_translatorplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to translate selected text."
+msgstr "此插件允许您翻译选中的文本。"
+
+#: plugins/messageviewerplugins/createeventplugin/messageviewer_createeventplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to create an event from a message."
+msgstr "此插件允许您从信件创建日历事件。"
+
+#: plugins/messageviewerplugins/createnoteplugin/messageviewer_createnoteplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to create a note from a message."
+msgstr "此插件允许您从信件创建便笺。"
+
+#: plugins/messageviewerplugins/createtodoplugin/messageviewer_createtodoplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to create a todo from a message."
+msgstr "此插件允许您从信件创建待办事项。"
+
+#: plugins/messageviewerplugins/externalscriptplugin/messageviewer_externalscriptplugin.json
+msgctxt "Description"
+msgid "This plugin allows you to use an external script against the message viewer."
+msgstr "此插件允许您在信件阅读器中使用外部脚本。"
+
+#: plugins/plasma/pimeventsplugin/pimeventsplugin.json
+msgctxt "Description"
+msgid "Calendar plugin for displaying events from KDE PIM calendars"
+msgstr "用于显示 KDE PIM 日历中事件的日历插件"
+
+#: plugins/webengineurlinterceptor/adblock/messageviewer_adblockurlinterceptor.json
+msgctxt "Description"
+msgid "This plugin allows you to block advertising."
+msgstr "此插件允许您屏蔽广告。"
+
+#: plugins/webengineurlinterceptor/donottrack/messageviewer_donottrackurlinterceptor.json
+msgctxt "Description"
+msgid "This plugin adds support for \"do not track\"."
+msgstr "此插件添加“请勿追踪”支持。"
+
+#: plugins/plasma/pimeventsplugin/pimeventsplugin.json
+msgctxt "Authors Name"
+msgid "Daniel Vrátil"
+msgstr "Daniel Vrátil"
+
