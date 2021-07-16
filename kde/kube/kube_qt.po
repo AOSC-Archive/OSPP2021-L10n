@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-07-03 15:06\n"
+"PO-Revision-Date: 2021-07-16 05:01\n"
 
 #: accounts/fastmail/qml/AccountSettings.qml:26
 msgctxt "AccountSettings|"
@@ -648,19 +648,19 @@ msgstr "您已被邀请加入：“%1”"
 #: framework/src/domain/eventcontroller.cpp:135
 msgctxt "QObject|"
 msgid "Please find attached an iCalendar file with all the event details which you can import to your calendar application."
-msgstr "请找到一个可导入日历应用的、带有全部活动详情的 iCalendar 文件。"
+msgstr "请找到一个可导入日历应用的、带有全部日程详情的 iCalendar 文件。"
 
 #: framework/src/domain/invitationcontroller.cpp:270
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 has accepted the invitation to the following event"
-msgstr "%1 已接受以下活动的邀请"
+msgstr "%1 已接受以下日程的邀请"
 
 #: framework/src/domain/invitationcontroller.cpp:272
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 has declined the invitation to the following event"
-msgstr "%1 已拒绝以下活动的邀请"
+msgstr "%1 已拒绝以下日程的邀请"
 
 #: framework/src/domain/invitationcontroller.cpp:279
 #, qt-format
@@ -798,7 +798,7 @@ msgstr "至"
 #: views/calendar/qml/EventEditor.qml:80
 msgctxt "EventEditor|"
 msgid "Event Title"
-msgstr "活动名称"
+msgstr "日程名称"
 
 #: views/calendar/qml/EventEditor.qml:110
 msgctxt "EventEditor|"
@@ -838,7 +838,7 @@ msgstr "保存更改"
 #: views/calendar/qml/EventEditor.qml:232
 msgctxt "EventEditor|"
 msgid "Create Event"
-msgstr "创建活动"
+msgstr "创建日程"
 
 #: views/calendar/qml/EventView.qml:76
 #, qt-format
@@ -886,7 +886,7 @@ msgstr "跳转到上周或上月："
 #: views/calendar/qml/View.qml:103
 msgctxt "View|"
 msgid "New Event"
-msgstr "新建活动"
+msgstr "新建日程"
 
 #: views/calendar/qml/View.qml:118
 msgctxt "View|"
