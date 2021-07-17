@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-05-04 00:18+0000\n"
-"PO-Revision-Date: 2021-07-17 13:50\n"
+"PO-Revision-Date: 2021-07-17 14:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -40,7 +40,7 @@ msgstr "取消暂存所选项"
 #: committoolview.cpp:244
 #, kde-format
 msgid "Revert unstaged edits"
-msgstr "回滚未暂存的更改"
+msgstr "还原未暂存的更改"
 
 #: diffviewsctrl.cpp:66
 #, kde-format
@@ -55,7 +55,7 @@ msgstr "取消暂存所选的行或块"
 #: diffviewsctrl.cpp:70
 #, kde-format
 msgid "Revert selected lines or hunk"
-msgstr "回滚所选的行或块"
+msgstr "还原所选的行或块"
 
 #: diffviewsctrl.cpp:71
 #, kde-format
@@ -75,7 +75,7 @@ msgstr "暂存所选的行"
 #: diffviewsctrl.cpp:119
 #, kde-format
 msgid "Revert selected lines"
-msgstr "回滚所选的行"
+msgstr "还原所选的行"
 
 #: diffviewsctrl.cpp:121
 #, kde-format
@@ -90,7 +90,7 @@ msgstr "暂存所选的块"
 #: diffviewsctrl.cpp:123
 #, kde-format
 msgid "Revert selected hunk"
-msgstr "回滚所选的块"
+msgstr "还原所选的块"
 
 #: diffviewsctrl.cpp:133 diffviewsctrl.cpp:139
 #, kde-format
@@ -125,7 +125,7 @@ msgstr "%1 (已取消暂存)"
 #: diffviewsctrl.cpp:346
 #, kde-format
 msgid "The selected lines will be reverted and the changes lost. This operation cannot be undone. Continue?"
-msgstr "选中的行会被回滚，对它们进行的修改将会丢失。此操作无法撤销，是否继续？"
+msgstr "选中的行会被还原，对它们进行的修改将会丢失。此操作无法撤销，是否继续？"
 
 #: gitmessagehighlighter.cpp:79
 #, kde-format
