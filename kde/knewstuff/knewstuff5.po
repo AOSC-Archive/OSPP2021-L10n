@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-08 00:14+0000\n"
-"PO-Revision-Date: 2021-07-17 14:37\n"
+"PO-Revision-Date: 2021-07-18 08:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -252,12 +252,12 @@ msgstr "%1 安装失败，因为下载的软件包不是 KPackage 架构的软�
 #: core/installation.cpp:530
 #, kde-format
 msgid "The installation of %1 failed, as the downloaded package does not list a service type."
-msgstr ""
+msgstr "%1 安装失败，因为下载的软件包并未列出服务类型。"
 
 #: core/installation.cpp:537
 #, kde-format
 msgid "The installation of %1 failed, as the downloaded package does not contain any useful meta information, which means it is not a valid KPackage."
-msgstr ""
+msgstr "%1 安装失败，因为下载的软件包中不含任何有用的元数据，即该软件包不是有效的 KPackage。"
 
 #: core/installation.cpp:570
 #, kde-format
@@ -309,37 +309,37 @@ msgstr "尝试运行下列命令时安装失败，退出代码为 %1：\n"
 #: core/installation.cpp:758
 #, kde-format
 msgid "The removal of %1 failed, as the installed file %2 could not be automatically removed. You can attempt to manually delete this file, if you believe this is an error."
-msgstr ""
+msgstr "%1 卸载失败，因为无法自动删除已安装的文件 %2。如果您认为这是安装程序出错，可以尝试手动删除这个文件。"
 
 #: core/installation.cpp:821
 #, kde-format
 msgid "The removal of %1 failed, as the installed package does not contain a correct KPackage structure."
-msgstr ""
+msgstr "%1 卸载失败，因为已安装的软件包不是 KPackage 架构的软件包。"
 
 #: core/installation.cpp:826
 #, kde-format
 msgid "The removal of %1 failed, as the installed package is not a supported type (did you forget to install the KPackage support plugin for this type of package?)"
-msgstr ""
+msgstr "%1 卸载失败，因为安装程序不支持此类已安装的软件包 (您是否忘记为此类软件包安装 KPackage 支持插件了？)"
 
 #: core/installation.cpp:833
 #, kde-format
 msgid "The removal of %1 failed, as the installed package does not contain any useful meta information, which means it is not a valid KPackage."
-msgstr ""
+msgstr "%1 卸载失败，因为已安装的软件包中不含任何有用的元数据，即该软件包不是有效的 KPackage。"
 
 #: core/installation.cpp:873
 #, kde-format
 msgid "The removal of %1 failed, as the downloaded file %2 could not be automatically removed."
-msgstr ""
+msgstr "%1 卸载失败，无法自动删除已下载的文件 %2。"
 
 #: core/installation.cpp:878
 #, kde-format
 msgid "The removal of %1 failed, due to the installed file not being a KPackage. The file in question was %2, and you can attempt to delete it yourself, if you are certain that it is not needed."
-msgstr ""
+msgstr "%1 卸载失败，因为已安装的文件不属于 KPackage。有问题的文件为 %2，如果您确定无需此文件，可以尝试将它删除。"
 
 #: core/installation.cpp:886
 #, kde-format
 msgid "The removal of %1 failed, as there seems to somehow be more than one thing installed, which is not supposed to be possible for KPackage based entries."
-msgstr ""
+msgstr "%1 卸载失败，因为有多个不是 KPackage 的项目已被安装。"
 
 #: core/installation.cpp:919
 #, kde-format
@@ -347,22 +347,25 @@ msgid "The uninstallation process failed to successfully run the command %1\n"
 "The output of was: \n"
 "%2\n"
 "If you think this is incorrect, you can continue or cancel the uninstallation process"
-msgstr ""
+msgstr "卸载程序运行命令 %1 时出错\n"
+"命令输出为：\n"
+"%2\n"
+"您可自行判断结果是否正确，并选择是否要继续卸载。"
 
 #: core/jobs/kpackagejob.cpp:114
 #, kde-format
 msgid "Failed to create a job for the package management task. This is usually because the package is invalid. We attempted to operate on the package %1"
-msgstr ""
+msgstr "无法创建软件包管理任务，通常是因为软件包已损坏。此处处理的软件包为 %1"
 
 #: core/jobs/kpackagejob.cpp:121
 #, kde-format
 msgid "Could not create a package installer for the service type %1: The installer does not have a valid structure"
-msgstr ""
+msgstr "无法为服务类型 %1 创建软件包安装程序：此安装程序没有有效的架构"
 
 #: core/jobs/kpackagejob.cpp:125
 #, kde-format
 msgid "The service type %1 was not understood by the KPackage installer"
-msgstr ""
+msgstr "KPackage 安装程序不支持服务类型 %1"
 
 #: core/security.cpp:69
 #, kde-format
@@ -679,7 +682,7 @@ msgstr "更多工具..."
 #, kde-format
 msgctxt "The first entry in the category selection list (also the default value)"
 msgid "All Categories"
-msgstr ""
+msgstr "所有类别"
 
 #: qtquick/categoriesmodel.cpp:95
 #, kde-format
@@ -695,7 +698,7 @@ msgstr "未知分类"
 #, kde-format
 msgctxt "Used to construct the button's label (which will become Download New 'this value'...)"
 msgid "Stuff"
-msgstr ""
+msgstr "资源"
 
 #: qtquick/qml/Button.qml:44
 #, kde-format
@@ -734,7 +737,7 @@ msgstr "正在从 %2 安装 %1"
 #, kde-format
 msgctxt "Status message to be shown when the entry is in the process of being installed OR uninstalled"
 msgid "Currently working on the item %1 by %2. Please wait..."
-msgstr ""
+msgstr "正在处理 %2 做的 %1，请稍后..."
 
 #: qtquick/qml/EntryDetails.qml:67
 #, kde-format
@@ -876,109 +879,109 @@ msgstr "最多下载"
 #, kde-format
 msgctxt "A message which is shown when the user attempts to display a specific entry from a specific provider, but that entry isn't found"
 msgid "The entry you attempted to display, identified by the unique ID %1, could not be found."
-msgstr ""
+msgstr "您想要查看的项目 (唯一 ID %1) 已不存在。"
 
 #: qtquick/qml/Page.qml:191
 #, kde-format
 msgid "Tiles"
-msgstr ""
+msgstr "卡片"
 
 #: qtquick/qml/Page.qml:193
 #, kde-format
 msgid "Icons"
-msgstr ""
+msgstr "图标"
 
 #: qtquick/qml/Page.qml:195
 #, kde-format
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: qtquick/qml/Page.qml:210
 #, kde-format
 msgid "Detailed Tiles View Mode"
-msgstr ""
+msgstr "详尽的卡片视图模式"
 
 #: qtquick/qml/Page.qml:218
 #, kde-format
 msgid "Icons Only View Mode"
-msgstr ""
+msgstr "仅有图标的视图模式"
 
 #: qtquick/qml/Page.qml:226
 #, kde-format
 msgid "Large Preview View Mode"
-msgstr ""
+msgstr "宽大的预览视图模式"
 
 #: qtquick/qml/Page.qml:236
 #, kde-format
 msgid "Everything"
-msgstr ""
+msgstr "全部"
 
 #: qtquick/qml/Page.qml:240
 #, kde-format
 msgid "Updateable"
-msgstr ""
+msgstr "可更新"
 
 #: qtquick/qml/Page.qml:259
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show All Entries"
-msgstr ""
+msgstr "显示全部项"
 
 #: qtquick/qml/Page.qml:267
 #, kde-format
 msgctxt "List option which will set the filter so only installed items are shown"
 msgid "Show Only Installed Entries"
-msgstr ""
+msgstr "只显示已安装的项目"
 
 #: qtquick/qml/Page.qml:275
 #, kde-format
 msgctxt "List option which will set the filter so only installed items with updates available are shown"
 msgid "Show Only Updateable Entries"
-msgstr ""
+msgstr "只显示可更新的项目"
 
 #: qtquick/qml/Page.qml:285
 #, kde-format
 msgid "Recent"
-msgstr ""
+msgstr "最新"
 
 #: qtquick/qml/Page.qml:287
 #, kde-format
 msgid "Alphabetical"
-msgstr ""
+msgstr "字母顺序"
 
 #: qtquick/qml/Page.qml:291
 #, kde-format
 msgid "Downloads"
-msgstr ""
+msgstr "下载量"
 
 #: qtquick/qml/Page.qml:310
 #, kde-format
 msgctxt "List option which will set the sort order to based on when items were most recently updated"
 msgid "Show Most Recent First"
-msgstr ""
+msgstr "最新的在前"
 
 #: qtquick/qml/Page.qml:318
 #, kde-format
 msgctxt "List option which will set the sort order to be alphabetical based on the name"
 msgid "Sort Alphabetically By Name"
-msgstr ""
+msgstr "按名字的字母排序"
 
 #: qtquick/qml/Page.qml:326
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show Highest Rated First"
-msgstr ""
+msgstr "高分在前"
 
 #: qtquick/qml/Page.qml:334
 #, kde-format
 msgctxt "List option which will set the sort order to based on number of downloads"
 msgid "Show Most Downloaded First"
-msgstr ""
+msgstr "最多下载在前"
 
 #: qtquick/qml/Page.qml:342
 #, kde-format
 msgid "Go to..."
-msgstr ""
+msgstr "转到..."
 
 #: qtquick/qml/Page.qml:469
 #, kde-format
@@ -990,7 +993,7 @@ msgstr "正在装入更多..."
 #, kde-format
 msgctxt "A message shown when there are no entries in the list, and when it is not trying to load anything"
 msgid "There is no hot new stuff to get here"
-msgstr ""
+msgstr "此处无任何资源"
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:110
 #, kde-format
@@ -1046,7 +1049,7 @@ msgstr "作者 <i>%1</i>"
 #, kde-format
 msgctxt "Label for the busy indicator showing an item is being installed OR uninstalled"
 msgid "Working..."
-msgstr ""
+msgstr "正在处理..."
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:46
 #, kde-format
@@ -1081,7 +1084,7 @@ msgstr "无"
 #, kde-format
 msgctxt "A text representation of the rating, shown as a fraction of the max value"
 msgid "(%1/%2)"
-msgstr ""
+msgstr "(%1/%2)"
 
 #: qtquick/quickengine.cpp:177
 #, kde-format
@@ -1099,13 +1102,13 @@ msgstr ""
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Popular"
-msgstr ""
+msgstr "热门"
 
 #: qtquick/searchpresetmodel.cpp:64
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Featured"
-msgstr ""
+msgstr "精选"
 
 #: qtquick/searchpresetmodel.cpp:67
 #, kde-format
@@ -1117,7 +1120,7 @@ msgstr ""
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "New"
-msgstr ""
+msgstr "最新"
 
 #: qtquick/searchpresetmodel.cpp:73
 #, kde-format
@@ -1141,30 +1144,30 @@ msgstr ""
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Recommended"
-msgstr ""
+msgstr "推荐"
 
 #: qtquick/searchpresetmodel.cpp:85
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Subscriptions"
-msgstr ""
+msgstr "订阅"
 
 #: qtquick/searchpresetmodel.cpp:88
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "All Entries"
-msgstr ""
+msgstr "所有项目"
 
 #: qtquick/searchpresetmodel.cpp:91
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Search Preset: %1"
-msgstr ""
+msgstr "搜索预设：%1"
 
 #: tools/knewstuff-dialog/main.cpp:31
 #, kde-format
 msgid "The KNSRC file you want to show. If none is passed, you will be presented with a dialog which lets you switch between all the config files installed into the systemwide knsrc file location"
-msgstr ""
+msgstr "您想要显示的 KNSRC 文件。如果没有填写，则会显示一个对话框；让您在系统 KNSRC 文件位置中安装的所有配置文件里进行选择。"
 
 #: tools/knewstuff-dialog/main.cpp:35
 #, kde-format
@@ -1176,7 +1179,14 @@ msgid "A kns url to show information from. The format for a kns url is kns://kns
 "'entryid'\n"
 "is the unique ID of an entry found in the provider specified by the knsrc file.\n"
 " An example of such a url is kns://peruse.knsrc/api.kde-look.org/1316714"
-msgstr ""
+msgstr "显示信息来源的 kns URL，其格式为 kns://knsrcfile/providerid/entryid\n"
+"'knsrcfile'\n"
+"即直接传给本工具的 knsrcfile 参数的 knsrc 文件名。\n"
+"'providerid'\n"
+"即内容提供者的主机名。\n"
+"'entryid'\n"
+"即内容提供者提供的 knsrc 文件中，项目的唯一 ID。\n"
+" URL 示例：kns://peruse.knsrc/api.kde-look.org/1316714"
 
 #: ui/entrydetailsdialog.cpp:84
 #, kde-format
