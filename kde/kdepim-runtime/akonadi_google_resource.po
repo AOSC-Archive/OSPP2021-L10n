@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-09 00:17+0000\n"
-"PO-Revision-Date: 2021-07-15 16:01\n"
+"PO-Revision-Date: 2021-07-18 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -235,7 +235,7 @@ msgstr "未配置"
 #, kde-format
 msgctxt "%1 is account name (user@gmail.com)"
 msgid "Google Groupware (%1)"
-msgstr "Google 协作平台 (%1)"
+msgstr "Google 协作套件 (%1)"
 
 #: googleresource.cpp:231
 #, kde-format
@@ -245,12 +245,12 @@ msgstr "此账号已退出。"
 #: googleresource.cpp:234
 #, kde-format
 msgid "Google Groupware has been logged out from your account. Please log in to enable Google Contacts and Calendar sync again."
-msgstr "您的账号已从 Google 协作平台中退出，请重新登陆以启用 Google 联系人和日历同步。"
+msgstr "您的账号已从 Google 协作套件中退出，请重新登陆以启用 Google 联系人和日历同步。"
 
 #: googleresource.cpp:235
 #, kde-format
 msgid "Google Groupware has been logged out from account %1. Please log in to enable Google Contacts and Calendar sync again."
-msgstr "您的账号 (%1) 已从 Google 协作平台中退出，请重新登陆以启用 Google 联系人和日历同步。"
+msgstr "您的账号 (%1) 已从 Google 协作套件中退出，请重新登陆以启用 Google 联系人和日历同步。"
 
 #: googleresource.cpp:239
 #, kde-format

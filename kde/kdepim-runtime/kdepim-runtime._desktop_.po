@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-05-17 00:34+0000\n"
-"PO-Revision-Date: 2021-07-15 15:47\n"
+"PO-Revision-Date: 2021-07-18 06:01\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -219,7 +219,7 @@ msgstr "Zimbra"
 #: resources/etesync/etesyncresource.desktop:2
 msgctxt "Name"
 msgid "EteSync Groupware Resource"
-msgstr "EteSync 协作平台资源"
+msgstr "EteSync 协作套件资源"
 
 #: resources/etesync/etesyncresource.desktop:21
 msgctxt "Comment"
@@ -287,7 +287,7 @@ msgstr "在 KDE 中访问您的 Facebook 活动"
 #: resources/google-groupware/googleresource.desktop:2
 msgctxt "Name"
 msgid "Google Groupware"
-msgstr "Google 协作平台"
+msgstr "Google 协作套件"
 
 #: resources/google-groupware/akonadi_google_resource.notifyrc:25
 #: resources/google-groupware/googleresource.desktop:24
@@ -298,12 +298,12 @@ msgstr "在 KDE 中访问 Google 日历、联系人和任务列表"
 #: resources/google-groupware/akonadi_google_resource.notifyrc:50
 msgctxt "Name"
 msgid "Google Groupware needs to authenticate"
-msgstr "Google 协作平台需要授权"
+msgstr "Google 协作套件需要授权"
 
 #: resources/google-groupware/akonadi_google_resource.notifyrc:69
 msgctxt "Comment"
 msgid "Google Groupware has been logged off and needs to be reauthenticated"
-msgstr "Google 协作平台已退出，需要重新授权"
+msgstr "Google 协作套件已退出，需要重新授权"
 
 #: resources/icaldir/icaldirresource.desktop:2
 msgctxt "Name"
