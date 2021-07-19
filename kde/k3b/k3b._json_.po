@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-28 00:33+0000\n"
+"PO-Revision-Date: 2021-07-18 08:44\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/k3b/k3b._json_.pot\n"
+"X-Crowdin-File-ID: 25522\n"
+"Language: zh_CN\n"
+
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
+msgctxt "Name"
+msgid "K3b FFMpeg Decoder"
+msgstr "K3b FFMpeg 解码器"
+
+#: plugins/decoder/flac/k3bflacdecoder.json
+msgctxt "Name"
+msgid "K3b FLAC Decoder"
+msgstr "K3b FLAC 解码器"
+
+#: plugins/decoder/libsndfile/k3blibsndfiledecoder.json
+msgctxt "Name"
+msgid "K3b Libsndfile Decoder"
+msgstr "K3b Libsndfile 解码器"
+
+#: plugins/decoder/mp3/k3bmaddecoder.json
+msgctxt "Name"
+msgid "K3b MAD Decoder"
+msgstr "K3b MAD 解码器"
+
+#: plugins/decoder/musepack/k3bmpcdecoder.json
+msgctxt "Name"
+msgid "K3b Musepack Decoder"
+msgstr "K3b Musepack 解码器"
+
+#: plugins/decoder/ogg/k3boggvorbisdecoder.json
+msgctxt "Name"
+msgid "K3b Ogg Vorbis Decoder"
+msgstr "K3b Ogg Vorbis 解码器"
+
+#: plugins/decoder/skeleton.json
+msgctxt "Name"
+msgid "K3b ??? Decoder"
+msgstr "K3b ??? 解码器"
+
+#: plugins/decoder/wave/k3bwavedecoder.json
+msgctxt "Name"
+msgid "K3b Wave Decoder"
+msgstr "K3b Wave 解码器"
+
+#: plugins/encoder/external/k3bexternalencoder.json
+msgctxt "Name"
+msgid "K3b External Audio Encoder"
+msgstr "K3b 扩展音频编码器"
+
+#: plugins/encoder/lame/k3blameencoder.json
+msgctxt "Name"
+msgid "K3b Lame MP3 Encoder"
+msgstr "K3b Lame MP3 编码器"
+
+#: plugins/encoder/ogg/k3boggvorbisencoder.json
+msgctxt "Name"
+msgid "K3b Ogg Vorbis Encoder"
+msgstr "K3b Ogg Vorbis 编码器"
+
+#: plugins/encoder/skeleton.json
+msgctxt "Name"
+msgid "K3b ??? Encoder"
+msgstr "K3b ??? 编码器"
+
+#: plugins/encoder/sox/k3bsoxencoder.json
+msgctxt "Name"
+msgid "K3b SoX Audio Encoder"
+msgstr "K3b SoX 音频编码器"
+
+#: plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.json
+msgctxt "Name"
+msgid "K3b Audio Metainfo Renamer"
+msgstr "K3b 音频元信息重命名器"
+
+#: plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.json
+msgctxt "Name"
+msgid "K3b CDDB Audio Plugin"
+msgstr "K3b CDDB 音频插件"
+
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode WMA files"
+msgstr "用于解码 WMA 文件的解码模块"
+
+#: plugins/decoder/flac/k3bflacdecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode FLAC files"
+msgstr "用于解码 FLAC 文件的解码模块"
+
+#: plugins/decoder/libsndfile/k3blibsndfiledecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode audio files supported by libsndfile"
+msgstr "用于解码被 libsndfile 支持的文件的解码模块"
+
+#: plugins/decoder/mp3/k3bmaddecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode MPEG 1 Layer III files"
+msgstr "用于解码 MPEG 1 Layer III(mp3) 文件的解码模块"
+
+#: plugins/decoder/musepack/k3bmpcdecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode Musepack audio files"
+msgstr "用于解码 Musepack 音频文件的解码模块"
+
+#: plugins/decoder/ogg/k3boggvorbisdecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode Ogg Vorbis files"
+msgstr "用于解码 Ogg Vorbis 文件的解码模块"
+
+#: plugins/decoder/skeleton.json
+msgctxt "Description"
+msgid "Decoding module to decode ??? files"
+msgstr "用于解码 ??? 文件的解码模块"
+
+#: plugins/decoder/wave/k3bwavedecoder.json
+msgctxt "Description"
+msgid "Decoding module to decode wave files"
+msgstr "用于解码 WAVE 文件的解码模块"
+
+#: plugins/encoder/external/k3bexternalencoder.json
+msgctxt "Description"
+msgid "Encoding module that allows specifying an encoding command"
+msgstr "允许指定编码命令的编码模块"
+
+#: plugins/encoder/lame/k3blameencoder.json
+msgctxt "Description"
+msgid "Encoding module to encode MPEG1 Layer III (MP3) files"
+msgstr "用于编码 MPEG 1 Layer III(MP3) 文件的编码模块"
+
+#: plugins/encoder/ogg/k3boggvorbisencoder.json
+msgctxt "Description"
+msgid "Encoding module to encode Ogg Vorbis files"
+msgstr "用于编码 Ogg Vorbis 文件的编码模块"
+
+#: plugins/encoder/skeleton.json
+msgctxt "Description"
+msgid "Encoding module to encode <name> files"
+msgstr "用于编码 <name> 文件的编码模块"
+
+#: plugins/encoder/sox/k3bsoxencoder.json
+msgctxt "Description"
+msgid "Encoding module to encode many file formats using SoX"
+msgstr "用于编码很多使用 SoX 格式的文件的编码模块"
+
+#: plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.json
+msgctxt "Description"
+msgid "Plugin to rename audio files in a data project based on the meta info."
+msgstr "基于元数据重命名数据方案中的音频文件的插件。"
+
+#: plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.json
+msgctxt "Description"
+msgid "Plugin to query a CDDB server for information about an audio project."
+msgstr "从 CDDB 服务器查询有关音频项目信息的插件。"
+
+#: plugins/decoder/ffmpeg/k3bffmpegdecoder.json
+#: plugins/decoder/mp3/k3bmaddecoder.json
+#: plugins/decoder/musepack/k3bmpcdecoder.json
+#: plugins/decoder/ogg/k3boggvorbisdecoder.json
+#: plugins/decoder/wave/k3bwavedecoder.json
+#: plugins/encoder/external/k3bexternalencoder.json
+#: plugins/encoder/lame/k3blameencoder.json
+#: plugins/encoder/ogg/k3boggvorbisencoder.json
+#: plugins/encoder/sox/k3bsoxencoder.json
+#: plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.json
+#: plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.json
+msgctxt "Authors Name"
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: plugins/decoder/flac/k3bflacdecoder.json
+msgctxt "Authors Name"
+msgid "John Steele Scott"
+msgstr "John Steele Scott"
+
+#: plugins/decoder/libsndfile/k3blibsndfiledecoder.json
+msgctxt "Authors Name"
+msgid "Matthieu Bedouet"
+msgstr "Matthieu Bedouet"
+
+#: plugins/decoder/skeleton.json plugins/encoder/skeleton.json
+msgctxt "Authors Name"
+msgid "???"
+msgstr "???"
+
