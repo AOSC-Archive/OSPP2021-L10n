@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-01-07 02:38+0100\n"
+"PO-Revision-Date: 2021-07-20 08:48\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kio-s3/org.kde.kio_s3.metainfo.pot\n"
+"X-Crowdin-File-ID: 25114\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kio_s3.metainfo.xml:14
+msgid "KIO S3"
+msgstr "KIO S3"
+
+#. (itstool) path: component/summary
+#: org.kde.kio_s3.metainfo.xml:15
+msgid "Amazon S3 integration with KDE Plasma and KDE applications"
+msgstr "KDE Plasma 和 KDE 应用的 Amazon S3 集成插件"
+
+#. (itstool) path: description/p
+#: org.kde.kio_s3.metainfo.xml:17
+msgid "KIO S3 enables KIO-aware applications (such as Dolphin, Kate or Gwenview) to access and edit Amazon S3 buckets and objects."
+msgstr "KIO S3 可以让能识别 KIO 的应用程序 (例如 Dolphin、Kate 或 Gwenview) 访问并编辑 Amazon S3 的存储桶和对象。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kio_s3.metainfo.xml:25
+msgid "Dolphin showing a picture uploaded on an Amazon S3 bucket."
+msgstr "Dolphin 展示了将图片上传到 Amazon S3 存储桶的操作。"
+
