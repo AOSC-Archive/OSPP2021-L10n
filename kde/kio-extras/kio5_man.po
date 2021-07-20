@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-07 00:17+0000\n"
-"PO-Revision-Date: 2021-07-20 05:59\n"
+"PO-Revision-Date: 2021-07-20 10:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21,19 +21,19 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid "No man page matching <resource>%1</resource> could be found.<nl/><nl/>Check that you have not mistyped the name of the page, and note that man page names are case sensitive.<nl/><nl/>If the name is correct, then you may need to extend the search path for man pages, either using the <envar>MANPATH</envar> environment variable or a configuration file in the <filename>/etc</filename> directory."
-msgstr "找不到 <resource>%1</resource> 的手册。<nl/><nl/>请确认您没有输错页面的名字，并注意手册页面名应区分大小写。<nl/><nl/>如果名字准确无误，那么您可能需要拓展手册的搜索路径，或者使用 <envar>MANPATH</envar> 环境变量，或者需要在 <filename>/etc</filename> 文件夹中创建配置文件。"
+msgstr "找不到 <resource>%1</resource> 的 man 手册。<nl/><nl/>请确认您没有输错页面的名字，并注意 man 手册页面名应区分大小写。<nl/><nl/>如果名字准确无误，那么您可能需要拓展 man 手册的搜索路径，或者使用 <envar>MANPATH</envar> 环境变量，或者需要在 <filename>/etc</filename> 文件夹中创建配置文件。"
 
 #: kio_man.cpp:523
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The man page <filename>%1</filename> was found, but it could not be read or parsed."
-msgstr "已找到 <filename>%1</filename> 的手册页面，但无法被读取或解析。"
+msgstr "已找到 <filename>%1</filename> 的 man 手册页面，但无法被读取或解析。"
 
 #: kio_man.cpp:594
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The specified man page references another page <filename>%1</filename>,<nl/>but the referenced page <filename>%2</filename> could not be found."
-msgstr "指定的手册页面引用了另一个页面 <filename>%1</filename>，<nl/>但无法找到引用的页面 <filename>%2</filename>。"
+msgstr "指定的 man 手册页面引用了另一个页面 <filename>%1</filename>，<nl/>但无法找到被引用的页面 <filename>%2</filename>。"
 
 #: kio_man.cpp:653
 #, kde-format
@@ -43,7 +43,7 @@ msgstr "手册页面查看器出错"
 #: kio_man.cpp:669
 #, kde-format
 msgid "There is more than one matching man page:"
-msgstr "有多个匹配的手册页面："
+msgstr "有多个匹配的 man 手册页面："
 
 #: kio_man.cpp:669
 #, kde-format
