@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2019-11-13 02:49+0100\n"
+"PO-Revision-Date: 2021-07-20 09:52\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kio-stash/org.kde.filestash.appdata.pot\n"
+"X-Crowdin-File-ID: 6202\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.filestash.appdata.xml:10
+msgid "FileStash"
+msgstr "FileStash"
+
+#. (itstool) path: component/summary
+#: org.kde.filestash.appdata.xml:11
+msgid "A lightweight solution for virtual folder support in KDE Applications"
+msgstr "为 KDE 应用提供虚拟文件夹支持的轻量化解决方案。"
+
+#. (itstool) path: description/p
+#: org.kde.filestash.appdata.xml:13
+msgid "Selecting multiple files in any file manager for copying and pasting has never been a pleasant experience, especially if the files are in a non-continuous order. Often, when selecting files using Ctrl+A or the selection tool, we find that we need to select only a subset of the required files we have selected. This leads to the unwieldy operation of removing files from our selection. Of course, the common workaround is to create a new folder and to put all the items in this folder prior to copying, but this is a very inefficient and very slow process if large files need to be copied. Moreover Ctrl+Click requires fine motor skills to not lose the entire selection of files."
+msgstr "在任何文件管理器中，复制粘贴多个文件的体验都十分糟糕，文件顺序不连续时更甚。当我们使用 Ctrl+A 或选择工具选择文件时，一般只需要选择其中的一小部分。在这种情况下，取消选择就会变得十分复杂。当然，最常见的变通办法是在复制前先创建一个新文件夹，并将已选择的文件全放进去。但如果需要复制大量文件，这种过程会变得既低效又漫长；此外，按住 Ctrl 点击也需要精准的鼠标移动技巧，才不会点错而导致已选择的文件被取消选择。"
+
+#. (itstool) path: description/p
+#: org.kde.filestash.appdata.xml:14
+msgid "This is project has a novel solution to this problem. This adds virtual folder support in all KIO applications, where the links to files and folders can be temporarily saved for a session. The files and folders are \"staged\" on this virtual folder. Files can be added to this by using all the regular file management operations such as Move, Copy and Paste, or by drag and drop. Hence, complex file operations such as moving files across many devices can be made easy by staging the operation before performing it."
+msgstr "此项目为这类问题提供了一个全新的解决方案。它添加了一个所有 KIO 应用程序都支持的虚拟文件夹，并将文件和文件夹的链接临时储存到会话中。会话中的文件和文件夹都会被暂存到虚拟文件夹内，而常规的文件管理操作 (如移动、复制和粘贴或是直接拖动) 都会将文件添加到此文件夹。因此，只要在执行前暂存操作，就能轻易做到复杂的文件操作 (如跨设备移动文件)。"
+
