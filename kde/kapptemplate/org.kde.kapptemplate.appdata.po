@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2019-06-06 03:08+0200\n"
+"PO-Revision-Date: 2021-07-20 11:00\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kapptemplate/org.kde.kapptemplate.appdata.pot\n"
+"X-Crowdin-File-ID: 5874\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kapptemplate.appdata.xml:6
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
+#. (itstool) path: component/summary
+#: org.kde.kapptemplate.appdata.xml:7
+msgid "App Code Template Generator"
+msgstr "应用代码模板生成器"
+
+#. (itstool) path: description/p
+#: org.kde.kapptemplate.appdata.xml:9
+msgid "KAppTemplate is an application to start development quickly using existing templates providing basic repeatedly written code and a proper structure."
+msgstr "KAppTemplate 是使用已有模板开始快速开发的应用程序，它提供了可重用的代码和良好的结构。"
+
+#. (itstool) path: description/p
+#: org.kde.kapptemplate.appdata.xml:13
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:15
+msgid "Templates for C++, Ruby, Python and PHP"
+msgstr "C++，Ruby，Python 和 PHP 的模板"
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:16
+msgid "Categories"
+msgstr "分类"
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:17
+msgid "Templates for different build-systems and frameworks"
+msgstr "不同构建系统和框架的模板"
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:18
+msgid "Templates especially for KDE-development (plugins for Plasma, QtQuick, KTextEditor, KRunner, Akonadi)"
+msgstr "专为 KDE 开发使用的模板 (Plasma 插件，QtOffice，KTextEditor，KRunner，Akonadi)"
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:19
+msgid "It is easy to create new templates using space holders and a simple CMake-command"
+msgstr "创建新模板非常简单，只需使用占位符和简单的 CMake 命令"
+
+#. (itstool) path: ul/li
+#: org.kde.kapptemplate.appdata.xml:20
+msgid "Integrated into KDevelop"
+msgstr "集成到 KDevelop"
+
