@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-05-14 00:20+0000\n"
+"PO-Revision-Date: 2021-07-20 08:19\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kweather/org.kde.kweather.appdata.pot\n"
+"X-Crowdin-File-ID: 24320\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kweather.appdata.xml:12
+msgid "Weather"
+msgstr "天气"
+
+#. (itstool) path: component/summary
+#: org.kde.kweather.appdata.xml:13
+msgid "A convergent weather application for Plasma."
+msgstr "一个为 Plasma 打造的聚合天气应用。"
+
+#. (itstool) path: component/developer_name
+#: org.kde.kweather.appdata.xml:14
+msgid "KDE Community"
+msgstr "KDE 社区"
+
+#. (itstool) path: description/p
+#: org.kde.kweather.appdata.xml:21
+msgid "A convergent weather application for Plasma. Has flat and dynamic/animated views for showing forecasts and other information."
+msgstr "一个为 Plasma 打造的聚合天气应用，可通过扁平化视图和动态 (动画) 视图来展示天气预报及其它信息。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kweather.appdata.xml:25 org.kde.kweather.appdata.xml:37
+msgid "Mobile dynamic view"
+msgstr "移动端动态视图"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kweather.appdata.xml:29
+msgid "Desktop dynamic view"
+msgstr "桌面端动态视图"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kweather.appdata.xml:33
+msgid "Mobile flat view"
+msgstr "移动端扁平化视图"
+
