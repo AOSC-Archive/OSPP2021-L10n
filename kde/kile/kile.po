@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-20 13:13\n"
+"PO-Revision-Date: 2021-07-21 13:17\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1888,7 +1888,7 @@ msgstr "输入的文件已加密，所以只有 <i>pdftk</i> 能正常运行。"
 #: dialogs/pdf-wizard/pdfdialog.cpp:594
 #, kde-format
 msgid "A password is necessary to rearrange pages."
-msgstr "重新排列页面必须要输入密码。"
+msgstr "重新排序页面必须要输入密码。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:595
 #, kde-format
@@ -1934,7 +1934,7 @@ msgstr "页面："
 #: dialogs/pdf-wizard/pdfdialog.cpp:792
 #, kde-format
 msgid "Comma separated page list: 1,4-7,9"
-msgstr ""
+msgstr "使用逗号分隔的页面列表：1,4-7,9"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbParameter)
 #: dialogs/pdf-wizard/pdfdialog.cpp:797 dialogs/pdf-wizard/pdfdialog.cpp:802
@@ -1959,12 +1959,12 @@ msgstr "\"pdfpages\" 的所有选项"
 #: dialogs/pdf-wizard/pdfdialog.cpp:825
 #, kde-format
 msgid "Applies a PDF watermark to the background of a single input PDF. Pdftk uses only the first page from the background PDF and applies it to every page of the input PDF. This page is scaled and rotated as needed to fit the input page."
-msgstr ""
+msgstr "为输入的 PDF 的背景添加 PDF 水印。Pdftk 会将第一页的 PDF 背景复制到每一页上。第一页会被缩放且旋转，并适应输入的页面。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:830
 #, kde-format
 msgid "Applies a foreground stamp on top of the input PDF document's pages. Pdftk uses only the first page from the stamp PDF and applies it to every page of the input PDF. This page is scaled and rotated as needed to fit the input page. This works best if the stamp PDF page has a transparent background."
-msgstr ""
+msgstr "在输入的 PDF 文档页面的最上层添加前景图章。Pdftk 会将第一页的 PDF 图章复制到每一页上。第一页会被缩放且旋转，并适应输入的页面。图章 PDF 页为透明背景时效果最佳。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:850
 #, kde-format
@@ -1975,17 +1975,18 @@ msgstr "应用(&A)"
 #, kde-format
 msgid "Failed to create a temporary directory.\n\n"
 "This wizard cannot be used."
-msgstr ""
+msgstr "创建临时目录时出错。\n\n"
+"此向导无法运行。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:896
 #, kde-format
 msgid "<center>PDF-Wizard</center><br>This wizard uses 'pdftk' and the LaTeX package 'pdfpages' to<ul><li>rearrange pages of an existing PDF document</li><li>read and update documentinfo of a PDF document (only pdftk)</li><li>read, set or change some permissions of a PDF document (only pdftk). A password is necessary to set or change this document settings. Additionally PDF encryption is done to lock the file's content behind this password.</li></ul><p>The package 'pdfpages' will only work with non-encrypted documents. 'pdftk' can handle both kind of documents, but a password is needed for encrypted files. If one of 'pdftk' or 'pdfpages' is not available, the possible rearrangements are reduced.</p><p><i>Warning:</i> Encryption and a password does not provide any real PDF security. The content is encrypted, but the key is known. You should see it more as a polite but firm request to respect the author's wishes.</p>"
-msgstr ""
+msgstr "<center>PDF 向导</center><br>此向导使用“pdftk”和 LaTeX 软件包中的“pdfpages”来<ul><li>重新排序已有的 PDF 文档页面</li><li>查看并更新 PDF 文档的 documentinfo (仅限 pdftk)</li><li>读取、设置或修改 PDF 文档的部分权限 (仅限 pdftk)。您必须输入密码，才能调整这项文档设置。Kile 会使用额外的 PDF 加密来通过密码保护文件内容。</li></ul><p>软件包“pdfpages”只能用于未加密的文档；而“pdftk”则可处理加密和未加密的两种文档，但您仍需要密码才能处理加密的文件。如果“pdftk”和“pdfpages”中有一个无法使用，“重新排序页面”中的选项就会变少。</p><p><i>警告：</i>加密和密码并不提供真正的 PDF 安全性。即使内容已经加密，但是密钥是公开的。您应将其看作是作者礼貌而坚定的要求，并尊重作者的意愿。</p>"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:913
 #, kde-format
 msgid "<p><i>Information: </i>This version of Kile was compiled without libpoppler library. Setting, changing and removing of properties and permissions is not possible.</p>"
-msgstr ""
+msgstr "<p><i>提醒：</i>此版本的 Kile 未使用 libpoppler 库进行编译，无法对属性和权限进行设定、修改或删除。</p>"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:917 dialogs/pdf-wizard/pdfdialog.cpp:1705
 #: dialogs/pdf-wizard/pdfdialog.cpp:1773 kile.cpp:988
@@ -2006,7 +2007,7 @@ msgstr "pdftk"
 #: dialogs/pdf-wizard/pdfdialog.cpp:933
 #, kde-format
 msgid "Rearranging PDF file: %1"
-msgstr "正在重新排版 PDF 文件:%1"
+msgstr "正在重新排序 PDF 文件:%1"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:941 dialogs/pdf-wizard/pdfdialog.cpp:1053
 #: dialogs/postscriptdialog.cpp:213
@@ -2043,7 +2044,7 @@ msgstr "***** 查看器：      "
 #: dialogs/pdf-wizard/pdfdialog.cpp:1108
 #, kde-format
 msgid "An error occurred while executing the task."
-msgstr ""
+msgstr "执行任务时出错。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:1164
 #, kde-format
@@ -2073,7 +2074,7 @@ msgstr "在该模式下次工具需要某些参数。"
 #: dialogs/pdf-wizard/pdfdialog.cpp:1639
 #, kde-format
 msgid "Illegal page list 'from-to': %1 is bigger than %2."
-msgstr ""
+msgstr "页面列表内的“起始页-终止页”不合规则：%1 比 %2 要大。"
 
 #: dialogs/pdf-wizard/pdfdialog.cpp:1643 dialogs/pdf-wizard/pdfdialog.cpp:1650
 #, kde-format
@@ -2184,13 +2185,13 @@ msgstr "图标"
 #: dialogs/pdf-wizard/pdfdialog_base.ui:158
 #, kde-format
 msgid "This wizard will use 'pdftk' and LaTeX package 'pdfpages'."
-msgstr ""
+msgstr "此向导会使用“pdftk”和 LaTeX 软件包中的“pdfpages”。"
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_tbRearrangements)
 #: dialogs/pdf-wizard/pdfdialog_base.ui:194
 #, kde-format
 msgid "Rearrangements"
-msgstr ""
+msgstr "重新排序页面"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbOutfile)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -2204,7 +2205,7 @@ msgstr "输出文件："
 #: dialogs/pdf-wizard/pdfdialog_base.ui:216
 #, kde-format
 msgid "The name of the output file. This entry may also be empty, if you want to overwrite the original file."
-msgstr ""
+msgstr "输出文件的名称。如果您想要直接覆盖原文件，此处会留空。"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, m_edOutfile)
 #. i18n: ectx: property (filter), widget (KUrlRequester, m_edInfile)
@@ -2235,7 +2236,7 @@ msgstr "查看器："
 #: dialogs/postscriptdialog_base.ui:78
 #, kde-format
 msgid "View the result of the conversion process. okular is always taken as an external viewer."
-msgstr ""
+msgstr "查看转换结果 (Okular 将始终作为外部查看器)。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbView)
 #: dialogs/pdf-wizard/pdfdialog_base.ui:243
@@ -2255,7 +2256,7 @@ msgstr "覆盖原始文件"
 #: dialogs/postscriptdialog_base.ui:116
 #, kde-format
 msgid "'Select pages' and 'Free Parameter' need some specific parameter, which you can enter here"
-msgstr ""
+msgstr "“选择页面”和“任意参数”需要指定参数，您可在此处填写"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbStamp)
 #: dialogs/pdf-wizard/pdfdialog_base.ui:284
@@ -2427,22 +2428,22 @@ msgstr "允许所有功能"
 #: dialogs/postscriptdialog.cpp:60
 #, kde-format
 msgid "Rearrange Postscript File"
-msgstr "重排列 postscript 文件"
+msgstr "重新排序 postscript 文件的页面"
 
 #: dialogs/postscriptdialog.cpp:97
 #, kde-format
 msgid "Neither 'pstops' nor 'psselect' found."
-msgstr ""
+msgstr "无法找到“pstops”或“psselect”"
 
 #: dialogs/postscriptdialog.cpp:100
 #, kde-format
 msgid "'pstops' not found."
-msgstr ""
+msgstr "无法找到“pstops”。"
 
 #: dialogs/postscriptdialog.cpp:103
 #, kde-format
 msgid "'psselect' not found."
-msgstr ""
+msgstr "无法找到“psselect”。"
 
 #: dialogs/postscriptdialog.cpp:114
 #, kde-format
@@ -2527,12 +2528,12 @@ msgstr "无法创建临时文件。"
 #: dialogs/postscriptdialog.cpp:205
 #, kde-format
 msgid "rearrange ps file: %1"
-msgstr ""
+msgstr "重新排序 ps 文件的页面：%1"
 
 #: dialogs/postscriptdialog.cpp:252
 #, kde-format
 msgid "An error occurred while rearranging the file."
-msgstr "重排文件时出错。"
+msgstr "重新排序文件页面时出错。"
 
 #: dialogs/postscriptdialog.cpp:439
 #, kde-format
@@ -2573,7 +2574,7 @@ msgstr "Postscript 工具"
 #: dialogs/postscriptdialog_base.ui:35
 #, kde-format
 msgid "Choose one of the 18 operations to convert a postscript file. The last four operations need specific parameters."
-msgstr ""
+msgstr "选择 18 个操作选项中的一个来转换 postscript 文件，最后四个操作需要指定参数。"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbInfo)
 #: dialogs/postscriptdialog_base.ui:44
@@ -2581,13 +2582,15 @@ msgstr ""
 msgid "Conversion of ps files is made by 'pstops' and 'psselect'.\n"
 "Be sure to call 'dvips' with option '-t a4' and\n"
 "hyperref package (if needed) with option 'a4paper'."
-msgstr ""
+msgstr "转换 ps 文件需要使用“pstops”和“psselect”。\n"
+"请确保使用“-t a4”参数来调用“dvips”。\n"
+"如果还需使用 hyperref，请使用“a4paper”参数调用。"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_edInfile)
 #: dialogs/postscriptdialog_base.ui:68
 #, kde-format
 msgid "Input file, which should be converted."
-msgstr ""
+msgstr "输入文件，即待转换的文件。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbView)
 #: dialogs/postscriptdialog_base.ui:81
@@ -2605,7 +2608,7 @@ msgstr "当您想要复制页面时，您必须键入副本数量"
 #: dialogs/postscriptdialog_base.ui:136
 #, kde-format
 msgid "The name of the output file. This entry may also be empty, if you only want to view the result without saving it. In this case the viewer checkbox must be checked."
-msgstr ""
+msgstr "输出文件的名称。如果您只想查看结果而无需保存，请选中使用查看器的选项，此项则会留空。"
 
 #: dialogs/projectdialogs.cpp:58
 #, kde-format
@@ -2681,7 +2684,8 @@ msgstr "预定义："
 #, kde-format
 msgid "Error in extension '%1':\n"
 "All user-defined extensions should look like '.xyz'"
-msgstr ""
+msgstr "拓展“%1”出错：\n"
+"所有用户定义的拓展必须形如“.xyz”"
 
 #: dialogs/projectdialogs.cpp:156
 #, kde-format
@@ -2819,12 +2823,13 @@ msgstr "MakeIndex 选项(&M)"
 #, kde-format
 msgid "<p>Could not create the project folder \"\n"
 "%1\"</p>.<p>Please check whether you have write permissions.</p>"
-msgstr ""
+msgstr "<p>无法创建项目文件夹“%1”。</p>\n"
+"<p>请检查是否有相应的写入权限。</p>"
 
 #: dialogs/projectdialogs.cpp:603
 #, kde-format
 msgid "<p>The project folder \"(%1)\" is not writable.</p><p>Please check the permissions of the project folder.</p>"
-msgstr ""
+msgstr "<p>无法写入项目文件夹“(%1)”。</p><p>请检查项目文件夹的权限。</p>"
 
 #: dialogs/quickdocumentdialog.cpp:105
 #, kde-format
@@ -2856,7 +2861,7 @@ msgstr "将条目添加到此组合框"
 #: dialogs/quickdocumentdialog.cpp:203
 #, kde-format
 msgid "Remove current entry from this combo box"
-msgstr ""
+msgstr "从列表中删除此项"
 
 #: dialogs/quickdocumentdialog.cpp:167
 #, kde-format
@@ -2997,12 +3002,12 @@ msgstr "奇数页和偶数页的页边空白不同"
 #: dialogs/quickdocumentdialog.cpp:649
 #, kde-format
 msgid "Marks \"overfull hboxes\" on the output with black boxes"
-msgstr ""
+msgstr "在输出中使用黑框标出“overfull hboxes”"
 
 #: dialogs/quickdocumentdialog.cpp:650
 #, kde-format
 msgid "No special marks for \"overfull hboxes\" on the output"
-msgstr ""
+msgstr "不在输出中标出“overfull hboxes”"
 
 #: dialogs/quickdocumentdialog.cpp:651
 #, kde-format
@@ -3492,7 +3497,7 @@ msgstr "输出文件中包含注释"
 #: dialogs/quickdocumentdialog.cpp:783
 #, kde-format
 msgid " Include only notes and suppress frames"
-msgstr ""
+msgstr " 只显示注释并隐藏 frame"
 
 #: dialogs/quickdocumentdialog.cpp:980
 #, kde-format
@@ -3637,7 +3642,7 @@ msgstr "图形中允许子图"
 #: dialogs/quickdocumentdialog.cpp:1062
 #, kde-format
 msgid "Typesetting capital Greek letters"
-msgstr ""
+msgstr "将希腊字母排版为大写"
 
 #: dialogs/quickdocumentdialog.cpp:1063
 #, kde-format
@@ -3847,7 +3852,7 @@ msgstr "编辑宏包"
 #: dialogs/quickdocumentdialog.cpp:2069
 #, kde-format
 msgid "Do you want to delete this package option?"
-msgstr ""
+msgstr "您真的要删除此宏包选项吗？"
 
 #: dialogs/quickdocumentdialog.cpp:2073
 #, kde-format
@@ -3907,7 +3912,7 @@ msgstr "新建按键序列"
 #: dialogs/scriptshortcutdialog.cpp:44
 #, kde-format
 msgid "Use a key sequence written in the editor to execute a script."
-msgstr ""
+msgstr "请在编辑器中输入按键序列来执行脚本。"
 
 #: dialogs/scriptshortcutdialog.cpp:45
 #, kde-format
@@ -3937,13 +3942,13 @@ msgstr "快捷键"
 #: dialogs/scriptshortcutdialog_base.ui:134
 #, kde-format
 msgid "Please enter a key sequence for this script:"
-msgstr ""
+msgstr "请为此脚本输入按键序列："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbShortcut)
 #: dialogs/scriptshortcutdialog_base.ui:150
 #, kde-format
 msgid "Please enter a shortcut for this script:"
-msgstr ""
+msgstr "请为此脚本输入快捷键："
 
 #: dialogs/statisticsdialog.cpp:50
 #, kde-format
@@ -4004,7 +4009,7 @@ msgstr "无标题文档的统计信息"
 #: dialogs/tabbingdialog_base.ui:29
 #, kde-format
 msgid "Number of &columns:"
-msgstr ""
+msgstr "列数 (&c)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/tabbingdialog_base.ui:63
@@ -4130,7 +4135,7 @@ msgstr "插入项目符号"
 #: dialogs/tabular/newtabulardialog.cpp:172
 #, kde-format
 msgid "Input data. Enter text when a cell is selected. When return is pressed, the adjacent cell will become selected."
-msgstr ""
+msgstr "输入的数据，当单元格选中时输入的文本。按下回车后，就会选中相邻的单元格。"
 
 #: dialogs/tabular/newtabulardialog.cpp:174
 #, kde-format
@@ -4195,7 +4200,7 @@ msgstr "文字将被对齐到单元右侧。"
 #: dialogs/tabular/newtabulardialog.cpp:188
 #, kde-format
 msgid "Joins adjacent cells when they are in the same row."
-msgstr ""
+msgstr "合并同一行的单元格。"
 
 #: dialogs/tabular/newtabulardialog.cpp:189
 #, kde-format
@@ -4205,7 +4210,7 @@ msgstr "分割联合的单元。"
 #: dialogs/tabular/newtabulardialog.cpp:190
 #, kde-format
 msgid "Choose the border for the selected cells. When clicking on the button, the current border will be applied to the selected cells."
-msgstr ""
+msgstr "为选中的单元格设置边框。点击按钮后，当前的边框就会应用到选中的单元格上。"
 
 #: dialogs/tabular/newtabulardialog.cpp:191
 #, kde-format
@@ -4220,28 +4225,28 @@ msgstr "选择文字颜色(需要 color 宏包)。"
 #: dialogs/tabular/newtabulardialog.cpp:193
 #, kde-format
 msgid "Clears the text of the selected cells but keeps attributes such as alignment and font shape."
-msgstr ""
+msgstr "清除选中单元格的文本，但保留对齐和字体形状等属性。"
 
 #: dialogs/tabular/newtabulardialog.cpp:194
 #, kde-format
 msgid "Resets the attributes of the selected cells to the default values but keeps the text."
-msgstr ""
+msgstr "将所选单元格的属性重置为默认，同时保留单元格内的文本。"
 
 #: dialogs/tabular/newtabulardialog.cpp:195
 #, kde-format
 msgid "Clears the text of the selected cells and resets the attributes."
-msgstr ""
+msgstr "清除选中单元格的文本并重置属性。"
 
 #: dialogs/tabular/newtabulardialog.cpp:196
 #, kde-format
 msgid "Pastes a table stored in the clipboard into this wizard."
-msgstr ""
+msgstr "将剪贴板中的表格粘贴至此向导中。"
 
 #: dialogs/tabular/newtabulardialog.cpp:659
 #: dialogs/tabular/newtabulardialog.cpp:680
 #, kde-format
 msgid "Setting the new size for the table will delete content. Are you sure to set the new size?"
-msgstr ""
+msgstr "重新设置表格的大小会清空里面的内容，您确定要重新设置表格大小吗？"
 
 #: dialogs/tabular/newtabulardialog.cpp:659
 #: dialogs/tabular/newtabulardialog.cpp:680
@@ -4257,17 +4262,17 @@ msgstr "应用"
 #: dialogs/tabular/tabularheaderitem.cpp:40
 #, kde-format
 msgid "p{w} Alignment"
-msgstr "p{w} 对齐"
+msgstr "p{宽度} 对齐"
 
 #: dialogs/tabular/tabularheaderitem.cpp:41
 #, kde-format
 msgid "b{w} Alignment"
-msgstr ""
+msgstr "b{宽度} 对齐"
 
 #: dialogs/tabular/tabularheaderitem.cpp:42
 #, kde-format
 msgid "m{w} Alignment"
-msgstr ""
+msgstr "m{宽度} 对齐"
 
 #: dialogs/tabular/tabularheaderitem.cpp:43
 #, kde-format
@@ -4287,22 +4292,22 @@ msgstr "在声明后插入"
 #: dialogs/tabular/tabularheaderitem.cpp:47
 #, kde-format
 msgid "Suppress Space"
-msgstr ""
+msgstr "不显示空格"
 
 #: dialogs/tabular/tabularheaderitem.cpp:48
 #, kde-format
 msgid "Do not Suppress Space"
-msgstr ""
+msgstr "显示空格"
 
 #: dialogs/tabular/tabulartable.cpp:220
 #, kde-format
 msgid "There is no content to insert into the table as the clipboard is empty."
-msgstr ""
+msgstr "剪贴板为空，故未向表格中插入内容。"
 
 #: dialogs/tabular/tabulartable.cpp:220
 #, kde-format
 msgid "Empty Clipboard"
-msgstr ""
+msgstr "剪贴板为空"
 
 #: dialogs/texdocumentationdialog.cpp:57 kile.cpp:1035
 #, kde-format
