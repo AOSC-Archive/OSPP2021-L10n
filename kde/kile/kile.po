@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-22 15:25\n"
+"PO-Revision-Date: 2021-07-22 15:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -11763,7 +11763,7 @@ msgstr "Unicode"
 #: widgets/symbolviewconfigwidget.ui:103
 #, kde-format
 msgid "Insert Unicode representation of the selected symbol (when available)"
-msgstr "如有可能，插入所选符号的 Unicode 字符"
+msgstr "尽可能地插入所选符号的 Unicode 字符"
 
 #: widgets/toolconfigwidget.cpp:110
 #, kde-format
