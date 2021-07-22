@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-21 13:17\n"
+"PO-Revision-Date: 2021-07-22 15:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -697,7 +697,7 @@ msgstr "*.png *.jpg *.eps.gz *.eps|图像文件\n"
 #: dialogs/includegraphicsdialog.cpp:618
 #, kde-format
 msgid "You must include the wrapfig package to use the text wrapping options"
-msgstr "必须包括 wrapfig 包才能使用文本环绕选项"
+msgstr "必须包含 wrapfig 包才能使用文本环绕选项"
 
 #: dialogs/includegraphicsdialog.cpp:618 editorextension.cpp:3252
 #, kde-format
@@ -2684,8 +2684,8 @@ msgstr "预定义："
 #, kde-format
 msgid "Error in extension '%1':\n"
 "All user-defined extensions should look like '.xyz'"
-msgstr "拓展“%1”出错：\n"
-"所有用户定义的拓展必须形如“.xyz”"
+msgstr "扩展名“%1”有误：\n"
+"所有用户定义的扩展名必须形如“.xyz”"
 
 #: dialogs/projectdialogs.cpp:156
 #, kde-format
@@ -4323,7 +4323,7 @@ msgstr "目录列表"
 #: dialogs/texdocumentationdialog.cpp:83
 #, kde-format
 msgid "<p>A list of the documentation provided by the installed TeX distribution.</p><p>Double clicking on an item or pressing the space key will open a viewer to show the corresponding file.</p><p>Items that are grayed out are not installed.</p>"
-msgstr ""
+msgstr "<p>由已安装的 Tex 发行版提供的文档的列表。</p><p>双击一个项目或按空格键即可打开查看器查看相应的文件。</p><p>灰色的项目表示该项目尚未安装。</p>"
 
 #: dialogs/texdocumentationdialog.cpp:86
 #, kde-format
@@ -4338,7 +4338,7 @@ msgstr "开始进行选定关键字的搜索。"
 #: dialogs/texdocumentationdialog.cpp:89
 #, kde-format
 msgid "Reset list to all available documentation files."
-msgstr ""
+msgstr "将列表重置为显示所有可用文档。"
 
 #: dialogs/texdocumentationdialog.cpp:90
 #, kde-format
@@ -4358,7 +4358,7 @@ msgstr "找不到该文件的 KDE 服务。"
 #: dialogs/texdocumentationdialog.cpp:328
 #, kde-format
 msgid "Could not find the documentation file '%1'"
-msgstr ""
+msgstr "无法找到任何关于“%1”的文档"
 
 #: dialogs/texdocumentationdialog.cpp:344
 #, kde-format
@@ -4378,7 +4378,7 @@ msgstr "找不到关键字“%1”的文档。"
 #: dialogs/texdocumentationdialog.cpp:431
 #, kde-format
 msgid "Could not determine the search paths of TexLive/teTeX or file 'texdoctk.dat'.<br/>Unfortunately, Kile cannot show any useful information."
-msgstr ""
+msgstr "无法检测到 TexLive、teTeX 或“texdoctk.dat”文件的搜索路径。<br/>很抱歉，Kile 也无法提供有用的相关信息。"
 
 #: dialogs/texdocumentationdialog.cpp:432
 #, kde-format
@@ -4388,7 +4388,7 @@ msgstr "TexDoc 对话框"
 #: dialogs/texdocumentationdialog.cpp:444
 #, kde-format
 msgid "Could not determine the installation path of your TeX distribution or find the file 'texdoctk.dat'.<br/>Hence, we cannot provide you with an overview of the installed TeX documentation."
-msgstr ""
+msgstr "无法检测到 TeX 发行版或“texdoctk.dat”文件的安装路径。<br/>所以我们也无法提供已安装的 TeX 的文档预览。"
 
 #: dialogs/userhelpdialog.cpp:51
 #, kde-format
@@ -4475,7 +4475,7 @@ msgstr "弹出一个文件对话框来选择一个本地帮助文件。"
 #: dialogs/userhelpdialog.cpp:432
 #, kde-format
 msgid "Websites (HTML) (*.html *.htm);;Documents (PDF, PS, DVI, EPUB) (*.ps *.pdf *.dvi *.epub);;All Files (*)"
-msgstr ""
+msgstr "网站文件 (HTML) (*.html *.htm);;文档 (PDF, PS, DVI, EPUB) (*.ps *.pdf *.dvi *.epub);;全部文件 (*)"
 
 #: dialogs/userhelpdialog.cpp:434 kileactions.cpp:378 kiledocmanager.cpp:2140
 #, kde-format
@@ -4537,7 +4537,7 @@ msgstr "运行程序"
 #: dialogs/usermenu/usermenudialog.cpp:59
 #, kde-format
 msgid "Text, which will be inserted, if the action is executed. Some placeholders are available: <ul><li>%M - selected (marked) text</li><li>%C - cursor position</li><li>%B - bullet</li><li>%E - indentation in environments</li><li>%R - select label from list</li><li>%T - select citation key from list</li></ul>"
-msgstr ""
+msgstr "操作执行后，需要插入的文本。您可使用以下占位符：<ul><li>%M——选中 (或者说标记) 的文本</li><li>%C——光标位置</li><li>%B——项目符号</li><li>%E——根据上下文进行缩进</li><li>%R——从列表中选择标签</li><li>%T——从列表中选择引用的键</li></ul>"
 
 #: dialogs/usermenu/usermenudialog.cpp:60
 #, kde-format
@@ -4549,31 +4549,39 @@ msgid "Available placeholders:\n"
 "%R: Select label from list\n"
 "%T: Select citation key from list\n"
 "%S: Source file name without extension"
-msgstr ""
+msgstr "可用的占位符：\n"
+"%M——选中 (或者说标记) 的文本\n"
+"%C——光标位置\n"
+"%B——项目符号\n"
+"%E——根据上下文进行缩进\n"
+"%R——从列表中选择标签\n"
+"%T——从列表中选择引用的键\n"
+"%S——无扩展名的源文件名"
 
 #: dialogs/usermenu/usermenudialog.cpp:216
 #, kde-format
 msgid "<p>You can create, change and install a user-defined menu, which will appear as a part of Kile's menu. To create or change this menu, use the six buttons on the left side. Even more possible actions are available in the context menu of already existing menu items.</p><p>Like a standard menu, three different kinds of menu items are available:</p><ul><li><i>standard entries</i>, which are assigned to an action</li><li><i>submenus</i>, which contain more menu items</li><li><i>separators</i>, to get a visible structure of all entries</li></ul><p>Each standard menu item is assigned to one of three action types:</p><ul><li><i>insert text</i>: this action will insert your text at the current cursor position. Some metachars are available: <tt>%M</tt>, <tt>%C</tt>, <tt>%B</tt>, <tt>%E</tt>, <tt>%R</tt>, <tt>%T</tt>, <tt>%S</tt>: see the <i>What's This</i> or <i>Tool Tip</i> feature of this widget to get more information.</li><li><i>file content</i>: inserts the complete contents of a given file (metachars are also available)</li><li><i>run an external program</i>: The output of this program can be inserted into the opened document. Metachar <tt>%M</tt> is also possible in the commandline of this program, as the selected text will be saved in a temporary file. Use <tt>%M</tt> for the filename of this temporary file.</li></ul><p>If some  important information for an action is missing, menu items are colored red. More information is available using the <i>What's this</i> feature of most widgets.</p>"
-msgstr ""
+msgstr "<p>您可以创建、修改并安装用户定义的菜单，它会显示在 Kile 菜单内。若要创建或修改此菜单，请使用左侧的六个按钮。您可在已有菜单项中的右键菜单找到更多操作。</p><p>如同普通菜单，您一共可使用三种不同的菜单项：</p><ul><li><i>标准项</i>，可向其分配操作</li><li><i>子菜单</i>，可包含更多菜单项</li><li><i>分割线</i>，可为所有项目划分结构</li></ul><p>每个标准菜单项又能分配一到三种不同的操作类型：</p><ul><li><i>插入文本</i>：它可以在当前的光标处插入文本。您可使用以下几种元字符：<tt>%M</tt>，<tt>%C</tt>，<tt>%B</tt>，<tt>%E</tt>，<tt>%R</tt>，<tt>%T</tt>，<tt>%S</tt>：参阅“插入文本”的<i>这是什么</i>或<i>悬停信息框</i>了解详情。</li><li><i>文件内容</i>：插入指定文件的完整内容 (此操作也可使用元字符)</li><li><i>运行外部程序</i>：该程序的输出内容会被插入至打开的文档中。您可在此程序的命令行中使用元字符 <tt>%M</tt>，所选的文本就会被保存到临时文件中。使用 <tt>%M</tt> 即可指定该临时文件的文件名。</li></ul><p>如果一项操作的关键信息有所缺失，菜单项就会标红。大多组件都可参阅<i>这是什么</i>来了解详情。</p>"
 
 #: dialogs/usermenu/usermenudialog.cpp:238
 #, kde-format
 msgid "UserMenu Dialog"
-msgstr ""
+msgstr "用户菜单对话框"
 
 #: dialogs/usermenu/usermenudialog.cpp:260
 #: dialogs/usermenu/usermenudialog.cpp:278
 #, kde-format
 msgid "Current menu tree was modified, but not saved.\n"
 "Discard this tree?"
-msgstr ""
+msgstr "此树形菜单已被修改，但尚未保存。\n"
+"放弃对此树形菜单的修改？"
 
 #: dialogs/usermenu/usermenudialog.cpp:284
 #: dialogs/usermenu/usermenudialog.cpp:385
 #: usermenu/usermenu.cpp:330 widgets/usermenuconfigwidget.cpp:62
 #, kde-format
 msgid "User Menu Files (*.xml)"
-msgstr ""
+msgstr "用户菜单文件 (*.xml)"
 
 #: dialogs/usermenu/usermenudialog.cpp:286
 #: usermenu/usermenu.cpp:332 widgets/usermenuconfigwidget.cpp:64
@@ -4597,7 +4605,8 @@ msgstr "文件“%1”已经存在。\n"
 #, kde-format
 msgid "The menu tree contains some errors and installing this file may lead to unpredictable results.\n"
 "Do you really want to save this file?"
-msgstr ""
+msgstr "此树形菜单有一些错误，安装此文件可能会导致不可预知的后果。\n"
+"您仍要保存此文件吗？"
 
 #: dialogs/usermenu/usermenudialog.cpp:560
 #, kde-format
@@ -4626,13 +4635,13 @@ msgstr "LaTeX 用户菜单"
 #: dialogs/usermenu/usermenudialog_base.ui:66
 #, kde-format
 msgid "The user-defined menu tree, which can be modified with the six buttons below the tree (and their shortcuts). More actions are available in the context menu of selected items. You can also rearrange items with drag and drop."
-msgstr ""
+msgstr "您可使用树形菜单下方的六个按钮及其快捷键修改用户定义的树形菜单。还能通过选中的项目的右键菜单查看更多操作，或通过拖拽重新排列这些项目。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbInsertSeparator)
 #: dialogs/usermenu/usermenudialog_base.ui:100
 #, kde-format
 msgid "Insert a new separator below the selected item."
-msgstr ""
+msgstr "在选中的项目下方插入分割线。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbDelete)
 #: dialogs/usermenu/usermenudialog_base.ui:110
@@ -4656,7 +4665,7 @@ msgstr "下移"
 #: dialogs/usermenu/usermenudialog_base.ui:130
 #, kde-format
 msgid "Insert a new menu item below the selected item."
-msgstr ""
+msgstr "在选中的项目下方插入新的菜单项。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbInsertBelow)
 #: dialogs/usermenu/usermenudialog_base.ui:133
@@ -4668,13 +4677,13 @@ msgstr "插入"
 #: dialogs/usermenu/usermenudialog_base.ui:140
 #, kde-format
 msgid "Insert a new submenu item below the selected item."
-msgstr ""
+msgstr "在选中的项目下方插入子菜单。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbUp)
 #: dialogs/usermenu/usermenudialog_base.ui:166
 #, kde-format
 msgid "Move the selected item up."
-msgstr ""
+msgstr "将选中的项目上移。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbUp)
 #: dialogs/usermenu/usermenudialog_base.ui:169
@@ -4693,7 +4702,7 @@ msgstr "菜单文件"
 #: dialogs/usermenu/usermenudialog_base.ui:221
 #, kde-format
 msgid "Install an unmodified and saved menu tree as user-defined menu."
-msgstr ""
+msgstr "安装一个未作修改、已保存的树形菜单作为用户定义菜单。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbInstall)
 #: dialogs/usermenu/usermenudialog_base.ui:224
@@ -4706,7 +4715,7 @@ msgstr "安装"
 #: dialogs/usermenu/usermenudialog_base.ui:247
 #, kde-format
 msgid "Load an xml file, which describes the user-defined menu."
-msgstr ""
+msgstr "加载一个描述用户定义菜单的 xml 文件。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbLoad)
 #: dialogs/usermenu/usermenudialog_base.ui:250
@@ -4718,7 +4727,7 @@ msgstr "载入"
 #: dialogs/usermenu/usermenudialog_base.ui:273
 #, kde-format
 msgid "Save a modified menu tree, which describes the user-defined menu, to an xml file into the local directory of Kile."
-msgstr ""
+msgstr "将修改后的、描述用户定义菜单的树形菜单保存为 xml 文件，并放到 Kile 的本地目录中。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbSave)
 #: dialogs/usermenu/usermenudialog_base.ui:276
@@ -4730,7 +4739,7 @@ msgstr "保存"
 #: dialogs/usermenu/usermenudialog_base.ui:283
 #, kde-format
 msgid "Save a modified menu tree, which describes the user-defined menu, to an xml file into the local directory of Kile and choose a new name for this file."
-msgstr ""
+msgstr "将修改后的、描述用户定义菜单的树形菜单保存为 xml 文件，命名并放到 Kile 的本地目录中。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbSaveAs)
 #: dialogs/usermenu/usermenudialog_base.ui:286
@@ -4748,7 +4757,7 @@ msgstr "(已安装)"
 #: dialogs/usermenu/usermenudialog_base.ui:375
 #, kde-format
 msgid "Delete current menu tree and start a new one."
-msgstr ""
+msgstr "删除当前的树形菜单，并创建新菜单。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbNew)
 #: dialogs/usermenu/usermenudialog_base.ui:378
@@ -4778,25 +4787,25 @@ msgstr "类型："
 #: dialogs/usermenu/usermenudialog_base.ui:473
 #, kde-format
 msgid "Filename of the corresponding file."
-msgstr ""
+msgstr "相应文件的文件名。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbIcon)
 #: dialogs/usermenu/usermenudialog_base.ui:482
 #, kde-format
 msgid "Choose an icon for this action."
-msgstr ""
+msgstr "为此操作选择图标。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbIconDelete)
 #: dialogs/usermenu/usermenudialog_base.ui:515
 #, kde-format
 msgid "Remove the icon for this action."
-msgstr ""
+msgstr "为此操作删除图标。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_pbMenuentryType)
 #: dialogs/usermenu/usermenudialog_base.ui:559
 #, kde-format
 msgid "Change the type of a menu item."
-msgstr ""
+msgstr "为此菜单项改变类型。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbMenuentryType)
 #: dialogs/usermenu/usermenudialog_base.ui:562
@@ -4808,7 +4817,7 @@ msgstr "更改"
 #: dialogs/usermenu/usermenudialog_base.ui:571
 #, kde-format
 msgid "The label of the selected menu item."
-msgstr ""
+msgstr "所选菜单项的标签。"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbMenuEntry)
 #: dialogs/usermenu/usermenudialog_base.ui:584
@@ -4820,73 +4829,73 @@ msgstr "条目："
 #: dialogs/usermenu/usermenudialog_base.ui:614
 #, kde-format
 msgid "Commandline parameter for an executable program."
-msgstr ""
+msgstr "可执行程序的命令行参数。"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, m_keyChooser)
 #: dialogs/usermenu/usermenudialog_base.ui:621
 #, kde-format
 msgid "Choose or clear a shortcut for this action."
-msgstr ""
+msgstr "选择或清除此操作的快捷键。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbSelectInsertion)
 #: dialogs/usermenu/usermenudialog_base.ui:647
 #, kde-format
 msgid "Select, if inserted text should be selected."
-msgstr ""
+msgstr "若要选中插入的文本，请选择此项。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbSelectInsertion)
 #: dialogs/usermenu/usermenudialog_base.ui:650
 #, kde-format
 msgid "Select inserted text"
-msgstr ""
+msgstr "选中插入的文本"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbReplaceSelection)
 #: dialogs/usermenu/usermenudialog_base.ui:657
 #, kde-format
 msgid "Select, if the action should replace selected text."
-msgstr ""
+msgstr "若此操作要替换选中的文本，请选择此项。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbReplaceSelection)
 #: dialogs/usermenu/usermenudialog_base.ui:660
 #, kde-format
 msgid "Replace selected text"
-msgstr ""
+msgstr "替换选中的文本"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbNeedsSelection)
 #: dialogs/usermenu/usermenudialog_base.ui:673
 #, kde-format
 msgid "Select, if the action needs selected text. "
-msgstr ""
+msgstr "若此操作需要先选中文本，请选择此项。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbNeedsSelection)
 #: dialogs/usermenu/usermenudialog_base.ui:676
 #, kde-format
 msgid "Needs selected text"
-msgstr ""
+msgstr "需要选中文本"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbInsertOutput)
 #: dialogs/usermenu/usermenudialog_base.ui:699
 #, kde-format
 msgid "Select, if the output of an executable program should be inserted."
-msgstr ""
+msgstr "若要插入可执行程序的输出内容，请选择此项。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbInsertOutput)
 #: dialogs/usermenu/usermenudialog_base.ui:702
 #, kde-format
 msgid "Insert the output of the chosen program"
-msgstr ""
+msgstr "插入所选程序的输出内容"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbContextMenu)
 #: dialogs/usermenu/usermenudialog_base.ui:709
 #, kde-format
 msgid "Select, if the action should be added to the context menu of a selection."
-msgstr ""
+msgstr "若此操作需要添加到选中内容后的右键菜单中，请选择此项。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbContextMenu)
 #: dialogs/usermenu/usermenudialog_base.ui:712
 #, kde-format
 msgid "Add to the context menu of selected text"
-msgstr ""
+msgstr "添加到选中文本后的右键菜单中"
 
 #: dialogs/usermenu/usermenuitem.h:26
 #, kde-format
@@ -4911,7 +4920,7 @@ msgstr "在下方插入"
 #: dialogs/usermenu/usermenutree.cpp:184
 #, kde-format
 msgid "Insert a separator above"
-msgstr ""
+msgstr "在上方插入分割线"
 
 #: dialogs/usermenu/usermenutree.cpp:185
 #, kde-format
@@ -4921,7 +4930,7 @@ msgstr "在下方插入分隔符"
 #: dialogs/usermenu/usermenutree.cpp:190
 #, kde-format
 msgid "Insert a submenu above"
-msgstr ""
+msgstr "在上方插入子菜单"
 
 #: dialogs/usermenu/usermenutree.cpp:191
 #, kde-format
@@ -4931,7 +4940,7 @@ msgstr "在下方插入子菜单"
 #: dialogs/usermenu/usermenutree.cpp:196
 #, kde-format
 msgid "Insert into this submenu"
-msgstr ""
+msgstr "插入到该子菜单中"
 
 #: dialogs/usermenu/usermenutree.cpp:197
 #, kde-format
@@ -4941,7 +4950,7 @@ msgstr "在子菜单中插入分隔符"
 #: dialogs/usermenu/usermenutree.cpp:198
 #, kde-format
 msgid "Insert a submenu into this submenu"
-msgstr ""
+msgstr "向该子菜单中插入一个子菜单"
 
 #: dialogs/usermenu/usermenutree.cpp:203
 #, kde-format
@@ -4951,7 +4960,7 @@ msgstr "删除此项"
 #: dialogs/usermenu/usermenutree.cpp:205
 #, kde-format
 msgid "Delete the complete tree"
-msgstr ""
+msgstr "删除整个树形菜单"
 
 #: dialogs/usermenu/usermenutree.cpp:211
 #, kde-format
@@ -4981,27 +4990,27 @@ msgstr "信息"
 #: dialogs/usermenu/usermenutree.cpp:449
 #, kde-format
 msgid "File '%1' could not be opened to save the usermenu file."
-msgstr ""
+msgstr "无法打开文件“%1”来保存用户菜单文件。"
 
 #: dialogs/usermenu/usermenutree.cpp:693
 #, kde-format
 msgid "Please enter a label for this menu item:"
-msgstr ""
+msgstr "请为此菜单项输入标签："
 
 #: dialogs/usermenu/usermenutree.cpp:710
 #, kde-format
 msgid "Please enter a label for this submenu:"
-msgstr ""
+msgstr "请为此子菜单输入标签："
 
 #: dialogs/usermenu/usermenutree.cpp:768
 #, kde-format
 msgid "Please enter a label for this entry:"
-msgstr ""
+msgstr "请为此条目输入标签："
 
 #: dialogs/usermenu/usermenutree.cpp:924
 #, kde-format
 msgid "Do you really want to clear the complete menutree?"
-msgstr ""
+msgstr "您确定要清空树形菜单吗？"
 
 #: dialogs/usermenu/usermenutree.cpp:940
 #, kde-format
@@ -5011,27 +5020,27 @@ msgstr "此菜单项没有标题。"
 #: dialogs/usermenu/usermenutree.cpp:944
 #, kde-format
 msgid "This submenu item is useless without children."
-msgstr ""
+msgstr "此子菜单无子项目，所以没有任何作用。"
 
 #: dialogs/usermenu/usermenutree.cpp:948
 #, kde-format
 msgid "This item offers no text to insert."
-msgstr ""
+msgstr "此项目未提供需插入的文本。"
 
 #: dialogs/usermenu/usermenutree.cpp:952
 #, kde-format
 msgid "No file is given for this task."
-msgstr ""
+msgstr "未向此任务提供任何文件。"
 
 #: dialogs/usermenu/usermenutree.cpp:956
 #, kde-format
 msgid "The file for this item does not exist."
-msgstr ""
+msgstr "向此项目提供的文件不存在。"
 
 #: dialogs/usermenu/usermenutree.cpp:960
 #, kde-format
 msgid "The file for this item is not executable."
-msgstr ""
+msgstr "向此项目提供的文件无法执行。"
 
 #: dialogs/usermenu/usermenutree.cpp:963
 #, kde-format
@@ -5082,12 +5091,12 @@ msgstr "扩展缺失"
 #: editorcommands.cpp:39
 #, kde-format
 msgid "All documents saved to disk."
-msgstr ""
+msgstr "已将全部文档保存到磁盘中。"
 
 #: editorcommands.cpp:40
 #, kde-format
 msgid "Saving of all documents failed."
-msgstr ""
+msgstr "保存所有文档时出错。"
 
 #: editorcommands.cpp:45
 #, kde-format
@@ -5107,52 +5116,52 @@ msgstr "保存失败，取消退出。"
 #: editorextension.cpp:61
 #, kde-format
 msgid "English quotes:   ``   &apos;&apos;"
-msgstr ""
+msgstr "英文引号：   ``   &apos;&apos;"
 
 #: editorextension.cpp:62
 #, kde-format
 msgid "French quotes:   &quot;&lt;   &quot;&gt;"
-msgstr ""
+msgstr "法文引号：   &quot;&lt;   &quot;&gt;"
 
 #: editorextension.cpp:63
 #, kde-format
 msgid "German quotes:   &quot;`   &quot;&apos;"
-msgstr ""
+msgstr "德文引号：   &quot;`   &quot;&apos;"
 
 #: editorextension.cpp:64
 #, kde-format
 msgid "French quotes (long):   \\flqq   \\frqq"
-msgstr ""
+msgstr "法文长引号：   \\flqq   \\frqq"
 
 #: editorextension.cpp:65
 #, kde-format
 msgid "German quotes (long):   \\glqq   \\grqq"
-msgstr ""
+msgstr "德文长引号：   \\glqq   \\grqq"
 
 #: editorextension.cpp:66
 #, kde-format
 msgid "Icelandic quotes (v1):   \\ilqq   \\irqq"
-msgstr ""
+msgstr "冰岛文引号 (第一版)：   \\ilqq   \\irqq"
 
 #: editorextension.cpp:67
 #, kde-format
 msgid "Icelandic quotes (v2):   \\iflqq   \\ifrqq"
-msgstr ""
+msgstr "冰岛文引号 (第二版)：   \\iflqq   \\ifrqq"
 
 #: editorextension.cpp:68
 #, kde-format
 msgid "Czech quotes:   \\uv{}"
-msgstr ""
+msgstr "捷克文引号：   \\uv{}"
 
 #: editorextension.cpp:69
 #, kde-format
 msgid "csquotes package:   \\enquote{}"
-msgstr ""
+msgstr "csquotes 宏包：   \\enquote{}"
 
 #: editorextension.cpp:3252
 #, kde-format
 msgid "You have to include the package %1 to use %2."
-msgstr ""
+msgstr "您必须包含宏包 %1 才能使用 %2。"
 
 #: editorextension.cpp:3503
 #, kde-format
@@ -5248,7 +5257,7 @@ msgstr "%1  %2  %3"
 #: errorhandler.cpp:405
 #, kde-format
 msgid "No information about warnings or errors is available."
-msgstr ""
+msgstr "没有任何关于此警告或错误的详情。"
 
 #: errorhandler.cpp:455 parser/latexoutputparser.cpp:645
 #, kde-format
@@ -5258,7 +5267,7 @@ msgstr "无法打开日志文件；您是否运行了 LaTeX？"
 #: errorhandler.cpp:541
 #, kde-format
 msgid "No LaTeX warnings/errors detected."
-msgstr ""
+msgstr "未检测到 LaTeX 警告或错误。"
 
 #: kile.cpp:386
 #, kde-format
@@ -5273,12 +5282,12 @@ msgstr "检测到用户工具"
 #: kile.cpp:394
 #, kde-format
 msgid "<p>The tool settings need to be reset for this version of Kile to function properly.<br/>This will overwrite any changes you have made.</p><p>Do you want to reset the tools now?</p>"
-msgstr ""
+msgstr "<p>您必须重置工具相关的设置才能正常运行此版本的 Kile。<br/>此操作将覆盖您所做的全部修改。</p><p>现在就重置工具相关的设置吗？</p>"
 
 #: kile.cpp:397
 #, kde-format
 msgid "Tools need to be reset"
-msgstr ""
+msgstr "需要重置工具相关的设置"
 
 #: kile.cpp:470
 #, kde-format
@@ -5724,12 +5733,12 @@ msgstr "设置(&S)"
 #: kile.cpp:969
 #, kde-format
 msgid "Settings for BibTeX"
-msgstr ""
+msgstr "BibTeX 设置"
 
 #: kile.cpp:973
 #, kde-format
 msgid "Settings for Biblatex"
-msgstr ""
+msgstr "Biblatex 设置"
 
 #: kile.cpp:980 kile.cpp:2187
 #, kde-format
@@ -5774,7 +5783,7 @@ msgstr "显示消息栏(&A)"
 #: kile.cpp:1020
 #, kde-format
 msgid "Watch File Mode"
-msgstr "查看文件状态"
+msgstr "监视文件模式"
 
 #: kile.cpp:1034
 #, kde-format
@@ -5825,12 +5834,13 @@ msgstr "快速编译"
 #, kde-format
 msgid "It was impossible to create the \"Archive\" tool.\n\n"
 "Please check and repair your installation of Kile."
-msgstr ""
+msgstr "无法创建“归档”工具。\n\n"
+"请检查并修复 Kile。"
 
 #: kile.cpp:1390
 #, kde-format
 msgid "Unable to Create Archive Tool"
-msgstr ""
+msgstr "无法创建归档工具"
 
 #: kile.cpp:1459
 #, kde-format
@@ -5907,7 +5917,7 @@ msgstr "要将当前文档设为主文档，您必须先保存它。"
 #, kde-format
 msgctxt "@info:status status bar label for block selection mode"
 msgid "BLOCK"
-msgstr ""
+msgstr "区块"
 
 #: kile.cpp:3037
 #, kde-format
@@ -6020,13 +6030,13 @@ msgstr "结构视图中默认打开所有的 TODO 和 FIXME 注释的父条目"
 #: kile.kcfg:106
 #, kde-format
 msgid "Default extension to use when opening graphic files with no extension"
-msgstr ""
+msgstr "在打开无扩展名的图形文件时使用的默认扩展名"
 
 #. i18n: ectx: label, entry (BibliographyType), group (BibliographyMenu)
 #: kile.kcfg:112
 #, kde-format
 msgid "What type of bibliography (bibtex or biblatex) kile should show."
-msgstr ""
+msgstr "Kile 应显示的参考文献种类 (bibtex 或 biblatex)。"
 
 #. i18n: ectx: label, entry (RunLyxServer), group (Tools)
 #: kile.kcfg:118
@@ -6110,7 +6120,7 @@ msgstr "底边栏高度。"
 #: kile.kcfg:157
 #, kde-format
 msgid "Which tab of the bottom bar to show."
-msgstr ""
+msgstr "底栏所显示的选项卡。"
 
 #. i18n: ectx: label, entry (SideBarSize), group (Show)
 #: kile.kcfg:161
@@ -6128,13 +6138,13 @@ msgstr "是否显示侧边栏。"
 #: kile.kcfg:169
 #, kde-format
 msgid "Whether to show the document viewer."
-msgstr ""
+msgstr "是否显示文档查看器。"
 
 #. i18n: ectx: label, entry (ShowDocumentViewerInExternalWindow), group (Show)
 #: kile.kcfg:173
 #, kde-format
 msgid "Whether to show the document viewer in a separate external window."
-msgstr ""
+msgstr "是否在外部显示单独的文档查看器窗口。"
 
 #. i18n: ectx: label, entry (HideProblemBadBox), group (Show)
 #: kile.kcfg:177
@@ -6146,25 +6156,25 @@ msgstr ""
 #: kile.kcfg:181
 #, kde-format
 msgid "Whether to show (La)TeX warnings in the LogMsg view."
-msgstr "在日志消息中是否显示 (La)TeX 警告。"
+msgstr "是否在日志消息中显示 (La)TeX 警告。"
 
 #. i18n: ectx: label, entry (SelectedLeftView), group (Show)
 #: kile.kcfg:185
 #, kde-format
 msgid "The identifier of the selected view in the left pane."
-msgstr ""
+msgstr "选中视图在左侧窗格中的标识符。"
 
 #. i18n: ectx: label, entry (ShowSplashScreen), group (Show)
 #: kile.kcfg:189
 #, kde-format
 msgid "Whether to show the splash screen on startup."
-msgstr ""
+msgstr "是否在启动时显示欢迎屏幕。"
 
 #. i18n: ectx: label, entry (SystemCheckLastVersionRunForAtStartUp), group (Show)
 #: kile.kcfg:193
 #, kde-format
 msgid "Last version of Kile for which the system check was run at start up"
-msgstr ""
+msgstr "上一次在启动时运行过系统检查的 Kile 版本"
 
 #. i18n: ectx: label, entry (CompleteEnvironment), group (Editor Ext)
 #: kile.kcfg:199
@@ -6176,7 +6186,7 @@ msgstr "自动使用 \\end{env} 来补全 \\begin{env}。"
 #: kile.kcfg:203
 #, kde-format
 msgid "Enable auto indentation of environments"
-msgstr ""
+msgstr "根据上下文自动缩进"
 
 #. i18n: ectx: label, entry (envIndentSpaces), group (Editor Ext)
 #: kile.kcfg:207
@@ -6206,7 +6216,7 @@ msgstr "依赖语言的双引号类型。"
 #: kile.kcfg:227
 #, kde-format
 msgid "Automatic insertion of special characters."
-msgstr ""
+msgstr "自动插入特殊字符。"
 
 #. i18n: ectx: label, entry (igCenter), group (IncludeGraphics)
 #: kile.kcfg:233
@@ -6218,7 +6228,7 @@ msgstr "居中显示图片。"
 #: kile.kcfg:237
 #, kde-format
 msgid "Insert the bounding box as an option for the includegraphics command."
-msgstr ""
+msgstr "将插入边框作为 includegraphics 命令的一个选项。"
 
 #. i18n: ectx: label, entry (igGraphicspath), group (IncludeGraphics)
 #: kile.kcfg:241
@@ -6236,31 +6246,31 @@ msgstr "在图形环境中嵌入图片。"
 #: kile.kcfg:249
 #, kde-format
 msgid "Set preferred figure position to top of page."
-msgstr ""
+msgstr "将首选插图位置设为页面顶端。"
 
 #. i18n: ectx: label, entry (igBottom), group (IncludeGraphics)
 #: kile.kcfg:253
 #, kde-format
 msgid "Set preferred figure position to bottom of page."
-msgstr ""
+msgstr "将首选插图位置设为页面底端。"
 
 #. i18n: ectx: label, entry (igHere), group (IncludeGraphics)
 #: kile.kcfg:257
 #, kde-format
 msgid "Set preferred figure position to \"exactly here\" on page."
-msgstr ""
+msgstr "将首选插图位置设为适合页面的地方。"
 
 #. i18n: ectx: label, entry (igPage), group (IncludeGraphics)
 #: kile.kcfg:261
 #, kde-format
 msgid "Set preferred figure position to be on separate page."
-msgstr ""
+msgstr "将首选插图位置设为单独页面。"
 
 #. i18n: ectx: label, entry (igForce), group (IncludeGraphics)
 #: kile.kcfg:265
 #, kde-format
 msgid "Force figure position."
-msgstr ""
+msgstr "强制指定插图位置。"
 
 #. i18n: ectx: label, entry (igWrapFigure), group (IncludeGraphics)
 #: kile.kcfg:269
@@ -6350,7 +6360,7 @@ msgstr "退出时清空的文件扩展名。"
 #: kile.kcfg:337
 #, kde-format
 msgid "Only show LaTeX files in the file browser widget"
-msgstr ""
+msgstr "文件浏览器部件内只显示 LaTeX 文件"
 
 #. i18n: ectx: label, entry (Author), group (User)
 #: kile.kcfg:347
@@ -6386,13 +6396,13 @@ msgstr ""
 #: kile.kcfg:369
 #, kde-format
 msgid "Whether the watch-file mode is enabled for the document viewer"
-msgstr ""
+msgstr "是否启用文档查看器的监视文件模式。"
 
 #. i18n: ectx: label, entry (ShowFullPathInWindowTitle), group (User)
 #: kile.kcfg:373
 #, kde-format
 msgid "Whether to show the full path of file names in the window title."
-msgstr ""
+msgstr "是否在窗口标题栏中显示文件的完整路径。"
 
 #. i18n: ectx: label, entry (dvipng), group (QuickPreview)
 #: kile.kcfg:441
@@ -6440,13 +6450,13 @@ msgstr "底边栏的选中文本的预览工具。"
 #: kile.kcfg:473
 #, kde-format
 msgid "Conversion tool for preview of mathgroups in bottom bar."
-msgstr ""
+msgstr "底栏中数学预览的工具。"
 
 #. i18n: ectx: label, entry (previewPaneBackgroundColor), group (QuickPreview)
 #: kile.kcfg:477
 #, kde-format
 msgid "The background color of the quick preview pane."
-msgstr ""
+msgstr "快速预览窗格的背景颜色。"
 
 #. i18n: ectx: label, entry (ScriptingEnabled), group (Scripting)
 #: kile.kcfg:557
@@ -6470,13 +6480,13 @@ msgstr "执行脚本的时间限制。"
 #: kile.kcfg:569
 #, kde-format
 msgid "Width of the column containing the script name in the scripts management widget."
-msgstr ""
+msgstr "脚本管理部件中，脚本名的列的宽度。"
 
 #. i18n: ectx: label, entry (pdfWizardLastTask), group (PdfWizard)
 #: kile.kcfg:575
 #, kde-format
 msgid "Last task used by the PdfWizard."
-msgstr ""
+msgstr "PDF 向导的上次任务。"
 
 #. i18n: ectx: label, entry (numSymbolsMFUS), group (MostUsedSymbols)
 #: kile.kcfg:581
@@ -6500,49 +6510,49 @@ msgstr "关闭 Kile 时清空最常访问的符号列表。"
 #: kile.kcfg:593
 #, kde-format
 msgid "Should UTF-8 characters instead of commands be inserted"
-msgstr ""
+msgstr "插入 UTF-8 字符而非命令"
 
 #. i18n: ectx: label, entry (userMenuFile), group (UserMenu)
 #: kile.kcfg:599
 #, kde-format
 msgid "XML file for the user menu"
-msgstr ""
+msgstr "用户菜单的 XML 文件"
 
 #. i18n: ectx: label, entry (userMenuLocation), group (UserMenu)
 #: kile.kcfg:603
 #, kde-format
 msgid "Use the main menubar (value 0) or the LaTeX menu (value 1) for the location of the user menu"
-msgstr ""
+msgstr "用户菜单的位置设为主菜单条 (值为 0) 或 LaTeX 菜单 (值为1)"
 
 #. i18n: ectx: label, entry (livePreviewEnabled), group (LivePreview)
 #: kile.kcfg:609
 #, kde-format
 msgid "Activate live preview functionality."
-msgstr ""
+msgstr "启用实时预览功能。"
 
 #. i18n: ectx: label, entry (synchronizeCursorWithView), group (LivePreview)
 #: kile.kcfg:613
 #, kde-format
 msgid "Synchronize the cursor position with the view."
-msgstr ""
+msgstr "使光标位置与视图同步。"
 
 #. i18n: ectx: label, entry (previewEnabledForFreshlyOpenedDocuments), group (LivePreview)
 #: kile.kcfg:617
 #, kde-format
 msgid "Enable preview for freshly opened documents."
-msgstr ""
+msgstr "为刚打开的文档提供预览。"
 
 #. i18n: ectx: label, entry (livePreviewCompilationDelay), group (LivePreview)
 #: kile.kcfg:621
 #, kde-format
 msgid "Number of milliseconds after which the compilation is started when a change has occurred."
-msgstr ""
+msgstr "编译开始至修改发生的时间毫秒数。"
 
 #. i18n: ectx: label, entry (livePreviewCompileOnlyAfterSaving), group (LivePreview)
 #: kile.kcfg:625
 #, kde-format
 msgid "Only compile documents after saving."
-msgstr ""
+msgstr "只在保存后编译文档。"
 
 #: kileactions.cpp:336
 #, kde-format
@@ -6552,12 +6562,12 @@ msgstr "标签(&L)："
 #: kiledocmanager.cpp:92
 #, kde-format
 msgid "No editor component found. Please check your KDE installation."
-msgstr ""
+msgstr "未找到编辑器组件，请检查是否安装了 KDE。"
 
 #: kiledocmanager.cpp:93
 #, kde-format
 msgid "No editor component found."
-msgstr ""
+msgstr "未找到编辑器组件。"
 
 #: kiledocmanager.cpp:144
 #, kde-format
@@ -6570,17 +6580,18 @@ msgstr "Kile 的内部结构损坏(很可能是由于 Kile 的 bug)。请在文�
 #, kde-format
 msgid "The URL \"%1\" couldn't be opened.\n\n"
 "%2"
-msgstr ""
+msgstr "无法打开 URL“%1”。\n\n"
+"%2"
 
 #: kiledocmanager.cpp:537 kiledocmanager.cpp:540
 #, kde-format
 msgid "Cannot open URL"
-msgstr ""
+msgstr "无法打开 URL"
 
 #: kiledocmanager.cpp:540
 #, kde-format
 msgid "The URL \"%1\" couldn't be opened."
-msgstr ""
+msgstr "无法打开 URL“%1”。"
 
 #: kiledocmanager.cpp:683
 #, kde-format
@@ -6605,7 +6616,7 @@ msgstr "请先打开/创建一个文档。"
 #: kiledocmanager.cpp:756
 #, kde-format
 msgid "A template for this type of document cannot be created."
-msgstr ""
+msgstr "无法创建此类型文档的模板。"
 
 #: kiledocmanager.cpp:760
 #, kde-format
@@ -6640,18 +6651,19 @@ msgstr "任意文件 (*)"
 #: kiledocmanager.cpp:943
 #, kde-format
 msgid "Save Compiled Document As..."
-msgstr ""
+msgstr "将编译出的文档另存为..."
 
 #: kiledocmanager.cpp:968
 #, kde-format
 msgid "The URL \"%1\" cannot be opened\n"
 "as it is a directory."
-msgstr ""
+msgstr "无法打开 URL“%1”，\n"
+"因为它是一个目录。"
 
 #: kiledocmanager.cpp:969
 #, kde-format
 msgid "Cannot open directory"
-msgstr ""
+msgstr "无法打开目录"
 
 #: kiledocmanager.cpp:1087
 #, kde-format
@@ -6717,7 +6729,7 @@ msgstr "无法从工程删除文件"
 #: kiledocmanager.cpp:1527
 #, kde-format
 msgid "<p>The project \"%1\" is already open.</p><p>If you wanted to reload the project, close the project before you re-open it.</p>"
-msgstr ""
+msgstr "<p>您要打开的项目“%1”已经打开过了。</p><p>如果您要重新加载此项目，请先关闭此项目然后再打开。</p>"
 
 #: kiledocmanager.cpp:1529
 #, kde-format
@@ -6727,12 +6739,12 @@ msgstr "工程已经打开"
 #: kiledocmanager.cpp:1539
 #, kde-format
 msgid "<p>The project file for the project \"%1\" does not exist or it is not readable.</p><p>Do you want to remove this project from the recent projects list?</p>"
-msgstr ""
+msgstr "<p>项目“%1”的项目文件不存在或不可读。</p><p>您要从最近项目列表中删除此项目吗？</p>"
 
 #: kiledocmanager.cpp:1542
 #, kde-format
 msgid "Could Not Open Project"
-msgstr ""
+msgstr "无法打开项目"
 
 #: kiledocmanager.cpp:1559
 #, kde-format
@@ -6742,17 +6754,17 @@ msgstr "文件 %1 不能被添加，因为该文件不存在或不可读。"
 #: kiledocmanager.cpp:1561
 #, kde-format
 msgid "Impossible to Open Project File"
-msgstr ""
+msgstr "无法打开项目文件"
 
 #: kiledocmanager.cpp:1571
 #, kde-format
 msgid "<p>The project \"%1\" cannot be opened as it was created <br/>by a newer version of Kile.</p>"
-msgstr ""
+msgstr "<p>无法打开项目“%1”，<br/>因为它是由新版的 Kile 创建的。</p>"
 
 #: kiledocmanager.cpp:1573
 #, kde-format
 msgid "Impossible to Open Project"
-msgstr ""
+msgstr "无法打开项目"
 
 #: kiledocmanager.cpp:1583
 #, kde-format
@@ -6763,17 +6775,17 @@ msgstr "%1 的工程文件是由一个新版本的 kile 创建的。\t\t\t\t打�
 #: kiledocmanager.cpp:1586
 #, kde-format
 msgid "Project File Needs to be Updated"
-msgstr ""
+msgstr "需要更新项目文件"
 
 #: kiledocmanager.cpp:1592
 #, kde-format
 msgid "<p>The project file \"%1\" could be not updated.</p><p>Do you want to remove this project from the recent projects list?</p>"
-msgstr ""
+msgstr "<p>无法更新项目文件“%1”。</p><p>您要从最近项目列表中删除此项目吗？</p>"
 
 #: kiledocmanager.cpp:1594
 #, kde-format
 msgid "Could Not Update Project File"
-msgstr ""
+msgstr "无法更新项目文件"
 
 #: kiledocmanager.cpp:1695
 #, kde-format
@@ -6963,7 +6975,7 @@ msgstr "抱歉，在 %1 找不到 teTeX 文档；在设置->配置 Kile->帮助�
 #: kilehelp.cpp:166
 #, kde-format
 msgid "No help available for %1."
-msgstr ""
+msgstr "没有关于 %1 的帮助。"
 
 #: kileinfo.cpp:351
 #, kde-format
@@ -6983,7 +6995,7 @@ msgstr " 输出: \n"
 #: kilelauncher.cpp:223
 #, kde-format
 msgid "terminated"
-msgstr ""
+msgstr "已终止"
 
 #: kilelauncher.cpp:232
 #, kde-format
@@ -6993,12 +7005,12 @@ msgstr "启动失败，诊断信息："
 #: kilelauncher.cpp:237
 #, kde-format
 msgid "An error occurred while parsing the options given to the tool."
-msgstr ""
+msgstr "在解析工具选项时发生错误。"
 
 #: kilelauncher.cpp:241
 #, kde-format
 msgid "Shell meta characters that cannot be handled are present in the options given to the tool."
-msgstr ""
+msgstr "工具选项中存在无法处理的 Shell 元字符。"
 
 #: kilelauncher.cpp:250
 #, kde-format
@@ -7028,7 +7040,7 @@ msgstr "意外结束"
 #: kilelauncher.cpp:310
 #, kde-format
 msgid "failed to start"
-msgstr ""
+msgstr "无法启动"
 
 #: kilelauncher.cpp:313
 #, kde-format
@@ -7038,17 +7050,17 @@ msgstr "崩溃"
 #: kilelauncher.cpp:316
 #, kde-format
 msgid "failed (error code %1)"
-msgstr ""
+msgstr "失败 (错误代码为 %1)"
 
 #: kilelauncher.cpp:357
 #, kde-format
 msgid "The document viewer is not available"
-msgstr ""
+msgstr "文档查看器不可用"
 
 #: kilelauncher.cpp:361
 #, kde-format
 msgid "Please disable the live preview before launching this tool"
-msgstr ""
+msgstr "请在启动此工具之前禁用实时预览"
 
 #: kilelyxserver.cpp:240
 #, kde-format
@@ -7535,7 +7547,7 @@ msgstr "制表环境提供了按列排列文本的方法。\n"
 #: kilestdactions.cpp:79
 #, kde-format
 msgid "Tabular - \\begin{tabular}"
-msgstr ""
+msgstr "表格——\\begin{tabular}"
 
 #: kilestdactions.cpp:79
 #, kde-format
@@ -7575,7 +7587,7 @@ msgstr "\\begin{tabular}[位置]{列格式}\n"
 #: kilestdactions.cpp:80
 #, kde-format
 msgid "Multicolumn Cells - \\multicolumn"
-msgstr ""
+msgstr "多列单元格——\\multicolumn"
 
 #: kilestdactions.cpp:80
 #, kde-format
@@ -9766,7 +9778,7 @@ msgstr "帮助(&H)"
 #: kileui.rc:510
 #, kde-format
 msgid "LaTeX Documentation"
-msgstr ""
+msgstr "LaTeX 文档"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: kileui.rc:525
@@ -9783,12 +9795,12 @@ msgstr "编辑"
 #: kileviewmanager.cpp:123
 #, kde-format
 msgid "Show Cursor Position in Viewer"
-msgstr ""
+msgstr "在查看器中显示光标位置"
 
 #: kileviewmanager.cpp:127
 #, kde-format
 msgid "Synchronize Cursor Position with Viewer"
-msgstr ""
+msgstr "使光标位置与查看器同步。"
 
 #: kileviewmanager.cpp:180
 #, kde-format
@@ -9833,37 +9845,37 @@ msgstr "快速预览数学(&Q)"
 #: kileviewmanager.cpp:1136
 #, kde-format
 msgid "Print Compiled Document..."
-msgstr ""
+msgstr "打印编译出的文档..."
 
 #: kileviewmanager.cpp:1142
 #, kde-format
 msgid "Print Preview For Compiled Document..."
-msgstr ""
+msgstr "显示编译出的文档的打印预览"
 
 #: livepreview.cpp:187
 #, kde-format
 msgid "Live Preview for Current Document or Project"
-msgstr ""
+msgstr "实时预览当前的文档或项目"
 
 #: livepreview.cpp:192
 #, kde-format
 msgid "Recompile Live Preview"
-msgstr ""
+msgstr "重新编译实时预览"
 
 #: livepreview.cpp:197
 #, kde-format
 msgid "Save Compiled Document..."
-msgstr ""
+msgstr "将编译出的文档保存..."
 
 #: livepreview.cpp:904
 #, kde-format
 msgid "Some documents could not be saved correctly"
-msgstr ""
+msgstr "无法保存部分文档"
 
 #: livepreview.cpp:910
 #, kde-format
 msgid "The document must have been saved before the live preview can be started"
-msgstr ""
+msgstr "您必须保存文档后才能开始实时预览"
 
 #: livepreview.cpp:936
 #, kde-format
@@ -9874,7 +9886,7 @@ msgstr ""
 #: livepreview.cpp:940
 #, kde-format
 msgid "Failed to create the subdirectory structure"
-msgstr ""
+msgstr "无法为子文件夹建立目录结构"
 
 #: livepreview.cpp:1400
 #, kde-format
@@ -10026,7 +10038,8 @@ msgstr ""
 #, kde-format
 msgid "Kile cannot start as a recent version the Okular library could not be found.\n\n"
 "Please install the Okular library before running Kile."
-msgstr ""
+msgstr "无法找到新版的 Okular 库，Kile 无法启动。\n\n"
+"请先安装 Okular 库后再运行 Kile。"
 
 #: main.cpp:178
 #, kde-format
@@ -10245,7 +10258,8 @@ msgstr "光标/范围插件"
 #, kde-format
 msgid "An error has occurred at line %1 during the execution of the script \"%2\":\n"
 "%3"
-msgstr ""
+msgstr "执行脚本“%2”时，第 %1 行发生了错误：\n"
+"%3"
 
 #: scripting/script.cpp:296
 #, kde-format
@@ -10265,12 +10279,12 @@ msgstr "版本错误"
 #: scriptmanager.cpp:106
 #, kde-format
 msgid "Cannot start the script: no view available"
-msgstr ""
+msgstr "无法启动脚本：无可用的视图"
 
 #: scriptmanager.cpp:106
 #, kde-format
 msgid "Script Error"
-msgstr ""
+msgstr "脚本出错"
 
 #: scriptmanager.cpp:486
 #, kde-format
@@ -10281,22 +10295,23 @@ msgstr "执行“%1”"
 #, kde-format
 msgid "Could not find a folder to save %1 to.\n"
 "Check whether you have a folder named \".kde\" with write permissions in your home folder."
-msgstr ""
+msgstr "无法找到用于保存 %1 的文件夹。\n"
+"请检查是否有主文件夹下“.kde”文件夹的写入权限。"
 
 #: templates.cpp:165
 #, kde-format
 msgid "Empty File"
-msgstr ""
+msgstr "空文件"
 
 #: templates.cpp:170
 #, kde-format
 msgid "Empty LaTeX File"
-msgstr ""
+msgstr "空 LaTeX 文件"
 
 #: templates.cpp:175
 #, kde-format
 msgid "Empty BibTeX File"
-msgstr ""
+msgstr "空 BibTeX 文件"
 
 #: tool_utils.cpp:61
 #, kde-format
@@ -10355,7 +10370,7 @@ msgstr "外观配置"
 #: widgets/appearanceconfigwidget.ui:29
 #, kde-format
 msgid "Show full path in window title"
-msgstr ""
+msgstr "在窗口标题栏中显示完整路径"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSplashScreen)
 #: widgets/appearanceconfigwidget.ui:36
@@ -10367,7 +10382,7 @@ msgstr "启动时显示启动画面"
 #: widgets/appearanceconfigwidget.ui:67
 #, kde-format
 msgid "Show in external window"
-msgstr ""
+msgstr "在新窗口中打开"
 
 #: widgets/codecompletionconfigwidget.cpp:53
 #, kde-format
@@ -10435,7 +10450,7 @@ msgstr "找不到文件"
 #: widgets/codecompletionconfigwidget.cpp:278
 #, kde-format
 msgid "Wordlist '%1' contains duplicate entries."
-msgstr ""
+msgstr "单词列表“%1”含有重复项"
 
 #: widgets/codecompletionconfigwidget.cpp:278
 #, kde-format
@@ -10446,7 +10461,7 @@ msgstr "自动补全"
 #: widgets/codecompletionconfigwidget.ui:23
 #, kde-format
 msgid "Auto completion for &LaTeX markup"
-msgstr ""
+msgstr "自动补全 &LaTeX 标记"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widgets/codecompletionconfigwidget.ui:37
@@ -10464,7 +10479,7 @@ msgstr "字母"
 #: widgets/codecompletionconfigwidget.ui:82
 #, kde-format
 msgid "A&uto completion for abbreviations"
-msgstr ""
+msgstr "自动补全缩写 (&u)"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_addFileButton)
 #: widgets/codecompletionconfigwidget.ui:133
@@ -10523,7 +10538,7 @@ msgstr "正在进行系统检查"
 #: widgets/configcheckerwidget.ui:32
 #, kde-format
 msgid "Checking if your TeX system is installed correctly..."
-msgstr ""
+msgstr "正在检查 TeX 系统是否被正确安装..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpResults)
 #: widgets/configcheckerwidget.ui:55
@@ -10547,13 +10562,13 @@ msgstr "自动使用 \\end{env} 来补全 \\begin{env}。"
 #: widgets/environmentconfigwidget.ui:57
 #, kde-format
 msgid "Automatic Indentation Inside Environments"
-msgstr ""
+msgstr "根据上下文自动缩进"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_envIndentation)
 #: widgets/environmentconfigwidget.ui:66
 #, kde-format
 msgid "Enable auto indentation of environments."
-msgstr ""
+msgstr "启用根据上下文自动缩进。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_envIndentation)
 #: widgets/environmentconfigwidget.ui:69
@@ -10577,7 +10592,7 @@ msgstr "使用空格而不是制表符来缩进"
 #: widgets/environmentconfigwidget.ui:88
 #, kde-format
 msgid "&Number of spaces:"
-msgstr ""
+msgstr "空格的数量 (&N)："
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_envIndentNumSpaces)
 #: widgets/environmentconfigwidget.ui:129
@@ -10641,19 +10656,19 @@ msgstr ""
 #: widgets/generalconfigwidget.ui:134
 #, kde-format
 msgid "File Clean-Up Details"
-msgstr ""
+msgstr "文件清理详情"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CleanUpAfterClose)
 #: widgets/generalconfigwidget.ui:143
 #, kde-format
 msgid "Automatically clean-up files after closing Kile"
-msgstr ""
+msgstr "关闭 Kile 后自动清理文件"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_WatchFileForDocumentViewer)
 #: widgets/generalconfigwidget.ui:165
 #, kde-format
 msgid "Reload document automatically after changes"
-msgstr ""
+msgstr "文档发生修改后，自动重新加载文档"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncConsoleDirWithTabs)
 #: widgets/generalconfigwidget.ui:175
@@ -10665,7 +10680,7 @@ msgstr ""
 #: widgets/generalconfigwidget.ui:182
 #, kde-format
 msgid "Let Kile process LyX commands sent by bibliography editors/viewers"
-msgstr ""
+msgstr "让 Kile 处理参考文献编辑器或查看器发送的 LyX 命令"
 
 #. i18n: ectx: property (text), widget (QLabel, m_tlResolution)
 #: widgets/graphicsconfigwidget.ui:29
@@ -10683,7 +10698,7 @@ msgstr ""
 #: widgets/graphicsconfigwidget.ui:61
 #, kde-format
 msgid "Bo&unding box:"
-msgstr ""
+msgstr "边框 (&u)："
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_boundingbox)
 #: widgets/graphicsconfigwidget.ui:80
@@ -10695,13 +10710,13 @@ msgstr "尝试从图片本身确定(&Y)"
 #: widgets/graphicsconfigwidget.ui:93
 #, kde-format
 msgid "(you have to install the ImageMagick package to use this option)"
-msgstr ""
+msgstr "(您必须安装 ImageMagick 软件包后才能使用此选项)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_tlImageMagick)
 #: widgets/graphicsconfigwidget.ui:103
 #, kde-format
 msgid "ImageMagick:"
-msgstr ""
+msgstr "ImageMagick："
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_gbContextHelp)
 #: widgets/helpconfigwidget.ui:32
@@ -10713,13 +10728,13 @@ msgstr ""
 #: widgets/helpconfigwidget.ui:41
 #, kde-format
 msgid "&Use the LaTeX2e unofficial reference manual"
-msgstr ""
+msgstr "使用非官方的 LaTeX2e 参考手册 (&U)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_kilerefs)
 #: widgets/helpconfigwidget.ui:51
 #, kde-format
 msgid "Use &Kile's LaTeX reference"
-msgstr ""
+msgstr "使用 &Kile 的 LaTeX 参考手册"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbConfigure)
 #: widgets/helpconfigwidget.ui:97
@@ -10737,7 +10752,7 @@ msgstr "配置..."
 #: widgets/latexconfigwidget.ui:50
 #, kde-format
 msgid "Configure LaTeX environments and commands"
-msgstr ""
+msgstr "配置 LaTeX 环境和命令"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_bgQuotes)
 #: widgets/latexconfigwidget.ui:71
@@ -10749,7 +10764,7 @@ msgstr "双引号"
 #: widgets/latexconfigwidget.ui:80
 #, kde-format
 msgid "Automatically insert opening and closing double &quotes for LaTeX"
-msgstr ""
+msgstr "为 LaTeX 自动插入一对双引号 (&q)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_tlType)
 #. i18n: ectx: property (text), widget (QLabel, m_lbType)
@@ -10792,37 +10807,37 @@ msgstr "环境变量"
 #: widgets/latexconfigwidget.ui:201
 #, kde-format
 msgid "TE&XINPUTS:"
-msgstr ""
+msgstr "TE&XINPUTS:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_bibinputpath)
 #: widgets/latexconfigwidget.ui:220
 #, kde-format
 msgid "BIBINP&UTS:"
-msgstr ""
+msgstr "BIBINP&UTS:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_bstinputpath)
 #: widgets/latexconfigwidget.ui:239
 #, kde-format
 msgid "B&STINPUTS:"
-msgstr ""
+msgstr "B&STINPUTS:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_ckRootDoc)
 #: widgets/latextoolconfigwidget.ui:35
 #, kde-format
 msgid "Check if root document is a LaTeX root before running LaTeX on it"
-msgstr ""
+msgstr "在根文档上运行 LaTeX 前，检查此文档是否为 LaTeX 根文档"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_ckRootDoc)
 #: widgets/latextoolconfigwidget.ui:38
 #, kde-format
 msgid "Check if &root document"
-msgstr ""
+msgstr "检查是否为根文档 (&r)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_ckJump)
 #: widgets/latextoolconfigwidget.ui:45
 #, kde-format
 msgid "Jump to first error in case running LaTeX failed"
-msgstr ""
+msgstr "运行 LaTeX 出错时，跳转到第一个错误"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_ckJump)
 #: widgets/latextoolconfigwidget.ui:48
@@ -10834,13 +10849,13 @@ msgstr "跳至第一个错误(&J)"
 #: widgets/latextoolconfigwidget.ui:55
 #, kde-format
 msgid "Automatically run Asymptote, BibTeX, MakeIndex and rerun LaTeX when necessary"
-msgstr ""
+msgstr "自动运行 Asimptote，BibTeX 和 MakeIndex，并在必要时重新运行 LaTeX"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_ckAutoRun)
 #: widgets/latextoolconfigwidget.ui:58
 #, kde-format
 msgid "Automatically run additional tools"
-msgstr ""
+msgstr "自动运行附加工具"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KileWidgetLivePreviewConfig)
 #: widgets/livepreviewconfigwidget.ui:14
@@ -10858,7 +10873,7 @@ msgstr "启用实时预览(&L)"
 #: widgets/livepreviewconfigwidget.ui:41
 #, kde-format
 msgid "Enable live preview for newly-opened documents"
-msgstr ""
+msgstr "为刚打开的文档提供实时预览。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_compileBehaviorGroupBox)
 #: widgets/livepreviewconfigwidget.ui:48
@@ -10876,7 +10891,7 @@ msgstr "保存后编译文档(&U)"
 #: widgets/livepreviewconfigwidget.ui:63
 #, kde-format
 msgid "Compile documents whenever &there are changes after"
-msgstr ""
+msgstr "文档发生修改后就进行编译 (&t)"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_livePreviewCompilationDelay)
 #: widgets/livepreviewconfigwidget.ui:70
@@ -10911,7 +10926,7 @@ msgstr "新建..."
 #: widgets/maintoolconfigwidget.ui:130
 #, kde-format
 msgid "Choose a configuration for the current tool"
-msgstr ""
+msgstr "为当前工具选择一份配置"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbConfig)
 #: widgets/maintoolconfigwidget.ui:159
@@ -10935,7 +10950,7 @@ msgstr "类(&L)："
 #: widgets/maintoolconfigwidget.ui:408
 #, kde-format
 msgid "Source e&xtension:"
-msgstr ""
+msgstr "源拓展 (&x)："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbTarget)
 #: widgets/maintoolconfigwidget.ui:431
@@ -10959,7 +10974,7 @@ msgstr "相对目录(&R)："
 #: widgets/maintoolconfigwidget.ui:508
 #, kde-format
 msgid "Close Konsole when tool is finished"
-msgstr ""
+msgstr "当工具执行完成后关闭 Konsole"
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
 #: widgets/maintoolconfigwidget.ui:531
@@ -10971,7 +10986,7 @@ msgstr "菜单"
 #: widgets/maintoolconfigwidget.ui:554
 #, kde-format
 msgid "Add &tool to Build menu:"
-msgstr ""
+msgstr "将工具添加到构建菜单："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbIcon)
 #: widgets/maintoolconfigwidget.ui:577
@@ -10989,7 +11004,7 @@ msgstr "恢复默认工具..."
 #: widgets/newdocumentwidget.ui:38
 #, kde-format
 msgid "Please select the type of document you want to create:"
-msgstr ""
+msgstr "请选择要创建的文档类型："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: widgets/newdocumentwidget.ui:74
@@ -11007,7 +11022,7 @@ msgstr "请选择要使用的模板："
 #: widgets/newdocumentwidget.ui:93
 #, kde-format
 msgid "Start the Quick Start wizard when creating an empty LaTeX file"
-msgstr ""
+msgstr "创建空 LaTeX 文件时启动快速开始向导"
 
 #: widgets/previewconfigwidget.cpp:50
 #, kde-format
@@ -11148,7 +11163,21 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;\"></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%res:</span> resolution of the quickpreview action set in configure kile-&gt;tools-&gt;preview</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%AFL</span>: List of all files in a project marked for archiving. Set the archive flag in the \"Files and projects\" sidebar using the context menu.</p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">检测到文件  <span style=\" font-style:italic;\">我最爱的书籍.tex</span> 的完整路径为 <span style=\" font-style:italic;\">/home/archimedes/latex/</span><span style=\" font-style:italic;\">我最爱的书籍.tex</span>，将使用 pdflatex 编译为 <span style=\" font-style:italic;\">我最爱的书籍.pdf</span>。</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">这些变量有着以下含义：</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%source</span>：有扩展名的文件名，但不包含路径 &lt;-&gt; <span style=\" font-style:italic;\">我最爱的书籍.tex</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%S</span>：无扩展名的文件名，但不包含路径 &lt;-&gt; <span style=\" font-style:italic;\">我最爱的书籍</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%dir_base</span>：无文件名的源文件路径 &lt;-&gt; <span style=\" font-style:italic;\"> /home/archimedes/latex</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\">%dir_target<span style=\" font-weight:400;\">：无文件名的目标文件路径。如未设定相对路径，此项则与 %dir_base 相同 &lt;-&gt; </span><span style=\" font-weight:400; font-style:italic;\">/home/archimedes/latex</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%target</span>：目标文件的文件名，但不包含路径 &lt;-&gt; <span style=\" font-style:italic;\">我最爱的书籍.pdf</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%res</span>：在配置 kile-&gt;工具-&gt;预览中设定的快速预览的分辨率</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">%AFL</span>：项目中被标为归档的文件的列表，您可在“文件与项目”的侧栏中使用右键菜单来将文件标记为归档。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbOptions)
 #: widgets/processtoolconfigwidget.ui:83
@@ -11276,7 +11305,7 @@ msgstr "执行时间限制"
 #: widgets/scriptingconfigwidget.ui:67
 #, kde-format
 msgid "&Limit the execution time of scripts"
-msgstr ""
+msgstr "脚本执行时间限制 (&L)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: widgets/scriptingconfigwidget.ui:85
@@ -11453,7 +11482,7 @@ msgstr "显示 bibitem"
 #: widgets/structureviewconfigwidget.ui:172
 #, kde-format
 msgid "Open bibitems item"
-msgstr ""
+msgstr "打开参考文件项目"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SvShowTodo)
 #: widgets/structureviewconfigwidget.ui:179
@@ -11471,7 +11500,7 @@ msgstr "打开 TODO/FIXME"
 #: widgets/structureviewconfigwidget.ui:193
 #, kde-format
 msgid "Show figure and table en&vironments"
-msgstr ""
+msgstr "显示插图和表格环境 (&v)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SvShowGraphics)
 #: widgets/structureviewconfigwidget.ui:200
@@ -11495,13 +11524,13 @@ msgstr ""
 #: widgets/structureviewconfigwidget.ui:229
 #, kde-format
 msgid "Default Graphic Extension:"
-msgstr ""
+msgstr "默认的图像扩展名："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_SvDefaultGraphicExt)
 #: widgets/structureviewconfigwidget.ui:236
 #, kde-format
 msgid "Extension to use for graphic files without extensions"
-msgstr ""
+msgstr "在打开无扩展名的图像文件时使用的扩展名"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SvDefaultGraphicExt)
 #: widgets/structureviewconfigwidget.ui:243
@@ -11590,12 +11619,12 @@ msgstr "无法创建列表视图条目：未找到父条目。"
 #: widgets/structurewidget.cpp:687
 #, kde-format
 msgid "No extension specified for graphic file.  Using .%1 from Project settings."
-msgstr ""
+msgstr "此图像文件没有扩展名，使用项目设置中的 .%1 代替。"
 
 #: widgets/structurewidget.cpp:688
 #, kde-format
 msgid "No extension specified for graphic file.  Using .%1 from global Structure View settings."
-msgstr ""
+msgstr "此图像文件没有扩展名，使用全局结构视图设置中的 .%1 代替。"
 
 #: widgets/structurewidget.cpp:689
 #, kde-format
@@ -11734,7 +11763,7 @@ msgstr "Unicode"
 #: widgets/symbolviewconfigwidget.ui:103
 #, kde-format
 msgid "Insert Unicode representation of the selected symbol (when available)"
-msgstr ""
+msgstr "如有可能，插入所选符号的 Unicode 字符"
 
 #: widgets/toolconfigwidget.cpp:110
 #, kde-format
@@ -11772,13 +11801,13 @@ msgstr "未知工具类别；您的配置数据不恰当。\n"
 #, kde-format
 msgid "All your tool settings will be overwritten with the default settings.\n"
 "Are you sure you want to continue?"
-msgstr "您所有关于的工具设置将被默认设置覆盖。\n"
+msgstr "所有关于工具的设置将被默认设置覆盖。\n"
 "确定继续么？"
 
 #: widgets/toolconfigwidget.cpp:338
 #, kde-format
 msgid "Choose a configuration for the tool %1"
-msgstr ""
+msgstr "为工具 %1 选择一份配置"
 
 #: widgets/toolconfigwidget.cpp:408
 #, kde-format
@@ -11837,11 +11866,11 @@ msgstr "位置"
 #: widgets/usermenuconfigwidget.ui:161
 #, kde-format
 msgid "Show &the user menu in the LaTeX menu"
-msgstr ""
+msgstr "在 LaTeX 菜单中显示用户菜单 (&t)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_rbStandAloneMenuLocation)
 #: widgets/usermenuconfigwidget.ui:177
 #, kde-format
 msgid "Show the &user menu in the menu bar"
-msgstr ""
+msgstr "在菜单栏中显示用户菜单 (&u)"
 
