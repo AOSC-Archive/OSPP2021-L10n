@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-21 00:25+0000\n"
+"PO-Revision-Date: 2021-07-24 08:31\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/amarok/amarok._desktop_.pot\n"
+"X-Crowdin-File-ID: 8424\n"
+"Language: zh_CN\n"
+
+#: data/amarok.notifyrc:4
+msgctxt "Comment"
+msgid "Amarok"
+msgstr "Amarok"
+
+#: data/amarok.notifyrc:58
+msgctxt "Name"
+msgid "Track Change"
+msgstr "换歌"
+
+#: data/amarok.notifyrc:106
+msgctxt "Comment"
+msgid "Amarok changed to a new track"
+msgstr "Amarok 已切换歌曲"
+
+#: data/amarok.notifyrc:158
+msgctxt "Name"
+msgid "Message"
+msgstr "消息"
+
+#: data/amarok.notifyrc:204
+msgctxt "Comment"
+msgid "Amarok issued an uncategorized text message"
+msgstr "Amarok 发出了一条未分类的文字消息"
+
+#: playground/src/context/applets/coverbling/amarok-context-applet-coverbling.desktop:2
+msgctxt "Name"
+msgid "CoverBling"
+msgstr "闪亮封面"
+
+#: playground/src/context/applets/covergrid/amarok-context-applet-covergrid.desktop:3
+msgctxt "Name"
+msgid "CoverGrid"
+msgstr "网格封面"
+
+#: src/amarok_addaspodcast.desktop:7
+msgctxt "Name"
+msgid "Add as Podcast to Amarok"
+msgstr "作为播客添加到 Amarok 中"
+
+#: src/amarok_append.desktop:5
+msgctxt "X-KDE-Submenu"
+msgid "Amarok"
+msgstr "Amarok"
+
+#: src/amarok_append.desktop:71
+msgctxt "Name"
+msgid "Append to Playlist"
+msgstr "添加到播放列表尾部"
+
+#: src/amarok_append.desktop:133
+msgctxt "Name"
+msgid "Append & Play"
+msgstr "添加并播放"
+
+#: src/amarok_append.desktop:195
+msgctxt "Name"
+msgid "Queue Track"
+msgstr "歌曲队列"
+
+#: src/amarok-contextapplet.desktop:4 src/amarok-plugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for Amarok"
+msgstr "Amarok 插件"
+
+#: src/amarok-play-audiocd.desktop:8
+msgctxt "Name"
+msgid "Play Audio CD with Amarok"
+msgstr "使用 Amarok 播放该音频 CD"
+
+#: src/context/applets/albums/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Albums"
+msgstr "专辑"
+
+#: src/context/applets/albums/package/metadata.desktop:69
+msgctxt "Comment"
+msgid "Album cover manager for Amarok"
+msgstr "Amarok 专辑封面管理器"
+
+#: src/context/applets/analyzer/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Analyzer"
+msgstr "频谱"
+
+#: src/context/applets/analyzer/package/metadata.desktop:45
+msgctxt "Comment"
+msgid "Analyzer applet for Amarok"
+msgstr "Amarok 的频谱部件"
+
+#: src/context/applets/currenttrack/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Current Track"
+msgstr "当前曲目"
+
+#: src/context/applets/currenttrack/package/metadata.desktop:59
+msgctxt "Comment"
+msgid "Current track applet for Amarok"
+msgstr "Amarok 的当前曲目部件"
+
+#: src/context/applets/info/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Info"
+msgstr "信息"
+
+#: src/context/applets/labels/amarok-context-applet-labels.desktop:2
+msgctxt "Name"
+msgid "Labels"
+msgstr "标签"
+
+#: src/context/applets/lyrics/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Lyrics"
+msgstr "歌词"
+
+#: src/context/applets/lyrics/package/metadata.desktop:62
+msgctxt "Comment"
+msgid "Lyrics applet for Amarok"
+msgstr "Amarok 的歌词部件"
+
+#: src/context/applets/photos/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Photos"
+msgstr "照片"
+
+#: src/context/applets/photos/package/metadata.desktop:62
+msgctxt "Comment"
+msgid "Photos applet for Amarok"
+msgstr "Amarok 的照片部件"
+
+#: src/context/applets/playlistinfo/amarok-context-applet-playlistinfo.desktop:2
+msgctxt "Name"
+msgid "Playlist Information"
+msgstr "播放列表信息"
+
+#: src/context/applets/similarartists/amarok-context-applet-similarArtists.desktop:2
+msgctxt "Name"
+msgid "Similar Artists"
+msgstr "相似艺术家"
+
+#: src/context/applets/songkick/amarok-context-applet-songkick.desktop:2
+msgctxt "Name"
+msgid "Songkick"
+msgstr "Songkick"
+
+#: src/context/applets/tabs/amarok-context-applet-tabs.desktop:2
+msgctxt "Name"
+msgid "Tabs"
+msgstr "标签页"
+
+#: src/context/applets/upcomingevents/amarok-context-applet-upcomingEvents.desktop:2
+msgctxt "Name"
+msgid "Upcoming Events"
+msgstr "临近事件"
+
+#: src/context/applets/wikipedia/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: src/context/applets/wikipedia/package/metadata.desktop:62
+msgctxt "Comment"
+msgid "Wikipedia applet for Amarok"
+msgstr "Amarok 的维基百科部件"
+
+#: src/context/context_qml_package/metadata.desktop:2
+msgctxt "Name"
+msgid "Amarok-Context-QML-Package"
+msgstr "Amarok 右键菜单的 QML 包"
+
+#: src/context/context_qml_package/metadata.desktop:31
+msgctxt "Comment"
+msgid "QML base package for amarok context area"
+msgstr "amarok 右键菜单区域的 QML 基础包"
+
+#: src/context/engines/labels/amarok-data-engine-labels.desktop:2
+msgctxt "Name"
+msgid "Labels Data Engine"
+msgstr "标签数据引擎"
+
+#: src/context/engines/similarartists/amarok-data-engine-similarArtists.desktop:2
+#: src/context/engines/upcomingevents/amarok-data-engine-upcomingEvents.desktop:2
+msgctxt "Name"
+msgid "Upcoming Events Data Engine"
+msgstr "临近事件数据引擎"
+
+#: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
+msgctxt "Name"
+msgid "Songkick Data Engine"
+msgstr "Songkick 数据引擎"
+
+#: src/context/engines/tabs/amarok-data-engine-tabs.desktop:2
+msgctxt "Name"
+msgid "Tabs Data Engine"
+msgstr "标签数据引擎"
+
+#: src/context/servicetypes/amarok_containment.desktop:5
+msgctxt "Comment"
+msgid "Plasma applet container and background painter"
+msgstr "Plasma 的部件容器和背景绘制器"
+
+#: src/context/servicetypes/amarok_context_applet.desktop:5
+msgctxt "Comment"
+msgid "Amarok Context applet"
+msgstr "Amarok 部件右键菜单"
+
+#: src/core-impl/collections/audiocd/amarok_collection-audiocdcollection.desktop:4
+msgctxt "Name"
+msgid "AudioCd Collection"
+msgstr "音频 CD 集"
+
+#: src/core-impl/collections/audiocd/amarok_collection-audiocdcollection.desktop:55
+msgctxt "Comment"
+msgid "AudioCd collection plugin for Amarok"
+msgstr "Amarok 的音频 CD 集插件"
+
+#: src/core-impl/collections/daap/amarok_collection-daapcollection.desktop:4
+msgctxt "Name"
+msgid "DAAP Collection"
+msgstr "DAAP 音频集"
+
+#: src/core-impl/collections/daap/amarok_collection-daapcollection.desktop:61
+msgctxt "Comment"
+msgid "DAAP collection plugin for Amarok"
+msgstr "Amarok 的 DAAP 音频集插件"
+
+#: src/core-impl/collections/db/sql/mysqlcollection/amarok_collection-mysqlcollection.desktop:4
+msgctxt "Name"
+msgid "MySQL Collection"
+msgstr "MySQL 音频集"
+
+#: src/core-impl/collections/db/sql/mysqlcollection/amarok_collection-mysqlcollection.desktop:39
+msgctxt "Comment"
+msgid "Collection plugin for Amarok"
+msgstr "Amarok 的音频集插件"
+
+#: src/core-impl/collections/ipodcollection/amarok_collection-ipodcollection.desktop:4
+msgctxt "Name"
+msgid "iPod, iPad & iPhone Collection"
+msgstr "iPod、iPad 和 iPhone 音频集"
+
+#: src/core-impl/collections/ipodcollection/amarok_collection-ipodcollection.desktop:47
+msgctxt "Comment"
+msgid "Plugin to use iPod-like devices as collections in Amarok"
+msgstr "在 Amarok 中将 iPod 类设备作为音频集的插件"
+
+#: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:4
+msgctxt "Name"
+msgid "Media Device Collection"
+msgstr "媒体设备集"
+
+#: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:59
+msgctxt "Comment"
+msgid "Media Device collection plugin for Amarok"
+msgstr "Amarok 的媒体设备集插件"
+
+#: src/core-impl/collections/mtpcollection/amarok_collection-mtpcollection.desktop:4
+msgctxt "Name"
+msgid "MTP Collection"
+msgstr "MTP 音频集"
+
+#: src/core-impl/collections/mtpcollection/amarok_collection-mtpcollection.desktop:59
+msgctxt "Comment"
+msgid "MTP collection plugin for Amarok"
+msgstr "Amarok 的 MTP 音频集插件"
+
+#: src/core-impl/collections/playdarcollection/amarok_collection-playdarcollection.desktop:4
+msgctxt "Name"
+msgid "Playdar Collection"
+msgstr "Playdar 音频集"
+
+#: src/core-impl/collections/playdarcollection/amarok_collection-playdarcollection.desktop:49
+msgctxt "Comment"
+msgid "Music that Playdar can find"
+msgstr "Playdar 内可找到的音乐"
+
+#: src/core-impl/collections/umscollection/amarok_collection-umscollection.desktop:4
+msgctxt "Name"
+msgid "Universal Mass Storage Collection"
+msgstr "通用大容量储存设备音频集"
+
+#: src/core-impl/collections/upnpcollection/amarok_collection-upnpcollection.desktop:4
+msgctxt "Name"
+msgid "UPnP Collection"
+msgstr "UPnP 音频集"
+
+#: src/core-impl/collections/upnpcollection/amarok_collection-upnpcollection.desktop:59
+msgctxt "Comment"
+msgid "UPnP collection plugin for Amarok"
+msgstr "Amarok 的 UPnP 音频集插件"
+
+#: src/core-impl/storage/sql/mysqlestorage/amarok_storage-mysqlestorage.desktop:4
+msgctxt "Name"
+msgid "MySQLe Storage"
+msgstr "MySQLe 存储"
+
+#: src/core-impl/storage/sql/mysqlestorage/amarok_storage-mysqlestorage.desktop:39
+#: src/core-impl/storage/sql/mysqlserverstorage/amarok_storage-mysqlserverstorage.desktop:39
+msgctxt "Comment"
+msgid "Storage plugin for Amarok"
+msgstr "Amarok 的存储插件"
+
+#: src/core-impl/storage/sql/mysqlserverstorage/amarok_storage-mysqlserverstorage.desktop:4
+msgctxt "Name"
+msgid "MySQLServer Storage"
+msgstr "MySQLServer 存储"
+
+#: src/importers/amarok/amarok_importer-amarok.desktop:4
+msgctxt "Name"
+msgid "Amarok 2.x Importer"
+msgstr "Amarok 2.x 导入工具"
+
+#: src/importers/amarok/amarok_importer-amarok.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Amarok 2.x database"
+msgstr "从 Amarok 2.x 数据库中导入统计数据"
+
+#: src/importers/banshee/amarok_importer-banshee.desktop:4
+msgctxt "Name"
+msgid "Banshee Importer"
+msgstr "Banshee 导入工具"
+
+#: src/importers/banshee/amarok_importer-banshee.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Banshee database"
+msgstr "从 Banshee 数据库中导入统计数据"
+
+#: src/importers/clementine/amarok_importer-clementine.desktop:4
+msgctxt "Name"
+msgid "Clementine Importer"
+msgstr "Clementine 导入工具"
+
+#: src/importers/clementine/amarok_importer-clementine.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Clementine database"
+msgstr "从 Clementine 数据库中导入统计数据"
+
+#: src/importers/fastforward/amarok_importer-fastforward.desktop:4
+msgctxt "Name"
+msgid "Amarok 1.4 (FastForward) Importer"
+msgstr "Amarok 1.4 (快进合并版) 导入工具"
+
+#: src/importers/fastforward/amarok_importer-fastforward.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Amarok 1.4 database"
+msgstr "从 Amarok 1.4 数据库中导入统计数据"
+
+#: src/importers/itunes/amarok_importer-itunes.desktop:4
+msgctxt "Name"
+msgid "Apple iTunes Importer"
+msgstr "Apple iTunes 导入工具"
+
+#: src/importers/itunes/amarok_importer-itunes.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Apple iTunes database"
+msgstr "从 Apple iTunes 数据库中导入统计数据"
+
+#: src/importers/rhythmbox/amarok_importer-rhythmbox.desktop:4
+msgctxt "Name"
+msgid "Rhythmbox Importer"
+msgstr "Rhythmbox 导入工具"
+
+#: src/importers/rhythmbox/amarok_importer-rhythmbox.desktop:41
+msgctxt "Comment"
+msgid "Import statistics from Rhythmbox database"
+msgstr "从 Rhythmbox 数据库中导入统计数据"
+
+#: src/org.kde.amarok_containers.desktop:4 src/org.kde.amarok.desktop:4
+msgctxt "Name"
+msgid "Amarok"
+msgstr "Amarok"
+
+#: src/org.kde.amarok_containers.desktop:67 src/org.kde.amarok.desktop:67
+msgctxt "GenericName"
+msgid "Audio Player"
+msgstr "音频播放器"
+
+#: src/org.kde.amarok_containers.desktop:130 src/org.kde.amarok.desktop:131
+msgctxt "Comment"
+msgid "Amarok - Rediscover Your Music!"
+msgstr "Amarok——重新探索您的音乐！"
+
+#: src/org.kde.amarok_containers.desktop:193 src/org.kde.amarok.desktop:195
+msgctxt "X-KDE-Keywords"
+msgid "music,podcast"
+msgstr "music,podcast,音乐,播客"
+
+#: src/scripting/scripts/librivox_service/script.desktop:6
+msgctxt "Name"
+msgid "Librivox.org"
+msgstr "Librivox.org"
+
+#: src/scripting/scripts/librivox_service/script.desktop:42
+msgctxt "Comment"
+msgid "A scripted service that lets you search, stream and download free, public domain, audio books from Librivox.org"
+msgstr "一个供您搜索、串流并下载 Librivox.org 上自由的、公有领域的有声书的脚本服务"
+
+#: src/scripting/scripts/radio_station_service/script.desktop:6
+msgctxt "Name"
+msgid "Cool Streams"
+msgstr "Cool Streams"
+
+#: src/scripting/scripts/radio_station_service/script.desktop:41
+msgctxt "Comment"
+msgid "A script that sets up a service with a few cool internet radio stations"
+msgstr "一个能让您收听一些很酷的互联网电台服务的脚本"
+
+#: src/scripting/scripts/script_console/script.desktop:6
+msgctxt "Name"
+msgid "Amarok Script Console"
+msgstr "Amarok 脚本控制台"
+
+#: src/scripting/scripts/script_console/script.desktop:41
+msgctxt "Comment"
+msgid "Amarok Script Console"
+msgstr "Amarok 脚本控制台"
+
+#: src/services/ampache/amarok_service_ampache_config.desktop:10
+msgctxt "Name"
+msgid "Ampache Service Config"
+msgstr "Ampache 服务配置"
+
+#: src/services/ampache/amarok_service_ampache_config.desktop:62
+msgctxt "Comment"
+msgid "Sets up the ampache server(s) to connect to"
+msgstr "设置要连接的 Ampache 服务器"
+
+#: src/services/ampache/amarok_service_ampache.desktop:4
+msgctxt "Name"
+msgid "Ampache"
+msgstr "Ampache"
+
+#: src/services/ampache/amarok_service_ampache.desktop:56
+msgctxt "Comment"
+msgid "Listen to music from an Ampache server"
+msgstr "在 Ampache 服务器上听音乐"
+
+#: src/services/gpodder/amarok_service_gpodder_config.desktop:11
+msgctxt "Name"
+msgid "gpodder.net Service Config"
+msgstr "gpodder.net 服务配置"
+
+#: src/services/gpodder/amarok_service_gpodder_config.desktop:53
+msgctxt "Comment"
+msgid "Configure gpodder.net Credentials"
+msgstr "配置 gpodder.net 的登录信息"
+
+#: src/services/gpodder/amarok_service_gpodder.desktop:4
+msgctxt "Name"
+msgid "gpodder.net"
+msgstr "gpodder.net"
+
+#: src/services/gpodder/amarok_service_gpodder.desktop:49
+msgctxt "Comment"
+msgid "Podcast Service"
+msgstr "播客服务"
+
+#: src/services/jamendo/amarok_service_jamendo.desktop:4
+msgctxt "Name"
+msgid "Jamendo"
+msgstr "Jamendo"
+
+#: src/services/jamendo/amarok_service_jamendo.desktop:60
+msgctxt "Comment"
+msgid "Listen to and download music uploaded by independent artists"
+msgstr "聆听并下载由独立艺术家上传的音乐"
+
+#: src/services/lastfm/amarok_service_lastfm_config.desktop:11
+msgctxt "Name"
+msgid "Last.fm Service Config"
+msgstr "Last.fm 服务配置"
+
+#: src/services/lastfm/amarok_service_lastfm_config.desktop:66
+msgctxt "Comment"
+msgid "Set up Last.fm username and password"
+msgstr "设置 Last.fm 的用户名和密码"
+
+#: src/services/lastfm/amarok_service_lastfm.desktop:4
+msgctxt "Name"
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: src/services/lastfm/amarok_service_lastfm.desktop:57
+msgctxt "Comment"
+msgid "A service that integrates Last.fm functionality into Amarok"
+msgstr "一个将 Last.fm 的功能集成到 Amarok 的服务"
+
+#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:11
+msgctxt "Name"
+msgid "MagnatuneStore Service Config"
+msgstr "Magnatune 商店服务配置"
+
+#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:63
+msgctxt "Comment"
+msgid "Configure Magnatune store settings and memberships credentials"
+msgstr "配置 Magnatune 商店的设置和会员信息"
+
+#: src/services/magnatune/amarok_service_magnatunestore.desktop:4
+msgctxt "Name"
+msgid "Magnatune Store"
+msgstr "Magnatune 商店"
+
+#: src/services/magnatune/amarok_service_magnatunestore.desktop:60
+msgctxt "Comment"
+msgid "Preview and buy music from the non-evil Magnatune record label"
+msgstr "从不作恶的 Magnatune 唱片品牌中浏览并购买音乐"
+
+#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:11
+msgctxt "Name"
+msgid "MP3tunes Service Config"
+msgstr "MP3tunes 服务配置"
+
+#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:57
+msgctxt "Comment"
+msgid "Configure mp3tunes credentials"
+msgstr "配置 mp3tunes 的登录信息"
+
+#: src/services/mp3tunes/amarok_service_mp3tunes.desktop:4
+msgctxt "Name"
+msgid "MP3tunes"
+msgstr "MP3tunes"
+
+#: src/services/mp3tunes/amarok_service_mp3tunes.desktop:50
+msgctxt "Comment"
+msgid "Browse and listen to the music stored in your MP3tunes account"
+msgstr "查看并聆听储存在 MP3tunes 账号中的音乐"
+
+#: src/services/opmldirectory/amarok_service_opmldirectory.desktop:4
+msgctxt "Name"
+msgid "Podcast Directory"
+msgstr "播客目录"
+
+#: src/services/opmldirectory/amarok_service_opmldirectory.desktop:54
+msgctxt "Comment"
+msgid "Browse and subscribe to a huge list of podcasts"
+msgstr "查看并订阅内含大量播客的列表"
+
