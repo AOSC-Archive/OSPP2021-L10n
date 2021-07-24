@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2020-12-08 02:27+0100\n"
+"PO-Revision-Date: 2021-07-24 14:51\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/amarok/org.kde.amarok.appdata.pot\n"
+"X-Crowdin-File-ID: 6991\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.amarok.appdata.xml:5
+msgid "Amarok"
+msgstr "Amarok"
+
+#. (itstool) path: component/summary
+#: org.kde.amarok.appdata.xml:6
+msgid "A powerful music player that lets you rediscover your music"
+msgstr "一个强大到让您重新发现音乐之美的播放器"
+
+#. (itstool) path: description/p
+#: org.kde.amarok.appdata.xml:8
+msgid "Amarok is a free, cross-platform, versatile, powerful and feature-rich music player and collection manager."
+msgstr "Amarok 是一个自由、跨平台、多用途、强大且多功能的音乐播放器及音频集管理器。"
+
+#. (itstool) path: description/p
+#: org.kde.amarok.appdata.xml:9
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:11
+msgid "Dynamic playlists matching different criteria"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:12
+msgid "Collection managing with rating support"
+msgstr "支持评分的音乐集管理器"
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:13
+msgid "Support for basic iPod, MTP and UMS music player devices"
+msgstr "支持基础款 iPod、MTP、UMP 的音乐播放器"
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:14
+msgid "Integrated Internet services: last.fm, Magnatune, Jamendo, Ampache, mp3tunes and more."
+msgstr "集成互联网服务：last.fm、Magnatune、Jamendo、Ampache 和 mp3tunes 等。"
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:15
+msgid "Scripting support"
+msgstr "支持脚本"
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:16
+msgid "Cover manager"
+msgstr "专辑封面管理器"
+
+#. (itstool) path: ul/li
+#: org.kde.amarok.appdata.xml:17
+msgid "Replay gain support"
+msgstr "支持回放增益"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.amarok.appdata.xml:25
+msgid "Playing music in Amarok"
+msgstr "Amarok 正在播放音乐"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.amarok.appdata.xml:29
+msgid "Amarok windows"
+msgstr "Amarok 的窗口界面"
+
