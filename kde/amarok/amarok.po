@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-07-26 03:40\n"
+"PO-Revision-Date: 2021-07-26 13:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1599,7 +1599,7 @@ msgstr ""
 #: amarokurls/ContextUrlGenerator.cpp:63
 #, kde-format
 msgid "Bookmark Context View Applets"
-msgstr ""
+msgstr "将信息视图部件加入书签"
 
 #: amarokurls/ContextUrlRunner.cpp:74
 #, kde-format
@@ -1642,7 +1642,7 @@ msgstr "艺人“%1”"
 #: MainWindow.cpp:778
 #, kde-format
 msgid "Bookmark Media Sources View"
-msgstr ""
+msgstr "将媒体源视图加入书签"
 
 #: amarokurls/NavigationUrlRunner.cpp:131
 #, kde-format
@@ -1653,7 +1653,7 @@ msgstr "导航"
 #: amarokurls/PlayUrlGenerator.cpp:103
 #, kde-format
 msgid "Bookmark Track Position"
-msgstr ""
+msgstr "将歌曲时间位置加入书签"
 
 #: amarokurls/PlayUrlRunner.cpp:86
 #, kde-format
@@ -1775,22 +1775,22 @@ msgstr "系统设置中已设定了一个音乐路径 %1。\n"
 #: browsers/BrowserBreadcrumbItem.cpp:70
 #, kde-format
 msgid "Media Sources Home"
-msgstr ""
+msgstr "媒体源主页"
 
 #: browsers/BrowserCategoryList.cpp:53
 #, kde-format
 msgid "Filter Music Sources"
-msgstr ""
+msgstr "过滤音乐源"
 
 #: browsers/BrowserDock.cpp:34
 #, kde-format
 msgid "&Media Sources"
-msgstr ""
+msgstr "媒体源 (&M)"
 
 #: browsers/BrowserDock.cpp:74
 #, kde-format
 msgid "Go Up in Media Sources Pane"
-msgstr ""
+msgstr "在媒体源面板中返回上一层"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:147
 #, kde-format
@@ -1836,28 +1836,28 @@ msgstr " / "
 #: browsers/collectionbrowser/CollectionWidget.cpp:211
 #, kde-format
 msgid "First Level"
-msgstr ""
+msgstr "第一层"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:212
 #, kde-format
 msgid "Second Level"
-msgstr ""
+msgstr "第二层"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:213
 #, kde-format
 msgid "Third Level"
-msgstr ""
+msgstr "第三层"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:247
 #, kde-format
 msgid "Show Years"
-msgstr ""
+msgstr "显示年份"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:252
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Track Numbers"
-msgstr ""
+msgstr "显示音轨编号"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:257
 #, kde-format
@@ -1868,7 +1868,7 @@ msgstr "显示封面"
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:87
 #, kde-format
 msgid "Merged View"
-msgstr ""
+msgstr "混合视图"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:271
 #: services/jamendo/JamendoService.cpp:161
@@ -1928,7 +1928,7 @@ msgstr "相册"
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #, kde-format
 msgid "Year - Album"
-msgstr ""
+msgstr "年份 - 专辑"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1101
 #, kde-format
@@ -1999,7 +1999,7 @@ msgstr "将歌曲移到回收站"
 #: browsers/CollectionTreeView.cpp:420
 #, kde-format
 msgid "Delete Tracks"
-msgstr ""
+msgstr "删除歌曲"
 
 #: browsers/CollectionTreeView.cpp:698 services/lastfm/LastFmTreeView.cpp:185
 #, kde-format
@@ -2027,7 +2027,7 @@ msgstr "替换至播放列表 (&R)"
 #, kde-format
 msgctxt "Organize Files"
 msgid "Organize Files"
-msgstr ""
+msgstr "整理文件"
 
 #: browsers/CollectionTreeView.cpp:1164 browsers/filebrowser/FileView.cpp:424
 #, kde-format
@@ -2048,7 +2048,7 @@ msgstr "筛选文件"
 #: browsers/filebrowser/FileBrowser.cpp:219
 #, kde-format
 msgid "The file browser lets you browse files anywhere on your system, regardless of whether these files are part of your local collection. You can then add these files to the playlist as well as perform basic file operations."
-msgstr ""
+msgstr "文件浏览器可让您浏览系统内的、包含非本地音频集歌曲在内的所有文件。您既可以将这些文件添加到播放列表中，也可以进行基本的文件操作。"
 
 #: browsers/filebrowser/FileView.cpp:401
 #, kde-format
@@ -2093,42 +2093,42 @@ msgstr "播放列表自动生成器"
 #: browsers/playlistbrowser/APGCategory.cpp:47
 #, kde-format
 msgid "Create playlists by specifying criteria"
-msgstr ""
+msgstr "按指定条件创建播放列表"
 
 #: browsers/playlistbrowser/APGCategory.cpp:63
 #, kde-format
 msgid "Add new preset"
-msgstr ""
+msgstr "添加新预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:66
 #, kde-format
 msgid "Edit selected preset"
-msgstr ""
+msgstr "编辑选中的预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:71
 #, kde-format
 msgid "Delete selected preset"
-msgstr ""
+msgstr "删除选中的预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:76
 #, kde-format
 msgid "Import a new preset"
-msgstr ""
+msgstr "导入新预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:80
 #, kde-format
 msgid "Export the selected preset"
-msgstr ""
+msgstr "导出选中的预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:87
 #, kde-format
 msgid "Run APG with selected preset"
-msgstr ""
+msgstr "对选中的预设运行 APG"
 
 #: browsers/playlistbrowser/APGCategory.cpp:93
 #, kde-format
 msgid "APG Presets"
-msgstr ""
+msgstr "APG 预设"
 
 #: browsers/playlistbrowser/APGCategory.cpp:107
 #, kde-format
@@ -2149,7 +2149,7 @@ msgstr "准确度"
 #, kde-format
 msgctxt "Bias dialog window title"
 msgid "Edit bias"
-msgstr ""
+msgstr "编辑偏好"
 
 #: browsers/playlistbrowser/DynamicBiasDialog.cpp:49
 #, kde-format
@@ -2162,12 +2162,13 @@ msgstr "匹配类型:"
 msgid "This bias is a replacement for another bias\n"
 "which is currently not loaded or deactivated.\n"
 "The original bias name was %1."
-msgstr ""
+msgstr "此偏好将替换其它未加载或已禁用的偏好。\n"
+"偏好原名为 %1。"
 
 #: browsers/playlistbrowser/DynamicBiasDialog.cpp:196
 #, kde-format
 msgid "This bias has no settings."
-msgstr ""
+msgstr "此偏好内没有条件。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:46
 #, kde-format
@@ -2177,7 +2178,7 @@ msgstr "动态播放列表"
 #: browsers/playlistbrowser/DynamicCategory.cpp:47
 #, kde-format
 msgid "Dynamically updating parameter based playlists"
-msgstr ""
+msgstr "根据规则动态更新播放列表"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:50
 #, kde-format
@@ -2192,7 +2193,7 @@ msgstr "上一曲："
 #: browsers/playlistbrowser/DynamicCategory.cpp:70
 #, kde-format
 msgid "Number of previous tracks to remain in the playlist."
-msgstr ""
+msgstr "要保留在播放列表中的已播歌曲数量。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:75
 #, kde-format
@@ -2202,7 +2203,7 @@ msgstr "即将添加的歌曲数量："
 #: browsers/playlistbrowser/DynamicCategory.cpp:81
 #, kde-format
 msgid "Number of upcoming tracks to add to the playlist."
-msgstr "将要被添加到播放列表中的歌曲数量。"
+msgstr "将被添加到播放列表中的待播歌曲数量。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:103
 #, kde-format
@@ -2243,7 +2244,7 @@ msgstr "编辑"
 #: browsers/playlistbrowser/DynamicCategory.cpp:126
 #, kde-format
 msgid "Edit the selected playlist or bias"
-msgstr ""
+msgstr "编辑选中的播放列表或偏好"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetDeleteBtn)
 #: browsers/playlistbrowser/DynamicCategory.cpp:130
@@ -2255,17 +2256,17 @@ msgstr "删除"
 #: browsers/playlistbrowser/DynamicCategory.cpp:133
 #, kde-format
 msgid "Delete the selected playlist or bias"
-msgstr ""
+msgstr "删除选中的播放列表或偏好"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:137
 #, kde-format
 msgid "Repopulate"
-msgstr ""
+msgstr "重新生成"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:138
 #, kde-format
 msgid "Replace the upcoming tracks with fresh ones."
-msgstr ""
+msgstr "用新生成的歌曲替换将要播放的歌曲"
 
 #: browsers/playlistbrowser/DynamicView.cpp:223
 #, kde-format
@@ -2275,37 +2276,37 @@ msgstr "重命名播放列表 (&R)"
 #: browsers/playlistbrowser/DynamicView.cpp:227
 #, kde-format
 msgid "&Add new Bias"
-msgstr ""
+msgstr "添加新偏好 (&A)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:231
 #, kde-format
 msgid "&Clone Playlist"
-msgstr ""
+msgstr "复制播放列表 (&C)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:235
 #, kde-format
 msgid "&Delete playlist"
-msgstr ""
+msgstr "删除播放列表 (&D)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:249
 #, kde-format
 msgid "&Edit bias..."
-msgstr ""
+msgstr "编辑偏好 (&E)..."
 
 #: browsers/playlistbrowser/DynamicView.cpp:253
 #, kde-format
 msgid "&Clone bias"
-msgstr ""
+msgstr "复制偏好 (&C)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:263
 #, kde-format
 msgid "&Delete bias"
-msgstr ""
+msgstr "删除偏好 (&D)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:270
 #, kde-format
 msgid "&Add new bias"
-msgstr ""
+msgstr "添加新偏好 (&A)"
 
 #: browsers/playlistbrowser/PlaylistBrowser.cpp:43
 #, kde-format
@@ -2321,12 +2322,12 @@ msgstr "添加文件夹"
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:82
 #, kde-format
 msgid "Visible Sources"
-msgstr ""
+msgstr "要显示的源"
 
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:187
 #, kde-format
 msgid "Folders are only shown in <b>merged view</b>."
-msgstr ""
+msgstr "文件夹只会在<b>混合视图</b>中显示。"
 
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:283
 #, kde-format
@@ -2498,7 +2499,7 @@ msgstr "&全部更新"
 #: browsers/playlistbrowser/PodcastCategory.cpp:114
 #, kde-format
 msgid "Import OPML File"
-msgstr ""
+msgstr "导入 OPML 文件"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:168
 #, kde-format
@@ -2519,7 +2520,7 @@ msgstr "文件大小:"
 #: browsers/playlistbrowser/PodcastCategory.cpp:237
 #, kde-format
 msgid "Subscription Date:"
-msgstr ""
+msgstr "订阅日期："
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:245
 #, kde-format
@@ -2530,19 +2531,19 @@ msgstr "关键字："
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:24
 #, kde-format
 msgid "Add Podcast..."
-msgstr ""
+msgstr "添加播客..."
 
 #. i18n: ectx: property (text), widget (QToolButton, addPodcastButton)
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:27
 #, kde-format
 msgid "add podcast..."
-msgstr ""
+msgstr "添加播客..."
 
 #. i18n: ectx: property (text), widget (QToolButton, refreshPodcastsButton)
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:50
 #, kde-format
 msgid "Refresh All Podcasts"
-msgstr ""
+msgstr "刷新全部播客"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, configurePodcastsButton)
 #. i18n: ectx: property (text), widget (QToolButton, configurePodcastsButton)
@@ -2556,7 +2557,7 @@ msgstr "配置 Podcasts..."
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:99
 #, kde-format
 msgid "Scan Interval..."
-msgstr ""
+msgstr "扫描间隔..."
 
 #: browsers/playlistbrowser/PodcastModel.cpp:197
 #: browsers/playlistbrowser/PodcastModel.cpp:249
@@ -2584,32 +2585,32 @@ msgstr "总计"
 #: browsers/playlistbrowser/PodcastModel.cpp:322
 #, kde-format
 msgid "Add Podcast"
-msgstr ""
+msgstr "添加播客"
 
 #: browsers/playlistbrowser/PodcastModel.cpp:323
 #, kde-format
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
-msgstr ""
+msgstr "输入 RSS 1.0、RSS 2.0 或 Atom 订阅的 URL："
 
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:36
 #, kde-format
 msgid "Saved Playlists"
-msgstr ""
+msgstr "已保存的播放列表"
 
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:37
 #, kde-format
 msgid "User generated and imported playlists"
-msgstr ""
+msgstr "由用户生成或导入的播放列表"
 
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:40
 #, kde-format
 msgid "Create, edit, organize and load playlists. Amarok automatically adds any playlists found when scanning your collection, and any playlists that you save are also shown here."
-msgstr ""
+msgstr "创建、编辑、整理或加载播放列表。Amarok 会在扫描您的音频集时，将找到的播放列表自动添加进来。同时此处也会您手动保存的播放列表。"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:39
 #, kde-format
 msgid "The Internet browser lets you browse online sources of content that integrates directly into Amarok. Amarok ships with a number of these sources, but many more can be added using scripts."
-msgstr ""
+msgstr "网络浏览器可让您直接浏览整合在 Amarok 内的在线资源。Amarok 自带了一部分资源，您也可使用脚本添加更多资源。"
 
 #: configdialog/ConfigDialog.cpp:59
 #, kde-format
@@ -2620,18 +2621,18 @@ msgstr "通用"
 #: configdialog/ConfigDialog.cpp:59
 #, kde-format
 msgid "Configure General Options"
-msgstr ""
+msgstr "配置常规选项"
 
 #: configdialog/ConfigDialog.cpp:60 core-impl/collections/db/DatabaseCollection.cpp:54
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
 #, kde-format
 msgid "Local Collection"
-msgstr ""
+msgstr "本地音频集"
 
 #: configdialog/ConfigDialog.cpp:60
 #, kde-format
 msgid "Configure Local Collection"
-msgstr ""
+msgstr "配置本地音频集"
 
 #: configdialog/ConfigDialog.cpp:61
 #, kde-format
@@ -2641,7 +2642,7 @@ msgstr "元数据"
 #: configdialog/ConfigDialog.cpp:61
 #, kde-format
 msgid "Configure Metadata Handling"
-msgstr ""
+msgstr "配置元数据处理"
 
 #: configdialog/ConfigDialog.cpp:62
 #, kde-format
@@ -2651,7 +2652,7 @@ msgstr "音频播放"
 #: configdialog/ConfigDialog.cpp:62
 #, kde-format
 msgid "Configure Playback"
-msgstr ""
+msgstr "配置播放器"
 
 #: configdialog/ConfigDialog.cpp:63
 #, kde-format
@@ -2671,7 +2672,7 @@ msgstr "数据库"
 #: configdialog/ConfigDialog.cpp:64
 #, kde-format
 msgid "Configure Database"
-msgstr ""
+msgstr "配置数据库"
 
 #: configdialog/ConfigDialog.cpp:65
 #, kde-format
@@ -2691,25 +2692,25 @@ msgstr "脚本"
 #: configdialog/ConfigDialog.cpp:66
 #, kde-format
 msgid "Configure Scripts"
-msgstr ""
+msgstr "配置脚本"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CollectionConfig)
 #: configdialog/dialogs/CollectionConfig.ui:14
 #, kde-format
 msgid "Collection Setup"
-msgstr ""
+msgstr "音频集设置"
 
 #. i18n: ectx: property (title), widget (QGroupBox, collectionFoldersBox)
 #: configdialog/dialogs/CollectionConfig.ui:20
 #, kde-format
 msgid "Collection Folders"
-msgstr ""
+msgstr "音频集文件夹"
 
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
 #: configdialog/dialogs/CollectionConfig.ui:26
 #, kde-format
 msgid "These folders will be scanned for media to make up your collection. You can right-click on a folder to individually rescan it, if it was previously selected:"
-msgstr ""
+msgstr "Amarok 将扫描这些文件夹内的媒体来创建音乐集，您可以右键一个之前选中过的文件夹来单独进行重新扫描。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, importingBox)
 #: configdialog/dialogs/CollectionConfig.ui:58
@@ -2729,7 +2730,7 @@ msgstr "是否在复制或移动歌曲至本地音乐集时进行转码。"
 #: configdialog/dialogs/CollectionConfig.ui:70
 #, kde-format
 msgid "Transcode tracks:"
-msgstr ""
+msgstr "转换歌曲编码："
 
 #: configdialog/dialogs/DatabaseConfig.cpp:103
 #, kde-format
@@ -2912,7 +2913,7 @@ msgstr "勾选以启用 Amarok 系统托盘图标"
 #: configdialog/dialogs/GeneralConfig.ui:35
 #, kde-format
 msgid "Show tray &icon"
-msgstr "显示托盘图标 (&i)"
+msgstr "显示托盘图标 (&I)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoGetCoverArt)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoGetCoverArt)
@@ -2940,56 +2941,57 @@ msgstr "勾选以启用信息部件的折叠动画"
 #: configdialog/dialogs/GeneralConfig.ui:68
 #, kde-format
 msgid "Show background images in the browser panel"
-msgstr ""
+msgstr "在浏览器面板中显示背景图片"
 
 #. i18n: ectx: property (title), widget (QGroupBox, playlistBox)
 #: configdialog/dialogs/GeneralConfig.ui:78
 #, kde-format
 msgid "Playlist Options"
-msgstr ""
+msgstr "播放列表选项"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoScrollPlaylist)
 #: configdialog/dialogs/GeneralConfig.ui:84
 #, kde-format
 msgid "Check to make the playlist scroll so the current track is always visible."
-msgstr ""
+msgstr "勾选以使播放列表自动随当前播放的歌曲滚动"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoScrollPlaylist)
 #: configdialog/dialogs/GeneralConfig.ui:87
 #, kde-format
 msgid "Automatically scroll playlist to current track"
-msgstr ""
+msgstr "播放列表自动随当前播放的歌曲滚动"
 
 #. i18n: ectx: property (title), widget (QGroupBox, moodbarBox)
 #: configdialog/dialogs/GeneralConfig.ui:97
 #, kde-format
 msgid "Moodbar Options"
-msgstr ""
+msgstr "情绪条选项"
 
 #. i18n: ectx: property (text), widget (QLabel, moodbarNote)
 #: configdialog/dialogs/GeneralConfig.ui:103
 #, kde-format
 msgid "<b>Note</b>: Mood files must be generated manually. For more information, visit <a href=\"http://userbase.kde.org/Amarok/Manual/Various/Moodbar\">related article on KDE UserBase</a>."
-msgstr ""
+msgstr "<b>注意</b>：您必须手动生成情绪文件。详情请见 <a href=\"http://userbase.kde.org/Amarok/Manual/Various/Moodbar\">KDE 用户文档库上相关的文章</a>。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMoodbarInSlider)
 #: configdialog/dialogs/GeneralConfig.ui:117
 #, kde-format
 msgid "The Moodbar makes it possible to navigate in your music visually.\n"
 "Please note that this feature requires the external \"Moodbar Generator\" tool."
-msgstr ""
+msgstr "情绪条可让您直观地调节音乐播放进度。\n"
+"请注意，此功能需要外部“情绪条生成器”。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMoodbarInSlider)
 #: configdialog/dialogs/GeneralConfig.ui:120
 #, kde-format
 msgid "Show Moodbar in Progress Slider"
-msgstr ""
+msgstr "在播放进度条上显示情绪条"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: configdialog/dialogs/GeneralConfig.ui:127
 #, kde-format
 msgid "Moodbar style"
-msgstr ""
+msgstr "情绪条样式"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_MoodbarPaintStyle)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MoodbarPaintStyle)
@@ -2997,13 +2999,13 @@ msgstr ""
 #: configdialog/dialogs/GeneralConfig.ui:137
 #, kde-format
 msgid "Choose the mood display style"
-msgstr ""
+msgstr "选择情绪的显示样式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: configdialog/dialogs/GeneralConfig.ui:141
 #, kde-format
 msgid "Default (System colours)"
-msgstr ""
+msgstr "默认 (系统颜色)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: configdialog/dialogs/GeneralConfig.ui:146
@@ -3033,73 +3035,73 @@ msgstr "普通窗口"
 #, kde-format
 msgctxt "Maximum cover size option"
 msgid "Small (200 px)"
-msgstr ""
+msgstr "小 (200 px)"
 
 #: configdialog/dialogs/MetadataConfig.cpp:41
 #, kde-format
 msgctxt "Maximum cover size option"
 msgid "Medium (400 px)"
-msgstr ""
+msgstr "中 (400 px)"
 
 #: configdialog/dialogs/MetadataConfig.cpp:43
 #, kde-format
 msgctxt "Maximum cover size option"
 msgid "Large (800 px)"
-msgstr ""
+msgstr "大 (800px)"
 
 #: configdialog/dialogs/MetadataConfig.cpp:45
 #, kde-format
 msgctxt "Maximum cover size option"
 msgid "Huge (1600 px)"
-msgstr ""
+msgstr "超大 (1600px)"
 
 #: configdialog/dialogs/MetadataConfig.cpp:104
 #, kde-format
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Ratings"
-msgstr ""
+msgstr "同步评分"
 
 #: configdialog/dialogs/MetadataConfig.cpp:106
 #, kde-format
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize First Played Times"
-msgstr ""
+msgstr "同步首次播放的时间"
 
 #: configdialog/dialogs/MetadataConfig.cpp:108
 #, kde-format
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Last Played Times"
-msgstr ""
+msgstr "同步上次播放的时间"
 
 #: configdialog/dialogs/MetadataConfig.cpp:110
 #, kde-format
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Playcounts"
-msgstr ""
+msgstr "同步播放次数"
 
 #: configdialog/dialogs/MetadataConfig.cpp:112
 #, kde-format
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Labels"
-msgstr ""
+msgstr "同步标签"
 
 #: configdialog/dialogs/MetadataConfig.cpp:120
 #, kde-format
 msgctxt "%1 is field name such as Play Count (this string is only used as a fallback)"
 msgid "Synchronize %1"
-msgstr ""
+msgstr "同步 %1"
 
 #: configdialog/dialogs/MetadataConfig.cpp:231
 #, kde-format
 msgid "(%2one exception%3)"
 msgid_plural "(%2%1 exceptions%3)"
-msgstr[0] ""
+msgstr[0] "(%2%1 个异常%3)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_tagsGroup)
 #: configdialog/dialogs/MetadataConfig.ui:17
 #, kde-format
 msgid "File Tags"
-msgstr ""
+msgstr "文件标签"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_writeBack)
 #: configdialog/dialogs/MetadataConfig.ui:26
@@ -3108,45 +3110,49 @@ msgid "Write meta data changes (including 'stars' rating) back to the original f
 "You can also prevent writing back by write protecting the file.\n"
 "This might be a good idea if you are currently\n"
 "sharing those files via the Internet."
-msgstr ""
+msgstr "将元数据更改 (包括“星级”评分) 写入回原文件。\n"
+"您也可通过开启文件的写入保护来阻止写入。\n"
+"上述方法很适合用于要分享到互联网的文件上。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeBack)
 #: configdialog/dialogs/MetadataConfig.ui:29
 #, kde-format
 msgid "Write metadata to file"
-msgstr ""
+msgstr "向文件写入元数据"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_writeBackStatistics)
 #: configdialog/dialogs/MetadataConfig.ui:37
 #, kde-format
 msgid "Write play-changing statistics (e.g. score, lastplayed, playcount)\n"
 "as tags back to the file."
-msgstr ""
+msgstr "将播放变化统计数据 (例如分数，最后播放，播放次数)\n"
+"作为标签写入回文件。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeBackStatistics)
 #: configdialog/dialogs/MetadataConfig.ui:40
 #, kde-format
 msgid "Write statistics to file"
-msgstr ""
+msgstr "向文件写入统计数据"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_writeBackCover)
 #: configdialog/dialogs/MetadataConfig.ui:50
 #, kde-format
 msgid "Write changed covers back to the file.\n"
 "This will replace existing embedded covers."
-msgstr ""
+msgstr "将更改的封面写入回文件。\n"
+"这将替换原有的嵌入封面。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeBackCover)
 #: configdialog/dialogs/MetadataConfig.ui:53
 #, kde-format
 msgid "Write covers to file, maximum size:"
-msgstr ""
+msgstr "要写入至文件的封面的最大大小"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_writeBackCoverDimensions)
 #: configdialog/dialogs/MetadataConfig.ui:60
 #, kde-format
 msgid "Scale covers down if necessary."
-msgstr ""
+msgstr "按需缩小封面。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_useCharsetDetector)
 #: configdialog/dialogs/MetadataConfig.ui:84
@@ -3154,25 +3160,26 @@ msgstr ""
 msgid "If selected, Amarok will use Mozilla's\n"
 "Character Set Detector to attempt to automatically guess the\n"
 "character sets used in ID3 tags."
-msgstr ""
+msgstr "选中后，Amarok 会使用 Mozilla 的字符集检测器来\n"
+"尝试自动检测 ID3 标签所使用的字符集。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_useCharsetDetector)
 #: configdialog/dialogs/MetadataConfig.ui:87
 #, kde-format
 msgid "&Enable character set detection in ID3 tags"
-msgstr ""
+msgstr "启用 ID3 标签字符集检测 (&E)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_statSyncingGroup)
 #: configdialog/dialogs/MetadataConfig.ui:97
 #, kde-format
 msgid "Statistics Synchronization"
-msgstr ""
+msgstr "统计数据同步"
 
 #. i18n: ectx: property (text), widget (QLabel, m_syncedCollectionsLabel)
 #: configdialog/dialogs/MetadataConfig.ui:103
 #, kde-format
 msgid "<b>Check collections to keep them synchronized.</b> This includes scrobbling of tracks played on iPods if you have Last.fm plugin configured"
-msgstr ""
+msgstr "<b>选中需保持同步的音频集。</b>如果您已配置了 Last.fm，此处还会包含您在 iPod 上的已播歌曲的记录音乐 (scrobbling)"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_forgetTargetsButton)
 #: configdialog/dialogs/MetadataConfig.ui:128
@@ -3184,7 +3191,7 @@ msgstr "忘记"
 #: configdialog/dialogs/MetadataConfig.ui:138
 #, kde-format
 msgid "Configure…"
-msgstr ""
+msgstr "配置…"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_addTargetButton)
 #: configdialog/dialogs/MetadataConfig.ui:145
@@ -3196,7 +3203,7 @@ msgstr "添加…"
 #: configdialog/dialogs/MetadataConfig.ui:155
 #, kde-format
 msgid "Synchronize…"
-msgstr ""
+msgstr "同步…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: configdialog/dialogs/NotificationsConfig.ui:17
@@ -3211,13 +3218,13 @@ msgstr "常规"
 #: configdialog/dialogs/NotificationsConfig.ui:26
 #, kde-format
 msgid "Check to enable the On-Screen-Display. The OSD briefly displays track data when a new track is played."
-msgstr ""
+msgstr "点击启用悬浮窗。悬浮窗会在新歌曲播放时显示歌曲的简要信息。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_OsdEnabled)
 #: configdialog/dialogs/NotificationsConfig.ui:29
 #, kde-format
 msgid "Use &On-Screen-Display"
-msgstr ""
+msgstr "启用悬浮窗 (&O)"
 
 #. i18n: ectx: property (text), widget (QLabel, fadeoutLengthLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -3233,7 +3240,7 @@ msgstr "持续时间(&D)："
 #: configdialog/dialogs/NotificationsConfig.ui:65
 #, kde-format
 msgid "The time in milliseconds for which to show the OSD. The value must be between 500 ms and 10000 ms."
-msgstr ""
+msgstr "悬浮窗的显示时间 (毫秒)，此值应为 500 ms 到 10000 ms 之间。"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_OsdDuration)
 #: configdialog/dialogs/NotificationsConfig.ui:71
@@ -3253,7 +3260,7 @@ msgstr " 毫秒"
 #: configdialog/dialogs/NotificationsConfig.ui:93
 #, kde-format
 msgid "Sc&reen:"
-msgstr ""
+msgstr "屏幕 (&R)："
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_OsdScreen)
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_OsdScreen)
@@ -3261,7 +3268,7 @@ msgstr ""
 #: configdialog/dialogs/NotificationsConfig.ui:115
 #, kde-format
 msgid "The screen that should display the OSD."
-msgstr ""
+msgstr "显示悬浮窗时使用的屏幕。"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_OsdUseCustomColors)
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_OsdUseCustomColors)
@@ -3269,13 +3276,13 @@ msgstr ""
 #: configdialog/dialogs/NotificationsConfig.ui:136
 #, kde-format
 msgid "Check to enable custom colors for the On-Screen-Display."
-msgstr ""
+msgstr "勾选可在悬浮窗中启用自定义颜色。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_OsdUseCustomColors)
 #: configdialog/dialogs/NotificationsConfig.ui:139
 #, kde-format
 msgid "Use &custom colors"
-msgstr ""
+msgstr "使用自定义颜色 (&C)"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_OsdTextColor)
@@ -3283,7 +3290,7 @@ msgstr ""
 #: configdialog/dialogs/NotificationsConfig.ui:191
 #, kde-format
 msgid "The color of the OSD text."
-msgstr ""
+msgstr "悬浮窗的字体颜色。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: configdialog/dialogs/NotificationsConfig.ui:166
@@ -3295,13 +3302,13 @@ msgstr "文本颜色："
 #: configdialog/dialogs/NotificationsConfig.ui:188
 #, kde-format
 msgid "Click to select the color of the OSD text."
-msgstr ""
+msgstr "点击选择悬浮窗的字体颜色。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OsdUseTranslucency)
 #: configdialog/dialogs/NotificationsConfig.ui:211
 #, kde-format
 msgid "If checked, enables translucency if supported by your desktop system."
-msgstr ""
+msgstr "勾选后，在桌面系统支持时使用半透明显示。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_OsdUseTranslucency)
 #: configdialog/dialogs/NotificationsConfig.ui:214
@@ -3313,30 +3320,30 @@ msgstr "&半透明"
 #: configdialog/dialogs/NotificationsConfig.ui:226
 #, kde-format
 msgid "Font scale:"
-msgstr ""
+msgstr "字体缩放："
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OsdFontScaling)
 #: configdialog/dialogs/NotificationsConfig.ui:233
 #, no-c-format, kde-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_KNotifyEnabled)
 #: configdialog/dialogs/NotificationsConfig.ui:274
 #, kde-format
 msgid "Check to use the system notification."
-msgstr ""
+msgstr "勾选以使用系统通知。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KNotifyEnabled)
 #: configdialog/dialogs/NotificationsConfig.ui:277
 #, kde-format
 msgid "Use &system notifications"
-msgstr ""
+msgstr "使用系统通知 (&S)"
 
 #: configdialog/dialogs/PlaybackConfig.cpp:38
 #, kde-format
 msgid "Current Phonon backend does not support volume fading"
-msgstr ""
+msgstr "当前的 Phonon 后端不支持淡出淡入"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResumePlayback)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ResumePlayback)
@@ -3344,13 +3351,13 @@ msgstr ""
 #: configdialog/dialogs/PlaybackConfig.ui:26
 #, kde-format
 msgid "If checked, Amarok will<br>resume playback from where you left it the previous session -- just like a tape-player."
-msgstr ""
+msgstr "勾选后，Amarok 会如<br>磁带机一样从您上次离开会话的地方继续播放。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResumePlayback)
 #: configdialog/dialogs/PlaybackConfig.ui:29
 #, kde-format
 msgid "&Resume playback on start"
-msgstr ""
+msgstr "启动时继续播放 (&R)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_StartPlayingOnAdd)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_StartPlayingOnAdd)
@@ -3358,31 +3365,31 @@ msgstr ""
 #: configdialog/dialogs/PlaybackConfig.ui:39
 #, kde-format
 msgid "<html>Enable this option to start playing whenever a track or more are added to the playlist using mouse, pressing Enter or when the playlist is replaced. Does nothing if something is already playing.</html>"
-msgstr ""
+msgstr "<html>启用此选项后，用鼠标添加歌曲到播放列表并按下回车键后、播放列表被替换时会立刻开始播放。播放时此项不会生效。</html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_StartPlayingOnAdd)
 #: configdialog/dialogs/PlaybackConfig.ui:42
 #, kde-format
 msgid "Start playing when tracks are added to playlist"
-msgstr ""
+msgstr "歌曲添加到播放列表后立刻开始播放"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: configdialog/dialogs/PlaybackConfig.ui:52
 #, kde-format
 msgid "Volume Fading"
-msgstr ""
+msgstr "淡出淡入"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadeoutOnStop)
 #: configdialog/dialogs/PlaybackConfig.ui:58
 #, kde-format
 msgid "Fadeout on stop"
-msgstr ""
+msgstr "停止时淡出"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadeoutOnPause)
 #: configdialog/dialogs/PlaybackConfig.ui:65
 #, kde-format
 msgid "Fadeout on pause"
-msgstr ""
+msgstr "暂停时淡出"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_FadeoutLength)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_FadeoutLength)
@@ -3390,13 +3397,13 @@ msgstr ""
 #: configdialog/dialogs/PlaybackConfig.ui:111
 #, kde-format
 msgid "The length of the fadeout, in milliseconds."
-msgstr ""
+msgstr "淡出时长 (毫秒)。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: configdialog/dialogs/PlaybackConfig.ui:153
 #, kde-format
 msgid "System Suspend Options"
-msgstr ""
+msgstr "系统挂起选项"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_InhibitSuspend)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_InhibitSuspend)
@@ -3404,13 +3411,13 @@ msgstr ""
 #: configdialog/dialogs/PlaybackConfig.ui:162
 #, kde-format
 msgid "If enabled, Amarok will prevent the system from automatically suspending if it is playing a track"
-msgstr ""
+msgstr "启用后，在播放歌曲时 Amarok 会阻止系统进入自动挂起状态。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_InhibitSuspend)
 #: configdialog/dialogs/PlaybackConfig.ui:165
 #, kde-format
 msgid "&Inhibit automatic suspend if playing"
-msgstr ""
+msgstr "播放时阻止自动挂起 (&I)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PauseOnSuspend)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PauseOnSuspend)
@@ -3418,13 +3425,13 @@ msgstr ""
 #: configdialog/dialogs/PlaybackConfig.ui:175
 #, kde-format
 msgid "If enabled, Amarok will pause the currently playing track on suspend"
-msgstr ""
+msgstr "启用后，Amarok 会在挂起时自动暂停正在播放的歌曲"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PauseOnSuspend)
 #: configdialog/dialogs/PlaybackConfig.ui:178
 #, kde-format
 msgid "&Pause playback on suspend"
-msgstr ""
+msgstr "挂起时暂停播放 (&P)"
 
 #: configdialog/dialogs/PluginsConfig.cpp:44
 #, kde-format
@@ -3434,45 +3441,47 @@ msgstr "集合"
 #: configdialog/dialogs/PluginsConfig.cpp:47
 #, kde-format
 msgid "Internet Services"
-msgstr ""
+msgstr "互联网服务"
 
 #: configdialog/dialogs/PluginsConfig.cpp:50
 #, kde-format
 msgid "Statistics importers"
-msgstr ""
+msgstr "统计数据导入工具"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:132
 #, kde-format
 msgid "Manually installed scripts cannot be automatically updated, continue?"
-msgstr ""
+msgstr "手动安装的脚本无法进行自动更新，仍要继续吗？"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:138
 #, kde-format
 msgid "Select Archived Script"
-msgstr ""
+msgstr "选择压缩的脚本"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:153
 #, kde-format
 msgid "Invalid Archive"
-msgstr ""
+msgstr "无效的压缩包"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:163
 #: configdialog/dialogs/ScriptsConfig.cpp:177
 #, kde-format
 msgid "Invalid Script File"
-msgstr ""
+msgstr "无效的脚本文件"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:184
 #, kde-format
 msgid "Another script with the name %1 already exists\n"
 "Existing Script's Version: %2\n"
 "Selected Script's Version: %3"
-msgstr ""
+msgstr "同名脚本 %1 已存在\n"
+"已存在脚本的版本号：%2\n"
+"所选脚本的版本号：%3"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:195
 #, kde-format
 msgid "The script %1 was successfully installed"
-msgstr ""
+msgstr "已成功安装脚本 %1"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:207
 #, kde-format
@@ -3488,19 +3497,19 @@ msgstr "歌词"
 #: configdialog/dialogs/ScriptsConfig.cpp:215
 #, kde-format
 msgid "Scriptable Service"
-msgstr ""
+msgstr "脚本服务"
 
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
 #: configdialog/dialogs/ScriptsConfig.ui:36
 #, kde-format
 msgid "Uninstall Script"
-msgstr ""
+msgstr "卸载脚本"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
 #: configdialog/dialogs/ScriptsConfig.ui:43
 #, kde-format
 msgid "Install Local Script"
-msgstr ""
+msgstr "安装本地脚本"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoUpdateScripts)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoUpdateScripts)
@@ -3508,32 +3517,32 @@ msgstr ""
 #: configdialog/dialogs/ScriptsConfig.ui:57
 #, kde-format
 msgid "Automatically download and install updates for the built-in scripts from the Amarok website if available"
-msgstr ""
+msgstr "从 Amarok 网站上自动下载并更新可用的内置脚本"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoUpdateScripts)
 #: configdialog/dialogs/ScriptsConfig.ui:60
 #, kde-format
 msgid "Automatically update built-in scripts"
-msgstr ""
+msgstr "自动更新内置脚本"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, manageButton)
 #: configdialog/dialogs/ScriptsConfig.ui:80
 #, kde-format
 msgid "Browse, install, and uninstall scripts"
-msgstr ""
+msgstr "浏览、安装或卸载脚本"
 
 #. i18n: ectx: property (text), widget (QPushButton, manageButton)
 #: configdialog/dialogs/ScriptsConfig.ui:83
 #, kde-format
 msgid "Manage Scripts"
-msgstr ""
+msgstr "管理脚本"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_scriptConsoleGroup)
 #: configdialog/dialogs/ScriptsConfig.ui:107
 #: scripting/scriptconsole/ScriptConsole.cpp:73
 #, kde-format
 msgid "Script Console"
-msgstr ""
+msgstr "脚本控制台"
 
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_EnableScriptConsole)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableScriptConsole)
@@ -3541,18 +3550,18 @@ msgstr ""
 #: configdialog/dialogs/ScriptsConfig.ui:119
 #, kde-format
 msgid "Enable the script console."
-msgstr ""
+msgstr "启用脚本控制台。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableScriptConsole)
 #: configdialog/dialogs/ScriptsConfig.ui:122
 #, kde-format
 msgid "Enable Script Console"
-msgstr ""
+msgstr "启用脚本控制台"
 
 #: configdialog/dialogs/ScriptSelector.cpp:35
 #, kde-format
 msgid "Search Scripts"
-msgstr ""
+msgstr "搜索脚本"
 
 #: context/AmarokContextPackageStructure.cpp:26
 #, kde-format
@@ -3563,7 +3572,7 @@ msgstr "主脚本文件"
 #: context/AmarokContextPackageStructure.cpp:28
 #, kde-format
 msgid "Applet Icon File"
-msgstr ""
+msgstr "部件图标文件"
 
 #: context/AmarokContextPackageStructure.cpp:30
 #, kde-format
@@ -3585,7 +3594,7 @@ msgstr[0] "%1 个轨道"
 #: context/applets/albums/plugin/AlbumsEngine.cpp:183
 #, kde-format
 msgid "Disc %1"
-msgstr ""
+msgstr "光盘 %1"
 
 #: context/applets/albums/plugin/AlbumsEngine.cpp:258
 #, kde-format
@@ -3596,56 +3605,56 @@ msgstr "&队列"
 #: playlist/view/PlaylistViewCommon.cpp:265
 #, kde-format
 msgid "Edit Track Details"
-msgstr ""
+msgstr "编辑歌曲详情"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:38
 #, kde-format
 msgctxt "The title of the analyzer config dialog"
 msgid "%1 config"
-msgstr ""
+msgstr "配置 %1"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:64
 #, kde-format
 msgid "Bar width:"
-msgstr ""
+msgstr "频谱条宽度"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:79
 #, kde-format
 msgid "%1 pixel"
 msgid_plural "%1 pixels"
-msgstr[0] ""
+msgstr[0] "%1 个像素"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:91
 #, kde-format
 msgid "Show fadebars:"
-msgstr ""
+msgstr "频谱条淡出效果"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:106
 #, kde-format
 msgid "Bars fall speed:"
-msgstr ""
+msgstr "频谱条下落速度："
 
 #: context/applets/analyzer/package/contents/ui/main.qml:124
 #, kde-format
 msgid "Frequency range:"
-msgstr ""
+msgstr "频率范围："
 
 #: context/applets/analyzer/package/contents/ui/main.qml:142
 #: context/applets/analyzer/package/contents/ui/main.qml:147
 #, kde-format
 msgid "%1 Hz"
-msgstr ""
+msgstr "%1 Hz"
 
 #: context/applets/analyzer/package/contents/ui/main.qml:158
 #, kde-format
 msgid "Sample size:"
-msgstr ""
+msgstr "采样大小："
 
 #: context/applets/currenttrack/package/contents/ui/StatsItem.qml:32
 #: playlist/PlaylistModel.cpp:943
 #, kde-format
 msgid "Play Count"
-msgstr ""
+msgstr "播放次数"
 
 #: context/applets/currenttrack/package/contents/ui/StatsItem.qml:42
 #: playlist/PlaylistModel.cpp:941
@@ -3656,7 +3665,7 @@ msgstr "评分"
 #: context/applets/currenttrack/package/contents/ui/StatsItem.qml:52
 #, kde-format
 msgid "Last played"
-msgstr ""
+msgstr "上次播放"
 
 #: context/applets/currenttrack/plugin/CurrentEngine.cpp:258
 #: transcoding/TranscodingSelectConfigWidget.cpp:35
@@ -3667,12 +3676,12 @@ msgstr "从不显示"
 #: context/applets/labels/LabelGraphicsItem.cpp:64
 #, kde-format
 msgid "Add label"
-msgstr ""
+msgstr "添加标签"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:69
 #, kde-format
 msgid "Remove label"
-msgstr ""
+msgstr "删除标签"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:74
 #: context/applets/similarartists/ArtistWidget.cpp:131
@@ -3741,36 +3750,36 @@ msgstr "常规设置"
 #: context/applets/labels/LabelsApplet.cpp:758
 #, kde-format
 msgid "Blacklist Settings"
-msgstr ""
+msgstr "黑名单设置"
 
 #: context/applets/labels/LabelsApplet.cpp:759
 #, kde-format
 msgid "Replacement Settings"
-msgstr ""
+msgstr "替换设置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: context/applets/labels/labelsBlacklistSettings.ui:17
 #, kde-format
 msgid "Do not show the following labels:"
-msgstr ""
+msgstr "不显示以下标签："
 
 #. i18n: ectx: property (text), widget (QCheckBox, matchArtistCheckBox)
 #: context/applets/labels/labelsBlacklistSettings.ui:24
 #, kde-format
 msgid "Labels matching the artist"
-msgstr ""
+msgstr "匹配艺人的标签"
 
 #. i18n: ectx: property (text), widget (QCheckBox, matchTitleCheckBox)
 #: context/applets/labels/labelsBlacklistSettings.ui:31
 #, kde-format
 msgid "Labels matching the title"
-msgstr ""
+msgstr "匹配曲名的标签"
 
 #. i18n: ectx: property (text), widget (QCheckBox, matchAlbumCheckBox)
 #: context/applets/labels/labelsBlacklistSettings.ui:38
 #, kde-format
 msgid "Labels matching the album"
-msgstr ""
+msgstr "匹配专辑的标签"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: context/applets/labels/labelsBlacklistSettings.ui:61
@@ -3782,7 +3791,7 @@ msgstr "黑名单："
 #: context/applets/labels/labelsGeneralSettings.ui:20
 #, kde-format
 msgid "Labels Settings"
-msgstr ""
+msgstr "标签设置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, minAutoAddCountLabel)
@@ -3790,50 +3799,51 @@ msgstr ""
 #: context/applets/labels/labelsGeneralSettings.ui:169
 #, kde-format
 msgid "Minimum label score:"
-msgstr ""
+msgstr "显示的标签的最小评分："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minCountSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:56
 #, kde-format
 msgid "Show only labels that are rated at least that high."
-msgstr ""
+msgstr "只显示至少为此评分的标签。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: context/applets/labels/labelsGeneralSettings.ui:75
 #, kde-format
 msgid "Maximum labels to show:"
-msgstr ""
+msgstr "显示标签数的上限："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, numLabelsSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:95
 #, kde-format
 msgid "Do not show more than this many labels.\n"
 "Note that personal labels will always be shown."
-msgstr ""
+msgstr "不显示超过此数量的标签。\n"
+"注意：个性化标签不会受此限制。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: context/applets/labels/labelsGeneralSettings.ui:108
 #, kde-format
 msgid "Show personal labels with score:"
-msgstr ""
+msgstr "显示的个性化标签的最小评分："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, personalCountSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:127
 #, kde-format
 msgid "Affects the font size of the personal labels."
-msgstr ""
+msgstr "此项将影响个性化标签的字体大小。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoAddCheckBox)
 #: context/applets/labels/labelsGeneralSettings.ui:145
 #, kde-format
 msgid "Automatically add downloaded labels if none are assigned"
-msgstr ""
+msgstr "如未分配标签，则自动添加下载到的标签"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minAutoAddCountSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:185
 #, kde-format
 msgid "Add only labels that are rated at least that high."
-msgstr ""
+msgstr "只添加至少为此评分的标签。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: context/applets/labels/labelsGeneralSettings.ui:227
@@ -3857,7 +3867,7 @@ msgstr ""
 #: context/applets/labels/labelsGeneralSettings.ui:300
 #, kde-format
 msgid "Reset colors"
-msgstr ""
+msgstr "重置颜色"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: context/applets/labels/labelsReplacementSettings.ui:19
@@ -4066,64 +4076,64 @@ msgstr "转发"
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:91
 #, kde-format
 msgid "Show Similar Artists for Currently Playing Track"
-msgstr ""
+msgstr "显示正在播放的歌曲的相似艺人"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:191
 #, kde-format
 msgid "Similar Artists Settings"
-msgstr ""
+msgstr "相似艺人配置"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:215
 #, kde-format
 msgid "Similar Artists to %1"
-msgstr ""
+msgstr "与 %1 相似的艺人"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:222
 #, kde-format
 msgid "Similar Artists: Not Found"
-msgstr ""
+msgstr "未找到相似的艺人"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:262
 #, kde-format
 msgctxt "@item:intext Artist biography published date"
 msgid "Published: %1"
-msgstr ""
+msgstr "发表于：%1"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: context/applets/similarartists/similarArtistsSettings.ui:19
 #, kde-format
 msgid "Maximum number of artists to show:"
-msgstr ""
+msgstr "要显示的艺人最大数量："
 
 #: context/applets/songkick/SongkickApplet.cpp:41
 #, kde-format
 msgid "Songkick Concert Information"
-msgstr ""
+msgstr "Songkick 音乐会信息"
 
 #: context/applets/songkick/SongkickApplet.cpp:63
 #, kde-format
 msgid "Concerts"
-msgstr ""
+msgstr "音乐会"
 
 #: context/applets/songkick/SongkickApplet.cpp:70
 #, kde-format
 msgid "Reload Songkick"
-msgstr ""
+msgstr "重新加载 Songkick"
 
 #: context/applets/songkick/SongkickApplet.cpp:152
 #, kde-format
 msgid "Concert information is being fetched."
-msgstr ""
+msgstr "正在获取音乐会信息。"
 
 #: context/applets/songkick/SongkickApplet.cpp:157
 #, kde-format
 msgid "Songkick was not able to be downloaded. Please check your Internet connection: %1"
-msgstr ""
+msgstr "无法下载 Songkick，请检查您的网络链接：%1"
 
 #: context/applets/songkick/SongkickApplet.cpp:202
 #, kde-format
 msgid "There was no information found for this track"
-msgstr ""
+msgstr "无法找到此歌曲的相关信息"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ReloadEditDialog)
 #: context/applets/tabs/ReloadEditDialog.ui:32
@@ -4214,7 +4224,7 @@ msgstr ""
 #: context/applets/tabs/TabsSettings.ui:47
 #, kde-format
 msgid "Guitar"
-msgstr ""
+msgstr "吉他"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbFetchBass)
 #: context/applets/tabs/TabsSettings.ui:60
@@ -4243,7 +4253,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "No track is currently playing"
-msgstr ""
+msgstr "没有播放中的曲目"
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:159
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:304
@@ -4291,7 +4301,7 @@ msgstr "链接"
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:495
 #, kde-format
 msgid "Map View"
-msgstr ""
+msgstr "地图视图"
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:533
 #, kde-format
@@ -4335,7 +4345,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip Calendar action"
 msgid "Jump to Today"
-msgstr ""
+msgstr "跳转到今天"
 
 #. i18n: ectx: property (text), widget (QLabel, filterLabel)
 #: context/applets/upcomingevents/upcomingEventsGeneralSettings.ui:20
@@ -4362,7 +4372,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox Title for a canceled upcoming event"
 msgid "<s>%1</s> (Canceled)"
-msgstr ""
+msgstr "<s>%1</s> (已取消)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: context/applets/upcomingevents/upcomingEventsSettings.ui:44
@@ -4378,12 +4388,12 @@ msgstr "最大化效果"
 #: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:454
 #, kde-format
 msgid "Expand this widget"
-msgstr ""
+msgstr "展开此部件"
 
 #: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:454
 #, kde-format
 msgid "Collapse this widget"
-msgstr ""
+msgstr "折叠此部件"
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchLineEdit)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:45
@@ -4401,7 +4411,7 @@ msgstr ""
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:65
 #, kde-format
 msgid "Any Country"
-msgstr ""
+msgstr "任意国家"
 
 #. i18n: ectx: property (text), widget (QLabel, searchResultsLabel)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:75
@@ -4466,12 +4476,12 @@ msgstr "街道："
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:53
 #, kde-format
 msgid "Loading picture..."
-msgstr ""
+msgstr "正在加载图片..."
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:78
 #, kde-format
 msgid "View map"
-msgstr ""
+msgstr "查看地图"
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:88
 #, kde-format
