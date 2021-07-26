@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-07-24 15:39\n"
+"PO-Revision-Date: 2021-07-26 03:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1204,7 +1204,7 @@ msgstr "发送作曲家数据"
 #: amarokconfig.kcfg:463
 #, kde-format
 msgid "Use composer data in Last.fm as artist"
-msgstr "将 Last.fm 上的作曲家数据用作为歌曲的艺术家信息"
+msgstr "将 Last.fm 上的作曲家数据用作为歌曲的艺人信息"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:467
@@ -1282,13 +1282,13 @@ msgstr "是否在媒体设备连接时自动删除已播放的播客。"
 #: amarokconfig.kcfg:495
 #, kde-format
 msgid "Sync stats"
-msgstr ""
+msgstr "同步统计信息"
 
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
 #: amarokconfig.kcfg:496
 #, kde-format
 msgid "Whether Amarok statistics should be synchronized with play count/ratings on device and whether tracks played should be submitted to Last.fm."
-msgstr ""
+msgstr "是否将 Amarok 统计数据与设备上的播放次数、评分同步，并播放过的歌曲信息上传到 last.fm。"
 
 #. i18n: ectx: label, entry, group (Daap)
 #: amarokconfig.kcfg:502
@@ -1300,7 +1300,7 @@ msgstr "手动添加的服务器"
 #: amarokconfig.kcfg:503
 #, kde-format
 msgid "Music Sharing servers added by the user."
-msgstr ""
+msgstr "用户添加的音乐分享服务器。"
 
 #. i18n: ectx: label, entry, group (Daap)
 #: amarokconfig.kcfg:506
@@ -1312,37 +1312,37 @@ msgstr "服务器密码"
 #: amarokconfig.kcfg:507
 #, kde-format
 msgid "Passwords stored by hostname."
-msgstr ""
+msgstr "按各个主机名来储存的密码。"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:513
 #, kde-format
 msgid "Include track names in matching"
-msgstr ""
+msgstr "搜索时包含歌曲名"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:517
 #, kde-format
 msgid "Include album names in matching"
-msgstr ""
+msgstr "搜索时包含专辑名"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:521
 #, kde-format
 msgid "Include artist names in matching"
-msgstr ""
+msgstr "搜索时包含艺人姓名"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:525
 #, kde-format
 msgid "Include genre names in matching"
-msgstr ""
+msgstr "搜索时包含流派名"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:529
 #, kde-format
 msgid "Include composer names in matching"
-msgstr ""
+msgstr "搜索时包含作曲家姓名"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:533 amarokconfig.kcfg:537
@@ -1354,94 +1354,94 @@ msgstr ""
 #: amarokconfig.kcfg:544
 #, kde-format
 msgid "The name of the layout that will be loaded on startup"
-msgstr ""
+msgstr "启动时加载的布局的名称"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:551
 #, kde-format
 msgid "Whether Amarok uses its own internal database, as opposed to an external engine."
-msgstr ""
+msgstr "Amarok 应使用内部数据库还是外部数据库。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:555
 #, kde-format
 msgid "The hostname of the external server to connect to."
-msgstr ""
+msgstr "要连接的外部服务器的主机名。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:559
 #, kde-format
 msgid "Which server port to connect to the database engine."
-msgstr ""
+msgstr "要连接的数据库引擎服务器的端口号。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:563
 #, kde-format
 msgid "The name of the database Amarok will use. The user should have sufficient access permissions."
-msgstr ""
+msgstr "Amarok 将使用的数据库名称，用户应具有足够的访问权限。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:567
 #, kde-format
 msgid "Username used to access the external database."
-msgstr ""
+msgstr "用于访问外部数据库的用户名。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:571
 #, kde-format
 msgid "Password for the external database user."
-msgstr ""
+msgstr "外部数据库的用户密码。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:575
 #, kde-format
 msgid "Keeps a running count to know when run a CHECK."
-msgstr ""
+msgstr "统计运行次数来确定进行检查的时机。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #: amarokconfig.kcfg:582
 #, kde-format
 msgid "Whether to enable Amarok's scripting module."
-msgstr ""
+msgstr "是否启用 Amarok 的脚本模块。"
 
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:583
 #, kde-format
 msgid "Enable/Disable Amarok's scripting module."
-msgstr ""
+msgstr "启用或禁用 Amarok 的脚本模块。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #: amarokconfig.kcfg:587
 #, kde-format
 msgid "Whether to automatically update built-in scripts"
-msgstr ""
+msgstr "是否自动更新内置脚本"
 
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:588
 #, kde-format
 msgid "Enable/Disable automatic update for built-in scripts."
-msgstr ""
+msgstr "启用或禁用内置脚本的自动更新。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:592 amarokconfig.kcfg:593
 #, kde-format
 msgid "Whether to enable the script console."
-msgstr ""
+msgstr "是否启用脚本控制台。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:597 amarokconfig.kcfg:598
 #, kde-format
 msgid "Whether to display a warning about scripts accessing deprecated APIs."
-msgstr ""
+msgstr "在脚本调用已废弃的 API 时，是否显示警告。"
 
 #. i18n: ectx: label, entry, group (ScriptConsole)
 #. i18n: ectx: whatsthis, entry, group (ScriptConsole)
 #: amarokconfig.kcfg:605 amarokconfig.kcfg:606
 #, kde-format
 msgid "Whether to save the current session on exit."
-msgstr ""
+msgstr "退出时是否保存当时的会话。"
 
 #. i18n: ectx: label, entry, group (Moodbar)
 #: amarokconfig.kcfg:613
@@ -1465,13 +1465,13 @@ msgstr ""
 #: amarokconfig.kcfg:625
 #, kde-format
 msgid "Quality factor for Automated Playlist Generator"
-msgstr ""
+msgstr "播放列表自动生成器的质量系数"
 
 #. i18n: ectx: whatsthis, entry, group (PlaylistGenerator)
 #: amarokconfig.kcfg:626
 #, kde-format
 msgid "A value between 0 and 10 that controls whether the Automated Playlist Generator tries to optimize for speed (0) or accuracy (10)."
-msgstr ""
+msgstr "一个范围 0 至 10 之间的数，决定播放列表自动生成器侧重于优化速度 (0) 还是准确率 (10)。"
 
 #: amarokurls/AmarokUrlHandler.cpp:224
 #, kde-format
@@ -1488,7 +1488,7 @@ msgstr "新建书签"
 #: amarokurls/BookmarkManager.cpp:35 MainWindow.cpp:782
 #, kde-format
 msgid "Bookmark Manager"
-msgstr ""
+msgstr "书签管理器"
 
 #: amarokurls/BookmarkManagerWidget.cpp:44
 #, kde-format
@@ -1498,27 +1498,27 @@ msgstr "添加分组"
 #: amarokurls/BookmarkManagerWidget.cpp:55
 #, kde-format
 msgid "Filter bookmarks"
-msgstr ""
+msgstr "筛选书签"
 
 #: amarokurls/BookmarkManagerWidget.cpp:59
 #, kde-format
 msgid "Start typing to progressively filter the bookmarks"
-msgstr ""
+msgstr "开始输入即可逐步筛选书签"
 
 #: amarokurls/BookmarkMetaActions.cpp:31
 #, kde-format
 msgid "Bookmark this Album"
-msgstr ""
+msgstr "将此专辑加入书签"
 
 #: amarokurls/BookmarkMetaActions.cpp:47
 #, kde-format
 msgid "Bookmark this Artist"
-msgstr ""
+msgstr "将此艺人加入书签"
 
 #: amarokurls/BookmarkMetaActions.cpp:62
 #, kde-format
 msgid "Add Position Marker"
-msgstr ""
+msgstr "添加位置标记"
 
 #: amarokurls/BookmarkModel.cpp:86 browsers/playlistbrowser/PlaylistBrowserModel.cpp:398
 #, kde-format
@@ -1616,12 +1616,12 @@ msgstr "文件"
 #: amarokurls/NavigationUrlGenerator.cpp:143
 #, kde-format
 msgid "Files (%1)"
-msgstr ""
+msgstr "文件 (%1)"
 
 #: amarokurls/NavigationUrlGenerator.cpp:191
 #, kde-format
 msgid "Album \"%1\" from %2"
-msgstr ""
+msgstr "%2 中的专辑“%1”"
 
 #: amarokurls/NavigationUrlGenerator.cpp:193
 #, kde-format
@@ -1631,12 +1631,12 @@ msgstr "相册“%1”"
 #: amarokurls/NavigationUrlGenerator.cpp:238
 #, kde-format
 msgid "Artist \"%1\" from %2"
-msgstr ""
+msgstr "%2 中的艺人“%1”"
 
 #: amarokurls/NavigationUrlGenerator.cpp:240
 #, kde-format
 msgid "Artist \"%1\""
-msgstr ""
+msgstr "艺人“%1”"
 
 #: amarokurls/NavigationUrlGenerator.cpp:252
 #: MainWindow.cpp:778
@@ -1664,12 +1664,12 @@ msgstr "玩游戏"
 #: App.cpp:361
 #, kde-format
 msgid "Files/URLs to open"
-msgstr ""
+msgstr "要打开的文件或URL"
 
 #: App.cpp:362
 #, kde-format
 msgid "Immediately start playing an audio cd"
-msgstr ""
+msgstr "立刻开始播放音频 CD"
 
 #: App.cpp:363
 #, kde-format
@@ -1679,12 +1679,12 @@ msgstr ""
 #: App.cpp:364
 #, kde-format
 msgid "Start playing current playlist"
-msgstr ""
+msgstr "播放当前列表"
 
 #: App.cpp:365
 #, kde-format
 msgid "Play if stopped, pause if playing"
-msgstr ""
+msgstr "播放时此按钮为暂停，反之则为播放"
 
 #: App.cpp:366
 #, kde-format
@@ -1694,7 +1694,7 @@ msgstr "暂停播放"
 #: App.cpp:367
 #, kde-format
 msgid "Stop playback"
-msgstr ""
+msgstr "停止播放"
 
 #: App.cpp:368
 #, kde-format
@@ -1709,65 +1709,68 @@ msgstr "其它选项："
 #: App.cpp:371
 #, kde-format
 msgid "Append files/URLs to playlist"
-msgstr ""
+msgstr "将文件或 URL 添加到播放列表中"
 
 #: App.cpp:372
 #, kde-format
 msgid "Queue URLs after the currently playing track"
-msgstr ""
+msgstr "将 URL 排到当前播放的歌曲之后"
 
 #: App.cpp:373
 #, kde-format
 msgid "Load URLs, replacing current playlist"
-msgstr ""
+msgstr "加载 URL 并将内容替换至此播放列表"
 
 #: App.cpp:374
 #, kde-format
 msgid "Print verbose debugging information"
-msgstr ""
+msgstr "显示详细调试信息"
 
 #: App.cpp:375
 #, kde-format
 msgid "Print verbose debugging information from the audio system"
-msgstr ""
+msgstr "显示来自音频系统的详细调试信息"
 
 #: App.cpp:376
 #, kde-format
 msgid "Disable colorization for debug output."
-msgstr ""
+msgstr "禁用彩色调试输出。"
 
 #: App.cpp:377
 #, kde-format
 msgid "Allow running multiple Amarok instances"
-msgstr ""
+msgstr "允许同时运行多个 Amarok"
 
 #: App.cpp:378
 #, kde-format
 msgid "Base for relative filenames/URLs"
-msgstr ""
+msgstr "相对文件名或 URL 的起始点"
 
 #: App.cpp:514 configdialog/dialogs/DatabaseConfig.cpp:110
 #, kde-format
 msgid "Database Error"
-msgstr ""
+msgstr "数据库出错"
 
 #: App.cpp:515
 #, kde-format
 msgid "The Amarok database reported the following errors:\n"
 "%1\n"
 "In most cases you will need to resolve these errors before Amarok will run properly."
-msgstr ""
+msgstr "Amarok 数据库返回了以下错误：\n"
+"%1\n"
+"在绝大多数情况下，您需要解决这些问题才能继续运行 Amarok。"
 
 #: App.cpp:582
 #, kde-format
 msgid "Moving files to trash"
-msgstr ""
+msgstr "将文件移到回收站"
 
 #: App.cpp:648
 #, kde-format
 msgid "A music path, %1, is set in System Settings.\n"
 "Would you like to use that as a collection folder?"
-msgstr ""
+msgstr "系统设置中已设定了一个音乐路径 %1。\n"
+"您将其作为音频集文件夹吗？"
 
 #: browsers/BrowserBreadcrumbItem.cpp:70
 #, kde-format
@@ -1792,43 +1795,43 @@ msgstr ""
 #: browsers/collectionbrowser/CollectionWidget.cpp:147
 #, kde-format
 msgid "This is where you will find your local music, as well as music from mobile audio players and CDs."
-msgstr ""
+msgstr "这里是您查找本地音乐、移动音频播放器音乐和 CD 音乐的地方。"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:168
 #: MainWindow.cpp:926
 #, kde-format
 msgid "Search collection"
-msgstr ""
+msgstr "搜索音频集"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:173
 #, kde-format
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Hour"
-msgstr ""
+msgstr "一小时内添加"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:175
 #, kde-format
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added Today"
-msgstr ""
+msgstr "今天内添加"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:177
 #, kde-format
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Week"
-msgstr ""
+msgstr "本周内添加"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:179
 #, kde-format
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Month"
-msgstr ""
+msgstr "本月内添加"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:198
 #, kde-format
 msgctxt "separator between collection browser level categories, i.e. the ' / ' in 'Artist / Album'"
 msgid " / "
-msgstr ""
+msgstr " / "
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:211
 #, kde-format
@@ -1859,7 +1862,7 @@ msgstr ""
 #: browsers/collectionbrowser/CollectionWidget.cpp:257
 #, kde-format
 msgid "Show Cover Art"
-msgstr ""
+msgstr "显示封面"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:264
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:87
@@ -1872,7 +1875,7 @@ msgstr ""
 #: services/magnatune/MagnatuneStore.cpp:229
 #, kde-format
 msgid "Sort Options"
-msgstr ""
+msgstr "排序选项"
 
 #: browsers/CollectionTreeItem.cpp:141
 #, kde-format
@@ -1883,7 +1886,7 @@ msgstr "无标签"
 #: browsers/CollectionTreeItem.cpp:149
 #, kde-format
 msgid "Counting..."
-msgstr ""
+msgstr "正在统计..."
 
 #: browsers/CollectionTreeItem.cpp:176 playlist/proxymodels/GroupingProxy.cpp:188
 #, kde-format
@@ -1908,7 +1911,7 @@ msgstr "未知"
 #: dialogs/TrackOrganizer.cpp:56 widgets/AlbumBreadcrumbWidget.cpp:65
 #, kde-format
 msgid "Various Artists"
-msgstr ""
+msgstr "群星"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #: browsers/CollectionTreeView.cpp:342 context/applets/albums/plugin/AlbumsEngine.cpp:271
@@ -1981,17 +1984,17 @@ msgstr "收藏"
 #: browsers/CollectionTreeView.cpp:386
 #, kde-format
 msgid "Copy to Collection"
-msgstr ""
+msgstr "复制到音乐集中"
 
 #: browsers/CollectionTreeView.cpp:395 browsers/filebrowser/FileView.cpp:124
 #, kde-format
 msgid "Move to Collection"
-msgstr ""
+msgstr "移动到音乐集中"
 
 #: browsers/CollectionTreeView.cpp:409
 #, kde-format
 msgid "Move Tracks to Trash"
-msgstr ""
+msgstr "将歌曲移到回收站"
 
 #: browsers/CollectionTreeView.cpp:420
 #, kde-format
@@ -2009,7 +2012,7 @@ msgstr "更多..."
 #: services/lastfm/LastFmTreeView.cpp:95
 #, kde-format
 msgid "&Add to Playlist"
-msgstr ""
+msgstr "添加到播放列表 (&A)"
 
 #: browsers/CollectionTreeView.cpp:1082 browsers/filebrowser/FileView.cpp:392
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:74
@@ -2018,7 +2021,7 @@ msgstr ""
 #, kde-format
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
-msgstr ""
+msgstr "替换至播放列表 (&R)"
 
 #: browsers/CollectionTreeView.cpp:1131
 #, kde-format
@@ -2029,7 +2032,7 @@ msgstr ""
 #: browsers/CollectionTreeView.cpp:1164 browsers/filebrowser/FileView.cpp:424
 #, kde-format
 msgid "&Edit Track Details"
-msgstr ""
+msgstr "修改歌曲详情 (&E)"
 
 #: browsers/filebrowser/FileBrowser.cpp:70
 #: context/applets/wikipedia/package/contents/ui/main.qml:54
@@ -2040,7 +2043,7 @@ msgstr "刷新"
 #: browsers/filebrowser/FileBrowser.cpp:80
 #, kde-format
 msgid "Filter Files"
-msgstr ""
+msgstr "筛选文件"
 
 #: browsers/filebrowser/FileBrowser.cpp:219
 #, kde-format
@@ -2062,19 +2065,19 @@ msgstr "确认删除"
 #, kde-format
 msgid "Are you sure you want to delete this item?"
 msgid_plural "Are you sure you want to delete these %1 items?"
-msgstr[0] ""
+msgstr[0] "您确定要删除这 %1 条项目吗？"
 
 #: browsers/filebrowser/FileView.cpp:576 core-impl/collections/support/CollectionLocationDelegateImpl.cpp:53
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Move to Trash"
-msgstr ""
+msgstr "移入回收站确认"
 
 #: browsers/filebrowser/FileView.cpp:577
 #, kde-format
 msgid "Are you sure you want to move this item to trash?"
 msgid_plural "Are you sure you want to move these %1 items to trash?"
-msgstr[0] ""
+msgstr[0] "您确定要将这 %1 条项目移至回收站吗？"
 
 #: browsers/InfoProxy.cpp:166
 #, kde-format
@@ -2084,7 +2087,7 @@ msgstr "Home"
 #: browsers/playlistbrowser/APGCategory.cpp:39
 #, kde-format
 msgid "Automated Playlist Generator"
-msgstr ""
+msgstr "播放列表自动生成器"
 
 #: browsers/playlistbrowser/APGCategory.cpp:40
 #: browsers/playlistbrowser/APGCategory.cpp:47
@@ -2130,7 +2133,7 @@ msgstr ""
 #: browsers/playlistbrowser/APGCategory.cpp:107
 #, kde-format
 msgid "Generator Optimization"
-msgstr ""
+msgstr "生成器优化选项"
 
 #: browsers/playlistbrowser/APGCategory.cpp:111
 #, kde-format
@@ -2169,7 +2172,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicCategory.cpp:46
 #, kde-format
 msgid "Dynamic Playlists"
-msgstr ""
+msgstr "动态播放列表"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:47
 #, kde-format
@@ -2179,7 +2182,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicCategory.cpp:50
 #, kde-format
 msgid "With a dynamic playlist, Amarok becomes your own personal dj, automatically selecting tracks for you, based on a number of parameters that you select."
-msgstr ""
+msgstr "动态列表可将 Amarok 变为您的私人 DJ，根据所选的一系列参数自动为您选歌。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:65
 #, kde-format
@@ -2194,12 +2197,12 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicCategory.cpp:75
 #, kde-format
 msgid "Upcoming:"
-msgstr ""
+msgstr "即将添加的歌曲数量："
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:81
 #, kde-format
 msgid "Number of upcoming tracks to add to the playlist."
-msgstr ""
+msgstr "将要被添加到播放列表中的歌曲数量。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:103
 #, kde-format
@@ -2210,7 +2213,7 @@ msgstr "自动调整"
 #: browsers/playlistbrowser/DynamicCategory.cpp:106
 #, kde-format
 msgid "Turn dynamic mode on."
-msgstr ""
+msgstr "开启动态模式。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:110
 #, kde-format
@@ -2220,7 +2223,7 @@ msgstr "重复的"
 #: browsers/playlistbrowser/DynamicCategory.cpp:114
 #, kde-format
 msgid "Allow duplicate songs in result"
-msgstr ""
+msgstr "运行结果中出现重复音乐"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:118
 #, kde-format
@@ -2230,7 +2233,7 @@ msgstr "新"
 #: browsers/playlistbrowser/DynamicCategory.cpp:120
 #, kde-format
 msgid "New playlist"
-msgstr ""
+msgstr "新建播放列表"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:124
 #, kde-format
@@ -2267,7 +2270,7 @@ msgstr ""
 #: browsers/playlistbrowser/DynamicView.cpp:223
 #, kde-format
 msgid "&Rename playlist"
-msgstr ""
+msgstr "重命名播放列表 (&R)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:227
 #, kde-format
@@ -2307,7 +2310,7 @@ msgstr ""
 #: browsers/playlistbrowser/PlaylistBrowser.cpp:43
 #, kde-format
 msgid "The playlist browser contains your list of imported and saved playlists. It is also where you can specify powerful dynamic playlists and manage your podcast subscriptions and episodes."
-msgstr ""
+msgstr "播放列表浏览器内包含您已导入或保存的播放列表，它也是您创建强大的动态音乐列表、管理播客订阅和播客单集的地方"
 
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:77
 #: services/opmldirectory/OpmlDirectoryModel.cpp:42
@@ -2336,7 +2339,7 @@ msgstr "新建文件夹"
 msgctxt "number of playlists from one source"
 msgid "One Playlist"
 msgid_plural "%1 playlists"
-msgstr[0] ""
+msgstr[0] "%1 份播放列表"
 
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:124
 #, kde-format
@@ -2349,7 +2352,7 @@ msgstr "正在加载..."
 msgctxt "number of playlists from one source"
 msgid "One playlist"
 msgid_plural "%1 playlists"
-msgstr[0] ""
+msgstr[0] "%1 份播放列表"
 
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:399
 #, kde-format
@@ -2359,7 +2362,7 @@ msgstr "原因"
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:65
 #, kde-format
 msgid "Create an Empty Playlist"
-msgstr ""
+msgstr "创建一份空的播放列表"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:79
 #, kde-format
@@ -2393,38 +2396,38 @@ msgstr[0] "%1 个轨道"
 #, kde-format
 msgctxt "%1: number of tracks. %2: number of playlists"
 msgid "Remove %1 From %2"
-msgstr ""
+msgstr "从 %2 中删除 %1"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:373
 #, kde-format
 msgctxt "Second part of 'Remove %1 From %2'"
 msgid "1 Playlist"
 msgid_plural "%1 Playlists"
-msgstr[0] ""
+msgstr[0] "%1 份播放列表"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:377
 #, kde-format
 msgctxt "%2 is saved playlist name"
 msgid "Remove a Track From %2"
 msgid_plural "Remove %1 Tracks From %2"
-msgstr[0] ""
+msgstr[0] "从 %2 中删除歌曲 %1"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:468
 #, kde-format
 msgid "Confirm Playlist Deletion"
-msgstr ""
+msgstr "播放列表删除确认"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:470
 #, kde-format
 msgctxt "%1 is playlist provider pretty name"
 msgid "Delete playlist from %1."
-msgstr ""
+msgstr "从 %1 中删除播放列表"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:514
 #: MainWindow.cpp:446
 #, kde-format
 msgid "Use relative path for &saving"
-msgstr ""
+msgstr "使用相对路径保存 (&S)"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:527
 #: covermanager/CoverFoundDialog.cpp:383 MainWindow.cpp:459
@@ -2451,7 +2454,7 @@ msgstr "新名称"
 #, kde-format
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
-msgstr ""
+msgstr "为文件夹输入新名称："
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:339
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:256
@@ -2462,29 +2465,29 @@ msgstr "确认删除"
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:340
 #, kde-format
 msgid "Are you sure you want to delete this folder and its contents?"
-msgstr ""
+msgstr "您确定要删除此文件夹及其内容吗？"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_podcastCheckBox)
 #: browsers/playlistbrowser/PodcastCategory.cpp:82
 #: core-impl/collections/umscollection/UmsConfiguration.ui:136
 #, kde-format
 msgid "Podcasts"
-msgstr ""
+msgstr "播客"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:83
 #, kde-format
 msgid "List of podcast subscriptions and episodes"
-msgstr ""
+msgstr "播客订阅和播客单集列表"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:86
 #, kde-format
 msgid "Manage your podcast subscriptions and browse individual episodes. Downloading episodes to the disk is also done here, or you can tell Amarok to do this automatically."
-msgstr ""
+msgstr "管理播客订阅并浏览各集播客，也可在此将播客下载至硬盘。您还能让 Amarok 自动进行下载。"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:96
 #, kde-format
 msgid "&Add Podcast"
-msgstr ""
+msgstr "添加播客 (&A)"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:103
 #, kde-format
@@ -2712,7 +2715,7 @@ msgstr ""
 #: configdialog/dialogs/CollectionConfig.ui:58
 #, kde-format
 msgid "Importing Music"
-msgstr ""
+msgstr "正在导入音乐"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, transcodeLabel)
 #. i18n: ectx: property (toolTip), widget (Transcoding::SelectConfigWidget, transcodingConfig)
@@ -2720,7 +2723,7 @@ msgstr ""
 #: configdialog/dialogs/CollectionConfig.ui:77
 #, kde-format
 msgid "Whether Amarok should transcode tracks when they are copied or moved to Local Collection."
-msgstr ""
+msgstr "是否在复制或移动歌曲至本地音乐集时进行转码。"
 
 #. i18n: ectx: property (text), widget (QLabel, transcodeLabel)
 #: configdialog/dialogs/CollectionConfig.ui:70
@@ -2731,7 +2734,7 @@ msgstr ""
 #: configdialog/dialogs/DatabaseConfig.cpp:103
 #, kde-format
 msgid "Amarok was able to establish a successful connection to the database."
-msgstr ""
+msgstr "Amarok 已成功连接到数据库。"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:104
 #, kde-format
@@ -2743,18 +2746,20 @@ msgstr "成功"
 msgid "The amarok database reported the following errors:\n"
 "%1\n"
 "In most cases you will need to resolve these errors before Amarok will run properly."
-msgstr ""
+msgstr "Amarok 数据库返回了以下错误：\n"
+"%1\n"
+"在绝大多数情况下，您需要解决这些问题才能继续运行 Amarok。"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:136
 #, kde-format
 msgid "Changes to database settings only take\n"
 "effect after Amarok is restarted."
-msgstr ""
+msgstr "重启 Amarok 后，数据库设置的更改才会生效。"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:137
 #, kde-format
 msgid "Database settings changed"
-msgstr ""
+msgstr "数据库设置已更改"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:156
 #, kde-format
@@ -2768,13 +2773,13 @@ msgstr "密码"
 #: configdialog/dialogs/DatabaseConfig.ui:20
 #, kde-format
 msgid "Check to enable the use of an external database. By default there is already an embedded MySQL database running."
-msgstr ""
+msgstr "选中此项后，Amarok 会使用外部数据库。默认情况下，已有一个内置的 MySQL 数据库运行。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseServer)
 #: configdialog/dialogs/DatabaseConfig.ui:23
 #, kde-format
 msgid "Use &external MySQL database"
-msgstr ""
+msgstr "使用外部 MySQL 数据库 (&E)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_Connection)
 #: configdialog/dialogs/DatabaseConfig.ui:30
@@ -2792,19 +2797,19 @@ msgstr "服务器(&S)："
 #: configdialog/dialogs/DatabaseConfig.ui:55
 #, kde-format
 msgid "Enter the name of the existing MySQL server\n"
-msgstr ""
+msgstr "输入已有的 MySQL 服务器的名字\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Port)
 #: configdialog/dialogs/DatabaseConfig.ui:71
 #, kde-format
 msgid "P&ort:"
-msgstr ""
+msgstr "端口 (&O)："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_Port)
 #: configdialog/dialogs/DatabaseConfig.ui:91
 #, kde-format
 msgid "Enter the port number to access the server. Default is port 3306.\n"
-msgstr ""
+msgstr "输入访问服务器时使用的端口号。默认端口是 3306。\n"
 
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
 #. i18n: ectx: property (text), widget (QLabel, label_User)
@@ -2819,7 +2824,7 @@ msgstr "用户名(&U)："
 #: configdialog/dialogs/DatabaseConfig.ui:118
 #, kde-format
 msgid "Enter the password for the default user.\n"
-msgstr ""
+msgstr "输入默认用户的密码。\n"
 
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: ectx: property (text), widget (QLabel, label_Password)
@@ -2834,7 +2839,7 @@ msgstr "密码(&P)："
 #: configdialog/dialogs/DatabaseConfig.ui:151
 #, kde-format
 msgid "Enter the username to access the database with full access privileges.\n"
-msgstr ""
+msgstr "输入有数据库完整访问权限的用户名。\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Database)
 #: configdialog/dialogs/DatabaseConfig.ui:161
@@ -2846,7 +2851,7 @@ msgstr "&数据库:"
 #: configdialog/dialogs/DatabaseConfig.ui:178
 #, kde-format
 msgid "Enter the name of the database. Default preset is amarokdb.\n"
-msgstr ""
+msgstr "输入数据库的名称，默认为 amarokdb。\n"
 
 #. i18n: ectx: property (text), widget (QPushButton, button_Test)
 #: configdialog/dialogs/DatabaseConfig.ui:188
@@ -2858,36 +2863,36 @@ msgstr "测试数据库连接"
 #: configdialog/dialogs/DatabaseConfig.ui:206
 #, kde-format
 msgid "Amarok expects the above database and user account to already exist. This user also requires full access to the database. Changes only take effect after Amarok is restarted."
-msgstr ""
+msgstr "上述所需的数据库和用户账户已存在，请注意此用户还需拥有完全访问数据库的权限。重启 Amarok 后更改才会生效。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_SQL)
 #: configdialog/dialogs/DatabaseConfig.ui:216
 #, kde-format
 msgid "If your database is not already set up, you can use the following S&QL commands (after replacing the password with the correct one):"
-msgstr ""
+msgstr "如果您的数据库尚未完成设置，可以使用如下的 S&QL 命令 (请将密码替换为真实的密码)："
 
 #: configdialog/dialogs/ExcludedLabelsDialog.cpp:53
 #, kde-format
 msgid "Excluded Labels"
-msgstr ""
+msgstr "排除的标签"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
 #: configdialog/dialogs/ExcludedLabelsDialog.ui:17
 #, kde-format
 msgid "Add this label to the list of excluded labels"
-msgstr ""
+msgstr "将此标签添加到排除列表"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, addLabelLine)
 #: configdialog/dialogs/ExcludedLabelsDialog.ui:30
 #, kde-format
 msgid "Add Label to Exclude"
-msgstr ""
+msgstr "添加要排除的标签"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel)
 #: configdialog/dialogs/ExcludedLabelsDialog.ui:44
 #, kde-format
 msgid "Selected labels won't be touched by statistics synchronization"
-msgstr ""
+msgstr "选择不想被统计同步的标签"
 
 #. i18n: ectx: property (title), widget (QGroupBox, generalBox)
 #: configdialog/dialogs/GeneralConfig.ui:23
@@ -2901,13 +2906,13 @@ msgstr "常规选项"
 #: configdialog/dialogs/GeneralConfig.ui:32
 #, kde-format
 msgid "Check to enable the Amarok system tray icon."
-msgstr ""
+msgstr "勾选以启用 Amarok 系统托盘图标"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTrayIcon)
 #: configdialog/dialogs/GeneralConfig.ui:35
 #, kde-format
 msgid "Show tray &icon"
-msgstr ""
+msgstr "显示托盘图标 (&i)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoGetCoverArt)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoGetCoverArt)
@@ -2915,13 +2920,13 @@ msgstr ""
 #: configdialog/dialogs/GeneralConfig.ui:45
 #, kde-format
 msgid "Check to enable the automatic retrieval of cover art from the Internet."
-msgstr ""
+msgstr "勾选以启用从互联网上自动获取封面"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoGetCoverArt)
 #: configdialog/dialogs/GeneralConfig.ui:48
 #, kde-format
 msgid "Automatically retrieve cover art"
-msgstr ""
+msgstr "自动获取封面"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AnimateAppletCollapse)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AnimateAppletCollapse)
@@ -2929,7 +2934,7 @@ msgstr ""
 #: configdialog/dialogs/GeneralConfig.ui:58
 #, kde-format
 msgid "Check to enable animations when context applets collapse."
-msgstr ""
+msgstr "勾选以启用信息部件的折叠动画"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowBrowserBackgroundImage)
 #: configdialog/dialogs/GeneralConfig.ui:68
