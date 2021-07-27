@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:17+0000\n"
-"PO-Revision-Date: 2021-07-23 07:17\n"
+"POT-Creation-Date: 2021-07-26 00:18+0000\n"
+"PO-Revision-Date: 2021-07-27 09:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -547,7 +547,7 @@ msgstr "出发时间"
 #, kde-format
 msgctxt "flight departure time"
 msgid "Departure time:"
-msgstr ""
+msgstr "起飞时间："
 
 #: app/FlightEditor.qml:86
 #, kde-format
@@ -747,7 +747,7 @@ msgstr "过期时间："
 #: app/HealthCertificateVaccination.qml:118
 #, kde-format
 msgid "Signature:"
-msgstr ""
+msgstr "签名："
 
 #: app/HealthCertificateTest.qml:47
 #, kde-format
@@ -762,7 +762,7 @@ msgstr "日期："
 #: app/HealthCertificateTest.qml:68
 #, kde-format
 msgid "Test:"
-msgstr ""
+msgstr "检测结果："
 
 #: app/HealthCertificateTest.qml:73
 #, kde-format
@@ -923,7 +923,7 @@ msgstr "打开地图"
 msgid "Open wheelmap.org"
 msgstr "打开 wheelmap.org"
 
-#: app/IndoorMapPage.qml:247
+#: app/IndoorMapPage.qml:257
 #, kde-format
 msgid "Switched to floor %1"
 msgstr "切换到 %1 楼"
@@ -1044,11 +1044,12 @@ msgstr "CO₂ 排放： %1g"
 
 #: app/JourneySummaryDelegate.qml:64
 #, kde-format
+msgctxt "number of switches to another transport"
 msgid "One change"
 msgid_plural "%1 changes"
 msgstr[0] "%1 个更改"
 
-#: app/livedatamanager.cpp:547
+#: app/livedatamanager.cpp:634
 #, kde-format
 msgid "Itinerary change"
 msgstr "行程更改"
@@ -1248,74 +1249,74 @@ msgstr "帮助"
 msgid "Map download finished."
 msgstr "地图下载已完成."
 
-#: app/notificationhelper.cpp:60
+#: app/notificationhelper.cpp:62
 #, kde-format
 msgid "Disruption on %1"
 msgstr "在 %1 上的故障"
 
-#: app/notificationhelper.cpp:68
+#: app/notificationhelper.cpp:70
 #, kde-format
 msgid "Changes on %1"
 msgstr "%1 上的更改"
 
-#: app/notificationhelper.cpp:72
+#: app/notificationhelper.cpp:74
 #, kde-format
 msgid "Delays on %1"
 msgstr "%1 上的延误"
 
-#: app/notificationhelper.cpp:75
+#: app/notificationhelper.cpp:77
 #, kde-format
 msgid "Delayed departure on %1"
 msgstr "延后出发时间： %1"
 
-#: app/notificationhelper.cpp:78
+#: app/notificationhelper.cpp:80
 #, kde-format
 msgid "Earlier departure on %1"
 msgstr "提早出发时间： %1"
 
-#: app/notificationhelper.cpp:81
+#: app/notificationhelper.cpp:83
 #, kde-format
 msgid "Delayed arrival on %1"
 msgstr "延迟抵达时间： %1"
 
-#: app/notificationhelper.cpp:85
+#: app/notificationhelper.cpp:87
 #, kde-format
 msgid "Platform change on %1"
 msgstr "站台更改：%1"
 
-#: app/notificationhelper.cpp:95
+#: app/notificationhelper.cpp:97
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Trip has been canceled."
 msgstr "旅行已取消"
 
-#: app/notificationhelper.cpp:97
+#: app/notificationhelper.cpp:99
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Arrival has been canceled."
 msgstr "到达已取消"
 
-#: app/notificationhelper.cpp:101
+#: app/notificationhelper.cpp:103
 #, kde-format
 msgid "New departure time is: %1 (+%2)"
 msgstr "新的出发时间是： %1 (+%2)"
 
-#: app/notificationhelper.cpp:103
+#: app/notificationhelper.cpp:105
 #, kde-format
 msgid "New departure time is: %1 (%2)"
 msgstr "新的出发时间是： %1 (%2)"
 
-#: app/notificationhelper.cpp:107
+#: app/notificationhelper.cpp:109
 #, kde-format
 msgid "New arrival time is: %1 (+%2)"
 msgstr "新的到达时间是： %1 (+%2)"
 
-#: app/notificationhelper.cpp:111
+#: app/notificationhelper.cpp:113
 #, kde-format
 msgid "New departure platform is: %1"
 msgstr "新的出发站台是： %1"
 
-#: app/notificationhelper.cpp:114
+#: app/notificationhelper.cpp:116
 #, kde-format
 msgid "New arrival platform is: %1"
 msgstr "新的到达站台是： %1"
@@ -1621,7 +1622,7 @@ msgstr "到达时间："
 #: app/TouristAttractionPage.qml:41
 #, kde-format
 msgid "Departure Time:"
-msgstr "出发时间："
+msgstr "起飞时间："
 
 #: app/TrainDelegate.qml:48
 #, kde-format
@@ -1672,7 +1673,7 @@ msgstr ""
 #: app/TrainPage.qml:131
 #, kde-format
 msgid "Departure time:"
-msgstr ""
+msgstr "起飞时间："
 
 #: app/TrainPage.qml:142 app/TrainPage.qml:192
 #, kde-format
@@ -1742,28 +1743,28 @@ msgstr "接下来的出发：%1 从 %2"
 msgid "Trip: %1"
 msgstr "行程： %1"
 
-#: app/TripGroupDelegate.qml:67
+#: app/TripGroupDelegate.qml:66
 #, kde-format
 msgid "Date: %2 (one day)"
 msgid_plural "Date: %2 (%1 days)"
 msgstr[0] "日期: %2 (%1 天)"
 
-#: app/TripGroupDelegate.qml:82 app/WeatherForecastPage.qml:48
+#: app/TripGroupDelegate.qml:81 app/WeatherForecastPage.qml:48
 #, kde-format
 msgid "%1°C / %2°C"
 msgstr "%1°C / %2°C"
 
-#: app/TripGroupDelegate.qml:93
+#: app/TripGroupDelegate.qml:92
 #, kde-format
 msgid "%1: some incompatible power sockets (%2)"
 msgstr "%1：一些不兼容的电源插座（%2)"
 
-#: app/TripGroupDelegate.qml:95
+#: app/TripGroupDelegate.qml:94
 #, kde-format
 msgid "%1: some incompatible power plugs (%2)"
 msgstr "%1：一些不兼容的电源插头 (%2)"
 
-#: app/TripGroupDelegate.qml:97
+#: app/TripGroupDelegate.qml:96
 #, kde-format
 msgid "%1: no compatible power plugs (%2)"
 msgstr "%1：没有兼容的电源插头 (%2)"
