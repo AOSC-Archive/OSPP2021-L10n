@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2017-04-18 05:17+0200\n"
+"PO-Revision-Date: 2021-07-27 08:23\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/ktorrent/org.kde.ktorrent.appdata.pot\n"
+"X-Crowdin-File-ID: 5968\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.ktorrent.appdata.xml:6
+msgid "KTorrent"
+msgstr "KTorrent"
+
+#. (itstool) path: component/summary
+#: org.kde.ktorrent.appdata.xml:7
+msgid "BitTorrent Client"
+msgstr "BitTorrent 客户端"
+
+#. (itstool) path: description/p
+#: org.kde.ktorrent.appdata.xml:9
+msgid "KTorrent is a BitTorrent application by KDE which allows you to download files using the BitTorrent protocol. It enables you to run multiple torrents at the same time and comes with extended features to make it a full-featured client for BitTorrent."
+msgstr "KTorrent 是 KDE 提供的 BT 下载应用。支持同时运行多个种子，并具有多种扩展特性，是一个全功能的 BT 客户端。"
+
+#. (itstool) path: description/p
+#: org.kde.ktorrent.appdata.xml:14
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:16
+msgid "Queuing of torrents"
+msgstr "队列种子"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:17
+msgid "Global and per torrent speed limits"
+msgstr "全局限速和单个种子限速"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:18
+msgid "Previewing of certain file types, build in (video and audio)"
+msgstr "内置的文件预览功能 (视频和音频)"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:19
+msgid "Importing of partially or fully downloaded files"
+msgstr "导入部分或完全下载的文件"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:20
+msgid "File prioritization for multi-file torrents"
+msgstr "多文件种子设定文件优先级"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:21
+msgid "Selective downloading for multi-file torrents"
+msgstr "多文件种子可选下载指定文件"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:22
+msgid "Kick/ban peers with an additional IP Filter dialog for list/edit purposes"
+msgstr "踢掉/屏蔽对等点，并可以用 IP 过滤器查看和编辑列表"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:23
+msgid "UDP tracker support"
+msgstr "支持 UDP tracker"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:24
+msgid "Support for private trackers and torrents"
+msgstr "支持私有 tracker 和种子"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:25
+msgid "Support for µTorrent's peer exchange"
+msgstr "支持 µTorrent 对等点交换"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:26
+msgid "Support for protocol encryption (compatible with Azureus)"
+msgstr "支持协议加密 (兼容 Azureus)"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:27
+msgid "Support for creating trackerless torrents"
+msgstr "支持创建无 tracker 种子"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:28
+msgid "Support for distributed hash tables (DHT, the Mainline version)"
+msgstr "支持分布式哈希表 (DHT，主线版本)"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:29
+msgid "Support for UPnP to automatically forward ports on a LAN with dynamic assigned hosts"
+msgstr "支持 UPnP 局域网自动转发端口的动态主机名"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:30
+msgid "Support for webseeds"
+msgstr "支持 Webseed"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:31
+msgid "Scripting support via Kross, and interprocess control via D-Bus interface"
+msgstr "通过 Kross 支持脚本编程，通过 D-Bus 接口实现进程间控制"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:32
+msgid "System tray integration"
+msgstr "系统托盘整合"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:33
+msgid "Tracker authentication support"
+msgstr "支持 tracker 认证"
+
+#. (itstool) path: ul/li
+#: org.kde.ktorrent.appdata.xml:34
+msgid "Connection through a proxy"
+msgstr "通过代理连接"
+
+#. (itstool) path: description/p
+#: org.kde.ktorrent.appdata.xml:36
+msgid "In addition to the built-in functionalities, there are some plugins available for KTorrent."
+msgstr "除了一些内置的功能，KTorrent 还有一些插件可用。"
+

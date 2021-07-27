@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-28 00:19+0000\n"
-"PO-Revision-Date: 2021-07-19 08:23\n"
+"PO-Revision-Date: 2021-07-27 08:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -820,7 +820,7 @@ msgstr "您必须选择一个文件或文件夹。"
 #: ktorrent/dialogs/torrentcreatordlg.cpp:277
 #, kde-format
 msgid "You have not added a tracker, are you sure you want to create this torrent?"
-msgstr "您尚未添加任何追踪器，您确定要创建该种子吗？"
+msgstr "您尚未添加任何 tracker，您确定要创建该种子吗？"
 
 #: ktorrent/dialogs/torrentcreatordlg.cpp:284
 #, kde-format
@@ -954,7 +954,7 @@ msgstr "将种子添加到组："
 #: plugins/scripting/scripts/tracker_groups/tracker_groups.py:59
 #, kde-format
 msgid "Trackers"
-msgstr "追踪器"
+msgstr "Trackers"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_remove_tracker)
 #. i18n: ectx: property (text), widget (QPushButton, m_remove_node)
@@ -2162,19 +2162,19 @@ msgstr "允许不加密的连接"
 #: ktorrent/pref/btpref.ui:124
 #, kde-format
 msgid "Tracker"
-msgstr "追踪器"
+msgstr "Tracker"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useCustomIP)
 #: ktorrent/pref/btpref.ui:130
 #, kde-format
 msgid "Instead of allowing the tracker to determine your IP address, tell the tracker which IP address to use. Use this when you are behind a proxy."
-msgstr "通知伺服器要使用的 IP 地址而禁止伺服器自行确定您的 IP 地址。使用代理时请使用该功能。"
+msgstr "手动提供 IP 地址以免 tracker 进行自动检测，当您使用代理时请开启此功能。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomIP)
 #: ktorrent/pref/btpref.ui:133
 #, kde-format
 msgid "Send the tracker a custom IP address or hostname"
-msgstr "向追踪器发送自定义 IP 地址或主机名"
+msgstr "向 tracker 发送自定义 IP 地址或主机名"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ktorrent/pref/btpref.ui:142
@@ -2186,7 +2186,7 @@ msgstr "自定义 IP 地址或主机名："
 #: ktorrent/pref/btpref.ui:149
 #, kde-format
 msgid "Custom IP address or hostname to send to the tracker. Hostnames will be resolved at runtime and the resolved IP address will be sent to the tracker."
-msgstr "自定义发送给伺服器的 IP 地址或主机名。主机名将在运行时解析，解析出的 IP 地址将被发送给伺服器。"
+msgstr "自定义发送给 tracker 的 IP 地址或主机名。主机名将在运行时解析，解析出的 IP 地址将被发送给 tracker。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, ColorsGbw)
@@ -2505,14 +2505,14 @@ msgstr "<p>用于 Bittorrent 协议的端口。</p>\n"
 #: ktorrent/pref/networkpref.ui:47
 #, kde-format
 msgid "UDP tracker port:"
-msgstr "UDP 追踪器端口："
+msgstr "UDP tracker 端口："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_udpTrackerPort)
 #: ktorrent/pref/networkpref.ui:55
 #, kde-format
 msgid "<p>Port used for the UDP tracker protocol.</p>\n"
 "<p><span style=\" font-weight:600;\">Attention:</span> If you are behind a router, this port needs to be forwarded. The UPnP plugin can do this for you.</p>"
-msgstr "<p>用于 UDP 伺服器协议的端口。</p>\n"
+msgstr "<p>用于 UDP tracker 协议的端口。</p>\n"
 "<p><span style=\"font-weight:600;\">注意：</span>如果您通过路由器接入互联网，那么您需要转发该端口。UPnP 插件可实现该功能。</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -2714,13 +2714,13 @@ msgstr "对网络种子连接使用代理"
 #: ktorrent/pref/proxypref.ui:84
 #, kde-format
 msgid "Whether or not to use the HTTP proxy for tracker connections."
-msgstr "是否为追踪器链接使用 HTTP 代理。"
+msgstr "是否为 tracker 连接使用 HTTP 代理。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxyForTracker)
 #: ktorrent/pref/proxypref.ui:87
 #, kde-format
 msgid "Use proxy for tracker connections"
-msgstr "连接追踪器时使用代理"
+msgstr "使用代理连接 tracker"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ktorrent/pref/proxypref.ui:97
@@ -2734,7 +2734,7 @@ msgstr "SOCKS"
 msgid "<p>Use a SOCKS proxy server for bittorrent connections.</p>\n"
 "<p><span style=\" font-weight:600;\">Note: </span>This is not used for tracker connections</p>"
 msgstr "<p>为 Bittorrent 连接使用 SOCKS 代理服务器。</p>\n"
-"<p><span style=\"font-weight:600;\">注意：</span>这不会作用于伺服器连接</p>"
+"<p><span style=\" font-weight:600;\">注意：</span>tracker 连接不会使用此设置</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_socksEnabled)
 #: ktorrent/pref/proxypref.ui:107
@@ -3851,7 +3851,7 @@ msgstr "种源"
 #: ktorrent/view/viewmodel.cpp:456 plugins/infowidget/trackermodel.cpp:127
 #, kde-format
 msgid "Leechers"
-msgstr "下载者"
+msgstr "吸血者"
 
 #: ktorrent/view/viewmodel.cpp:459
 #, no-c-format, kde-format
@@ -3921,12 +3921,12 @@ msgstr "种子下载完成或达到最大分享率 (如启用) 的剩余时间"
 #: ktorrent/view/viewmodel.cpp:490
 #, kde-format
 msgid "How many seeders we are connected to (How many seeders there are according to the tracker)"
-msgstr "已连接的做种者数量 (追踪器记录的做种者数量)"
+msgstr "已连接的做种者数量 (tracker 记录的做种者数量)"
 
 #: ktorrent/view/viewmodel.cpp:492
 #, kde-format
 msgid "How many leechers we are connected to (How many leechers there are according to the tracker)"
-msgstr "已连接的下载者数量 (追踪器记录的下载者数量)"
+msgstr "已连接的吸血者数量 (tracker 记录的吸血者数量)"
 
 #: ktorrent/view/viewmodel.cpp:495
 #, kde-format
@@ -3966,7 +3966,7 @@ msgstr "%1<br>地址：<b>%2</b>"
 #: ktorrent/view/viewmodel.cpp:553
 #, kde-format
 msgid "<br/><br/>Unable to contact a tracker."
-msgstr "<br/><br/>无法联系追踪器。"
+msgstr "<br/><br/>无法与 tracker 通信。"
 
 #: ktupnptest/main.cpp:25
 #, kde-format
@@ -4254,7 +4254,7 @@ msgstr "复制种子文件到"
 #: libktcore/ktorrent.kcfg:119
 #, kde-format
 msgid "Whether to use a custom IP to pass to the tracker"
-msgstr "是否向追踪器发送自定义 IP 地址"
+msgstr "是否向 tracker 发送自定义 IP 地址"
 
 #. i18n: ectx: label, entry (lastSaveDir), group (downloads)
 #: libktcore/ktorrent.kcfg:123
@@ -4266,7 +4266,7 @@ msgstr "作为最后保存位置的文件夹"
 #: libktcore/ktorrent.kcfg:127
 #, kde-format
 msgid "IP to pass to the tracker"
-msgstr "发送到追踪器的 IP 地址"
+msgstr "发送到 tracker 的 IP 地址"
 
 #. i18n: ectx: label, entry (guiUpdateInterval), group (downloads)
 #: libktcore/ktorrent.kcfg:131
@@ -4779,7 +4779,7 @@ msgstr "种子中文件的下载顺序，最上面的最先下载，然后依次
 #: plugins/infowidget/trackerview.ui:22
 #, kde-format
 msgid "Add Trackers"
-msgstr "添加追踪器"
+msgstr "添加 Tracker"
 
 #: plugins/infowidget/availabilitychunkbar.cpp:23
 #, kde-format
@@ -4996,7 +4996,7 @@ msgstr "显示正在下载种子的所有数据块"
 #: plugins/infowidget/infowidgetplugin.cpp:236
 #, kde-format
 msgid "Displays information about all the trackers of a torrent"
-msgstr "显示所有任务中全部追踪器的信息"
+msgstr "显示种子中全部 tracker 的信息"
 
 #: plugins/infowidget/infowidgetplugin.cpp:252
 #, kde-format
@@ -5123,13 +5123,13 @@ msgstr "显示当前正在下载的数据块列表"
 #: plugins/infowidget/iwprefpage.ui:43
 #, kde-format
 msgid "Whether or not to show the trackers tab in the bottom of the window."
-msgstr "是否在窗口底部显示追踪器标签。"
+msgstr "是否在窗口底部显示 tracker 标签页。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTrackersView)
 #: plugins/infowidget/iwprefpage.ui:46
 #, kde-format
 msgid "Show list of trackers"
-msgstr "显示追踪器列表"
+msgstr "显示 tracker 列表"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showWebSeedsTab)
 #: plugins/infowidget/iwprefpage.ui:53
@@ -5189,7 +5189,7 @@ msgstr "在主窗口中显示数据块下载标签"
 #: plugins/infowidget/ktinfowidgetplugin.kcfg:18
 #, kde-format
 msgid "Show trackers view tab in main window"
-msgstr "在主窗口中显示追踪器视图标签"
+msgstr "在主窗口中显示 tracker 视图标签页"
 
 #: plugins/infowidget/peerview.cpp:43
 #, kde-format
@@ -5505,36 +5505,36 @@ msgstr "有几个错误的 URL 无法被添加："
 #: plugins/infowidget/trackerview.cpp:129
 #, kde-format
 msgid "There already is a tracker named <b>%1</b>."
-msgstr "已经存在名为 <b>%1</b> 的追踪器。"
+msgstr "已经存在名为 <b>%1</b> tracker。"
 
 #: plugins/infowidget/trackerview.cpp:131
 #, kde-format
 msgid "The following duplicate trackers were not added:"
-msgstr "以下重复的追踪器将不会被添加："
+msgstr "以下重复的 tracker 将不会被添加："
 
 #. i18n: ectx: property (text), widget (QPushButton, m_remove_tracker)
 #: plugins/infowidget/trackerview.ui:29
 #, kde-format
 msgid "Remove Tracker"
-msgstr "移除追踪器"
+msgstr "删除 Tracker"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_change_tracker)
 #: plugins/infowidget/trackerview.ui:36
 #, kde-format
 msgid "Changes the current active tracker for private torrents."
-msgstr "将当前活动的追踪器用于私服种子。"
+msgstr "将当前活动的 tracker 用于私有种子。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_change_tracker)
 #: plugins/infowidget/trackerview.ui:39
 #, kde-format
 msgid "Switch Tracker"
-msgstr "切换追踪器"
+msgstr "切换 Tracker"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_scrape)
 #: plugins/infowidget/trackerview.ui:46
 #, kde-format
 msgid "Update Trackers"
-msgstr "更新追踪器"
+msgstr "更新 Tracker"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_restore_defaults)
 #: plugins/infowidget/trackerview.ui:66
@@ -5943,19 +5943,19 @@ msgstr "<font color=\"#00FF00\">日志输出已恢复</font>"
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:40
 #, kde-format
 msgid "Grabs a tracker from the torrent file"
-msgstr "从种子文件获取追踪器。"
+msgstr "从种子文件中获取 tracker。"
 
 #. i18n: ectx: label, entry (customtracker), group (general)
 #: plugins/magnetgenerator/ktmagnetgeneratorplugin.kcfg:14
 #, kde-format
 msgid "Toggles if a custom tracker is used"
-msgstr "切换是否使用自定义追踪器"
+msgstr "是否使用自定义 tracker"
 
 #. i18n: ectx: label, entry (tr), group (general)
 #: plugins/magnetgenerator/ktmagnetgeneratorplugin.kcfg:18
 #, kde-format
 msgid "The default tracker"
-msgstr "使用默认追踪器"
+msgstr "使用默认 tracker"
 
 #. i18n: ectx: label, entry (dn), group (general)
 #: plugins/magnetgenerator/ktmagnetgeneratorplugin.kcfg:22
@@ -6006,25 +6006,25 @@ msgstr "磁力链生成器首选项"
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:43
 #, kde-format
 msgid "Add a tracker from the torrent file"
-msgstr "从种子文件添加追踪器"
+msgstr "从种子文件中添加 tracker"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_customtracker)
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:50
 #, kde-format
 msgid "Define what tracker to add"
-msgstr "定义要添加的追踪器"
+msgstr "定义要添加的 tracker"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_customtracker)
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:53
 #, kde-format
 msgid "Add a custom tracker URL"
-msgstr "添加自定义追踪器地址"
+msgstr "添加自定义 tracker URL"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_tr)
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:60
 #, kde-format
 msgid "The tracker URL that will be a part of the magnet link"
-msgstr "追踪器的地址会成为磁力链接的一部分"
+msgstr "tracker URL 会成为磁力链接的一部分"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_dn)
 #: plugins/magnetgenerator/magnetgeneratorprefwidget.ui:67

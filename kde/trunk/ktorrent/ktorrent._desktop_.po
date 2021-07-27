@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-12 00:28+0000\n"
-"PO-Revision-Date: 2021-07-19 07:49\n"
+"POT-Creation-Date: 2021-07-21 00:25+0000\n"
+"PO-Revision-Date: 2021-07-27 08:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -192,7 +192,7 @@ msgctxt "Name"
 msgid "Scan for lost files"
 msgstr "扫描遗落的文件"
 
-#: plugins/scanforlostfiles/ktorrent_scanforlostfiles.desktop:23
+#: plugins/scanforlostfiles/ktorrent_scanforlostfiles.desktop:24
 msgctxt "Comment"
 msgid "Display files in the selected folder that don't belong to any torrent"
 msgstr "显示所选文件夹中不属于任何种子的文件"
@@ -240,12 +240,12 @@ msgstr "将事件通过电子邮件通知您的脚本"
 #: plugins/scripting/scripts/tracker_groups/tracker_groups.desktop:2
 msgctxt "Name"
 msgid "Tracker Grouping"
-msgstr "追踪器分组"
+msgstr "Tracker 分组"
 
 #: plugins/scripting/scripts/tracker_groups/tracker_groups.desktop:51
 msgctxt "Comment"
 msgid "Script to create automatic groups based upon tracker URLs"
-msgstr "基于追踪器网址创建自动分组的脚本"
+msgstr "基于 tracker URL 创建自动分组的脚本"
 
 #: plugins/search/ktorrent_search.desktop:2
 msgctxt "Name"
