@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-25 00:17+0000\n"
-"PO-Revision-Date: 2021-07-15 16:43\n"
+"PO-Revision-Date: 2021-07-27 06:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -99,7 +99,7 @@ msgstr "服务器 URL"
 #: etesyncresource.kcfg:11 etesyncresource.kcfg:12
 #, kde-format
 msgid "The URL of the EteSync server, should be something like https://myserver.org/"
-msgstr "EteSync 服务器的 URL，类似于 https://myserver.org/"
+msgstr "EteSync 服务器的 URL，形同于 https://myserver.org/"
 
 #. i18n: ectx: label, entry (Username), group (General)
 #: etesyncresource.kcfg:15
