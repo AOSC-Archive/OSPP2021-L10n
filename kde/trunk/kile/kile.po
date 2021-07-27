@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 08:55\n"
+"PO-Revision-Date: 2021-07-27 14:18\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4009,7 +4009,7 @@ msgstr "无标题文档的统计信息"
 #: dialogs/tabbingdialog_base.ui:29
 #, kde-format
 msgid "Number of &columns:"
-msgstr "列数 (&c)："
+msgstr "列数 (&C)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/tabbingdialog_base.ui:63
@@ -10479,7 +10479,7 @@ msgstr "字母"
 #: widgets/codecompletionconfigwidget.ui:82
 #, kde-format
 msgid "A&uto completion for abbreviations"
-msgstr "自动补全缩写 (&u)"
+msgstr "自动补全缩写 (&U)"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_addFileButton)
 #: widgets/codecompletionconfigwidget.ui:133
@@ -10698,7 +10698,7 @@ msgstr ""
 #: widgets/graphicsconfigwidget.ui:61
 #, kde-format
 msgid "Bo&unding box:"
-msgstr "边框 (&u)："
+msgstr "边框 (&U)："
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_boundingbox)
 #: widgets/graphicsconfigwidget.ui:80
@@ -10764,7 +10764,7 @@ msgstr "双引号"
 #: widgets/latexconfigwidget.ui:80
 #, kde-format
 msgid "Automatically insert opening and closing double &quotes for LaTeX"
-msgstr "为 LaTeX 自动插入一对双引号 (&q)"
+msgstr "为 LaTeX 自动插入一对双引号 (&Q)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_tlType)
 #. i18n: ectx: property (text), widget (QLabel, m_lbType)
@@ -10831,7 +10831,7 @@ msgstr "在根文档上运行 LaTeX 前，检查此文档是否为 LaTeX 根文�
 #: widgets/latextoolconfigwidget.ui:38
 #, kde-format
 msgid "Check if &root document"
-msgstr "检查是否为根文档 (&r)"
+msgstr "检查是否为根文档 (&R)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_ckJump)
 #: widgets/latextoolconfigwidget.ui:45
@@ -10891,7 +10891,7 @@ msgstr "保存后编译文档(&U)"
 #: widgets/livepreviewconfigwidget.ui:63
 #, kde-format
 msgid "Compile documents whenever &there are changes after"
-msgstr "文档发生修改后就进行编译 (&t)"
+msgstr "文档发生修改后就进行编译 (&T)"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_livePreviewCompilationDelay)
 #: widgets/livepreviewconfigwidget.ui:70
@@ -10950,7 +10950,7 @@ msgstr "类(&L)："
 #: widgets/maintoolconfigwidget.ui:408
 #, kde-format
 msgid "Source e&xtension:"
-msgstr "源拓展 (&x)："
+msgstr "源拓展 (&X)："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lbTarget)
 #: widgets/maintoolconfigwidget.ui:431
@@ -11500,7 +11500,7 @@ msgstr "打开 TODO/FIXME"
 #: widgets/structureviewconfigwidget.ui:193
 #, kde-format
 msgid "Show figure and table en&vironments"
-msgstr "显示插图和表格环境 (&v)"
+msgstr "显示插图和表格环境 (&V)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SvShowGraphics)
 #: widgets/structureviewconfigwidget.ui:200
@@ -11866,11 +11866,11 @@ msgstr "位置"
 #: widgets/usermenuconfigwidget.ui:161
 #, kde-format
 msgid "Show &the user menu in the LaTeX menu"
-msgstr "在 LaTeX 菜单中显示用户菜单 (&t)"
+msgstr "在 LaTeX 菜单中显示用户菜单 (&T)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_rbStandAloneMenuLocation)
 #: widgets/usermenuconfigwidget.ui:177
 #, kde-format
 msgid "Show the &user menu in the menu bar"
-msgstr "在菜单栏中显示用户菜单 (&u)"
+msgstr "在菜单栏中显示用户菜单 (&U)"
 
