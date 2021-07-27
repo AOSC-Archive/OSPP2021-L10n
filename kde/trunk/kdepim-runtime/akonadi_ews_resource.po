@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-15 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 06:58\n"
+"PO-Revision-Date: 2021-07-27 07:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -211,7 +211,7 @@ msgstr "用户名和密码(&U)"
 #: ewsconfigdialog.ui:143
 #, kde-format
 msgid "<html><head/><body><p>Allows to specify an Active Directory domain for the user.</p><p><span style=\" font-weight:600;\">Note:</span> There is a subtle difference between &quot;empty domain&quot; and &quot;no-domain&quot;.</p><p>With an empty domain (Domain checkbox checked, empty domain in edit box) the EWS resource will pass the user with an explicitly empty domain (&quot;\\username&quot;).</p><p>With no domain set (Domain checkbox cleared) the username will be passed without the domain (&quot;username&quot;), which will cause the server to set the domain to the default one its configured with.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>允许用户指定活动目录的域名。</p><p><span style=\" font-weight:600;\">注意：</span>“空域名 (empty domain)”和“无域名 (no-domain)”之间有着细微的差别。</p><p>EWS 资源在空域名 (选中了域名复选框，但在编辑框内留白) 时会明确地传入域名为空的用户 (“\\username”)。</p><p>而在无域 (未选中域名复选框) 时， 用户名会被直接传入且不带域名 (“username”)，服务器则会根据默认配置来设置域名。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HasDomain)
 #: ewsconfigdialog.ui:146
@@ -914,7 +914,7 @@ msgstr "用户名"
 #: ewsresource.kcfg:16 ewsresource.kcfg:17
 #, kde-format
 msgid "The username that is used to log into the Microsoft Exchange server"
-msgstr "用于登录到 Microsoft Exchange 服务器的密码"
+msgstr "用于登录 Microsoft Exchange 服务器的密码"
 
 #. i18n: ectx: label, entry (Domain), group (General)
 #: ewsresource.kcfg:20
