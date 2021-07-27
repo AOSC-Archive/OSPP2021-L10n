@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-22 15:34\n"
+"PO-Revision-Date: 2021-07-27 08:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "KDE 中国, Boyuan Yang, Guo Yunhe, Tyson Tan, Wordless Echo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-china@kde.org, 073plan@kde.org, i@guoyunhe.me, tysontan@tysontan.com, wordlessecho@kde.org"
 
 #: abbreviationmanager.cpp:101
 #, kde-format
@@ -4318,7 +4318,7 @@ msgstr "文档浏览器"
 #: kilestdactions.cpp:42
 #, kde-format
 msgid "Table of Contents"
-msgstr "目录列表"
+msgstr "目录"
 
 #: dialogs/texdocumentationdialog.cpp:83
 #, kde-format
@@ -5196,7 +5196,7 @@ msgstr "警告"
 #: errorhandler.cpp:80
 #, kde-format
 msgid "BadBoxes"
-msgstr ""
+msgstr "超出区域警告"
 
 #: errorhandler.cpp:101
 #, kde-format
@@ -5226,12 +5226,12 @@ msgstr "下一个 LaTeX 警告"
 #: errorhandler.cpp:122
 #, kde-format
 msgid "Previous LaTeX BadBox"
-msgstr "上一个 LaTeX 坏项"
+msgstr "上一处 LaTeX 超出区域警告"
 
 #: errorhandler.cpp:126
 #, kde-format
 msgid "Next LaTeX BadBox"
-msgstr "下一个 LaTeX 坏项"
+msgstr "下一处 LaTeX 超出区域警告"
 
 #: errorhandler.cpp:316
 #, kde-format
@@ -5246,7 +5246,7 @@ msgstr "警告：%1"
 #: errorhandler.cpp:322
 #, kde-format
 msgid "BadBoxes: %1"
-msgstr ""
+msgstr "超出区域警告：%1"
 
 #: errorhandler.cpp:326
 #, kde-format
@@ -6108,13 +6108,13 @@ msgstr "在这里设置 BSTINPUTS 环境变量。该变量应该是一个以冒�
 #: kile.kcfg:149
 #, kde-format
 msgid "Whether to show the bottom bar."
-msgstr "是否显示底边栏。"
+msgstr "是否显示底栏。"
 
 #. i18n: ectx: label, entry (BottomBarSize), group (Show)
 #: kile.kcfg:153
 #, kde-format
 msgid "Height of the bottom bar."
-msgstr "底边栏高度。"
+msgstr "底栏高度。"
 
 #. i18n: ectx: label, entry (BottomBarIndex), group (Show)
 #: kile.kcfg:157
@@ -6150,7 +6150,7 @@ msgstr "是否在外部显示单独的文档查看器窗口。"
 #: kile.kcfg:177
 #, kde-format
 msgid "Whether to show Bad Box warnings in the LogMsg view."
-msgstr ""
+msgstr "是否在日志消息视图中显示超出区域警告。"
 
 #. i18n: ectx: label, entry (HideProblemWarning), group (Show)
 #: kile.kcfg:181
@@ -6420,37 +6420,37 @@ msgstr "Convert 是否安装。"
 #: kile.kcfg:453
 #, kde-format
 msgid "Show preview of environments in bottom bar."
-msgstr "在底边栏显示环境预览。"
+msgstr "在底栏显示环境预览。"
 
 #. i18n: ectx: label, entry (selPreviewInWidget), group (QuickPreview)
 #: kile.kcfg:457
 #, kde-format
 msgid "Show preview of selected text in bottom bar."
-msgstr "在底边栏显示选中的文本预览。"
+msgstr "在底栏显示选中的文本预览。"
 
 #. i18n: ectx: label, entry (mathgroupPreviewInWidget), group (QuickPreview)
 #: kile.kcfg:461
 #, kde-format
 msgid "Show preview of mathgroups in bottom bar."
-msgstr "在底边栏显示数学预览。"
+msgstr "在底栏显示数学预览。"
 
 #. i18n: ectx: label, entry (envPreviewTool), group (QuickPreview)
 #: kile.kcfg:465
 #, kde-format
 msgid "Conversion tool for preview of environments in bottom bar."
-msgstr "底边栏环境预览的转换工具。"
+msgstr "底栏环境预览的转换工具。"
 
 #. i18n: ectx: label, entry (selPreviewTool), group (QuickPreview)
 #: kile.kcfg:469
 #, kde-format
 msgid "Conversion tool for preview of selected text in bottom bar."
-msgstr "底边栏的选中文本的预览工具。"
+msgstr "底栏的选中文本的预览工具。"
 
 #. i18n: ectx: label, entry (mathgroupPreviewTool), group (QuickPreview)
 #: kile.kcfg:473
 #, kde-format
 msgid "Conversion tool for preview of mathgroups in bottom bar."
-msgstr "底栏中数学预览的工具。"
+msgstr "用于在底栏中显示数学预览的工具"
 
 #. i18n: ectx: label, entry (previewPaneBackgroundColor), group (QuickPreview)
 #: kile.kcfg:477
@@ -7444,57 +7444,57 @@ msgstr "\\textit{斜体文本}"
 #: kilestdactions.cpp:72
 #, kde-format
 msgid "Slanted - \\textsl{}"
-msgstr "倾斜文本 - \\textsl{}"
+msgstr "伪斜体 - \\textsl{}"
 
 #: kilestdactions.cpp:72 kilestdactions.cpp:208
 #, kde-format
 msgid "Slanted"
-msgstr "倾斜文本"
+msgstr "伪斜体"
 
 #: kilestdactions.cpp:72
 #, kde-format
 msgid "\\textsl{slanted text}"
-msgstr "\\textsl{倾斜文本}"
+msgstr "\\textsl{伪斜体文本}"
 
 #: kilestdactions.cpp:73
 #, kde-format
 msgid "Boldface - \\textbf{}"
-msgstr "黑体文本 - \\textbf{}"
+msgstr "粗体 - \\textbf{}"
 
 #: kilestdactions.cpp:73
 #, kde-format
 msgid "Boldface"
-msgstr "黑体文本"
+msgstr "粗体"
 
 #: kilestdactions.cpp:73
 #, kde-format
 msgid "\\textbf{boldface text}"
-msgstr "\\textbf{黑体文本}"
+msgstr "\\textbf{粗体文本}"
 
 #: kilestdactions.cpp:74
 #, kde-format
 msgid "Typewriter - \\texttt{}"
-msgstr "打印体文本 - \\texttt{}"
+msgstr "打字机体 - \\texttt{}"
 
 #: kilestdactions.cpp:74
 #, kde-format
 msgid "Typewriter"
-msgstr "打印体文本"
+msgstr "打字机体"
 
 #: kilestdactions.cpp:74
 #, kde-format
 msgid "\\texttt{typewriter text}"
-msgstr "\\texttt{打印体文本}"
+msgstr "\\texttt{打字机体文本}"
 
 #: kilestdactions.cpp:75
 #, kde-format
 msgid "Small Caps - \\textsc{}"
-msgstr "小型大写体文本 - \\textsc{}"
+msgstr "小型大写体 - \\textsc{}"
 
 #: kilestdactions.cpp:75
 #, kde-format
 msgid "Small Caps"
-msgstr "小型大写体文本"
+msgstr "小型大写体"
 
 #: kilestdactions.cpp:75
 #, kde-format
@@ -8329,92 +8329,92 @@ msgstr "\\emph{被强调文本}"
 #: kilestdactions.cpp:197
 #, kde-format
 msgid "Strong - \\strong{}"
-msgstr ""
+msgstr "加粗 - \\strong{}"
 
 #: kilestdactions.cpp:197
 #, kde-format
 msgid "Strong"
-msgstr "九段"
+msgstr "加粗"
 
 #: kilestdactions.cpp:197
 #, kde-format
 msgid "\\strong{text}"
-msgstr "\\strong{文本}"
+msgstr "\\strong{加粗文本}"
 
 #: kilestdactions.cpp:199
 #, kde-format
 msgid "Roman - \\rmfamily"
-msgstr "Roman - \\rmfamily"
+msgstr "标准 - \\rmfamily"
 
 #: kilestdactions.cpp:199
 #, kde-format
 msgid "Roman"
-msgstr "Roman"
+msgstr "标准"
 
 #: kilestdactions.cpp:200
 #, kde-format
 msgid "Sans Serif - \\sffamily"
-msgstr "Sans Serif - \\sffamily"
+msgstr "无衬线 - \\sffamily"
 
 #: kilestdactions.cpp:200
 #, kde-format
 msgid "Sans Serif"
-msgstr "Sans Serif"
+msgstr "无衬线"
 
 #: kilestdactions.cpp:201
 #, kde-format
 msgid "Monospace - \\ttfamily"
-msgstr "Monospace - \\ttfamily"
+msgstr "等宽 - \\ttfamily"
 
 #: kilestdactions.cpp:201
 #, kde-format
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "等宽"
 
 #: kilestdactions.cpp:203
 #, kde-format
 msgid "Medium - \\mdseries"
-msgstr ""
+msgstr "适中 - \\mdseries"
 
 #: kilestdactions.cpp:203
 #, kde-format
 msgid "Medium"
-msgstr "中等图"
+msgstr "适中"
 
 #: kilestdactions.cpp:204
 #, kde-format
 msgid "Bold - \\bfseries"
-msgstr ""
+msgstr "粗体 - \\bfseries"
 
 #: kilestdactions.cpp:206
 #, kde-format
 msgid "Upright - \\upshape"
-msgstr ""
+msgstr "正体 - \\upshape"
 
 #: kilestdactions.cpp:206
 #, kde-format
 msgid "Upright"
-msgstr ""
+msgstr "正体"
 
 #: kilestdactions.cpp:207
 #, kde-format
 msgid "Italic - \\itshape"
-msgstr ""
+msgstr "斜体 - \\itshape"
 
 #: kilestdactions.cpp:208
 #, kde-format
 msgid "Slanted - \\slshape"
-msgstr ""
+msgstr "伪斜体 - \\slshape"
 
 #: kilestdactions.cpp:209
 #, kde-format
 msgid "Smallcaps - \\scshape"
-msgstr ""
+msgstr "小型大写体 - \\scshape"
 
 #: kilestdactions.cpp:209
 #, kde-format
 msgid "Smallcaps"
-msgstr ""
+msgstr "小型大写体"
 
 #: kilestdactions.cpp:221
 #, kde-format
@@ -8683,7 +8683,7 @@ msgstr "上标"
 #: kilestdactions.cpp:380
 #, kde-format
 msgid "Normal Fraction - \\frac{}{}"
-msgstr ""
+msgstr "正常分式 - \\frac{}{}"
 
 #: kilestdactions.cpp:380
 #, kde-format
@@ -8693,7 +8693,7 @@ msgstr "正常分式"
 #: kilestdactions.cpp:381
 #, kde-format
 msgid "Displaystyle Fraction - \\dfrac{}{}"
-msgstr ""
+msgstr "显示模式分式 - \\dfrac{}{}"
 
 #: kilestdactions.cpp:381
 #, kde-format
@@ -8703,12 +8703,12 @@ msgstr "显示模式分式"
 #: kilestdactions.cpp:382
 #, kde-format
 msgid "Textstyle Fraction - \\tfrac{}{}"
-msgstr ""
+msgstr "文本模式分式 - \\tfrac{}{}"
 
 #: kilestdactions.cpp:382
 #, kde-format
 msgid "Textstyle Fraction"
-msgstr ""
+msgstr "文本模式分式"
 
 #: kilestdactions.cpp:383
 #, kde-format
@@ -8777,7 +8777,7 @@ msgstr "left {"
 #: kilestdactions.cpp:395
 #, kde-format
 msgid "left &lt;"
-msgstr ""
+msgstr "left &lt;"
 
 #: kilestdactions.cpp:397
 #, kde-format
@@ -8797,7 +8797,7 @@ msgstr "left }"
 #: kilestdactions.cpp:400
 #, kde-format
 msgid "left &gt;"
-msgstr ""
+msgstr "left &gt;"
 
 #: kilestdactions.cpp:402
 #, kde-format
@@ -8827,7 +8827,7 @@ msgstr "right }"
 #: kilestdactions.cpp:409
 #, kde-format
 msgid "right &gt;"
-msgstr ""
+msgstr "right &gt;"
 
 #: kilestdactions.cpp:411
 #, kde-format
@@ -8847,7 +8847,7 @@ msgstr "right {"
 #: kilestdactions.cpp:414
 #, kde-format
 msgid "right &lt;"
-msgstr ""
+msgstr "right &lt;"
 
 #: kilestdactions.cpp:416
 #, kde-format
@@ -9057,22 +9057,22 @@ msgstr "公式(无序号的)"
 #: kilestdactions.cpp:458
 #, kde-format
 msgid "Multline - \\begin{multline}"
-msgstr ""
+msgstr "多行 - \\begin{multline}"
 
 #: kilestdactions.cpp:458
 #, kde-format
 msgid "Multline"
-msgstr "Multline"
+msgstr "多行"
 
 #: kilestdactions.cpp:459
 #, kde-format
 msgid "Multline* - \\begin{multline*}"
-msgstr ""
+msgstr "多行* - \\begin{multline*}"
 
 #: kilestdactions.cpp:459
 #, kde-format
 msgid "Multline*"
-msgstr "Multline*"
+msgstr "多行*"
 
 #: kilestdactions.cpp:461
 #, kde-format
@@ -9167,22 +9167,22 @@ msgstr "无编号参数对齐公式"
 #: kilestdactions.cpp:475
 #, kde-format
 msgid "Aligned - \\begin{aligned}"
-msgstr ""
+msgstr "对齐 - \\begin{对齐文本}"
 
 #: kilestdactions.cpp:475
 #, kde-format
 msgid "Aligned"
-msgstr "Aligned"
+msgstr "对齐"
 
 #: kilestdactions.cpp:476
 #, kde-format
 msgid "Gathered - \\begin{gathered}"
-msgstr ""
+msgstr "聚集 - \\begin{聚集文本}"
 
 #: kilestdactions.cpp:476
 #, kde-format
 msgid "Gathered"
-msgstr "Gathered"
+msgstr "聚集"
 
 #: kilestdactions.cpp:477
 #, kde-format
@@ -9290,13 +9290,13 @@ msgstr[0] "%1 个警告"
 #: kilestdtools.cpp:329
 #, kde-format
 msgid "0 badboxes"
-msgstr ""
+msgstr "0 个超出区域警告"
 
 #: kilestdtools.cpp:329
 #, kde-format
 msgid "1 badbox"
 msgid_plural "%1 badboxes"
-msgstr[0] ""
+msgstr[0] "%1 个超出区域警告"
 
 #: kilestdtools.cpp:332
 #, kde-format
@@ -10902,7 +10902,7 @@ msgstr " 毫秒"
 #: widgets/logwidget.cpp:370
 #, kde-format
 msgid "Hide &Bad Boxes"
-msgstr ""
+msgstr "隐藏超出区域警告(&B)"
 
 #: widgets/logwidget.cpp:376
 #, kde-format
@@ -11037,7 +11037,7 @@ msgstr "选择一个配置："
 #: widgets/previewconfigwidget.cpp:68
 #, kde-format
 msgid "Quick Preview in Bottom Bar"
-msgstr "在底边栏快速预览"
+msgstr "在底栏中进行快速预览"
 
 #: widgets/previewconfigwidget.cpp:76
 #, kde-format
@@ -11107,7 +11107,7 @@ msgstr "转换："
 #: widgets/previewconfigwidget.cpp:127
 #, kde-format
 msgid "Show preview in bottom bar:"
-msgstr "在底边栏显示预览："
+msgstr "在底栏中显示预览："
 
 #: widgets/previewconfigwidget.cpp:128
 #, kde-format
