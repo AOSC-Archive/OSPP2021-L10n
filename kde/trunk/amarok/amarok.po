@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-07-26 13:47\n"
+"PO-Revision-Date: 2021-07-27 15:02\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1928,7 +1928,7 @@ msgstr "相册"
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #, kde-format
 msgid "Year - Album"
-msgstr "年份 - 专辑"
+msgstr "年份——专辑"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1101
 #, kde-format
@@ -3689,7 +3689,7 @@ msgstr "删除标签"
 #: playlist/view/PlaylistViewCommon.cpp:202
 #, kde-format
 msgid "Show in Media Sources"
-msgstr ""
+msgstr "在媒体源中显示"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:79
 #, kde-format
@@ -3724,23 +3724,23 @@ msgstr "设置"
 #: context/applets/labels/LabelsApplet.cpp:199
 #, kde-format
 msgid "Labels: No track playing"
-msgstr ""
+msgstr "标签：没有播放中的歌曲"
 
 #: context/applets/labels/LabelsApplet.cpp:520
 #, kde-format
 msgid "Labels: Fetching..."
-msgstr ""
+msgstr "标签：正在获取..."
 
 #: context/applets/labels/LabelsApplet.cpp:530
 #: statsyncing/models/CommonModel.cpp:186
 #, kde-format
 msgid "Labels: %1"
-msgstr ""
+msgstr "标签：%1"
 
 #: context/applets/labels/LabelsApplet.cpp:578
 #, kde-format
 msgid "Labels for %1 by %2"
-msgstr ""
+msgstr "%2 的 %1 的标签"
 
 #: context/applets/labels/LabelsApplet.cpp:757
 #, kde-format
@@ -3849,19 +3849,19 @@ msgstr "只添加至少为此评分的标签。"
 #: context/applets/labels/labelsGeneralSettings.ui:227
 #, kde-format
 msgid "Color for assigned labels:"
-msgstr ""
+msgstr "已分配标签的颜色："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: context/applets/labels/labelsGeneralSettings.ui:257
 #, kde-format
 msgid "Color for labels background:"
-msgstr ""
+msgstr "标签背景颜色："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, resetColorsPushButton)
 #: context/applets/labels/labelsGeneralSettings.ui:297
 #, kde-format
 msgid "Sets the label colors according to the current color scheme."
-msgstr ""
+msgstr "按当前配色方案设置标签颜色。"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetColorsPushButton)
 #: context/applets/labels/labelsGeneralSettings.ui:300
@@ -3873,7 +3873,7 @@ msgstr "重置颜色"
 #: context/applets/labels/labelsReplacementSettings.ui:19
 #, kde-format
 msgid "Replace downloaded label"
-msgstr ""
+msgstr "替换已下载的标签"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, replaceLabel2)
@@ -3896,13 +3896,14 @@ msgstr "添加"
 #, kde-format
 msgid "This will help you keep your label collection clean by replacing downloaded labels according to your preferences.\n"
 "Eg. \"hip hop\" -> \"hip-hop\""
-msgstr ""
+msgstr "此项可按您的喜好来通过替换已下载的标签，并帮助您整理标签集。\n"
+"例如：“疯克” -> “放克”"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, replacementTreeWidget)
 #: context/applets/labels/labelsReplacementSettings.ui:98
 #, kde-format
 msgid "Downloaded label"
-msgstr ""
+msgstr "已下载的标签"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, replacementTreeWidget)
 #: context/applets/labels/labelsReplacementSettings.ui:103
@@ -3920,57 +3921,57 @@ msgstr "删除选中内容"
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:46
 #, kde-format
 msgid "Lyrics config"
-msgstr ""
+msgstr "歌词配置"
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:57
 #, kde-format
 msgid "Font size:"
-msgstr ""
+msgstr "字体大小："
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:73
 #, kde-format
 msgid "Text alignment:"
-msgstr ""
+msgstr "文本对齐方式："
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
 #, kde-format
 msgid "Align left"
-msgstr ""
+msgstr "左对齐"
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
 #, kde-format
 msgid "Align right"
-msgstr ""
+msgstr "右对齐"
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:80
 #, kde-format
 msgid "Align center"
-msgstr ""
+msgstr "居中对齐"
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:99
 #, kde-format
 msgid "Font:"
-msgstr ""
+msgstr "字体："
 
 #: context/applets/lyrics/package/contents/ui/main.qml:83
 #, kde-format
 msgid "Toggle auto scroll"
-msgstr ""
+msgstr "自动滚动开关"
 
 #: context/applets/lyrics/package/contents/ui/main.qml:90
 #, kde-format
 msgid "Reload lyrics"
-msgstr ""
+msgstr "重新加载歌词"
 
 #: context/applets/lyrics/package/contents/ui/main.qml:98
 #, kde-format
 msgid "No lyrics found"
-msgstr ""
+msgstr "未找到歌词"
 
 #: context/applets/lyrics/package/contents/ui/main.qml:113
 #, kde-format
 msgid "Suggestions: "
-msgstr ""
+msgstr "建议："
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
@@ -3990,7 +3991,7 @@ msgstr "艺人："
 #: context/applets/playlistinfo/PlaylistInfo.cpp:155
 #, kde-format
 msgid "Configure Playlist Info Applet"
-msgstr ""
+msgstr "配置播放列表信息部件"
 
 #: context/applets/playlistinfo/PlaylistInfo.cpp:177
 #, kde-format
@@ -4000,7 +4001,7 @@ msgstr "宽度"
 #: context/applets/similarartists/ArtistWidget.cpp:137
 #, kde-format
 msgid "Add Last.fm artist station to the Playlist"
-msgstr ""
+msgstr "将 Last.fm 艺人电台添加到播放列表"
 
 #: context/applets/similarartists/ArtistWidget.cpp:143
 #, kde-format
@@ -4010,28 +4011,28 @@ msgstr ""
 #: context/applets/similarartists/ArtistWidget.cpp:150
 #, kde-format
 msgid "Show Similar Artists to %1"
-msgstr ""
+msgstr "显示与 %1 相似的艺人"
 
 #: context/applets/similarartists/ArtistWidget.cpp:165
 #, kde-format
 msgid "Open Last.fm webpage for this artist"
-msgstr ""
+msgstr "打开此艺人的 Last.fm 页面"
 
 #: context/applets/similarartists/ArtistWidget.cpp:182
 #, kde-format
 msgid "Match: %1%"
-msgstr ""
+msgstr "相似度：%1%"
 
 #: context/applets/similarartists/ArtistWidget.cpp:278
 #, kde-format
 msgid "Unable to fetch the picture: %1"
-msgstr ""
+msgstr "无法获取图片：%1"
 
 #: context/applets/similarartists/ArtistWidget.cpp:287
 #, kde-format
 msgctxt "@info:tooltip Artist biography"
 msgid "Show Biography"
-msgstr ""
+msgstr "显示艺人简介"
 
 #: context/applets/similarartists/ArtistWidget.cpp:428
 #, kde-format
@@ -4058,7 +4059,7 @@ msgstr ""
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:156
 #, kde-format
 msgid "Similar Artists"
-msgstr ""
+msgstr "相似艺人"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:77
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:604
@@ -4139,13 +4140,13 @@ msgstr "无法找到此歌曲的相关信息"
 #: context/applets/tabs/ReloadEditDialog.ui:32
 #, kde-format
 msgid "Reload tabs"
-msgstr ""
+msgstr "重新加载指法谱"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: context/applets/tabs/ReloadEditDialog.ui:61
 #, kde-format
 msgid "Reload tabs with the following title and artist"
-msgstr ""
+msgstr "按以下曲名和艺人重新加载指法谱"
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: context/applets/tabs/ReloadEditDialog.ui:73
@@ -4170,55 +4171,55 @@ msgstr "制表符"
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Reload tabs"
-msgstr ""
+msgstr "重新加载指法谱"
 
 #: context/applets/tabs/TabsApplet.cpp:162
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Tabs: Fetching..."
-msgstr ""
+msgstr "指法谱：正在获取..."
 
 #: context/applets/tabs/TabsApplet.cpp:174
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "No Tabs for %1 by %2"
-msgstr ""
+msgstr "找不到 %2 的 %1 的指法谱"
 
 #: context/applets/tabs/TabsApplet.cpp:180
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Tabs: Fetch Error"
-msgstr ""
+msgstr "指法谱：获取时出错"
 
 #: context/applets/tabs/TabsApplet.cpp:205
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Tabs: %1 - %2"
-msgstr ""
+msgstr "指法谱：%1——%2"
 
 #: context/applets/tabs/TabsApplet.cpp:280
 #, kde-format
 msgctxt "Guitar tablature settings"
 msgid "Tabs Settings"
-msgstr ""
+msgstr "指法谱设置"
 
 #: context/applets/tabs/TabsApplet.cpp:323
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Reload Tabs"
-msgstr ""
+msgstr "重新加载指法谱"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabsSettings)
 #: context/applets/tabs/TabsSettings.ui:26
 #, kde-format
 msgid "Current Track Settings"
-msgstr ""
+msgstr "当前歌曲设置"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbFetchTabs)
 #: context/applets/tabs/TabsSettings.ui:38
 #, kde-format
 msgid "Fetch tabs for"
-msgstr ""
+msgstr "获取的指法谱的类型"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbFetchGuitar)
 #: context/applets/tabs/TabsSettings.ui:47
@@ -4236,7 +4237,7 @@ msgstr "贝司"
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "tab provided from: "
-msgstr ""
+msgstr "指法谱提供者："
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:68
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:129
@@ -4541,7 +4542,7 @@ msgstr ""
 msgctxt "@info:tooltip Number of days till an event"
 msgid "Tomorrow"
 msgid_plural "In <strong>%1</strong> days"
-msgstr[0] ""
+msgstr[0] "<strong>%1</strong> 天后"
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:269
 #, kde-format
@@ -4552,7 +4553,7 @@ msgstr "<strong>位置：</strong><nl/>%1"
 #: context/applets/wikipedia/package/contents/ui/main.qml:38
 #, kde-format
 msgid "Previous"
-msgstr ""
+msgstr "后退"
 
 #: context/applets/wikipedia/package/contents/ui/main.qml:46
 #: statsyncing/ui/ChooseProvidersPage.cpp:35
@@ -4572,13 +4573,13 @@ msgstr "跟踪"
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:444
 #, kde-format
 msgid "Update Supported Languages"
-msgstr ""
+msgstr "更新语言支持列表"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:369
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:445
 #, kde-format
 msgid "Get Supported Languages"
-msgstr ""
+msgstr "获取语言支持列表"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:594
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:763
@@ -4589,71 +4590,71 @@ msgstr "维基百科"
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:737
 #, kde-format
 msgid "Wikipedia: %1"
-msgstr ""
+msgstr "维基百科：%1"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:806
 #, kde-format
 msgid "Wikipedia General Settings"
-msgstr ""
+msgstr "维基百科常规设置"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:807
 #, kde-format
 msgid "Wikipedia Language Settings"
-msgstr ""
+msgstr "维基百科语言设置"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:75
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:139
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:267
 #, kde-format
 msgid "Unable to retrieve Wikipedia information: %1"
-msgstr ""
+msgstr "无法获取维基百科的信息：%1"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:90
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:246
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:304
 #, kde-format
 msgid "No information found..."
-msgstr ""
+msgstr "未找到信息..."
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:314
 #, kde-format
 msgctxt "Search pattern for an artist or band"
 msgid ".*\\(.*(artist|band).*\\))"
-msgstr ""
+msgstr ".*\\(.*(艺人|乐队).*\\))"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:317
 #, kde-format
 msgctxt "Search pattern for a composer"
 msgid ".*\\(.*(composer|musician).*\\))"
-msgstr ""
+msgstr ".*\\(.*(作曲家|音乐家).*\\))"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:320
 #, kde-format
 msgctxt "Search pattern for an album"
 msgid ".*\\(.*(album|score|soundtrack).*\\)"
-msgstr ""
+msgstr ".*\\(.*(专辑|配乐|原声带).*\\)"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:324
 #, kde-format
 msgctxt "Search pattern for a song"
 msgid ".*\\(.*(song|track).*\\)"
-msgstr ""
+msgstr ".*\\(.*(音乐|歌曲).*\\)"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:523
 #, kde-format
 msgctxt "%1 is field name such as 'Artist Name'"
 msgid "%1 is needed for searching Wikipedia."
-msgstr ""
+msgstr "需要以 %1 为关键词来搜索维基百科。"
 
 #: context/applets/wikipedia/plugin/WikipediaEngine.cpp:746
 #, kde-format
 msgid "Choose Language"
-msgstr ""
+msgstr "选择语言"
 
 #: context/context_qml_package/contents/ui/toolbar/AppletToolbar.qml:129
 #, kde-format
 msgid "Configure Applets..."
-msgstr ""
+msgstr "配置部件..."
 
 #: context/ContextDock.cpp:27
 #, kde-format
@@ -4668,22 +4669,22 @@ msgstr "上下文(&C)"
 #: context/engines/labels/LabelsEngine.cpp:351
 #, kde-format
 msgid "No labels found on Last.fm"
-msgstr ""
+msgstr "未在 Last.fm 上找到标签"
 
 #: context/engines/labels/LabelsEngine.cpp:319
 #, kde-format
 msgid "Unable to retrieve from Last.fm"
-msgstr ""
+msgstr "无法从 Last.fm 获取信息"
 
 #: context/engines/labels/LabelsEngine.cpp:369
 #, kde-format
 msgid "No connection to Last.fm"
-msgstr ""
+msgstr "无法连接到 Last.fm"
 
 #: context/engines/songkick/SongkickEngine.cpp:48
 #, kde-format
 msgid "ontour"
-msgstr ""
+msgstr "巡演"
 
 #: context/engines/songkick/SongkickEngine.cpp:48
 #, kde-format
@@ -4693,12 +4694,12 @@ msgstr "日期"
 #: context/tools/amarokpkg.cpp:84 context/tools/amarokpkg.cpp:97
 #, kde-format
 msgid "Amarok Applet Manager"
-msgstr ""
+msgstr "Amarok 部件管理器"
 
 #: context/tools/amarokpkg.cpp:86
 #, kde-format
 msgid "(C) 2008, Aaron Seigo, (C) 2009, Leo Franchi"
-msgstr ""
+msgstr "(C) 2008, Aaron Seigo, (C) 2009, Leo Franchi"
 
 #: context/tools/amarokpkg.cpp:87
 #, kde-format
@@ -4713,7 +4714,7 @@ msgstr "最初作者"
 #: context/tools/amarokpkg.cpp:90 main.cpp:170
 #, kde-format
 msgid "Leo Franchi"
-msgstr ""
+msgstr "Leo Franchi"
 
 #: context/tools/amarokpkg.cpp:91 main.cpp:254 main.cpp:256 main.cpp:270
 #: main.cpp:280 main.cpp:286 main.cpp:288 main.cpp:300 main.cpp:306
@@ -4725,30 +4726,30 @@ msgstr "开发者"
 #: context/tools/amarokpkg.cpp:108
 #, kde-format
 msgid "For install or remove, operates on applets installed for all users."
-msgstr ""
+msgstr "为所有用户安装部件、删除部件或修改已安装的部件。"
 
 #: context/tools/amarokpkg.cpp:110
 #, kde-format
 msgctxt "Do not translate <path>"
 msgid "Install the applet at <path>"
-msgstr ""
+msgstr "安装位于 <path> 的部件"
 
 #: context/tools/amarokpkg.cpp:112
 #, kde-format
 msgctxt "Do not translate <path>"
 msgid "Upgrade the applet at <path>"
-msgstr ""
+msgstr "升级位于 <path> 的部件"
 
 #: context/tools/amarokpkg.cpp:114
 #, kde-format
 msgid "Most installed applets"
-msgstr ""
+msgstr "安装量最多的部件"
 
 #: context/tools/amarokpkg.cpp:116
 #, kde-format
 msgctxt "Do not translate <name>"
 msgid "Remove the applet named <name>"
-msgstr ""
+msgstr "删除名为 <name> 的部件"
 
 #: context/tools/amarokpkg.cpp:118
 #, kde-format
@@ -4758,17 +4759,17 @@ msgstr "软件包根目录的绝对路径。如果未提供，则转而搜索本
 #: context/tools/amarokpkg.cpp:176
 #, kde-format
 msgid "Successfully removed %1"
-msgstr ""
+msgstr "已成功删除 %1"
 
 #: context/tools/amarokpkg.cpp:178
 #, kde-format
 msgid "Removal of %1 failed."
-msgstr ""
+msgstr "删除 %1 时失败。"
 
 #: context/tools/amarokpkg.cpp:183
 #, kde-format
 msgid "Plugin %1 is not installed."
-msgstr ""
+msgstr "插件 %1 尚未安装。"
 
 #: context/tools/amarokpkg.cpp:188
 #, kde-format
@@ -4778,7 +4779,7 @@ msgstr "成功安装了 %1"
 #: context/tools/amarokpkg.cpp:191
 #, kde-format
 msgid "Installation of %1 failed."
-msgstr ""
+msgstr "%1 安装失败。"
 
 #: context/tools/amarokpkg.cpp:199
 #, kde-format
@@ -4789,12 +4790,12 @@ msgstr "需要使用安装(install)、删除(remove)、升级(upgrade)或列出(
 #: core-impl/capabilities/AlbumActionsCapability.cpp:38
 #, kde-format
 msgid "Do not show under Various Artists"
-msgstr ""
+msgstr "不在“群星”下显示"
 
 #: core-impl/capabilities/AlbumActionsCapability.cpp:43
 #, kde-format
 msgid "Show under Various Artists"
-msgstr ""
+msgstr "在“群星”下显示"
 
 #: core-impl/capabilities/timecode/TimecodeWriteCapability.cpp:103
 #, kde-format
@@ -4810,7 +4811,7 @@ msgstr ""
 #, kde-format
 msgctxt "Name of the virtual collection that merges tracks from all collections"
 msgid "Aggregate Collection"
-msgstr ""
+msgstr "所有音频集"
 
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:393
 #: core-impl/collections/audiocd/handler/AudioCdHandler.cpp:37
@@ -4821,33 +4822,33 @@ msgstr "音频 CD"
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:63
 #, kde-format
 msgid "Ogg Vorbis is a fully free and unencumbered compressed audio format that is perfect for storing your compressed music on your computer. The sound quality is slightly better than MP3 at the same bitrate. Note that not all mobile players support the Ogg Vorbis format."
-msgstr ""
+msgstr "Ogg Vorbis 是完全自由且不附加限制的压缩音频格式，也是您在计算机上储存压缩音乐的完美之选。在同比特率下，音质比 MP3 稍微更好一些。请注意，并不是所有的移动播放器都支持 Ogg Vorbis 格式。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:69
 #, kde-format
 msgid "FLAC is a lossless compressed audio format free of any patents or license fees. It maintains perfect CD audio quality while reducing file size by about 50%. Because the filesize is much larger than Ogg Vorbis or MP3 it is not recommended if you want to transfer your music to a mobile player."
-msgstr ""
+msgstr "FLAC 是无损压缩的音频格式，无任何专利费及授权费。它保留了完美的 CD 音质，又减小了 50% 的文件大小。因为文件大小比 Ogg Vorbis 和 MP3 更大，所以不推荐在需要将音乐传输到移动播放器的情况下使用。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:75
 #, kde-format
 msgid "WAV is a basic, uncompressed audio file format. It takes up a lot of space but maintains perfect quality. It is generally not recommended unless you know what you are doing. If you want perfect quality, use FLAC instead."
-msgstr ""
+msgstr "WAV 是一种基础的、无压缩的音频文件格式。它需要占用大量空间，但能保留完美的音质。除非您已了解自身需求，一般而言不建议使用。如果您只想要完美音质，请使用 FLAC。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:81
 #, kde-format
 msgid "MP3 is the de facto standard in compressed audio compatible with almost all mobile players. It is however non free and generally not recommended."
-msgstr ""
+msgstr "MP3 是压缩音频的事实标准，与几乎全部移动播放器兼容。但是它是不自由的，故不推荐。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:114
 #, kde-format
 msgid "Audio CD settings - Amarok"
-msgstr ""
+msgstr "音频 CD 设置 - Amarok"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #, kde-format
 msgid "Available formats"
-msgstr ""
+msgstr "可选格式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, oggButton)
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:32
@@ -4886,77 +4887,79 @@ msgstr "高级"
 #: core-impl/collections/daap/DaapCollection.cpp:101
 #, kde-format
 msgid "Loading remote collection from host %1"
-msgstr ""
+msgstr "从主机 %1 处加载远程音频源"
 
 #: core-impl/collections/daap/DaapCollection.cpp:271
 #, kde-format
 msgid "Music share at %1"
-msgstr ""
+msgstr "%1 上分享的音乐"
 
 #: core-impl/collections/db/sql/SqlCollection.cpp:243
 #, kde-format
 msgid "Updating Amarok database schema. Please don't terminate Amarok now as it may result in database corruption."
-msgstr ""
+msgstr "正在更新 Amarok 数据库的结构。此时请不要关闭 Amarok，否则可能会造成数据库损坏。"
 
 #: core-impl/collections/db/sql/SqlCollection.cpp:245
 #, kde-format
 msgid "Updating Amarok database schema"
-msgstr ""
+msgstr "正在更新 Amarok 数据库的结构"
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:528
 #, kde-format
 msgid "Source track does not exist: %1"
-msgstr ""
+msgstr "源歌曲不存在：%1"
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:539
 #, kde-format
 msgid "Could not create directory: %1"
-msgstr ""
+msgstr "无法创建目录：%1"
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:616
 #, kde-format
 msgid "Transferring: %1"
-msgstr ""
+msgstr "正在传输：%1"
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:618
 #, kde-format
 msgid "Transcoding: %1"
-msgstr ""
+msgstr "正在转码：%1"
 
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:662
 #: core-impl/collections/support/FileCollectionLocation.cpp:87
 #, kde-format
 msgid "Removing: %1"
-msgstr ""
+msgstr "正在删除：%1"
 
 #: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:85
 #, kde-format
 msgid "<ul><li>%1</li></ul>In most cases this means that not all of your tracks were imported.<br>See <a href='http://userbase.kde.org/Amarok/Manual/Various/TroubleshootingAndCommonProblems#Duplicate_Tracks'>Amarok Manual</a> for information about duplicate tracks."
-msgstr ""
+msgstr "<ul><li>%1</li></ul>在多数情况下，这代表您的歌曲都未被导入。<br>参见<a href='http://userbase.kde.org/Amarok/Manual/Various/TroubleshootingAndCommonProblems#Duplicate_Tracks'>Amarok 手册</a>了解关于重复歌曲的信息。"
 
 #: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:89
 #, kde-format
 msgid "Errors During Collection Scan"
-msgstr ""
+msgstr "扫描音频集时发生错误"
 
 #: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:212
 #, kde-format
 msgid "Duplicates found, the second file will be ignored:\n"
 "%1\n"
 "%2"
-msgstr ""
+msgstr "找到了重复文件，第二份文件会被忽略：\n"
+"%1\n"
+"%2"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:113
 #: core-impl/collections/umscollection/UmsCollection.cpp:246
 #, kde-format
 msgid "&Configure Device"
-msgstr ""
+msgstr "配置设备 (&C)"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:117
 #: core-impl/collections/umscollection/UmsCollection.cpp:254
 #, kde-format
 msgid "&Eject Device"
-msgstr ""
+msgstr "弹出设备 (&E)"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:126
 #, kde-format
@@ -4967,37 +4970,37 @@ msgstr ""
 #, kde-format
 msgctxt "iPod was successfully initialized"
 msgid "Initialization successful."
-msgstr ""
+msgstr "初始化成功。"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:705
 #, kde-format
 msgctxt "%1: iPod collection name"
 msgid "iTunes database successfully written to %1"
-msgstr ""
+msgstr "已成功将 iTunes 数据库写入到 %1 内"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:713
 #, kde-format
 msgctxt "%1: iPod collection name"
 msgid "Writing iTunes database to %1 failed without an indication of error"
-msgstr ""
+msgstr "无法将 iTunes 数据库写入至 %1，且没有错误提示"
 
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:717
 #, kde-format
 msgctxt "%1: iPod collection name, %2: technical error from libgpod"
 msgid "Writing iTunes database to %1 failed: %2"
-msgstr ""
+msgstr "将 iTunes 数据库写入到 %1 时失败：%2"
 
 #: core-impl/collections/ipodcollection/IpodCollectionLocation.cpp:54
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:364
 #, kde-format
 msgid "Disconnected iPod/iPad/iPhone"
-msgstr ""
+msgstr "iPod、iPad 或 iPhone 已断开连接"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:182
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:90
 #, kde-format
 msgid "Unknown Collection"
-msgstr ""
+msgstr "未知音频集"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:183
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:91
@@ -5019,7 +5022,7 @@ msgstr "未知曲目"
 #, kde-format
 msgid "Failed to process one track. (more info about it is in the Amarok debugging log)"
 msgid_plural "Failed to process %1 tracks. (more info about these is in the Amarok debugging log)"
-msgstr[0] ""
+msgstr[0] "无法处理 %1 首歌曲。(详见 Amarok 调试日志)"
 
 #: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:318
 #, kde-format
@@ -5032,62 +5035,62 @@ msgstr ""
 msgctxt "%2 is collection name"
 msgid "Transferred one track to %2."
 msgid_plural "Transferred %1 tracks to %2."
-msgstr[0] ""
+msgstr[0] "已成功将 %1 首歌曲传输到 %2 内。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:227
 #, kde-format
 msgctxt "%2 is collection name"
 msgid "Transcoded one track to %2."
 msgid_plural "Transcoded %1 tracks to %2."
-msgstr[0] ""
+msgstr[0] "已成功将 %1 首歌曲转码至 %2 内。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:236
 #, kde-format
 msgid "Transfer aborted. Managed to transfer one track."
 msgid_plural "Transfer aborted. Managed to transfer %1 tracks."
-msgstr[0] ""
+msgstr[0] "传输已中止，已完成 %1 首歌曲的传输。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:244
 #, kde-format
 msgctxt "%2 is the 'Transferred 123 tracks to Some collection.' message"
 msgid "%2 One track was already there."
 msgid_plural "%2 %1 tracks were already there."
-msgstr[0] ""
+msgstr[0] "%2其中 %1 首歌曲已存在。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:366
 #, kde-format
 msgctxt "%1 is collection pretty name, e.g. My Little iPod"
 msgid "Transferred Tracks to %1"
-msgstr ""
+msgstr "已将歌曲传输至 %1"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:369
 #, kde-format
 msgid "One track successfully transferred, but transfer of some other tracks failed."
 msgid_plural "%1 tracks successfully transferred, but transfer of some other tracks failed."
-msgstr[0] ""
+msgstr[0] "已成功传输 %1 首歌曲，但有部分歌曲传输失败。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:373
 #, kde-format
 msgid "Transfer of tracks failed."
-msgstr ""
+msgstr "歌曲传输失败。"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:378
 #, kde-format
 msgid "One track was not transferred because it would exceed iPod capacity.<br>"
 msgid_plural "%1 tracks were not transferred because it would exceed iPod capacity.<br>"
-msgstr[0] ""
+msgstr[0] "%1 首歌曲未传输，因为 iPod 的储存空间不足。<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:386
 #, kde-format
 msgctxt "Example of %1 would be: 20.0 MiB"
 msgid "<i>Amarok reserves %1 on iPod for iTunes database writing.</i><br>"
-msgstr ""
+msgstr "<i>Amarok 在 iPod 上预留了 %1 用于写入 iTunes 数据库。</i><br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:393
 #, kde-format
 msgid "One track was not copied because it wouldn't be playable - its  %2 format is unsupported.<br>"
 msgid_plural "%1 tracks were not copied because they wouldn't be playable - they are in unsupported formats (%2).<br>"
-msgstr[0] ""
+msgstr[0] "有 %1 首歌曲未被复制，因为其格式不受支持而无法播放 (%2)。<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:402
 #, kde-format
