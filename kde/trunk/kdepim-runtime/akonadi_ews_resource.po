@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-15 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 07:39\n"
+"PO-Revision-Date: 2021-07-27 14:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -205,7 +205,7 @@ msgstr "<html><head/><body><p>针对 Exchange 服务器启用传统的用户名�
 #, kde-format
 msgctxt "authentication type"
 msgid "&Username/Password"
-msgstr "用户名和密码(&U)"
+msgstr "用户名和密码 (&U)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HasDomain)
 #: ewsconfigdialog.ui:143
