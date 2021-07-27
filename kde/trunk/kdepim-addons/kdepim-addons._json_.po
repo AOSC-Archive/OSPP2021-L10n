@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:29+0000\n"
-"PO-Revision-Date: 2021-07-16 05:56\n"
+"PO-Revision-Date: 2021-07-27 07:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -351,27 +351,27 @@ msgstr "请勿追踪"
 #: kaddressbook/importexportplugins/csv/kaddressbook_importexportcsvplugin.json
 msgctxt "Description"
 msgid "This plugin allows you to import/export CSV."
-msgstr "此插件允许您导入/导出 CSV 表格。"
+msgstr "此插件能让您导入或导出 CSV 表格。"
 
 #: kaddressbook/importexportplugins/gmx/kaddressbook_importexportgmxplugin.json
 msgctxt "Description"
 msgid "This plugin allows you to import/export GMX."
-msgstr "此插件允许您导入/导出 GMX。"
+msgstr "此插件能让您导入或导出 GMX。"
 
 #: kaddressbook/importexportplugins/ldap/kaddressbook_importexportldapplugin.json
 msgctxt "Description"
 msgid "This plugin allows you to import/export LDAP contacts."
-msgstr "此插件允许您导入/导出 LDAP 联系人。"
+msgstr "此插件能让您导入或导出 LDAP 联系人。"
 
 #: kaddressbook/importexportplugins/ldif/kaddressbook_importexportldifplugin.json
 msgctxt "Description"
 msgid "This plugin allows you to import/export LDIF."
-msgstr "此插件允许您导入/导出 LDIF。"
+msgstr "此插件能让您导入或导出 LDIF。"
 
 #: kaddressbook/importexportplugins/vcards/kaddressbook_importexportvcardplugin.json
 msgctxt "Description"
 msgid "This plugin allows you to import/export vCards."
-msgstr "此插件允许您导入/导出 vCard 名片。"
+msgstr "此插件能让您导入或导出 vCard 名片。"
 
 #: kaddressbook/importexportplugins/windows-contacts/kaddressbook_importexportwindowscontactplugin.json
 msgctxt "Description"
