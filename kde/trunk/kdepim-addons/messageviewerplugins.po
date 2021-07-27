@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-07 00:19+0000\n"
-"PO-Revision-Date: 2021-07-17 12:37\n"
+"POT-Creation-Date: 2021-07-17 00:18+0000\n"
+"PO-Revision-Date: 2021-07-27 14:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -81,7 +81,7 @@ msgstr "创建新事件并关闭这个部件。"
 #: createeventplugin/eventedit.cpp:129 createtodoplugin/todoedit.cpp:44
 #, kde-format
 msgid "Open &Editor..."
-msgstr "打开编辑器(&E)..."
+msgstr "打开编辑器 (&E)..."
 
 #: createeventplugin/eventedit.cpp:131
 #, kde-format
@@ -249,38 +249,38 @@ msgstr "您真地想移除此脚本“%1”吗？"
 msgid "Remove External Script"
 msgstr "移除外部脚本"
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditdialog.cpp:19
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditdialog.cpp:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Add or Modify External Script"
 msgstr "添加或修改外部脚本"
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:25
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:28
 #, kde-format
 msgid "Name:"
 msgstr "名称："
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:30
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:32
 #, kde-format
 msgid "Description:"
 msgstr "描述："
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:36
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:37
 #, kde-format
 msgid "Add command arguments..."
 msgstr "添加命令参数..."
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:37
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:38
 #, kde-format
 msgid "Command Line:"
 msgstr "命令行："
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:40
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:41
 #, kde-format
 msgid "<qt><a href=\"whatsthis1\">Argument format information...</a></qt>"
 msgstr "<qt><a href=\"whatsthis1\">参数格式信息...</a></qt>"
 
-#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:46
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:47
 #, kde-format
 msgid "<qt><p><strong>These expressions may be used for the arguments:</strong></p><ul><li>%s - the subject of message</li><li>%from - the from email address</li><li>%cc - the list of cc email address</li><li>%bcc - the list of bcc email address</li><li>%body - the body of message</li><li>%inreplyto - the reply email address</li><li>%akonadiUrl - the akonadi url (as akonadi:?item=187020)</li></ul></strong></p></qt>"
 msgstr "<qt><p><strong>这些表达式可使用以下参数：</strong></p><ul><li>%s——邮件的主题</li><li>%from——发件人的邮箱地址</li><li>%cc——抄送的邮件地址列表</li><li>%bcc——密送的邮件列表</li><li>%body——邮件的内容</li><li>%inreplyto——要回复的邮件地址</li><li>%akonadiUrl——akondi 的 URL (形如 akonadi:?item=187020)</li></ul></strong></p></qt>"
