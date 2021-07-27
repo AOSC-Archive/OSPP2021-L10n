@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2020-03-24 08:51+0100\n"
+"PO-Revision-Date: 2021-07-27 08:59\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kio-gdrive/org.kde.kio_gdrive.metainfo.pot\n"
+"X-Crowdin-File-ID: 6132\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kio_gdrive.metainfo.xml:10
+msgid "KIO GDrive"
+msgstr "KIO GDrive"
+
+#. (itstool) path: component/summary
+#: org.kde.kio_gdrive.metainfo.xml:11
+msgid "Google Drive integration with KDE Plasma and KDE applications"
+msgstr "KDE Plasma 和 KDE 应用的 Google Drive 集成插件"
+
+#. (itstool) path: description/p
+#: org.kde.kio_gdrive.metainfo.xml:13
+msgid "KIO GDrive is a KIO slave that enables KIO-aware applications (such as Dolphin, Kate or Gwenview) to access and edit Google Drive files on the cloud."
+msgstr "KIO GDrive 是 Google Drive 的 KIO 从属程序，它能够让支持 KIO 的程序 (例如 Dolphin、Kate 或者 Gwenview) 访问和编辑 Google Drive 上的文件。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kio_gdrive.metainfo.xml:21
+msgid "Dolphin showing KIO GDrive in lower right, and Falkon browsing Google Drive in upper left."
+msgstr "位于右下方的 Dolphin 正在显示 KIO GDrive，位于左上方的 Falkon 正在浏览 Google Drive 网页版。"
+
