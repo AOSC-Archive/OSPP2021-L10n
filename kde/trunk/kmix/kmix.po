@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-30 00:17+0000\n"
-"PO-Revision-Date: 2021-07-20 05:34\n"
+"PO-Revision-Date: 2021-07-27 08:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -80,7 +80,7 @@ msgstr "配置声道(&C)..."
 #: apps/kmixwindow.cpp:187
 #, kde-format
 msgid "Select Master Channel..."
-msgstr "选择主声道..."
+msgstr "选择主通道音量..."
 
 #: apps/kmixwindow.cpp:192
 #, kde-format
@@ -355,7 +355,7 @@ msgstr "控制前端扬声器或所有扬声器（具体取决于您的声卡型
 #: backends/mixer_backend_i18n.cpp:26
 #, kde-format
 msgid "Most media, such as MP3s or Videos, are played back using the PCM channel. As such, the playback volume of such media is controlled by both this and the Master or Headphone channels."
-msgstr "大多数媒体格式，如 MP3 或视频等都使用 PCM 通道播放声音。因此这些媒体在播放时的音量是同时由 PCM 通道和主通道/耳机通道控制的。"
+msgstr "大多数媒体格式，如 MP3 或视频等都使用 PCM 通道播放声音。因此这些媒体在播放时的音量是同时由 PCM 通道和主通道、耳机通道控制的。"
 
 #: backends/mixer_backend_i18n.cpp:27
 #, kde-format
@@ -719,7 +719,7 @@ msgstr "选择混音器"
 #: gui/dialogselectmaster.cpp:43 gui/dialogselectmaster.cpp:139
 #, kde-format
 msgid "Select Master Channel"
-msgstr "选择主声道"
+msgstr "选择主通道音量"
 
 #: gui/dialogselectmaster.cpp:73
 #, kde-format
@@ -730,13 +730,13 @@ msgstr "当前混音器："
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Select the <link url=\"i\">master volume</link> channel:"
-msgstr "选择<link url=\"i\">主声道</link>："
+msgstr "选择<link url=\"i\">主通道音量</link>："
 
 #: gui/dialogselectmaster.cpp:131
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "<para>Here you can select the master sound device (if there is more than one) and its master channel.</para><para>The master channel is the one that is affected by the system tray volume control, the volume up/down and mute global shortcut keys, and the <interface>Mute</interface> action in the system tray popup menu.</para>"
-msgstr "<para>您可以在此选择主要声音设备 (如果多个设备的话) 及其主声道。</para><para>主声道受系统托盘中的音量控制界面、音量增减和静音的全局快捷键和<interface>静音</interface>操作影响的声道。</para>"
+msgstr "<para>您可以在此选择主要声音设备 (如果多个设备的话) 及其主通道音量。</para><para>主通道音量会受系统托盘中的音量控制界面、音量增减和静音的全局快捷键和<interface>静音</interface>操作的影响。</para>"
 
 #: gui/dialogselectmaster.cpp:203
 #, kde-format
