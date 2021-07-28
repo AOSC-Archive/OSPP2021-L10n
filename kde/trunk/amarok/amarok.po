@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-07-27 15:02\n"
+"PO-Revision-Date: 2021-07-28 12:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -3740,7 +3740,7 @@ msgstr "标签：%1"
 #: context/applets/labels/LabelsApplet.cpp:578
 #, kde-format
 msgid "Labels for %1 by %2"
-msgstr "%2 的 %1 的标签"
+msgstr "%2 所作的 %1 的标签"
 
 #: context/applets/labels/LabelsApplet.cpp:757
 #, kde-format
@@ -4183,7 +4183,7 @@ msgstr "指法谱：正在获取..."
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "No Tabs for %1 by %2"
-msgstr "找不到 %2 的 %1 的指法谱"
+msgstr "找不到 %2 所作的 %1 的指法谱"
 
 #: context/applets/tabs/TabsApplet.cpp:180
 #, kde-format
@@ -4887,7 +4887,7 @@ msgstr "高级"
 #: core-impl/collections/daap/DaapCollection.cpp:101
 #, kde-format
 msgid "Loading remote collection from host %1"
-msgstr "从主机 %1 处加载远程音频源"
+msgstr "从主机 %1 处加载音频源"
 
 #: core-impl/collections/daap/DaapCollection.cpp:271
 #, kde-format
@@ -5096,41 +5096,41 @@ msgstr[0] "有 %1 首歌曲未被复制，因为其格式不受支持而无法�
 #, kde-format
 msgid "Copy/move/transcode of one file failed.<br>"
 msgid_plural "Copy/move/transcode of %1 files failed.<br>"
-msgstr[0] ""
+msgstr[0] "复制、移动或转码 %1 份文件时失败。<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:408
 #, kde-format
 msgid "One track was not transferred due to an internal Amarok error.<br>"
 msgid_plural "%1 tracks were not transferred due to an internal Amarok error.<br>"
-msgstr[0] ""
+msgstr[0] "由于 Amarok 内部出错，%1 首歌曲未完成传输。<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:411
 #, kde-format
 msgid "<i>You can find details in Amarok debugging output.</i><br>"
-msgstr ""
+msgstr "<i>您可在 Amarok 调试输出中查看详情。</i><br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:416
 #, kde-format
 msgid "The rest was not transferred because iPod collection disappeared.<br>"
-msgstr ""
+msgstr "由于 iPod 音频集消失，其余部分未完成传输。<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:421
 #, kde-format
 msgctxt "%1 is a list of errors that occurred during copying of tracks"
 msgid "Error causes: %1<br>"
-msgstr ""
+msgstr "错误原因：%1<br>"
 
 #: core-impl/collections/ipodcollection/jobs/IpodDeleteTracksJob.cpp:44
 #, kde-format
 msgid "Removing one track from iPod"
 msgid_plural "Removing %1 tracks from iPod"
-msgstr[0] ""
+msgstr[0] "正在删除 iPod 内的 %1 首歌曲"
 
 #: core-impl/collections/ipodcollection/jobs/IpodParseTracksJob.cpp:57
 #, kde-format
 msgctxt "operation when iPod is connected"
 msgid "Reading iPod tracks"
-msgstr ""
+msgstr "正在读取 iPod 中的歌曲"
 
 #: core-impl/collections/ipodcollection/jobs/IpodParseTracksJob.cpp:118
 #, kde-format
@@ -5152,19 +5152,19 @@ msgstr ""
 #: core-impl/collections/ipodcollection/support/IphoneMountPoint.cpp:56
 #, kde-format
 msgid "Connecting to iPhone, iPad or iPod touch failed."
-msgstr ""
+msgstr "无法连接至 iPhone、iPad 或 iPod touch。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, IpodConfiguration)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:14
 #, kde-format
 msgid "iPod device configuration"
-msgstr ""
+msgstr "iPod 设备配置"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:26
 #, kde-format
 msgid "iPod name:"
-msgstr ""
+msgstr "iPod 名称："
 
 #. i18n: ectx: property (text), widget (QLabel, m_transcodeLabel)
 #. i18n: ectx: property (text), widget (QLabel, transcodeLabel)
@@ -5186,7 +5186,7 @@ msgstr "模式："
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:91
 #, kde-format
 msgid "&Initialize iPod"
-msgstr ""
+msgstr "初始化 iPod (&I)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, infoGroupBox)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:103
@@ -5211,36 +5211,36 @@ msgstr "视频:"
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:151
 #, kde-format
 msgid "Album artwork:"
-msgstr ""
+msgstr "专辑封面："
 
 #. i18n: ectx: property (title), widget (QGroupBox, troubleshootingGroupBox)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:168
 #, kde-format
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排查"
 
 #. i18n: ectx: property (text), widget (QLabel, sysInfoLabel)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:174
 #, kde-format
 msgid "SysInfo file:"
-msgstr ""
+msgstr "SysInfo 文件："
 
 #. i18n: ectx: property (text), widget (QLabel, sysInfoExtendedLabel)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:188
 #, kde-format
 msgid "SysInfoExtended file:"
-msgstr ""
+msgstr "SysInfoExtended 文件："
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:48
 #, kde-format
 msgid "Cannot parse iTunes database due to an unreported error."
-msgstr ""
+msgstr "由于未知错误，Amarok 无法解析 iTunes 数据库。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:57
 #, kde-format
 msgctxt "iPod model that is not (yet) recognized"
 msgid "Unrecognized model"
-msgstr ""
+msgstr "未知型号"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:60
 #, kde-format
@@ -5257,36 +5257,36 @@ msgstr "iPod"
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:214
 #, kde-format
 msgid "iPod model was not recognized."
-msgstr ""
+msgstr "无法识别 iPod 的型号。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:226
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:238
 #, kde-format
 msgid "%1 family uses %2 file to generate correct database checksum."
-msgstr ""
+msgstr "%1 系列使用 %2 文件生成正确的数据库校验和。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:228
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:240
 #, kde-format
 msgid "%1 family needs %2 file to generate correct database checksum."
-msgstr ""
+msgstr "%1 系列需要 %2 文件生成正确的数据库校验和。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:248
 #, kde-format
 msgctxt "Do not translate hash-AB, libgpod, libhashab.so"
 msgid "%1 family probably uses hash-AB to generate correct database checksum. libgpod (as of version 0.8.2) doesn't know how to compute it, but tries to dynamically load external library libhashab.so to do it."
-msgstr ""
+msgstr "%1 系列可能会使用 hash-AB 来生成正确的数据库校验和。libgpod (0.8.2 版本) 不知道如何计算校验和，但会尝试动态加载外部库 libhashab.so 来计算。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:262
 #, kde-format
 msgid "Autodetect (%1 file(s) present)"
-msgstr ""
+msgstr "自动检测 (共 %1 份文件)"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:286
 #, kde-format
 msgctxt "Examples: %1: Nano with camera (5th Gen.); [generation]%2: 16 GiB; [capacity]%3: Nano (Orange); [model name]%4: A123 [model number]"
 msgid "%1: %2 %3 [%4]"
-msgstr ""
+msgstr "%1：%2 %3 [%4]"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:302
 #, kde-format
@@ -5310,13 +5310,13 @@ msgstr "不支持"
 #, kde-format
 msgctxt "In a dialog: Some file: Present"
 msgid "Present"
-msgstr ""
+msgstr "存在"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:306
 #, kde-format
 msgctxt "In a dialog: Some file: Not found"
 msgid "<b>Not found</b>"
-msgstr ""
+msgstr "<b>未找到</b>"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:307
 #, kde-format
@@ -5328,7 +5328,7 @@ msgstr "不需要"
 #, kde-format
 msgctxt "%1 is informational sentence giving reason"
 msgid "<b>%1</b><br><br>As a safety measure, Amarok will <i>refuse to perform any writes</i> to iPod. (modifying iTunes database could make it look empty from the device point of view)<br>See <a href='%2'>README.overview</a> file from libgpod source repository for more information."
-msgstr ""
+msgstr "<b>%1</b><br><br>由于安全原因，Amarok <i>不会对 iPod 写入任何数据</i>。(修改 iTunes 数据库可能会让设备认为数据库已清空)<br>参见 libgpod 源代码仓库下的 <a href='%2'>README.overview</a> 文件了解详情。"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:372
 #, kde-format
@@ -5339,114 +5339,114 @@ msgstr ""
 #, kde-format
 msgctxt "Do not translate SysInfo"
 msgid "Failed to write SysInfo: %1"
-msgstr ""
+msgstr "无法写入 SysInfo：%1"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:439
 #, kde-format
 msgctxt "Do not translate SysInfo"
 msgid "Failed to write SysInfo file due to an unreported error"
-msgstr ""
+msgstr "由于未知错误，Amarok 无法写入 SysInfo 文件"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:461
 #, kde-format
 msgid "Cannot initialize iPod due to an unreported error."
-msgstr ""
+msgstr "由于未知错误，Amarok 无法初始化 iPod。"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:314
 #, kde-format
 msgid "Copying Tracks Failed"
-msgstr ""
+msgstr "复制歌曲时出错"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:318
 #, kde-format
 msgid "Tracks not copied: the device is already being copied to"
-msgstr ""
+msgstr "歌曲未被复制：此设备正在进行复制"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:351
 #, kde-format
 msgid "Unsupported format: %1"
-msgstr ""
+msgstr "不支持的格式：%1"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:394
 #, kde-format
 msgid "Already on device"
-msgstr ""
+msgstr "此内容已存在于设备上"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:410
 #, kde-format
 msgid "Tracks not copied: the device already has these tracks"
-msgstr ""
+msgstr "歌曲未被复制：此设备已拥有这些歌曲"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:431
 #, kde-format
 msgid "Tracks not copied: the device has insufficient space"
-msgstr ""
+msgstr "歌曲未被复制：设备空间不足"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:441
 #, kde-format
 msgid "Transferring Tracks to Device"
-msgstr ""
+msgstr "正在向该设备传输歌曲"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:483
 #, kde-format
 msgid "%1 track failed to copy to the device"
 msgid_plural "%1 tracks failed to copy to the device"
-msgstr[0] ""
+msgstr[0] "无法将 %1 首歌曲复制到此设备上"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:561
 #, kde-format
 msgid "The track failed to copy to the device"
-msgstr ""
+msgstr "无法将歌曲复制到此设备上"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:571
 #, kde-format
 msgid "Track not deleted:"
 msgid_plural "Tracks not deleted:"
-msgstr[0] ""
+msgstr[0] "歌曲未删除："
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:572
 #, kde-format
 msgid "Deleting Track Failed"
 msgid_plural "Deleting Tracks Failed"
-msgstr[0] ""
+msgstr[0] "删除歌曲失败"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:576
 #, kde-format
 msgid "%1 tracks are already being deleted from the device."
-msgstr ""
+msgstr "%1 歌曲已被从此设备内删除。"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:590
 #, kde-format
 msgid "Removing Track from Device"
 msgid_plural "Removing Tracks from Device"
-msgstr[0] ""
+msgstr[0] "正在删除此设备内的歌曲"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:241
 #, kde-format
 msgid "&Disconnect Device"
-msgstr ""
+msgstr "断开与此设备的连接 (&D)"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.h:41
 #, kde-format
 msgid "Media Device playlists"
-msgstr ""
+msgstr "媒体设备播放列表"
 
 #: core-impl/collections/mediadevicecollection/podcast/MediaDevicePodcastProvider.cpp:75
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:165
 #, kde-format
 msgctxt "Podcasts on a media device"
 msgid "Podcasts on %1"
-msgstr ""
+msgstr "%1 上的播客"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:152
 #, kde-format
 msgid "Could not connect to MTP Device"
-msgstr ""
+msgstr "无法连接到 MTP 设备"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:378
 #, kde-format
 msgid "Could not copy track from device."
-msgstr ""
+msgstr "无法从此设备中复制歌曲。"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
 #: core/meta/Meta.cpp:300
@@ -5458,14 +5458,14 @@ msgstr "未知专辑"
 #: core/meta/Meta.cpp:333
 #, kde-format
 msgid "Unknown Genre"
-msgstr ""
+msgstr "未知流派"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:593
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:725
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:910
 #, kde-format
 msgid "Could not delete item"
-msgstr ""
+msgstr "无法删除项目"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:603
 #, kde-format
@@ -5475,17 +5475,17 @@ msgstr "删除失败"
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:883
 #, kde-format
 msgid "Could not save playlist."
-msgstr ""
+msgstr "无法保存播放列表。"
 
 #: core-impl/collections/playdarcollection/PlaydarCollection.cpp:123
 #, kde-format
 msgid "Playdar Collection"
-msgstr ""
+msgstr "Playdar 音频集"
 
 #: core-impl/collections/playdarcollection/PlaydarMeta.cpp:122
 #, kde-format
 msgid "Source collection removed"
-msgstr ""
+msgstr "源收藏已被删除"
 
 #: core-impl/collections/support/ArtistHelper.cpp:31
 #, kde-format
@@ -5498,21 +5498,21 @@ msgstr "古典"
 msgctxt "@info"
 msgid "Do you really want to delete this track? It will be removed from %2 and from underlying storage medium."
 msgid_plural "Do you really want to delete these %1 tracks? They will be removed from %2 and from underlying storage medium."
-msgstr[0] ""
+msgstr[0] "您真的要删除这 %1 首歌曲嘛？它们会被从 %2 中和所在的存储介质上删除。"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:49
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to move this track to the trash? It will be removed from %2."
 msgid_plural "Do you really want to move these %1 tracks to the trash? They will be removed from %2."
-msgstr[0] ""
+msgstr[0] "您真的要将这 %1 首歌曲移动至回收站吗？它们会被从 %2 中删除。"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:63
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to move this track? It will be renamed and the original deleted."
 msgid_plural "Do you really want to move these %1 tracks? They will be renamed and the originals deleted."
-msgstr[0] ""
+msgstr[0] "您真的要移动这 %1 首歌曲嘛？它们会被重命名且原文件会被删除。"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:67
 #, kde-format
@@ -5531,33 +5531,33 @@ msgstr "重命名(&R)："
 msgctxt "@info"
 msgid "There was a problem and this track could not be removed. Make sure the directory is writable."
 msgid_plural "There was a problem and %1 tracks could not be removed. Make sure the directory is writable."
-msgstr[0] ""
+msgstr[0] "发生了一个问题导致 %1 首歌曲无法被删除。请确认当前目录可被写入。"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:80
 #, kde-format
 msgid "Unable to remove tracks"
-msgstr ""
+msgstr "无法删除歌曲"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:88
 #, kde-format
 msgid "The collection does not have enough free space available or is not writable."
-msgstr ""
+msgstr "此音频集没有足够的空闲空间或不可被写入。"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:95
 #, kde-format
 msgid "Do you want to remove empty folders?"
-msgstr ""
+msgstr "您真的想要删除空文件夹吗？"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:96
 #, kde-format
 msgid "Remove empty folders?"
-msgstr ""
+msgstr "删除空文件夹？"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:134
 #, kde-format
 msgctxt "%1 is track url, %2 track title, %3 track artist"
 msgid "%1 (%2 by %3)"
-msgstr ""
+msgstr "%1 (%3 所作的 %2)"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:136
 #, kde-format
@@ -5569,7 +5569,7 @@ msgstr "%1 (%2 封)"
 #, kde-format
 msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
-msgstr ""
+msgstr "%1 (作者 %2)"
 
 #: core-impl/collections/support/TextualQueryFilter.cpp:277
 #, kde-format
@@ -5589,12 +5589,12 @@ msgstr "上月"
 #: core-impl/collections/support/TextualQueryFilter.cpp:283
 #, kde-format
 msgid "two months ago"
-msgstr ""
+msgstr "两个月前"
 
 #: core-impl/collections/support/TextualQueryFilter.cpp:285
 #, kde-format
 msgid "three months ago"
-msgstr ""
+msgstr "三个月前"
 
 #: core-impl/collections/support/TrashCollectionLocation.cpp:47
 #, kde-format
@@ -5604,62 +5604,62 @@ msgstr "废件夹"
 #: core-impl/collections/support/TrashCollectionLocation.cpp:101
 #, kde-format
 msgid "Moving to trash: %1"
-msgstr ""
+msgstr "正在移动至回收站：%1"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:192
 #, kde-format
 msgid "&Delete Episode"
-msgstr ""
+msgstr "删除单集 (&D)"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:258
 #, kde-format
 msgid "Are you sure you want to delete this episode?"
 msgid_plural "Are you sure you want to delete these %1 episodes?"
-msgstr[0] ""
+msgstr[0] "您确定要删除这 %1 集吗？"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:276
 #, kde-format
 msgid "Yes, delete from %1."
-msgstr ""
+msgstr "确定，从 %1 中删除。"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:331
 #: services/gpodder/GpodderProvider.cpp:349
 #, kde-format
 msgid "&Delete Channel and Episodes"
-msgstr ""
+msgstr "删除频道及其单集 (&D)"
 
 #: core-impl/collections/umscollection/UmsCollection.cpp:250
 #, kde-format
 msgid "&Activate This Collection"
-msgstr ""
+msgstr "启用此音频集"
 
 #: core-impl/collections/umscollection/UmsCollection.cpp:287
 #, kde-format
 msgid "File <i>%1</i> suggests that we should use <i>%2</i> as music folder on the device, but it doesn't exist. Falling back to <i>%3</i> instead"
-msgstr ""
+msgstr "文件 <i>%1</i> 建议我们使用 <i>%2</i> 作为该设备上的音乐文件夹，但此文件夹不存在。正改用为 <i>%3</i>。"
 
 #: core-impl/collections/umscollection/UmsCollection.cpp:387
 #, kde-format
 msgctxt "Name of the USB Mass Storage collection that has not yet been activated. See also the 'Activate This Collection' action; %1 is actual collection name"
 msgid "%1 (not activated)"
-msgstr ""
+msgstr "%1 (未启用)"
 
 #: core-impl/collections/umscollection/UmsCollection.cpp:629
 #, kde-format
 msgid "Configure USB Mass Storage Device"
-msgstr ""
+msgstr "配置 USB 大容量存储设备"
 
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:126
 #, kde-format
 msgid "Removing one track from %2"
 msgid_plural "Removing %1 tracks from %2"
-msgstr[0] ""
+msgstr[0] "正在从 %2 中删除 %1 首歌曲"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UmsConfiguration)
 #: core-impl/collections/umscollection/UmsConfiguration.ui:14
 #, kde-format
 msgid "USB Mass Storage device configuration"
-msgstr ""
+msgstr "USB 大容量存储设备配置"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_autoConnect)
 #: core-impl/collections/umscollection/UmsConfiguration.ui:34
@@ -5683,23 +5683,23 @@ msgstr "音乐文件夹："
 #: core-impl/collections/umscollection/UmsConfiguration.ui:104
 #, kde-format
 msgid "Filename scheme of tracks that are added to the device"
-msgstr ""
+msgstr "歌曲文件名方案已添加到此设备内"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: core-impl/collections/umscollection/UmsConfiguration.ui:176
 #, kde-format
 msgid "Podcast folder:"
-msgstr ""
+msgstr "播客文件夹："
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:118
 #, kde-format
 msgid "Scanning %1"
-msgstr ""
+msgstr "正在扫描 %1"
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:202
 #, kde-format
 msgid "UPnP Error: %1"
-msgstr ""
+msgstr "UPnP 错误：%1"
 
 #: core-impl/meta/default/DefaultMetaTypes.h:39
 #: core-impl/meta/default/DefaultMetaTypes.h:75
@@ -5729,66 +5729,66 @@ msgstr ""
 #: core-impl/meta/proxy/MetaProxy.cpp:157
 #, kde-format
 msgid "When Amarok was last closed, this track was at %1, but Amarok cannot find this track on the filesystem or in any of your collections anymore. You may try plugging in the device this track might be on."
-msgstr ""
+msgstr "Amarok 上次关闭时，此歌曲位于 %1。但 Amarok 现在无法再从文件系统或音频集中找到此歌曲了，您可能要尝试插入此歌曲所在的设备。"
 
 #: core-impl/meta/stream/Stream.cpp:52
 #, kde-format
 msgid "Stream (%1)"
-msgstr ""
+msgstr "媒体流 (%1)"
 
 #: core-impl/meta/timecode/TimecodeMeta.cpp:83
 #, kde-format
 msgid "Url is not a local file"
-msgstr ""
+msgstr "此 URL 并非指向本地文件"
 
 #: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:58
 #, kde-format
 msgid "Could not create a temporary file to download playlist."
-msgstr ""
+msgstr "无法创建临时文件以下载播放列表。"
 
 #: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:66
 #, kde-format
 msgid "Downloading remote playlist"
-msgstr ""
+msgstr "正在从服务器上下载播放列表"
 
 #: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:92
 #, kde-format
 msgctxt "%1 is file path"
 msgid "Cannot read playlist from %1"
-msgstr ""
+msgstr "无法从 %1 上读取播放列表"
 
 #: core-impl/playlists/types/file/PlaylistFileSupport.cpp:122
 #, kde-format
 msgid "The used file extension is not valid for playlists."
-msgstr ""
+msgstr "您使用的播放列表文件的拓展名无效。"
 
 #: core-impl/playlists/types/file/PlaylistFileSupport.cpp:123
 #, kde-format
 msgid "Unknown playlist format"
-msgstr ""
+msgstr "未知的播放列表格式"
 
 #: core-impl/playlists/types/file/PlaylistFileSupport.cpp:148
 #, kde-format
 msgid "Playlist_%1"
-msgstr ""
+msgstr "播放列表_%1"
 
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigDialog.cpp:34
 #, kde-format
 msgctxt "Change filename layout"
 msgid "Podcast Episode Filename Configuration"
-msgstr ""
+msgstr "播客单集文件名配置"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PodcastFilenameLayoutConfigWidget)
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:30
 #, kde-format
 msgid "Podcast Filename Layout Configuration"
-msgstr ""
+msgstr "播客文件名结构配置"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_filenameLayoutDefault)
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:54
 #, kde-format
 msgid "Specified by podcast channel"
-msgstr ""
+msgstr "由播客频道决定"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_filenameLayoutCustom)
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:79
@@ -5800,13 +5800,13 @@ msgstr "自定义"
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:110
 #, no-c-format, kde-format
 msgid "Available fields : %artist%,%title%,%genre%,%year%,%composer%,%pubdate%,%number%,%album%"
-msgstr ""
+msgstr "可用字段：%artist%、%title%、%genre%、%year%、%composer%、%pubdate%、%number% 和 %album%"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PodcastSettingsBase)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:30
 #, kde-format
 msgid "Podcast Configuration"
-msgstr ""
+msgstr "播客配置"
 
 #. i18n: ectx: property (text), widget (QLabel, m_saveLocationlabel)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:68
@@ -5820,19 +5820,19 @@ msgstr "保存位置："
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:102
 #, kde-format
 msgid "When checked, Amarok will automatically scan the podcast for updates"
-msgstr ""
+msgstr "勾选后，Amarok 会自动扫描播客更新"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_autoFetchCheck)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:105
 #, kde-format
 msgid "Automatically scan for updates"
-msgstr ""
+msgstr "自动扫描更新"
 
 #. i18n: ectx: property (title), widget (QGroupBox, qgroupbox)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:112
 #, kde-format
 msgid "Media Download"
-msgstr ""
+msgstr "下载播客"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_downloadRadio)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, m_downloadRadio)
@@ -5840,13 +5840,13 @@ msgstr ""
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:124
 #, kde-format
 msgid "Download media as soon as it becomes available"
-msgstr ""
+msgstr "有新播客时立刻进行下载"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_downloadRadio)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:127
 #, kde-format
 msgid "Download when a&vailable"
-msgstr ""
+msgstr "下载新播客"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_streamRadio)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, m_streamRadio)
@@ -5854,13 +5854,13 @@ msgstr ""
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:137
 #, kde-format
 msgid "Media must be explicitly downloaded, otherwise the podcast will be played from the remote server."
-msgstr ""
+msgstr "下载或从服务器直接播放播客。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_streamRadio)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:140
 #, kde-format
 msgid "Stream or download on re&quest"
-msgstr ""
+msgstr "流式播放或下载后播放"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_purgeCheck)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_purgeCheck)
@@ -5868,19 +5868,19 @@ msgstr ""
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:155
 #, kde-format
 msgid "If checked, Amarok will throw away old podcast episodes"
-msgstr ""
+msgstr "勾选后，Amarok 会自动删除旧播客"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_purgeCheck)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:158
 #, kde-format
 msgid "Limit &number of episodes"
-msgstr ""
+msgstr "单集数量限制 (&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_purgeCountLabel)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:181
 #, kde-format
 msgid "Keep maximum of:"
-msgstr ""
+msgstr "最大数量："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, m_purgeCountSpinBox)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, m_purgeCountSpinBox)
@@ -5888,25 +5888,25 @@ msgstr ""
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:194
 #, kde-format
 msgid "The maximum number of podcast items to store"
-msgstr ""
+msgstr "要储存的播客项的最大数量"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_writeTagsCheck)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:208
 #, kde-format
 msgid "The RSS feed and the tags in the downloaded file sometimes do not contain the same information. Writing the tags ensures the information in the playlist and on media devices will be the same as in the feed."
-msgstr ""
+msgstr "RSS 订阅及下载文件中的标签有时并不包含同样的信息，将订阅信息写入标签内可确保播放列表内的信息和媒体设备上的信息与订阅中的一致。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeTagsCheck)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:211
 #, kde-format
 msgid "Write feed information to tags after downloading."
-msgstr ""
+msgstr "下载后将订阅信息写入标签。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_filenameLayoutConfigWidgetButton)
 #: core-impl/podcasts/sql/PodcastSettingsBase.ui:251
 #, kde-format
 msgid "Episode Filename Configuration"
-msgstr ""
+msgstr "播客单集文件名配置"
 
 #: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:39
 #, kde-format
@@ -5929,17 +5929,17 @@ msgstr "广播"
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:290
 #, kde-format
 msgid "&Update All Channels"
-msgstr ""
+msgstr "更新所有频道 (&U)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:296
 #, kde-format
 msgid "&Configure General Settings"
-msgstr ""
+msgstr "配置常规设置 (&C)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:302
 #, kde-format
 msgid "&Export subscriptions to OPML file"
-msgstr ""
+msgstr "将播客订阅列表导出至 OPML 文件 (&E)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:328
 #, kde-format
@@ -5954,37 +5954,37 @@ msgstr "&移除订阅"
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:350
 #, kde-format
 msgid "&Update Channel"
-msgstr ""
+msgstr "更新频道 (&U)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:386
 #, kde-format
 msgid "&Download Episode"
-msgstr ""
+msgstr "下载单集 (&D)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:394
 #, kde-format
 msgid "&Delete Downloaded Episode"
-msgstr ""
+msgstr "删除已下载的单集 (&D)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:403
 #, kde-format
 msgid "&Write Feed Information to File"
-msgstr ""
+msgstr "将 RSS 订阅内的信息写入文件中"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:411
 #, kde-format
 msgid "&Keep downloaded file"
-msgstr ""
+msgstr "保留已下载的文件 (&K)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:412
 #, kde-format
 msgid "Toggle the \"keep\" downloaded file status of this podcast episode. Downloaded files with this status wouldn't be deleted even if we apply a purge."
-msgstr ""
+msgstr "是否保留此播客单集的下载文件，选中此项的单集的下载文件即使在执行清理后也不会被删除。"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:478
 #, kde-format
 msgid "Already subscribed to %1."
-msgstr ""
+msgstr "已经订阅过 %1 了。"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:603
 #, kde-format
@@ -6001,64 +6001,64 @@ msgstr[0] " 分"
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:612
 #, kde-format
 msgid "Configure Local Podcasts"
-msgstr ""
+msgstr "配置本地播客"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:633
 #, kde-format
 msgid "Move Podcasts"
-msgstr ""
+msgstr "移动播客"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:634
 #, kde-format
 msgid "Do you want to move all downloaded episodes to the new location?"
-msgstr ""
+msgstr "您要将全部已下载的单集移动至新位置吗？"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:701
 #, kde-format
 msgid "Select file for OPML export"
-msgstr ""
+msgstr "选择用于导出 OPML 的文件"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:848
 #, kde-format
 msgid "Do you really want to unsubscribe from \"%1\"?"
-msgstr ""
+msgstr "您确定要取消订阅“%1”吗？"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:851
 #, kde-format
 msgid "Delete downloaded episodes"
-msgstr ""
+msgstr "删除已下载的单集"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:974
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
-msgstr[0] ""
+msgstr[0] "仍有 %1 个播客正在下载"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:977
 #, kde-format
 msgid "Cancel Download and Quit."
-msgstr ""
+msgstr "取消下载并退出。"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1156
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1406
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
-msgstr ""
+msgstr "无法将播客单集文件保存至 %1"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1166
 #, kde-format
 msgid "Downloading Podcast Media"
-msgstr ""
+msgstr "正在下载播客"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1167
 #, kde-format
 msgid "Downloading Podcast \"%1\""
-msgstr ""
+msgstr "正在下载播客“%1”"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.h:56
 #, kde-format
 msgid "Local Podcasts"
-msgstr ""
+msgstr "本地播客"
 
 #. i18n: ectx: property (text), widget (QLabel, m_intervalLabel)
 #: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:32
@@ -6089,7 +6089,13 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Base directory for all new podcast channels.</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">When a podcast channel is added <span style=\" font-style:italic;\">&lt;base directory&gt;</span>/<span style=\" font-style:italic;\">&lt;channel name&gt;</span> is used as the download directory.</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">This can be changed for each channel individually.</p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">全部新的播客频道所在的底层文件夹。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">播客频道添加后，<span style=\" font-style:italic;\">&lt;底层目录&gt;</span>/<span style=\" font-style:italic;\">&lt;频道名称&gt;</span> 将作为下载目录。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">您也可以单独调整每个频道的设置。</p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_baseDirUrl)
 #: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:112
@@ -6097,78 +6103,80 @@ msgstr ""
 msgid "Base directory for all new podcast channels.\n"
 "When a podcast channel is added <base directory>/<channel name> is used as the download directory.\n"
 "This can be changed for each channel individually."
-msgstr ""
+msgstr "所有新播客频道的底层文件夹。\n"
+"当一个播客频道添加后，<底层目录>/<频道名称> 会被用作为它的下载目录。\n"
+"您也可以单独调整每个频道的设置。"
 
 #: core-impl/storage/StorageManager.cpp:162
 #, kde-format
 msgid "The configured database plugin could not be loaded."
-msgstr ""
+msgstr "无法加载已配置的数据库插件。"
 
 #: core/collections/CollectionLocation.cpp:381
 #, kde-format
 msgid "Organize tracks"
-msgstr ""
+msgstr "整理歌曲"
 
 #: core/collections/CollectionLocation.cpp:383
 #, kde-format
 msgid "Transcode and organize tracks"
-msgstr ""
+msgstr "转码并整理歌曲"
 
 #: core/collections/CollectionLocation.cpp:388
 #, kde-format
 msgid "Move tracks"
-msgstr ""
+msgstr "移动歌曲"
 
 #: core/collections/CollectionLocation.cpp:390
 #, kde-format
 msgid "Transcode and move tracks"
-msgstr ""
+msgstr "转码并移动歌曲"
 
 #: core/collections/CollectionLocation.cpp:395
 #, kde-format
 msgid "Copy tracks"
-msgstr ""
+msgstr "复制歌曲"
 
 #: core/collections/CollectionLocation.cpp:397
 #, kde-format
 msgid "Transcode and copy tracks"
-msgstr ""
+msgstr "转码并复制歌曲"
 
 #: core/collections/CollectionLocation.cpp:410
 #, kde-format
 msgid "Organizing one track"
 msgid_plural "Organizing %1 tracks"
-msgstr[0] ""
+msgstr[0] "整理 %1 首歌曲"
 
 #: core/collections/CollectionLocation.cpp:413
 #, kde-format
 msgid "Transcoding and organizing one track"
 msgid_plural "Transcoding and organizing %1 tracks"
-msgstr[0] ""
+msgstr[0] "正在转码并整理 %1 首歌曲"
 
 #: core/collections/CollectionLocation.cpp:419
 #, kde-format
 msgid "Moving one track to %2"
 msgid_plural "Moving %1 tracks to %2"
-msgstr[0] ""
+msgstr[0] "正在将 %1 首歌曲移动至 %2"
 
 #: core/collections/CollectionLocation.cpp:422
 #, kde-format
 msgid "Transcoding and moving one track to %2"
 msgid_plural "Transcoding and moving %1 tracks to %2"
-msgstr[0] ""
+msgstr[0] "正在转码并移动 %1 首歌曲至 %2"
 
 #: core/collections/CollectionLocation.cpp:428
 #, kde-format
 msgid "Copying one track to %2"
 msgid_plural "Copying %1 tracks to %2"
-msgstr[0] ""
+msgstr[0] "正在将 %1 首歌曲复制至 %2"
 
 #: core/collections/CollectionLocation.cpp:431
 #, kde-format
 msgid "Transcoding and copying one track to %2"
 msgid_plural "Transcoding and copying %1 tracks to %2"
-msgstr[0] ""
+msgstr[0] "正在转码并复制 %1 首歌曲至 %2"
 
 #: core/meta/Meta.cpp:207
 #, kde-format
@@ -6178,22 +6186,22 @@ msgstr "无网络连接"
 #: core/meta/Meta.cpp:217
 #, kde-format
 msgid "File does not exist"
-msgstr ""
+msgstr "文件不存在"
 
 #: core/meta/Meta.cpp:219
 #, kde-format
 msgid "Not a file"
-msgstr ""
+msgstr "此项不属于文件"
 
 #: core/meta/Meta.cpp:221
 #, kde-format
 msgid "No read permissions"
-msgstr ""
+msgstr "没有读取权限"
 
 #: core/meta/Meta.cpp:355
 #, kde-format
 msgid "Unknown Composer"
-msgstr ""
+msgstr "未知作曲家"
 
 #: core/meta/support/MetaConstants.cpp:180
 #, kde-format
@@ -6277,7 +6285,7 @@ msgstr "长度"
 #, kde-format
 msgctxt "Track field name"
 msgid "Bit Rate"
-msgstr ""
+msgstr "比特率"
 
 #: core/meta/support/MetaConstants.cpp:194
 #, kde-format
@@ -6319,25 +6327,25 @@ msgstr "评分"
 #, kde-format
 msgctxt "Track field name"
 msgid "First Played"
-msgstr ""
+msgstr "首次播放"
 
 #: core/meta/support/MetaConstants.cpp:201
 #, kde-format
 msgctxt "Track field name"
 msgid "Last Played"
-msgstr ""
+msgstr "上次播放"
 
 #: core/meta/support/MetaConstants.cpp:202
 #, kde-format
 msgctxt "Track field name"
 msgid "Playcount"
-msgstr ""
+msgstr "播放次数"
 
 #: core/meta/support/MetaConstants.cpp:203
 #, kde-format
 msgctxt "Track field name"
 msgid "Unique Id"
-msgstr ""
+msgstr "唯一 ID"
 
 #: core/meta/support/MetaConstants.cpp:205
 #, kde-format
@@ -6445,7 +6453,7 @@ msgstr "注释"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "tracknumber"
-msgstr ""
+msgstr "音轨编号"
 
 #: core/meta/support/MetaConstants.cpp:234
 #, kde-format
@@ -6511,25 +6519,25 @@ msgstr "评分"
 #, kde-format
 msgctxt "One word translation used in the collection filter. First played time / access date"
 msgid "firstplay"
-msgstr ""
+msgstr "首次播放"
 
 #: core/meta/support/MetaConstants.cpp:245
 #, kde-format
 msgctxt "One word translation used in the collection filter. Last played time / access date"
 msgid "lastplay"
-msgstr ""
+msgstr "上次播放"
 
 #: core/meta/support/MetaConstants.cpp:246
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "playcount"
-msgstr ""
+msgstr "播放次数"
 
 #: core/meta/support/MetaConstants.cpp:247
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "uniqueid"
-msgstr ""
+msgstr "唯一ID"
 
 #: core/meta/support/MetaConstants.cpp:249
 #, kde-format
@@ -6643,58 +6651,59 @@ msgstr[0] "%1 秒"
 #: core/podcasts/PodcastReader.cpp:451
 #, kde-format
 msgid "Importing podcast channel from %1"
-msgstr ""
+msgstr "正在从 %1 上导入播客频道"
 
 #: core/podcasts/PodcastReader.cpp:455
 #, kde-format
 msgid "Updating podcast channel"
-msgstr ""
+msgstr "正在更新播客频道"
 
 #: core/podcasts/PodcastReader.cpp:456
 #, kde-format
 msgid "Updating \"%1\""
-msgstr ""
+msgstr "正在更新“%1”"
 
 #: core/podcasts/PodcastReader.cpp:504 core/podcasts/PodcastReader.cpp:518
 #, kde-format
 msgid "Importing podcast from %1 failed with error:\n"
-msgstr ""
+msgstr "从 %1 上导入播客时出错：\n"
 
 #: core/podcasts/PodcastReader.cpp:508 core/podcasts/PodcastReader.cpp:522
 #, kde-format
 msgid "Updating podcast from %1 failed with error:\n"
-msgstr ""
+msgstr "从 %1 上更新播客时出错：\n"
 
 #: core/podcasts/PodcastReader.cpp:509 core/podcasts/PodcastReader.cpp:523
 #, kde-format
 msgid "Updating \"%1\" failed with error:\n"
-msgstr ""
+msgstr "更新“%1”时出错：\n"
 
 #: core/podcasts/PodcastReader.cpp:993
 #, kde-format
 msgid "While parsing %1, a feed was expected but an HTML page was received.\n"
 "Did you enter the correct URL?"
-msgstr ""
+msgstr "解析 %1 时收到了一张 HTML 页面而非订阅。\n"
+"请问您输入的 URL 是否准确无误？"
 
 #: core/podcasts/PodcastReader.cpp:1000
 #, kde-format
 msgid "Feed has an unknown type: %1"
-msgstr ""
+msgstr "未知的订阅类型：%1"
 
 #: core/podcasts/PodcastReader.cpp:1009
 #, kde-format
 msgid "%1 is not an RSS version 2.0 feed."
-msgstr ""
+msgstr "%1 不是 RSS 2.0 的订阅。"
 
 #: core/podcasts/PodcastReader.cpp:1039
 #, kde-format
 msgid "%1 is not a valid RSS version 1.0 feed."
-msgstr ""
+msgstr "%1 不是 RSS 1.0 的订阅。"
 
 #: core/podcasts/PodcastReader.cpp:1047
 #, kde-format
 msgid "%1 is not a valid Atom feed."
-msgstr ""
+msgstr "%1 不是 Atom 订阅。"
 
 #: core/podcasts/PodcastReader.cpp:1130
 #, kde-format
@@ -6757,7 +6766,7 @@ msgstr[0] "%1 分钟前"
 #: core/support/Amarok.cpp:81
 #, kde-format
 msgid "Within the last minute"
-msgstr ""
+msgstr "不到一分钟"
 
 #: core/support/Amarok.cpp:83
 #, kde-format
@@ -6834,28 +6843,28 @@ msgstr "0"
 #, kde-format
 msgctxt "A saved playlist with the current time (KLocalizedString::Shortdate) added between                           the parentheses"
 msgid "Empty Playlist (%1)"
-msgstr ""
+msgstr "播放列表为空 (%1)"
 
 #: core/support/Amarok.cpp:196
 #, kde-format
 msgctxt "A saved playlist with the current time (KLocalizedString::Shortdate) added between                           the parentheses"
 msgid "Various Tracks (%1)"
-msgstr ""
+msgstr "多首歌曲 (%1)"
 
 #: core/support/Amarok.cpp:203
 #, kde-format
 msgid "Unknown Artist(s)"
-msgstr ""
+msgstr "未知艺人"
 
 #: core/support/Amarok.cpp:219
 #, kde-format
 msgid "Unknown Album(s)"
-msgstr ""
+msgstr "未知专辑"
 
 #: core/support/Amarok.cpp:223
 #, kde-format
 msgid "Various Albums"
-msgstr ""
+msgstr "多张专辑"
 
 #: core/support/Amarok.cpp:226
 #, kde-format
@@ -6866,13 +6875,13 @@ msgstr "%1 - %2"
 #: core/transcoding/formats/TranscodingAacFormat.cpp:30
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>The encoder used by Amarok operates better with a constant bitrate.<br>VBR is experimental and likely to get even worse results than the CBR.<br>For this reason, the bitrate measure in this slider is a pretty accurate estimate of the bitrate of the encoded track.<br>The encoder is transparent at 128kbps for most samples tested with artifacts only appearing in extreme cases."
-msgstr ""
+msgstr "比特率是衡量歌曲中一秒的音质的单位。<br>Amarok 使用的编码器在处理时比恒定比特率的更好。<br>VBR 仍在测试，可能甚至会不如 CBR。<br>所以，此滑动条精确地估量了编码后歌曲的比特率。<br>编码器只会在极端条件下才会出现，而在 128kbps、大多数人工样本的情况下都是透明的。"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:48
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:59
 #, kde-format
 msgid "Bitrate target for constant bitrate encoding"
-msgstr ""
+msgstr "恒定比特率编码时的目标比特率"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:49
 #: core/transcoding/formats/TranscodingFlacFormat.cpp:42
@@ -6882,7 +6891,7 @@ msgstr ""
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:60
 #, kde-format
 msgid "Smaller file"
-msgstr ""
+msgstr "文件更小"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:49
 #: core/transcoding/formats/TranscodingMp3Format.cpp:56
@@ -6891,7 +6900,7 @@ msgstr ""
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:60
 #, kde-format
 msgid "Better sound quality"
-msgstr ""
+msgstr "音质更好"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:56
 #, kde-format
@@ -6902,39 +6911,39 @@ msgstr "AAC"
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Advanced_Audio_Coding>Advanced Audio Coding</a> (AAC) is a patented lossy codec for digital audio.<br>AAC generally achieves better sound quality than MP3 at similar bit rates. It is a reasonable choice for the iPod and some other portable music players."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/%E9%80%B2%E9%9A%8E%E9%9F%B3%E8%A8%8A%E7%B7%A8%E7%A2%BC>高级音频编码</a> (Advanced Audio Coding, AAC) 是一种为数字音频打造的专有有损解码器。<br>和MP3 相比，在同比特率下通常能达到更好的音质。是 iPod 和部分便携音乐播放器的合理之选。"
 
 #: core/transcoding/formats/TranscodingAlacFormat.cpp:33
 #, kde-format
 msgid "Apple Lossless"
-msgstr ""
+msgstr "Apple 保真压缩"
 
 #: core/transcoding/formats/TranscodingAlacFormat.cpp:41
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Apple_Lossless>Apple Lossless</a> (ALAC) is an audio codec for lossless compression of digital music.<br>Recommended only for Apple music players and players that do not support FLAC."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/Apple_Lossless>Apple 保真压缩</a> (Apple Lossless Audio Codec, ALAC) 是一种为数字音乐打造的无损压缩的音频解码器。<br>只推荐在 Apple 音乐播放器和不支持 FLAC 的播放器上使用。"
 
 #: core/transcoding/formats/TranscodingFlacFormat.cpp:30
 #, kde-format
 msgid "The <a href=http://flac.sourceforge.net/documentation_tools_flac.html>compression level</a> is an integer value between 0 and 8 that represents the tradeoff between file size and compression speed while encoding with <b>FLAC</b>.<br/> Setting the compression level to <b>0</b> yields the shortest compression time but generates a comparably big file<br/>On the other hand, a compression level of <b>8</b> makes compression quite slow but produces the smallest file.<br/>Note that since FLAC is by definition a lossless codec, the audio quality of the output is exactly the same regardless of the compression level.<br/>Also, levels above <b>5</b> dramatically increase compression time but create an only slightly smaller file, and are not recommended."
-msgstr ""
+msgstr "<a href=http://flac.sourceforge.net/documentation_tools_flac.html>压缩等级</a>是一个值为 0 到 8 之间的整数，它代表了使用 <b>FLAC</b> 编码时，文件大小和压缩速度之间的取舍关系。<br/>将压缩等级设为 <b>0</b> 时，压缩耗时为最短，但文件大小会比较大。<br/>反之，压缩等级为 <b>8</b> 时，压缩速度会很慢，但文件占用为最小。<br/>请注意，由于 FLAC 的定位是无损编码器，所以无论压缩等级为多少，输出的音质都是完全相同的。<br/>另外，<b>5</b> 以上的压缩等级会显著地增加压缩时间，但生成的文件占用只会略微变小，故不推荐使用。"
 
 #: core/transcoding/formats/TranscodingFlacFormat.cpp:41
 #, kde-format
 msgid "Compression level"
-msgstr ""
+msgstr "压缩等级"
 
 #: core/transcoding/formats/TranscodingFlacFormat.cpp:42
 #, kde-format
 msgid "Faster compression"
-msgstr ""
+msgstr "压缩更快"
 
 #: core/transcoding/formats/TranscodingFlacFormat.cpp:57
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Free_Lossless_Audio_Codec>Free Lossless Audio Codec</a> (FLAC) is an open and royalty-free codec for lossless compression of digital music.<br>If you wish to store your music without compromising on audio quality, FLAC is an excellent choice."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/FLAC>自由无损音频压缩编码</a> (Free Lossless Audio Codec, FLAC) 是一个为数字音乐打造的、开放的、无专利费的无损压缩编码器。<br>如果您想要不损失音质的情况下储存音乐的话，FLAC 就是一个很好的选择。"
 
 #: core/transcoding/formats/TranscodingMp3Format.cpp:28
 #, kde-format
