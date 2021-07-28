@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-08 00:14+0000\n"
-"PO-Revision-Date: 2021-07-18 08:38\n"
+"POT-Creation-Date: 2021-07-19 00:13+0000\n"
+"PO-Revision-Date: 2021-07-28 10:42\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -50,7 +50,7 @@ msgstr "您的投票已记录。"
 msgid "You are now a fan."
 msgstr "您现在已经是粉丝了。"
 
-#: attica/atticaprovider.cpp:543 core/engine.cpp:372 opds/opdsprovider.cpp:284
+#: attica/atticaprovider.cpp:543 core/engine.cpp:373 opds/opdsprovider.cpp:284
 #, kde-format
 msgid "The service is currently undergoing maintenance and is expected to be back in %1."
 msgstr "该服务目前正在维护，预计将在 %1 后恢复。"
@@ -86,108 +86,108 @@ msgctxt "The value returned for an unknown role when requesting data from the mo
 msgid "Unknown CommentsModel role"
 msgstr "未知的 CommentsModel 角色"
 
-#: core/engine.cpp:166
+#: core/engine.cpp:167
 #, kde-format
 msgid "An error occurred during the installation process:\n"
 "%1"
 msgstr "安装过程中发生错误：\n"
 "%1"
 
-#: core/engine.cpp:201
+#: core/engine.cpp:202
 #, kde-format
 msgid "Initializing"
 msgstr "正在初始化"
 
-#: core/engine.cpp:225
+#: core/engine.cpp:226
 #, kde-format
 msgid "Configuration file exists, but cannot be opened: \"%1\""
 msgstr "配置文件存在，但不能打开:\"%1\""
 
-#: core/engine.cpp:238
+#: core/engine.cpp:239
 #, kde-format
 msgid "Configuration file is invalid: \"%1\""
 msgstr "配置文件无效：“%1”"
 
-#: core/engine.cpp:247
+#: core/engine.cpp:248
 #, kde-format
 msgid "Use"
 msgstr "使用"
 
-#: core/engine.cpp:262
+#: core/engine.cpp:263
 #, kde-format
 msgid "Could not initialise the installation handler for %1\n"
 "This is a critical error and should be reported to the application author"
 msgstr "无法初始化 %1 的安装处理程序\n"
 "这是一个严重的错误，请报告给应用程序的作者"
 
-#: core/engine.cpp:337
+#: core/engine.cpp:338
 #, kde-format
 msgid "Loading provider information"
 msgstr "正在供应者信息"
 
-#: core/engine.cpp:398
+#: core/engine.cpp:399
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr "无法从文件装载资源提供者信息：%1"
 
-#: core/engine.cpp:428
+#: core/engine.cpp:429
 #, kde-format
 msgid "Error initializing provider."
 msgstr "初始化提供者出错。"
 
-#: core/engine.cpp:432 core/engine.cpp:998
+#: core/engine.cpp:433 core/engine.cpp:999
 #, kde-format
 msgid "Loading data"
 msgstr "正在装入数据"
 
-#: core/engine.cpp:472
+#: core/engine.cpp:473
 #, kde-format
 msgid "Loading data from provider"
 msgstr "从供应者装入数据"
 
-#: core/engine.cpp:477
+#: core/engine.cpp:478
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr "从文件 %1 装载提供者信息失败"
 
-#: core/engine.cpp:725
+#: core/engine.cpp:726
 #, kde-format
 msgid "Could not perform an installation of the entry %1 as it does not have any downloadable items defined. Please contact the author so they can fix this."
 msgstr "无法执行项目 %1 的安装，因为它没有定义任何可下载项目。 请与作者联系解决此问题。"
 
-#: core/engine.cpp:848
+#: core/engine.cpp:849
 #, kde-format
 msgid "Pick Update Item"
 msgstr "选择更新项"
 
-#: core/engine.cpp:850
+#: core/engine.cpp:851
 #, kde-format
 msgid "Please pick the item from the list below which should be used to apply this update. We were unable to identify which item to select, based on the original item, which was named %1"
 msgstr "请从下面的列表中选择项目来应用此更新。 我们无法根据原来的项目识别要选择哪个项目，而原来的项目是名为 %1"
 
-#: core/engine.cpp:869
+#: core/engine.cpp:870
 #, kde-format
 msgid "We failed to identify a good link for updating %1, and are unable to perform the update"
 msgstr "我们无法识别更新 %1 的链接，故无法进行更新"
 
-#: core/engine.cpp:948
+#: core/engine.cpp:949
 #, kde-format
 msgid "Re: %1"
 msgstr "回复：%1"
 
-#: core/engine.cpp:990 ui/itemsgridviewdelegate.cpp:329
+#: core/engine.cpp:991 ui/itemsgridviewdelegate.cpp:329
 #: ui/itemsviewdelegate.cpp:117
 #, kde-format
 msgid "Installing"
 msgstr "安装中"
 
-#: core/engine.cpp:994
+#: core/engine.cpp:995
 #, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "正在装入 %1 预览"
 
-#: core/engine.cpp:1203
+#: core/engine.cpp:1192
 #, kde-format
 msgid "Failed to adopt '%1'\n"
 "%2"
@@ -737,7 +737,7 @@ msgstr "正在从 %2 安装 %1"
 #, kde-format
 msgctxt "Status message to be shown when the entry is in the process of being installed OR uninstalled"
 msgid "Currently working on the item %1 by %2. Please wait..."
-msgstr "正在处理 %2 做的 %1，请稍后..."
+msgstr "正在安装或卸载 %2 的 %1，请稍后..."
 
 #: qtquick/qml/EntryDetails.qml:67
 #, kde-format
@@ -1090,13 +1090,13 @@ msgstr "(%1/%2)"
 #, kde-format
 msgctxt "An informational message which is shown to inform the user they are not authorized to use GetHotNewStuff functionality"
 msgid "You are not authorized to Get Hot New Stuff. If you think this is in error, please contact the person in charge of your permissions."
-msgstr "您未被授权使用获取新热门。如果您认为这是错误的，请联系管理员。"
+msgstr "您未被授权使用获取新热门内容。如果您认为这是错误的，请联系管理员。"
 
 #: qtquick/searchpresetmodel.cpp:58
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: qtquick/searchpresetmodel.cpp:61
 #, kde-format
@@ -1114,7 +1114,7 @@ msgstr "精选"
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Restart"
-msgstr ""
+msgstr "重新开始"
 
 #: qtquick/searchpresetmodel.cpp:70
 #, kde-format
@@ -1126,19 +1126,19 @@ msgstr "最新"
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Home"
-msgstr ""
+msgstr "主页"
 
 #: qtquick/searchpresetmodel.cpp:76
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Shelf"
-msgstr ""
+msgstr "展示架"
 
 #: qtquick/searchpresetmodel.cpp:79
 #, kde-format
 msgctxt "Knewstuff5"
 msgid "Up"
-msgstr ""
+msgstr "向上"
 
 #: qtquick/searchpresetmodel.cpp:82
 #, kde-format
