@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-07-28 12:57\n"
+"PO-Revision-Date: 2021-07-29 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4822,12 +4822,12 @@ msgstr "音频 CD"
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:63
 #, kde-format
 msgid "Ogg Vorbis is a fully free and unencumbered compressed audio format that is perfect for storing your compressed music on your computer. The sound quality is slightly better than MP3 at the same bitrate. Note that not all mobile players support the Ogg Vorbis format."
-msgstr "Ogg Vorbis 是完全自由且不附加限制的压缩音频格式，也是您在计算机上储存压缩音乐的完美之选。在同比特率下，音质比 MP3 稍微更好一些。请注意，并不是所有的移动播放器都支持 Ogg Vorbis 格式。"
+msgstr "Ogg Vorbis 是完全自由且不附加限制的压缩音频格式，也是您在计算机上储存压缩音乐的完美之选。在同比特率下，音质比 MP3 稍好一些。请注意，并不是所有的移动播放器都支持 Ogg Vorbis 格式。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:69
 #, kde-format
 msgid "FLAC is a lossless compressed audio format free of any patents or license fees. It maintains perfect CD audio quality while reducing file size by about 50%. Because the filesize is much larger than Ogg Vorbis or MP3 it is not recommended if you want to transfer your music to a mobile player."
-msgstr "FLAC 是无损压缩的音频格式，无任何专利费及授权费。它保留了完美的 CD 音质，又减小了 50% 的文件大小。因为文件大小比 Ogg Vorbis 和 MP3 更大，所以不推荐在需要将音乐传输到移动播放器的情况下使用。"
+msgstr "FLAC 是无损压缩的音频格式，无任何专利及授权费。它保留了完美的 CD 音质，又减小了 50% 的文件大小。因为文件大小比 Ogg Vorbis 和 MP3 更大，所以不推荐在需要将音乐传输到移动播放器的情况下使用。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:75
 #, kde-format
@@ -6604,7 +6604,7 @@ msgstr[0] "%1 天, "
 #, kde-format
 msgctxt "the time format for a time length when the time is 1 hour or above see QTime documentation."
 msgid "h:mm:ss"
-msgstr ""
+msgstr "hh:mm:ss"
 
 #: core/meta/support/MetaUtility.cpp:443
 #, kde-format
@@ -6875,7 +6875,7 @@ msgstr "%1 - %2"
 #: core/transcoding/formats/TranscodingAacFormat.cpp:30
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>The encoder used by Amarok operates better with a constant bitrate.<br>VBR is experimental and likely to get even worse results than the CBR.<br>For this reason, the bitrate measure in this slider is a pretty accurate estimate of the bitrate of the encoded track.<br>The encoder is transparent at 128kbps for most samples tested with artifacts only appearing in extreme cases."
-msgstr "比特率是衡量歌曲中一秒的音质的单位。<br>Amarok 使用的编码器在处理时比恒定比特率的更好。<br>VBR 仍在测试，可能甚至会不如 CBR。<br>所以，此滑动条精确地估量了编码后歌曲的比特率。<br>编码器只会在极端条件下才会出现，而在 128kbps、大多数人工样本的情况下都是透明的。"
+msgstr "比特率是衡量歌曲中一秒的数据量的单位。<br>Amarok 使用的编码器在处理时比恒定比特率的更好。<br>VBR 仍在测试，可能甚至会不如 CBR。<br>所以，此滑动条精确地估量了编码后歌曲的比特率。<br>编码器只会在极端条件下才会出现，而在 128kbps、大多数人工样本的情况下都是透明的。"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:48
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:59
@@ -6911,7 +6911,7 @@ msgstr "AAC"
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Advanced_Audio_Coding>Advanced Audio Coding</a> (AAC) is a patented lossy codec for digital audio.<br>AAC generally achieves better sound quality than MP3 at similar bit rates. It is a reasonable choice for the iPod and some other portable music players."
-msgstr "<a href=https://zh.wikipedia.org/zh-cn/%E9%80%B2%E9%9A%8E%E9%9F%B3%E8%A8%8A%E7%B7%A8%E7%A2%BC>高级音频编码</a> (Advanced Audio Coding, AAC) 是一种为数字音频打造的专有有损解码器。<br>和MP3 相比，在同比特率下通常能达到更好的音质。是 iPod 和部分便携音乐播放器的合理之选。"
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/%E9%80%B2%E9%9A%8E%E9%9F%B3%E8%A8%8A%E7%B7%A8%E7%A2%BC>高级音频编码</a> (Advanced Audio Coding, AAC) 是一种为数字音频打造的、受专利保护的有损解码器。<br>和MP3 相比，在同比特率下通常能达到更好的音质。是 iPod 和部分便携音乐播放器的合理之选。"
 
 #: core/transcoding/formats/TranscodingAlacFormat.cpp:33
 #, kde-format
@@ -6948,24 +6948,24 @@ msgstr "<a href=https://zh.wikipedia.org/zh-cn/FLAC>自由无损音频压缩编�
 #: core/transcoding/formats/TranscodingMp3Format.cpp:28
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>The <b>MP3</b> encoder used by Amarok supports a <a href=http://en.wikipedia.org/wiki/MP3#VBR>variable bitrate (VBR)</a> setting, which means that the bitrate value fluctuates along the track based on the complexity of the audio content. More complex intervals of data are encoded with a higher bitrate than less complex ones; this approach yields overall better quality and a smaller file than having a constant bitrate throughout the track.<br>For this reason, the bitrate measure in this slider is just an estimate of the average bitrate of the encoded track.<br><b>160kb/s</b> is a good choice for music listening on a portable player.<br/>Anything below <b>120kb/s</b> might be unsatisfactory for music and anything above <b>205kb/s</b> is probably overkill."
-msgstr ""
+msgstr "比特率是衡量歌曲中一秒的数据量的单位。<br>Amarok 所使用的 <b>MP3</b> 编码器支持设置<a href=https://zh.wikipedia.org/zh-cn/MP3#%E4%BD%8D%E5%85%83%E7%8E%87>可变码率 (variable bitrate, VBR)</a>，它能让比特率的值随着歌曲中音频内容的复杂度而改变。数据中的音程越复杂，编码出来的比特率越高；与固定码率相比，这种方法的效果整体质量会更好，文件也更小。<br>因此，此滑动条所测量的比特率只是编码后歌曲的平均比特率。<br><b>160kb/s</b> 适合用于在便携式播放器上听音乐。<br/>低于 <b>120kb/s</b> 则可能不适合音乐，高于 <b>205kb/s</b> 则可能用力过猛。"
 
 #: core/transcoding/formats/TranscodingMp3Format.cpp:55
 #: core/transcoding/formats/TranscodingOpusFormat.cpp:64
 #, kde-format
 msgid "Expected average bitrate for variable bitrate encoding"
-msgstr ""
+msgstr "可变码率编码的预估平均码率"
 
 #: core/transcoding/formats/TranscodingMp3Format.cpp:71
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/MP3>MPEG Audio Layer 3</a> (MP3) is a patented digital audio codec using a form of lossy data compression.<br>In spite of its shortcomings, it is a common format for consumer audio storage, and is widely supported on portable music players."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/MP3>动态图像专家组音频层 3</a> (MPEG Audio Layer 3, MP3) 是一种受专利保护的、用于有损数据压缩的数字音频编码器。<br>尽管有其缺点，但它是最常用的消费级音频存储格式，并得到了便携式音乐播放器的广泛支持。"
 
 #: core/transcoding/formats/TranscodingOpusFormat.cpp:28
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>The <b>Opus</b> encoder used by Amarok supports a <a href=http://en.wikipedia.org/wiki/Variable_bitrate>variable bitrate (VBR)</a> setting, which means that the bitrate value fluctuates along the track based on the complexity of the audio content. More complex intervals of data are encoded with a higher bitrate than less complex ones; this approach yields overall better quality and a smaller file than having a constant bitrate throughout the track.<br>For this reason, the bitrate measure in this slider is just an estimate of the average bitrate of the encoded track.<br><b>128kb/s</b> is a good choice for music listening on a portable player.<br/>Anything below <b>100kb/s</b> might be unsatisfactory for music and anything above <b>256kb/s</b> is probably overkill."
-msgstr ""
+msgstr "比特率是衡量歌曲中一秒的数据量的单位。<br>Amarok 所使用的 <b>Opus</b> 编码器支持设置<a href=https://zh.wikipedia.org/zh-cn/MP3#%E4%BD%8D%E5%85%83%E7%8E%87>可变码率 (variable bitrate, VBR)</a>，它能让比特率的值随着歌曲中音频内容的复杂度而改变。数据中的音程越复杂，编码出来的比特率越高；与固定码率相比，这种方法的效果整体质量会更好，文件也更小。<br>因此，此滑动条所测量的比特率只是编码后歌曲的平均比特率。<br><b>128kb/s</b> 适合用于在便携式播放器上听音乐。<br/>低于 <b>100kb/s</b> 则可能不适合音乐，高于 <b>256kb/s</b> 则可能用力过猛。"
 
 #: core/transcoding/formats/TranscodingOpusFormat.cpp:72
 #, kde-format
@@ -6976,39 +6976,39 @@ msgstr "Opus"
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Opus_(audio_format)>Opus</a> is a patent-free digital audio codec using a form of lossy data compression."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/Opus_(%E9%9F%B3%E9%A2%91%E6%A0%BC%E5%BC%8F)>Opus</a> 是一种用于有损数据压缩的、无专利的数字音频编码器。"
 
 #: core/transcoding/formats/TranscodingVorbisFormat.cpp:28
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>The <b>Vorbis</b> encoder used by Amarok supports a <a href=http://en.wikipedia.org/wiki/Vorbis#Technical_details>variable bitrate (VBR)</a> setting, which means that the bitrate value fluctuates along the track based on the complexity of the audio content. More complex intervals of data are encoded with a higher bitrate than less complex ones; this approach yields overall better quality and a smaller file than having a constant bitrate throughout the track.<br>The Vorbis encoder uses a quality rating \"-q parameter\" between -1 and 10 to define a certain expected audio quality level. The bitrate measure in this slider is just a rough estimate (provided by Vorbis) of the average bitrate of the encoded track given a q value. In fact, with newer and more efficient Vorbis versions the actual bitrate is even lower.<br><b>-q5</b> is a good choice for music listening on a portable player.<br/>Anything below <b>-q3</b> might be unsatisfactory for music and anything above <b>-q8</b> is probably overkill."
-msgstr ""
+msgstr "比特率是衡量歌曲中一秒的数据量的单位。<br>Amarok 所使用的 <b>Vorbis</b> 编码器支持设置<a href=https://zh.wikipedia.org/zh-cn/MP3#%E4%BD%8D%E5%85%83%E7%8E%87>可变码率 (variable bitrate, VBR)</a>，它能让比特率的值随着歌曲中音频内容的复杂度而改变。数据中的音程越复杂，编码出来的比特率越高；与固定码率相比，这种方法的效果整体质量会更好，文件也更小。<br>Vorbis 编码器使用参数为一个 -1 至 10 之间的质量评级“-q 参数”来确定预估的音频质量等级。此滑动条的比特率 (由 Vorbis 提供) 只是根据编码后歌曲的 q 值，所量出大概的平均比特率。实际上，越新、越高效的 Vorbis 版本的实际比特率可能会更低。<br><b>-q5</b> 适合用于在便携式播放器上听音乐。<br/>低于 <b>-q3</b> 则可能不适合音乐，高于 <b>-q8</b> 则可能用力过猛。"
 
 #: core/transcoding/formats/TranscodingVorbisFormat.cpp:59
 #, kde-format
 msgid "Quality rating for variable bitrate encoding"
-msgstr ""
+msgstr "可变码率编码的质量评级"
 
 #: core/transcoding/formats/TranscodingVorbisFormat.cpp:75
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Vorbis>Ogg Vorbis</a> is an open and royalty-free audio codec for lossy audio compression.<br>It produces smaller files than MP3 at equivalent or higher quality. Ogg Vorbis is an all-around excellent choice, especially for portable music players that support it."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/Vorbis>Ogg Vorbis</a> 是一种用于有损音频压缩的、开放且无专利费的音频编码器。<br>在相同或更高的音质下，它所产生的文件占用比 MP3 更小。特别是对支持此格式的便携式音乐播放器来说，Ogg Vorbis 是全能且优秀的选项。"
 
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:28
 #, kde-format
 msgid "The bitrate is a measure of the quantity of data used to represent a second of the audio track.<br>Due to the limitations of the proprietary <b>WMA</b> format and the difficulty of reverse-engineering a proprietary encoder, the WMA encoder used by Amarok sets a <a href=http://en.wikipedia.org/wiki/Windows_Media_Audio#Windows_Media_Audio>constant bitrate (CBR)</a> setting.<br>For this reason, the bitrate measure in this slider is a pretty accurate estimate of the bitrate of the encoded track.<br><b>136kb/s</b> is a good choice for music listening on a portable player.<br/>Anything below <b>112kb/s</b> might be unsatisfactory for music and anything above <b>182kb/s</b> is probably overkill."
-msgstr ""
+msgstr "比特率是衡量歌曲中一秒的数据量的单位。<br>由于专有 WMA 格式的限制以及逆向工程专有编码器的困难，Amarok 所使用的 <b>WMA</b> 编码器使用了<a href=http://en.wikipedia.org/wiki/Windows_Media_Audio#Windows_Media_Audio>固定码率 (constant bitrate, CBR)</a> 的设置。<br>因此，此滑动条所测量的比特率是编码后歌曲的确切比特率。<br><b>136kb/s</b> 适合用于在便携式播放器上听音乐。<br/>低于 <b>112kb/s</b> 则可能不适合音乐，高于 <b>182kb/s</b> 则可能用力过猛。"
 
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:67
 #, kde-format
 msgid "Windows Media Audio"
-msgstr ""
+msgstr "Windows Media Audio"
 
 #: core/transcoding/formats/TranscodingWmaFormat.cpp:75
 #, kde-format
 msgctxt "Feel free to redirect the english Wikipedia link to a local version, if it exists."
 msgid "<a href=http://en.wikipedia.org/wiki/Windows_Media_Audio>Windows Media Audio</a> (WMA) is a proprietary codec developed by Microsoft for lossy audio compression.<br>Recommended only for portable music players that do not support Ogg Vorbis."
-msgstr ""
+msgstr "<a href=https://zh.wikipedia.org/zh-cn/Windows_Media_Audio>Windows Media Audio</a> (WMA) 是一种由微软开放，用于有损音频压缩的专有编码器。<br>只推荐在不支持 Ogg Vorbis 的便携式音乐播放器上使用。"
 
 #: core/transcoding/TranscodingConfiguration.cpp:109
 #, kde-format
@@ -7018,7 +7018,7 @@ msgstr "无效"
 #: core/transcoding/TranscodingConfiguration.cpp:111
 #, kde-format
 msgid "Just Copy"
-msgstr ""
+msgstr "仅复制"
 
 #: core/transcoding/TranscodingConfiguration.cpp:135
 #, kde-format
@@ -7036,72 +7036,72 @@ msgstr "%1, %2"
 #, kde-format
 msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'MP3'"
 msgid "All Tracks to %1"
-msgstr ""
+msgstr "将全部歌曲转为 %1"
 
 #: core/transcoding/TranscodingConfiguration.cpp:214
 #, kde-format
 msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'MP3'"
 msgid "Non-%1 Tracks to %1"
-msgstr ""
+msgstr "将非 %1 的歌曲转为 %1"
 
 #: core/transcoding/TranscodingConfiguration.cpp:218
 #, kde-format
 msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'MP3'"
 msgid "When Needed to %1"
-msgstr ""
+msgstr "需要时转为 %1"
 
 #: covermanager/CoverFetcher.cpp:178 covermanager/CoverFetcher.cpp:341
 #, kde-format
 msgid "Fetching Cover"
-msgstr ""
+msgstr "正在获取封面"
 
 #: covermanager/CoverFetcher.cpp:202
 #, kde-format
 msgid "There was an error communicating with cover provider: %1"
-msgstr ""
+msgstr "与封面提供者通信时出错：%1"
 
 #: covermanager/CoverFetcher.cpp:412
 #, kde-format
 msgid "Retrieved cover successfully for '%1'."
-msgstr ""
+msgstr "成功获取“%1”的封面。"
 
 #: covermanager/CoverFetcher.cpp:425
 #, kde-format
 msgid "Fetching cover for '%1' failed."
-msgstr ""
+msgstr "获取“%1”的封面时失败。"
 
 #: covermanager/CoverFetcher.cpp:438
 #, kde-format
 msgid "Canceled fetching cover for '%1'."
-msgstr ""
+msgstr "已取消获取“%1”的封面。"
 
 #: covermanager/CoverFetcher.cpp:447
 #, kde-format
 msgid "Unable to find a cover for '%1'."
-msgstr ""
+msgstr "无法找到“%1”的封面。"
 
 #: covermanager/CoverFetchingActions.cpp:47
 #, kde-format
 msgid "Fetch Cover"
 msgid_plural "Fetch Covers"
-msgstr[0] ""
+msgstr[0] "获取封面"
 
 #: covermanager/CoverFetchingActions.cpp:49
 #, kde-format
 msgid "Fetch the artwork for this album"
 msgid_plural "Fetch artwork for %1 albums"
-msgstr[0] ""
+msgstr[0] "为 %1 张专辑获取封面"
 
 #: covermanager/CoverFetchingActions.cpp:76
 #: covermanager/CoverFoundDialog.cpp:380
 #, kde-format
 msgid "Display Cover"
-msgstr ""
+msgstr "显示封面"
 
 #: covermanager/CoverFetchingActions.cpp:78
 #, kde-format
 msgid "Display artwork for this album"
-msgstr ""
+msgstr "显示此专辑的封面"
 
 #: covermanager/CoverFetchingActions.cpp:96
 #, kde-format
@@ -7113,24 +7113,24 @@ msgstr[0] ""
 #, kde-format
 msgid "Remove artwork for this album"
 msgid_plural "Remove artwork for %1 albums"
-msgstr[0] ""
+msgstr[0] "删除 %1 张专辑的封面"
 
 #: covermanager/CoverFetchingActions.cpp:111
 #, kde-format
 msgid "Are you sure you want to remove this cover from the Collection?"
 msgid_plural "Are you sure you want to delete these %1 covers from the Collection?"
-msgstr[0] ""
+msgstr[0] "您确定要从音频集中删除这 %1 张封面吗？"
 
 #: covermanager/CoverFetchingActions.cpp:134
 #, kde-format
 msgid "Set Custom Cover"
-msgstr ""
+msgstr "设置自定义封面"
 
 #: covermanager/CoverFetchingActions.cpp:136
 #, kde-format
 msgid "Set custom artwork for this album"
 msgid_plural "Set custom artwork for these %1 albums"
-msgstr[0] ""
+msgstr[0] "为这 %1 张专辑设置自定义封面"
 
 #: covermanager/CoverFetchingActions.cpp:167
 #, kde-format
@@ -7140,19 +7140,19 @@ msgstr "选择封面图片文件"
 #: covermanager/CoverFoundDialog.cpp:89
 #, kde-format
 msgid "Finding cover for"
-msgstr ""
+msgstr "查找封面"
 
 #: covermanager/CoverFoundDialog.cpp:120
 #, kde-format
 msgid "Enter Custom Search"
-msgstr ""
+msgstr "输入自定义搜索词"
 
 #: covermanager/CoverFoundDialog.cpp:137 services/lastfm/LastFmServiceCollection.cpp:115
 #: services/lastfm/ScrobblerAdapter.cpp:73
 #: services/lastfm/SynchronizationAdapter.cpp:54
 #, kde-format
 msgid "Last.fm"
-msgstr ""
+msgstr "Last.fm"
 
 #: covermanager/CoverFoundDialog.cpp:138
 #, kde-format
@@ -7162,37 +7162,37 @@ msgstr "Google"
 #: covermanager/CoverFoundDialog.cpp:139
 #, kde-format
 msgid "Discogs"
-msgstr ""
+msgstr "Discogs"
 
 #: covermanager/CoverFoundDialog.cpp:151
 #, kde-format
 msgid "Sort by size"
-msgstr ""
+msgstr "按大小排序"
 
 #: covermanager/CoverFoundDialog.cpp:405
 #, kde-format
 msgid "Cover Image Save Location"
-msgstr ""
+msgstr "封面图片保存位置"
 
 #: covermanager/CoverFoundDialog.cpp:434 covermanager/CoverFoundDialog.cpp:453
 #, kde-format
 msgid "Sorry, the cover could not be saved."
-msgstr ""
+msgstr "抱歉，无法保存此封面。"
 
 #: covermanager/CoverFoundDialog.cpp:518
 #, kde-format
 msgid "Sorry, the cover image could not be retrieved."
-msgstr ""
+msgstr "抱歉，无法获取此封面图像。"
 
 #: covermanager/CoverFoundDialog.cpp:538
 #, kde-format
 msgid "Fetching Large Cover"
-msgstr ""
+msgstr "正在获取大封面"
 
 #: covermanager/CoverFoundDialog.cpp:539
 #, kde-format
 msgid "Download Progress"
-msgstr ""
+msgstr "下载进度"
 
 #: covermanager/CoverFoundDialog.cpp:541
 #, kde-format
@@ -7207,18 +7207,18 @@ msgstr "搜索"
 #: covermanager/CoverFoundDialog.cpp:702
 #, kde-format
 msgid "Search For More Results"
-msgstr ""
+msgstr "搜索更多结果"
 
 #: covermanager/CoverFoundDialog.cpp:718
 #, kde-format
 msgid "No Images Found"
-msgstr ""
+msgstr "没有找到图片"
 
 #: covermanager/CoverFoundDialog.cpp:719
 #, kde-format
 msgid "1 Image Found"
 msgid_plural "%1 Images Found"
-msgstr[0] ""
+msgstr[0] "找到了 %1 张图片"
 
 #: covermanager/CoverFoundDialog.cpp:744
 #, kde-format
@@ -7271,7 +7271,7 @@ msgstr "文件系统"
 #, kde-format
 msgctxt "@item::intable Release Date"
 msgid "Released"
-msgstr ""
+msgstr "发布日期"
 
 #: covermanager/CoverFoundDialog.cpp:824
 #, kde-format
@@ -7311,7 +7311,7 @@ msgstr "封面管理器"
 #: covermanager/CoverManager.cpp:124
 #, kde-format
 msgid "Albums By"
-msgstr ""
+msgstr "专辑作者"
 
 #: covermanager/CoverManager.cpp:134
 #, kde-format
@@ -7331,17 +7331,17 @@ msgstr "全部相册"
 #: covermanager/CoverManager.cpp:194
 #, kde-format
 msgid "Albums With Cover"
-msgstr ""
+msgstr "带封面的专辑"
 
 #: covermanager/CoverManager.cpp:195
 #, kde-format
 msgid "Albums Without Cover"
-msgstr ""
+msgstr "不带封面的专辑"
 
 #: covermanager/CoverManager.cpp:208
 #, kde-format
 msgid "Fetch Missing Covers"
-msgstr ""
+msgstr "获取缺失的封面"
 
 #: covermanager/CoverManager.cpp:314
 #, kde-format
@@ -7357,40 +7357,40 @@ msgstr "正在装入"
 #, kde-format
 msgctxt "The fetching is done."
 msgid "Finished."
-msgstr "完成."
+msgstr "已完成。"
 
 #: covermanager/CoverManager.cpp:622
 #, kde-format
 msgid " Cover not found"
 msgid_plural " <b>%1</b> covers not found"
-msgstr[0] ""
+msgstr[0] "有 <b>%1</b> 张封面未找到"
 
 #: covermanager/CoverManager.cpp:640
 #, kde-format
 msgid "Fetching cover for %1 - %2..."
-msgstr ""
+msgstr "正在获取 %1——%2 的封面..."
 
 #: covermanager/CoverManager.cpp:646
 #, kde-format
 msgid "Fetching cover for %1..."
-msgstr ""
+msgstr "正在获取 %1 的封面..."
 
 #: covermanager/CoverManager.cpp:652
 #, kde-format
 msgid "Fetching 1 cover: "
 msgid_plural "Fetching <b>%1</b> covers... : "
-msgstr[0] ""
+msgstr[0] "正在获取 <b>%1</b> 张封面...："
 
 #: covermanager/CoverManager.cpp:654
 #, kde-format
 msgid "1 fetched"
 msgid_plural "%1 fetched"
-msgstr[0] ""
+msgstr[0] "已获取 %1 张"
 
 #: covermanager/CoverManager.cpp:658
 #, kde-format
 msgid " - "
-msgstr ""
+msgstr "——"
 
 #: covermanager/CoverManager.cpp:659
 #, kde-format
@@ -7407,19 +7407,19 @@ msgstr "正在连接..."
 #, kde-format
 msgid "1 result for \"%2\""
 msgid_plural "%1 results for \"%2\""
-msgstr[0] ""
+msgstr[0] "查询到关于“%2”的 %1 个结果"
 
 #: covermanager/CoverManager.cpp:689
 #, kde-format
 msgid "1 album"
 msgid_plural "%1 albums"
-msgstr[0] ""
+msgstr[0] "%1 张专辑"
 
 #: covermanager/CoverManager.cpp:701
 #, kde-format
 msgctxt "Separator for artists"
 msgid ", "
-msgstr ""
+msgstr "，"
 
 #: covermanager/CoverManager.cpp:701
 #, kde-format
@@ -7430,12 +7430,12 @@ msgstr "%1 作者 %2"
 #, kde-format
 msgid "%2 - ( <b>1</b> without cover )"
 msgid_plural "%2 - ( <b>%1</b> without cover )"
-msgstr[0] ""
+msgstr[0] "%2——( 其中 <b>%1</b> 个没有封面 )"
 
 #: covermanager/CoverManager.cpp:765
 #, kde-format
 msgid "Cover Image"
-msgstr ""
+msgstr "封面图片"
 
 #: covermanager/CoverManager.cpp:840
 #, kde-format
@@ -7445,12 +7445,12 @@ msgstr "%1 - %2"
 #: covermanager/CoverManager.cpp:857
 #, kde-format
 msgid "No Artist"
-msgstr ""
+msgstr "无艺人"
 
 #: covermanager/CoverViewDialog.cpp:34 covermanager/CoverViewDialog.cpp:45
 #, kde-format
 msgid "Cover View"
-msgstr ""
+msgstr "封面展示"
 
 #: databaseimporter/SqlBatchImporter.cpp:83
 #, kde-format
@@ -7460,7 +7460,7 @@ msgstr "无法打开文件“%1”。"
 #: databaseimporter/SqlBatchImporterConfig.cpp:38
 #, kde-format
 msgid "Input file produced by amarokcollectionscanner.<br>See <a href=\"http://community.kde.org/Amarok/Development/BatchMode\">Batch Mode</a>."
-msgstr ""
+msgstr "输入文件由 amarokcollectionscanner 产生。<br>详见<a href=\"http://community.kde.org/Amarok/Development/BatchMode\">批处理模式</a>。"
 
 #: databaseimporter/SqlBatchImporterConfig.cpp:45
 #, kde-format
@@ -7470,132 +7470,133 @@ msgstr "输入文件"
 #: dialogs/CollectionSetup.cpp:65
 #, kde-format
 msgid "Full rescan"
-msgstr ""
+msgstr "重新执行完全扫描"
 
 #: dialogs/CollectionSetup.cpp:66
 #, kde-format
 msgid "Rescan your entire collection. This will <i>not</i> delete any statistics."
-msgstr ""
+msgstr "重新扫描整个收藏。此操作<i>不会</i>删除任何统计数据。"
 
 #: dialogs/CollectionSetup.cpp:69
 #, kde-format
 msgid "Import batch file..."
-msgstr ""
+msgstr "导入批处理文件..."
 
 #: dialogs/CollectionSetup.cpp:70
 #, kde-format
 msgid "Import collection from file produced by amarokcollectionscanner."
-msgstr ""
+msgstr "从 amarokcollectionscanner 产生的文件中导入音频集。"
 
 #: dialogs/CollectionSetup.cpp:78
 #, kde-format
 msgid "&Scan folders recursively (requires full rescan if newly checked)"
-msgstr ""
+msgstr "递归扫描文件夹 (首次选中时需要重新执行完全扫描) (&S)"
 
 #: dialogs/CollectionSetup.cpp:79
 #, kde-format
 msgid "&Watch folders for changes"
-msgstr ""
+msgstr "监视文件夹的更改 (&W)"
 
 #: dialogs/CollectionSetup.cpp:88
 #, kde-format
 msgid "If selected, Amarok will read all subfolders."
-msgstr ""
+msgstr "选中后，Amarok 会读取所有子文件夹。"
 
 #: dialogs/CollectionSetup.cpp:89
 #, kde-format
 msgid "If selected, the collection folders will be watched for changes.\n"
 "The watcher will not notice changes behind symbolic links."
-msgstr ""
+msgstr "选中后，会监视音频集文件夹的更改。\n"
+"监视程序不会监测符号链接内的变动。"
 
 #: dialogs/CollectionSetup.cpp:187
 #, kde-format
 msgid "Rescan '%1'"
-msgstr ""
+msgstr "重新扫描“%1”"
 
 #: dialogs/DatabaseImporterDialog.cpp:41
 #, kde-format
 msgid "Import Collection"
-msgstr ""
+msgstr "导入音频集"
 
 #: dialogs/DatabaseImporterDialog.cpp:49
 #, kde-format
 msgid "Import configuration"
-msgstr ""
+msgstr "导入配置"
 
 #: dialogs/DatabaseImporterDialog.cpp:69
 #, kde-format
 msgid "Migrating"
-msgstr ""
+msgstr "正在迁移"
 
 #: dialogs/DatabaseImporterDialog.cpp:101
 #, kde-format
 msgid "<b><font color='red'>Failed:</font></b> No tracks were imported"
-msgstr ""
+msgstr "<b><font color='red'>失败：</font></b>没有导入任何曲目"
 
 #: dialogs/DatabaseImporterDialog.cpp:103
 #, kde-format
 msgid "<b><font color='green'>Success:</font></b> Imported %1 track"
 msgid_plural "<b><font color='green'>Success:</font></b> Imported %1 tracks"
-msgstr[0] ""
+msgstr[0] "<b><font color='green'>成功：</font></b>导入了 %1 首歌曲"
 
 #: dialogs/DatabaseImporterDialog.cpp:115
 #, kde-format
 msgid "<b><font color='red'>Failed:</font></b> Unable to import statistics"
-msgstr ""
+msgstr "<b><font color='red'>失败：</font></b>无法导入统计数据"
 
 #: dialogs/DatabaseImporterDialog.cpp:132
 #, kde-format
 msgid "<b><font color='red'>Error:</font></b> %1"
-msgstr ""
+msgstr "<b><font color='red'>错误：</font></b>%1"
 
 #: dialogs/DatabaseImporterDialog.cpp:147
 #, kde-format
 msgctxt "Track has been imported, format: Track"
 msgid "Imported <b>%1</b>"
-msgstr ""
+msgstr "已导入 <b>%1</b>"
 
 #: dialogs/DatabaseImporterDialog.cpp:150
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track"
 msgid "Imported <b>%1 - %2</b>"
-msgstr ""
+msgstr "已导入 <b>%1——%2</b>"
 
 #: dialogs/DatabaseImporterDialog.cpp:153
 #, kde-format
 msgctxt "Track has been imported, format: Artist - Track (Album)"
 msgid "Imported <b>%1 - %2 (%3)</b>"
-msgstr ""
+msgstr "已导入 <b>%1——%2 (%3)</b>"
 
 #: dialogs/DatabaseImporterDialog.cpp:162
 #, kde-format
 msgctxt "Track has been discarded, format: Url"
 msgid "Discarded <b><font color='gray'>%1</font></b>"
-msgstr ""
+msgstr "已取消导入 <b><font color='gray'>%1</font></b>"
 
 #: dialogs/DatabaseImporterDialog.cpp:177
 #, kde-format
 msgctxt "Track has been imported by tags, format: Track, from Url, to Url"
 msgid "Imported <b><font color='green'>%1</font></b><br/>&nbsp;&nbsp;from %2<br/>&nbsp;&nbsp;to %3"
-msgstr ""
+msgstr "已从 %2<br/>&nbsp;&nbsp;将 <b><font color='green'>%1</font></b><br/>&nbsp;&nbsp;导入至 %3 内"
 
 #: dialogs/DatabaseImporterDialog.cpp:180
 #, kde-format
 msgctxt "Track has been imported by tags, format: Artist - Track, from Url, to Url"
 msgid "Imported <b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;from %3<br/>&nbsp;&nbsp;to %4"
-msgstr ""
+msgstr "已从 %3<br/>&nbsp;&nbsp;将 <b><font color='green'>%1——%2</font></b><br/>&nbsp;&nbsp;导入至 %4 内"
 
 #: dialogs/DatabaseImporterDialog.cpp:183
 #, kde-format
 msgctxt "Track has been imported by tags, format: Artist - Track (Album), from Url, to Url"
 msgid "Imported <b><font color='green'>%1 - %2 (%3)</font></b><br/>&nbsp;&nbsp;from %4<br/>&nbsp;&nbsp;to %5"
-msgstr ""
+msgstr "已从 %4<br/>&nbsp;&nbsp;将 <b><font color='green'>%1——%2 (%3)</font></b><br/>&nbsp;&nbsp;导入至 %5 内"
 
 #: dialogs/DatabaseImporterDialog.cpp:195
 #, kde-format
 msgctxt "Track has been matched ambiguously, format: Url"
 msgid "Multiple ambiguous matches found for <b><font color='red'>%1</font></b>, has been discarded."
-msgstr ""
+msgstr "<b><font color='red'>%1</font></b> 内的多个模糊匹配歌曲已被取消导入。"
 
 #: dialogs/deletedialog.cpp:63
 #, kde-format
@@ -7632,19 +7633,19 @@ msgstr "正在删除文件"
 #: dialogs/deletedialogbase.ui:41
 #, kde-format
 msgid "Icon Placeholder, not in GUI"
-msgstr ""
+msgstr "图标占位符，不会显示在 GUI 中"
 
 #. i18n: ectx: property (text), widget (QLabel, ddDeleteText)
 #: dialogs/deletedialogbase.ui:56
 #, kde-format
 msgid "Deletion method placeholder, never shown to user."
-msgstr ""
+msgstr "删除方法的占位符，永不向用户显示。"
 
 #. i18n: ectx: property (toolTip), widget (K3ListBox, ddFileList)
 #: dialogs/deletedialogbase.ui:79
 #, kde-format
 msgid "List of files that are about to be deleted."
-msgstr ""
+msgstr "即将删除的文件列表。"
 
 #. i18n: ectx: property (whatsThis), widget (K3ListBox, ddFileList)
 #: dialogs/deletedialogbase.ui:82
@@ -7656,7 +7657,7 @@ msgstr "这是即将删除项目的列表。"
 #: dialogs/deletedialogbase.ui:89
 #, kde-format
 msgid "Placeholder for number of files, not in GUI"
-msgstr ""
+msgstr "文件数量的占位符，不会显示在 GUI 中"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ddShouldDelete)
 #: dialogs/deletedialogbase.ui:102
@@ -7681,76 +7682,80 @@ msgstr "<qt><p>如果勾选此框，文件将被 <b>永久删除</b> 而不是�
 #: dialogs/deviceconfiguredialog.cpp:44
 #, kde-format
 msgid "Select Plugin for %1"
-msgstr ""
+msgstr "选择为 %1 使用的插件"
 
 #: dialogs/deviceconfiguredialog.cpp:61
 #, kde-format
 msgid "Configure Media Device"
-msgstr ""
+msgstr "配置媒体设备"
 
 #: dialogs/deviceconfiguredialog.cpp:85
 #, kde-format
 msgid "Pre-&connect command:"
-msgstr ""
+msgstr "连接前的命令 (&C)："
 
 #: dialogs/deviceconfiguredialog.cpp:87
 #, kde-format
 msgid "Example: mount %d"
-msgstr ""
+msgstr "例如：mount %d"
 
 #: dialogs/deviceconfiguredialog.cpp:89
 #, kde-format
 msgid "Set a command to be run before connecting to your device (e.g. a mount command) here.\n"
 "%d is replaced by the device node, %m by the mount point.\n"
 "Empty commands are not executed."
-msgstr ""
+msgstr "在此处设置连接到设备前运行的命令 (如 mount 命令)。\n"
+"%d 会被替换为设备节点，%m 则为挂载点。\n"
+"空命令则不执行任何操作。"
 
 #: dialogs/deviceconfiguredialog.cpp:92
 #, kde-format
 msgid "Post-&disconnect command:"
-msgstr ""
+msgstr "断开后的命令 (&D)："
 
 #: dialogs/deviceconfiguredialog.cpp:95
 #, kde-format
 msgid "Example: eject %d"
-msgstr ""
+msgstr "例如：eject %d"
 
 #: dialogs/deviceconfiguredialog.cpp:96
 #, kde-format
 msgid "Set a command to be run after disconnecting from your device (e.g. an eject command) here.\n"
 "%d is replaced by the device node, %m by the mount point.\n"
 "Empty commands are not executed."
-msgstr ""
+msgstr "在此处设置断开设备后运行的命令 (如 eject 命令)。\n"
+"%d 会被替换为设备节点，%m 则为挂载点。\n"
+"空命令则不执行任何操作。"
 
 #: dialogs/deviceconfiguredialog.cpp:100
 #, kde-format
 msgid "&Transcode before transferring to device"
-msgstr ""
+msgstr "传输到设备前先转码 (&T)"
 
 #: dialogs/deviceconfiguredialog.cpp:107
 #, kde-format
 msgid "Transcode to preferred format (%1) for device"
-msgstr ""
+msgstr "此设备的首选转码格式 (%1)"
 
 #: dialogs/deviceconfiguredialog.cpp:109
 #, kde-format
 msgid "Whenever possible"
-msgstr ""
+msgstr "尽量"
 
 #: dialogs/deviceconfiguredialog.cpp:112
 #, kde-format
 msgid "When necessary"
-msgstr ""
+msgstr "必要时"
 
 #: dialogs/deviceconfiguredialog.cpp:119
 #, kde-format
 msgid "Remove transcoded files after transfer"
-msgstr ""
+msgstr "传输完成后删除转码文件"
 
 #: dialogs/deviceconfiguredialog.cpp:127 dialogs/deviceconfiguredialog.cpp:128
 #, kde-format
 msgid "For this feature, a script of type \"Transcode\" has to be running"
-msgstr ""
+msgstr "您必须要运行着“Transcode”类型的脚本，才能使用此功能"
 
 #: dialogs/DiagnosticDialog.cpp:83
 #, kde-format
@@ -7761,7 +7766,7 @@ msgstr "复制到剪贴板"
 #, kde-format
 msgctxt "%1 is the program name"
 msgid "%1 Diagnostics"
-msgstr ""
+msgstr "%1 的诊断信息"
 
 #: dialogs/DiagnosticDialog.cpp:142
 #, kde-format
@@ -7785,7 +7790,14 @@ msgid "%1 Diagnostics\n\n"
 "   Phonon Version: %5\n"
 "   Phonon Backend: %6 (%7, %8)\n"
 "   PulseAudio: %9\n\n"
-msgstr ""
+msgstr "%1 的诊断信息\n\n"
+"常规信息：\n"
+"   %1 版本号：%2\n"
+"   KDE 框架版本号：%3\n"
+"   Qt 版本号：%4\n"
+"   Phonon 版本号：%5\n"
+"   Phonon 后端：%6 (%7，%8)\n"
+"   PulseAudio：%9\n\n"
 
 #: dialogs/DiagnosticDialog.cpp:162
 #, kde-format
@@ -7795,7 +7807,12 @@ msgid "Enabled Scripts:\n"
 "%2\n"
 "Enabled Applets:\n"
 "%3\n"
-msgstr ""
+msgstr "已启用的脚本：\n"
+"%1\n"
+"已启用的插件：\n"
+"%2\n"
+"已启用的部件：\n"
+"%3\n"
 
 #: dialogs/EditFilterDialog.cpp:37
 #, kde-format
@@ -7810,7 +7827,7 @@ msgstr "OR"
 #: dialogs/EditFilterDialog.cpp:39
 #, kde-format
 msgid "Simple text"
-msgstr ""
+msgstr "简单文本"
 
 #: dialogs/EditFilterDialog.cpp:48
 #, kde-format
@@ -7845,12 +7862,12 @@ msgstr "或"
 #: dialogs/EditFilterDialog.ui:132
 #, kde-format
 msgid "Search filter"
-msgstr ""
+msgstr "筛选搜索"
 
 #: dialogs/EqualizerDialog.cpp:34
 #, kde-format
 msgid "Configure Equalizer"
-msgstr ""
+msgstr "配置均衡器"
 
 #: dialogs/EqualizerDialog.cpp:87
 #, kde-format
@@ -7875,13 +7892,13 @@ msgstr "预设"
 #: dialogs/EqualizerDialog.ui:41
 #, kde-format
 msgid "List of available equalizer presets."
-msgstr ""
+msgstr "可使用的均衡器预设的列表"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetSaveBtn)
 #: dialogs/EqualizerDialog.ui:57
 #, kde-format
 msgid "Save changes of currently selected preset"
-msgstr ""
+msgstr "保存所选预设的更改"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetSaveBtn)
 #: dialogs/EqualizerDialog.ui:60
@@ -7893,13 +7910,13 @@ msgstr "保存"
 #: dialogs/EqualizerDialog.ui:73
 #, kde-format
 msgid "Delete currently selected preset. Not available for built-in presets."
-msgstr ""
+msgstr "删除所选的预设。请注意，不能内置的预设。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetResetBtn)
 #: dialogs/EqualizerDialog.ui:89
 #, kde-format
 msgid "Reset selected preset setting to default or to the last saved change."
-msgstr ""
+msgstr "将所选的预设设置重置为默认或上次保存时的状态。"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetResetBtn)
 #: dialogs/EqualizerDialog.ui:92
@@ -7935,7 +7952,7 @@ msgstr "-分贝"
 #: dialogs/EqualizerDialog.ui:569
 #, kde-format
 msgid "Preamp"
-msgstr ""
+msgstr "前置放大器"
 
 #. i18n: ectx: property (text), widget (QLabel, eqBand0Label)
 #. i18n: ectx: property (text), widget (QLabel, eqBand1Label)
@@ -7969,17 +7986,17 @@ msgstr ""
 #: dialogs/MusicBrainzTagger.cpp:95
 #, kde-format
 msgid "Clear Choices"
-msgstr ""
+msgstr "清空选择"
 
 #: dialogs/MusicBrainzTagger.cpp:96
 #, kde-format
 msgid "Clear all choices, even manually made ones."
-msgstr ""
+msgstr "清空包含手动选择在内的所有选择"
 
 #: dialogs/MusicBrainzTagger.cpp:101
 #, kde-format
 msgid "Collapse Chosen"
-msgstr ""
+msgstr "折叠已选择的项"
 
 #: dialogs/MusicBrainzTagger.cpp:105 statsyncing/ui/MatchedTracksPage.cpp:167
 #, kde-format
@@ -7989,7 +8006,7 @@ msgstr "全部折叠"
 #: dialogs/MusicBrainzTagger.cpp:112
 #, kde-format
 msgid "Expand Unchosen"
-msgstr ""
+msgstr "展开未选择的项"
 
 #: dialogs/MusicBrainzTagger.cpp:116 statsyncing/ui/MatchedTracksPage.cpp:159
 #, kde-format
@@ -8006,19 +8023,19 @@ msgstr ""
 #: dialogs/MusicBrainzTagger.ui:49
 #, kde-format
 msgid "Update tags for checked tracks and exit"
-msgstr ""
+msgstr "更新选中歌曲的标签并退出"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_saveAndClose)
 #: dialogs/MusicBrainzTagger.ui:52
 #, kde-format
 msgid "&Update Tags"
-msgstr ""
+msgstr "更新标签 (&U)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_cancel)
 #: dialogs/MusicBrainzTagger.ui:65
 #, kde-format
 msgid "Exit without saving"
-msgstr ""
+msgstr "退出且不保存"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
@@ -8052,7 +8069,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialog.cpp:116
 #, kde-format
 msgid "File Extension of Source"
-msgstr ""
+msgstr "源文件扩展名"
 
 #: dialogs/OrganizeCollectionDialog.cpp:117
 #, kde-format
@@ -8082,18 +8099,18 @@ msgstr "预览： %1"
 #: dialogs/OrganizeCollectionDialog.cpp:383
 #, kde-format
 msgid "There is a filename conflict, existing files will be overwritten."
-msgstr ""
+msgstr "文件名冲突，将覆盖现有文件。"
 
 #: dialogs/OrganizeCollectionDialog.cpp:385
 #, kde-format
 msgid "There is a filename conflict, existing files will not be changed."
-msgstr ""
+msgstr "文件名冲突，现有文件未作更改。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
 #: dialogs/OrganizeCollectionDialogBase.ui:21
 #, kde-format
 msgid "Organize Files"
-msgstr ""
+msgstr "整理文件"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, folderLabel)
 #: dialogs/OrganizeCollectionDialogBase.ui:29
@@ -8105,7 +8122,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialogBase.ui:32
 #, kde-format
 msgid "C&ollection Folder:"
-msgstr ""
+msgstr "音频集文件夹 (&O)："
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, folderCombo)
 #. i18n: ectx: property (whatsThis), widget (KComboBox, folderCombo)
@@ -8113,7 +8130,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialogBase.ui:51
 #, kde-format
 msgid "The collection folder to which the files will be transferred."
-msgstr ""
+msgstr "文件传输的目标音频集文件夹。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, optionsButton)
 #. i18n: ectx: property (whatsThis), widget (QToolButton, optionsButton)
@@ -8121,7 +8138,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialogBase.ui:61
 #, kde-format
 msgid "<html>Show/hide additional controls to specify destination track paths based on their metadata.</html>"
-msgstr ""
+msgstr "<html>基于歌曲的元数据，显示或隐藏关于目标歌曲路径的附加控制项。</html>"
 
 #. i18n: ectx: property (text), widget (QToolButton, optionsButton)
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFrame)
@@ -8141,7 +8158,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialogBase.ui:159
 #, kde-format
 msgid "If checked, overwrite files of the same name without asking."
-msgstr ""
+msgstr "勾选后，将不询问并直接覆盖同名文件。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, overwriteCheck)
 #: dialogs/OrganizeCollectionDialogBase.ui:166
@@ -8151,7 +8168,11 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Check this to overwrite files of the same name automatically. <span style=\" font-style:italic;\">(Warning: Overwriting is not undoable)</span></p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">勾选此项可自动覆盖同名文件。<span style=\" font-style:italic;\">(警告：覆盖操作无法撤消)</span></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, overwriteCheck)
 #: dialogs/OrganizeCollectionDialogBase.ui:169
@@ -8163,63 +8184,65 @@ msgstr ""
 #: dialogs/OrganizeCollectionOptions.ui:20
 #, kde-format
 msgid "Character Replacement"
-msgstr ""
+msgstr "字符替换"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, spaceCheck)
 #: dialogs/OrganizeCollectionOptions.ui:35
 #, kde-format
 msgid "If checked, convert spaces to underscores."
-msgstr ""
+msgstr "选中后，空格会被转换为下划线。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, spaceCheck)
 #: dialogs/OrganizeCollectionOptions.ui:38
 #, kde-format
 msgid "If checked all spaces will be replaced with underscores in the file names. If not, spaces will be left as they are."
-msgstr ""
+msgstr "选中后，文件名中的所有空格都会被替换为下划线；否则空格将保留原样。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, spaceCheck)
 #: dialogs/OrganizeCollectionOptions.ui:41
 #, kde-format
 msgid "Replace spaces with &underscores"
-msgstr ""
+msgstr "将空格替换为下划线 (&U)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ignoreTheCheck)
 #: dialogs/OrganizeCollectionOptions.ui:54
 #, kde-format
 msgid "If checked, append ', The' to the artists' names starting with 'The'."
-msgstr ""
+msgstr "选中后，将“, The”添加到“The”开头的艺人名字的后面，并将前面的“The”删除。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreTheCheck)
 #: dialogs/OrganizeCollectionOptions.ui:57
 #, kde-format
 msgid "If checked all artists starting with \"The\" will have it moved to the end. Example, \"The Beatles\" would become \"Beatles, The\""
-msgstr ""
+msgstr "选中后，全部以“The”开头的艺人名字中的“The”都会被移到后面。例如：“The Beatles”会变成“Beatles, The”"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreTheCheck)
 #: dialogs/OrganizeCollectionOptions.ui:60
 #, kde-format
 msgid "&Append 'The' to artist names"
-msgstr ""
+msgstr "将艺人名字中的“The”移到后面 (&A)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, vfatCheck)
 #: dialogs/OrganizeCollectionOptions.ui:75
 #, kde-format
 msgid "Replace characters that are incompatible with MS-DOS/VFAT file systems with underscores. \n\n"
 "Most people can leave this option enabled."
-msgstr ""
+msgstr "将 MS-DOS/VFAT 文件系统不支持的字符替换为下划线。\n\n"
+"大多数人无需调节此项，保持启用即可。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, vfatCheck)
 #: dialogs/OrganizeCollectionOptions.ui:80
 #, kde-format
 msgid "If checked, replace characters that are incompatible with MS-DOS/VFAT file systems with underscores. Incompatible characters include |?*<\":>+[] and unicode control characters. \n\n"
 "Most people can leave this option enabled as it ensures copying to media devices will function correctly."
-msgstr ""
+msgstr "勾选后，MS-DOS/VFAT 文件系统不支持的字符将被替换为下划线。不兼容的字符包括“|?*<\":>+[]”及 Unicode 控制字符。\n\n"
+"大多数人无需调节此项，保持启用可确保您将文件复制到媒体设备时不出问题。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, vfatCheck)
 #: dialogs/OrganizeCollectionOptions.ui:83
 #, kde-format
 msgid "&VFAT safe names"
-msgstr ""
+msgstr "&VFAT 安全命名"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, asciiCheck)
 #: dialogs/OrganizeCollectionOptions.ui:104
@@ -8233,7 +8256,15 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Do not check this option if you have non-English characters in your tags. </span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Most people can leave this option unchecked.</p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">勾选后，所有非 ASCII 字符都会被替换为下划线。<span style=\" font-weight:600;\"> </span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">标签中有非英文字符时，请不要勾选此项。</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">大多数人无需调节此项，保持禁用即可。</p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, asciiCheck)
 #: dialogs/OrganizeCollectionOptions.ui:113
@@ -8245,13 +8276,19 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If checked, all non-ASCII characters will be replaced with underscores.<span style=\" font-weight:600;\"> Do not check this option if you have non-English characters in your tags. </span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Most people can leave this option <span style=\" font-style:italic;\">unchecked.</span></p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">勾选后，所有非 ASCII 字符都会被替换为下划线。<span style=\" font-weight:600;\">标签中有非英文字符时，请不要勾选此项。</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">大多数人无需调节此项，保持<span style=\" font-style:italic;\">禁用</span>即可。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, asciiCheck)
 #: dialogs/OrganizeCollectionOptions.ui:116
 #, kde-format
 msgid "Restrict to &ASCII"
-msgstr ""
+msgstr "只使用 &ASCII 字符"
 
 #. i18n: ectx: property (text), widget (QLabel, replaceLabel1)
 #: dialogs/OrganizeCollectionOptions.ui:137
@@ -8285,19 +8322,19 @@ msgstr "未知"
 #: dialogs/TagDialog.cpp:715
 #, kde-format
 msgid "Track Details: %1 by %2"
-msgstr ""
+msgstr "曲目详情：%2 的 %1"
 
 #: dialogs/TagDialog.cpp:721
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
 msgid_plural "Information for %1 Tracks"
-msgstr[0] ""
+msgstr[0] "%1 首歌曲的信息"
 
 #: dialogs/TagDialog.cpp:750 dialogs/TagDialog.cpp:760
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
-msgstr ""
+msgstr "<b>%2</b> 的 <b>%1</b>"
 
 #: dialogs/TagDialog.cpp:752 dialogs/TagDialog.cpp:762
 #, kde-format
@@ -8307,13 +8344,13 @@ msgstr "<b>%1</b>"
 #: dialogs/TagDialog.cpp:758
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr ""
+msgstr "<b>%2</b> 在 <b>%3</b> 中的 <b>%1</b>"
 
 #: dialogs/TagDialog.cpp:768
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
-msgstr[0] ""
+msgstr[0] "编辑 %1 份文件"
 
 #: dialogs/TagDialog.cpp:806
 #, kde-format
@@ -8324,13 +8361,13 @@ msgstr "未分组"
 #: dialogs/TagDialog.cpp:972
 #, kde-format
 msgid "The track is not playable. %1"
-msgstr ""
+msgstr "无法播放此歌曲。%1"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, TagDialogBase)
 #: dialogs/TagDialogBase.ui:20
 #, kde-format
 msgid "Track Information"
-msgstr ""
+msgstr "歌曲信息"
 
 #. i18n: ectx: attribute (title), widget (QWidget, summaryTab)
 #: dialogs/TagDialogBase.ui:38
@@ -8360,7 +8397,7 @@ msgstr "长度："
 #: dialogs/TagDialogBase.ui:193
 #, kde-format
 msgid "Bit rate:"
-msgstr ""
+msgstr "比特率："
 
 #. i18n: ectx: property (text), widget (QLabel, samplerateLabel)
 #: dialogs/TagDialogBase.ui:219
@@ -8396,7 +8433,7 @@ msgstr "评分："
 #: dialogs/TagDialogBase.ui:358
 #, kde-format
 msgid "Play count:"
-msgstr ""
+msgstr "播放次数："
 
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
 #: dialogs/TagDialogBase.ui:390
@@ -8408,13 +8445,13 @@ msgstr "目数："
 #: dialogs/TagDialogBase.ui:403
 #, kde-format
 msgid "First played:"
-msgstr ""
+msgstr "首次播放："
 
 #. i18n: ectx: property (text), widget (QLabel, lastPlayedLabel)
 #: dialogs/TagDialogBase.ui:435
 #, kde-format
 msgid "Last played:"
-msgstr ""
+msgstr "上次播放："
 
 #. i18n: ectx: property (text), widget (QLabel, noteLabel)
 #: dialogs/TagDialogBase.ui:467
@@ -8456,13 +8493,13 @@ msgstr ""
 #: dialogs/TagDialogBase.ui:625
 #, kde-format
 msgid "Al&bum:"
-msgstr ""
+msgstr "专辑 (&B)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_6)
 #: dialogs/TagDialogBase.ui:663
 #, kde-format
 msgid "Trac&k number:"
-msgstr ""
+msgstr "音轨编号 (&K)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #: dialogs/TagDialogBase.ui:701
@@ -8486,7 +8523,7 @@ msgstr "年份(&Y)："
 #: dialogs/TagDialogBase.ui:815
 #, kde-format
 msgid "B&eats per minute:"
-msgstr ""
+msgstr "每分钟节拍数 (&E)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_comment)
 #: dialogs/TagDialogBase.ui:844
@@ -8498,25 +8535,25 @@ msgstr "注释(&M)："
 #: dialogs/TagDialogBase.ui:875
 #, kde-format
 msgid "Get Tags from MusicBrain&z"
-msgstr ""
+msgstr "从 MusicBrain&z 上获取标签"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_guessTags)
 #: dialogs/TagDialogBase.ui:888
 #, kde-format
 msgid "Guess Tags from &Filename"
-msgstr ""
+msgstr "根据文件名猜测标签 (&F)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
 #: dialogs/TagDialogBase.ui:896
 #, kde-format
 msgid "L&yrics"
-msgstr ""
+msgstr "歌词 (&Y)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
 #: dialogs/TagDialogBase.ui:913
 #, kde-format
 msgid "La&bels"
-msgstr ""
+msgstr "标签 (&B)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/TagDialogBase.ui:929
@@ -8528,13 +8565,13 @@ msgstr "纬度："
 #: dialogs/TagDialogBase.ui:945
 #, kde-format
 msgid "Insert your custom label here or select one from the list."
-msgstr ""
+msgstr "在此插入您的自定义标签，或从列表中选择一个。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/TagDialogBase.ui:976
 #, kde-format
 msgid "Custom labels for this item:"
-msgstr ""
+msgstr "此项目的自定义标签："
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: dialogs/TagDialogBase.ui:1021
@@ -8570,18 +8607,18 @@ msgstr ""
 #: dialogs/TagDialogBase.ui:1133
 #, kde-format
 msgid "Sa&ve && Close"
-msgstr ""
+msgstr "保存并关闭 (&V)"
 
 #: dialogs/TagGuesserDialog.cpp:180
 #, no-c-format, kde-format
 msgctxt "Please do not translate the %foo% words as they define a syntax used internally by a parser to describe a filename."
 msgid "The following tokens can be used to define a filename scheme:<br>                           <font color=\"%1\">%track%</font>, <font color=\"%2\">%title%</font>,                           <font color=\"%3\">%artist%</font>, <font color=\"%4\">%composer%</font>,                           <font color=\"%5\">%year%</font>, <font color=\"%6\">%album%</font>,                           <font color=\"%7\">%albumartist%</font>, <font color=\"%8\">%comment%</font>,                           <font color=\"%9\">%genre%</font>, %ignore%."
-msgstr ""
+msgstr "您可使用以下指代词来定义文件名结构：<br>                           <font color=\"%1\">%track%</font>、<font color=\"%2\">%title%</font>、                           <font color=\"%3\">%artist%</font>、<font color=\"%4\">%composer%</font>、                           <font color=\"%5\">%year%</font>、<font color=\"%6\">%album%</font>、                           <font color=\"%7\">%albumartist%</font>、<font color=\"%8\">%comment%</font>、                           <font color=\"%9\">%genre%</font>、%ignore%。"
 
 #: dialogs/TagGuesserDialog.cpp:223
 #, kde-format
 msgid "Guess Tags from Filename"
-msgstr ""
+msgstr "根据文件名猜测标签 (&F)"
 
 #: dialogs/TagGuesserDialog.cpp:312
 #, kde-format
@@ -8605,19 +8642,19 @@ msgstr ""
 #: dialogs/TagGuessOptions.ui:46
 #, kde-format
 msgid "&First letter of every word uppercase"
-msgstr ""
+msgstr "大写各单词的首字母 (&F)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbAllUpper)
 #: dialogs/TagGuessOptions.ui:53
 #, kde-format
 msgid "All &uppercase"
-msgstr ""
+msgstr "全部大写 (&U)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbAllLower)
 #: dialogs/TagGuessOptions.ui:60
 #, kde-format
 msgid "All &lowercase"
-msgstr ""
+msgstr "全部小写 (&L)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEliminateSpaces)
 #: dialogs/TagGuessOptions.ui:70
@@ -8629,13 +8666,13 @@ msgstr ""
 #: dialogs/TagGuessOptions.ui:80
 #, kde-format
 msgid "Replace &underscores with spaces"
-msgstr ""
+msgstr "将下划线替换为空格 (&U)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, resultGroupBox)
 #: dialogs/TagGuessOptions.ui:95
 #, kde-format
 msgid "Result Preview"
-msgstr ""
+msgstr "预览结果"
 
 #. i18n: ectx: property (text), widget (QLabel, Title_result)
 #. i18n: ectx: property (text), widget (QLabel, Artist_result)
@@ -8709,7 +8746,7 @@ msgstr ""
 #: dialogs/TrackOrganizer.cpp:108
 #, kde-format
 msgid "Unknown composer"
-msgstr ""
+msgstr "未知作曲家"
 
 #: dialogs/TrackOrganizer.cpp:109
 #, kde-format
@@ -8719,7 +8756,7 @@ msgstr ""
 #: dialogs/TrackOrganizer.cpp:110
 #, kde-format
 msgid "Unknown genre"
-msgstr ""
+msgstr "未知流派"
 
 #: dialogs/TrackOrganizer.cpp:111
 #, kde-format
@@ -8729,7 +8766,7 @@ msgstr "未知标题"
 #: dialogs/TrackOrganizer.cpp:112
 #, kde-format
 msgid "Unknown year"
-msgstr ""
+msgstr "未知年份"
 
 #: dialogs/transferdialog.cpp:61
 #, kde-format
@@ -8745,14 +8782,16 @@ msgstr ""
 #, kde-format
 msgid "Your music will be transferred to:\n"
 "%1"
-msgstr ""
+msgstr "您的歌曲将被传输至：\n"
+"%1"
 
 #: dialogs/transferdialog.cpp:82
 #, kde-format
 msgid "You can have your music automatically grouped in\n"
 "a variety of ways. Each grouping will create\n"
 "directories based upon the specified criteria.\n"
-msgstr ""
+msgstr "您可通过各种方式自动分组音乐。\n"
+"每个分组都会基于指定的规则创建文件夹。\n"
 
 #: dialogs/transferdialog.cpp:86
 #, kde-format
