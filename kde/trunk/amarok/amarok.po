@@ -3,11 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2021-07-30 12:34\n"
-=======
-"PO-Revision-Date: 2021-07-31 08:16\n"
->>>>>>> 610310a (amarok: do not translate nick)
+"PO-Revision-Date: 2021-07-31 13:48\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6463,7 +6459,7 @@ msgstr "音轨编号"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "discnumber"
-msgstr ""
+msgstr "光盘编号"
 
 #: core/meta/support/MetaConstants.cpp:235
 #, kde-format
@@ -8515,7 +8511,7 @@ msgstr "流派(&G)："
 #: dialogs/TagDialogBase.ui:739
 #, kde-format
 msgid "&Disc number:"
-msgstr ""
+msgstr "光盘编号 (&D)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
 #: dialogs/TagDialogBase.ui:774
@@ -8755,7 +8751,7 @@ msgstr "未知作曲家"
 #: dialogs/TrackOrganizer.cpp:109
 #, kde-format
 msgid "Unknown disc number"
-msgstr ""
+msgstr "未知光盘编号"
 
 #: dialogs/TrackOrganizer.cpp:110
 #, kde-format
@@ -9138,7 +9134,7 @@ msgstr "“任一匹配”可添加符合任意一条子偏好的歌曲。"
 #: dynamic/BiasFactory.cpp:182 dynamic/BiasFactory.cpp:188
 #, kde-format
 msgid "Replacement for bias %1"
-msgstr ""
+msgstr "替换偏好 %1"
 
 #: dynamic/DynamicModel.cpp:778
 #, kde-format
@@ -9486,11 +9482,7 @@ msgstr "IRC:\n"
 #: main.cpp:109
 #, kde-format
 msgid "Bart 'Where are my toothpicks' Cerneels"
-<<<<<<< HEAD
-msgstr "Bart “我牙签呢” Cerneels"
-=======
 msgstr "Bart 'Where are my toothpicks' Cerneels"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:110
 #, kde-format
@@ -9500,11 +9492,7 @@ msgstr "开发者 (Stecchino)"
 #: main.cpp:113
 #, kde-format
 msgid "Edward \"Hades\" Toroshchin"
-<<<<<<< HEAD
-msgstr "Edward “冥界” Toroshchin"
-=======
 msgstr "Edward \"Hades\" Toroshchin"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:114
 #, kde-format
@@ -9544,11 +9532,7 @@ msgstr "推广人员 (英文：Rokymoter)、错误分类 (Mamarok)"
 #: main.cpp:128
 #, kde-format
 msgid "Ralf 'SalsaMaster' Engels"
-<<<<<<< HEAD
-msgstr "Ralf “萨尔萨酱大师” Engels"
-=======
 msgstr "Ralf 'SalsaMaster' Engels"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:129
 #, kde-format
@@ -9628,11 +9612,7 @@ msgstr "参与 Amarok 的开发并非爱好，而是一种生活方式。但有�
 #: main.cpp:164
 #, kde-format
 msgid "Ian 'The Beard' Monroe"
-<<<<<<< HEAD
-msgstr "Ian “大胡子” Monroe"
-=======
 msgstr "Ian 'The Beard' Monroe"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:164
 #, kde-format
@@ -9642,7 +9622,7 @@ msgstr "开发者 (eean)"
 #: main.cpp:167
 #, kde-format
 msgid "Jeff 'IROKSOHARD' Mitchell"
-msgstr ""
+msgstr "Jeff 'IROKSOHARD' Mitchell"
 
 #: main.cpp:167
 #, kde-format
@@ -9657,11 +9637,7 @@ msgstr "开发者 (lfranchi)"
 #: main.cpp:173
 #, kde-format
 msgid "Lydia 'is wrong(TM)' Pintscher"
-<<<<<<< HEAD
-msgstr "Lydia '这个错了 (TM)' Pintscher"
-=======
 msgstr "Lydia 'is wrong(TM)' Pintscher"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:173
 #, kde-format
@@ -9691,11 +9667,7 @@ msgstr "开发者 (maxx_k)"
 #: main.cpp:182
 #, kde-format
 msgid "Nikolaj Hald 'Also very hot' Nielsen"
-<<<<<<< HEAD
-msgstr "Nikolaj Hald “也很性感” Nielsen"
-=======
 msgstr "Nikolaj Hald 'Also very hot' Nielsen"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:182
 #, kde-format
@@ -9705,7 +9677,7 @@ msgstr "开发者 (nhn)"
 #: main.cpp:185
 #, kde-format
 msgid "Seb 'Surfin' down under' Ruiz"
-msgstr ""
+msgstr "Seb 'Surfin' down under' Ruiz"
 
 #: main.cpp:185
 #, kde-format
@@ -9775,11 +9747,7 @@ msgstr "易用性"
 #: main.cpp:202
 #, kde-format
 msgid "Dan 'Hey, it compiled...' Meltzer"
-<<<<<<< HEAD
-msgstr "Dan “嘿，它编译出……” Meltzer"
-=======
 msgstr "Dan 'Hey, it compiled...' Meltzer"
->>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:202
 #, kde-format
@@ -10453,12 +10421,12 @@ msgstr "均衡器"
 #: MainWindow.cpp:790 playlist/PlaylistViewUrlGenerator.cpp:102
 #, kde-format
 msgid "Bookmark Playlist Setup"
-msgstr ""
+msgstr "将播放列表布局加入书签"
 
 #: MainWindow.cpp:794
 #, kde-format
 msgid "Bookmark Context Applets"
-msgstr ""
+msgstr "将信息视图中的部件加入书签"
 
 #: MainWindow.cpp:802
 #, kde-format
@@ -10473,12 +10441,12 @@ msgstr "编辑所选歌曲的详情"
 #: MainWindow.cpp:813 MainWindow.cpp:819 MainWindow.cpp:826
 #, kde-format
 msgid "Seek Forward by %1 seconds"
-msgstr ""
+msgstr "快进 %1 秒"
 
 #: MainWindow.cpp:833 MainWindow.cpp:839 MainWindow.cpp:846
 #, kde-format
 msgid "Seek Backward by %1 seconds"
-msgstr ""
+msgstr "快退 %1 秒"
 
 #: MainWindow.cpp:852
 #, kde-format
@@ -10498,7 +10466,7 @@ msgstr "上一首"
 #: MainWindow.cpp:871
 #, kde-format
 msgid "Restart current track"
-msgstr ""
+msgstr "重新播放当前歌曲"
 
 #: MainWindow.cpp:878
 #, kde-format
@@ -10513,7 +10481,7 @@ msgstr ""
 #: MainWindow.cpp:890
 #, kde-format
 msgid "Disable Dynamic Playlist"
-msgstr ""
+msgstr "禁用动态播放列表"
 
 #: MainWindow.cpp:894
 #, kde-format
@@ -10533,7 +10501,7 @@ msgstr "减小音量"
 #: MainWindow.cpp:911
 #, kde-format
 msgid "Toggle Main Window"
-msgstr ""
+msgstr "显示或隐藏主窗口"
 
 #: MainWindow.cpp:916
 #, kde-format
@@ -10543,7 +10511,7 @@ msgstr "切换全屏显示"
 #: MainWindow.cpp:921 playlist/ProgressiveSearchWidget.cpp:48
 #, kde-format
 msgid "Search playlist"
-msgstr ""
+msgstr "搜索播放列表"
 
 #: MainWindow.cpp:931
 #, kde-format
@@ -10553,7 +10521,7 @@ msgstr "显示当前歌曲"
 #: MainWindow.cpp:935
 #, kde-format
 msgid "Show Notification Popup"
-msgstr ""
+msgstr "显示弹出通知"
 
 #: MainWindow.cpp:940
 #, kde-format
@@ -10563,7 +10531,7 @@ msgstr "静音"
 #: MainWindow.cpp:945
 #, kde-format
 msgid "Last.fm: Love Current Track"
-msgstr ""
+msgstr "Last.fm：喜欢当前曲目"
 
 #: MainWindow.cpp:950
 #, kde-format
@@ -10573,7 +10541,7 @@ msgstr ""
 #: MainWindow.cpp:955
 #, kde-format
 msgid "Last.fm: Skip Current Track"
-msgstr ""
+msgstr "Last.fm：跳过当前歌曲"
 
 #: MainWindow.cpp:960 playlist/view/PlaylistViewCommon.cpp:117
 #, kde-format
@@ -10671,12 +10639,12 @@ msgstr "隐藏菜单"
 #: MainWindow.cpp:1213
 #, kde-format
 msgid "Paused  ::  %1"
-msgstr ""
+msgstr "已暂停  ::  %1"
 
 #: MainWindow.cpp:1226
 #, kde-format
 msgid "%1 - %2  ::  %3"
-msgstr ""
+msgstr "%1——%2  ::  %3"
 
 #: MainWindow.cpp:1300
 #, kde-format
@@ -10807,19 +10775,19 @@ msgstr "配置播放列表布局..."
 #: playlist/layouts/LayoutEditDialog.cpp:75
 #, kde-format
 msgid "Configuration for"
-msgstr ""
+msgstr "配置"
 
 #: playlist/layouts/LayoutEditDialog.cpp:81
 #, kde-format
 msgctxt "placeholder for a prefix"
 msgid "[prefix]"
-msgstr ""
+msgstr "[前缀]"
 
 #: playlist/layouts/LayoutEditDialog.cpp:85
 #, kde-format
 msgctxt "placeholder for a suffix"
 msgid "[suffix]"
-msgstr ""
+msgstr "[后缀]"
 
 #: playlist/layouts/LayoutEditDialog.cpp:98
 #, kde-format
@@ -10844,7 +10812,7 @@ msgstr "适应内容"
 #: playlist/layouts/LayoutEditDialog.cpp:106
 #, kde-format
 msgid "Fit the element text"
-msgstr ""
+msgstr "适应此元素的文本"
 
 #: playlist/layouts/LayoutEditDialog.cpp:108
 #, kde-format
@@ -10870,12 +10838,12 @@ msgstr "字体: "
 #: playlist/layouts/LayoutEditDialog.cpp:239
 #, kde-format
 msgid "Configuration for '%1'"
-msgstr ""
+msgstr "配置“%1”"
 
 #: playlist/layouts/LayoutEditWidget.cpp:44
 #, kde-format
 msgid "Show cover"
-msgstr ""
+msgstr "显示封面"
 
 #: playlist/layouts/LayoutEditWidget.cpp:84
 #, kde-format
@@ -10885,7 +10853,7 @@ msgstr "播放列表布局无效。"
 #: playlist/layouts/LayoutEditWidget.cpp:85
 #, kde-format
 msgid "Encountered an unknown element name while reading layout."
-msgstr ""
+msgstr "读取布局时检测到了未知的元素名称。"
 
 #: playlist/layouts/LayoutManager.cpp:107
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:395
@@ -11437,7 +11405,7 @@ msgstr ""
 #: playlist/PlaylistViewUrlGenerator.cpp:91
 #, kde-format
 msgid "%1 layout"
-msgstr ""
+msgstr "“%1”布局"
 
 #: playlist/PlaylistViewUrlRunner.cpp:90
 #, kde-format
@@ -11468,7 +11436,7 @@ msgstr "多位艺人"
 #: playlist/ProgressiveSearchWidget.cpp:101
 #, kde-format
 msgid "Composers"
-msgstr ""
+msgstr "作曲家"
 
 #: playlist/ProgressiveSearchWidget.cpp:115
 #, kde-format
@@ -11488,17 +11456,17 @@ msgstr "搜索首选项"
 #: playlist/UndoCommands.cpp:31
 #, kde-format
 msgid "Tracks Added"
-msgstr ""
+msgstr "已添加歌曲"
 
 #: playlist/UndoCommands.cpp:54
 #, kde-format
 msgid "Tracks Removed"
-msgstr ""
+msgstr "已删除歌曲"
 
 #: playlist/UndoCommands.cpp:76
 #, kde-format
 msgid "Tracks moved"
-msgstr ""
+msgstr "已移动歌曲"
 
 #: playlist/view/listview/PrettyListView.cpp:689
 #, kde-format
@@ -11539,70 +11507,70 @@ msgstr "选择来源"
 #, kde-format
 msgctxt "name of a type of constraint group"
 msgid "\"Match Any\" group"
-msgstr ""
+msgstr "“任一匹配”分组"
 
 #: playlistgenerator/ConstraintGroup.cpp:89
 #, kde-format
 msgctxt "name of a type of constraint group"
 msgid "\"Match All\" group"
-msgstr ""
+msgstr "“全部匹配”分组"
 
 #: playlistgenerator/ConstraintGroup.cpp:91
 #, kde-format
 msgctxt "name of a type of constraint group"
 msgid "Unknown match group"
-msgstr ""
+msgstr "未知匹配分组"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, ConstraintGroupEditWidget)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:15
 #, kde-format
 msgid "An editor for Constraint Groups.  You can set the group type to \"match all\" or \"match any\".  When the group type is set to \"match all\", the Generator will try to have the playlist match all the constraints within the group.  When the group type is set to \"match any\", the Generator will try to have the playlist match any of the constraints within the group."
-msgstr ""
+msgstr "用于编辑条件组的编辑器，您可以将分组类型设置为“全部匹配”或“任一匹配”。当分组类型设为“全部匹配时”，生成器会尝试匹配符合分组内所有条件的歌曲，并以此生成播放列表。当分组类型设置为“任一匹配”时，生成器会尝试匹配符合分组内任意一条条件的歌曲，并以此生成播放列表。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:21
 #, kde-format
 msgid "Constraint Group Settings"
-msgstr ""
+msgstr "条件组设置"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAll)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:29
 #, kde-format
 msgid "The APG will consider the constraint group satisfied only if all of the constraints within the group are satisfied.  This is analogous to a logical AND: \"the tracks should match properties A, B, and C\"."
-msgstr ""
+msgstr "类似于逻辑“与”门，AGP 只会在组内所有条件都满足时，才会判断该歌曲符合条件组。如：“此歌曲应匹配属性 A、B 和 C”。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAll)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:32
 #, kde-format
 msgid "Match all constraints in the group"
-msgstr ""
+msgstr "与组内的所有条件相符"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAny)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:39
 #, kde-format
 msgid "The APG will consider the constraint group satisfied if any one of the constraints within it is satisfied.  This is analogous to a logical OR: \"the tracks should match properties A, B, or C\"."
-msgstr ""
+msgstr "类似于逻辑“或”门，AGP 在组内任意一条条件满足时，就会判断该歌曲符合条件组。如：“此歌曲应匹配属性 A、B 或 C”。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAny)
 #: playlistgenerator/ConstraintGroupEditWidget.ui:42
 #, kde-format
 msgid "Match any constraint in the group"
-msgstr ""
+msgstr "与组内的任意一条条件相符"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:58
 #, kde-format
 msgid "Checkpoint"
-msgstr ""
+msgstr "检查点"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:59
 #, kde-format
 msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr ""
+msgstr "将歌曲、专辑或艺人固定在播放列表的某个位置"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:170
 #, kde-format
 msgid "Checkpoint: %1"
-msgstr ""
+msgstr "检查点：%1"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:178
 #: playlistgenerator/constraints/Checkpoint.cpp:186
@@ -11614,40 +11582,40 @@ msgstr "未指派"
 #: playlistgenerator/constraints/Checkpoint.cpp:180
 #, kde-format
 msgid "\"%1\" (track) by %2"
-msgstr ""
+msgstr "%2 的“%1”(歌曲)"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:189
 #, kde-format
 msgid "\"%1\" (album) by %2"
-msgstr ""
+msgstr "%2 的“%1”(专辑)"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:191
 #, kde-format
 msgid "\"%1\" (album)"
-msgstr ""
+msgstr "“%1”(专辑)"
 
 #: playlistgenerator/constraints/Checkpoint.cpp:200
 #, kde-format
 msgid "\"%1\" (artist)"
-msgstr ""
+msgstr "“%1”(艺人)"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, CheckpointEditWidget)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:15
 #, kde-format
 msgid "An editor for a CheckPoint constraint.  The user can set the track, album, or artist to be placed at a certain position in the playlist."
-msgstr ""
+msgstr "用于编辑检查点条件的编辑器。用户可以在此设定歌曲、专辑或艺人在播放列表中的位置。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:21
 #, kde-format
 msgid "Checkpoint Constraint Settings"
-msgstr ""
+msgstr "检查点条件设置"
 
 #. i18n: ectx: property (whatsThis), widget (TrackSelectWidget, trackSelector)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:35
 #, kde-format
 msgid "Select the track that you want to use as the checkpoint."
-msgstr ""
+msgstr "选择您想要用作为检查点的歌曲。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Position)
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:48
@@ -11659,7 +11627,7 @@ msgstr "位置："
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:69
 #, kde-format
 msgid "The desired position of the song in the playlist, in hours, minutes, and seconds.  Note: because of Qt limitations, the maximum position that you can specify is 24 hours."
-msgstr ""
+msgstr "您想让歌曲在播放列表中所处的时、分、秒。注意：由于 Qt 限制，您所指定的位置最大为 24 小时。"
 
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Duration)
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_TimeValue)
@@ -11677,7 +11645,7 @@ msgstr "hh:mm:ss"
 #: playlistgenerator/constraints/CheckpointEditWidget.ui:138
 #, kde-format
 msgid "How strict the APG should be about placing the selected track at the specified time."
-msgstr ""
+msgstr "AGP 放入所选歌曲的时间精确度。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Strictness)
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessInt)
@@ -11735,59 +11703,59 @@ msgstr "精确"
 #: playlistgenerator/constraints/PlaylistDuration.cpp:52
 #, kde-format
 msgid "Playlist Duration"
-msgstr ""
+msgstr "播放列表总时间"
 
 #: playlistgenerator/constraints/PlaylistDuration.cpp:53
 #, kde-format
 msgid "Sets the preferred duration of the playlist"
-msgstr ""
+msgstr "设定播放列表倾向的时间长度"
 
 #: playlistgenerator/constraints/PlaylistDuration.cpp:119
 #, kde-format
 msgctxt "%1 is a length of time (e.g. 5:00 for 5 minutes)"
 msgid "Playlist duration: equals %1"
-msgstr ""
+msgstr "播放列表总时间：等于 %1"
 
 #: playlistgenerator/constraints/PlaylistDuration.cpp:121
 #, kde-format
 msgctxt "%1 is a length of time (e.g. 5:00 for 5 minutes)"
 msgid "Playlist duration: more than %1"
-msgstr ""
+msgstr "播放列表总时间：长于 %1"
 
 #: playlistgenerator/constraints/PlaylistDuration.cpp:123
 #, kde-format
 msgctxt "%1 is a length of time (e.g. 5:00 for 5 minutes)"
 msgid "Playlist duration: less than %1"
-msgstr ""
+msgstr "播放列表总时间：短于 %1"
 
 #: playlistgenerator/constraints/PlaylistDuration.cpp:125
 #, kde-format
 msgid "Playlist duration: unknown"
-msgstr ""
+msgstr "播放列表总时间：未知"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistDurationEditWidget)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:15
 #, kde-format
 msgid "An editor for a PlaylistDuration constraint.  The user can set the name of the constraint; the target duration and whether the playlist should be less than, equal to, or greater than that duration; and the strictness with which the APG should match that duration."
-msgstr ""
+msgstr "用于编辑播放列表总时间条件的编辑器。用户可以在此设定条件的名字，播放列表应短于、等于或长于的总时间和 AGP 匹配总时间的精确度。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:21
 #, kde-format
 msgid "Playlist Duration Constraint Settings"
-msgstr ""
+msgstr "播放列表总时间条件设置"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:32
 #, kde-format
 msgid "Whether the duration of the generated playlist should be shorter than, equal to, or longer than the specified value."
-msgstr ""
+msgstr "指定生成的播放列表总时间应短于、等于或长于此值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:39
 #, kde-format
 msgid "shorter than"
-msgstr ""
+msgstr "短于"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
@@ -11807,13 +11775,13 @@ msgstr "等于"
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:49
 #, kde-format
 msgid "longer than"
-msgstr ""
+msgstr "长于"
 
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_Duration)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:62
 #, kde-format
 msgid "The desired duration of the playlist, in hours, minutes, and seconds.  Note: because of Qt limitations, the maximum playlist duration that you can specify is 24 hours."
-msgstr ""
+msgstr "您想让播放列表总时间所占的时、分、秒。注意：由于 Qt 限制，您所指定的时间最大为 24 小时。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Strictness)
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
@@ -11823,40 +11791,40 @@ msgstr ""
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:90
 #, kde-format
 msgid "How strict the APG should be about matching the playlist duration to the specified time."
-msgstr ""
+msgstr "AGP 匹配播放列表总时间与指定时间的精确度。"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:55
 #, kde-format
 msgid "Total File Size of Playlist"
-msgstr ""
+msgstr "播放列表的文件总大小"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:56
 #, kde-format
 msgid "Sets the preferred total file size of the playlist"
-msgstr ""
+msgstr "设定播放列表倾向的文件总大小"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:123
 #, kde-format
 msgctxt "%1 is a file size (e.g. 50 MB)"
 msgid "Total file size of playlist: equals %1"
-msgstr ""
+msgstr "播放列表的文件总大小：等于 %1"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:125
 #, kde-format
 msgctxt "%1 is a file size (e.g. 50 MB)"
 msgid "Total file size of playlist: more than %1"
-msgstr ""
+msgstr "播放列表的文件总大小：大于 %1"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:127
 #, kde-format
 msgctxt "%1 is a file size (e.g. 50 MB)"
 msgid "Total file size of playlist: less than %1"
-msgstr ""
+msgstr "播放列表的文件总大小：小于 %1"
 
 #: playlistgenerator/constraints/PlaylistFileSize.cpp:129
 #, kde-format
 msgid "Total file size of playlist: unknown"
-msgstr ""
+msgstr "播放列表的文件总大小：未知"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistFileSizeEditWidget)
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistLengthEditWidget)
@@ -11864,19 +11832,19 @@ msgstr ""
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:15
 #, kde-format
 msgid "An editor for a Playlist Length constraint.  The user can specify the target number of tracks and whether the playlist contain fewer than, equal to, or more than that number of tracks; and the strictness with which the APG should match the target number of tracks."
-msgstr ""
+msgstr "用于编辑播放列表长度条件的编辑器。用户可以在此设定歌曲应大于、等于或小于的文件大小，及AGP 匹配目标歌曲文件大小的精确度。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:21
 #, kde-format
 msgid "Playlist Total Size Constraint Settings"
-msgstr ""
+msgstr "播放列表文件总大小设置"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:32
 #, kde-format
 msgid "Whether the total size of all files in the generated playlist should be less than, equal to, or more than the specified value."
-msgstr ""
+msgstr "指定生成的播放列表文件总大小应小于、等于或大于此值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
@@ -11897,19 +11865,19 @@ msgstr "小于"
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:49
 #, kde-format
 msgid "more than"
-msgstr ""
+msgstr "大于"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_Size)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:59
 #, kde-format
 msgid "The target total size of all the files in the playlist."
-msgstr ""
+msgstr "播放列表内所有文件的目标大小。"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Unit)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:75
 #, kde-format
 msgid "The file size units used by the constraint.  Note that kB is 1,000 bytes; MB is 1,000,000 bytes; and so forth."
-msgstr ""
+msgstr "此条件所使用的文件大小单位。注意：kB 为 1000 字节，MB 为 1000000 字节，以此类推。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Unit)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:82
@@ -11939,110 +11907,110 @@ msgstr "TB"
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:145
 #, kde-format
 msgid "<html><head/><body><p>How strict the APG should be about matching the total size of all files in the playlist to the specified size.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>AGP 匹配播放列表文件总大小与指定大小的精确度。</p></body></html>"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:51
 #, kde-format
 msgid "Playlist Length"
-msgstr ""
+msgstr "播放列表长度"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:52
 #, kde-format
 msgid "Sets the preferred number of tracks in the playlist"
-msgstr ""
+msgstr "设定播放列表倾向的歌曲数量"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:118
 #, kde-format
 msgctxt "%1 is a number"
 msgid "Playlist length: 1 track"
 msgid_plural "Playlist length: %1 tracks"
-msgstr[0] ""
+msgstr[0] "播放列表长度：%1 首歌曲"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:120
 #, kde-format
 msgctxt "%1 is a number"
 msgid "Playlist length: more than 1 track"
 msgid_plural "Playlist length: more than %1 tracks"
-msgstr[0] ""
+msgstr[0] "播放列表长度：大于 %1 首歌曲"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:123
 #, kde-format
 msgctxt "%1 is a number"
 msgid "Playlist length: less than 1 track"
 msgid_plural "Playlist length: less than %1 tracks"
-msgstr[0] ""
+msgstr[0] "播放列表长度：小于 %1 首歌曲"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:126
 #, kde-format
 msgid "Playlist length: unknown"
-msgstr ""
+msgstr "播放列表长度：未知"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:21
 #, kde-format
 msgid "Playlist Length Constraint Settings"
-msgstr ""
+msgstr "播放列表长度条件设置"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:32
 #, kde-format
 msgid "Whether the number of tracks in the generated playlist should be less than, equal to, or more than the specified value."
-msgstr ""
+msgstr "指定生成的播放列表歌曲数量应小于、等于或大于此值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:39
 #, kde-format
 msgid "fewer than"
-msgstr ""
+msgstr "小于"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_Length)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:59
 #, kde-format
 msgid "The target number of tracks for the generated playlist."
-msgstr ""
+msgstr "生成的播放列表内歌曲的目标数量。"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:115
 #, kde-format
 msgid "How strict the APG should be about matching the playlist length to the specified number of tracks."
-msgstr ""
+msgstr "AGP 匹配播放列表长度与指定歌曲数量的精确度。"
 
 #: playlistgenerator/constraints/PreventDuplicates.cpp:51
 #, kde-format
 msgid "Prevent Duplicates"
-msgstr ""
+msgstr "防止重复"
 
 #: playlistgenerator/constraints/PreventDuplicates.cpp:52
 #, kde-format
 msgid "Prevents duplicate tracks, albums, or artists from appearing in the playlist"
-msgstr ""
+msgstr "防止播放列表中出现重复的歌曲、专辑或艺人"
 
 #: playlistgenerator/constraints/PreventDuplicates.cpp:95
 #, kde-format
 msgid "Prevent duplicate tracks"
-msgstr ""
+msgstr "防止重复歌曲"
 
 #: playlistgenerator/constraints/PreventDuplicates.cpp:97
 #, kde-format
 msgid "Prevent duplicate artists"
-msgstr ""
+msgstr "防止重复艺人"
 
 #: playlistgenerator/constraints/PreventDuplicates.cpp:99
 #, kde-format
 msgid "Prevent duplicate albums"
-msgstr ""
+msgstr "防止重复专辑"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, PreventDuplicatesEditWidget)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:15
 #, kde-format
 msgid "An editor for a Prevent Duplicates constraint.  When set to \"track\", it will try to prevent more than one copy of the same track from ending up in the playlist.  When set to \"album\" or \"artist\", it will try to prevent more than one track from a given album or a given artist from ending up in the playlist."
-msgstr ""
+msgstr "用于编辑防止重复条件的编辑器。当设为“歌曲”时，它将防止相同歌曲出现在播放列表尾部；当设为“专辑”或“艺人”时，它将防止相同专辑或相同艺人出现在播放列表尾部。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:21
 #, kde-format
 msgid "Prevent Duplicates Constraint Settings"
-msgstr ""
+msgstr "防止重复条件设置"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Field)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Field)
@@ -12050,13 +12018,13 @@ msgstr ""
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:47
 #, kde-format
 msgid "Control which duplicates to prevent.  \"Prevent duplicate tracks\" is the least restrictive, and \"prevent duplicate artists\" is the most restrictive."
-msgstr ""
+msgstr "调整防止重复的条件。“防止重复歌曲”是最宽松的条件，“防止重复艺人”则为最严格的条件。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Field)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:32
 #, kde-format
 msgid "Prevent duplicate"
-msgstr ""
+msgstr "防止重复"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:51
@@ -12079,18 +12047,18 @@ msgstr "多位艺人"
 #: playlistgenerator/constraints/TagMatch.cpp:54
 #, kde-format
 msgid "Match Tags"
-msgstr ""
+msgstr "标签匹配"
 
 #: playlistgenerator/constraints/TagMatch.cpp:55
 #, kde-format
 msgid "Make all tracks in the playlist match the specified characteristic"
-msgstr ""
+msgstr "使播放列表中的所有歌曲都符合特定的特征"
 
 #: playlistgenerator/constraints/TagMatch.cpp:174
 #, kde-format
 msgctxt "%1 = empty string or \"not\"; %2 = a metadata field, like \"title\" or \"artist name\"; %3 = a predicate, can be equals, starts with, ends with or contains; %4 = a string to match; Example: Match tag: not title contains \"foo\""
 msgid "Match tag:%1 %2 %3 %4"
-msgstr ""
+msgstr "标签匹配：%1%2%3%4"
 
 #: playlistgenerator/constraints/TagMatch.cpp:175
 #, kde-format
@@ -12102,7 +12070,7 @@ msgstr " 非"
 msgctxt "number of stars in the rating of a track"
 msgid "%1 star"
 msgid_plural "%1 stars"
-msgstr[0] ""
+msgstr[0] "%1 星"
 
 #: playlistgenerator/constraints/TagMatch.cpp:186
 #, kde-format
@@ -12184,13 +12152,13 @@ msgstr "包含"
 #: playlistgenerator/constraints/TagMatch.cpp:364
 #, kde-format
 msgid "regexp"
-msgstr ""
+msgstr "正则表达式"
 
 #: playlistgenerator/constraints/TagMatch.cpp:367
 #: widgets/MetaQueryWidget.cpp:1040
 #, kde-format
 msgid "unknown comparison"
-msgstr ""
+msgstr "未知的比较条件"
 
 #: playlistgenerator/constraints/TagMatch.cpp:380
 #, kde-format
@@ -12238,13 +12206,13 @@ msgstr[0] "年"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:15
 #, kde-format
 msgid "An editor for a TagMatch constraint.  The user can specify a track characteristic, and the APG will fill the playlist with tracks that match that characteristic.  This functions similarity to the matching attributes of the smart playlists in Amarok 1.4."
-msgstr ""
+msgstr "用于编辑标签匹配条件的编辑器。用户可以在此指定歌曲特征，AGP 会将符合此特征的歌曲填入播放列表。此功能与 Amarok 1.4 中智能播放列表里的匹配属性相似。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:21
 #, kde-format
 msgid "Match Tag Constraint Settings"
-msgstr ""
+msgstr "标签匹配条件设置"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Match)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Field)
@@ -12252,7 +12220,7 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:44
 #, kde-format
 msgid "Selects which track characteristic you want to match."
-msgstr ""
+msgstr "选择您要匹配的歌曲特征。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Match)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:32
@@ -12270,7 +12238,11 @@ msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Calibri'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The APG will choose all tracks that do <span style=\" font-weight:600;\">not</span> match the specified characteristics.</p></body></html>"
-msgstr ""
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Calibri'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">AGP 会选择所有<span style=\" font-weight:600;\">不符合</span>指定特征的歌曲。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Invert)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:87
@@ -12282,13 +12254,13 @@ msgstr "负片:"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:106
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified value."
-msgstr ""
+msgstr "指定 AGP 所选歌曲应小于、等于或大于此值。"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_ValueInt)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:133
 #, kde-format
 msgid "The numerical value that the track characteristic should match."
-msgstr ""
+msgstr "歌曲特征应符合的数值。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessInt)
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessInt)
@@ -12296,13 +12268,13 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:180
 #, kde-format
 msgid "How strict the APG should be about matching tracks to the specified value."
-msgstr ""
+msgstr "AGP 匹配歌曲与指定值的精确度。"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonDate)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:226
 #, kde-format
 msgid "Whether the APG should choose tracks that are before, on, or after a specific date; or whether it should choose tracks that are within a certain time range."
-msgstr ""
+msgstr "APG 所选歌曲的日期应在此值之前、之内、之后或是一段时间范围内。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:248
@@ -12314,13 +12286,13 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:266
 #, kde-format
 msgid "The specific date that the APG should use for matching."
-msgstr ""
+msgstr "指定 APG 用于匹配的日期。"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, page_DateRange)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:300
 #, kde-format
 msgid "The relative time period that the APG should try to match."
-msgstr ""
+msgstr "APG 应匹配的相对时间段。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_strictnessDate)
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessDate)
@@ -12328,13 +12300,13 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:359
 #, kde-format
 msgid "How strict the APG should be about matching tracks to the specified date."
-msgstr ""
+msgstr "APG 匹配歌曲与指定日期的精确度。"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:405
 #, kde-format
 msgid "Whether the APG should match tracks that equal, start with, end with, or contain the specified string."
-msgstr ""
+msgstr "APG 匹配的歌曲应与此字符串相同、以此字符串开头、以此字符串结尾或包含此字符串。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:409
@@ -12364,19 +12336,19 @@ msgstr "包含"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:432
 #, kde-format
 msgid "The string that the APG should use when matching tracks."
-msgstr ""
+msgstr "APG 用于匹配歌曲的字符串。"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonTime)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:460
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified time."
-msgstr ""
+msgstr "指定 APG 所选歌曲应早于、等于或是晚于的时间。"
 
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_TimeValue)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:487
 #, kde-format
 msgid "The time that the APG should try to match."
-msgstr ""
+msgstr "APG 应匹配的时间。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessTime)
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessTime)
@@ -12384,19 +12356,19 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:551
 #, kde-format
 msgid "How strict the APG should be about matching tracks to the specified time."
-msgstr ""
+msgstr "APG 匹配歌曲与指定时间的精确度。"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:597
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified rating."
-msgstr ""
+msgstr "指定 APG 所选歌曲应小于、等于或是大于的评分。"
 
 #. i18n: ectx: property (whatsThis), widget (KRatingWidget, rating_RatingValue)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:624
 #, kde-format
 msgid "The rating that the APG should try to match."
-msgstr ""
+msgstr "APG 应匹配的评分。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_StrictnessRating)
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_StrictnessRating)
@@ -12404,7 +12376,7 @@ msgstr ""
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:674
 #, kde-format
 msgid "How strict the APG should be about matching tracks to the specified rating."
-msgstr ""
+msgstr "APG 匹配歌曲与指定评分的精确度。"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:85
 #, kde-format
@@ -12419,7 +12391,7 @@ msgstr "名称"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:87
 #, kde-format
 msgid "artist name"
-msgstr ""
+msgstr "艺人姓名"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:88
 #, kde-format
@@ -12440,7 +12412,7 @@ msgstr "作曲家"
 #, kde-format
 msgctxt "Field name"
 msgid "year"
-msgstr ""
+msgstr "年份"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:92
 #, kde-format
@@ -12450,12 +12422,12 @@ msgstr "注释"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:93
 #, kde-format
 msgid "track number"
-msgstr ""
+msgstr "音轨编号"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:94
 #, kde-format
 msgid "disc number"
-msgstr ""
+msgstr "光盘编号"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:95
 #, kde-format
@@ -12465,7 +12437,7 @@ msgstr "长度"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:96
 #, kde-format
 msgid "added to collection"
-msgstr ""
+msgstr "添加到音频集内"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:97
 #, kde-format
@@ -12480,17 +12452,17 @@ msgstr "等级"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:99
 #, kde-format
 msgid "first played"
-msgstr ""
+msgstr "首次播放"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:100
 #, kde-format
 msgid "last played"
-msgstr ""
+msgstr "上次播放"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:101
 #, kde-format
 msgid "play count"
-msgstr ""
+msgstr "播放次数"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:102
 #, kde-format
@@ -12500,7 +12472,7 @@ msgstr "label"
 #: playlistgenerator/ConstraintSolver.cpp:230
 #, kde-format
 msgid "The playlist generator failed to load any tracks from the collection."
-msgstr ""
+msgstr "播放列表生成器无法从音频集内加载歌曲。"
 
 #: playlistgenerator/ConstraintSolver.cpp:236
 #, kde-format
@@ -14656,7 +14628,7 @@ msgstr "主工具栏"
 #: toolbar/MainToolbar.cpp:83
 #, kde-format
 msgid "Rediscover Your Music"
-msgstr ""
+msgstr "重新发现音乐之美"
 
 #: toolbar/SlimToolbar.cpp:36
 #, kde-format
