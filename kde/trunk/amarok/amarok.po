@@ -3,7 +3,11 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2021-07-30 12:34\n"
+=======
+"PO-Revision-Date: 2021-07-31 08:16\n"
+>>>>>>> 610310a (amarok: do not translate nick)
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9482,7 +9486,11 @@ msgstr "IRC:\n"
 #: main.cpp:109
 #, kde-format
 msgid "Bart 'Where are my toothpicks' Cerneels"
+<<<<<<< HEAD
 msgstr "Bart “我牙签呢” Cerneels"
+=======
+msgstr "Bart 'Where are my toothpicks' Cerneels"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:110
 #, kde-format
@@ -9492,7 +9500,11 @@ msgstr "开发者 (Stecchino)"
 #: main.cpp:113
 #, kde-format
 msgid "Edward \"Hades\" Toroshchin"
+<<<<<<< HEAD
 msgstr "Edward “冥界” Toroshchin"
+=======
+msgstr "Edward \"Hades\" Toroshchin"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:114
 #, kde-format
@@ -9532,7 +9544,11 @@ msgstr "推广人员 (英文：Rokymoter)、错误分类 (Mamarok)"
 #: main.cpp:128
 #, kde-format
 msgid "Ralf 'SalsaMaster' Engels"
+<<<<<<< HEAD
 msgstr "Ralf “萨尔萨酱大师” Engels"
+=======
+msgstr "Ralf 'SalsaMaster' Engels"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:129
 #, kde-format
@@ -9612,7 +9628,11 @@ msgstr "参与 Amarok 的开发并非爱好，而是一种生活方式。但有�
 #: main.cpp:164
 #, kde-format
 msgid "Ian 'The Beard' Monroe"
+<<<<<<< HEAD
 msgstr "Ian “大胡子” Monroe"
+=======
+msgstr "Ian 'The Beard' Monroe"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:164
 #, kde-format
@@ -9637,7 +9657,11 @@ msgstr "开发者 (lfranchi)"
 #: main.cpp:173
 #, kde-format
 msgid "Lydia 'is wrong(TM)' Pintscher"
+<<<<<<< HEAD
 msgstr "Lydia '这个错了 (TM)' Pintscher"
+=======
+msgstr "Lydia 'is wrong(TM)' Pintscher"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:173
 #, kde-format
@@ -9667,7 +9691,11 @@ msgstr "开发者 (maxx_k)"
 #: main.cpp:182
 #, kde-format
 msgid "Nikolaj Hald 'Also very hot' Nielsen"
+<<<<<<< HEAD
 msgstr "Nikolaj Hald “也很性感” Nielsen"
+=======
+msgstr "Nikolaj Hald 'Also very hot' Nielsen"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:182
 #, kde-format
@@ -9747,7 +9775,11 @@ msgstr "易用性"
 #: main.cpp:202
 #, kde-format
 msgid "Dan 'Hey, it compiled...' Meltzer"
+<<<<<<< HEAD
 msgstr "Dan “嘿，它编译出……” Meltzer"
+=======
+msgstr "Dan 'Hey, it compiled...' Meltzer"
+>>>>>>> 610310a (amarok: do not translate nick)
 
 #: main.cpp:202
 #, kde-format
