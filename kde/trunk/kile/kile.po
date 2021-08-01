@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-06 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 14:18\n"
+"PO-Revision-Date: 2021-08-01 03:13\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6562,7 +6562,7 @@ msgstr "标签(&L)："
 #: kiledocmanager.cpp:92
 #, kde-format
 msgid "No editor component found. Please check your KDE installation."
-msgstr "未找到编辑器组件，请检查是否安装了 KDE。"
+msgstr "未找到编辑器组件，请您确认是否正常安装了 KDE。"
 
 #: kiledocmanager.cpp:93
 #, kde-format
