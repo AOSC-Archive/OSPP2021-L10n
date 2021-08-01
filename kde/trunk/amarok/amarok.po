@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-01 10:24\n"
+"PO-Revision-Date: 2021-08-01 13:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "KDE 中国, Guo Yunhe, Wordless Echo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-china@kde.org, i@guoyunhe.me, wordless@echo.moe"
 
 #. i18n: tag layout attribute name
 #: ../data/DefaultPlaylistLayouts.xml:3
@@ -14388,13 +14388,13 @@ msgstr[0] "有 <b>%1</b> 首歌曲正等待记录 (scrobbling) 至 %2。"
 #, kde-format
 msgid "<b>One</b> track's played time was too short to be scrobbled."
 msgid_plural "<b>%1</b> tracks' played time was too short to be scrobbled."
-msgstr[0] ""
+msgstr[0] "有 <b>%1</b> 首歌的播放次数太少，无法被记录 (scrobbled)。"
 
 #: statsyncing/Process.cpp:284
 #, kde-format
 msgid "<b>One</b> track had insufficient metadata to be scrobbled."
 msgid_plural "<b>%1</b> tracks had insufficient metadata to be scrobbled."
-msgstr[0] ""
+msgstr[0] "有 <b>%1</b> 首歌的元数据不足，无法被记录 (scrobbled)。"
 
 #: statsyncing/Process.cpp:288
 #, kde-format
@@ -14412,7 +14412,7 @@ msgstr[0] ""
 #, kde-format
 msgid "Scrobbling of <b>one</b> track was skipped as configured by the user."
 msgid_plural "Scrobbling of <b>%1</b> tracks was skipped as configured by the user."
-msgstr[0] ""
+msgstr[0] "由于用户配置，已跳过记录 (Scrobbling) <b>%1</b> 首歌曲。"
 
 #: statsyncing/ui/ChooseProvidersPage.cpp:33
 #: statsyncing/ui/MatchedTracksPage.cpp:135
@@ -14429,13 +14429,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is field name such as Rating"
 msgid "No selected collection supports writing %1 - it doesn't make sense to synchronize it."
-msgstr ""
+msgstr "所选的音频集不支持写入 %1——同步此标签毫无意义。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, providersBox)
 #: statsyncing/ui/ChooseProvidersPage.ui:17
 #, kde-format
 msgid "Select Collections to Synchronize"
-msgstr ""
+msgstr "选择需要同步的音频集"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fieldsBox)
 #: statsyncing/ui/ChooseProvidersPage.ui:49
@@ -14446,27 +14446,27 @@ msgstr ""
 #: statsyncing/ui/ConfigureProviderDialog.cpp:39
 #, kde-format
 msgid "Configure Synchronization Target"
-msgstr ""
+msgstr "配置同步目标"
 
 #: statsyncing/ui/CreateProviderDialog.cpp:38
 #, kde-format
 msgid "Add Synchronization Target"
-msgstr ""
+msgstr "配置同步目标"
 
 #: statsyncing/ui/CreateProviderDialog.cpp:48
 #, kde-format
 msgid "<span style=\"color:red; font-weight:bold;\">Important:</span> before synchronizing tracks with a file-based target always make sure that the database file is not currently in use!"
-msgstr ""
+msgstr "<span style=\"color:red; font-weight:bold;\">重要声明：</span>同步音乐至基于文件的目标前，请确保数据库文件未被使用！"
 
 #: statsyncing/ui/CreateProviderDialog.cpp:61
 #, kde-format
 msgid "Choose Target Type"
-msgstr ""
+msgstr "选择目标类型"
 
 #: statsyncing/ui/CreateProviderDialog.cpp:87
 #, kde-format
 msgid "Configure Target"
-msgstr ""
+msgstr "配置目标"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:140
 #, kde-format
@@ -14481,32 +14481,32 @@ msgstr ""
 #: statsyncing/ui/MatchedTracksPage.cpp:151
 #, kde-format
 msgid "There are no tracks excluded from synchronization"
-msgstr ""
+msgstr "没有排除在同步外的歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:155
 #, kde-format
 msgid "Expand Tracks With Conflicts"
-msgstr ""
+msgstr "展开冲突歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:157
 #, kde-format
 msgid "Expand Updated"
-msgstr ""
+msgstr "展开已更新的内容"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:163
 #, kde-format
 msgid "Collapse Tracks Without Conflicts"
-msgstr ""
+msgstr "折叠无冲突的歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:165
 #, kde-format
 msgid "Collapse Not Updated"
-msgstr ""
+msgstr "折叠未更新的内容"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:186
 #, kde-format
 msgid "Reset All Ratings to Undecided"
-msgstr ""
+msgstr "将全部评分设为尚未评定"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:194
 #, kde-format
@@ -14528,7 +14528,7 @@ msgstr ""
 #: statsyncing/ui/MatchedTracksPage.cpp:228
 #, kde-format
 msgid "All Tracks"
-msgstr ""
+msgstr "全部歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:229
 #, kde-format
@@ -14538,17 +14538,17 @@ msgstr ""
 #: statsyncing/ui/MatchedTracksPage.cpp:230
 #, kde-format
 msgid "Tracks With Conflicts"
-msgstr ""
+msgstr "冲突的歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:239
 #, kde-format
 msgid "There are no tracks with conflicts"
-msgstr ""
+msgstr "没有冲突的歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:245
 #, kde-format
 msgid "There are no tracks going to be updated"
-msgstr ""
+msgstr "没有要更新的歌曲"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:272
 #, kde-format
@@ -14564,7 +14564,7 @@ msgstr ""
 #, kde-format
 msgid "<b>One</b> play"
 msgid_plural "<b>%1</b> plays"
-msgstr[0] ""
+msgstr[0] "<b>%1</b> 次播放"
 
 #: statsyncing/ui/MatchedTracksPage.cpp:318
 #, kde-format
@@ -14593,7 +14593,7 @@ msgstr ""
 #: statsyncing/ui/MatchedTracksPage.ui:216
 #, kde-format
 msgid "Filter Tracks..."
-msgstr ""
+msgstr "筛选歌曲..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, matchedRatingsButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, matchedLabelsButton)
@@ -14648,12 +14648,12 @@ msgstr "中止"
 #: statusbar/CompoundProgressBar.cpp:71 statusbar/CompoundProgressBar.cpp:208
 #, kde-format
 msgid "Multiple background tasks running (click to show)"
-msgstr ""
+msgstr "有多个后台任务正在运行 (单击显示)"
 
 #: statusbar/CompoundProgressBar.cpp:72 statusbar/CompoundProgressBar.cpp:209
 #, kde-format
 msgid "Abort all background tasks"
-msgstr ""
+msgstr "中止全部后台任务"
 
 #: toolbar/MainToolbar.cpp:76
 #, kde-format
@@ -14685,17 +14685,17 @@ msgstr "音量：%1%"
 #: transcoding/TranscodingAssistantDialog.cpp:47
 #, kde-format
 msgid "Transcode Tracks"
-msgstr ""
+msgstr "转码歌曲"
 
 #: transcoding/TranscodingAssistantDialog.cpp:57
 #, kde-format
 msgid "Transc&ode"
-msgstr ""
+msgstr "转码 (&O)"
 
 #: transcoding/TranscodingAssistantDialog.cpp:68
 #, kde-format
 msgid "While copying, you can choose to transcode your music files into another format with an encoder (codec). This can be done to save space or to make your files readable by a portable music player or a particular software program."
-msgstr ""
+msgstr "复制时，您可以选择编码器 (编解码器) 并将歌曲转换为其它格式。它可以帮您节省空间，或使便携播放器及特定的软件程序读取您的文件。"
 
 #: transcoding/TranscodingAssistantDialog.cpp:73
 #, kde-format
@@ -14705,12 +14705,12 @@ msgstr "复制(&C)"
 #: transcoding/TranscodingAssistantDialog.cpp:74
 #, kde-format
 msgid "Just copy the tracks without transcoding them."
-msgstr ""
+msgstr "仅复制歌曲，不进行转码。"
 
 #: transcoding/TranscodingAssistantDialog.cpp:78
 #, kde-format
 msgid "While moving, you can choose to transcode your music files into another format with an encoder (codec). This can be done to save space or to make your files readable by a portable music player or a particular software program. Only successfully transcoded files will be removed from their original location."
-msgstr ""
+msgstr "移动时，您可以选择编码器 (编解码器) 并将歌曲转换为其它格式。它可以帮您节省空间，或使便携播放器及特定的软件程序读取您的文件。只有成功转码后，原位置上的文件才会被删除。"
 
 #: transcoding/TranscodingAssistantDialog.cpp:84
 #, kde-format
@@ -14720,18 +14720,18 @@ msgstr "回合(&M)"
 #: transcoding/TranscodingAssistantDialog.cpp:85
 #, kde-format
 msgid "Just move the tracks without transcoding them."
-msgstr ""
+msgstr "仅移动歌曲，不进行转码。"
 
 #: transcoding/TranscodingAssistantDialog.cpp:152
 #, kde-format
 msgctxt "Tooltip of a disabled transcoding encoder option"
 msgid "Not currently available on your system."
-msgstr ""
+msgstr "在您的系统上无法调整此选项。"
 
 #: transcoding/TranscodingAssistantDialog.cpp:159
 #, kde-format
 msgid "Target collection indicates this format would not be playable."
-msgstr ""
+msgstr "目标音频集无法播放此格式。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: transcoding/TranscodingAssistantDialog.ui:89
@@ -14745,13 +14745,13 @@ msgstr "转码"
 #: transcoding/TranscodingAssistantDialog.ui:226
 #, kde-format
 msgid "Transcode all tracks to the selected format"
-msgstr ""
+msgstr "将所有歌曲转换为选中的格式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, transcodeAllRadioButton)
 #: transcoding/TranscodingAssistantDialog.ui:229
 #, kde-format
 msgid "Transcode all tracks"
-msgstr ""
+msgstr "转码所有歌曲"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, transcodeOnlyIfNeededRadioButton)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, transcodeOnlyIfNeededRadioButton)
@@ -14759,13 +14759,13 @@ msgstr ""
 #: transcoding/TranscodingAssistantDialog.ui:239
 #, kde-format
 msgid "Transcode tracks only when needed for playability in the destination collection"
-msgstr ""
+msgstr "只在目标音频集需要兼容时转码歌曲"
 
 #. i18n: ectx: property (text), widget (QRadioButton, transcodeOnlyIfNeededRadioButton)
 #: transcoding/TranscodingAssistantDialog.ui:242
 #, kde-format
 msgid "Transcode only when needed for playability"
-msgstr ""
+msgstr "只在需要兼容时转码"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, transcodeUnlessSameTypeRadioButton)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, transcodeUnlessSameTypeRadioButton)
@@ -14773,13 +14773,13 @@ msgstr ""
 #: transcoding/TranscodingAssistantDialog.ui:252
 #, kde-format
 msgid "Transcode only when source and destination file formats different"
-msgstr ""
+msgstr "只在源文件和目标文件格式不同时转码"
 
 #. i18n: ectx: property (text), widget (QRadioButton, transcodeUnlessSameTypeRadioButton)
 #: transcoding/TranscodingAssistantDialog.ui:255
 #, kde-format
 msgid "Transcode only when source and destination formats are different"
-msgstr ""
+msgstr "只在源和目标格式不同时转码"
 
 #. i18n: ectx: property (text), widget (QLabel, encoderNotFoundLabel)
 #: transcoding/TranscodingAssistantDialog.ui:265
@@ -14791,12 +14791,12 @@ msgstr ""
 #: transcoding/TranscodingAssistantDialog.ui:275
 #, kde-format
 msgid "Remember this choice for the next time"
-msgstr ""
+msgstr "记住本次选择，下次不再提示"
 
 #: transcoding/TranscodingOptionsStackedWidget.cpp:56
 #, kde-format
 msgid "In order to configure the parameters of the transcoding operation, please pick an encoder from the list."
-msgstr ""
+msgstr "为了配置转码时的参数，请选择一个列表内的编码器。"
 
 #: transcoding/TranscodingPropertySliderWidget.cpp:99
 #, kde-format
@@ -14806,7 +14806,7 @@ msgstr " (推荐)"
 #: transcoding/TranscodingSelectConfigWidget.cpp:36
 #, kde-format
 msgid "Ask before each transfer"
-msgstr ""
+msgstr "在每次传输前都询问"
 
 #: TrayIcon.cpp:153 widgets/VolumeDial.cpp:303 widgets/VolumeDial.cpp:342
 #, kde-format
@@ -14821,7 +14821,7 @@ msgstr "%1%"
 #: TrayIcon.cpp:159
 #, kde-format
 msgid "<i>Volume: %1</i>"
-msgstr ""
+msgstr "<i>音量：%1</i>"
 
 #: TrayIcon.cpp:165
 #, kde-format
@@ -14836,12 +14836,12 @@ msgstr "评分：%1"
 #: TrayIcon.cpp:189
 #, kde-format
 msgid "Play count: %1"
-msgstr ""
+msgstr "播放次数：%1"
 
 #: TrayIcon.cpp:193
 #, kde-format
 msgid "Last played: %1"
-msgstr ""
+msgstr "上次播放：%1"
 
 #: widgets/AnalyzerWidget.cpp:35
 #, kde-format
@@ -14851,7 +14851,7 @@ msgstr ""
 #: widgets/AnalyzerWidget.cpp:69
 #, kde-format
 msgid "&Visualizations"
-msgstr ""
+msgstr "视觉效果 (&V)"
 
 #: widgets/BookmarkPopup.cpp:82 widgets/BookmarkPopup.cpp:110
 #, kde-format
@@ -14866,7 +14866,7 @@ msgstr ""
 #: widgets/BreadcrumbItemButton.cpp:257
 #, kde-format
 msgid "Amarok Bookmarks"
-msgstr ""
+msgstr "Amarok 书签"
 
 #: widgets/BreadcrumbItemButton.cpp:276
 #, kde-format
@@ -14886,37 +14886,37 @@ msgstr "预设："
 #: widgets/FilenameLayoutWidget.cpp:88
 #, kde-format
 msgid "A list of selectable filename scheme/format presets."
-msgstr ""
+msgstr "可选的文件名方案或格式的预设列表。"
 
 #: widgets/FilenameLayoutWidget.cpp:92
 #, kde-format
 msgid "Add preset"
-msgstr ""
+msgstr "添加预设"
 
 #: widgets/FilenameLayoutWidget.cpp:93
 #, kde-format
 msgid "Saves the current scheme/format as new preset."
-msgstr ""
+msgstr "将当前方案或格式保存为新预设"
 
 #: widgets/FilenameLayoutWidget.cpp:96
 #, kde-format
 msgid "Update preset"
-msgstr ""
+msgstr "更新预设"
 
 #: widgets/FilenameLayoutWidget.cpp:97
 #, kde-format
 msgid "Updates the preset with the current scheme/format."
-msgstr ""
+msgstr "按当前方案或格式更新预设。"
 
 #: widgets/FilenameLayoutWidget.cpp:100
 #, kde-format
 msgid "Remove preset"
-msgstr ""
+msgstr "删除预设"
 
 #: widgets/FilenameLayoutWidget.cpp:101
 #, kde-format
 msgid "Removes the currently selected preset."
-msgstr ""
+msgstr "删除所选的预设。"
 
 #: widgets/FilenameLayoutWidget.cpp:198
 #, kde-format
@@ -14952,12 +14952,12 @@ msgstr "&高级..."
 #: widgets/FilenameLayoutWidget.cpp:434
 #, kde-format
 msgid "New Preset"
-msgstr ""
+msgstr "新预设"
 
 #: widgets/FilenameLayoutWidget.cpp:434
 #, kde-format
 msgid "Preset Name"
-msgstr ""
+msgstr "预设名称"
 
 #: widgets/MetaQueryWidget.cpp:132
 #, kde-format
@@ -15058,13 +15058,13 @@ msgstr "介于"
 #, kde-format
 msgctxt "The date lies before the given time interval"
 msgid "older than"
-msgstr ""
+msgstr "早于"
 
 #: widgets/MetaQueryWidget.cpp:1007
 #, kde-format
 msgctxt "The date lies after the given time interval"
 msgid "newer than"
-msgstr ""
+msgstr "晚于"
 
 #: widgets/MetaQueryWidget.cpp:1023
 #, kde-format
@@ -15075,18 +15075,19 @@ msgstr "介于"
 #: widgets/Osd.cpp:188
 #, kde-format
 msgid "Rating changed"
-msgstr ""
+msgstr "评分已更改"
 
 #: widgets/Osd.cpp:263
 #, kde-format
 msgid "Volume: 100% (muted)"
-msgstr ""
+msgstr "音量：100% (已静音)"
 
 #: widgets/Osd.cpp:511
 #, kde-format
 msgid "On-Screen-Display preview\n"
 "Drag to reposition"
-msgstr ""
+msgstr "悬浮窗预览\n"
+"拖拽可移动位置"
 
 #: widgets/Osd.cpp:759
 #, kde-format
@@ -15122,12 +15123,12 @@ msgstr ""
 #: widgets/ProgressWidget.cpp:120
 #, kde-format
 msgid "The amount of time elapsed in current track"
-msgstr ""
+msgstr "当前歌曲已播放的时间"
 
 #: widgets/ProgressWidget.cpp:121
 #, kde-format
 msgid "The amount of time remaining in current track"
-msgstr ""
+msgstr "当前歌曲所剩的时间"
 
 #: widgets/SearchWidget.cpp:51
 #, kde-format
@@ -15203,17 +15204,17 @@ msgstr ""
 #: widgets/TrackSelectWidget.cpp:91
 #, kde-format
 msgid "Track: %1"
-msgstr ""
+msgstr "歌曲：%1"
 
 #: widgets/TrackSelectWidget.cpp:93
 #, kde-format
 msgid "Album: %1"
-msgstr ""
+msgstr "专辑：%1"
 
 #: widgets/TrackSelectWidget.cpp:95
 #, kde-format
 msgid "Artist: %1"
-msgstr ""
+msgstr "艺人：%1"
 
 #: widgets/TrackSelectWidget.cpp:99
 #, kde-format
