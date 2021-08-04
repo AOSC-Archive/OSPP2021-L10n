@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "POT-Creation-Date: 2020-12-08 02:27+0100\n"
-"PO-Revision-Date: 2021-07-24 14:51\n"
+"PO-Revision-Date: 2021-08-04 12:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Amarok"
 #. (itstool) path: component/summary
 #: org.kde.amarok.appdata.xml:6
 msgid "A powerful music player that lets you rediscover your music"
-msgstr "一个强大到让您重新发现音乐之美的播放器"
+msgstr "一款强大到让您重新发现音乐之美的播放器"
 
 #. (itstool) path: description/p
 #: org.kde.amarok.appdata.xml:8
@@ -39,7 +39,7 @@ msgstr "功能："
 #. (itstool) path: ul/li
 #: org.kde.amarok.appdata.xml:11
 msgid "Dynamic playlists matching different criteria"
-msgstr ""
+msgstr "可匹配不同条件的动态播放列表"
 
 #. (itstool) path: ul/li
 #: org.kde.amarok.appdata.xml:12
