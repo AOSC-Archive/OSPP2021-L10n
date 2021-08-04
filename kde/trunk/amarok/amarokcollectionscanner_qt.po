@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2021-07-24 15:19\n"
+"PO-Revision-Date: 2021-08-04 12:37\n"
 
 #: utilities/collectionscanner/CollectionScanner.cpp:116
 #: utilities/collectionscanner/CollectionScanner.cpp:139
@@ -60,7 +60,7 @@ msgid "Amarok Collection Scanner\n"
 "    </directory>\n"
 "   </scanner>\n"
 "                          You can also use a previous scan result for that.\n"
-msgstr "Amarok 音乐集扫描器\n"
+msgstr "Amarok 收藏扫描器\n"
 "扫描目录并将结果输出为 XML 文件。\n"
 "更多详情请参阅 http://community.kde.org/Amarok/Development/BatchMode\n"
 "用法：amarokcollectionscanner [选项] <文件夹>\n"
