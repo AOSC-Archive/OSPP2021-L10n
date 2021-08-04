@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-04 05:19\n"
+"PO-Revision-Date: 2021-08-04 12:04\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -84,7 +84,7 @@ msgstr "许可协议：%1"
 #: aboutdialog/ExtendedAboutDialog.cpp:203
 #, kde-format
 msgid "&About"
-msgstr "关于(&A)"
+msgstr "关于 (&A)"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:220
 #, kde-format
@@ -105,12 +105,12 @@ msgstr "请将错误报告给 <a href=\"mailto:%1\">%2</a>。\n"
 #: aboutdialog/ExtendedAboutDialog.cpp:264
 #, kde-format
 msgid "A&uthor"
-msgstr "作者(&U)"
+msgstr "作者 (&U)"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:264
 #, kde-format
 msgid "A&uthors"
-msgstr "作者(&U)"
+msgstr "作者 (&U)"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:278
 #, kde-format
@@ -120,7 +120,7 @@ msgstr "从 openDesktop.org 获取更多信息并详细了解贡献者"
 #: aboutdialog/ExtendedAboutDialog.cpp:294
 #, kde-format
 msgid "&Contributors"
-msgstr "&贡献者"
+msgstr "贡献者 (&C)"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:307
 #, kde-format
@@ -140,7 +140,7 @@ msgstr "捐赠者 (&D)"
 #: aboutdialog/ExtendedAboutDialog.cpp:365
 #, kde-format
 msgid "T&ranslation"
-msgstr "翻译(&R)"
+msgstr "翻译 (&R)"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:390
 #, kde-format
@@ -155,7 +155,7 @@ msgstr "网络错误"
 #: aboutdialog/OcsPersonItem.cpp:95
 #, kde-format
 msgid "Email contributor"
-msgstr "给贡献者写信"
+msgstr "发送邮件给贡献者"
 
 #: aboutdialog/OcsPersonItem.cpp:103 aboutdialog/OcsPersonItem.cpp:274
 #, kde-format
@@ -275,7 +275,7 @@ msgstr "访问此贡献者在 StackOverflow 上的个人资料"
 #: services/ampache/NewServerWidget.ui:17
 #, kde-format
 msgid "Name"
-msgstr "名称"
+msgstr "名字"
 
 #: ActionClasses.cpp:88
 #, kde-format
@@ -285,7 +285,7 @@ msgstr "Amarok 菜单"
 #: ActionClasses.cpp:179
 #, kde-format
 msgid "Play/Pause"
-msgstr "播放/暂停"
+msgstr "播放／暂停"
 
 #: ActionClasses.cpp:316
 #, kde-format
@@ -301,18 +301,18 @@ msgstr "回放增益模式 (&R)"
 #, kde-format
 msgctxt "Replay Gain state, as in, disabled"
 msgid "&Off"
-msgstr "关闭(&O)"
+msgstr "关闭 (&O)"
 
 #: ActionClasses.cpp:336
 #, kde-format
 msgctxt "Item, as in, music"
 msgid "&Track"
-msgstr "&Track"
+msgstr "歌曲 (&T)"
 
 #: ActionClasses.cpp:337
 #, kde-format
 msgid "&Album"
-msgstr "相册(&A)"
+msgstr "专辑 (&A)"
 
 #: ActionClasses.cpp:357
 #, kde-format
@@ -337,17 +337,17 @@ msgstr "停止"
 #: ActionClasses.cpp:472
 #, kde-format
 msgid "Stop after current Track"
-msgstr "在当前曲目后停止"
+msgstr "播完当前歌曲后停止"
 
 #: ActionClasses.cpp:489
 #, kde-format
 msgid "Stop after current track: Off"
-msgstr "在当前曲目后停止：关"
+msgstr "播完当前歌曲后停止：关"
 
 #: ActionClasses.cpp:494
 #, kde-format
 msgid "Stop after current track: On"
-msgstr "在当前曲目后停止：开"
+msgstr "播完当前歌曲后停止：开"
 
 #: ActionClasses.cpp:498 EngineController.cpp:1331 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:669
@@ -450,13 +450,13 @@ msgstr "播放列表内，排在播放中的歌曲之前的歌曲数。"
 #: amarokconfig.kcfg:63
 #, kde-format
 msgid "Upcoming tracks count."
-msgstr "即将播放曲目计数。"
+msgstr "即将播放的歌曲数。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:64
 #, kde-format
 msgid "Number of tracks to load into the playlist after the active track."
-msgstr "添加到播放列表中的那些排在活动曲目后的曲目数量。"
+msgstr "播放完当前歌曲后，要加载到播放列表的歌曲的数量。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:68
@@ -468,7 +468,7 @@ msgstr "是否在系统托盘中显示图标"
 #: amarokconfig.kcfg:69
 #, kde-format
 msgid "Enable/Disable tray icon for Amarok."
-msgstr "启用/禁用 Amarok 的托盘图标。"
+msgstr "启用或禁用 Amarok 的托盘图标。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:73
@@ -480,7 +480,7 @@ msgstr "是否隐藏信息视图。"
 #: amarokconfig.kcfg:74
 #, kde-format
 msgid "Enable/Disable context view in Amarok."
-msgstr "在 Amarok 中启用/禁用信息视图。"
+msgstr "启用或禁用 Amarok 中的信息视图。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:78
@@ -498,25 +498,25 @@ msgstr "播放列表的撤消级别的数量。"
 #: amarokconfig.kcfg:83
 #, kde-format
 msgid "Whether playlists store relative path"
-msgstr "播放列表是否要存储为相对路径"
+msgstr "是否在播放列表内储存相对路径"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:84
 #, kde-format
 msgid "If set, Amarok's manually saved playlists will contain a relative path to each track, not an absolute path."
-msgstr "如果设定此项，Amarok 手动保存的播放列表将包含每首曲目的相对路径，而不是绝对路径。"
+msgstr "启用后，Amarok 的手动保存播放列表将包含每首歌曲的相对路径，而非绝对路径。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:88
 #, kde-format
 msgid "Filename of the external web browser to be invoked by Amarok."
-msgstr "Amarok 所调用的外部网络浏览器的文件名。"
+msgstr "Amarok 要调用的外部网页浏览器的文件名。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:92
 #, kde-format
 msgid "Whether to automatically attempt to fetch cover art as needed"
-msgstr "是否在需要时自动尝试获取封面图像"
+msgstr "是否根据需要自动尝试获取封面图片"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:96
@@ -528,13 +528,13 @@ msgstr "是否在浏览器面板中显示背景图片"
 #: amarokconfig.kcfg:100
 #, kde-format
 msgid "Automatically scroll the playlist to make the currently playing song visible"
-msgstr "自动滚动播放列表使当前播放曲目可见"
+msgstr "自动滚动播放列表使当前播放的歌曲始终可见"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:104
 #, kde-format
 msgid "Show Album art in the Collection Browser"
-msgstr "在收藏浏览器中显示专辑图像"
+msgstr "在收藏浏览器中显示专辑图片"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:108
@@ -546,164 +546,164 @@ msgstr "显示信息视图"
 #: amarokconfig.kcfg:112
 #, kde-format
 msgid "Play the first run jingle"
-msgstr "播放首次运行的铃声"
+msgstr "首次运行时播放铃声"
 
 #. i18n: ectx: label, entry, group (General Options)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateAppletCollapse)
 #: amarokconfig.kcfg:116 configdialog/dialogs/GeneralConfig.ui:61
 #, kde-format
 msgid "Enable context applets collapse animations"
-msgstr "启用信息小部件折叠动画"
+msgstr "启用信息部件折叠动画"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:117
 #, kde-format
 msgid "If set, context applets will collapse using animations."
-msgstr "如果设置此项，信息小部件折叠时将会使用动画。"
+msgstr "启用后，信息部件折叠时将显示动画。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:124
 #, kde-format
 msgid "Whether organize files will overwrite existing files."
-msgstr "组织文件时是否覆盖已存在的文件。"
+msgstr "整理文件时是否覆盖已有文件。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:125
 #, kde-format
 msgid "If set, Organize files will overwrite any existing destination."
-msgstr "如果设定此项，组织文件时将覆盖所有已存在的目标。"
+msgstr "启用后，整理文件时将覆盖所有已存在的目标。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:129
 #, kde-format
 msgid "Whether organize files will move The in artist names to the end."
-msgstr "组织文件时是否应该移动艺人名字前的“The”至末尾。"
+msgstr "整理文件时是否将艺人名字前的“The”移至末尾。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:130
 #, kde-format
 msgid "If set, Organize files will move The in artist names to the end as in \"Beatles, The\"."
-msgstr "如果设定此项，组织文件时将会将艺人名字前的“The”移动至末尾（如“Beatles, The”）。"
+msgstr "启用后，整理文件时会将艺人名字前的“The”移动至末尾 (如“Beatles, The”)。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:134
 #, kde-format
 msgid "Whether organize files will replace spaces in filenames with underscores."
-msgstr "组织文件时是否用下划线替代文件名中的空格。"
+msgstr "整理文件时是否使用下划线代替文件名中的空格。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:135
 #, kde-format
 msgid "If set, Organize files will replace spaces in filenames with underscores."
-msgstr "如果设定此项，组织文件时将会使用下划线替代文件名中的空格。"
+msgstr "启用后，整理文件时将会使用下划线代替文件名中的空格。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:139
 #, kde-format
 msgid "Whether organize files will use cover art as folder icons."
-msgstr "组织文件时是否采用封面艺照作为文件夹图标。"
+msgstr "整理文件时是否使用封面图片作为文件夹图标。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:140
 #, kde-format
 msgid "If set, Organize files will use cover art as folder icons."
-msgstr "如果设定此项，组织文件时将会采用封面艺照作为文件夹图标。"
+msgstr "启用后，整理文件时将会使用封面图片作为文件夹图标。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:144
 #, kde-format
 msgid "Collection folder path destination for Organize files."
-msgstr "组织文件的收藏文件夹路径目标。"
+msgstr "整理文件所使用的收藏文件夹目标路径。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:145
 #, kde-format
 msgid "The path of the collection folder destination for Organize files."
-msgstr "组织文件的收藏文件夹目标路径。"
+msgstr "整理文件所使用的收藏文件夹目标路径。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:149
 #, kde-format
 msgid "Whether organize files will rename files in a manner compatible with vfat filesystems."
-msgstr "组织文件时是否将文件名重命名为与 vfat 文件系统行为兼容的文件名。"
+msgstr "整理文件时是否将文件名重命名为与 vfat 文件系统兼容的格式。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:150
 #, kde-format
 msgid "If set, Organize files will replace characters that are not compatible with vfat filesystems (such as ':', '*' and '?')."
-msgstr "如果设定此项，组织文件时将替换与 vfat 文件系统不兼容的字符(如 “:”、“*” 以及 “?”)。"
+msgstr "启用后，整理文件时将替换与 vfat 文件系统不兼容的字符 (如“:”、“*”以及“?”)。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:154
 #, kde-format
 msgid "Whether organize files will rename files such that they only contain 7-bit ASCII characters."
-msgstr "组织文件时是否重命名文件以保证其只包含 7 位 ASCII 字符。"
+msgstr "整理文件时是否将文件重命名为只包含 7 位 ASCII 字符的名字。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:155
 #, kde-format
 msgid "If set, Organize files will replace characters that are not compatible with the 7-bit ASCII character set."
-msgstr "如果设定此项，组织文件时将替换与 7 位 ASCII 字符集不兼容的字符。"
+msgstr "启用后，整理文件时将替换掉与 7 位 ASCII 字符集不兼容的字符。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:159
 #, kde-format
 msgid "Whether organize files will use a custom file naming scheme."
-msgstr "组织文件时是否使用自定义的文件命名方案。"
+msgstr "整理文件时是否使用自定义的文件命名结构。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:160
 #, kde-format
 msgid "If set, Organize files will rename files according to a custom format string."
-msgstr "如果设定此项，组织文件时将根据自定义格式字符串重命名文件。"
+msgstr "启用后，整理文件时将根据自定义格式的字符串重命名文件。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:164
 #, kde-format
 msgid "Format string for Organize files, if a custom naming scheme is used."
-msgstr "用于组织文件的格式字符串，如果使用自定义命名方案。"
+msgstr "启用自定义命名结构后，用于整理文件的格式字符串。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:165
 #, kde-format
 msgid "If the custom filename scheme is enabled, then Organize files will rename files according to this format string."
-msgstr "如果启用自定义文件命名方案，组织文件时将根据此格式字符串重命名文件。"
+msgstr "如果启用自定义文件命名结构，整理文件时将根据此格式字符串重命名文件。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:169
 #, kde-format
 msgid "Regular expression that is to be replaced."
-msgstr "要替换的正则表达式。"
+msgstr "用于替换的正则表达式。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:170
 #, kde-format
 msgid "Organize files will replace substrings matching this regular expression."
-msgstr "组织文件时将替换匹配此正则表达式的子字符串。"
+msgstr "整理文件时将替换掉与此正则表达式匹配的子字符串。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:174
 #, kde-format
 msgid "Replacing string."
-msgstr "替换字符串中。"
+msgstr "正在替换字符串。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:175
 #, kde-format
 msgid "Organize files will replace matching substrings with this string."
-msgstr "组织文件时将用此字符串替换匹配的子字符串。"
+msgstr "整理文件时将用此字符串来匹配并替换子字符串。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:179
 #, kde-format
 msgid "Basic or Advanced Mode"
-msgstr "基本或高级模式"
+msgstr "基础或高级模式"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:180
 #, kde-format
 msgid "In basic mode graphical drag/droppable tokens are used to create a filename scheme, in advanced mode the images are replaced with text."
-msgstr "在基本模式下，可拖放图标标记被用于创建一个文件名模式，在高级模式下图像被文本代替。"
+msgstr "在基础模式下，您可以可视化地拖放指代词来创建文件名结构；在高级模式下，这些图片会被文字代替。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:184
@@ -715,7 +715,7 @@ msgstr "格式预设："
 #: amarokconfig.kcfg:185
 #, kde-format
 msgid "A list of preset formats (token schemas)."
-msgstr "列出格式预设（标记模式）。"
+msgstr "列出格式预设 (指代词结构)。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:192
@@ -727,7 +727,7 @@ msgstr "主音量"
 #: amarokconfig.kcfg:193
 #, kde-format
 msgid "The Amarok master volume, a value between 0 and 100."
-msgstr "Amarok 主音量，介于 0 和 100 之间。"
+msgstr "Amarok 的主音量，此值应介于 0 和 100 之间。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:199
@@ -739,13 +739,13 @@ msgstr "静音状态"
 #: amarokconfig.kcfg:200
 #, kde-format
 msgid "Mute/Unmute sound."
-msgstr "静音/取消静音。"
+msgstr "静音／取消静音。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:204
 #, kde-format
 msgid "Whether to fade out tracks when pressing stop."
-msgstr "是否在按下停止时淡出曲目。"
+msgstr "是否在按下停止时淡出歌曲。"
 
 #. i18n: ectx: whatsthis, entry, group (Playback)
 #: amarokconfig.kcfg:205 amarokconfig.kcfg:210
@@ -1471,7 +1471,7 @@ msgstr "播放列表自动生成器的质量系数"
 #: amarokconfig.kcfg:626
 #, kde-format
 msgid "A value between 0 and 10 that controls whether the Automated Playlist Generator tries to optimize for speed (0) or accuracy (10)."
-msgstr "一个范围 0 至 10 之间的数，决定播放列表自动生成器侧重于优化速度 (0) 还是准确率 (10)。"
+msgstr "一个范围 0 至 10 之间的数，决定播放列表自动生成器侧重于优化速度 (0) 还是准确度 (10)。"
 
 #: amarokurls/AmarokUrlHandler.cpp:224
 #, kde-format
@@ -1523,13 +1523,13 @@ msgstr "添加位置标记"
 #: amarokurls/BookmarkModel.cpp:86 browsers/playlistbrowser/PlaylistBrowserModel.cpp:398
 #, kde-format
 msgid "Group"
-msgstr "群组"
+msgstr "分组"
 
 #: amarokurls/BookmarkModel.cpp:259 browsers/playlistbrowser/PodcastModel.cpp:300
 #: playlist/PlaylistModel.cpp:937
 #, kde-format
 msgid "Type"
-msgstr "文件系统"
+msgstr "类型"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
 #: amarokurls/BookmarkModel.cpp:260 network/NetworkRequests.ui:46
@@ -1557,18 +1557,18 @@ msgstr "新建组"
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:232
 #, kde-format
 msgid "none"
-msgstr "无可用密钥"
+msgstr "无"
 
 #: amarokurls/BookmarkTreeView.cpp:109
 #, kde-format
 msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
-msgstr "装入(&L)"
+msgstr "加载 (&L)"
 
 #: amarokurls/BookmarkTreeView.cpp:115 browsers/filebrowser/FileView.cpp:412
 #, kde-format
 msgid "&Delete"
-msgstr "删除(&D)"
+msgstr "删除 (&D)"
 
 #: amarokurls/BookmarkTreeView.cpp:122
 #, kde-format
@@ -1605,7 +1605,7 @@ msgstr "将信息视图中的部件加入书签"
 #, kde-format
 msgctxt "A type of command that affects the context view"
 msgid "Context"
-msgstr "上下文"
+msgstr "信息视图"
 
 #: amarokurls/NavigationUrlGenerator.cpp:137
 #: MainWindow.cpp:280
@@ -1626,7 +1626,7 @@ msgstr "%2 中的专辑“%1”"
 #: amarokurls/NavigationUrlGenerator.cpp:193
 #, kde-format
 msgid "Album \"%1\""
-msgstr "相册“%1”"
+msgstr "专辑“%1”"
 
 #: amarokurls/NavigationUrlGenerator.cpp:238
 #, kde-format
@@ -1659,7 +1659,7 @@ msgstr "将歌曲时间位置加入书签"
 #, kde-format
 msgctxt "A type of command that starts playing at a specific position in a track"
 msgid "Play"
-msgstr "玩游戏"
+msgstr "播放"
 
 #: App.cpp:361
 #, kde-format
@@ -1831,7 +1831,7 @@ msgstr "本月内添加"
 #, kde-format
 msgctxt "separator between collection browser level categories, i.e. the ' / ' in 'Artist / Album'"
 msgid " / "
-msgstr " / "
+msgstr "／"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:211
 #, kde-format
@@ -1881,7 +1881,7 @@ msgstr "排序选项"
 #, kde-format
 msgctxt "No labels are assigned to the given item are any of its subitems"
 msgid "No Labels"
-msgstr "无标签"
+msgstr "无标记"
 
 #: browsers/CollectionTreeItem.cpp:149
 #, kde-format
@@ -1892,7 +1892,7 @@ msgstr "正在统计..."
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
-msgstr[0] "%1 个轨道"
+msgstr[0] "%1 首歌曲"
 
 #: browsers/CollectionTreeItemModelBase.cpp:278
 #: browsers/CollectionTreeItemModelBase.cpp:369
@@ -1923,7 +1923,7 @@ msgstr "群星"
 #: services/magnatune/MagnatuneStore.cpp:220
 #, kde-format
 msgid "Album"
-msgstr "相册"
+msgstr "专辑"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1099
 #, kde-format
@@ -1933,7 +1933,7 @@ msgstr "年份——专辑"
 #: browsers/CollectionTreeItemModelBase.cpp:1101
 #, kde-format
 msgid "Track Artist"
-msgstr "曲目艺人"
+msgstr "歌曲艺人"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: browsers/CollectionTreeItemModelBase.cpp:1103
@@ -1956,7 +1956,7 @@ msgstr "作曲家"
 #: playlist/ProgressiveSearchWidget.cpp:94
 #, kde-format
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1109
 #: musicbrainz/MusicBrainzTagsModel.cpp:40
@@ -1968,13 +1968,13 @@ msgstr "年份"
 #: browsers/CollectionTreeItemModelBase.cpp:1111
 #, kde-format
 msgid "Label"
-msgstr "标签"
+msgstr "标记"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1113
 #: dialogs/transferdialog.cpp:102 playlist/navigators/NavigatorConfigAction.cpp:80
 #, kde-format
 msgid "None"
-msgstr "未分组"
+msgstr "无"
 
 #: browsers/CollectionTreeView.cpp:362
 #, kde-format
@@ -2053,7 +2053,7 @@ msgstr "文件浏览器可让您浏览系统内的、包含非本地收藏歌曲
 #: browsers/filebrowser/FileView.cpp:401
 #, kde-format
 msgid "&Move to Trash"
-msgstr "移入回收站(&M)"
+msgstr "移入回收站 (&M)"
 
 #: browsers/filebrowser/FileView.cpp:569 core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, kde-format
@@ -2082,7 +2082,7 @@ msgstr[0] "您确定要将这 %1 条项目移至回收站吗？"
 #: browsers/InfoProxy.cpp:166
 #, kde-format
 msgid "Home"
-msgstr "Home"
+msgstr "主页"
 
 #: browsers/playlistbrowser/APGCategory.cpp:39
 #, kde-format
@@ -2138,7 +2138,7 @@ msgstr "生成器优化选项"
 #: browsers/playlistbrowser/APGCategory.cpp:111
 #, kde-format
 msgid "Speed"
-msgstr "速率"
+msgstr "速度"
 
 #: browsers/playlistbrowser/APGCategory.cpp:116
 #, kde-format
@@ -2155,7 +2155,7 @@ msgstr "编辑偏好"
 #, kde-format
 msgctxt "Bias selection label in bias view."
 msgid "Match Type:"
-msgstr "匹配类型:"
+msgstr "匹配类型："
 
 #: browsers/playlistbrowser/DynamicBiasDialog.cpp:129
 #, kde-format
@@ -2188,7 +2188,7 @@ msgstr "动态列表可将 Amarok 变为您的私人 DJ，根据所选的一系�
 #: browsers/playlistbrowser/DynamicCategory.cpp:65
 #, kde-format
 msgid "Previous:"
-msgstr "上一曲："
+msgstr "留在列表中的歌曲数："
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:70
 #, kde-format
@@ -2209,7 +2209,7 @@ msgstr "将被添加到播放列表中的待播歌曲数量。"
 #, kde-format
 msgctxt "Turn dynamic mode on"
 msgid "On"
-msgstr "自动调整"
+msgstr "开启"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:106
 #, kde-format
@@ -2219,17 +2219,17 @@ msgstr "开启动态模式。"
 #: browsers/playlistbrowser/DynamicCategory.cpp:110
 #, kde-format
 msgid "Duplicates"
-msgstr "重复的"
+msgstr "允许重复"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:114
 #, kde-format
 msgid "Allow duplicate songs in result"
-msgstr "运行结果中出现重复音乐"
+msgstr "允许结果中出现重复音乐"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:118
 #, kde-format
 msgid "New"
-msgstr "新"
+msgstr "新建"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:120
 #, kde-format
@@ -2358,7 +2358,7 @@ msgstr[0] "%1 份播放列表"
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:399
 #, kde-format
 msgid "Source"
-msgstr "原因"
+msgstr "来源"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:65
 #, kde-format
@@ -2369,29 +2369,29 @@ msgstr "创建一份空的播放列表"
 #, kde-format
 msgctxt "toggle the \"new\" status  of this podcast episode"
 msgid "&New"
-msgstr "新游戏(&N)"
+msgstr "标记为新单集 (&N)"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:85
 #, kde-format
 msgid "&Rename..."
-msgstr "&重命名..."
+msgstr "重命名 (&R)..."
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:92
 #, kde-format
 msgid "&Delete..."
-msgstr "删除(&D)..."
+msgstr "删除 (&D)..."
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:106
 #, kde-format
 msgid "&Export As..."
-msgstr "&导出为..."
+msgstr "导出为 (&E)..."
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:372
 #, kde-format
 msgctxt "First part of 'Remove %1 From %2'"
 msgid "a Track"
 msgid_plural "%1 Tracks"
-msgstr[0] "%1 个轨道"
+msgstr[0] "%1 首歌曲"
 
 #: browsers/playlistbrowser/PlaylistBrowserView.cpp:372
 #, kde-format
@@ -2439,23 +2439,23 @@ msgstr "另存为"
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:37
 #, kde-format
 msgid "&Rename Folder..."
-msgstr "&重命名文件夹..."
+msgstr "重命名文件夹 (&R)..."
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:42
 #, kde-format
 msgid "&Delete Folder"
-msgstr "删除文件夹(&D)"
+msgstr "删除文件夹 (&D)"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:320
 #, kde-format
 msgid "New name"
-msgstr "新名称"
+msgstr "重命名"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:322
 #, kde-format
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
-msgstr "为文件夹输入新名称："
+msgstr "重新命名文件夹："
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:339
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:256
@@ -2493,7 +2493,7 @@ msgstr "添加播客 (&A)"
 #: browsers/playlistbrowser/PodcastCategory.cpp:103
 #, kde-format
 msgid "&Update All"
-msgstr "&全部更新"
+msgstr "全部更新 (&U)"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:111
 #: browsers/playlistbrowser/PodcastCategory.cpp:114
@@ -2504,18 +2504,18 @@ msgstr "导入 OPML 文件"
 #: browsers/playlistbrowser/PodcastCategory.cpp:168
 #, kde-format
 msgid "By"
-msgstr "按"
+msgstr "作者"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:207
 #, kde-format
 msgctxt "Podcast published on date"
 msgid "On"
-msgstr "自动调整"
+msgstr "作于"
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:225
 #, kde-format
 msgid "File Size:"
-msgstr "文件大小:"
+msgstr "文件大小："
 
 #: browsers/playlistbrowser/PodcastCategory.cpp:237
 #, kde-format
@@ -2525,7 +2525,7 @@ msgstr "订阅日期："
 #: browsers/playlistbrowser/PodcastCategory.cpp:245
 #, kde-format
 msgid "Keywords:"
-msgstr "关键字："
+msgstr "关键词："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, addPodcastButton)
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:24
@@ -2551,7 +2551,7 @@ msgstr "刷新全部播客"
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:76
 #, kde-format
 msgid "Configure Podcasts..."
-msgstr "配置 Podcasts..."
+msgstr "配置播客..."
 
 #. i18n: ectx: property (text), widget (QToolButton, podcastsIntervalButton)
 #: browsers/playlistbrowser/PodcastCategoryBase.ui:99
@@ -2565,7 +2565,7 @@ msgstr "扫描间隔..."
 msgctxt "number of podcasts from one source"
 msgid "One Channel"
 msgid_plural "%1 channels"
-msgstr[0] "%1 个声道"
+msgstr[0] "%1 个频道"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:301
@@ -2574,13 +2574,13 @@ msgstr[0] "%1 个声道"
 #: playlist/PlaylistModel.cpp:925
 #, kde-format
 msgid "Title"
-msgstr "名称"
+msgstr "标题"
 
 #: browsers/playlistbrowser/PodcastModel.cpp:302
 #: dialogs/TagDialog.cpp:512
 #, kde-format
 msgid "Summary"
-msgstr "总计"
+msgstr "概要"
 
 #: browsers/playlistbrowser/PodcastModel.cpp:322
 #, kde-format
@@ -2647,7 +2647,7 @@ msgstr "配置元数据处理"
 #: configdialog/ConfigDialog.cpp:62
 #, kde-format
 msgid "Playback"
-msgstr "音频播放"
+msgstr "播放"
 
 #: configdialog/ConfigDialog.cpp:62
 #, kde-format
@@ -2792,7 +2792,7 @@ msgstr "连接设置"
 #: configdialog/dialogs/DatabaseConfig.ui:38
 #, kde-format
 msgid "&Server:"
-msgstr "服务器(&S)："
+msgstr "服务器 (&S)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Host)
 #: configdialog/dialogs/DatabaseConfig.ui:55
@@ -2819,7 +2819,7 @@ msgstr "输入访问服务器时使用的端口号。默认端口是 3306。\n"
 #: services/lastfm/LastFmConfigWidget.ui:54
 #, kde-format
 msgid "&Username:"
-msgstr "用户名(&U)："
+msgstr "用户名 (&U)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Password)
 #: configdialog/dialogs/DatabaseConfig.ui:118
@@ -2834,7 +2834,7 @@ msgstr "输入默认用户的密码。\n"
 #: services/lastfm/LastFmConfigWidget.ui:67
 #, kde-format
 msgid "&Password:"
-msgstr "密码(&P)："
+msgstr "密码 (&P)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_User)
 #: configdialog/dialogs/DatabaseConfig.ui:151
@@ -2846,7 +2846,7 @@ msgstr "输入有数据库完整访问权限的用户名。\n"
 #: configdialog/dialogs/DatabaseConfig.ui:161
 #, kde-format
 msgid "&Database:"
-msgstr "&数据库:"
+msgstr "数据库 (&D)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Database)
 #: configdialog/dialogs/DatabaseConfig.ui:178
@@ -3011,25 +3011,25 @@ msgstr "默认 (系统颜色)"
 #: configdialog/dialogs/GeneralConfig.ui:146
 #, kde-format
 msgid "Angry"
-msgstr "愤怒"
+msgstr "狂暴"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: configdialog/dialogs/GeneralConfig.ui:151
 #, kde-format
 msgid "Frozen"
-msgstr "冻结"
+msgstr "冷淡"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: configdialog/dialogs/GeneralConfig.ui:156
 #, kde-format
 msgid "Happy"
-msgstr "开心"
+msgstr "欣喜"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #: configdialog/dialogs/GeneralConfig.ui:161
 #, kde-format
 msgid "Normal"
-msgstr "普通窗口"
+msgstr "平常"
 
 #: configdialog/dialogs/MetadataConfig.cpp:39
 #, kde-format
@@ -3179,7 +3179,7 @@ msgstr "统计数据同步"
 #: configdialog/dialogs/MetadataConfig.ui:103
 #, kde-format
 msgid "<b>Check collections to keep them synchronized.</b> This includes scrobbling of tracks played on iPods if you have Last.fm plugin configured"
-msgstr "<b>选中需保持同步的收藏。</b>如果您已配置了 Last.fm，此处还会包含您在 iPod 上的已播歌曲的记录 (scrobbling)"
+msgstr "<b>选中需保持同步的收藏。</b>如果您已配置了 Last.fm，此处还会包含您在 iPod 上的已播歌曲的记录"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_forgetTargetsButton)
 #: configdialog/dialogs/MetadataConfig.ui:128
@@ -3232,7 +3232,7 @@ msgstr "启用悬浮窗 (&O)"
 #: configdialog/dialogs/PlaybackConfig.ui:95
 #, kde-format
 msgid "&Duration:"
-msgstr "持续时间(&D)："
+msgstr "持续时间 (&D)："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_OsdDuration)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_OsdDuration)
@@ -3246,7 +3246,7 @@ msgstr "悬浮窗的显示时间 (毫秒)，此值应为 500 ms 到 10000 ms 之
 #: configdialog/dialogs/NotificationsConfig.ui:71
 #, kde-format
 msgid "Forever"
-msgstr "永远"
+msgstr "永久"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_FadeoutLength)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OsdDuration)
@@ -3254,7 +3254,7 @@ msgstr "永远"
 #: configdialog/dialogs/PlaybackConfig.ui:114
 #, kde-format
 msgid " ms"
-msgstr " 毫秒"
+msgstr " ms"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: configdialog/dialogs/NotificationsConfig.ui:93
@@ -3314,7 +3314,7 @@ msgstr "勾选后，在桌面系统支持时使用半透明显示。"
 #: configdialog/dialogs/NotificationsConfig.ui:214
 #, kde-format
 msgid "&Translucent"
-msgstr "&半透明"
+msgstr "半透明 (&T)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: configdialog/dialogs/NotificationsConfig.ui:226
@@ -3436,7 +3436,7 @@ msgstr "挂起时暂停播放 (&P)"
 #: configdialog/dialogs/PluginsConfig.cpp:44
 #, kde-format
 msgid "Collections"
-msgstr "集合"
+msgstr "收藏"
 
 #: configdialog/dialogs/PluginsConfig.cpp:47
 #, kde-format
@@ -3589,7 +3589,7 @@ msgstr "显示"
 #, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
-msgstr[0] "%1 个轨道"
+msgstr[0] "%1 首歌曲"
 
 #: context/applets/albums/plugin/AlbumsEngine.cpp:183
 #, kde-format
@@ -3660,7 +3660,7 @@ msgstr "播放次数"
 #: playlist/PlaylistModel.cpp:941
 #, kde-format
 msgid "Score"
-msgstr "评分"
+msgstr "分数"
 
 #: context/applets/currenttrack/package/contents/ui/StatsItem.qml:52
 #, kde-format
@@ -3671,7 +3671,7 @@ msgstr "上次播放"
 #: transcoding/TranscodingSelectConfigWidget.cpp:35
 #, kde-format
 msgid "Never"
-msgstr "从不显示"
+msgstr "从未播放过"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:64
 #, kde-format
@@ -3708,7 +3708,7 @@ msgstr "标记"
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:617
 #, kde-format
 msgid "Reload"
-msgstr "重新载入"
+msgstr "重新加载"
 
 #. i18n: ectx: property (title), widget (QGroupBox, settingsGroupBox)
 #: context/applets/labels/LabelsApplet.cpp:114
@@ -3773,7 +3773,7 @@ msgstr "匹配艺人的标签"
 #: context/applets/labels/labelsBlacklistSettings.ui:31
 #, kde-format
 msgid "Labels matching the title"
-msgstr "匹配曲名的标签"
+msgstr "匹配歌名的标签"
 
 #. i18n: ectx: property (text), widget (QCheckBox, matchAlbumCheckBox)
 #: context/applets/labels/labelsBlacklistSettings.ui:38
@@ -3881,7 +3881,7 @@ msgstr "替换已下载的标签"
 #: dialogs/OrganizeCollectionOptions.ui:178
 #, kde-format
 msgid "with"
-msgstr "使用"
+msgstr "替换为"
 
 #. i18n: ectx: property (text), widget (QPushButton, addPushButton)
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
@@ -3916,7 +3916,7 @@ msgstr "替换"
 #: playlistgenerator/PresetEditDialog.cpp:73
 #, kde-format
 msgid "Remove selected"
-msgstr "删除选中内容"
+msgstr "删除所选内容"
 
 #: context/applets/lyrics/package/contents/ui/ConfigDialog.qml:46
 #, kde-format
@@ -3979,7 +3979,7 @@ msgstr "建议："
 #: dialogs/TagGuessOptions.ui:101 services/opmldirectory/AddOpmlWidget.ui:78
 #, kde-format
 msgid "Title:"
-msgstr "标题："
+msgstr "歌名："
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: context/applets/lyrics/package/contents/ui/main.qml:125
@@ -4037,7 +4037,7 @@ msgstr "显示艺人简介"
 #: context/applets/similarartists/ArtistWidget.cpp:428
 #, kde-format
 msgid "No description available."
-msgstr "无可用描述。"
+msgstr "无相关描述。"
 
 #: context/applets/similarartists/ArtistWidget.cpp:444
 #, kde-format
@@ -4066,13 +4066,13 @@ msgstr "相似艺人"
 #: statsyncing/ui/MatchedTracksPage.cpp:138
 #, kde-format
 msgid "Back"
-msgstr "背面"
+msgstr "后退"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:84
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:611
 #, kde-format
 msgid "Forward"
-msgstr "转发"
+msgstr "前进"
 
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:91
 #, kde-format
@@ -4146,7 +4146,7 @@ msgstr "重新加载指法谱"
 #: context/applets/tabs/ReloadEditDialog.ui:61
 #, kde-format
 msgid "Reload tabs with the following title and artist"
-msgstr "按以下曲名和艺人重新加载指法谱"
+msgstr "按以下歌名和艺人重新加载指法谱"
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: context/applets/tabs/ReloadEditDialog.ui:73
@@ -4157,7 +4157,7 @@ msgstr "按以下曲名和艺人重新加载指法谱"
 #: services/lastfm/LastFmService.cpp:456 services/magnatune/MagnatuneStore.cpp:214
 #, kde-format
 msgid "Artist"
-msgstr "漫画师"
+msgstr "艺人"
 
 #: context/applets/tabs/TabsApplet.cpp:83
 #: context/applets/tabs/TabsApplet.cpp:133
@@ -4165,7 +4165,7 @@ msgstr "漫画师"
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Tabs"
-msgstr "制表符"
+msgstr "指法谱"
 
 #: context/applets/tabs/TabsApplet.cpp:99
 #, kde-format
@@ -4243,7 +4243,7 @@ msgstr "指法谱提供者："
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:129
 #, kde-format
 msgid "Upcoming Events"
-msgstr "近期事件"
+msgstr "临近的演出"
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:79
 #, kde-format
@@ -4334,7 +4334,7 @@ msgstr "本月"
 #: context/applets/upcomingevents/upcomingEventsSettings.ui:36
 #, kde-format
 msgid "This year"
-msgstr "本年度"
+msgstr "本年"
 
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:639
 #, kde-format
@@ -4379,12 +4379,12 @@ msgstr "<s>%1</s> (已取消)"
 #: context/applets/upcomingevents/upcomingEventsSettings.ui:44
 #, kde-format
 msgid "Show places as links"
-msgstr "将位置显示为链接"
+msgstr "用链接来展示地点"
 
 #: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:288
 #, kde-format
 msgid "Maximize"
-msgstr "最大化效果"
+msgstr "最大化"
 
 #: context/applets/upcomingevents/UpcomingEventsStackItem.cpp:454
 #, kde-format
@@ -4418,7 +4418,7 @@ msgstr "任意国家"
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:75
 #, kde-format
 msgid "Search Results:"
-msgstr "搜索结果:"
+msgstr "搜索结果："
 
 #. i18n: ectx: property (text), widget (QLabel, selectedVenuesLabel)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:104
@@ -4438,7 +4438,7 @@ msgstr "照片"
 #: core-impl/collections/umscollection/UmsConfiguration.ui:22
 #, kde-format
 msgid "Name:"
-msgstr "用户名："
+msgstr "名称："
 
 #. i18n: ectx: property (text), widget (QLabel, cityLabel)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:193
@@ -4454,7 +4454,7 @@ msgstr "城市："
 #: services/opmldirectory/AddOpmlWidget.ui:65
 #, kde-format
 msgid "URL:"
-msgstr "网址："
+msgstr "URL："
 
 #. i18n: ectx: property (text), widget (QLabel, websiteLabel)
 #: context/applets/upcomingevents/upcomingEventsVenueSettings.ui:230
@@ -4499,13 +4499,13 @@ msgstr "开场："
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Venue:"
-msgstr "场地:"
+msgstr "场地："
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:97
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Location:"
-msgstr "饱和度："
+msgstr "地点："
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:98
 #, kde-format
@@ -4517,7 +4517,7 @@ msgstr "日期："
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Attending:"
-msgstr "参加:"
+msgstr "参与人员："
 
 #: context/applets/upcomingevents/UpcomingEventsWidget.cpp:100
 #, kde-format
@@ -4559,7 +4559,7 @@ msgstr "后退"
 #: statsyncing/ui/ChooseProvidersPage.cpp:35
 #, kde-format
 msgid "Next"
-msgstr "下一个视图"
+msgstr "前进"
 
 #: context/applets/wikipedia/package/contents/ui/main.qml:85
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:641
@@ -4567,7 +4567,7 @@ msgstr "下一个视图"
 #: services/jamendo/JamendoInfoParser.cpp:109
 #, kde-format
 msgid "Track"
-msgstr "跟踪"
+msgstr "歌曲"
 
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:368
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:444
@@ -4659,7 +4659,7 @@ msgstr "配置部件..."
 #: context/ContextDock.cpp:27
 #, kde-format
 msgid "&Context"
-msgstr "上下文(&C)"
+msgstr "信息视图 (&C)"
 
 #: context/engines/labels/LabelsEngine.cpp:133
 #: context/engines/labels/LabelsEngine.cpp:195
@@ -4709,7 +4709,7 @@ msgstr "Aaron Seigo"
 #: context/tools/amarokpkg.cpp:88
 #, kde-format
 msgid "Original author"
-msgstr "最初作者"
+msgstr "原作者"
 
 #: context/tools/amarokpkg.cpp:90 main.cpp:170
 #, kde-format
@@ -4754,7 +4754,7 @@ msgstr "删除名为 <name> 的部件"
 #: context/tools/amarokpkg.cpp:118
 #, kde-format
 msgid "Absolute path to the package root. If not supplied, then the standard data directories for this KDE session will be searched instead."
-msgstr "软件包根目录的绝对路径。如果未提供，则转而搜索本次 KDE 会话的标准数据目录。"
+msgstr "软件包根目录的绝对路径。如果没有提供，则会搜索并使用本次 KDE 会话的标准数据目录。"
 
 #: context/tools/amarokpkg.cpp:176
 #, kde-format
@@ -4774,7 +4774,7 @@ msgstr "插件 %1 尚未安装。"
 #: context/tools/amarokpkg.cpp:188
 #, kde-format
 msgid "Successfully installed %1"
-msgstr "成功安装了 %1"
+msgstr "已成功安装 %1"
 
 #: context/tools/amarokpkg.cpp:191
 #, kde-format
@@ -4785,7 +4785,7 @@ msgstr "%1 安装失败。"
 #, kde-format
 msgctxt "No option was given, this is the error message telling the user he needs at least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
-msgstr "需要使用安装(install)、删除(remove)、升级(upgrade)或列出(list)四个选项之一。"
+msgstr "必须使用安装 (install)、删除 (remove)、升级 (upgrade) 或查看列表 (list) 这四个选项之一。"
 
 #: core-impl/capabilities/AlbumActionsCapability.cpp:38
 #, kde-format
@@ -5016,7 +5016,7 @@ msgstr "未知艺人"
 #: EngineController.cpp:1309
 #, kde-format
 msgid "Unknown track"
-msgstr "未知曲目"
+msgstr "未知歌曲"
 
 #: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:313
 #, kde-format
@@ -5172,7 +5172,7 @@ msgstr "iPod 名称："
 #: core-impl/collections/umscollection/UmsConfiguration.ui:111
 #, kde-format
 msgid "Transcode:"
-msgstr "转码:"
+msgstr "转码："
 
 #. i18n: ectx: property (text), widget (QLabel, modelComboLabel)
 #. i18n: ectx: property (text), widget (QLabel, modelLabel)
@@ -5180,7 +5180,7 @@ msgstr "转码:"
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:109
 #, kde-format
 msgid "Model:"
-msgstr "模式："
+msgstr "型号："
 
 #. i18n: ectx: property (text), widget (QPushButton, initializeButton)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:91
@@ -5199,13 +5199,13 @@ msgstr "信息"
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:123
 #, kde-format
 msgid "Generation:"
-msgstr "常规:"
+msgstr "常规："
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:137
 #, kde-format
 msgid "Video:"
-msgstr "视频:"
+msgstr "视频："
 
 #. i18n: ectx: property (text), widget (QLabel, albumArtworkLabel)
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:151
@@ -5298,7 +5298,7 @@ msgstr "未知"
 #, kde-format
 msgctxt "In a dialog: Video: Supported"
 msgid "Supported"
-msgstr "受支持"
+msgstr "支持"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:304
 #, kde-format
@@ -5524,7 +5524,7 @@ msgstr "移动文件"
 #, kde-format
 msgctxt "rename files button"
 msgid "&Rename"
-msgstr "重命名(&R)："
+msgstr "重命名 (&R)："
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:77
 #, kde-format
@@ -5563,7 +5563,7 @@ msgstr "%1 (%3 所作的 %2)"
 #, kde-format
 msgctxt "%1 is track url, %2 track name"
 msgid "%1 (%2)"
-msgstr "%1 (%2 封)"
+msgstr "%1 (%2)"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:138
 #, kde-format
@@ -5584,7 +5584,7 @@ msgstr "上周"
 #: core-impl/collections/support/TextualQueryFilter.cpp:281
 #, kde-format
 msgid "last month"
-msgstr "上月"
+msgstr "上个月"
 
 #: core-impl/collections/support/TextualQueryFilter.cpp:283
 #, kde-format
@@ -5599,7 +5599,7 @@ msgstr "三个月前"
 #: core-impl/collections/support/TrashCollectionLocation.cpp:47
 #, kde-format
 msgid "Trash"
-msgstr "废件夹"
+msgstr "回收站"
 
 #: core-impl/collections/support/TrashCollectionLocation.cpp:101
 #, kde-format
@@ -5683,7 +5683,7 @@ msgstr "音乐文件夹："
 #: core-impl/collections/umscollection/UmsConfiguration.ui:104
 #, kde-format
 msgid "Filename scheme of tracks that are added to the device"
-msgstr "歌曲文件名方案已添加到此设备内"
+msgstr "歌曲的文件名结构已添加到此设备内"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: core-impl/collections/umscollection/UmsConfiguration.ui:176
@@ -5918,13 +5918,13 @@ msgstr "配置 %1"
 #, kde-format
 msgid " Item"
 msgid_plural " Items"
-msgstr[0] " 项目"
+msgstr[0] " 个项目"
 
 #: core-impl/podcasts/sql/SqlPodcastMeta.cpp:429
 #: core/podcasts/PodcastMeta.h:385
 #, kde-format
 msgid "Podcast"
-msgstr "广播"
+msgstr "播客"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:290
 #, kde-format
@@ -5944,12 +5944,12 @@ msgstr "将播客订阅列表导出至 OPML 文件 (&E)"
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:328
 #, kde-format
 msgid "&Configure"
-msgstr "配置(&C)"
+msgstr "配置 (&C)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:341
 #, kde-format
 msgid "&Remove Subscription"
-msgstr "&移除订阅"
+msgstr "退订 (&R)"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:350
 #, kde-format
@@ -5990,13 +5990,13 @@ msgstr "已经订阅过 %1 了。"
 #, kde-format
 msgctxt "prefix to 'x minutes'"
 msgid "every "
-msgstr "每隔"
+msgstr "每 "
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:604
 #, kde-format
 msgid " minute"
 msgid_plural " minutes"
-msgstr[0] " 分"
+msgstr[0] " 分钟"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:612
 #, kde-format
@@ -6077,7 +6077,7 @@ msgstr "已禁用"
 #: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:79
 #, kde-format
 msgid "Base directory:"
-msgstr "基准目录："
+msgstr "底层目录："
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, m_baseDirUrl)
 #: core-impl/podcasts/sql/SqlPodcastProviderSettingsWidget.ui:107
@@ -6093,7 +6093,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">全部新的播客频道所在的底层文件夹。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">全部新的播客频道所在的底层目录。</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">播客频道添加后，<span style=\" font-style:italic;\">&lt;底层目录&gt;</span>/<span style=\" font-style:italic;\">&lt;频道名称&gt;</span> 将作为下载目录。</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">您也可以单独调整每个频道的设置。</p></body></html>"
 
@@ -6103,7 +6103,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 msgid "Base directory for all new podcast channels.\n"
 "When a podcast channel is added <base directory>/<channel name> is used as the download directory.\n"
 "This can be changed for each channel individually."
-msgstr "所有新播客频道的底层文件夹。\n"
+msgstr "所有新播客频道的底层目录。\n"
 "当一个播客频道添加后，<底层目录>/<频道名称> 会被用作为它的下载目录。\n"
 "您也可以单独调整每个频道的设置。"
 
@@ -6213,31 +6213,31 @@ msgstr "任意"
 #, kde-format
 msgctxt "Track field name (the file this track is stored in)"
 msgid "File Name"
-msgstr "文件名称"
+msgstr "文件名"
 
 #: core/meta/support/MetaConstants.cpp:182
 #, kde-format
 msgctxt "Track field name"
 msgid "Title"
-msgstr "名称"
+msgstr "歌名"
 
 #: core/meta/support/MetaConstants.cpp:183
 #, kde-format
 msgctxt "Track field name"
 msgid "Artist"
-msgstr "漫画师"
+msgstr "艺人"
 
 #: core/meta/support/MetaConstants.cpp:184
 #, kde-format
 msgctxt "Track field name"
 msgid "Album"
-msgstr "相册"
+msgstr "专辑"
 
 #: core/meta/support/MetaConstants.cpp:185
 #, kde-format
 msgctxt "Track field name"
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: core/meta/support/MetaConstants.cpp:186
 #, kde-format
@@ -6255,7 +6255,7 @@ msgstr "年份"
 #, kde-format
 msgctxt "Track field name"
 msgid "Comment"
-msgstr "评论"
+msgstr "注释"
 
 #: core/meta/support/MetaConstants.cpp:189
 #, kde-format
@@ -6267,7 +6267,7 @@ msgstr "音轨编号"
 #, kde-format
 msgctxt "Track field name"
 msgid "Disc Number"
-msgstr "盘片编号"
+msgstr "光盘编号"
 
 #: core/meta/support/MetaConstants.cpp:191
 #, kde-format
@@ -6279,7 +6279,7 @@ msgstr "Bpm"
 #, kde-format
 msgctxt "Track field name"
 msgid "Length"
-msgstr "长度"
+msgstr "时长"
 
 #: core/meta/support/MetaConstants.cpp:193
 #, kde-format
@@ -6303,7 +6303,7 @@ msgstr "文件大小"
 #, kde-format
 msgctxt "Track field name"
 msgid "Format"
-msgstr "格式化"
+msgstr "格式"
 
 #: core/meta/support/MetaConstants.cpp:197
 #, kde-format
@@ -6315,7 +6315,7 @@ msgstr "添加至收藏的日期"
 #, kde-format
 msgctxt "Track field name"
 msgid "Score"
-msgstr "评分"
+msgstr "分数"
 
 #: core/meta/support/MetaConstants.cpp:199
 #, kde-format
@@ -6381,13 +6381,13 @@ msgstr "专辑艺人"
 #, kde-format
 msgctxt "Track field name"
 msgid "Label"
-msgstr "标签"
+msgstr "标记"
 
 #: core/meta/support/MetaConstants.cpp:212
 #, kde-format
 msgctxt "Track field name"
 msgid "Last Modified"
-msgstr "最后更新"
+msgstr "最近修改时间"
 
 #: core/meta/support/MetaConstants.cpp:213
 #, kde-format
@@ -6411,13 +6411,13 @@ msgstr "文件名"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "title"
-msgstr "名称"
+msgstr "歌名"
 
 #: core/meta/support/MetaConstants.cpp:227
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "artist"
-msgstr "艺术家"
+msgstr "艺人"
 
 #: core/meta/support/MetaConstants.cpp:228
 #, kde-format
@@ -6471,7 +6471,7 @@ msgstr "bpm"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "length"
-msgstr "长度"
+msgstr "时长"
 
 #: core/meta/support/MetaConstants.cpp:237
 #, kde-format
@@ -6501,13 +6501,13 @@ msgstr "格式"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "added"
-msgstr "已添加"
+msgstr "被添加"
 
 #: core/meta/support/MetaConstants.cpp:242
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "score"
-msgstr "评分"
+msgstr "分数"
 
 #: core/meta/support/MetaConstants.cpp:243
 #, kde-format
@@ -6573,13 +6573,13 @@ msgstr "专辑艺人"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "label"
-msgstr "label"
+msgstr "标记"
 
 #: core/meta/support/MetaConstants.cpp:256
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "modified"
-msgstr "已修改"
+msgstr "被修改"
 
 #: core/meta/support/MetaConstants.cpp:257
 #, kde-format
@@ -6591,14 +6591,14 @@ msgstr "歌词"
 #, kde-format
 msgctxt "the time format for a time length when the time is below 1 hour see QTime documentation."
 msgid "m:ss"
-msgstr "m:ss"
+msgstr "mm:ss"
 
 #: core/meta/support/MetaUtility.cpp:428
 #, kde-format
 msgctxt "number of days with spacing for the pretty time"
 msgid "%1 day, "
 msgid_plural "%1 days, "
-msgstr[0] "%1 天, "
+msgstr[0] "%1 天，"
 
 #: core/meta/support/MetaUtility.cpp:429
 #, kde-format
@@ -6632,14 +6632,14 @@ msgstr[0] "%1 天"
 msgctxt "number of hours for the pretty time"
 msgid "%1 hour"
 msgid_plural "%1 hours"
-msgstr[0] "%1 小时 "
+msgstr[0] "%1 小时"
 
 #: core/meta/support/MetaUtility.cpp:451
 #, kde-format
 msgctxt "number of minutes for the pretty time"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] "%1 分钟 "
+msgstr[0] "%1 分钟"
 
 #: core/meta/support/MetaUtility.cpp:453
 #, kde-format
@@ -6720,19 +6720,19 @@ msgstr "未知类型"
 #, kde-format
 msgctxt "The amount of time since last played"
 msgid "Never"
-msgstr "从不显示"
+msgstr "从未播放过"
 
 #: core/support/Amarok.cpp:54 playlist/PlaylistModel.cpp:501
 #, kde-format
 msgctxt "When this track was last played"
 msgid "Unknown"
-msgstr "未知算法"
+msgstr "未知"
 
 #: core/support/Amarok.cpp:58
 #, kde-format
 msgctxt "monthname year"
 msgid "%1"
-msgstr "%1|/|$[~stripAccel %1]"
+msgstr "%1"
 
 #: core/support/Amarok.cpp:64
 #, kde-format
@@ -6783,13 +6783,13 @@ msgstr "0"
 #, kde-format
 msgctxt "number of months ago"
 msgid "%1M"
-msgstr "%1分"
+msgstr "%1 个月"
 
 #: core/support/Amarok.cpp:112
 #, kde-format
 msgctxt "w for weeks"
 msgid "%1w"
-msgstr "%1周"
+msgstr "%1 周"
 
 #: core/support/Amarok.cpp:115
 #, kde-format
@@ -6801,13 +6801,13 @@ msgstr "明天"
 #, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
-msgstr " %1 天 "
+msgstr " %1 天"
 
 #: core/support/Amarok.cpp:124
 #, kde-format
 msgctxt "h for hours"
 msgid "%1h"
-msgstr "%1时"
+msgstr "%1 时"
 
 #. i18n: ectx: property (text), widget (QLabel, qLabel_collection)
 #. i18n: ectx: property (text), widget (QLabel, qLabel_length)
@@ -6870,7 +6870,7 @@ msgstr "多张专辑"
 #, kde-format
 msgctxt "A saved playlist titled <artist> - <album>"
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1——%2"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:30
 #, kde-format
@@ -7024,13 +7024,13 @@ msgstr "仅复制"
 #, kde-format
 msgctxt "%1 example: 'Compression level' %2 example: '5'"
 msgid "%1 %2"
-msgstr "%2年%1月"
+msgstr "%1 %2"
 
 #: core/transcoding/TranscodingConfiguration.cpp:142
 #, kde-format
 msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'All Tracks to MP3' %2 example: 'VBR 175kb/s'"
 msgid "%1, %2"
-msgstr "%1, %2"
+msgstr "%1，%2"
 
 #: core/transcoding/TranscodingConfiguration.cpp:210
 #, kde-format
@@ -7223,13 +7223,13 @@ msgstr[0] "找到了 %1 张图片"
 #: covermanager/CoverFoundDialog.cpp:744
 #, kde-format
 msgid "Notes"
-msgstr "注记"
+msgstr "注释"
 
 #: covermanager/CoverFoundDialog.cpp:816
 #, kde-format
 msgctxt "@item::intable"
 msgid "Artist"
-msgstr "漫画师"
+msgstr "艺人"
 
 #: covermanager/CoverFoundDialog.cpp:817
 #, kde-format
@@ -7247,7 +7247,7 @@ msgstr "日期"
 #, kde-format
 msgctxt "@item::intable File Format"
 msgid "Format"
-msgstr "格式化"
+msgstr "格式"
 
 #: covermanager/CoverFoundDialog.cpp:820
 #, kde-format
@@ -7259,13 +7259,13 @@ msgstr "高度"
 #, kde-format
 msgctxt "@item::intable Album Title"
 msgid "Title"
-msgstr "名称"
+msgstr "歌名"
 
 #: covermanager/CoverFoundDialog.cpp:822
 #, kde-format
 msgctxt "@item::intable Release Type"
 msgid "Type"
-msgstr "文件系统"
+msgstr "类型"
 
 #: covermanager/CoverFoundDialog.cpp:823
 #, kde-format
@@ -7283,7 +7283,7 @@ msgstr "大小"
 #, kde-format
 msgctxt "@item::intable Cover Provider"
 msgid "Source"
-msgstr "原因"
+msgstr "来源"
 
 #: covermanager/CoverFoundDialog.cpp:827
 #, kde-format
@@ -7306,7 +7306,7 @@ msgstr "URL"
 #: covermanager/CoverManager.cpp:111 MainWindow.cpp:798
 #, kde-format
 msgid "Cover Manager"
-msgstr "封面管理器"
+msgstr "专辑封面管理器"
 
 #: covermanager/CoverManager.cpp:124
 #, kde-format
@@ -7316,17 +7316,17 @@ msgstr "专辑作者"
 #: covermanager/CoverManager.cpp:134
 #, kde-format
 msgid "All Artists"
-msgstr "所有艺术家"
+msgstr "所有艺人"
 
 #: covermanager/CoverManager.cpp:180 widgets/SearchWidget.cpp:66
 #, kde-format
 msgid "Enter search terms here"
-msgstr "在此输入查找条件"
+msgstr "在此输入搜索条件"
 
 #: covermanager/CoverManager.cpp:193
 #, kde-format
 msgid "All Albums"
-msgstr "全部相册"
+msgstr "全部专辑"
 
 #: covermanager/CoverManager.cpp:194
 #, kde-format
@@ -7351,7 +7351,7 @@ msgstr "正在获取"
 #: covermanager/CoverManager.cpp:409
 #, kde-format
 msgid "Loading"
-msgstr "正在装入"
+msgstr "正在加载"
 
 #: covermanager/CoverManager.cpp:620
 #, kde-format
@@ -7396,7 +7396,7 @@ msgstr "——"
 #, kde-format
 msgid "1 not found"
 msgid_plural "%1 not found"
-msgstr[0] "%1 未找到"
+msgstr[0] "有 %1 个未找到任何结果"
 
 #: covermanager/CoverManager.cpp:662
 #, kde-format
@@ -7424,7 +7424,7 @@ msgstr "，"
 #: covermanager/CoverManager.cpp:701
 #, kde-format
 msgid "%1 by %2"
-msgstr "%1 作者 %2"
+msgstr "%1 的 %2"
 
 #: covermanager/CoverManager.cpp:706
 #, kde-format
@@ -7440,7 +7440,7 @@ msgstr "封面图片"
 #: covermanager/CoverManager.cpp:840
 #, kde-format
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1——%2"
 
 #: covermanager/CoverManager.cpp:857
 #, kde-format
@@ -7602,12 +7602,12 @@ msgstr "<b><font color='red'>%1</font></b> 内的多个模糊匹配歌曲已被�
 #, kde-format
 msgid "<b>1</b> file selected."
 msgid_plural "<b>%1</b> files selected."
-msgstr[0] "<b>%1</b> 选定的文件。"
+msgstr[0] "已选择 <b>%1</b> 份文件。"
 
 #: dialogs/deletedialog.cpp:69
 #, kde-format
 msgid "<qt>These items will be <b>permanently deleted</b> from your hard disk.</qt>"
-msgstr "<qt>这些项目将从您的硬盘中 <b>永久删除</b> 。</qt>"
+msgstr "<qt>这些项目将从您的硬盘中<b>永久删除</b> 。</qt>"
 
 #: dialogs/deletedialog.cpp:75
 #, kde-format
@@ -7617,7 +7617,7 @@ msgstr "<qt>这些项目将被移入回收站。</qt>"
 #: dialogs/deletedialog.cpp:87
 #, kde-format
 msgid "&Send to Trash"
-msgstr "移入回收站(&S)"
+msgstr "移入回收站 (&S)"
 
 #: dialogs/deletedialog.cpp:93
 #, kde-format
@@ -7651,7 +7651,7 @@ msgstr "即将删除的文件列表。"
 #: dialogs/deletedialogbase.ui:82
 #, kde-format
 msgid "This is the list of items that are about to be deleted."
-msgstr "这是即将删除项目的列表。"
+msgstr "下列为即将删除项目。"
 
 #. i18n: ectx: property (text), widget (QLabel, ddNumFiles)
 #: dialogs/deletedialogbase.ui:89
@@ -7663,21 +7663,21 @@ msgstr "文件数量的占位符，不会显示在 GUI 中"
 #: dialogs/deletedialogbase.ui:102
 #, kde-format
 msgid "&Delete files instead of moving them to the trash"
-msgstr "删除文件，而不是将其移入回收站(&D)"
+msgstr "删除而不移入回收站 (&D)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ddShouldDelete)
 #: dialogs/deletedialogbase.ui:105
 #, kde-format
 msgid "If checked, files will be permanently removed instead of being placed in the Trash Bin"
-msgstr "如果选中，文件将被永久删除而不是移入回收站"
+msgstr "勾选后，文件将被永久删除而不移入回收站"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ddShouldDelete)
 #: dialogs/deletedialogbase.ui:110
 #, kde-format
 msgid "<qt><p>If this box is checked, files will be <b>permanently removed</b> instead of being placed in the Trash Bin.</p>\n\n"
 "<p><em>Use this option with caution</em>: Most filesystems are unable to reliably undelete deleted files.</p></qt>"
-msgstr "<qt><p>如果勾选此框，文件将被 <b>永久删除</b> 而不是移入回收站。</p>\n\n"
-"<p><em>请慎用此选项 </em>：大多数文件系统无法可靠的恢复被删除的文件。</p></qt>"
+msgstr "<qt><p>勾选后，文件将被<b>永久删除</b>而不移入回收站。</p>\n\n"
+"<p><em>请慎用此选项</em>：大多数文件系统无法可靠地恢复被删除的文件。</p></qt>"
 
 #: dialogs/deviceconfiguredialog.cpp:44
 #, kde-format
@@ -7772,13 +7772,13 @@ msgstr "%1 的诊断信息"
 #, kde-format
 msgctxt "Usage"
 msgid "Yes"
-msgstr "是"
+msgstr "有"
 
 #: dialogs/DiagnosticDialog.cpp:142
 #, kde-format
 msgctxt "Usage"
 msgid "No"
-msgstr "否"
+msgstr "无"
 
 #: dialogs/DiagnosticDialog.cpp:145
 #, kde-format
@@ -7817,12 +7817,12 @@ msgstr "已启用的脚本：\n"
 #: dialogs/EditFilterDialog.cpp:37
 #, kde-format
 msgid "AND"
-msgstr "AND"
+msgstr "与"
 
 #: dialogs/EditFilterDialog.cpp:38
 #, kde-format
 msgid "OR"
-msgstr "OR"
+msgstr "或"
 
 #: dialogs/EditFilterDialog.cpp:39
 #, kde-format
@@ -7832,7 +7832,7 @@ msgstr "简单文本"
 #: dialogs/EditFilterDialog.cpp:48
 #, kde-format
 msgid "Edit Filter"
-msgstr "编辑过滤器"
+msgstr "编辑筛选条件"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: dialogs/EditFilterDialog.ui:55
@@ -7844,7 +7844,7 @@ msgstr "条件"
 #: dialogs/EditFilterDialog.ui:67
 #, kde-format
 msgid "invert"
-msgstr "负片"
+msgstr "反转"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbAnd)
 #: dialogs/EditFilterDialog.ui:99 widgets/MetaQueryWidget.cpp:585
@@ -7880,7 +7880,7 @@ msgstr "%0\n"
 #: dialogs/EqualizerDialog.ui:22
 #, kde-format
 msgid "Active"
-msgstr "激活"
+msgstr "启用"
 
 #. i18n: ectx: property (title), widget (QGroupBox, eqPresetsGroupBox)
 #: dialogs/EqualizerDialog.ui:29
@@ -7928,13 +7928,13 @@ msgstr "重置为默认"
 #: dialogs/EqualizerDialog.ui:102
 #, kde-format
 msgid "Bands"
-msgstr "频段"
+msgstr "波段"
 
 #. i18n: ectx: property (text), widget (QLabel, eqMaxEq)
 #: dialogs/EqualizerDialog.ui:112
 #, kde-format
 msgid "+dB"
-msgstr "+分贝"
+msgstr "+dB"
 
 #. i18n: ectx: property (text), widget (QLabel, eqZero)
 #: dialogs/EqualizerDialog.ui:250
@@ -7946,7 +7946,7 @@ msgstr "0dB"
 #: dialogs/EqualizerDialog.ui:559
 #, kde-format
 msgid "-dB"
-msgstr "-分贝"
+msgstr "-dB"
 
 #. i18n: ectx: property (text), widget (QLabel, eqPreampLabel)
 #: dialogs/EqualizerDialog.ui:569
@@ -8043,7 +8043,7 @@ msgstr "退出且不保存"
 #: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #, kde-format
 msgid "&Cancel"
-msgstr "取消(&C)"
+msgstr "取消 (&C)"
 
 #: dialogs/OrganizeCollectionDialog.cpp:111
 #: dialogs/OrganizeCollectionDialog.cpp:114
@@ -8094,7 +8094,7 @@ msgstr "原版：%1"
 #: dialogs/OrganizeCollectionDialog.cpp:317
 #, kde-format
 msgid "Preview: %1"
-msgstr "预览： %1"
+msgstr "预览：%1"
 
 #: dialogs/OrganizeCollectionDialog.cpp:383
 #, kde-format
@@ -8116,7 +8116,7 @@ msgstr "整理文件"
 #: dialogs/OrganizeCollectionDialogBase.ui:29
 #, kde-format
 msgid "Base directory under which to put files"
-msgstr "放置文件时要使用的底层文件夹"
+msgstr "放置文件时要使用的底层目录"
 
 #. i18n: ectx: property (text), widget (QLabel, folderLabel)
 #: dialogs/OrganizeCollectionDialogBase.ui:32
@@ -8311,7 +8311,7 @@ msgstr "字符串"
 #: dialogs/TagDialog.cpp:513
 #, kde-format
 msgid "Tags"
-msgstr "标记"
+msgstr "标签"
 
 #: dialogs/TagDialog.cpp:670 dialogs/TagDialog.cpp:678
 #, kde-format
@@ -8356,7 +8356,7 @@ msgstr[0] "编辑 %1 份文件"
 #, kde-format
 msgctxt "The collection this track is part of"
 msgid "None"
-msgstr "未分组"
+msgstr "无"
 
 #: dialogs/TagDialog.cpp:972
 #, kde-format
@@ -8385,13 +8385,13 @@ msgstr "属性"
 #: dialogs/TagDialogBase.ui:157
 #, kde-format
 msgid "Statistics"
-msgstr "详情"
+msgstr "统计数据"
 
 #. i18n: ectx: property (text), widget (QLabel, lenghtLabel)
 #: dialogs/TagDialogBase.ui:167
 #, kde-format
 msgid "Length:"
-msgstr "长度："
+msgstr "时长："
 
 #. i18n: ectx: property (text), widget (QLabel, bitrateLabel)
 #: dialogs/TagDialogBase.ui:193
@@ -8439,7 +8439,7 @@ msgstr "播放次数："
 #: dialogs/TagDialogBase.ui:390
 #, kde-format
 msgid "Score:"
-msgstr "目数："
+msgstr "分数："
 
 #. i18n: ectx: property (text), widget (QLabel, firstPlayedLabel)
 #: dialogs/TagDialogBase.ui:403
@@ -8457,31 +8457,31 @@ msgstr "上次播放："
 #: dialogs/TagDialogBase.ui:467
 #, kde-format
 msgid "Note:"
-msgstr "备注："
+msgstr "注释："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
 #: dialogs/TagDialogBase.ui:509
 #, kde-format
 msgid "Ta&gs"
-msgstr "标签(&G)"
+msgstr "标签 (&G)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: dialogs/TagDialogBase.ui:515
 #, kde-format
 msgid "T&itle:"
-msgstr "标题(&I)："
+msgstr "歌名 (&I)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: dialogs/TagDialogBase.ui:541
 #, kde-format
 msgid "&Artist:"
-msgstr "艺人(&A)："
+msgstr "艺人 (&A)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
 #: dialogs/TagDialogBase.ui:573
 #, kde-format
 msgid "&Composer:"
-msgstr "作曲(&C)："
+msgstr "作曲家 (&C)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_albumArtist)
 #: dialogs/TagDialogBase.ui:602
@@ -8505,7 +8505,7 @@ msgstr "音轨编号 (&K)："
 #: dialogs/TagDialogBase.ui:701
 #, kde-format
 msgid "&Genre:"
-msgstr "流派(&G)："
+msgstr "流派 (&G)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2_2)
 #: dialogs/TagDialogBase.ui:739
@@ -8517,7 +8517,7 @@ msgstr "光盘编号 (&D)："
 #: dialogs/TagDialogBase.ui:774
 #, kde-format
 msgid "&Year:"
-msgstr "年份(&Y)："
+msgstr "年份 (&Y)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_BPM)
 #: dialogs/TagDialogBase.ui:815
@@ -8529,7 +8529,7 @@ msgstr "每分钟节拍数 (&E)："
 #: dialogs/TagDialogBase.ui:844
 #, kde-format
 msgid "Co&mment:"
-msgstr "注释(&M)："
+msgstr "注释 (&M)："
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
 #: dialogs/TagDialogBase.ui:875
@@ -8559,7 +8559,7 @@ msgstr "标签 (&B)"
 #: dialogs/TagDialogBase.ui:929
 #, kde-format
 msgid "Label:"
-msgstr "纬度："
+msgstr "标记："
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
 #: dialogs/TagDialogBase.ui:945
@@ -8583,19 +8583,19 @@ msgstr "删除"
 #: dialogs/TagDialogBase.ui:1050
 #, kde-format
 msgid "Location:"
-msgstr "饱和度："
+msgstr "位置："
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
 #: dialogs/TagDialogBase.ui:1093 playlist/ProgressiveSearchWidget.cpp:65
 #, kde-format
 msgid "&Previous"
-msgstr "上一项(&P)"
+msgstr "后退 (&P)"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
 #: dialogs/TagDialogBase.ui:1103 playlist/ProgressiveSearchWidget.cpp:62
 #, kde-format
 msgid "&Next"
-msgstr "下一项(&N)"
+msgstr "前进 (&N)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
 #: dialogs/TagDialogBase.ui:1110
@@ -8624,7 +8624,7 @@ msgstr "根据文件名猜测标签 (&F)"
 #, kde-format
 msgctxt "Text to represent an empty tag. Braces (<>) are only to clarify emptiness."
 msgid "&lt;empty&gt;"
-msgstr "&lt;empty&gt;"
+msgstr "&lt;空&gt;"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbCase)
 #: dialogs/TagGuessOptions.ui:23
@@ -8636,7 +8636,7 @@ msgstr "编辑大小写 (&C)"
 #: dialogs/TagGuessOptions.ui:36
 #, kde-format
 msgid "&Title case"
-msgstr "标题大写 (&T)"
+msgstr "大写标题 (&T)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbFirstLetter)
 #: dialogs/TagGuessOptions.ui:46
@@ -8696,7 +8696,7 @@ msgstr "<空>"
 #: dialogs/TagGuessOptions.ui:153
 #, kde-format
 msgid "Composer:"
-msgstr "作曲："
+msgstr "作曲家："
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: dialogs/TagGuessOptions.ui:179
@@ -8708,7 +8708,7 @@ msgstr "年份："
 #: dialogs/TagGuessOptions.ui:205
 #, kde-format
 msgid " Track Number"
-msgstr " 音轨编号"
+msgstr "音轨编号"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #: dialogs/TagGuessOptions.ui:263
@@ -8720,7 +8720,7 @@ msgstr "注释："
 #: dialogs/TagGuessOptions.ui:289
 #, kde-format
 msgid "Album:"
-msgstr "相册："
+msgstr "专辑："
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
 #: dialogs/TagGuessOptions.ui:315
@@ -8761,7 +8761,7 @@ msgstr "未知流派"
 #: dialogs/TrackOrganizer.cpp:111
 #, kde-format
 msgid "Unknown title"
-msgstr "未知标题"
+msgstr "未知歌名"
 
 #: dialogs/TrackOrganizer.cpp:112
 #, kde-format
@@ -8967,13 +8967,13 @@ msgstr "顺序匹配所有偏好"
 #, kde-format
 msgctxt "Prefix for IfElseBias. Shown in front of a bias in the dynamic playlist view"
 msgid "else"
-msgstr "else"
+msgstr "否则"
 
 #: dynamic/biases/PartBias.cpp:43
 #, kde-format
 msgctxt "Name of the \"Part\" bias"
 msgid "Partition"
-msgstr "分区"
+msgstr "部分"
 
 #: dynamic/biases/PartBias.cpp:52
 #, kde-format
@@ -8990,7 +8990,7 @@ msgstr "此项决定了播放列表的各个部分所对应的不同规则"
 #, kde-format
 msgctxt "Part bias representation"
 msgid "Partition"
-msgstr "分区"
+msgstr "部分"
 
 #: dynamic/biases/QuizPlayBias.cpp:42
 #, kde-format
@@ -9200,7 +9200,7 @@ msgstr "来自 <b>%1</b>"
 #: equalizer/EqualizerPresets.cpp:80
 #, kde-format
 msgid "Manual"
-msgstr "手工"
+msgstr "手动"
 
 #: equalizer/EqualizerPresets.cpp:81
 #, kde-format
@@ -9245,12 +9245,12 @@ msgstr "大礼堂"
 #: equalizer/EqualizerPresets.cpp:89
 #, kde-format
 msgid "Live"
-msgstr "直播"
+msgstr "演唱会"
 
 #: equalizer/EqualizerPresets.cpp:90
 #, kde-format
 msgid "Party"
-msgstr "聚会"
+msgstr "派对"
 
 #: equalizer/EqualizerPresets.cpp:92
 #, kde-format
@@ -9275,12 +9275,12 @@ msgstr "软摇滚"
 #: equalizer/EqualizerPresets.cpp:97
 #, kde-format
 msgid "Techno"
-msgstr "数字舞曲"
+msgstr "高科技舞曲"
 
 #: equalizer/EqualizerPresets.cpp:98
 #, kde-format
 msgid "Zero"
-msgstr "清零"
+msgstr "归零"
 
 #: importers/amarok/AmarokConfigWidget.cpp:81
 #, kde-format
@@ -9437,7 +9437,7 @@ msgstr "目标名称"
 #: KNotificationBackend.cpp:122 TrayIcon.cpp:145
 #, kde-format
 msgid "Now playing"
-msgstr "正在收听"
+msgstr "正在播放"
 
 #: lyrics/LyricsManager.cpp:74
 #, kde-format
@@ -9862,7 +9862,7 @@ msgstr "Lee Olson"
 #: main.cpp:224 main.cpp:236
 #, kde-format
 msgid "Artwork"
-msgstr "美工"
+msgstr "插图"
 
 #: main.cpp:226
 #, kde-format
@@ -9922,7 +9922,7 @@ msgstr "Olivier Bédard"
 #: main.cpp:238
 #, kde-format
 msgid "Website hosting"
-msgstr "提供了网站主机"
+msgstr "网站托管"
 
 #: main.cpp:240
 #, kde-format
@@ -10322,7 +10322,7 @@ msgstr "在线资源内容"
 #: MainWindow.cpp:272
 #, kde-format
 msgid "Playlists"
-msgstr "Playlists"
+msgstr "播放列表"
 
 #: MainWindow.cpp:274
 #, kde-format
@@ -10338,7 +10338,7 @@ msgstr "浏览本地硬盘上的内容"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&View"
-msgstr "视图(&V)"
+msgstr "视图 (&V)"
 
 #: MainWindow.cpp:329
 #, kde-format
@@ -10383,13 +10383,13 @@ msgstr "输入流媒体 URL："
 #: MainWindow.cpp:748
 #, kde-format
 msgid "&Add Media..."
-msgstr "&添加媒体..."
+msgstr "添加媒体 (&A)..."
 
 #: MainWindow.cpp:753
 #, kde-format
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
-msgstr "&清空播放列表"
+msgstr "清空播放列表 (&C)"
 
 #: MainWindow.cpp:758
 #, kde-format
@@ -10491,12 +10491,12 @@ msgstr "下一首"
 #: MainWindow.cpp:899
 #, kde-format
 msgid "Increase Volume"
-msgstr "增大音量"
+msgstr "增加音量"
 
 #: MainWindow.cpp:905
 #, kde-format
 msgid "Decrease Volume"
-msgstr "减小音量"
+msgstr "降低音量"
 
 #: MainWindow.cpp:911
 #, kde-format
@@ -10506,7 +10506,7 @@ msgstr "显示或隐藏主窗口"
 #: MainWindow.cpp:916
 #, kde-format
 msgid "Toggle Full Screen"
-msgstr "切换全屏显示"
+msgstr "全屏切换"
 
 #: MainWindow.cpp:921 playlist/ProgressiveSearchWidget.cpp:48
 #, kde-format
@@ -10591,17 +10591,17 @@ msgstr "关于 &Amarok"
 #: MainWindow.cpp:1018
 #, kde-format
 msgid "&Diagnostics"
-msgstr "&诊断"
+msgstr "诊断 (&D)"
 
 #: MainWindow.cpp:1022
 #, kde-format
 msgid "&Report Bug..."
-msgstr "报告 Bug(&R)..."
+msgstr "报告错误 (&R)..."
 
 #: MainWindow.cpp:1069
 #, kde-format
 msgid "&Music"
-msgstr "&音乐"
+msgstr "音乐 (&M)"
 
 #: MainWindow.cpp:1071
 #, kde-format
@@ -10612,17 +10612,17 @@ msgstr "&Amarok"
 #: playlist/PlaylistToolBar.cpp:39
 #, kde-format
 msgid "&Playlist"
-msgstr "&播放列表"
+msgstr "播放列表 (&P)"
 
 #: MainWindow.cpp:1112
 #, kde-format
 msgid "&Tools"
-msgstr "工具(&T)"
+msgstr "工具 (&T)"
 
 #: MainWindow.cpp:1127
 #, kde-format
 msgid "&Settings"
-msgstr "设置(&S)"
+msgstr "设置 (&S)"
 
 #: MainWindow.cpp:1170
 #, kde-format
@@ -10692,13 +10692,13 @@ msgstr "网络请求"
 #: network/NetworkRequests.ui:27
 #, kde-format
 msgid "&Clear"
-msgstr "清除(&C)"
+msgstr "清除 (&C)"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
 #: network/NetworkRequests.ui:41
 #, kde-format
 msgid "Method"
-msgstr "算法"
+msgstr "方法"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
 #: network/NetworkRequests.ui:51
@@ -10741,7 +10741,7 @@ msgstr "响应详情"
 #: network/NetworkRequests.ui:94 network/NetworkRequests.ui:108
 #, kde-format
 msgid "Value"
-msgstr "价值"
+msgstr "值"
 
 #: OpmlParser.cpp:127
 #, kde-format
@@ -10797,7 +10797,7 @@ msgstr "宽度："
 #: playlist/layouts/LayoutEditDialog.cpp:101
 #, kde-format
 msgid "Custom"
-msgstr "定制"
+msgstr "自定义"
 
 #: playlist/layouts/LayoutEditDialog.cpp:102
 #, kde-format
@@ -10828,12 +10828,12 @@ msgstr "通过自动宽度将同类可用空间均分给所有元素"
 #: playlist/layouts/LayoutEditDialog.cpp:144
 #, kde-format
 msgid "Alignment: "
-msgstr "对准: "
+msgstr "对齐："
 
 #: playlist/layouts/LayoutEditDialog.cpp:153
 #, kde-format
 msgid "Font: "
-msgstr "字体: "
+msgstr "字体："
 
 #: playlist/layouts/LayoutEditDialog.cpp:239
 #, kde-format
@@ -10866,7 +10866,7 @@ msgstr "%1的副本"
 #, kde-format
 msgctxt "adds a copy number to a generated name if the name already exists, for instance 'copy of Foo 2' if 'copy of Foo' is taken"
 msgid "%1 %2"
-msgstr "%2年%1月"
+msgstr "%1%2"
 
 #: playlist/layouts/LayoutManager.cpp:119
 #, kde-format
@@ -10876,7 +10876,7 @@ msgstr "当前布局“%1”为只读状态，正在创建新布局“%2”保�
 #: playlist/layouts/LayoutManager.cpp:417
 #, kde-format
 msgid "The layout '%1' is one of the default layouts and cannot be deleted."
-msgstr "布局 \"%1\" 是默认布局之一，无法删除。"
+msgstr "布局“%1”是默认布局之一，无法删除。"
 
 #: playlist/layouts/LayoutManager.cpp:417
 #, kde-format
@@ -10886,7 +10886,7 @@ msgstr "无法删除默认布局"
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:81
 #, kde-format
 msgid "Head"
-msgstr "头部"
+msgstr "顶端"
 
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:82
 #, kde-format
@@ -10896,12 +10896,12 @@ msgstr "正文"
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:83
 #, kde-format
 msgid "Body (Various artists)"
-msgstr "主体 (多位艺人)"
+msgstr "主体 (群星)"
 
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:84
 #, kde-format
 msgid "Single"
-msgstr "单个"
+msgstr "主体"
 
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:118
 #, kde-format
@@ -11038,7 +11038,7 @@ msgstr "显示工具提示"
 #: playlist/layouts/PlaylistLayoutEditDialog.ui:291
 #, kde-format
 msgid "Preview"
-msgstr "Preview"
+msgstr "预览"
 
 #: playlist/navigators/NavigatorConfigAction.cpp:33
 #, kde-format
@@ -11083,7 +11083,7 @@ msgstr "随机专辑"
 #: playlist/navigators/NavigatorConfigAction.cpp:77
 #, kde-format
 msgid "Favor"
-msgstr "最爱"
+msgstr "偏好"
 
 #: playlist/navigators/NavigatorConfigAction.cpp:83
 #, kde-format
@@ -11103,7 +11103,7 @@ msgstr "最近未播放过"
 #: playlist/PlaylistBreadcrumbItem.cpp:43
 #, kde-format
 msgid "Shuffle"
-msgstr "打乱"
+msgstr "随机"
 
 #: playlist/PlaylistBreadcrumbItem.cpp:130
 #, kde-format
@@ -11180,7 +11180,7 @@ msgstr "标记"
 #, kde-format
 msgctxt "'Mood' playlist column name and token for playlist layouts"
 msgid "Mood"
-msgstr "心情"
+msgstr "情绪"
 
 #: playlist/PlaylistDefines.cpp:111
 #, kde-format
@@ -11192,7 +11192,7 @@ msgstr "情绪条"
 #, kde-format
 msgctxt "'Source' (local collection, Magnatune.com, last.fm, ... ) playlist column name and token for playlist layouts"
 msgid "Source"
-msgstr "原因"
+msgstr "来源"
 
 #: playlist/PlaylistDefines.cpp:117
 #, kde-format
@@ -11204,7 +11204,7 @@ msgstr "来源标志"
 #, kde-format
 msgctxt "'Title' (track name) playlist column name and token for playlist layouts"
 msgid "Title"
-msgstr "名称"
+msgstr "歌名"
 
 #: playlist/PlaylistDefines.cpp:119
 #, kde-format
@@ -11232,14 +11232,14 @@ msgstr "将播放列表保存至“%1” (&S)"
 msgctxt "%1 is number of tracks, %2 is time"
 msgid "%1 track (%2)"
 msgid_plural "%1 tracks (%2)"
-msgstr[0] "%1 条音轨(%2)"
+msgstr[0] "%1 首歌曲 (%2)"
 
 #: playlist/PlaylistInfoWidget.cpp:63
 #, kde-format
 msgctxt "%1 is number of tracks"
 msgid "%1 track"
 msgid_plural "%1 tracks"
-msgstr[0] "%1 个轨道"
+msgstr[0] "%1 首歌曲"
 
 #: playlist/PlaylistInfoWidget.cpp:67
 #, kde-format
@@ -11291,13 +11291,13 @@ msgstr "文件名"
 #: playlist/PlaylistModel.cpp:931
 #, kde-format
 msgid "Disc Number"
-msgstr "盘片编号"
+msgstr "光盘编号"
 
 #: playlist/PlaylistModel.cpp:932
 #, kde-format
 msgctxt "The Track number for this item"
 msgid "Track"
-msgstr "跟踪"
+msgstr "歌曲"
 
 #: playlist/PlaylistModel.cpp:933
 #, kde-format
@@ -11307,7 +11307,7 @@ msgstr "BPM"
 #: playlist/PlaylistModel.cpp:935
 #, kde-format
 msgid "Comment"
-msgstr "评论"
+msgstr "注释"
 
 #: playlist/PlaylistModel.cpp:936
 #, kde-format
@@ -11318,7 +11318,7 @@ msgstr "目录"
 #: playlist/PlaylistModel.cpp:939
 #, kde-format
 msgid "Bitrate"
-msgstr "位速率"
+msgstr "比特率"
 
 #: playlist/PlaylistModel.cpp:940
 #, kde-format
@@ -11339,7 +11339,7 @@ msgstr "上次播放"
 #: playlist/PlaylistModel.cpp:945
 #, kde-format
 msgid "Mood"
-msgstr "心情"
+msgstr "情绪"
 
 #: playlist/PlaylistModel.cpp:946
 #, kde-format
@@ -11362,13 +11362,13 @@ msgstr "排序队列编辑器"
 #: playlist/PlaylistQueueEditor.ui:32
 #, kde-format
 msgid "Move Up"
-msgstr "上移(&U)"
+msgstr "上移"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, downButton)
 #: playlist/PlaylistQueueEditor.ui:48
 #, kde-format
 msgid "Move Down"
-msgstr "向下移动"
+msgstr "下移"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dequeueTrackButton)
 #: playlist/PlaylistQueueEditor.ui:61 playlist/view/PlaylistViewCommon.cpp:117
@@ -11395,7 +11395,7 @@ msgstr "添加播放列表排序层级。"
 #: playlist/PlaylistViewUrlGenerator.cpp:83
 #, kde-format
 msgid "Filter %1"
-msgstr "过滤器 %1"
+msgstr "筛选条件 %1"
 
 #: playlist/PlaylistViewUrlGenerator.cpp:84
 #, kde-format
@@ -11421,7 +11421,7 @@ msgstr "输入即可一步步搜索整个播放列表"
 #: playlist/ProgressiveSearchWidget.cpp:73
 #, kde-format
 msgid "Tracks"
-msgstr "轨迹"
+msgstr "歌曲"
 
 #: playlist/ProgressiveSearchWidget.cpp:80
 #, kde-format
@@ -11431,7 +11431,7 @@ msgstr "专辑"
 #: playlist/ProgressiveSearchWidget.cpp:87
 #, kde-format
 msgid "Artists"
-msgstr "多位艺人"
+msgstr "艺人"
 
 #: playlist/ProgressiveSearchWidget.cpp:101
 #, kde-format
@@ -11441,7 +11441,7 @@ msgstr "作曲家"
 #: playlist/ProgressiveSearchWidget.cpp:115
 #, kde-format
 msgid "Years"
-msgstr "年后"
+msgstr "年份"
 
 #: playlist/ProgressiveSearchWidget.cpp:124
 #, kde-format
@@ -11662,7 +11662,7 @@ msgstr "AGP 放入所选歌曲的时间精确度。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:655
 #, kde-format
 msgid "Match:"
-msgstr "匹配:"
+msgstr "匹配："
 
 #. i18n: ectx: property (text), widget (QLabel, label_Fuzzy)
 #. i18n: ectx: property (text), widget (QLabel, label_FuzzyInt)
@@ -12030,7 +12030,7 @@ msgstr "防止重复"
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:51
 #, kde-format
 msgid "tracks"
-msgstr "轨迹"
+msgstr "歌曲"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:56
@@ -12042,7 +12042,7 @@ msgstr "专辑"
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:61
 #, kde-format
 msgid "artists"
-msgstr "多位艺人"
+msgstr "艺人"
 
 #: playlistgenerator/constraints/TagMatch.cpp:54
 #, kde-format
@@ -12063,7 +12063,7 @@ msgstr "标签匹配：%1%2%3%4"
 #: playlistgenerator/constraints/TagMatch.cpp:175
 #, kde-format
 msgid " not"
-msgstr " 非"
+msgstr "不含"
 
 #: playlistgenerator/constraints/TagMatch.cpp:180
 #, kde-format
@@ -12076,7 +12076,7 @@ msgstr[0] "%1 星"
 #, kde-format
 msgctxt "an arbitrary string surrounded by quotes"
 msgid "\"%1\""
-msgstr "\"%1\""
+msgstr "“%1”"
 
 #: playlistgenerator/constraints/TagMatch.cpp:338
 #: widgets/MetaQueryWidget.cpp:1019
@@ -12134,7 +12134,7 @@ msgstr "等于"
 #, kde-format
 msgctxt "an alphabetical tag (like title or artist name) starts with some string"
 msgid "starts with"
-msgstr "开始为"
+msgstr "开头为"
 
 #: playlistgenerator/constraints/TagMatch.cpp:360
 #, kde-format
@@ -12192,7 +12192,7 @@ msgstr[0] "日"
 msgctxt "within the last %1 months"
 msgid "month"
 msgid_plural "months"
-msgstr[0] "个月"
+msgstr[0] "月"
 
 #: playlistgenerator/constraints/TagMatch.cpp:540
 #: playlistgenerator/constraints/TagMatch.cpp:757
@@ -12226,7 +12226,7 @@ msgstr "选择您要匹配的歌曲特征。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:32
 #, kde-format
 msgid "Field:"
-msgstr "字段:"
+msgstr "字段："
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBox_Invert)
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Invert)
@@ -12248,7 +12248,7 @@ msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/T
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:87
 #, kde-format
 msgid "Invert:"
-msgstr "负片:"
+msgstr "反转："
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_ComparisonInt)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:106
@@ -12318,7 +12318,7 @@ msgstr "等于"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:414
 #, kde-format
 msgid "starts with"
-msgstr "开始为"
+msgstr "开头为"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:419
@@ -12386,7 +12386,7 @@ msgstr "url"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:86
 #, kde-format
 msgid "title"
-msgstr "名称"
+msgstr "歌名"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:87
 #, kde-format
@@ -12396,7 +12396,7 @@ msgstr "艺人姓名"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:88
 #, kde-format
 msgid "album name"
-msgstr "相册名称"
+msgstr "专辑名称"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:89
 #, kde-format
@@ -12432,7 +12432,7 @@ msgstr "光盘编号"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:95
 #, kde-format
 msgid "length"
-msgstr "长度"
+msgstr "时长"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:96
 #, kde-format
@@ -12442,12 +12442,12 @@ msgstr "添加到收藏内"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:97
 #, kde-format
 msgid "score"
-msgstr "评分"
+msgstr "分数"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:98
 #, kde-format
 msgid "rating"
-msgstr "等级"
+msgstr "评分"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:99
 #, kde-format
@@ -12467,7 +12467,7 @@ msgstr "播放次数"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:102
 #, kde-format
 msgid "label"
-msgstr "label"
+msgstr "标记"
 
 #: playlistgenerator/ConstraintSolver.cpp:230
 #, kde-format
@@ -12502,7 +12502,7 @@ msgstr "播放列表生成器创建了一份不完全符合您所有条件的播
 #: playlistgenerator/PresetEditDialog.cpp:62
 #, kde-format
 msgid "Add new"
-msgstr "添加新的"
+msgstr "新增"
 
 #: playlistgenerator/PresetEditDialog.cpp:63
 #: playlistgenerator/PresetEditDialog.cpp:65
@@ -12628,7 +12628,7 @@ msgstr "保存在数据库中的本地播放列表"
 #: playlistmanager/SyncedPlaylist.cpp:43 playlistmanager/SyncedPlaylist.cpp:51
 #, kde-format
 msgid "<Empty>"
-msgstr "<清空>"
+msgstr "<空>"
 
 #: PluginManager.cpp:144
 #, kde-format
@@ -12702,12 +12702,12 @@ msgstr "执行脚本"
 #: scripting/scriptconsole/ScriptConsole.cpp:107
 #, kde-format
 msgid "&New Script"
-msgstr "&新建脚本"
+msgstr "新建脚本 (&N)"
 
 #: scripting/scriptconsole/ScriptConsole.cpp:111
 #, kde-format
 msgid "&Delete Script"
-msgstr "&删除脚本"
+msgstr "删除脚本 (&D)"
 
 #: scripting/scriptconsole/ScriptConsole.cpp:114
 #, kde-format
@@ -12727,7 +12727,7 @@ msgstr "下一个脚本"
 #: scripting/scriptconsole/ScriptConsole.cpp:129
 #, kde-format
 msgid "&View"
-msgstr "视图(&V)"
+msgstr "视图 (&V)"
 
 #: scripting/scriptconsole/ScriptConsole.cpp:217
 #, kde-format
@@ -12747,7 +12747,7 @@ msgstr "要从磁盘中删除此脚本文件吗？"
 #: scripting/scriptconsole/ScriptConsole.cpp:422
 #, kde-format
 msgid "Remove Script"
-msgstr "移除脚本"
+msgstr "删除脚本"
 
 #: scripting/scriptconsole/ScriptConsole.cpp:452
 #, kde-format
@@ -12932,7 +12932,7 @@ msgstr "gpodder.net 是一种有在线播客目录及同步服务的网站。"
 #: services/opmldirectory/OpmlDirectoryService.cpp:127
 #, kde-format
 msgid "Subscribe"
-msgstr "关注"
+msgstr "订阅"
 
 #: services/gpodder/GpodderServiceConfig.cpp:157
 #, kde-format
@@ -12948,7 +12948,7 @@ msgstr "KWallet 未运行，您要将 gpodder.net 登录信息以纯文本的方
 #: services/lastfm/LastFmServiceSettings.cpp:102
 #, kde-format
 msgid "Testing..."
-msgstr "测试工作……"
+msgstr "正在测试..."
 
 #: services/gpodder/GpodderServiceSettings.cpp:112
 #, kde-format
@@ -12963,7 +12963,7 @@ msgstr "用户名或密码为空，请修改后重试。"
 #: services/lastfm/LastFmServiceSettings.cpp:173
 #, kde-format
 msgid "Failed"
-msgstr "已失败"
+msgstr "失败"
 
 #: services/gpodder/GpodderServiceSettings.cpp:124
 #: services/lastfm/LastFmServiceSettings.cpp:142
@@ -12992,7 +12992,7 @@ msgstr "解析响应时出错，请检查 gpodder.net 是否工作正常，并�
 #: services/jamendo/JamendoInfoParser.cpp:77
 #, kde-format
 msgid "No description available..."
-msgstr "无可用的描述..."
+msgstr "无相关描述..."
 
 #: services/jamendo/JamendoInfoParser.cpp:61
 #: services/jamendo/JamendoInfoParser.cpp:93
@@ -13136,7 +13136,7 @@ msgstr "Last.fm 排行榜中第 %1 到第 %2 的歌曲"
 #, kde-format
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "from:"
-msgstr "发件人："
+msgstr "从："
 
 #: services/lastfm/biases/WeeklyTopBias.cpp:145
 #, kde-format
@@ -13196,7 +13196,7 @@ msgstr "使用精致的标签来表示评分"
 #: services/lastfm/LastFmConfigWidget.ui:168
 #, kde-format
 msgid "<html>When scrobbling tracks to Last.fm, it autocorrects common errors in track tags like artist, album and title. Check this to be notified when this happens and what the autocorrection was</html>"
-msgstr "<html>当音乐被记录 (scrobbling) 到 Last.fm 上时，它会自动纠正音乐标签中的常见错误，如艺人、专辑和歌名。选中此项后，当 Last.fm 进行自动纠错时，Amarok 会提醒您纠错的具体内容。</html>"
+msgstr "<html>当音乐被记录到 Last.fm 上时，它会自动纠正音乐标签中的常见错误，如艺人、专辑和歌名。选中此项后，当 Last.fm 进行自动纠错时，Amarok 会提醒您纠错的具体内容。</html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnnounceCorrections)
 #: services/lastfm/LastFmConfigWidget.ui:171
@@ -13208,19 +13208,19 @@ msgstr "歌曲标签被纠正时发出提醒"
 #: services/lastfm/LastFmConfigWidget.ui:180
 #, kde-format
 msgid "<html>Check if you want certain tracks neither to be scrobbled nor to be updated to Last.fm now playing</html>"
-msgstr "<html>选择不想被记录 (scrobbled) 或更新到 Last.fm 正在播放的特定歌曲。</html>"
+msgstr "<html>选择不想被记录或更新到 Last.fm 正在播放的特定歌曲。</html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FilterByLabel)
 #: services/lastfm/LastFmConfigWidget.ui:183
 #, kde-format
 msgid "Do not scrobble tracks with label:"
-msgstr "不要记录 (scrobble) 带有如下标签的歌曲："
+msgstr "不要记录带有如下标签的歌曲："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_FilteredLabel)
 #: services/lastfm/LastFmConfigWidget.ui:190
 #, kde-format
 msgid "<html>Select a preferred label (or write a new one). Tracks with this label will not be scrobbled</html>"
-msgstr "<html>选择想要的标签 (或写一个新标签)。带有这些标签的歌曲将不会被记录 (scrobbled)</html>"
+msgstr "<html>选择想要的标签 (或写一个新标签)。带有这些标签的歌曲将不会被记录</html>"
 
 #: services/lastfm/LastFmService.cpp:100
 #, kde-format
@@ -13293,7 +13293,7 @@ msgstr "标签"
 #: services/lastfm/LastFmService.cpp:456
 #, kde-format
 msgid "User"
-msgstr "所有者"
+msgstr "用户"
 
 #: services/lastfm/LastFmServiceCollection.cpp:32
 #, kde-format
@@ -13351,7 +13351,7 @@ msgstr "无法连接到 Last.fm 服务。"
 #, kde-format
 msgctxt "%1 is Last.fm tag name, %2 is its usage count"
 msgid "%1 (%2)"
-msgstr "%1 (%2 封)"
+msgstr "%1 (%2)"
 
 #: services/lastfm/LastFmTreeModel.cpp:179
 #, kde-format
@@ -13393,7 +13393,7 @@ msgstr "我的标签"
 #: services/lastfm/LastFmTreeModel.cpp:319
 #, kde-format
 msgid "Friends"
-msgstr "朋友"
+msgstr "好友"
 
 #: services/lastfm/meta/LastFmMeta.cpp:80
 #, kde-format
@@ -13522,7 +13522,7 @@ msgstr "%1 <b>%2</b> 应更正为 <b>%3</b>"
 #, kde-format
 msgctxt "%1 is artist, %2 is title"
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1——%2"
 
 #: services/lastfm/ScrobblerAdapter.cpp:270
 #, kde-format
@@ -13711,7 +13711,7 @@ msgstr "下载选项"
 #: services/magnatune/MagnatuneDownloadDialogBase.ui:25
 #, kde-format
 msgid "Select Format:"
-msgstr "选择格式:"
+msgstr "选择格式："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: services/magnatune/MagnatuneDownloadDialogBase.ui:38
@@ -13735,7 +13735,7 @@ msgstr "Magnatune 信息"
 #: services/magnatune/MagnatuneDownloadDialogBase.ui:83
 #, kde-format
 msgid "&Download"
-msgstr "&下载"
+msgstr "下载 (&D)"
 
 #: services/magnatune/MagnatuneDownloadHandler.cpp:83
 #, kde-format
@@ -14241,7 +14241,7 @@ msgstr "添加 OPML"
 #: services/opmldirectory/OpmlDirectoryModel.cpp:344
 #, kde-format
 msgid "New Folder"
-msgstr "新建文件夹"
+msgstr "新文件夹"
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:50
 #, kde-format
@@ -14314,7 +14314,7 @@ msgstr "您似乎只有一份本地收藏。统计数据同步只在有多个收
 #, kde-format
 msgctxt "%1 is play count and %2 is recent play count"
 msgid "%1 (%2)"
-msgstr "%1 (%2 封)"
+msgstr "%1 (%2)"
 
 #: statsyncing/models/CommonModel.cpp:166
 #: statsyncing/models/CommonModel.cpp:187
@@ -14342,13 +14342,13 @@ msgstr "忽略标签：%1"
 #: statsyncing/models/CommonModel.cpp:208
 #, kde-format
 msgid "%1 - %2 - %3"
-msgstr "%1 - %2 - %3"
+msgstr "%1——%2——%3"
 
 #: statsyncing/models/ProvidersModel.cpp:67
 #, kde-format
 msgctxt "%1: name, %2: description"
 msgid "%1 (%2)"
-msgstr "%1 (%2 封)"
+msgstr "%1 (%2)"
 
 #: statsyncing/models/ProvidersModel.cpp:72
 #, kde-format
@@ -14383,19 +14383,19 @@ msgstr[0] "%2 的同步已完成，共更新 <b>%1</b> 首歌曲。"
 #, kde-format
 msgid "<b>One</b> track was queued for scrobbling to %2."
 msgid_plural "<b>%1</b> tracks were queued for scrobbling to %2."
-msgstr[0] "有 <b>%1</b> 首歌曲正等待记录 (scrobbling) 至 %2。"
+msgstr[0] "有 <b>%1</b> 首歌曲正等待记录至 %2。"
 
 #: statsyncing/Process.cpp:280
 #, kde-format
 msgid "<b>One</b> track's played time was too short to be scrobbled."
 msgid_plural "<b>%1</b> tracks' played time was too short to be scrobbled."
-msgstr[0] "有 <b>%1</b> 首歌的播放次数太少，无法被记录 (scrobbled)。"
+msgstr[0] "有 <b>%1</b> 首歌的播放次数太少，无法被记录。"
 
 #: statsyncing/Process.cpp:284
 #, kde-format
 msgid "<b>One</b> track had insufficient metadata to be scrobbled."
 msgid_plural "<b>%1</b> tracks had insufficient metadata to be scrobbled."
-msgstr[0] "有 <b>%1</b> 首歌的元数据不足，无法被记录 (scrobbled)。"
+msgstr[0] "有 <b>%1</b> 首歌的元数据不足，无法被记录。"
 
 #: statsyncing/Process.cpp:288
 #, kde-format
@@ -14407,13 +14407,13 @@ msgstr[0] "<b>%1</b> 首歌曲提示自身在未来播放过。"
 #, kde-format
 msgid "<b>One</b> track was last played in too distant past to be scrobbled."
 msgid_plural "<b>%1</b> tracks were last played in too distant past to be scrobbled."
-msgstr[0] "<b>%1</b> 首歌曲上次播放时间过于久远，无法被记录 (scrobbled)。"
+msgstr[0] "<b>%1</b> 首歌曲上次播放时间过于久远，无法被记录。"
 
 #: statsyncing/Process.cpp:296
 #, kde-format
 msgid "Scrobbling of <b>one</b> track was skipped as configured by the user."
 msgid_plural "Scrobbling of <b>%1</b> tracks was skipped as configured by the user."
-msgstr[0] "由于用户配置，已跳过记录 (Scrobbling) <b>%1</b> 首歌曲。"
+msgstr[0] "由于用户配置，已跳过记录 <b>%1</b> 首歌曲。"
 
 #: statsyncing/ui/ChooseProvidersPage.cpp:33
 #: statsyncing/ui/MatchedTracksPage.cpp:135
@@ -14675,7 +14675,7 @@ msgstr "简版工具栏"
 #: widgets/Osd.cpp:202
 #, kde-format
 msgid "Volume: %1% (muted)"
-msgstr "音量: %1% (静音)"
+msgstr "音量：%1% (已静音)"
 
 #: toolbar/VolumePopupButton.cpp:104 widgets/Osd.cpp:202 widgets/VolumeDial.cpp:303
 #: widgets/VolumeDial.cpp:342
@@ -14701,7 +14701,7 @@ msgstr "复制时，您可以选择编码器 (编解码器) 并将歌曲转换�
 #: transcoding/TranscodingAssistantDialog.cpp:73
 #, kde-format
 msgid "&Copy"
-msgstr "复制(&C)"
+msgstr "复制 (&C)"
 
 #: transcoding/TranscodingAssistantDialog.cpp:74
 #, kde-format
@@ -14716,7 +14716,7 @@ msgstr "移动时，您可以选择编码器 (编解码器) 并将歌曲转换�
 #: transcoding/TranscodingAssistantDialog.cpp:84
 #, kde-format
 msgid "&Move"
-msgstr "回合(&M)"
+msgstr "移动 (&M)"
 
 #: transcoding/TranscodingAssistantDialog.cpp:85
 #, kde-format
@@ -14812,7 +14812,7 @@ msgstr "在每次传输前都询问"
 #: TrayIcon.cpp:153 widgets/VolumeDial.cpp:303 widgets/VolumeDial.cpp:342
 #, kde-format
 msgid "Muted"
-msgstr "静音"
+msgstr "已静音"
 
 #: TrayIcon.cpp:157
 #, kde-format
@@ -14877,7 +14877,7 @@ msgstr "将当前视图的书签复制到剪贴板"
 #: widgets/FilenameLayoutWidget.cpp:78
 #, kde-format
 msgid "Scheme"
-msgstr "Scheme"
+msgstr "文件名结构"
 
 #: widgets/FilenameLayoutWidget.cpp:84
 #, kde-format
@@ -14887,7 +14887,7 @@ msgstr "预设："
 #: widgets/FilenameLayoutWidget.cpp:88
 #, kde-format
 msgid "A list of selectable filename scheme/format presets."
-msgstr "可选的文件名方案或格式的预设列表。"
+msgstr "可选的文件名结构或格式的预设列表。"
 
 #: widgets/FilenameLayoutWidget.cpp:92
 #, kde-format
@@ -14897,7 +14897,7 @@ msgstr "添加预设"
 #: widgets/FilenameLayoutWidget.cpp:93
 #, kde-format
 msgid "Saves the current scheme/format as new preset."
-msgstr "将当前方案或格式保存为新预设"
+msgstr "将当前结构或格式保存为新预设"
 
 #: widgets/FilenameLayoutWidget.cpp:96
 #, kde-format
@@ -14907,7 +14907,7 @@ msgstr "更新预设"
 #: widgets/FilenameLayoutWidget.cpp:97
 #, kde-format
 msgid "Updates the preset with the current scheme/format."
-msgstr "按当前方案或格式更新预设。"
+msgstr "按当前结构或格式更新预设。"
 
 #: widgets/FilenameLayoutWidget.cpp:100
 #, kde-format
@@ -14922,7 +14922,7 @@ msgstr "删除所选的预设。"
 #: widgets/FilenameLayoutWidget.cpp:198
 #, kde-format
 msgid "Ignore"
-msgstr "忽略(&I)"
+msgstr "忽略 (&I)"
 
 #: widgets/FilenameLayoutWidget.cpp:199
 #, kde-format
@@ -14943,12 +14943,12 @@ msgstr "收藏根"
 #: widgets/FilenameLayoutWidget.cpp:277
 #, kde-format
 msgid "&Basic..."
-msgstr "&基本..."
+msgstr "基础 (&B)..."
 
 #: widgets/FilenameLayoutWidget.cpp:282
 #, kde-format
 msgid "&Advanced..."
-msgstr "&高级..."
+msgstr "高级 (&A)..."
 
 #: widgets/FilenameLayoutWidget.cpp:434
 #, kde-format
@@ -14976,7 +14976,7 @@ msgstr[0] "分"
 #, kde-format
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] " 小时"
+msgstr[0] "时"
 
 #: widgets/MetaQueryWidget.cpp:135
 #, kde-format
@@ -14994,7 +14994,7 @@ msgstr[0] "周"
 #, kde-format
 msgid "month"
 msgid_plural "months"
-msgstr[0] "个月"
+msgstr[0] "月"
 
 #: widgets/MetaQueryWidget.cpp:138
 #, kde-format
@@ -15023,7 +15023,7 @@ msgstr "Hz"
 #, kde-format
 msgctxt "Unit for file size in mega byte"
 msgid "MiB"
-msgstr "MB"
+msgstr "MiB"
 
 #: widgets/MetaQueryWidget.cpp:843
 #, kde-format
@@ -15103,18 +15103,18 @@ msgstr "已暂停"
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, kde-format
 msgid "Play"
-msgstr "玩游戏"
+msgstr "播放"
 
 #: widgets/PlayPauseButton.cpp:81
 #, kde-format
 msgid "Pause"
-msgstr "Pause"
+msgstr "暂停"
 
 #: widgets/PrettyTreeDelegate.cpp:219
 #, kde-format
 msgctxt "Example: 3.5 GB free (unit is part of %1)"
 msgid "%1 free"
-msgstr "%1 空闲"
+msgstr "剩余 %1"
 
 #: widgets/ProgressWidget.cpp:44
 #, kde-format
@@ -15134,17 +15134,17 @@ msgstr "当前歌曲所剩的时间"
 #: widgets/SearchWidget.cpp:51
 #, kde-format
 msgid "Enter space-separated terms to search."
-msgstr "输入以空格分隔的词来搜索"
+msgstr "输入以空格分隔的多个条件来进行搜索"
 
 #: widgets/SearchWidget.cpp:73 widgets/SearchWidget.cpp:167
 #, kde-format
 msgid "Edit filter"
-msgstr "编辑筛选规则"
+msgstr "编辑筛选条件"
 
 #: widgets/SliderWidget.cpp:243
 #, kde-format
 msgid "Volume"
-msgstr "容积"
+msgstr "音量"
 
 #: widgets/SliderWidget.cpp:244
 #, kde-format
