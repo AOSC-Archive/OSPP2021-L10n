@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-21 00:25+0000\n"
-"PO-Revision-Date: 2021-07-24 14:52\n"
+"POT-Creation-Date: 2021-07-28 00:26+0000\n"
+"PO-Revision-Date: 2021-08-04 12:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "标签页"
 #: src/context/applets/upcomingevents/amarok-context-applet-upcomingEvents.desktop:2
 msgctxt "Name"
 msgid "Upcoming Events"
-msgstr "临近事件"
+msgstr "临近演出"
 
 #: src/context/applets/wikipedia/package/metadata.desktop:2
 msgctxt "Name"
@@ -201,7 +201,7 @@ msgstr "标签数据引擎"
 #: src/context/engines/upcomingevents/amarok-data-engine-upcomingEvents.desktop:2
 msgctxt "Name"
 msgid "Upcoming Events Data Engine"
-msgstr "临近事件数据引擎"
+msgstr "临近演出数据引擎"
 
 #: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
 msgctxt "Name"
@@ -419,7 +419,7 @@ msgctxt "Name"
 msgid "Cool Streams"
 msgstr "Cool Streams"
 
-#: src/scripting/scripts/radio_station_service/script.desktop:41
+#: src/scripting/scripts/radio_station_service/script.desktop:42
 msgctxt "Comment"
 msgid "A script that sets up a service with a few cool internet radio stations"
 msgstr "一个能让您收听一些很酷的互联网电台服务的脚本"
@@ -429,7 +429,7 @@ msgctxt "Name"
 msgid "Amarok Script Console"
 msgstr "Amarok 脚本控制台"
 
-#: src/scripting/scripts/script_console/script.desktop:41
+#: src/scripting/scripts/script_console/script.desktop:42
 msgctxt "Comment"
 msgid "Amarok Script Console"
 msgstr "Amarok 脚本控制台"
@@ -439,7 +439,7 @@ msgctxt "Name"
 msgid "Ampache Service Config"
 msgstr "Ampache 服务配置"
 
-#: src/services/ampache/amarok_service_ampache_config.desktop:62
+#: src/services/ampache/amarok_service_ampache_config.desktop:63
 msgctxt "Comment"
 msgid "Sets up the ampache server(s) to connect to"
 msgstr "设置要连接的 Ampache 服务器"
@@ -459,7 +459,7 @@ msgctxt "Name"
 msgid "gpodder.net Service Config"
 msgstr "gpodder.net 服务配置"
 
-#: src/services/gpodder/amarok_service_gpodder_config.desktop:53
+#: src/services/gpodder/amarok_service_gpodder_config.desktop:54
 msgctxt "Comment"
 msgid "Configure gpodder.net Credentials"
 msgstr "配置 gpodder.net 的登录信息"
@@ -469,7 +469,7 @@ msgctxt "Name"
 msgid "gpodder.net"
 msgstr "gpodder.net"
 
-#: src/services/gpodder/amarok_service_gpodder.desktop:49
+#: src/services/gpodder/amarok_service_gpodder.desktop:50
 msgctxt "Comment"
 msgid "Podcast Service"
 msgstr "播客服务"
@@ -489,7 +489,7 @@ msgctxt "Name"
 msgid "Last.fm Service Config"
 msgstr "Last.fm 服务配置"
 
-#: src/services/lastfm/amarok_service_lastfm_config.desktop:66
+#: src/services/lastfm/amarok_service_lastfm_config.desktop:67
 msgctxt "Comment"
 msgid "Set up Last.fm username and password"
 msgstr "设置 Last.fm 的用户名和密码"
@@ -499,7 +499,7 @@ msgctxt "Name"
 msgid "Last.fm"
 msgstr "Last.fm"
 
-#: src/services/lastfm/amarok_service_lastfm.desktop:57
+#: src/services/lastfm/amarok_service_lastfm.desktop:58
 msgctxt "Comment"
 msgid "A service that integrates Last.fm functionality into Amarok"
 msgstr "一个将 Last.fm 的功能集成到 Amarok 的服务"
@@ -509,7 +509,7 @@ msgctxt "Name"
 msgid "MagnatuneStore Service Config"
 msgstr "Magnatune 商店服务配置"
 
-#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:63
+#: src/services/magnatune/amarok_service_magnatunestore_config.desktop:64
 msgctxt "Comment"
 msgid "Configure Magnatune store settings and memberships credentials"
 msgstr "配置 Magnatune 商店的设置和会员信息"
@@ -519,17 +519,17 @@ msgctxt "Name"
 msgid "Magnatune Store"
 msgstr "Magnatune 商店"
 
-#: src/services/magnatune/amarok_service_magnatunestore.desktop:60
+#: src/services/magnatune/amarok_service_magnatunestore.desktop:61
 msgctxt "Comment"
 msgid "Preview and buy music from the non-evil Magnatune record label"
-msgstr "从不作恶的 Magnatune 唱片品牌中浏览并购买音乐"
+msgstr "从不作恶的 Magnatune 音乐厂牌中浏览并购买音乐"
 
 #: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:11
 msgctxt "Name"
 msgid "MP3tunes Service Config"
 msgstr "MP3tunes 服务配置"
 
-#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:57
+#: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:58
 msgctxt "Comment"
 msgid "Configure mp3tunes credentials"
 msgstr "配置 mp3tunes 的登录信息"
@@ -539,7 +539,7 @@ msgctxt "Name"
 msgid "MP3tunes"
 msgstr "MP3tunes"
 
-#: src/services/mp3tunes/amarok_service_mp3tunes.desktop:50
+#: src/services/mp3tunes/amarok_service_mp3tunes.desktop:51
 msgctxt "Comment"
 msgid "Browse and listen to the music stored in your MP3tunes account"
 msgstr "查看并聆听储存在 MP3tunes 账号中的音乐"
@@ -549,7 +549,7 @@ msgctxt "Name"
 msgid "Podcast Directory"
 msgstr "播客目录"
 
-#: src/services/opmldirectory/amarok_service_opmldirectory.desktop:54
+#: src/services/opmldirectory/amarok_service_opmldirectory.desktop:55
 msgctxt "Comment"
 msgid "Browse and subscribe to a huge list of podcasts"
 msgstr "查看并订阅内含大量播客的列表"
