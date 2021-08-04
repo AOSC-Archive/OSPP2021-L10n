@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:26+0000\n"
-"PO-Revision-Date: 2021-08-04 12:37\n"
+"PO-Revision-Date: 2021-08-04 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -185,7 +185,7 @@ msgstr "Amarok 的维基百科部件"
 #: src/context/context_qml_package/metadata.desktop:2
 msgctxt "Name"
 msgid "Amarok-Context-QML-Package"
-msgstr "Amarok 右键菜单的 QML 包"
+msgstr "Amarok 信息视图的 QML 包"
 
 #: src/context/context_qml_package/metadata.desktop:31
 msgctxt "Comment"
