@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-04 12:04\n"
+"PO-Revision-Date: 2021-08-04 12:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2093,7 +2093,7 @@ msgstr "播放列表自动生成器"
 #: browsers/playlistbrowser/APGCategory.cpp:47
 #, kde-format
 msgid "Create playlists by specifying criteria"
-msgstr "按指定条件创建播放列表"
+msgstr "按指定规则创建播放列表"
 
 #: browsers/playlistbrowser/APGCategory.cpp:63
 #, kde-format
@@ -2149,7 +2149,7 @@ msgstr "准确度"
 #, kde-format
 msgctxt "Bias dialog window title"
 msgid "Edit bias"
-msgstr "编辑偏好"
+msgstr "编辑偏好条件"
 
 #: browsers/playlistbrowser/DynamicBiasDialog.cpp:49
 #, kde-format
@@ -2162,13 +2162,13 @@ msgstr "匹配类型："
 msgid "This bias is a replacement for another bias\n"
 "which is currently not loaded or deactivated.\n"
 "The original bias name was %1."
-msgstr "此偏好将替换其它未加载或已禁用的偏好。\n"
-"偏好原名为 %1。"
+msgstr "此偏好条件将替换其它未加载或已禁用的偏好条件。\n"
+"偏好条件原名为 %1。"
 
 #: browsers/playlistbrowser/DynamicBiasDialog.cpp:196
 #, kde-format
 msgid "This bias has no settings."
-msgstr "此偏好内没有条件。"
+msgstr "此偏好条件内无任何设置。"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:46
 #, kde-format
@@ -2244,7 +2244,7 @@ msgstr "编辑"
 #: browsers/playlistbrowser/DynamicCategory.cpp:126
 #, kde-format
 msgid "Edit the selected playlist or bias"
-msgstr "编辑选中的播放列表或偏好"
+msgstr "编辑选中的播放列表或偏好条件"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetDeleteBtn)
 #: browsers/playlistbrowser/DynamicCategory.cpp:130
@@ -2256,7 +2256,7 @@ msgstr "删除"
 #: browsers/playlistbrowser/DynamicCategory.cpp:133
 #, kde-format
 msgid "Delete the selected playlist or bias"
-msgstr "删除选中的播放列表或偏好"
+msgstr "删除选中的播放列表或偏好条件"
 
 #: browsers/playlistbrowser/DynamicCategory.cpp:137
 #, kde-format
@@ -2276,7 +2276,7 @@ msgstr "重命名播放列表 (&R)"
 #: browsers/playlistbrowser/DynamicView.cpp:227
 #, kde-format
 msgid "&Add new Bias"
-msgstr "添加新偏好 (&A)"
+msgstr "添加新偏好条件 (&A)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:231
 #, kde-format
@@ -2291,22 +2291,22 @@ msgstr "删除播放列表 (&D)"
 #: browsers/playlistbrowser/DynamicView.cpp:249
 #, kde-format
 msgid "&Edit bias..."
-msgstr "编辑偏好 (&E)..."
+msgstr "编辑偏好条件 (&E)..."
 
 #: browsers/playlistbrowser/DynamicView.cpp:253
 #, kde-format
 msgid "&Clone bias"
-msgstr "复制偏好 (&C)"
+msgstr "复制偏好条件 (&C)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:263
 #, kde-format
 msgid "&Delete bias"
-msgstr "删除偏好 (&D)"
+msgstr "删除偏好条件 (&D)"
 
 #: browsers/playlistbrowser/DynamicView.cpp:270
 #, kde-format
 msgid "&Add new bias"
-msgstr "添加新偏好 (&A)"
+msgstr "添加新偏好条件 (&A)"
 
 #: browsers/playlistbrowser/PlaylistBrowser.cpp:43
 #, kde-format
@@ -3799,7 +3799,7 @@ msgstr "标签设置"
 #: context/applets/labels/labelsGeneralSettings.ui:169
 #, kde-format
 msgid "Minimum label score:"
-msgstr "显示的标签的最小评分："
+msgstr "只显示至少高于此分数的标签："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minCountSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:56
@@ -3825,7 +3825,7 @@ msgstr "不显示超过此数量的标签。\n"
 #: context/applets/labels/labelsGeneralSettings.ui:108
 #, kde-format
 msgid "Show personal labels with score:"
-msgstr "显示的个性化标签的最小评分："
+msgstr "显示此分数范围的个性化标签："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, personalCountSpinBox)
 #: context/applets/labels/labelsGeneralSettings.ui:127
@@ -4183,7 +4183,7 @@ msgstr "指法谱：正在获取..."
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "No Tabs for %1 by %2"
-msgstr "找不到 %2 所作的 %1 的指法谱"
+msgstr "找不到 %2 的 %1 的指法谱"
 
 #: context/applets/tabs/TabsApplet.cpp:180
 #, kde-format
@@ -6255,7 +6255,7 @@ msgstr "年份"
 #, kde-format
 msgctxt "Track field name"
 msgid "Comment"
-msgstr "注释"
+msgstr "附注"
 
 #: core/meta/support/MetaConstants.cpp:189
 #, kde-format
@@ -6447,7 +6447,7 @@ msgstr "年"
 #, kde-format
 msgctxt "One word translation used in the collection filter"
 msgid "comment"
-msgstr "注释"
+msgstr "附注"
 
 #: core/meta/support/MetaConstants.cpp:233
 #, kde-format
@@ -8242,7 +8242,7 @@ msgstr "勾选后，MS-DOS/VFAT 文件系统不支持的字符将被替换为下
 #: dialogs/OrganizeCollectionOptions.ui:83
 #, kde-format
 msgid "&VFAT safe names"
-msgstr "对 &VFAT 安全的命名"
+msgstr "对 &VFAT 安全的名字"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, asciiCheck)
 #: dialogs/OrganizeCollectionOptions.ui:104
@@ -8529,7 +8529,7 @@ msgstr "每分钟节拍数 (&E)："
 #: dialogs/TagDialogBase.ui:844
 #, kde-format
 msgid "Co&mment:"
-msgstr "注释 (&M)："
+msgstr "附注 (&M)："
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
 #: dialogs/TagDialogBase.ui:875
@@ -8714,7 +8714,7 @@ msgstr "音轨编号"
 #: dialogs/TagGuessOptions.ui:263
 #, kde-format
 msgid "Comment:"
-msgstr "注释："
+msgstr "附注："
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #: dialogs/TagGuessOptions.ui:289
@@ -8741,7 +8741,7 @@ msgstr "未知艺人"
 #: dialogs/TrackOrganizer.cpp:107
 #, kde-format
 msgid "No comments"
-msgstr "无注释"
+msgstr "无附注"
 
 #: dialogs/TrackOrganizer.cpp:108
 #, kde-format
@@ -8863,13 +8863,13 @@ msgstr "正在生成播放列表..."
 #, kde-format
 msgctxt "Name of the \"AlbumPlay\" bias"
 msgid "Album play"
-msgstr "同专辑播放"
+msgstr "播放专辑"
 
 #: dynamic/biases/AlbumPlayBias.cpp:45
 #, kde-format
 msgctxt "Description of the \"AlbumPlay\" bias"
 msgid "The \"AlbumPlay\" bias adds tracks that belong to one album."
-msgstr "“同专辑播放”的偏好可添加同专辑的歌曲。"
+msgstr "“播放专辑”偏好条件可添加同专辑的歌曲。"
 
 #: dynamic/biases/AlbumPlayBias.cpp:107
 #, kde-format
@@ -8914,7 +8914,7 @@ msgstr "EchoNest 相似艺人"
 #, kde-format
 msgctxt "Description of the \"EchoNest\" bias"
 msgid "The \"EchoNest\" bias looks up tracks on echo nest and only adds similar tracks."
-msgstr "“EchoNest”偏好可查找并只添加 echo nest 上的相似歌曲。"
+msgstr "“EchoNest”偏好条件可查找并只添加 echo nest 上的相似歌曲。"
 
 #: dynamic/biases/EchoNestBias.cpp:126
 #, kde-format
@@ -8954,8 +8954,8 @@ msgstr "如果……否则……"
 msgctxt "Description of the \"IfElse\" bias"
 msgid "The \"IfElse\" bias adds tracks that match at least one of the sub biases.\n"
 "It will only check the second sub-bias if the first doesn't return any results."
-msgstr "“如果……否则……”偏好会添加至少符合其中一个子偏好的歌曲。\n"
-"仅当首个子偏好未返回结果时，才会检查第二个子偏好。"
+msgstr "“如果……否则……”偏好条件会添加至少符合其中一个子偏好条件的歌曲。\n"
+"仅当首个子偏好条件未返回结果时，才会检查第二个子偏好条件。"
 
 #: dynamic/biases/IfElseBias.cpp:72
 #, kde-format
@@ -8979,7 +8979,7 @@ msgstr "部分"
 #, kde-format
 msgctxt "Description of the \"Part\" bias"
 msgid "The \"Part\" bias fills parts of the playlist from different sub-biases."
-msgstr "“部分”偏好根据不同的子偏好填充播放列表的各个部分。"
+msgstr "“部分”偏好条件根据不同的子偏好条件填充播放列表的各个部分。"
 
 #: dynamic/biases/PartBias.cpp:255
 #, kde-format
@@ -9003,7 +9003,7 @@ msgstr "接龙播放"
 msgctxt "Description of the \"QuizPlay\" bias"
 msgid "The \"QuizPlay\" bias adds tracks that start\n"
 "with a character the last track ended with."
-msgstr "“接龙播放”偏好能添加以上首歌结尾为开头的歌曲。"
+msgstr "“接龙播放”偏好条件能添加以上首歌结尾为开头的歌曲。"
 
 #: dynamic/biases/QuizPlayBias.cpp:116
 #, kde-format
@@ -9059,7 +9059,7 @@ msgctxt "Description of the \"SearchQuery\" bias"
 msgid "The \"SearchQuery\" bias adds tracks that are\n"
 "found by a search query. It uses the same search\n"
 "query as the collection browser."
-msgstr "“指令查询”偏好可添加符合搜索指令的歌曲。\n"
+msgstr "“指令查询”偏好条件可添加符合搜索指令的歌曲。\n"
 "它使用了与收藏浏览器相同的搜索指令。"
 
 #: dynamic/biases/SearchQueryBias.cpp:118
@@ -9079,7 +9079,7 @@ msgstr "元数据标签匹配"
 msgctxt "Description of the \"TagMatch\" bias"
 msgid "The \"TagMatch\" bias adds tracks that\n"
 "fulfill a specific condition."
-msgstr "“标签匹配”偏好能添加满足指定条件的歌曲。"
+msgstr "“标签匹配”偏好条件能添加满足指定条件的歌曲。"
 
 #: dynamic/biases/TagMatchBias.cpp:176
 #, kde-format
@@ -9103,7 +9103,7 @@ msgstr "随机"
 msgctxt "Description of the random bias"
 msgid "The random bias adds random tracks from the\n"
 "whole collection without any bias."
-msgstr "随机偏好会随机无条件添加整个收藏中的歌曲。"
+msgstr "随机偏好条件会随机无条件添加整个收藏中的歌曲。"
 
 #: dynamic/BiasFactory.cpp:68
 #, kde-format
@@ -9116,7 +9116,7 @@ msgstr "和"
 msgctxt "Description of the \"And\" bias"
 msgid "The \"And\" bias adds tracks that match all\n"
 "of the sub biases."
-msgstr "“同时匹配”偏好可添加符合所有子偏好的歌曲。"
+msgstr "“同时匹配”偏好条件可添加符合所有子偏好条件的歌曲。"
 
 #: dynamic/BiasFactory.cpp:86
 #, kde-format
@@ -9129,12 +9129,12 @@ msgstr "或"
 msgctxt "Description of the \"Or\" bias"
 msgid "The \"Or\" bias adds tracks that match at\n"
 "least one of the sub biases."
-msgstr "“任一匹配”可添加符合任意一条子偏好的歌曲。"
+msgstr "“任一匹配”偏好条件可添加符合任意一条子偏好条件的歌曲。"
 
 #: dynamic/BiasFactory.cpp:182 dynamic/BiasFactory.cpp:188
 #, kde-format
 msgid "Replacement for bias %1"
-msgstr "替换偏好 %1"
+msgstr "替换偏好条件 %1"
 
 #: dynamic/DynamicModel.cpp:778
 #, kde-format
@@ -9762,7 +9762,7 @@ msgstr "Daniel Caleb Jones"
 #: main.cpp:204
 #, kde-format
 msgid "Biased playlists"
-msgstr "条件播放列表"
+msgstr "偏好条件播放列表"
 
 #: main.cpp:206
 #, kde-format
@@ -11307,7 +11307,7 @@ msgstr "BPM"
 #: playlist/PlaylistModel.cpp:935
 #, kde-format
 msgid "Comment"
-msgstr "注释"
+msgstr "附注"
 
 #: playlist/PlaylistModel.cpp:936
 #, kde-format
@@ -12417,7 +12417,7 @@ msgstr "年份"
 #: playlistgenerator/constraints/TagMatchSupport.cpp:92
 #, kde-format
 msgid "comment"
-msgstr "注释"
+msgstr "附注"
 
 #: playlistgenerator/constraints/TagMatchSupport.cpp:93
 #, kde-format
@@ -13090,7 +13090,7 @@ msgstr "Last.Fm 相似查找"
 #, kde-format
 msgctxt "Description of the \"Last.fm\" bias"
 msgid "The \"Last.fm\" similar bias looks up tracks on Last.fm and only adds similar tracks."
-msgstr "“Last.fm”相似偏好可查找并只添加 Last.fm 上的相似歌曲。"
+msgstr "“Last.fm”相似偏好条件可查找并只添加 Last.fm 上的相似歌曲。"
 
 #: services/lastfm/biases/LastFmBias.cpp:126
 #, kde-format
@@ -13124,7 +13124,7 @@ msgstr "Last.fm 每周歌手排行"
 #, kde-format
 msgctxt "Description of the \"WeeklyTop\" bias"
 msgid "The \"WeeklyTop\" bias adds tracks that are in the weekly top chart of Last.fm."
-msgstr "“周榜”偏好能添加 Last.fm 上的每周排行榜内的曲目。"
+msgstr "“周榜”偏好条件能添加 Last.fm 上的每周排行榜内的歌曲。"
 
 #: services/lastfm/biases/WeeklyTopBias.cpp:123
 #, kde-format
@@ -14274,12 +14274,12 @@ msgstr "正在加载相关信息..."
 #: services/ServiceBase.cpp:337
 #, kde-format
 msgid "This service does not accept any messages"
-msgstr "此服务不接受任何消息"
+msgstr "此服务不接受任何信息"
 
 #: services/ServiceBase.cpp:344
 #, kde-format
 msgid "ERROR: unknown message"
-msgstr "错误：未知消息"
+msgstr "错误：未知信息"
 
 #: services/ServiceMetaBase.cpp:249
 #, kde-format
