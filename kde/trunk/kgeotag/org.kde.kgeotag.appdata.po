@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-01-23 02:34+0100\n"
+"PO-Revision-Date: 2021-08-05 16:01\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kgeotag/org.kde.kgeotag.appdata.pot\n"
+"X-Crowdin-File-ID: 24908\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kgeotag.appdata.xml:10
+msgid "KGeoTag"
+msgstr "KGeoTag"
+
+#. (itstool) path: component/summary
+#: org.kde.kgeotag.appdata.xml:11
+msgid "Photo geotagging program"
+msgstr "照片地理标签管理程序"
+
+#. (itstool) path: description/p
+#: org.kde.kgeotag.appdata.xml:13
+msgid "KGeoTag is a standalone geotagging program. Images can be associated with geographic coordinates by different means: On the one hand, a matching with GPX encoded geodata can be done, on the other hand, the coordinates can be set manually, either via drag and drop onto a map, via bookmarks or by manually supplying them. The coordinates can be stored in the images' Exif header and/or in XMP sidecar files."
+msgstr "KGeoTag 是一个独立的地理标签应用程序。图片可根据不同的方式与地理坐标相关联：一方面，可以与 GPX 编码的地理数据匹配；另一方面，可以手动设置坐标，如通过在地图上拖放、通过书签或通过手动提供。您还可将坐标储存在图片的 Exif 头和／或 XMP 附带文件内。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kgeotag.appdata.xml:18
+msgid "Geotagging with KGeoTag"
+msgstr "使用 KGeoTag 管理地理位置标签"
+
