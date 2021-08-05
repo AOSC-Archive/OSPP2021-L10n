@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-01-18 02:33+0100\n"
-"PO-Revision-Date: 2021-07-23 14:38\n"
+"PO-Revision-Date: 2021-08-05 15:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -56,12 +56,12 @@ msgstr ""
 #: src/AutomaticMatchingWidget.cpp:83
 #, kde-format
 msgid "Maximum interval:"
-msgstr ""
+msgstr "最大间隔："
 
 #: src/AutomaticMatchingWidget.cpp:104
 #, kde-format
 msgid "Maximum distance:"
-msgstr ""
+msgstr "最大距离："
 
 #: src/AutomaticMatchingWidget.cpp:111
 #, kde-format
@@ -219,7 +219,7 @@ msgstr "坐标：%1, %2；海拔高度：%3 m"
 #: src/CoordinatesDialog.cpp:36
 #, kde-format
 msgid "Label:"
-msgstr ""
+msgstr "标签："
 
 #: src/CoordinatesDialog.cpp:41
 #, kde-format
@@ -277,215 +277,215 @@ msgstr "%1 的坐标："
 #, kde-format
 msgctxt "Formatted longitude with a cardinal direction"
 msgid "%1° %2"
-msgstr ""
+msgstr "%1° %2"
 
 #: src/CoordinatesFormatter.cpp:35
 #, kde-format
 msgctxt "Abbreviated cardinal direction \"East\""
 msgid "E"
-msgstr ""
+msgstr "东"
 
 #: src/CoordinatesFormatter.cpp:36
 #, kde-format
 msgctxt "Abbreviated cardinal direction \"West\""
 msgid "W"
-msgstr ""
+msgstr "西"
 
 #: src/CoordinatesFormatter.cpp:41
 #, kde-format
 msgctxt "Formatted latitude with a cardinal direction"
 msgid "%1° %2"
-msgstr ""
+msgstr "%1° %2"
 
 #: src/CoordinatesFormatter.cpp:43
 #, kde-format
 msgctxt "Abbreviated cardinal direction \"North\""
 msgid "N"
-msgstr ""
+msgstr "北"
 
 #: src/CoordinatesFormatter.cpp:44
 #, kde-format
 msgctxt "Abbreviated cardinal direction \"South\""
 msgid "S"
-msgstr ""
+msgstr "南"
 
 #: src/ElevationEngine.cpp:123
 #, kde-format
 msgid "The request timed out"
-msgstr ""
+msgstr "请求超时"
 
 #: src/ElevationEngine.cpp:142
 #, kde-format
 msgid "Could not parse the server's response: Failed to create a JSON document.</p><p>The error's description was: %1</p><p>The literal response was:</p><p><kbd>%2</kbd>"
-msgstr ""
+msgstr "无法解析服务器响应：JSON 文档创建失败。</p><p>错误的描述为：%1</p><p>字面量的响应为：</p><p><kbd>%2</kbd>"
 
 #: src/ElevationEngine.cpp:154
 #, kde-format
 msgid "Could not parse the server's response: Could not read the status value"
-msgstr ""
+msgstr "无法解析服务器响应：无法读取状态值"
 
 #: src/ElevationEngine.cpp:162
 #, kde-format
 msgid "Could not read error description"
-msgstr ""
+msgstr "无法读取错误描述"
 
 #: src/ElevationEngine.cpp:164
 #, kde-format
 msgctxt "A server error status followed by the error description"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1：%2"
 
 #: src/ElevationEngine.cpp:170
 #, kde-format
 msgid "Could not parse the server's response: Could not read the results array"
-msgstr ""
+msgstr "无法解析服务器响应：无法读取结果数组"
 
 #: src/ElevationEngine.cpp:181
 #, kde-format
 msgid "Could not parse the server's response: Could not read the elevation value"
-msgstr ""
+msgstr "无法解析服务器响应：无法读取海拔值"
 
 #: src/FixDriftWidget.cpp:27
 #, kde-format
 msgid "Images' time zone"
-msgstr ""
+msgstr "图片的时区"
 
 #: src/FixDriftWidget.cpp:31
 #, kde-format
 msgid "The images were taken in the following timezone:"
-msgstr ""
+msgstr "此图片摄于以下时区："
 
 #: src/FixDriftWidget.cpp:59
 #, kde-format
 msgid "Camera clock time drift"
-msgstr ""
+msgstr "相机时间偏差"
 
 #: src/FixDriftWidget.cpp:63
 #, kde-format
 msgid "Deviation between image dates and the (exact) GPS data time:"
-msgstr ""
+msgstr "图片日期与 (精确的) GPS 数据时间之间的偏差："
 
 #: src/FixDriftWidget.cpp:75
 #, kde-format
 msgid "hours"
-msgstr ""
+msgstr "小时"
 
 #: src/FixDriftWidget.cpp:83
 #, kde-format
 msgid "minutes"
-msgstr ""
+msgstr "分钟"
 
 #: src/FixDriftWidget.cpp:97
 #, kde-format
 msgid "Display the fixed dates and times"
-msgstr ""
+msgstr "显示修正后的时间和日期"
 
 #: src/FixDriftWidget.cpp:102
 #, kde-format
 msgid "Fix the files' dates and times when saving"
-msgstr ""
+msgstr "保存时修正文件的时间和日期"
 
 #: src/ImagesListView.cpp:59
 #, kde-format
 msgid "Select all images"
-msgstr ""
+msgstr "选择所有图片"
 
 #: src/ImagesListView.cpp:63
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 #: src/ImagesListView.cpp:65 src/MainWindow.cpp:114
 #, kde-format
 msgid "All images"
-msgstr ""
+msgstr "所有图片"
 
 #: src/ImagesListView.cpp:67
 #, kde-format
 msgid "All images without coordinates"
-msgstr ""
+msgstr "所有无坐标的图片"
 
 #: src/ImagesListView.cpp:70
 #, kde-format
 msgid "All images with coordinates"
-msgstr ""
+msgstr "所有带坐标的图片"
 
 #: src/ImagesListView.cpp:76 src/MainWindow.cpp:173
 #, kde-format
 msgid "Automatic matching"
-msgstr ""
+msgstr "自动匹配"
 
 #: src/ImagesListView.cpp:99
 #, kde-format
 msgid "Assign to bookmark"
-msgstr ""
+msgstr "分配至书签内"
 
 #: src/ImagesListView.cpp:105
 #, kde-format
 msgid "Assign to map center"
-msgstr ""
+msgstr "分配至地图中心"
 
 #: src/ImagesListView.cpp:110
 #, kde-format
 msgid "Set coordinates manually"
-msgstr ""
+msgstr "手动设置坐标"
 
 #: src/ImagesListView.cpp:126 src/MainWindow.cpp:1146 src/MainWindow.cpp:1199
 #: src/MainWindow.cpp:1245 src/MainWindow.cpp:1308 src/MainWindow.cpp:1339
 #: src/MainWindow.cpp:1342 src/MainWindow.cpp:1347
 #, kde-format
 msgid "Save changes"
-msgstr ""
+msgstr "保存更改"
 
 #: src/ImagesListView.cpp:133
 #, kde-format
 msgid "Remove coordinates"
-msgstr ""
+msgstr "删除坐标"
 
 #: src/ImagesListView.cpp:140
 #, kde-format
 msgid "Discard changes"
-msgstr ""
+msgstr "放弃更改"
 
 #: src/ImagesListView.cpp:145 src/ImagesListView.cpp:286
 #: src/MainWindow.cpp:1491
 #, kde-format
 msgid "Remove image"
 msgid_plural "Remove images"
-msgstr[0] ""
+msgstr[0] "删除图片"
 
 #: src/ImagesListView.cpp:175
 #, kde-format
 msgid "(No bookmarks defined)"
-msgstr ""
+msgstr "(您还没有书签)"
 
 #: src/ImagesModel.cpp:53
 #, kde-format
 msgctxt "Marker for an associated file"
 msgid "✓ "
-msgstr ""
+msgstr "✓ "
 
 #: src/ImagesModel.cpp:56
 #, kde-format
 msgctxt "Marker for a file with a pending change"
 msgid " *"
-msgstr ""
+msgstr " *"
 
 #: src/ImagesModel.cpp:61
 #, kde-format
 msgctxt "Pattern for a display filename with a \"pending change\" and an \"associated\" marker. The first option is the \"associated\" marker, the second one is the filename and the third one the \"pending change\" marker."
 msgid "%1%2%3"
-msgstr ""
+msgstr "%1%2%3"
 
 #: src/main.cpp:34 src/MainWindow.cpp:74
 #, kde-format
 msgid "KGeoTag"
-msgstr ""
+msgstr "KGeoTag"
 
 #: src/main.cpp:36
 #, kde-format
 msgid "Photo geotagging program"
-msgstr ""
+msgstr "为图片标记地理位置的应用程序"
 
 #: src/main.cpp:38
 #, kde-format
@@ -555,7 +555,7 @@ msgstr "预览"
 #: src/MainWindow.cpp:181
 #, kde-format
 msgid "Fix time drift"
-msgstr "修复时间偏移"
+msgstr "修正时间偏差"
 
 #: src/MainWindow.cpp:199
 #, kde-format
@@ -748,7 +748,7 @@ msgstr "无法检测时区"
 #: src/MainWindow.cpp:644
 #, kde-format
 msgid "<p>The presumably correct timezone for images associated with the loaded GPX file could not be detected.</p><p>Please set the correct timezone manually on the \"Fix time drift\" page.</p>"
-msgstr "<p>无法检测到与已加载 GPX 文件相关的图像的大致时区。</p><p>请在“修复时间偏移”页中手动设置正确的时区。</p>"
+msgstr "<p>无法检测到与已加载 GPX 文件相关的图像的大致时区。</p><p>请在“修复时间偏差”页中手动设置正确的时区。</p>"
 
 #: src/MainWindow.cpp:650
 #, kde-format
@@ -758,172 +758,172 @@ msgstr "无法设置所检测的时区"
 #: src/MainWindow.cpp:651
 #, kde-format
 msgid "<p>The presumably correct timezone \"%1\" has been detected from the loaded GPX file, but could not be set. This should not happen!</p><p>Please file a bug report about this, including the used version of KGeoTag and Qt!</p><p>You can adjust the timezone setting manually on the \"Fix time drift\" page.</p>"
-msgstr ""
+msgstr "<p>从已加载的 GPX 文件中检测到了一个大致准确的时区“%1”，但 KGeoTag 无法设置此时区。这种情况不应当发生！</p><p>请提交有关此问题的错误报告，包括您使用的 KGeoTag 版本和 Qt 版本！</p><p>您可以在“修正时间偏差”页面内手动调整时区设置。</p>"
 
 #: src/MainWindow.cpp:659
 #, kde-format
 msgid "Timezone adjusted"
-msgstr ""
+msgstr "调整时区"
 
 #: src/MainWindow.cpp:660
 #, kde-format
 msgid "<p>The loaded GPX file was presumably recorded in the timezone \"%1\", as well as the photos to associate with it. This timezone has been selected now.</p><p>You can adjust the timezone setting manually on the \"Fix time drift\" page.</p>"
-msgstr ""
+msgstr "<p>从已加载的 GPX 文件中检测到了一个大致准确的时区“%1”及其相关图片，现已选中该时区。</p><p>您可以在“修正时间偏差”页面内手动调整时区设置。</p>"
 
 #: src/MainWindow.cpp:686
 #, kde-format
 msgid "Loading images ..."
-msgstr ""
+msgstr "正在加载图片..."
 
 #: src/MainWindow.cpp:686 src/MainWindow.cpp:959 src/MainWindow.cpp:1166
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/MainWindow.cpp:712
 #, kde-format
 msgid "<p><b>Loading image failed</b></p><p>Could not read <kbd>%1</kbd>.</p>"
-msgstr ""
+msgstr "<p><b>图片加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
 
 #: src/MainWindow.cpp:718
 #, kde-format
 msgctxt "Message with a fraction of processed files added in round braces"
 msgid "<p><b>Loading image failed (%1/%2)</b></p><p>Could not read <kbd>%3</kbd>.</p>"
-msgstr ""
+msgstr "<p><b>图片加载失败 (%1/%2)</b></p><p>无法读取 <kbd>%3</kbd>。</p>"
 
 #: src/MainWindow.cpp:727
 #, kde-format
 msgid "<p><b>Loading image's Exif header or XMP sidecar file failed</b></p><p>Could not read <kbd>%1</kbd>.</p>"
-msgstr ""
+msgstr "<p><b>图片的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
 
 #: src/MainWindow.cpp:733
 #, kde-format
 msgctxt "Message with a fraction of processed files added in round braces"
 msgid "<p><b>Loading image's Exif header or XMP sidecar file failed</b></p><p>Could not read <kbd>%2</kbd>.</p>"
-msgstr ""
+msgstr "<p><b>图片的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%2</kbd>。</p>"
 
 #: src/MainWindow.cpp:745
 #, kde-format
 msgid "<p>Please check if this file is actually a supported image and if you have read access to it.</p>"
-msgstr ""
+msgstr "<p>请检查文件是否为 KGeoTag 支持的图片，并检查您是否有它的读取权限。</p>"
 
 #: src/MainWindow.cpp:749
 #, kde-format
 msgid "<p>You can retry to load this file or cancel the loading process.</p>"
-msgstr ""
+msgstr "<p>您可以重新尝试加载此文件，或直接取消加载。</p>"
 
 #: src/MainWindow.cpp:752
 #, kde-format
 msgid "<p>You can retry to load this file, skip it or cancel the loading process.</p>"
-msgstr ""
+msgstr "<p>您可以重新尝试加载此文件、跳过加载或直接取消加载。</p>"
 
 #: src/MainWindow.cpp:759 src/MainWindow.cpp:791 src/MainWindow.cpp:797
 #: src/MainWindow.cpp:801 src/MainWindow.cpp:805 src/MainWindow.cpp:837
 #, kde-format
 msgid "Add images"
-msgstr ""
+msgstr "添加图片"
 
 #: src/MainWindow.cpp:792
 #, kde-format
 msgid "Successfully added one image!"
 msgid_plural "Successfully added %1 images!"
-msgstr[0] ""
+msgstr[0] "成功添加了 %1 张图片！"
 
 #: src/MainWindow.cpp:798
 #, kde-format
 msgid "Could not add any new images, all requested images failed to load!"
-msgstr ""
+msgstr "无法添加新图片，请求的图片都已加载失败！"
 
 #: src/MainWindow.cpp:802
 #, kde-format
 msgid "Could not add any new images, all requested images have already been loaded!"
-msgstr ""
+msgstr "无法添加新图片，请求的图片都已经加载过了！"
 
 #: src/MainWindow.cpp:806
 #, kde-format
 msgid "Could not add any new images, all requested images failed to load or have already been loaded!"
-msgstr ""
+msgstr "无法添加新图片，请求的图片都已加载失败或已经加载过了！"
 
 #: src/MainWindow.cpp:810
 #, kde-format
 msgid "<p>Successfully added image!</p>"
 msgid_plural "<p>Successfully added %1 images!</p>"
-msgstr[0] ""
+msgstr[0] "<p>成功添加了 %1 张图片！</p>"
 
 #: src/MainWindow.cpp:815
 #, kde-format
 msgid "<p>One image failed to load.</p>"
 msgid_plural "<p>%1 images failed to load.</p>"
-msgstr[0] ""
+msgstr[0] "<p>%1 张图片加载失败。</p>"
 
 #: src/MainWindow.cpp:819
 #, kde-format
 msgid "<p>One image has already been loaded.</p>"
 msgid_plural "<p>%1 images have already been loaded.</p>"
-msgstr[0] ""
+msgstr[0] "<p>%1 张图片已经加载过了。</p>"
 
 #: src/MainWindow.cpp:828
 #, kde-format
 msgctxt "Message string for some images that failed to load and some that were skipped because they already have been loaded. The pluralized strings for the failed images (%1) and the skipped images (%2) are provided by the following i18np calls."
 msgid "<p>%1 and %2.</p>"
-msgstr ""
+msgstr "<p>%1，%2。</p>"
 
 #: src/MainWindow.cpp:829
 #, kde-format
 msgid "One image failed to load"
 msgid_plural "%1 images failed to load"
-msgstr[0] ""
+msgstr[0] "%1 张图片加载失败"
 
 #: src/MainWindow.cpp:832
 #, kde-format
 msgid "one image has already been loaded"
 msgid_plural "%1 images have already been loaded"
-msgstr[0] ""
+msgstr[0] "%1 张图片已经加载过了"
 
 #: src/MainWindow.cpp:861 src/MainWindow.cpp:891
 #, kde-format
 msgctxt "A quoted filename"
 msgid "\"%1\""
-msgstr ""
+msgstr "“%1”"
 
 #: src/MainWindow.cpp:864
 #, kde-format
 msgid "1 image"
 msgid_plural "%1 images"
-msgstr[0] ""
+msgstr[0] "%1 张图片"
 
 #: src/MainWindow.cpp:894
 #, kde-format
 msgid "1 image (%2)"
 msgid_plural "%1 images (%2)"
-msgstr[0] ""
+msgstr[0] "%1 张图片 (%2)"
 
 #: src/MainWindow.cpp:895
 #, kde-format
 msgid "all images have the same coordinates"
-msgstr ""
+msgstr "所有图片都拥有相同坐标"
 
 #: src/MainWindow.cpp:896
 #, kde-format
 msgid "coordinates differ across the images"
-msgstr ""
+msgstr "各个图片的坐标有所不同"
 
 #: src/MainWindow.cpp:932 src/MainWindow.cpp:1146 src/MainWindow.cpp:1513
 #: src/MainWindow.cpp:1529 src/MainWindow.cpp:1558 src/MainWindow.cpp:1594
 #, kde-format
 msgid "Nothing to do"
-msgstr ""
+msgstr "无需任何操作"
 
 #: src/MainWindow.cpp:959
 #, kde-format
 msgid "Assigning images ..."
-msgstr ""
+msgstr "正在分配图片..."
 
 #: src/MainWindow.cpp:1023
 #, kde-format
 msgctxt "Message for the number of matches found. The pluralized string for the exact matches (%1) and the interpolated matches (%2) are provided by the following i18np calls."
 msgid "<p>Found %1 and %2!</p>"
-msgstr ""
+msgstr "<p>已找到%1和%2！</p>"
 
 #: src/MainWindow.cpp:1024
 #, kde-format
@@ -1004,33 +1004,33 @@ msgstr ""
 #: src/MainWindow.cpp:1107
 #, kde-format
 msgid "<p><b>Saving changes failed</b></p>"
-msgstr ""
+msgstr "<p><b>保存更改失败</b></p>"
 
 #: src/MainWindow.cpp:1111
 #, kde-format
 msgctxt "Saving failed message with the fraction of processed files given in the round braces"
 msgid "<p><b>Saving changes failed (%1/%2)</b></p>"
-msgstr ""
+msgstr "<p><b>保存更改失败 (%1/%2)</b></p>"
 
 #: src/MainWindow.cpp:1119
 #, kde-format
 msgid "<p>You can retry to process the file or cancel the saving process.</p>"
-msgstr ""
+msgstr "<p>您可以重新尝试处理文件，或直接取消保存。</p>"
 
 #: src/MainWindow.cpp:1121
 #, kde-format
 msgid "<p>You can retry to process the file, skip it or cancel the saving process.</p>"
-msgstr ""
+msgstr "<p>您可以重新尝试处理文件、跳过处理或直接取消保存。</p>"
 
 #: src/MainWindow.cpp:1166
 #, kde-format
 msgid "Saving changes ..."
-msgstr ""
+msgstr "正在保存更改..."
 
 #: src/MainWindow.cpp:1188
 #, kde-format
 msgid "<p>Could not save changes to <kbd>%1</kbd>: The backup file <kbd>%2</kbd> could not be created.</p><p>Please check if this file doesn't exist yet and be sure to have write access to <kbd>%3</kbd>.</p>"
-msgstr ""
+msgstr "<p>无法将更改保存至 <kbd>%1</kbd>：无法创建备份文件 <kbd>%2</kbd>。</p><p>请检查此文件之前是否未存在，并确认拥有 <kbd>%3</kbd> 的写入权限。</p>"
 
 #: src/MainWindow.cpp:1235
 #, kde-format
@@ -1137,32 +1137,32 @@ msgstr "地图中心的位置：%1, %2"
 #: src/MapWidget.cpp:79
 #, kde-format
 msgid "Floating items"
-msgstr ""
+msgstr "悬浮部件"
 
 #: src/MapWidget.cpp:85
 #, kde-format
 msgid "Crosshairs"
-msgstr ""
+msgstr "十字准星"
 
 #: src/PreviewWidget.cpp:34
 #, kde-format
 msgid "Image:"
-msgstr ""
+msgstr "图片："
 
 #: src/PreviewWidget.cpp:43 src/PreviewWidget.cpp:121
 #, kde-format
 msgid "Date/Time:"
-msgstr ""
+msgstr "日期／时间："
 
 #: src/PreviewWidget.cpp:52
 #, kde-format
 msgid "Coordinates:"
-msgstr ""
+msgstr "坐标："
 
 #: src/PreviewWidget.cpp:64
 #, kde-format
 msgid "read from file"
-msgstr ""
+msgstr "读取自文件"
 
 #: src/PreviewWidget.cpp:65
 #, kde-format
@@ -1177,273 +1177,274 @@ msgstr ""
 #: src/PreviewWidget.cpp:67
 #, kde-format
 msgid "manually set"
-msgstr ""
+msgstr "手动设置"
 
 #: src/PreviewWidget.cpp:96
 #, kde-format
 msgid "<p>Position: %1, %2; Altitude: %3 m<br/>(%4)</p>"
-msgstr ""
+msgstr "<p>位置：%1, %2；海拔：%3 m<br/>(%4)</p>"
 
 #: src/PreviewWidget.cpp:102
 #, kde-format
 msgid "<i>No coordinates set</i>"
-msgstr ""
+msgstr "<i>未设置坐标</i>"
 
 #: src/PreviewWidget.cpp:123
 #, kde-format
 msgid "Date/Time\n"
 "(corrected):"
-msgstr ""
+msgstr "日期／时间\n"
+"(已修正)："
 
 #: src/RetrySkipAbortDialog.cpp:26
 #, kde-format
 msgid "Skip current image"
-msgstr ""
+msgstr "跳过当前图片"
 
 #: src/SettingsDialog.cpp:34
 #, kde-format
 msgid "KGeoTag: Settings"
-msgstr ""
+msgstr "KGeoTag：设置"
 
 #: src/SettingsDialog.cpp:40
 #, kde-format
 msgid "KGeoTag settings"
-msgstr ""
+msgstr "KGeoTag 设置"
 
 #: src/SettingsDialog.cpp:58
 #, kde-format
 msgid "Image lists"
-msgstr ""
+msgstr "图片列表"
 
 #: src/SettingsDialog.cpp:64
 #, kde-format
 msgid "<p>Loaded images can either be listed in two different lists (one for all images without and one for images with coordinates), or using a combined consecutive list for all images.</p><p>Use the following images list(s) mode:</p>"
-msgstr ""
+msgstr "<p>已加载的图片会被列在两个不同的列表内 (一个包含所有无坐标的图片，一个包含有坐标的图片)，或被列在同一个混合列表中。</p><p>将使用以下图片列表模式：</p>"
 
 #: src/SettingsDialog.cpp:74
 #, kde-format
 msgid "Separate \"Assigned\" and \"Unassigned\" list"
-msgstr ""
+msgstr "分为“已分配”列表和“未分配”列表"
 
 #: src/SettingsDialog.cpp:75
 #, kde-format
 msgid "One combined list for all images"
-msgstr ""
+msgstr "所有图片都列在同一个混合列表内"
 
 #: src/SettingsDialog.cpp:83
 #, kde-format
 msgid "Thumbnails and previews"
-msgstr ""
+msgstr "缩略图和预览"
 
 #: src/SettingsDialog.cpp:93
 #, kde-format
 msgid "Thumbnail size:"
-msgstr ""
+msgstr "缩略图大小："
 
 #: src/SettingsDialog.cpp:100 src/SettingsDialog.cpp:109
 #, kde-format
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #: src/SettingsDialog.cpp:102
 #, kde-format
 msgid "Preview size:"
-msgstr ""
+msgstr "预览大小："
 
 #: src/SettingsDialog.cpp:113
 #, kde-format
 msgid "Please restart the program after changes to these values so that they are applied and become visible."
-msgstr ""
+msgstr "修改以上数值后，请重新启动应用程序。重启后才能使更改生效并看到效果。"
 
 #: src/SettingsDialog.cpp:121
 #, kde-format
 msgid "GPX track rendering"
-msgstr ""
+msgstr "GPX 轨迹渲染"
 
 #: src/SettingsDialog.cpp:129
 #, kde-format
 msgid "Color:"
-msgstr ""
+msgstr "颜色："
 
 #: src/SettingsDialog.cpp:141
 #, kde-format
 msgid "Line width:"
-msgstr ""
+msgstr "线宽："
 
 #: src/SettingsDialog.cpp:148
 #, kde-format
 msgid "Line style:"
-msgstr ""
+msgstr "线条样式："
 
 #: src/SettingsDialog.cpp:150
 #, kde-format
 msgid "Solid"
-msgstr ""
+msgstr "实线"
 
 #: src/SettingsDialog.cpp:151
 #, kde-format
 msgid "Dashes"
-msgstr ""
+msgstr "虚线"
 
 #: src/SettingsDialog.cpp:152
 #, kde-format
 msgid "Dots"
-msgstr ""
+msgstr "点状线条"
 
 #: src/SettingsDialog.cpp:153
 #, kde-format
 msgid "Dash-Dot"
-msgstr ""
+msgstr "线点相间"
 
 #: src/SettingsDialog.cpp:154
 #, kde-format
 msgid "Dash-Dot-Dot"
-msgstr ""
+msgstr "线——点——点相间"
 
 #: src/SettingsDialog.cpp:167
 #, kde-format
 msgid "Elevations can be looked up using opentopodata.org's web API."
-msgstr ""
+msgstr "可使用 opentopodata.org 的网页 API 来查找海拔。"
 
 #: src/SettingsDialog.cpp:175
 #, kde-format
 msgid "Elevation dataset:"
-msgstr ""
+msgstr "海拔数据集："
 
 #: src/SettingsDialog.cpp:179
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "ASTER"
-msgstr ""
+msgstr "ASTER"
 
 #: src/SettingsDialog.cpp:181
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "ETOPO1"
-msgstr ""
+msgstr "ETOPO1"
 
 #: src/SettingsDialog.cpp:183
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "EU-DEM"
-msgstr ""
+msgstr "EU-DEM"
 
 #: src/SettingsDialog.cpp:185
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "Mapzen"
-msgstr ""
+msgstr "Mapzen"
 
 #: src/SettingsDialog.cpp:187
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "NED"
-msgstr ""
+msgstr "NED"
 
 #: src/SettingsDialog.cpp:189
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "NZ DEM"
-msgstr ""
+msgstr "NZ DEM"
 
 #: src/SettingsDialog.cpp:191
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "SRTM (30 m)"
-msgstr ""
+msgstr "SRTM (30 m)"
 
 #: src/SettingsDialog.cpp:193
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "SRTM (90 m)"
-msgstr ""
+msgstr "SRTM (90 m)"
 
 #: src/SettingsDialog.cpp:196
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "EMODnet 2018 Bathymetry"
-msgstr ""
+msgstr "EMODnet 2018 Bathymetry"
 
 #: src/SettingsDialog.cpp:199
 #, kde-format
 msgctxt "opentopodata.org elevation dataset"
 msgid "GEBCO 2020 Bathymetry"
-msgstr ""
+msgstr "GEBCO 2020 Bathymetry"
 
 #: src/SettingsDialog.cpp:209
 #, kde-format
 msgid "Cf. <a href=\"https://www.opentopodata.org/\">https://www.opentopodata.org/</a> for further information about the available datasets, like the respective coverage!"
-msgstr ""
+msgstr "参照 <a href=\"https://www.opentopodata.org/\">https://www.opentopodata.org/</a> 了解更多数据集有关的信息，如各个数据集的覆盖区域！"
 
 #: src/SettingsDialog.cpp:217
 #, kde-format
 msgid "Request and set altitudes automatically"
-msgstr ""
+msgstr "自动请求并设置海拔"
 
 #: src/SettingsDialog.cpp:223
 #, kde-format
 msgid "Saving"
-msgstr ""
+msgstr "正在保存"
 
 #: src/SettingsDialog.cpp:230
 #, kde-format
 msgid "Write changes to:"
-msgstr ""
+msgstr "正在将更改写入至："
 
 #: src/SettingsDialog.cpp:234
 #, kde-format
 msgid "Exif header"
-msgstr ""
+msgstr "Exif 头"
 
 #: src/SettingsDialog.cpp:236
 #, kde-format
 msgid "XMP sidecar file"
-msgstr ""
+msgstr "XMP 附带文件"
 
 #: src/SettingsDialog.cpp:238
 #, kde-format
 msgid "Exif header and XMP sidecar file"
-msgstr ""
+msgstr "Exif 头和 XMP 附带文件"
 
 #: src/SettingsDialog.cpp:247
 #, kde-format
 msgid "Create a backups before altering a file"
-msgstr ""
+msgstr "在更改文件前先创建备份"
 
 #: src/SettingsDialog.cpp:277
 #, kde-format
 msgid "Opacity: %1%"
-msgstr ""
+msgstr "不透明度：%1%"
 
 #: src/SettingsDialog.cpp:316
 #, kde-format
 msgid "Settings changed"
-msgstr ""
+msgstr "设置已更改"
 
 #: src/SettingsDialog.cpp:317
 #, kde-format
 msgid "Please restart KGeoTag to apply the changed settings and make them visible!"
-msgstr ""
+msgstr "请重新启动 KGeoTag，重启后才能使更改生效并看到效果。"
 
 #: src/TracksListView.cpp:34 src/TracksListView.cpp:54
 #, kde-format
 msgid "Remove track"
 msgid_plural "Remove tracks"
-msgstr[0] ""
+msgstr[0] "删除轨迹"
 
 #: src/TrackWalker.cpp:31 src/TrackWalker.cpp:42
 #, kde-format
 msgid "<i>No track selected</i>"
-msgstr ""
+msgstr "<i>未选中轨迹</i>"
 
 #: src/TrackWalker.cpp:52
 #, kde-format
 msgid "%1 trackpoint"
 msgid_plural "%1 trackpoints"
-msgstr[0] ""
+msgstr[0] "%1 个轨迹点"
 
 #: src/TrackWalker.cpp:58
 #, kde-format
 msgid "Selected trackpoint %1 of %2"
-msgstr ""
+msgstr "已选中 %2 个中的 %1 个轨迹点"
 
