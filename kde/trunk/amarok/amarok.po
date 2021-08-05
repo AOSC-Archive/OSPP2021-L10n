@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-04 12:52\n"
+"PO-Revision-Date: 2021-08-05 06:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14274,12 +14274,12 @@ msgstr "正在加载相关信息..."
 #: services/ServiceBase.cpp:337
 #, kde-format
 msgid "This service does not accept any messages"
-msgstr "此服务不接受任何信息"
+msgstr "此服务不接受任何消息"
 
 #: services/ServiceBase.cpp:344
 #, kde-format
 msgid "ERROR: unknown message"
-msgstr "错误：未知信息"
+msgstr "错误：未知消息"
 
 #: services/ServiceMetaBase.cpp:249
 #, kde-format
