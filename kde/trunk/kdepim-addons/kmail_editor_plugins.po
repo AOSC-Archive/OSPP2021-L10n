@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-04-13 00:18+0000\n"
-"PO-Revision-Date: 2021-08-06 07:28\n"
+"PO-Revision-Date: 2021-08-06 14:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -179,7 +179,7 @@ msgstr "您确定要删除分组“%1”吗？"
 #: quicktext/quicktextwidget.cpp:69
 #, kde-format
 msgid "QuickText was changed. Do you want to save it?"
-msgstr "邮件模板已修改，你要保存更改吗？"
+msgstr "邮件模板已修改，您要保存更改吗？"
 
 #: quicktext/quicktextwidget.cpp:69
 #, kde-format
