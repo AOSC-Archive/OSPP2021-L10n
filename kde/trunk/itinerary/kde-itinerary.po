@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-26 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 09:51\n"
+"POT-Creation-Date: 2021-08-05 00:17+0000\n"
+"PO-Revision-Date: 2021-08-06 06:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -87,6 +87,43 @@ msgstr "应用程序版本: %1"
 msgid "Extractor capabilities:"
 msgstr "数据提取器能力："
 
+#: app/applicationcontroller.cpp:303
+#, kde-format
+msgid "Download failed: %1"
+msgstr "下载失败：%1"
+
+#: app/applicationcontroller.cpp:324 app/applicationcontroller.cpp:445
+#: app/applicationcontroller.cpp:460
+#, kde-format
+msgid "Import failed: %1"
+msgstr "导入失败：%1"
+
+#: app/applicationcontroller.cpp:329
+#, kde-format
+msgid "Import failed: File too large."
+msgstr "导入失败：文件太大。"
+
+#: app/applicationcontroller.cpp:399 app/applicationcontroller.cpp:424
+#, kde-format
+msgid "Export failed: %1"
+msgstr "导出失败：%1"
+
+#: app/applicationcontroller.cpp:412 app/applicationcontroller.cpp:437
+#, kde-format
+msgid "Export completed."
+msgstr "导出完成。"
+
+#: app/applicationcontroller.cpp:484
+#, kde-format
+msgid "Import completed."
+msgstr "导入完成。"
+
+#: app/applicationcontroller.cpp:515 app/applicationcontroller.cpp:553
+#, kde-format
+msgid "One reservation imported."
+msgid_plural "%1 reservations imported."
+msgstr[0] "%1 个预约已导入。"
+
 #: app/BusDelegate.qml:24 app/TrainDelegate.qml:24 app/TransferDelegate.qml:43
 #, kde-format
 msgid "%1 to %2"
@@ -151,20 +188,20 @@ msgid "Seat:"
 msgstr "座位："
 
 #: app/BusPage.qml:115 app/FlightPage.qml:155 app/TrainEditor.qml:100
-#: app/TrainPage.qml:251
+#: app/TrainPage.qml:271
 #, kde-format
 msgid "Booking"
 msgstr "预订"
 
 #: app/BusPage.qml:119 app/CarRentalPage.qml:87 app/FlightPage.qml:161
-#: app/TrainEditor.qml:104 app/TrainPage.qml:255
+#: app/TrainEditor.qml:104 app/TrainPage.qml:275
 #, kde-format
 msgid "Reference:"
 msgstr "参考："
 
 #: app/BusPage.qml:123 app/CarRentalPage.qml:83 app/FlightPage.qml:161
 #: app/HotelPage.qml:69 app/RestaurantPage.qml:73 app/TrainEditor.qml:108
-#: app/TrainPage.qml:259
+#: app/TrainPage.qml:279
 #, kde-format
 msgid "Under name:"
 msgstr "名下："
@@ -266,65 +303,65 @@ msgstr "目的地："
 msgid "Data providers: %1"
 msgstr "数据提供者： %1"
 
-#: app/DetailsPage.qml:41
+#: app/DetailsPage.qml:43
 #, kde-format
 msgid "Do you really want to delete this event?"
 msgstr "您真的想要删除此事件吗？"
 
-#: app/DetailsPage.qml:48 app/DetailsPage.qml:140 app/DocumentsPage.qml:79
+#: app/DetailsPage.qml:50 app/DetailsPage.qml:142 app/DocumentsPage.qml:79
 #: app/HealthCertificatePage.qml:28 app/HealthCertificatePage.qml:45
 #: app/TimelinePage.qml:44
 #, kde-format
 msgid "Delete"
 msgstr "删除"
 
-#: app/DetailsPage.qml:82
+#: app/DetailsPage.qml:84
 #, kde-format
 msgctxt "cancel as in revoking a booking"
 msgid "Cancel Reservation"
 msgstr "取消预订"
 
-#: app/DetailsPage.qml:83
+#: app/DetailsPage.qml:85
 #, kde-format
 msgid "Check-in"
 msgstr "检入"
 
-#: app/DetailsPage.qml:84
+#: app/DetailsPage.qml:86
 #, kde-format
 msgid "Download"
 msgstr "下载"
 
-#: app/DetailsPage.qml:85
+#: app/DetailsPage.qml:87
 #, kde-format
 msgid "Change Reservation"
 msgstr "修改预约"
 
-#: app/DetailsPage.qml:86
+#: app/DetailsPage.qml:88
 #, kde-format
 msgid "View Reservation"
 msgstr "查看预约"
 
-#: app/DetailsPage.qml:105
+#: app/DetailsPage.qml:107
 #, kde-format
 msgid "Show Boarding Pass"
 msgstr "出示登机牌"
 
-#: app/DetailsPage.qml:111
+#: app/DetailsPage.qml:113
 #, kde-format
 msgid "Documents (%1)"
 msgstr "文档 (%1)"
 
-#: app/DetailsPage.qml:116
+#: app/DetailsPage.qml:118
 #, kde-format
 msgid "Add transfer before"
 msgstr ""
 
-#: app/DetailsPage.qml:125
+#: app/DetailsPage.qml:127
 #, kde-format
 msgid "Add transfer after"
 msgstr ""
 
-#: app/DetailsPage.qml:134
+#: app/DetailsPage.qml:136
 #, kde-format
 msgid "Edit"
 msgstr "编辑"
@@ -607,6 +644,22 @@ msgctxt "flight arrival"
 msgid "Arrival"
 msgstr "到达时间"
 
+#: app/FlightPage.qml:169
+#, kde-format
+msgid "Frequent Traveler Program"
+msgstr ""
+
+#: app/FlightPage.qml:174
+#, kde-format
+msgctxt "name of a frequent flyer program"
+msgid "Program:"
+msgstr ""
+
+#: app/FlightPage.qml:180 app/TrainPage.qml:264
+#, kde-format
+msgid "Number:"
+msgstr ""
+
 #: app/gpxexport.cpp:32 app/main.cpp:221 app/main.qml:17 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
@@ -633,17 +686,17 @@ msgstr "汽车 %1，从 %2 到 %3"
 msgid "In barcode scanning mode"
 msgstr "条形码扫描模式"
 
-#: app/healthcertificatemanager.cpp:122
+#: app/healthcertificatemanager.cpp:125
 #, kde-format
 msgid "Vaccination %1/%2 (%3)"
 msgstr "疫苗接种 %1/%2 (%3)"
 
-#: app/healthcertificatemanager.cpp:126
+#: app/healthcertificatemanager.cpp:129
 #, kde-format
 msgid "Test %1 (%2)"
 msgstr "%1 进行了病毒检测 (%2)"
 
-#: app/healthcertificatemanager.cpp:130
+#: app/healthcertificatemanager.cpp:133
 #, kde-format
 msgid "Recovery (%1)"
 msgstr "已痊愈 (%1)"
@@ -676,7 +729,7 @@ msgstr "持证人"
 
 #: app/HealthCertificateRecovery.qml:37 app/HealthCertificateTest.qml:37
 #: app/HealthCertificateVaccination.qml:37
-#: app/PlaceEditor.qml:20
+#: app/PlaceEditor.qml:20 app/TrainPage.qml:258
 #, kde-format
 msgid "Name:"
 msgstr "姓名："
@@ -1361,12 +1414,6 @@ msgstr "公共交通信息源"
 msgid "Global"
 msgstr "全球"
 
-#: app/reservationmanager.cpp:204
-#, kde-format
-msgid "One reservation imported."
-msgid_plural "%1 reservations imported."
-msgstr[0] "%1 个预约已导入。"
-
 #: app/RestaurantEditor.qml:17
 #, kde-format
 msgid "Edit Restaurant"
@@ -1650,7 +1697,7 @@ msgstr "站台："
 msgid "Coach:"
 msgstr "客车："
 
-#: app/TrainEditor.qml:94 app/TrainPage.qml:244
+#: app/TrainEditor.qml:94 app/TrainPage.qml:245
 #, kde-format
 msgid "Class:"
 msgstr "座位/车厢等级："
@@ -1692,11 +1739,17 @@ msgstr ""
 msgid "Arrival time:"
 msgstr "到达时间："
 
-#: app/TrainPage.qml:234
+#: app/TrainPage.qml:233
 #, kde-format
 msgctxt "coach of a train"
 msgid "Coach:"
 msgstr "客车："
+
+#: app/TrainPage.qml:252
+#, kde-format
+msgctxt "bonus, discount or frequent traveler program"
+msgid "Program"
+msgstr ""
 
 #: app/TransferDelegate.qml:78
 #, kde-format
