@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-01-18 02:33+0100\n"
-"PO-Revision-Date: 2021-08-05 15:57\n"
+"PO-Revision-Date: 2021-08-06 07:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,22 +20,22 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国, Wordless Echo"
+msgstr "KDE 中国, Tyson Tan, Wordless Echo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, wordless@echo.moe"
+msgstr "kde-china@kde.org, tysontan@tysontan.com, wordless@echo.moe"
 
 #: src/AutomaticMatchingWidget.cpp:40
 #, kde-format
 msgid "Search for exact matches"
-msgstr ""
+msgstr "搜索精确匹配项"
 
 #: src/AutomaticMatchingWidget.cpp:46
 #, kde-format
 msgid "Maximum deviation of the image's time from a GPS point's time to be considered an exact match:"
-msgstr ""
+msgstr "图像时间与 GPS 点时间可被视作精确匹配的最大偏差值："
 
 #: src/AutomaticMatchingWidget.cpp:60 src/AutomaticMatchingWidget.cpp:91
 #: src/FixDriftWidget.cpp:91
@@ -46,12 +46,12 @@ msgstr "秒"
 #: src/AutomaticMatchingWidget.cpp:66
 #, kde-format
 msgid "Search for interpolated matches"
-msgstr ""
+msgstr "搜索插值匹配项"
 
 #: src/AutomaticMatchingWidget.cpp:72
 #, kde-format
 msgid "Spatial and temporal boundaries for two coordinates used to calculate an interpolated match:"
-msgstr ""
+msgstr "用于计算两个不同坐标插值匹配的空间和时间界限："
 
 #: src/AutomaticMatchingWidget.cpp:83
 #, kde-format
@@ -82,17 +82,17 @@ msgstr "(重新) 分配所有图片"
 #: src/MainWindow.cpp:1018
 #, kde-format
 msgid "Combined match search"
-msgstr ""
+msgstr "合并匹配搜索"
 
 #: src/AutomaticMatchingWidget.cpp:152 src/ImagesListView.cpp:88
 #, kde-format
 msgid "Search exact matches only"
-msgstr ""
+msgstr "仅搜索精确匹配项"
 
 #: src/AutomaticMatchingWidget.cpp:157 src/ImagesListView.cpp:94
 #, kde-format
 msgid "Search interpolated matches only"
-msgstr ""
+msgstr "仅搜索插值匹配项"
 
 #: src/AutomaticMatchingWidget.cpp:164
 #, kde-format
@@ -132,7 +132,7 @@ msgstr "编辑坐标"
 #: src/BookmarksList.cpp:74 src/ImagesListView.cpp:119
 #, kde-format
 msgid "Lookup elevation"
-msgstr "查询并修改海拔高度"
+msgstr "查询海拔高度"
 
 #: src/BookmarksList.cpp:77
 #, kde-format
@@ -485,7 +485,7 @@ msgstr "KGeoTag"
 #: src/main.cpp:36
 #, kde-format
 msgid "Photo geotagging program"
-msgstr "为图片标记地理位置的应用程序"
+msgstr "照片地理标签管理程序"
 
 #: src/main.cpp:38
 #, kde-format
@@ -923,83 +923,83 @@ msgstr "正在分配图片..."
 #, kde-format
 msgctxt "Message for the number of matches found. The pluralized string for the exact matches (%1) and the interpolated matches (%2) are provided by the following i18np calls."
 msgid "<p>Found %1 and %2!</p>"
-msgstr "<p>已找到%1和%2！</p>"
+msgstr "<p>已找到 %1 和 %2 ！</p>"
 
 #: src/MainWindow.cpp:1024
 #, kde-format
 msgid "one exact match"
 msgid_plural "%1 exact matches"
-msgstr[0] ""
+msgstr[0] "%1 个精确匹配项"
 
 #: src/MainWindow.cpp:1027
 #, kde-format
 msgid "one interpolated match"
 msgid_plural "%1 interpolated matches"
-msgstr[0] ""
+msgstr[0] "%1 个插值匹配项"
 
 #: src/MainWindow.cpp:1034
 #, kde-format
 msgctxt "Message for the number of unmatched images. The number of images that could not be matched but already have coordinates assigned (%2) is provided by the following i18np call"
 msgid "<p>One image could not be matched (%2).</p>"
 msgid_plural "<p>%1 images could not be matched (%2).</p>"
-msgstr[0] ""
+msgstr[0] "<p>%1 张图像无法匹配 (%2)。</p>"
 
 #: src/MainWindow.cpp:1037 src/MainWindow.cpp:1059 src/MainWindow.cpp:1081
 #, kde-format
 msgid "of which one image already has coordinates assigned"
 msgid_plural "of which %1 images already have coordinates assigned"
-msgstr[0] ""
+msgstr[0] "其中 %1 张图像已经分配坐标"
 
 #: src/MainWindow.cpp:1042
 #, kde-format
 msgid "Could neither find any exact, nor any interpolated matches!"
-msgstr ""
+msgstr "无法找到任何精确或插值匹配项！"
 
 #: src/MainWindow.cpp:1047
 #, kde-format
 msgid "Exact matches search"
-msgstr ""
+msgstr "精确匹配项搜索"
 
 #: src/MainWindow.cpp:1049
 #, kde-format
 msgid "<p>Found one exact match!</p>"
 msgid_plural "<p>Found %1 exact matches!</p>"
-msgstr[0] ""
+msgstr[0] "<p>已找到 %1 个精确匹配项！</p>"
 
 #: src/MainWindow.cpp:1056
 #, kde-format
 msgctxt "Message for the number of unmatched images. The number of images that could not be matched but already have coordinates assigned (%2) is provided by the following i18np call"
 msgid "<p>One image had no exact match (%2).</p>"
 msgid_plural "<p>%1 images had no exact match (%2).</p>"
-msgstr[0] ""
+msgstr[0] "<p>%1 张图像没有精确匹配项 (%2)。</p>"
 
 #: src/MainWindow.cpp:1064
 #, kde-format
 msgid "Could not find any exact matches!"
-msgstr ""
+msgstr "无法找到任何精确匹配项！"
 
 #: src/MainWindow.cpp:1069
 #, kde-format
 msgid "Interpolated matches search"
-msgstr ""
+msgstr "插值匹配项搜索"
 
 #: src/MainWindow.cpp:1071
 #, kde-format
 msgid "<p>Found one interpolated match!</p>"
 msgid_plural "<p>Found %1 interpolated matches!</p>"
-msgstr[0] ""
+msgstr[0] "<p>已找到 %1 个插值匹配项！</p>"
 
 #: src/MainWindow.cpp:1078
 #, kde-format
 msgctxt "Message for the number of unmatched images. The number of images that could not be matched but already have coordinates assigned (%2) is provided by the following i18np call"
 msgid "<p>One image had no interpolated match (%2).</p>"
 msgid_plural "<p>%1 images had no interpolated match (%2).</p>"
-msgstr[0] ""
+msgstr[0] "<p>%1 张图像没有插值匹配项 (%2)。</p>"
 
 #: src/MainWindow.cpp:1086
 #, kde-format
 msgid "Could not find any interpolated matches!"
-msgstr ""
+msgstr "无法找到任何插值匹配项！"
 
 #: src/MainWindow.cpp:1107
 #, kde-format
@@ -1122,7 +1122,7 @@ msgstr "删除所有图片"
 #: src/MainWindow.cpp:1544
 #, kde-format
 msgid "<p>There are pending changes to images that haven't been saved yet. All changes will be discarded if all images are removed now.</p><p>Do you really want to remove all images anyway?</p>"
-msgstr "<p>一些对图片的更改尚未被保存，现在删除所有图片会使这些更改丢失。</p><p>您仍要删除所有图片吗？</p>"
+msgstr "<p>一些对图片的更改尚未被保存，现在删除所有图片会使这些更改丢失。</p><p>您确定要删除所有图片吗？</p>"
 
 #: src/MainWindow.cpp:1593
 #, kde-format
@@ -1167,12 +1167,12 @@ msgstr "读取自文件"
 #: src/PreviewWidget.cpp:65
 #, kde-format
 msgid "exact match"
-msgstr ""
+msgstr "精确匹配"
 
 #: src/PreviewWidget.cpp:66
 #, kde-format
 msgid "interpolated match"
-msgstr ""
+msgstr "插值匹配"
 
 #: src/PreviewWidget.cpp:67
 #, kde-format

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-04-13 00:18+0000\n"
-"PO-Revision-Date: 2021-07-17 10:07\n"
+"PO-Revision-Date: 2021-08-06 07:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -162,19 +162,19 @@ msgstr "模板"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to undo the removal.</warning>"
-msgstr "您真的要删除模板“%1”吗？<nl/><warning>此操作无法撤销。</warning>"
+msgstr "您确定要删除模板“%1”吗？<nl/><warning>此操作无法撤销。</warning>"
 
 #: quicktext/quicktexttreewidget.cpp:169
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to remove group \"%1\" along with all its snippets?<nl/><warning>There is no way to undo the removal.</warning>"
-msgstr "您真的要删除分组“%1”及分组内的所有模板吗？<nl/><warning>此操作无法撤销。</warning>"
+msgstr "您确定要删除分组“%1”及分组内的所有模板吗？<nl/><warning>此操作无法撤销。</warning>"
 
 #: quicktext/quicktexttreewidget.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to remove group \"%1\"?"
-msgstr "您真的要删除分组“%1”吗？"
+msgstr "您确定要删除分组“%1”吗？"
 
 #: quicktext/quicktextwidget.cpp:69
 #, kde-format
