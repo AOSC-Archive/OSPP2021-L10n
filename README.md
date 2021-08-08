@@ -13,3 +13,6 @@ Green means first priority, non-colored means second, red means thrid.
 
 ## Status
 Check [commit messages](https://github.com/AOSC-Dev/OSPP2021-L10n/commits/master) for details.
+
+# Review Discussions
+All discussions from AOSC team are in [Google Doc](https://docs.google.com/document/d/1uEXwq1X6uFVMQmMlpi_a71ns42x4Fw7OgXpE1pAFOoc).
