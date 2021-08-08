@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-05 00:17+0000\n"
-"PO-Revision-Date: 2021-08-06 09:36\n"
+"POT-Creation-Date: 2021-08-07 00:16+0000\n"
+"PO-Revision-Date: 2021-08-08 07:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -92,8 +92,8 @@ msgstr "数据提取器特性列表："
 msgid "Download failed: %1"
 msgstr "下载失败：%1"
 
-#: app/applicationcontroller.cpp:324 app/applicationcontroller.cpp:445
-#: app/applicationcontroller.cpp:460
+#: app/applicationcontroller.cpp:324 app/applicationcontroller.cpp:484
+#: app/applicationcontroller.cpp:499
 #, kde-format
 msgid "Import failed: %1"
 msgstr "导入失败：%1"
@@ -103,26 +103,36 @@ msgstr "导入失败：%1"
 msgid "Import failed: File too large."
 msgstr "导入失败：文件太大。"
 
-#: app/applicationcontroller.cpp:399 app/applicationcontroller.cpp:424
+#: app/applicationcontroller.cpp:387 app/applicationcontroller.cpp:556
+#, kde-format
+msgid "One reservation imported."
+msgid_plural "%1 reservations imported."
+msgstr[0] "已导入 %1 个预约。"
+
+#: app/applicationcontroller.cpp:394
+#, kde-format
+msgid "Health certificate imported."
+msgstr "已导入健康证书。"
+
+#: app/applicationcontroller.cpp:399
+#, kde-format
+msgid "Nothing imported."
+msgstr "您提供的信息中没有可被导入的内容。"
+
+#: app/applicationcontroller.cpp:438 app/applicationcontroller.cpp:463
 #, kde-format
 msgid "Export failed: %1"
 msgstr "导出失败：%1"
 
-#: app/applicationcontroller.cpp:412 app/applicationcontroller.cpp:437
+#: app/applicationcontroller.cpp:451 app/applicationcontroller.cpp:476
 #, kde-format
 msgid "Export completed."
 msgstr "导出完成。"
 
-#: app/applicationcontroller.cpp:484
+#: app/applicationcontroller.cpp:523
 #, kde-format
 msgid "Import completed."
 msgstr "导入完成。"
-
-#: app/applicationcontroller.cpp:515 app/applicationcontroller.cpp:553
-#, kde-format
-msgid "One reservation imported."
-msgid_plural "%1 reservations imported."
-msgstr[0] "%1 个预约已导入。"
 
 #: app/BusDelegate.qml:24 app/TrainDelegate.qml:24 app/TransferDelegate.qml:43
 #, kde-format
@@ -137,12 +147,12 @@ msgstr "来自：%1"
 #: app/BusDelegate.qml:61
 #, kde-format
 msgid "To: %1"
-msgstr "到： %1"
+msgstr "到：%1"
 
 #: app/BusDelegate.qml:75 app/TrainDelegate.qml:81
 #, kde-format
 msgid "Arrival time: %1"
-msgstr "到达时间： %1"
+msgstr "到达时间：%1"
 
 #: app/BusPage.qml:17
 #, kde-format
@@ -219,7 +229,7 @@ msgstr "出租车上车"
 #: app/CarRentalDelegate.qml:52
 #, kde-format
 msgid "Drop-off: %1"
-msgstr "下车： %1"
+msgstr "下车：%1"
 
 #: app/CarRentalPage.qml:17
 #, kde-format
@@ -301,7 +311,7 @@ msgstr "目的地："
 #: app/TransferPage.qml:181
 #, kde-format
 msgid "Data providers: %1"
-msgstr "数据提供者： %1"
+msgstr "数据提供者：%1"
 
 #: app/DetailsPage.qml:43
 #, kde-format
@@ -556,7 +566,7 @@ msgstr "%1: %2 出发"
 #: app/FlightDelegate.qml:79
 #, kde-format
 msgid "Terminal: %1  Gate: %2  Seat: %3"
-msgstr "航站楼： %1  登机口： %2  座位： %3"
+msgstr "航站楼：%1 登机口：%2 座位：%3"
 
 #: app/FlightDelegate.qml:90
 #, kde-format
@@ -686,17 +696,17 @@ msgstr "从 %2 开往 %3 的 %1 次汽车"
 msgid "In barcode scanning mode"
 msgstr "条形码扫描模式"
 
-#: app/healthcertificatemanager.cpp:125
+#: app/healthcertificatemanager.cpp:112
 #, kde-format
 msgid "Vaccination %1/%2 (%3)"
 msgstr "疫苗：已接种 %1 剂，共 %2 剂 (%3)"
 
-#: app/healthcertificatemanager.cpp:129
+#: app/healthcertificatemanager.cpp:116
 #, kde-format
 msgid "Test %1 (%2)"
 msgstr "已于 %1 检疫 (%2)"
 
-#: app/healthcertificatemanager.cpp:133
+#: app/healthcertificatemanager.cpp:120
 #, kde-format
 msgid "Recovery (%1)"
 msgstr "已痊愈 (%1)"
@@ -794,7 +804,7 @@ msgstr "颁发时间："
 #: app/HealthCertificateVaccination.qml:104
 #, kde-format
 msgid "Expires:"
-msgstr "过期时间："
+msgstr "有效期至："
 
 #: app/HealthCertificateRecovery.qml:101 app/HealthCertificateTest.qml:119
 #: app/HealthCertificateVaccination.qml:118
@@ -815,7 +825,7 @@ msgstr "日期："
 #: app/HealthCertificateTest.qml:68
 #, kde-format
 msgid "Test:"
-msgstr "检测结果："
+msgstr "检疫项目："
 
 #: app/HealthCertificateTest.qml:73
 #, kde-format
@@ -876,7 +886,7 @@ msgstr "退房时间：%1"
 #: app/HotelEditor.qml:17
 #, kde-format
 msgid "Edit Hotel Reservation"
-msgstr "编辑酒店预订"
+msgstr "修改酒店预订"
 
 #: app/HotelEditor.qml:45 app/HotelPage.qml:42 app/RestaurantPage.qml:42
 #, kde-format
@@ -906,7 +916,7 @@ msgstr "退房时间："
 #: app/HotelPage.qml:64 app/RestaurantPage.qml:68
 #, kde-format
 msgid "Booking reference:"
-msgstr "预定参考："
+msgstr "预订单号："
 
 #: app/IndoorMapElevatorSheet.qml:18
 #, kde-format
@@ -922,19 +932,19 @@ msgstr "查找登机口"
 #, kde-format
 msgctxt "flight departure/arrival gate"
 msgid "%1 (arrival + departure)"
-msgstr "%1 (到达 + 出发)"
+msgstr "%1 号登机口 (到达 + 出发)"
 
 #: app/IndoorMapGateSheet.qml:30
 #, kde-format
 msgctxt "flight departure gate"
 msgid "%1 (departure)"
-msgstr "%1 (出发)"
+msgstr "%1 号登机口 (出发)"
 
 #: app/IndoorMapGateSheet.qml:32
 #, kde-format
 msgctxt "flight arrival gate"
 msgid "%1 (arrival)"
-msgstr "%1 (到达)"
+msgstr "%1 号登机口 (到达)"
 
 #: app/IndoorMapPage.qml:24
 #, kde-format
@@ -985,19 +995,19 @@ msgstr "切换到 %1 楼"
 #, kde-format
 msgctxt "train arrival/departure platform"
 msgid "%1 (arrival/departure)"
-msgstr "%1 (到达 / 出发)"
+msgstr "%1 号登机口 (到达／出发)"
 
 #: app/IndoorMapPlatformSheet.qml:37
 #, kde-format
 msgctxt "train departure platform"
 msgid "%1 (departure)"
-msgstr "%1 (出发)"
+msgstr "%1 号登机口 (出发)"
 
 #: app/IndoorMapPlatformSheet.qml:39
 #, kde-format
 msgctxt "train arrival platform"
 msgid "%1 (arrival)"
-msgstr "%1 (到达)"
+msgstr "%1 号登机口 (到达)"
 
 #: app/IndoorMapPlatformSheet.qml:80
 #, kde-format
@@ -1088,12 +1098,12 @@ msgstr "方向：%1"
 #: app/JourneySectionPage.qml:58
 #, kde-format
 msgid "Distance: %1"
-msgstr "距离： %1"
+msgstr "距离：%1"
 
 #: app/JourneySectionPage.qml:64
 #, kde-format
 msgid "CO₂: %1g"
-msgstr "CO₂ 排放： %1g"
+msgstr "CO₂ 排放：%1g"
 
 #: app/JourneySummaryDelegate.qml:64
 #, kde-format
@@ -1135,17 +1145,17 @@ msgstr "当地人在左侧开车。"
 #: app/LocationInfoDelegate.qml:65
 #, kde-format
 msgid "No compatible power sockets: %1"
-msgstr "没有兼容的电源插座： %1"
+msgstr "没有兼容的电源插座：%1"
 
 #: app/LocationInfoDelegate.qml:72
 #, kde-format
 msgid "Some incompatible power sockets: %1"
-msgstr "一些不兼容的电源插座： %1"
+msgstr "部分电源插座不兼容：%1"
 
 #: app/LocationInfoDelegate.qml:79
 #, kde-format
 msgid "Some incompatible power plugs: %1"
-msgstr "一些不兼容的电源插座： %1"
+msgstr "部分电源插头不兼容： %1"
 
 #: app/LocationInfoDelegate.qml:87
 #, kde-format
@@ -1155,27 +1165,27 @@ msgstr "时区变化: %1 (%2)"
 #: app/locationinformation.cpp:84
 #, kde-format
 msgid "Type A"
-msgstr "类型 A"
+msgstr "A 型"
 
 #: app/locationinformation.cpp:85
 #, kde-format
 msgid "Type B"
-msgstr "类型 B"
+msgstr "B 型"
 
 #: app/locationinformation.cpp:86
 #, kde-format
 msgid "Europlug"
-msgstr "欧标插座（Europlug）"
+msgstr "欧标插头"
 
 #: app/locationinformation.cpp:87
 #, kde-format
 msgid "Type D"
-msgstr "类型 D"
+msgstr "D 型"
 
 #: app/locationinformation.cpp:88
 #, kde-format
 msgid "Type E"
-msgstr "类型 E"
+msgstr "E 型"
 
 #: app/locationinformation.cpp:89
 #, kde-format
@@ -1185,47 +1195,47 @@ msgstr "Schuko"
 #: app/locationinformation.cpp:90
 #, kde-format
 msgid "Type G"
-msgstr "类型 G"
+msgstr "G 型"
 
 #: app/locationinformation.cpp:91
 #, kde-format
 msgid "Type H"
-msgstr "类型 H"
+msgstr "H 型"
 
 #: app/locationinformation.cpp:92
 #, kde-format
 msgid "Type I"
-msgstr "类型 I"
+msgstr "I 型"
 
 #: app/locationinformation.cpp:93
 #, kde-format
 msgid "Type J"
-msgstr "类型 J"
+msgstr "J 型"
 
 #: app/locationinformation.cpp:94
 #, kde-format
 msgid "Type K"
-msgstr "类型 K"
+msgstr "K 型"
 
 #: app/locationinformation.cpp:95
 #, kde-format
 msgid "Type L"
-msgstr "类型 L"
+msgstr "L 型"
 
 #: app/locationinformation.cpp:96
 #, kde-format
 msgid "Type M"
-msgstr "类型 M"
+msgstr "M 型"
 
 #: app/locationinformation.cpp:97
 #, kde-format
 msgid "Type N"
-msgstr "输入 N"
+msgstr "N 型"
 
 #: app/main.cpp:233
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
-msgstr "要导入的 PkPass 或 JSON LD 文件。"
+msgstr "要导入的 PkPass 文件或 JSON-LD 文件。"
 
 #: app/main.qml:26
 #, kde-format
@@ -1280,7 +1290,7 @@ msgstr "下载地图"
 #: app/main.qml:80 app/StatisticsPage.qml:16
 #, kde-format
 msgid "Statistics"
-msgstr "统计"
+msgstr "统计数据"
 
 #: app/main.qml:98
 #, kde-format
@@ -1300,79 +1310,79 @@ msgstr "帮助"
 #: app/main.qml:158
 #, kde-format
 msgid "Map download finished."
-msgstr "地图下载已完成."
+msgstr "地图下载完毕。"
 
 #: app/notificationhelper.cpp:62
 #, kde-format
 msgid "Disruption on %1"
-msgstr "在 %1 上的故障"
+msgstr "线路 %1 服务中断"
 
 #: app/notificationhelper.cpp:70
 #, kde-format
 msgid "Changes on %1"
-msgstr "%1 上的更改"
+msgstr "线路 %1 的路线更改"
 
 #: app/notificationhelper.cpp:74
 #, kde-format
 msgid "Delays on %1"
-msgstr "%1 上的延误"
+msgstr "线路 %1 发生延误"
 
 #: app/notificationhelper.cpp:77
 #, kde-format
 msgid "Delayed departure on %1"
-msgstr "延后出发时间： %1"
+msgstr "线路 %1 延误"
 
 #: app/notificationhelper.cpp:80
 #, kde-format
 msgid "Earlier departure on %1"
-msgstr "提早出发时间： %1"
+msgstr "线路 %1 早点"
 
 #: app/notificationhelper.cpp:83
 #, kde-format
 msgid "Delayed arrival on %1"
-msgstr "延迟抵达时间： %1"
+msgstr "线路 %1 晚点"
 
 #: app/notificationhelper.cpp:87
 #, kde-format
 msgid "Platform change on %1"
-msgstr "站台更改：%1"
+msgstr "线路 %1 站台更改"
 
 #: app/notificationhelper.cpp:97
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Trip has been canceled."
-msgstr "旅行已取消"
+msgstr "班次已取消。"
 
 #: app/notificationhelper.cpp:99
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Arrival has been canceled."
-msgstr "到达已取消"
+msgstr "已取消靠站。"
 
 #: app/notificationhelper.cpp:103
 #, kde-format
 msgid "New departure time is: %1 (+%2)"
-msgstr "新的出发时间是： %1 (+%2)"
+msgstr "新的出发时间：%1 (+%2)"
 
 #: app/notificationhelper.cpp:105
 #, kde-format
 msgid "New departure time is: %1 (%2)"
-msgstr "新的出发时间是： %1 (%2)"
+msgstr "新的出发时间：%1 (%2)"
 
 #: app/notificationhelper.cpp:109
 #, kde-format
 msgid "New arrival time is: %1 (+%2)"
-msgstr "新的到达时间是： %1 (+%2)"
+msgstr "新的到达时间：%1 (+%2)"
 
 #: app/notificationhelper.cpp:113
 #, kde-format
 msgid "New departure platform is: %1"
-msgstr "新的出发站台是： %1"
+msgstr "新的出发站台：%1"
 
 #: app/notificationhelper.cpp:116
 #, kde-format
 msgid "New arrival platform is: %1"
-msgstr "新的到达站台是： %1"
+msgstr "新的到达站台：%1"
 
 #: app/PkPassPage.qml:18
 #, kde-format
@@ -1382,17 +1392,17 @@ msgstr "登机牌"
 #: app/PkPassPage.qml:19
 #, kde-format
 msgid "Event Ticket"
-msgstr "活动票据信息"
+msgstr "活动门票"
 
 #: app/PlaceEditor.qml:60
 #, kde-format
 msgid "Street:"
-msgstr "街道:"
+msgstr "街道："
 
 #: app/PlaceEditor.qml:72
 #, kde-format
 msgid "City:"
-msgstr "城市:"
+msgstr "城市："
 
 #: app/PlaceEditor.qml:78
 #, kde-format
@@ -1417,22 +1427,22 @@ msgstr "全球"
 #: app/RestaurantEditor.qml:17
 #, kde-format
 msgid "Edit Restaurant"
-msgstr "编辑餐厅"
+msgstr "编辑餐厅信息"
 
 #: app/RestaurantPage.qml:17
 #, kde-format
 msgid "Restaurant Reservation"
-msgstr "餐厅预订"
+msgstr "餐厅订座"
 
 #: app/RestaurantPage.qml:55
 #, kde-format
 msgid "Start time:"
-msgstr "开始时间:"
+msgstr "开始时间："
 
 #: app/RestaurantPage.qml:59
 #, kde-format
 msgid "End time:"
-msgstr "结束时间:"
+msgstr "结束时间："
 
 #: app/RestaurantPage.qml:63
 #, kde-format
@@ -1447,7 +1457,7 @@ msgstr "设置"
 #: app/SettingsPage.qml:45
 #, kde-format
 msgid "Home Country"
-msgstr "家庭所在的国家"
+msgstr "居住国家"
 
 #: app/SettingsPage.qml:63
 #, kde-format
@@ -1462,17 +1472,17 @@ msgstr "查询交通数据"
 #: app/SettingsPage.qml:76
 #, kde-format
 msgid "When enabled, this will query transport provider online services for changes such as delays or gate and platform changes."
-msgstr "如果启用，这将查询交通运输提供商在线服务的更改，如延误或登机口、站台的更改。"
+msgstr "启用后，将通过交通运输提供商查询行程或线路更改，如：班次延误、登机口更改或站台更改。"
 
 #: app/SettingsPage.qml:79
 #, kde-format
 msgid "Use insecure services"
-msgstr "使用不安全的服务"
+msgstr "使用未加密的服务"
 
 #: app/SettingsPage.qml:87
 #, kde-format
 msgid "Enabling this will also use online services that do not offer transport encryption. This is not recommended, but might be unavoidable when relying on live data from certain providers."
-msgstr "启用此功能还将使用不提供传输加密的在线服务。 这是不建议的，但在依赖某些提供商的实时数据时可能是不可避免的。"
+msgstr "启用后将同时使用不提供数据传输加密的在线服务 (不推荐)，但某些提供商的实时数据可能不提供加密。"
 
 #: app/SettingsPage.qml:93
 #, kde-format
@@ -1492,7 +1502,7 @@ msgstr "显示天气预报将查询在线服务。"
 #: app/SettingsPage.qml:116
 #, kde-format
 msgid "Using data from <a href=\"https://www.met.no/\">The Norwegian Meteorological Institute</a> under <a href=\"https://creativecommons.org/licenses/by/4.0\">Creative Commons 4.0 BY International</a> license."
-msgstr "使用来自 <a href=\"https://www.met.no/\">的数据。挪威气象学会</a> 按照 <a href=\"https://creativecommons.org/licenses/by/4.0\">国际创意共享 (Creative Commons 4.0 BY International)</a> 协议提供数据。"
+msgstr "使用<a href=\"https://www.met.no/\">挪威气象学会</a>按 <a href=\"https://creativecommons.org/licenses/by/4.0\">Creative Commons 4.0 BY International</a> 协议授权提供的数据。"
 
 #: app/SettingsPage.qml:125
 #, kde-format
@@ -1502,27 +1512,27 @@ msgstr "预加载地图数据"
 #: app/SettingsPage.qml:133
 #, kde-format
 msgid "Enabling this will download maps for all stations and airports for upcoming trips when connected to Wifi network."
-msgstr "启用此功能将在连接 Wi-Fi 时下载所有即将前往的站点和机场的地图。"
+msgstr "启用后，在连接 Wi-Fi 时会提前下载后续旅程的站点地图和机场地图。"
 
 #: app/SettingsPage.qml:140
 #, kde-format
 msgid "Transfer Assistant"
-msgstr "交通助手"
+msgstr "换乘助手"
 
 #: app/SettingsPage.qml:144
 #, kde-format
 msgid "Automatically add transfers"
-msgstr "自动添加交通方式"
+msgstr "自动添加换乘方式"
 
 #: app/SettingsPage.qml:149
 #, kde-format
 msgid "Automatically fill transfers"
-msgstr "自动填写交通方式"
+msgstr "自动填写换乘方式"
 
 #: app/SettingsPage.qml:158
 #, kde-format
 msgid "When enabled, this will query transport provider online services automatically for transfer information."
-msgstr "如果启用，这将自动查询交通服务提供商的在线服务以获取传输信息。"
+msgstr "启用后，将通过交通服务提供商的在线服务自动查询交通信息。"
 
 #: app/SettingsPage.qml:166
 #, kde-format
@@ -1603,7 +1613,7 @@ msgstr "汽车行程"
 #: app/StatisticsPage.qml:44 app/statisticstimerangemodel.cpp:69
 #, kde-format
 msgid "Total"
-msgstr "总共"
+msgstr "合计信息"
 
 #: app/StatisticsPage.qml:62
 #, kde-format
@@ -1634,7 +1644,7 @@ msgstr "今日"
 #, kde-format
 msgctxt "weekday, date"
 msgid "%1, %2"
-msgstr "%1, %2"
+msgstr "%1，%2"
 
 #: app/TimelinePage.qml:19
 #, kde-format
@@ -1654,7 +1664,7 @@ msgstr "导出行程"
 #: app/TimelinePage.qml:128
 #, kde-format
 msgid "Nothing on the itinerary for today."
-msgstr "今天的行程表上没有任何内容。"
+msgstr "今日无行程计划。"
 
 #: app/TouristAttractionPage.qml:18
 #, kde-format
@@ -1695,7 +1705,7 @@ msgstr "站台："
 #: app/TrainEditor.qml:84
 #, kde-format
 msgid "Coach:"
-msgstr "客车："
+msgstr "车厢："
 
 #: app/TrainEditor.qml:94 app/TrainPage.qml:245
 #, kde-format
@@ -1710,12 +1720,12 @@ msgstr "火车票"
 #: app/TrainPage.qml:56
 #, kde-format
 msgid "Departure Vehicle Layout"
-msgstr "出发车辆布局"
+msgstr "离站列车编组"
 
 #: app/TrainPage.qml:67
 #, kde-format
 msgid "Arrival Vehicle Layout"
-msgstr "抵达车辆布局"
+msgstr "到站列车编组"
 
 #: app/TrainPage.qml:131
 #, kde-format
@@ -1732,7 +1742,7 @@ msgstr "车站："
 #, kde-format
 msgctxt "previous platform"
 msgid "(was: %1)"
-msgstr "(曾为：%1)"
+msgstr "(原定站台：%1)"
 
 #: app/TrainPage.qml:181
 #, kde-format
@@ -1743,7 +1753,7 @@ msgstr "到达时间："
 #, kde-format
 msgctxt "coach of a train"
 msgid "Coach:"
-msgstr "客车："
+msgstr "车厢："
 
 #: app/TrainPage.qml:252
 #, kde-format
@@ -1759,12 +1769,12 @@ msgstr "选择..."
 #: app/TransferDelegate.qml:90
 #, kde-format
 msgid "Select transfer..."
-msgstr "选择交通工具..."
+msgstr "选择换乘方式..."
 
 #: app/TransferPage.qml:18
 #, kde-format
 msgid "Select Transfer"
-msgstr "选择交通工具"
+msgstr "选择换乘方式"
 
 #: app/TransferPage.qml:36
 #, kde-format
@@ -1784,23 +1794,23 @@ msgstr "选择"
 #: app/TransferPage.qml:126
 #, kde-format
 msgid "Preceding arrival %1 at %2"
-msgstr "%1 前抵达至 %2"
+msgstr "前序班次于 %1 抵达 %2"
 
 #: app/TransferPage.qml:134
 #, kde-format
 msgid "Following departure %1 from %2"
-msgstr "%1 后从 %2 出发"
+msgstr "下一班次于 %1 从 %2 出发"
 
 #: app/TripGroupDelegate.qml:53
 #, kde-format
 msgid "Trip: %1"
-msgstr "行程： %1"
+msgstr "行程：%1"
 
 #: app/TripGroupDelegate.qml:66
 #, kde-format
 msgid "Date: %2 (one day)"
 msgid_plural "Date: %2 (%1 days)"
-msgstr[0] "日期: %2 (%1 天)"
+msgstr[0] "日期：%2 (%1 天)"
 
 #: app/TripGroupDelegate.qml:81 app/WeatherForecastPage.qml:48
 #, kde-format
@@ -1810,12 +1820,12 @@ msgstr "%1°C / %2°C"
 #: app/TripGroupDelegate.qml:92
 #, kde-format
 msgid "%1: some incompatible power sockets (%2)"
-msgstr "%1：一些不兼容的电源插座（%2)"
+msgstr "%1：部分电源插座不兼容 (%2)"
 
 #: app/TripGroupDelegate.qml:94
 #, kde-format
 msgid "%1: some incompatible power plugs (%2)"
-msgstr "%1：一些不兼容的电源插头 (%2)"
+msgstr "%1：部分电源插头不兼容 (%2)"
 
 #: app/TripGroupDelegate.qml:96
 #, kde-format
@@ -1850,7 +1860,7 @@ msgstr "出发：%1"
 #: app/VehicleLayoutPage.qml:99
 #, kde-format
 msgid "Arrival: %1"
-msgstr "到达： %1"
+msgstr "到达：%1"
 
 #: app/VehicleLayoutPage.qml:117
 #, kde-format
@@ -1860,7 +1870,7 @@ msgstr "站台：%1"
 #: app/VehicleLayoutPage.qml:123
 #, kde-format
 msgid "Coach: %1 Seat: %2"
-msgstr "车辆：%1 座位：%2"
+msgstr "车厢：%1 座位：%2"
 
 #: app/VehicleLayoutPage.qml:227
 #, kde-format
@@ -1880,27 +1890,27 @@ msgstr "一等/二等座"
 #: app/VehicleLayoutPage.qml:232
 #, kde-format
 msgid "Unknown class"
-msgstr "未知等级座位"
+msgstr "未知座位等级"
 
 #: app/VehicleLayoutPage.qml:276
 #, kde-format
 msgid "No vehicle layout information available."
-msgstr "没有可用的车辆布局信息。"
+msgstr "没有相关列车编组的信息。"
 
 #: app/VehicleLoadIndicator.qml:29
 #, kde-format
 msgid "FULL"
-msgstr "已满"
+msgstr "满座"
 
 #: app/WeatherForecastDelegate.qml:45
 #, kde-format
 msgid "Temperature: %1°C"
-msgstr "温度： %1°C"
+msgstr "温度：%1°C"
 
 #: app/WeatherForecastDelegate.qml:46
 #, kde-format
 msgid "Temperature: %1°C / %2°C"
-msgstr "温度： %1°C / %2°C"
+msgstr "温度：%1°C／%2°C"
 
 #: app/WeatherForecastDelegate.qml:51
 #, kde-format
@@ -1935,7 +1945,7 @@ msgstr "如何导入数据？"
 #: app/WelcomePage.qml:25
 #, kde-format
 msgid "<p>There's a number of ways to import data into KDE Itinerary:<ul><li>Directly opening PDF tickets or Apple Wallet passes.</li><li>From the Android calendar, for entries made via the KMail, Nextcloud or Thunderbird Itinerary plugins, and synced using DavDroid.</li><li>Via KDE Connect from the KMail Itinerary plugin.</li><li>By scanning boarding pass barcodes and pasting their content.</li></p>"
-msgstr "<p>将数据导入到 KDE 行程有很多方法：<ul><li>直接打开 PDF 票证或苹果钱包通行证。</li><li>从 Android 日历进行通过 KMail, Nextcloud 或 Thunderbird 行程插件进行的条目，并使用 DavDroid 进行同步操作。</li><li>通过 KMail Itranary 插件的 KDE Connect</li><li>扫描登机出入证条形码并粘贴其内容。</li></p>"
+msgstr "<p>有很多方法可以将数据导入到 KDE 行程：<ul><li>直接打开 PDF 票证或 Apple 钱包中保存的“凭证”。</li><li>从 Android 日历中，通过 DavDroid 同步 KMail、Nextcloud 或 Thunderbird 内 Itinerary 插件生成的条目</li><li>使用 KMail 行程插件，并在其中通过 KDE Connect 发送行程。</li><li>扫描登机牌条形码或粘贴登机牌的内容。</li></p>"
 
 #: app/WelcomePage.qml:30
 #, kde-format
@@ -1945,7 +1955,7 @@ msgstr "检查设置！"
 #: app/WelcomePage.qml:34
 #, kde-format
 msgid "KDE Itinerary has all features disabled by default that require online access, such as retrieving live traffic data or weather forecasts. You therefore might want to review these settings. While you are at it, you might want to configure your home location to enable the transfer assistant to automatically suggests ways to your next departure station or airport."
-msgstr "KDE 行程默认禁用所有需要在线访问的功能，如检索实时交通流量数据或天气预报。 因此，您可能想要查看这些设置。 当您在这里时， 您可能想要配置您家的位置，以启用交通助手，自动建议您前往下一个出发车站或机场的交通方式。"
+msgstr "KDE 行程默认禁用所有在线功能，如获取实时交通数据或天气预报信息。如需使用在线功能，请检查设置。在设置界面中，您可设置家庭住址，以便启用转乘助手。转乘助手可自动为您提供去往下一座车站或下一座机场的路线信息。"
 
 #: app/WelcomePage.qml:39
 #, kde-format
@@ -1955,7 +1965,7 @@ msgstr "更多信息"
 #: app/WelcomePage.qml:43
 #, kde-format
 msgid "For more information about KDE Itinerary check out the <a href=\"https://community.kde.org/KDE_PIM/KDE_Itinerary\">wiki page</a>."
-msgstr "要了解更多关于 KDE 行程的信息，请查看 <a href=\"https://community.kde.org/KDE_PIM/KDE_Itinerary\">wiki 页面</a>。"
+msgstr "欲知关于 KDE 行程的详细信息，请参阅 KDE 行程的 <a href=\"https://community.kde.org/KDE_PIM/KDE_Itinerary\">Wiki 页面</a>。"
 
 #: app/WelcomePage.qml:50
 #, kde-format
