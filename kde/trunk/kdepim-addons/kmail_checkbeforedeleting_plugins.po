@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:18+0000\n"
-"PO-Revision-Date: 2021-07-16 06:02\n"
+"POT-Creation-Date: 2021-08-04 00:18+0000\n"
+"PO-Revision-Date: 2021-08-08 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -26,29 +26,29 @@ msgstr "配置规则"
 #: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:23
 #, kde-format
 msgid "Type:"
-msgstr ""
+msgstr "类型："
 
 #: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:30
 #, kde-format
 msgid "Contains:"
 msgstr "包含："
 
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:62
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:60
 #, kde-format
 msgid "Body"
 msgstr "正文"
 
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:63
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:61
 #, kde-format
 msgid "Subject"
 msgstr "主题"
 
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:64
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:62
 #, kde-format
 msgid "To"
 msgstr "收件人"
 
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:65
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:63
 #, kde-format
 msgid "Cc"
 msgstr "抄送"
@@ -57,7 +57,7 @@ msgstr "抄送"
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Before Deleting Mail"
-msgstr "设置“删除邮件前需确认”"
+msgstr "配置“删前确认”插件"
 
 #: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:26
 #, kde-format
@@ -69,12 +69,12 @@ msgstr "您想要删除这封邮件吗？\n"
 #: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:26
 #, kde-format
 msgid "Confirm Delete Mail"
-msgstr "删除邮件前需确认"
+msgstr "删前确认"
 
 #: confirmbeforedeleting/confirmbeforedeletingrule.cpp:154
 #, kde-format
 msgid "The message with subject '%2' contains '%1'"
-msgstr ""
+msgstr "主题为“%2”的信件中含有关键字“%1”"
 
 #: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:31
 #, kde-format
@@ -86,31 +86,31 @@ msgstr "类型"
 msgid "Pattern"
 msgstr "表达式"
 
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:80
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:76
 #, kde-format
 msgid "Add Rule..."
 msgstr "添加规则..."
 
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:82
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:78
 #, kde-format
 msgid "Edit Rule..."
 msgstr "编辑规则..."
 
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:87
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:83
 #, kde-format
 msgid "Remove Rule"
 msgid_plural "Remove Rules"
-msgstr[0] ""
+msgstr[0] "删除规则"
 
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:99
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:95
 #, kde-format
 msgid "Do you want to remove this rule?"
 msgid_plural "Do you want to remove these rules?"
-msgstr[0] ""
+msgstr[0] "您确定要删除这些规则吗？"
 
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:100
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:96
 #, kde-format
 msgctxt "@title"
 msgid "Remove Rule"
-msgstr ""
+msgstr "删除规则"
 

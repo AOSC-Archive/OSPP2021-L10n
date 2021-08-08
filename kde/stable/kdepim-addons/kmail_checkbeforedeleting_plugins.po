@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-15 01:40+0000\n"
-"PO-Revision-Date: 2021-07-27 07:48\n"
+"PO-Revision-Date: 2021-08-08 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -57,7 +57,7 @@ msgstr "抄送"
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Before Deleting Mail"
-msgstr "设置“删除邮件前需确认”"
+msgstr "配置“删前确认”插件"
 
 #: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:26
 #, kde-format
@@ -69,12 +69,12 @@ msgstr "您想要删除这封邮件吗？\n"
 #: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:26
 #, kde-format
 msgid "Confirm Delete Mail"
-msgstr "删除邮件前需确认"
+msgstr "删前确认"
 
 #: confirmbeforedeleting/confirmbeforedeletingrule.cpp:154
 #, kde-format
 msgid "The message with subject '%2' contains '%1'"
-msgstr "主题为“%2”的信件中含有“%1”"
+msgstr "主题为“%2”的信件中含有关键字“%1”"
 
 #: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:31
 #, kde-format
