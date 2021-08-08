@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-07 00:16+0000\n"
-"PO-Revision-Date: 2021-08-08 10:43\n"
+"PO-Revision-Date: 2021-08-08 11:17\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -364,12 +364,12 @@ msgstr "文档 (%1)"
 #: app/DetailsPage.qml:118
 #, kde-format
 msgid "Add transfer before"
-msgstr "出发地前添加换乘"
+msgstr "在此项前添加换乘"
 
 #: app/DetailsPage.qml:127
 #, kde-format
 msgid "Add transfer after"
-msgstr "抵达地后添加换乘"
+msgstr "在此项后添加换乘"
 
 #: app/DetailsPage.qml:136
 #, kde-format
