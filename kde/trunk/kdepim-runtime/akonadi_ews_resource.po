@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-15 00:18+0000\n"
-"PO-Revision-Date: 2021-07-27 14:29\n"
+"PO-Revision-Date: 2021-08-08 14:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -31,13 +31,13 @@ msgstr "未找到 Exchange 协议信息"
 #, kde-format
 msgctxt "@info"
 msgid "Microsoft Exchange credentials for the account <b>%1</b> are no longer valid. You need to authenticate in order to continue using it."
-msgstr "您的微软 Exchange 账号信息 <b>%1</b> 已失效，您需要重新授权才能继续使用。"
+msgstr "您的微软 Exchange 账号 <b>%1</b> 授权已失效，请重新授权。"
 
 #: ewsclient/auth/ewsoauth.cpp:454
 #, kde-format
 msgctxt "@info"
 msgid "Failed to obtain credentials for Microsoft Exchange account <b>%1</b>. Please update it in the account settings page."
-msgstr "无法获取您的微软 Exchange 账号信息 <b>%1</b>，请在账号设置页面更新您的账号信息。"
+msgstr "无法获取微软 Exchange 账号 <b>%1</b> 的授权信息，请在账号设置页面更新该账号的信息。"
 
 #: ewsclient/auth/ewspasswordauth.cpp:57
 #, kde-format
@@ -61,7 +61,7 @@ msgstr "确定"
 #, kde-format
 msgctxt "User Agent"
 msgid "Custom"
-msgstr "定制"
+msgstr "自定义"
 
 #: ewsconfigdialog.cpp:149
 #, kde-format
@@ -120,7 +120,7 @@ msgstr "确定"
 #: ewsconfigdialog.cpp:337
 #, kde-format
 msgid "Autodiscovery failed. This can be caused by incorrect parameters. Do you still want to save your settings?"
-msgstr "自动发现失败。这可能由不正确的参数引起。您仍然想要保存设置吗？"
+msgstr "自动发现失败。您的配置可能不正确，仍要保存设置吗？"
 
 #: ewsconfigdialog.cpp:338
 #, kde-format
@@ -159,7 +159,7 @@ msgstr "常规"
 #: ewsconfigdialog.ui:45
 #, kde-format
 msgid "Account Information"
-msgstr "账户名信息"
+msgstr "账户信息"
 
 #. i18n: ectx: property (text), widget (QLabel, accountNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
@@ -172,7 +172,7 @@ msgstr "账户名称："
 #: ewsconfigdialog.ui:64
 #, kde-format
 msgid "This is the account name that will appear in all Akonadi applications"
-msgstr "这是将出现在所有 Akonadi 应用程序中的帐户名"
+msgstr "该账户名称将在所有 Akonadi 应用程序中显示"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
 #: ewsconfigdialog.ui:71
@@ -198,7 +198,7 @@ msgstr "验证"
 #: ewsconfigdialog.ui:94
 #, kde-format
 msgid "<html><head/><body><p>Enables traditional username/password authentication against the Exchange server. This includes methods like Basic, NTLM or Kerberos.</p><p>This authentication method is considered to be somewhat legacy and is mostly used for smaller on-premise Exchange installations and hosted Office 365 instances, where the administrator has chosen to enable it.</p></body></html>"
-msgstr "<html><head/><body><p>针对 Exchange 服务器启用传统的用户名与密码身份验证。这也包含如基本身份验证、NTLM 身份验证或Kerberos 身份验证在内的方法。</p><p>这种验证方式有点传统，且广泛用于管理员启用了这种验证方式的、小规模内部 Exchange 设施及第三方托管的 Office 示例中。</p></body></html>"
+msgstr "<html><head/><body><p>针对 Exchange 服务器启用传统的用户名与密码身份验证。其中包含如基本身份验证、NTLM 身份验证或 Kerberos 身份验证等验证方式。</p><p>这种验证方式属于历史遗留，且广泛用于小规模的内部 Exchange 设施及第三方托管的 Office 示例中。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, authUsernameRadioButton)
 #: ewsconfigdialog.ui:97
@@ -242,25 +242,25 @@ msgstr "密码："
 #: ewsconfigdialog.ui:186
 #, kde-format
 msgid "<html><head/><body><p>The password used to login to the Exchange server.</p><p><span style=\" font-weight:600;\">Note:</span> This can be left empty when using Kerberos authentication.</p></body></html>"
-msgstr "<html><head/><body><p>用于登录到 Exchange 服务器的密码。</p><p><span style=\" font-weight:600;\">注意：在使用 Kerberos 身份验证时,</span> 可以留空。</p></body></html>"
+msgstr "<html><head/><body><p>用于登录到 Exchange 服务器的密码。</p><p><span style=\" font-weight:600;\">注意：</span>在使用 Kerberos 身份验证时，此处可留空。</p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_Username)
 #: ewsconfigdialog.ui:193
 #, kde-format
 msgid "<html><head/><body><p>The username used to login to the Exchange server.</p><p><span style=\" font-weight:600;\">Note:</span> This can be left empty when using Kerberos authentication.</p></body></html>"
-msgstr "<html><head/><body><p>用于登录到 Exchange 服务器的用户名。</p><p><span style=\" font-weight:600;\">注意：在使用 Kerberos 身份验证时,</span> 可以留空。</p></body></html>"
+msgstr "<html><head/><body><p>用于登录到 Exchange 服务器的用户名。</p><p><span style=\" font-weight:600;\">注意：</span>在使用 Kerberos 身份验证时，此处可留空。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, kerberosNoteLabel)
 #: ewsconfigdialog.ui:203
 #, kde-format
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> Username and password are not needed (can be empty) when Kerberos is properly configured on your system.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">注意：</span>当 Kerberos 在系统上正确配置时，不需要用户名和密码（可以为空）。</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">注意：</span>在系统上正确配置 Kerberos 后，无需填写用户名和密码 (可以留空)。</p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, authOAuth2RadioButton)
 #: ewsconfigdialog.ui:222
 #, kde-format
 msgid "<html><head/><body><p>Enables more modern and stronger authentication based on OAuth2.</p><p>This type of authentication will open an organization-supplied webpage, where the user will be able to enter authentication information, which may also include multifactor authentication in form of one-time-passwords generated by tokens.</p><p>This method is mostly used for hosted Office 365 instances.</p></body></html>"
-msgstr "<html><head/><body><p>启用更加现代、更加强大的 OAuth2 身份验证。</p><p>这种验证方式会打开一个组织提供的网页让用户输入验证信息，并以令牌生成一次性验证码的形式进行多重验证。</p><p>这种方式也是第三方托管 Office 365 实例中最常见的验证方式。</p></body></html>"
+msgstr "<html><head/><body><p>启用更现代、更安全的 OAuth2 身份验证。</p><p>验证时会打开一个由组织提供的页面来让用户输入验证信息，并根据身份令牌生成的动态密码进行多步验证。</p><p>这是第三方托管的 Office 365 实例中最常见的验证方式。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, authOAuth2RadioButton)
 #: ewsconfigdialog.ui:225
@@ -284,7 +284,7 @@ msgstr "EWS URL："
 #: ewsconfigdialog.ui:263
 #, kde-format
 msgid "The Microsoft Exchange server URL used to send EWS requests."
-msgstr "用于发送预警请求的 Microsoft Exchange 服务器 URL。"
+msgstr "用于发送 EWS 请求的 Microsoft Exchange 服务器 URL。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoDiscovery)
 #: ewsconfigdialog.ui:285
@@ -315,7 +315,7 @@ msgstr "尝试连接"
 #: ewsconfigdialog.ui:324
 #, kde-format
 msgid "<html><head/><body><p>Private Key (PKey) Authentication is used as an additional authentication step to OAuth2-based authentication. It uses an X.509 certificate and private key that identifies a trusted device, which was joined to the Azure Directory using a Workplace Join.</p><p>Some administrators may mandate use of PKey authentication when connecting to Office 365 from outside of corporate network. In other cases, when multi-factor authentication is set-up, using the PKey authentication can satisfy requirements for strong authentication, in which case entering the MFA code is not required.</p></body></html>"
-msgstr "<html><head/><body><p>私钥 (PKey) 身份验证是用作 OAuth2 身份认证的附加步骤的验证方式。它使用 X.509 证书和私钥来辨别已使用 Workplace Join 加入 Azure Directory 可信任的设备。</p><p>一些管理员可能会强制公司外网登录时使用私钥进行身份验证。在其它情况下、多重身份验证配置完成后，使用私钥身份验证而无需输入 MFA 验证码即可满足强身份验证的要求。</p></body></html>"
+msgstr "<html><head/><body><p>私钥 (PKey) 验证是 OAuth2 身份认证中的附加步骤。它使用 X.509 证书和私钥来辨别已使用 Workplace Join 加入 Azure Directory 可信设备。</p><p>一些管理员可能会强制在公司外的网络中登录时使用私钥进行身份验证。在其它情况下、多重身份验证 (MFA) 配置完成后，只需使用私钥身份验证，而无需输入 MFA 验证码即可满足强身份验证的要求。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pkeyAuthGroupBox)
 #: ewsconfigdialog.ui:327
@@ -365,13 +365,13 @@ msgstr "获取"
 #: ewsconfigdialog.ui:419
 #, kde-format
 msgid "<html><head/><body><p>Periodically asks for new item change events.</p></body></html>"
-msgstr "<html><head/><body><p>定期请求新项目更改事件。</p></body></html>"
+msgstr "<html><head/><body><p>定期更新事件。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, pollRadioButton)
 #: ewsconfigdialog.ui:422
 #, kde-format
 msgid "Po&ll for new messages"
-msgstr "拉取(&L) 新信息"
+msgstr "拉取新信息(&L)"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_PollInterval)
 #: ewsconfigdialog.ui:447
@@ -389,13 +389,13 @@ msgstr "间隔"
 #: ewsconfigdialog.ui:476
 #, kde-format
 msgid "<html><head/><body><p>Streaming notifications behave similarly to push mode - a connection is kept alive and notifications about item changes are delivered instantly.</p><p><br/></p><p>This option requires Exchange server version 2010 SP1 or later.</p></body></html>"
-msgstr "<html><head/><body><p>流式通知的行为类似于推送模式——连接保持活动状态，并立即传递有关项更改的通知。</p><p><br/></p><p>此选项要求 Exchange server 2010 版 SP1 或更高版本。</p></body></html>"
+msgstr "<html><head/><body><p>流式通知的行为类似于推送模式：保持长连接，并在项目更改时立刻传递通知。</p><p><br/></p><p>此选项需要服务器为 Exchange server 2010 SP1 或更高版本。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, streamingRadioButton)
 #: ewsconfigdialog.ui:479
 #, kde-format
 msgid "&Use streaming notifications"
-msgstr "（&U）使用流式通知"
+msgstr "启用流式通知(&U)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableNTLMv2)
 #: ewsconfigdialog.ui:498
@@ -413,7 +413,7 @@ msgstr "启用 NTLMv2"
 #: ewsconfigdialog.ui:511
 #, kde-format
 msgid "<html><head/><body><p>Some organizations restrict access to mail only to approved clients, such as Microsoft Outlook. On the server-side this is implemented by analyzing the User-Agent string and only allowing a list of approved clients.</p><p>This setting allows to emulate some well known clients as well as providing a custom User-Agent string.</p><p>Please be advised that bypassing company policies may result in personal consequences.</p></body></html>"
-msgstr "<html><head/><body><p>某些组织仅限部分客户端 (如 Microsoft Outlook) 访问邮件。服务器端分析用户代理字符串，并只允许一部分客户端访问。</p><p>此设置可让您模拟一些知名客户端或自定义用户代理字符串。</p><p>请注意，绕开公司政策可能导致的后果将由您自行承担。</p></body></html>"
+msgstr "<html><head/><body><p>某些组织仅限部分客户端 (如 Microsoft Outlook) 存取邮件。服务器端会分析用户代理字符串，并只允许部分客户端访问。</p><p>此设置可让您模拟一些知名的客户端或自定义用户代理字符串。</p><p>请注意，绕开公司政策可能导致的后果将由您自行承担。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, userAgentGroupBox)
 #: ewsconfigdialog.ui:514
@@ -959,7 +959,7 @@ msgstr "尝试自动发现 Exchange 服务器地址"
 #: ewsresource.kcfg:36
 #, kde-format
 msgid "Attempts to find out the Microsoft Exchange server address relevant to the supplied e-mail address."
-msgstr "尝试查找与提供的电子邮件地址相关的 Microsoft Exchange 服务器地址。"
+msgstr "尝试查找与所给电子邮件地址相关的 Microsoft Exchange 服务器地址。"
 
 #. i18n: ectx: label, entry (PollInterval), group (General)
 #: ewsresource.kcfg:39
