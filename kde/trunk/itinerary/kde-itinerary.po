@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-07 00:16+0000\n"
-"PO-Revision-Date: 2021-08-08 07:21\n"
+"PO-Revision-Date: 2021-08-08 07:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -35,7 +35,7 @@ msgstr "关于"
 #: app/AboutPage.qml:106
 #, kde-format
 msgid "Copyright: %1"
-msgstr "版权: %1"
+msgstr "版权：%1"
 
 #: app/AboutPage.qml:113
 #, kde-format
@@ -45,12 +45,12 @@ msgstr "主页：<a href=\"%1\">%1</a>"
 #: app/AboutPage.qml:121
 #, kde-format
 msgid "License: <a href=\"https://spdx.org/licenses/%1.html\">%2</a>"
-msgstr "许可协议: <a href=\"https://spdx.org/licenses/%1.html\">%2</a>"
+msgstr "许可协议：<a href=\"https://spdx.org/licenses/%1.html\">%2</a>"
 
 #: app/AboutPage.qml:145
 #, kde-format
 msgid "License: <a href=\"%2\">%1</a>"
-msgstr "许可协议: <a href=\"%2\">%1</a>"
+msgstr "许可协议：<a href=\"%2\">%1</a>"
 
 #: app/AboutPage.qml:156
 #, kde-format
@@ -80,7 +80,7 @@ msgstr "KDE 行程使用以下来源的公共交通数据。"
 #: app/AboutPage.qml:226
 #, kde-format
 msgid "Application version: %1"
-msgstr "应用程序版本: %1"
+msgstr "应用程序版本：%1"
 
 #: app/AboutPage.qml:245
 #, kde-format
@@ -173,7 +173,7 @@ msgstr "出发时间"
 #: app/CarRentalPage.qml:45 app/FlightPage.qml:100 app/FlightPage.qml:132
 #, kde-format
 msgid "Time:"
-msgstr "时间:"
+msgstr "时间："
 
 #: app/BusPage.qml:75 app/BusPage.qml:94 app/TrainEditor.qml:50
 #: app/TrainEditor.qml:67
@@ -271,7 +271,7 @@ msgstr "型号："
 #: app/CarRentalPage.qml:73
 #, kde-format
 msgid "Brand:"
-msgstr "品牌:"
+msgstr "品牌："
 
 #: app/CarRentalPage.qml:80
 #, kde-format
@@ -316,7 +316,7 @@ msgstr "数据提供者：%1"
 #: app/DetailsPage.qml:43
 #, kde-format
 msgid "Do you really want to delete this event?"
-msgstr "您真的想要删除此事件吗？"
+msgstr "您确定要删除此活动吗？"
 
 #: app/DetailsPage.qml:50 app/DetailsPage.qml:142 app/DocumentsPage.qml:79
 #: app/HealthCertificatePage.qml:28 app/HealthCertificatePage.qml:45
@@ -445,7 +445,7 @@ msgstr "结束时间：%1"
 #: app/EventEditor.qml:17
 #, kde-format
 msgid "Edit Event"
-msgstr "编辑事件"
+msgstr "编辑活动信息"
 
 #: app/EventEditor.qml:43
 #, kde-format
@@ -467,12 +467,12 @@ msgstr "入场时间："
 #: app/EventPage.qml:61
 #, kde-format
 msgid "Start Time:"
-msgstr "开始时间:"
+msgstr "开始时间："
 
 #: app/EventPage.qml:65
 #, kde-format
 msgid "End Time:"
-msgstr "结束时间:"
+msgstr "结束时间："
 
 #: app/favoritelocationmodel.cpp:129 app/favoritelocationmodel.cpp:149
 #: app/SettingsPage.qml:41 app/transfermanager.cpp:318
@@ -561,7 +561,7 @@ msgstr "%1 %2 → %3"
 #, kde-format
 msgctxt "flight departure, %1 is airport, %2 is time"
 msgid "Departure from %1: %2"
-msgstr "%1: %2 出发"
+msgstr "从“%1”出发的时间：%2"
 
 #: app/FlightDelegate.qml:79
 #, kde-format
@@ -1160,7 +1160,7 @@ msgstr "部分电源插头不兼容： %1"
 #: app/LocationInfoDelegate.qml:87
 #, kde-format
 msgid "Timezone change: %1 (%2)"
-msgstr "时区变化: %1 (%2)"
+msgstr "时区变化：%1 (%2)"
 
 #: app/locationinformation.cpp:84
 #, kde-format
