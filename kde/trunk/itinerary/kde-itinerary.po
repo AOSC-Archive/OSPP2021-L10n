@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-07 00:16+0000\n"
-"PO-Revision-Date: 2021-08-08 07:37\n"
+"PO-Revision-Date: 2021-08-08 10:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -404,7 +404,7 @@ msgstr "删除文档"
 #: app/DocumentsPage.qml:72
 #, kde-format
 msgid "Do you really want to delete this document?"
-msgstr "是否确实要删除此文档？"
+msgstr "您确定要删除此文档吗？"
 
 #: app/DocumentsPage.qml:93
 #, kde-format
@@ -478,7 +478,7 @@ msgstr "结束时间："
 #: app/SettingsPage.qml:41 app/transfermanager.cpp:318
 #, kde-format
 msgid "Home"
-msgstr "家庭信息"
+msgstr "家庭"
 
 #: app/favoritelocationmodel.cpp:152
 #, kde-format
@@ -729,7 +729,7 @@ msgstr "您确定要删除此证书吗？"
 #: app/HealthCertificatePage.qml:94
 #, kde-format
 msgid "<p>You can import the following health certificates by scanning them with a barcode scanner app:<ul><li>European \"Digital Green Certificates\" for vaccinations, tests or recovery.</li><li>Indian vaccination certificates.</li></p>"
-msgstr "<p>您可通过条码扫描器扫描健康证书上的二维码来导入以下证书：<ul><li>用于证明持证人完成疫苗接种、病毒检测结果呈阴性或曾感染病毒并已痊愈的欧洲“数字绿色证书”。</li><li>印度健康证书。</li></p>"
+msgstr "<p>您可通过条码扫描器扫描健康证书上的二维码来导入以下证书：<ul><li>欧洲“数字绿色证书”：用于证明持证人的疫苗接种情况、病毒检测结果或疾病痊愈状态。</li><li>印度疫苗接种证书。</li></p>"
 
 #: app/HealthCertificateRecovery.qml:32 app/HealthCertificateTest.qml:32
 #: app/HealthCertificateVaccination.qml:32
@@ -786,7 +786,7 @@ msgstr "证书信息"
 #: app/HealthCertificateVaccination.qml:91
 #, kde-format
 msgid "Issuer:"
-msgstr "颁发者："
+msgstr "颁发单位："
 
 #: app/HealthCertificateRecovery.qml:78 app/HealthCertificateTest.qml:96
 #: app/HealthCertificateVaccination.qml:95
@@ -1633,7 +1633,7 @@ msgstr "同行人员 %1"
 #: app/tickettokenmodel.cpp:74
 #, kde-format
 msgid "Traveler %1"
-msgstr "旅行者 %1"
+msgstr "旅客 %1"
 
 #: app/timelinemodel.cpp:205 app/TimelinePage.qml:24
 #, kde-format
@@ -1895,7 +1895,7 @@ msgstr "未知座位等级"
 #: app/VehicleLayoutPage.qml:276
 #, kde-format
 msgid "No vehicle layout information available."
-msgstr "没有相关列车编组的信息。"
+msgstr "没有列车编组的相关信息。"
 
 #: app/VehicleLoadIndicator.qml:29
 #, kde-format
@@ -1945,7 +1945,7 @@ msgstr "如何导入数据？"
 #: app/WelcomePage.qml:25
 #, kde-format
 msgid "<p>There's a number of ways to import data into KDE Itinerary:<ul><li>Directly opening PDF tickets or Apple Wallet passes.</li><li>From the Android calendar, for entries made via the KMail, Nextcloud or Thunderbird Itinerary plugins, and synced using DavDroid.</li><li>Via KDE Connect from the KMail Itinerary plugin.</li><li>By scanning boarding pass barcodes and pasting their content.</li></p>"
-msgstr "<p>有很多方法可以将数据导入到 KDE 行程：<ul><li>直接打开 PDF 票证或 Apple 钱包中保存的“凭证”。</li><li>从 Android 日历中，通过 DavDroid 同步 KMail、Nextcloud 或 Thunderbird 内 Itinerary 插件生成的条目</li><li>使用 KMail 行程插件，并在其中通过 KDE Connect 发送行程。</li><li>扫描登机牌条形码或粘贴登机牌的内容。</li></p>"
+msgstr "<p>有很多方法可以将数据导入到 KDE 行程：<ul><li>直接打开 PDF 格式的电子票券或 Apple 钱包中保存的“凭证”。</li><li>从 Android 日历中，通过 DavDroid 同步 KMail、Nextcloud 或 Thunderbird 内的行程插件生成的条目</li><li>使用 KMail 行程插件，并在其中通过 KDE Connect 发送行程。</li><li>扫描登机牌条形码或粘贴登机牌的内容。</li></p>"
 
 #: app/WelcomePage.qml:30
 #, kde-format
