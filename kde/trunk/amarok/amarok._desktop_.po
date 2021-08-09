@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:26+0000\n"
-"PO-Revision-Date: 2021-08-04 12:44\n"
+"PO-Revision-Date: 2021-08-09 07:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Amarok"
 #: data/amarok.notifyrc:58
 msgctxt "Name"
 msgid "Track Change"
-msgstr "换歌"
+msgstr "已换歌"
 
 #: data/amarok.notifyrc:106
 msgctxt "Comment"
@@ -45,12 +45,12 @@ msgstr "Amarok 发出了一条未分类的文字消息"
 #: playground/src/context/applets/coverbling/amarok-context-applet-coverbling.desktop:2
 msgctxt "Name"
 msgid "CoverBling"
-msgstr "闪亮封面"
+msgstr "封面转盘"
 
 #: playground/src/context/applets/covergrid/amarok-context-applet-covergrid.desktop:3
 msgctxt "Name"
 msgid "CoverGrid"
-msgstr "网格封面"
+msgstr "封面网格"
 
 #: src/amarok_addaspodcast.desktop:7
 msgctxt "Name"
@@ -65,7 +65,7 @@ msgstr "Amarok"
 #: src/amarok_append.desktop:71
 msgctxt "Name"
 msgid "Append to Playlist"
-msgstr "添加到播放列表尾部"
+msgstr "追加至播放列表"
 
 #: src/amarok_append.desktop:133
 msgctxt "Name"
@@ -75,7 +75,7 @@ msgstr "添加并播放"
 #: src/amarok_append.desktop:195
 msgctxt "Name"
 msgid "Queue Track"
-msgstr "歌曲队列"
+msgstr "加入排序队列"
 
 #: src/amarok-contextapplet.desktop:4 src/amarok-plugin.desktop:4
 msgctxt "Comment"
@@ -125,7 +125,7 @@ msgstr "信息"
 #: src/context/applets/labels/amarok-context-applet-labels.desktop:2
 msgctxt "Name"
 msgid "Labels"
-msgstr "标签"
+msgstr "标记"
 
 #: src/context/applets/lyrics/package/metadata.desktop:2
 msgctxt "Name"
@@ -190,28 +190,28 @@ msgstr "Amarok 信息视图的 QML 包"
 #: src/context/context_qml_package/metadata.desktop:31
 msgctxt "Comment"
 msgid "QML base package for amarok context area"
-msgstr "amarok 右键菜单区域的 QML 基础包"
+msgstr "Amarok 信息视图区域的 QML 基础包"
 
 #: src/context/engines/labels/amarok-data-engine-labels.desktop:2
 msgctxt "Name"
 msgid "Labels Data Engine"
-msgstr "标签数据引擎"
+msgstr "“标记”功能的数据引擎"
 
 #: src/context/engines/similarartists/amarok-data-engine-similarArtists.desktop:2
 #: src/context/engines/upcomingevents/amarok-data-engine-upcomingEvents.desktop:2
 msgctxt "Name"
 msgid "Upcoming Events Data Engine"
-msgstr "临近演出数据引擎"
+msgstr "“临近演出”功能的数据引擎"
 
 #: src/context/engines/songkick/amarok-data-engine-songkick.desktop:2
 msgctxt "Name"
 msgid "Songkick Data Engine"
-msgstr "Songkick 数据引擎"
+msgstr "“Songkick”功能的数据引擎"
 
 #: src/context/engines/tabs/amarok-data-engine-tabs.desktop:2
 msgctxt "Name"
 msgid "Tabs Data Engine"
-msgstr "标签数据引擎"
+msgstr "“指法谱”功能的数据引擎"
 
 #: src/context/servicetypes/amarok_containment.desktop:5
 msgctxt "Comment"
@@ -221,7 +221,7 @@ msgstr "Plasma 的部件容器和背景绘制器"
 #: src/context/servicetypes/amarok_context_applet.desktop:5
 msgctxt "Comment"
 msgid "Amarok Context applet"
-msgstr "Amarok 部件右键菜单"
+msgstr "Amarok 信息视图部件"
 
 #: src/core-impl/collections/audiocd/amarok_collection-audiocdcollection.desktop:4
 msgctxt "Name"
@@ -397,7 +397,7 @@ msgstr "音频播放器"
 #: src/org.kde.amarok_containers.desktop:130 src/org.kde.amarok.desktop:131
 msgctxt "Comment"
 msgid "Amarok - Rediscover Your Music!"
-msgstr "Amarok——重新发现音乐之美！"
+msgstr "Amarok——重新感悟音乐之美！"
 
 #: src/org.kde.amarok_containers.desktop:193 src/org.kde.amarok.desktop:195
 msgctxt "X-KDE-Keywords"
@@ -412,7 +412,7 @@ msgstr "Librivox.org"
 #: src/scripting/scripts/librivox_service/script.desktop:42
 msgctxt "Comment"
 msgid "A scripted service that lets you search, stream and download free, public domain, audio books from Librivox.org"
-msgstr "一个供您搜索、串流并下载 Librivox.org 上自由的、公有领域的有声书的脚本服务"
+msgstr "一个供您搜索、串流和下载 Librivox.org 上自由的、公有领域的有声书的脚本服务"
 
 #: src/scripting/scripts/radio_station_service/script.desktop:6
 msgctxt "Name"
@@ -482,7 +482,7 @@ msgstr "Jamendo"
 #: src/services/jamendo/amarok_service_jamendo.desktop:60
 msgctxt "Comment"
 msgid "Listen to and download music uploaded by independent artists"
-msgstr "聆听并下载由独立艺术家上传的音乐"
+msgstr "聆听和下载独立艺人上传的音乐"
 
 #: src/services/lastfm/amarok_service_lastfm_config.desktop:11
 msgctxt "Name"
@@ -522,7 +522,7 @@ msgstr "Magnatune 商店"
 #: src/services/magnatune/amarok_service_magnatunestore.desktop:61
 msgctxt "Comment"
 msgid "Preview and buy music from the non-evil Magnatune record label"
-msgstr "从不作恶的 Magnatune 音乐厂牌中浏览并购买音乐"
+msgstr "在不作恶的 Magnatune 上浏览和购买音乐"
 
 #: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:11
 msgctxt "Name"
@@ -532,7 +532,7 @@ msgstr "MP3tunes 服务配置"
 #: src/services/mp3tunes/amarok_service_mp3tunes_config.desktop:58
 msgctxt "Comment"
 msgid "Configure mp3tunes credentials"
-msgstr "配置 mp3tunes 的登录信息"
+msgstr "配置 MP3tunes 的登录信息"
 
 #: src/services/mp3tunes/amarok_service_mp3tunes.desktop:4
 msgctxt "Name"
