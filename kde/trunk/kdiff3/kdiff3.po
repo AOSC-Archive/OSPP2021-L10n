@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-20 00:20+0000\n"
-"PO-Revision-Date: 2021-07-27 06:42\n"
+"PO-Revision-Date: 2021-08-09 09:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1537,7 +1537,7 @@ msgstr "文件(&F)"
 #: kdiff3_shell.rc:7
 #, kde-format
 msgid "F&older"
-msgstr "文件夹 (&O)"
+msgstr "文件夹(&O)"
 
 #. i18n: ectx: Menu (dir_current_merge_menu)
 #: kdiff3_shell.rc:30
@@ -1923,7 +1923,7 @@ msgstr "B："
 #: opendialog.ui:50
 #, kde-format
 msgid "A (Base):"
-msgstr ""
+msgstr "A (被比较)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: opendialog.ui:57
@@ -2009,7 +2009,9 @@ msgstr "为版本控制历史记录开头使用的正则表达式。\n"
 msgid "The quick brown fox jumps over the river\n"
 "but the little red hen escapes with a shiver.\n"
 ":-)"
-msgstr ""
+msgstr "敏捷的棕色狐狸越过了河流\n"
+"但小红母鸡颤抖着逃走了。\n"
+":-)"
 
 #: optiondialog.cpp:119
 #, kde-format

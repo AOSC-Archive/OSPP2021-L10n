@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:18+0000\n"
-"PO-Revision-Date: 2021-08-08 14:32\n"
+"POT-Creation-Date: 2021-08-08 00:17+0000\n"
+"PO-Revision-Date: 2021-08-09 09:49\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -205,7 +205,7 @@ msgstr "<html><head/><body><p>针对 Exchange 服务器启用传统的用户名�
 #, kde-format
 msgctxt "authentication type"
 msgid "&Username/Password"
-msgstr "用户名和密码 (&U)"
+msgstr "用户名和密码(&U)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HasDomain)
 #: ewsconfigdialog.ui:143
@@ -1027,7 +1027,7 @@ msgstr "PKey 身份验证使用的 PEM 证书路径"
 msgid "Path to PKey authentication PEM private key"
 msgstr "PKey 身份验证使用的 PEM 私钥路径"
 
-#: ewssettings.cpp:95
+#: ewssettings.cpp:93
 #, kde-format
 msgid "Please enter password for user '%1' and Exchange account '%2'."
 msgstr "请输入用户“%1”的 Exchange 账户“%2”的密码。"
