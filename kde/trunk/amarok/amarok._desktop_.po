@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:26+0000\n"
-"PO-Revision-Date: 2021-08-09 07:51\n"
+"PO-Revision-Date: 2021-08-09 08:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -542,15 +542,15 @@ msgstr "MP3tunes"
 #: src/services/mp3tunes/amarok_service_mp3tunes.desktop:51
 msgctxt "Comment"
 msgid "Browse and listen to the music stored in your MP3tunes account"
-msgstr "查看并聆听储存在 MP3tunes 账号中的音乐"
+msgstr "查看和聆听储存在 MP3tunes 账号中的音乐"
 
 #: src/services/opmldirectory/amarok_service_opmldirectory.desktop:4
 msgctxt "Name"
 msgid "Podcast Directory"
-msgstr "播客目录"
+msgstr "播客名录"
 
 #: src/services/opmldirectory/amarok_service_opmldirectory.desktop:55
 msgctxt "Comment"
 msgid "Browse and subscribe to a huge list of podcasts"
-msgstr "查看并订阅内含大量播客的列表"
+msgstr "浏览和订阅内含大量播客的列表"
 
