@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:26+0000\n"
-"PO-Revision-Date: 2021-08-09 08:08\n"
+"PO-Revision-Date: 2021-08-09 08:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -261,7 +261,7 @@ msgstr "iPod, iPad 和 iPhone 收藏"
 #: src/core-impl/collections/ipodcollection/amarok_collection-ipodcollection.desktop:47
 msgctxt "Comment"
 msgid "Plugin to use iPod-like devices as collections in Amarok"
-msgstr "在 Amarok 中将 iPod 类设备作为收藏的插件"
+msgstr "在 Amarok 中将 iPod 类设备作为收藏集的插件"
 
 #: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:4
 msgctxt "Name"
@@ -271,7 +271,7 @@ msgstr "媒体设备收藏"
 #: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:59
 msgctxt "Comment"
 msgid "Media Device collection plugin for Amarok"
-msgstr "Amarok 的媒体设备收藏插件"
+msgstr "Amarok 的媒体设备收藏集插件"
 
 #: src/core-impl/collections/mtpcollection/amarok_collection-mtpcollection.desktop:4
 msgctxt "Name"
@@ -552,5 +552,5 @@ msgstr "播客名录"
 #: src/services/opmldirectory/amarok_service_opmldirectory.desktop:55
 msgctxt "Comment"
 msgid "Browse and subscribe to a huge list of podcasts"
-msgstr "浏览和订阅内含大量播客的列表"
+msgstr "从庞大的播客列表中订阅心仪的播客"
 
