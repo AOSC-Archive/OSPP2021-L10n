@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-03 01:44+0000\n"
-"PO-Revision-Date: 2021-07-27 10:10\n"
+"POT-Creation-Date: 2021-07-03 00:16+0000\n"
+"PO-Revision-Date: 2021-08-09 06:16\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,14 +14,14 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-stable/messages/kdevelop/kdevcustomdefinesandincludes.pot\n"
-"X-Crowdin-File-ID: 3959\n"
+"X-Crowdin-File: /kf5-trunk/messages/kdevelop/kdevcustomdefinesandincludes.pot\n"
+"X-Crowdin-File-ID: 4894\n"
 
 #: compilerprovider/compilerprovider.cpp:49
 #, kde-format
 msgctxt "@item no compiler"
 msgid "None"
-msgstr "未分组"
+msgstr "无可用编译器"
 
 #: compilerprovider/widget/compilersmodel.cpp:134
 #, kde-format
