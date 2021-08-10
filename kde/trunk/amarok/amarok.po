@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-10 09:07\n"
+"PO-Revision-Date: 2021-08-10 13:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -196,72 +196,72 @@ msgstr "查看此贡献者的博客"
 #: aboutdialog/OcsPersonItem.cpp:258
 #, kde-format
 msgid "Visit contributor's del.icio.us profile"
-msgstr "访问此贡献者在 del.icio.us 上的个人资料"
+msgstr "查看此贡献者在 del.icio.us 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:263
 #, kde-format
 msgid "Visit contributor's Digg profile"
-msgstr "访问此贡献者在 Digg 上的个人资料"
+msgstr "查看此贡献者在 Digg 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:268
 #, kde-format
 msgid "Visit contributor's Facebook profile"
-msgstr "访问此贡献者在 Facebook 上的个人资料"
+msgstr "查看此贡献者在 Facebook 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:284
 #, kde-format
 msgid "Visit contributor's Last.fm profile"
-msgstr "访问此贡献者在 Last.fm 上的个人资料"
+msgstr "查看此贡献者在 Last.fm 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:292
 #, kde-format
 msgid "Visit contributor's LinkedIn profile"
-msgstr "访问此贡献者在 LinkedIn 上的个人资料"
+msgstr "查看此贡献者在 LinkedIn 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:297
 #, kde-format
 msgid "Visit contributor's MySpace homepage"
-msgstr "访问此贡献者的 MySpace 主页"
+msgstr "查看此贡献者的 MySpace 主页"
 
 #: aboutdialog/OcsPersonItem.cpp:302
 #, kde-format
 msgid "Visit contributor's Reddit profile"
-msgstr "访问此贡献者在 Reddit 上的个人资料"
+msgstr "查看此贡献者在 Reddit 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:307
 #, kde-format
 msgid "Visit contributor's YouTube profile"
-msgstr "访问此贡献者在 YouTube 上的个人资料"
+msgstr "查看此贡献者在 YouTube 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:312
 #, kde-format
 msgid "Visit contributor's Twitter feed"
-msgstr "访问此贡献者的 Twitter 时间线"
+msgstr "查看此贡献者的 Twitter 时间线"
 
 #: aboutdialog/OcsPersonItem.cpp:317
 #, kde-format
 msgid "Visit contributor's Wikipedia profile"
-msgstr "访问此贡献者在维基百科上的个人资料"
+msgstr "查看此贡献者在维基百科上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:322
 #, kde-format
 msgid "Visit contributor's Xing profile"
-msgstr "访问此贡献者在 Xing 上的个人资料"
+msgstr "查看此贡献者在 Xing 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:327
 #, kde-format
 msgid "Visit contributor's identi.ca feed"
-msgstr "访问此贡献者的 identi.ca 时间线"
+msgstr "查看此贡献者的 identi.ca 时间线"
 
 #: aboutdialog/OcsPersonItem.cpp:332
 #, kde-format
 msgid "Visit contributor's libre.fm profile"
-msgstr "访问此贡献者在 libre.fm 上的个人资料"
+msgstr "查看此贡献者在 libre.fm 上的个人资料"
 
 #: aboutdialog/OcsPersonItem.cpp:337
 #, kde-format
 msgid "Visit contributor's StackOverflow profile"
-msgstr "访问此贡献者在 StackOverflow 上的个人资料"
+msgstr "查看此贡献者在 StackOverflow 上的个人资料"
 
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: ectx: property (text), widget (QLabel, labelName)
@@ -366,31 +366,31 @@ msgstr "Amarok"
 #: amarokconfig.kcfg:13
 #, kde-format
 msgid "Whether to display a second, left time label."
-msgstr "是否在左侧时间标签中显示秒数。"
+msgstr "在左侧时间标签中显示秒数。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:14
 #, kde-format
 msgid "Set this to display a second time label to the left of the seek slider in the player window."
-msgstr "设定此项即可在播放器窗口中的进度条左侧显示时间秒数的标签。"
+msgstr "启用此项即可在播放器窗口中的进度条左侧显示时间秒数。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:18
 #, kde-format
 msgid "Whether to display remaining track time in the left time label."
-msgstr "是否在左侧时间标签上显示歌曲剩余时间。"
+msgstr "在左侧时间标签中显示歌曲剩余时间。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:19
 #, kde-format
 msgid "Set this to display remaining track time instead of past track time in the player window."
-msgstr "设定此项可在播放器窗口中显示歌曲剩余时间，而非歌曲已播放的时间。"
+msgstr "启用此项可在播放器窗口中显示歌曲剩余时间，而非歌曲已播放的时间。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:23
 #, kde-format
 msgid "Which tracks or albums to favor in Random Mode"
-msgstr "在随机模式中优先考虑的歌曲或专辑"
+msgstr "随机模式下的偏好歌曲或专辑"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:24
@@ -414,19 +414,19 @@ msgstr "决定播放列表内歌曲的播放顺序"
 #: amarokconfig.kcfg:48
 #, kde-format
 msgid "The status of dynamic mode."
-msgstr "动态模式的状态。"
+msgstr "动态模式的开关状态。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:49
 #, kde-format
 msgid "If set, dynamic mode will be on, and tracks will be added according to the dynamic playlist specified."
-msgstr "选中后将启用动态模式，并会根据指定的动态播放列表来添加曲目。"
+msgstr "启用后将打开动态模式，并会根据指定的动态播放列表来添加曲目。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:53
 #, kde-format
 msgid "Duplicate tracks in dynamic mode."
-msgstr "动态模式下的重复歌曲。"
+msgstr "动态模式下允许重复添加歌曲。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:54
@@ -438,13 +438,13 @@ msgstr "启用后，动态模式下将允许重复添加歌曲。"
 #: amarokconfig.kcfg:58
 #, kde-format
 msgid "Previous tracks count."
-msgstr "播放中歌曲前的歌曲数量。"
+msgstr "已播放的歌曲数量。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:59
 #, kde-format
 msgid "Number of tracks to leave in the playlist before the active track."
-msgstr "播放列表内，排在播放中的歌曲之前的歌曲数。"
+msgstr "播放列表中，已播放的歌曲数量。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:63
@@ -456,25 +456,25 @@ msgstr "即将播放的歌曲数。"
 #: amarokconfig.kcfg:64
 #, kde-format
 msgid "Number of tracks to load into the playlist after the active track."
-msgstr "播放完当前歌曲后，要加载到播放列表的歌曲的数量。"
+msgstr "播放完当前歌曲后，要加载到播放列表的歌曲数。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:68
 #, kde-format
 msgid "Whether to show icon in system tray"
-msgstr "是否在系统托盘中显示图标"
+msgstr "在系统托盘中显示图标"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:69
 #, kde-format
 msgid "Enable/Disable tray icon for Amarok."
-msgstr "启用或禁用 Amarok 的托盘图标。"
+msgstr "启用或禁用 Amarok 托盘图标。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:73
 #, kde-format
 msgid "Whether to hide the context view."
-msgstr "是否隐藏信息视图。"
+msgstr "隐藏信息视图。"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:74
@@ -486,43 +486,43 @@ msgstr "启用或禁用 Amarok 中的信息视图。"
 #: amarokconfig.kcfg:78
 #, kde-format
 msgid "Number of undo levels in playlist"
-msgstr "播放列表的撤消级别数量"
+msgstr "播放列表的撤销次数限制"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:79
 #, kde-format
 msgid "The number of undo levels in the playlist."
-msgstr "播放列表的撤消级别的数量。"
+msgstr "播放列表的撤销次数限制。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:83
 #, kde-format
 msgid "Whether playlists store relative path"
-msgstr "是否在播放列表内储存相对路径"
+msgstr "在播放列表内储存相对路径"
 
 #. i18n: ectx: whatsthis, entry, group (General Options)
 #: amarokconfig.kcfg:84
 #, kde-format
 msgid "If set, Amarok's manually saved playlists will contain a relative path to each track, not an absolute path."
-msgstr "启用后，Amarok 的手动保存播放列表将包含每首歌曲的相对路径，而非绝对路径。"
+msgstr "启用后，使用 Amarok 手动保存的播放列表将包含每首歌曲的相对路径，而非绝对路径。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:88
 #, kde-format
 msgid "Filename of the external web browser to be invoked by Amarok."
-msgstr "Amarok 要调用的外部网页浏览器的文件名。"
+msgstr "Amarok 默认使用的网页浏览器。"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:92
 #, kde-format
 msgid "Whether to automatically attempt to fetch cover art as needed"
-msgstr "是否根据需要自动尝试获取封面图片"
+msgstr "自动按需尝试获取封面图片"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:96
 #, kde-format
 msgid "Whether to show background images in the browser pane"
-msgstr "是否在浏览器面板中显示背景图片"
+msgstr "在浏览器面板中显示背景图片"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:100
@@ -534,7 +534,7 @@ msgstr "自动滚动播放列表使当前播放的歌曲始终可见"
 #: amarokconfig.kcfg:104
 #, kde-format
 msgid "Show Album art in the Collection Browser"
-msgstr "在收藏集浏览器中显示专辑图片"
+msgstr "在收藏集中显示专辑封面"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:108
@@ -559,37 +559,37 @@ msgstr "启用信息部件折叠动画"
 #: amarokconfig.kcfg:117
 #, kde-format
 msgid "If set, context applets will collapse using animations."
-msgstr "启用后，信息部件折叠时将显示动画。"
+msgstr "启用后，在折叠信息部件时将显示动画。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:124
 #, kde-format
 msgid "Whether organize files will overwrite existing files."
-msgstr "整理文件时是否覆盖已有文件。"
+msgstr "整理文件时覆盖已有文件。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:125
 #, kde-format
 msgid "If set, Organize files will overwrite any existing destination."
-msgstr "启用后，整理文件时将覆盖所有已存在的目标。"
+msgstr "启用后，整理文件时将覆盖所有已存在的文件。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:129
 #, kde-format
 msgid "Whether organize files will move The in artist names to the end."
-msgstr "整理文件时是否将艺人名字前的“The”移至末尾。"
+msgstr "整理文件时将艺人名字前的“The”移至末尾。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:130
 #, kde-format
 msgid "If set, Organize files will move The in artist names to the end as in \"Beatles, The\"."
-msgstr "启用后，整理文件时会将艺人名字前的“The”移动至末尾 (如“Beatles, The”)。"
+msgstr "启用后，整理文件时会将艺人名字开头的“The”移至末尾 (如“Beatles, The”)。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:134
 #, kde-format
 msgid "Whether organize files will replace spaces in filenames with underscores."
-msgstr "整理文件时是否使用下划线代替文件名中的空格。"
+msgstr "整理文件时使用下划线代替文件名中的空格。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:135
@@ -601,7 +601,7 @@ msgstr "启用后，整理文件时将会使用下划线代替文件名中的空
 #: amarokconfig.kcfg:139
 #, kde-format
 msgid "Whether organize files will use cover art as folder icons."
-msgstr "整理文件时是否使用封面图片作为文件夹图标。"
+msgstr "整理文件时使用封面图片作为文件夹图标。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:140
@@ -613,19 +613,19 @@ msgstr "启用后，整理文件时将会使用封面图片作为文件夹图标
 #: amarokconfig.kcfg:144
 #, kde-format
 msgid "Collection folder path destination for Organize files."
-msgstr "整理文件所使用的收藏集文件夹目标路径。"
+msgstr "整理文件所使用的收藏集文件夹。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:145
 #, kde-format
 msgid "The path of the collection folder destination for Organize files."
-msgstr "整理文件所使用的收藏集文件夹目标路径。"
+msgstr "整理文件所使用的收藏集文件夹。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:149
 #, kde-format
 msgid "Whether organize files will rename files in a manner compatible with vfat filesystems."
-msgstr "整理文件时是否将文件名重命名为与 vfat 文件系统兼容的格式。"
+msgstr "整理文件时将文件名重命名为与 vfat 文件系统兼容的格式。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:150
@@ -637,7 +637,7 @@ msgstr "启用后，整理文件时将替换与 vfat 文件系统不兼容的字
 #: amarokconfig.kcfg:154
 #, kde-format
 msgid "Whether organize files will rename files such that they only contain 7-bit ASCII characters."
-msgstr "整理文件时是否将文件重命名为只包含 7 位 ASCII 字符的名字。"
+msgstr "整理文件时将文件重命名为只包含 7 位 ASCII 字符的名字。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:155
@@ -649,7 +649,7 @@ msgstr "启用后，整理文件时将替换掉与 7 位 ASCII 字符集不兼�
 #: amarokconfig.kcfg:159
 #, kde-format
 msgid "Whether organize files will use a custom file naming scheme."
-msgstr "整理文件时是否使用自定义的文件命名结构。"
+msgstr "整理文件时使用自定义的文件命名规则。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:160
@@ -661,13 +661,13 @@ msgstr "启用后，整理文件时将根据自定义格式的字符串重命名
 #: amarokconfig.kcfg:164
 #, kde-format
 msgid "Format string for Organize files, if a custom naming scheme is used."
-msgstr "启用自定义命名结构后，用于整理文件的格式字符串。"
+msgstr "启用自定义命名规则后，用于整理文件的格式字符串。"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:165
 #, kde-format
 msgid "If the custom filename scheme is enabled, then Organize files will rename files according to this format string."
-msgstr "如果启用自定义文件命名结构，整理文件时将根据此格式字符串重命名文件。"
+msgstr "启用自定义文件命名规则后，整理文件时将根据此格式字符串重命名文件。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:169
@@ -703,7 +703,7 @@ msgstr "基础或高级模式"
 #: amarokconfig.kcfg:180
 #, kde-format
 msgid "In basic mode graphical drag/droppable tokens are used to create a filename scheme, in advanced mode the images are replaced with text."
-msgstr "在基础模式下，您可以可视化地拖放指代词来创建文件名结构；在高级模式下，这些图片会被文字代替。"
+msgstr "在基础模式下，您可以可视化地拖放指代词来创建文件命名规则；在高级模式下，指代词按钮会被文字替代。"
 
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:184
@@ -727,7 +727,7 @@ msgstr "主音量"
 #: amarokconfig.kcfg:193
 #, kde-format
 msgid "The Amarok master volume, a value between 0 and 100."
-msgstr "Amarok 的主音量，此值应介于 0 和 100 之间。"
+msgstr "Amarok 的主音量，此值应介于 0 至 100 之间。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:199
@@ -745,7 +745,7 @@ msgstr "静音/取消静音。"
 #: amarokconfig.kcfg:204
 #, kde-format
 msgid "Whether to fade out tracks when pressing stop."
-msgstr "是否在按下停止时淡出歌曲。"
+msgstr "在按下停止时淡出歌曲。"
 
 #. i18n: ectx: whatsthis, entry, group (Playback)
 #: amarokconfig.kcfg:205 amarokconfig.kcfg:210
@@ -757,7 +757,7 @@ msgstr "启用或禁用淡出。"
 #: amarokconfig.kcfg:209
 #, kde-format
 msgid "Whether to fade out tracks when pressing pause."
-msgstr "是否在按下暂停后淡出歌曲。"
+msgstr "在按下暂停后淡出歌曲。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:214
@@ -775,7 +775,7 @@ msgstr "淡出所需的的时间 (毫秒)。"
 #: amarokconfig.kcfg:220
 #, kde-format
 msgid "Equalizer mode - 0 = off, 1 to n = preset no"
-msgstr "均衡器模式，0 为关闭，1 以上的数字则为不使用预设"
+msgstr "均衡器模式，0 为关闭，1 以上的数字则代表预设的序号"
 
 #. i18n: ectx: whatsthis, entry, group (Playback)
 #: amarokconfig.kcfg:221
@@ -793,25 +793,25 @@ msgstr "包含前级功放在内的 11 种均衡器增益量，范围应为 -100
 #: amarokconfig.kcfg:229
 #, kde-format
 msgid "List with user equalizer preset names"
-msgstr "用户均衡器预设名的列表"
+msgstr "用户定义的均衡器列表"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:232
 #, kde-format
 msgid "List with user presets values"
-msgstr "用户预设的值的列表"
+msgstr "用户定义的均衡器值列表"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:236
 #, kde-format
 msgid "The mode for adjusting playback volume."
-msgstr "调节回放音量的模式。"
+msgstr "调节回放音量的方式。"
 
 #. i18n: ectx: whatsthis, entry, group (Playback)
 #: amarokconfig.kcfg:237
 #, kde-format
 msgid "Whether to adjust the volume of tracks to make them sound the same volume, and if so whether to make the adjustments per-track or per-album."
-msgstr "是否将各个歌曲的音量调整为相同的响度，可选择按每首歌曲或按每张专辑来调整。"
+msgstr "均衡每首歌曲的响度，可按每首歌曲或按每张专辑来调整。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:240
@@ -823,13 +823,13 @@ msgstr "禁用回放增益"
 #: amarokconfig.kcfg:243
 #, kde-format
 msgid "Make each track the same volume"
-msgstr "平衡每首曲目的响度"
+msgstr "均衡每首歌曲的响度"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:246
 #, kde-format
 msgid "Make each album the same volume"
-msgstr "平衡每张专辑的响度"
+msgstr "均衡每张专辑的响度"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:252
@@ -853,19 +853,19 @@ msgstr "快进一大段的秒数。"
 #: amarokconfig.kcfg:267
 #, kde-format
 msgid "Whether Amarok should pause the currently playing track on suspend."
-msgstr "挂起后，Amarok 是否要暂停播放歌曲。"
+msgstr "在挂起时暂停播放歌曲。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:271
 #, kde-format
 msgid "Whether Amarok should prevent the system from sleeping if it is playing a track."
-msgstr "播放歌曲时，Amarok 是否要阻止系统进入睡眠。"
+msgstr "播放歌曲时阻止系统进入挂起状态。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:275
 #, kde-format
 msgid "Whether Amarok should start playing if a track is added to playlist (and nothing else is playing)."
-msgstr "未播放任何歌曲时且有歌曲加入播放队列后，Amarok 是否要立刻进行播放。"
+msgstr "未播放任何歌曲时，自动播放新加入播放列表的歌曲。"
 
 #. i18n: ectx: label, entry, group (Cover Manager)
 #: amarokconfig.kcfg:282
@@ -889,7 +889,7 @@ msgstr "获取信息时使用的维基百科区域设置"
 #: amarokconfig.kcfg:291
 #, kde-format
 msgid "Determines in which language the information is retrieved from Wikipedia."
-msgstr "选择从维基百科获取的信息的语言。"
+msgstr "选择从维基百科获取的信息语言。"
 
 #. i18n: ectx: label, entry, group (KNotify)
 #: amarokconfig.kcfg:298
@@ -931,43 +931,43 @@ msgstr "半透明效果"
 #: amarokconfig.kcfg:316
 #, kde-format
 msgid "Make the background of the OSD translucent."
-msgstr "使悬浮窗的背景变为半透明。"
+msgstr "使 OSD 的背景变为半透明。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:320
 #, kde-format
 msgid "Whether to use custom colors for the OSD"
-msgstr "是否要自定义悬浮窗的颜色"
+msgstr "自定义 OSD 颜色"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:321
 #, kde-format
 msgid "You can use custom colors for the OSD if you set this true."
-msgstr "选中后可自定义悬浮窗的颜色"
+msgstr "启用后可自定义 OSD 的颜色"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:325
 #, kde-format
 msgid "Font color for OSD"
-msgstr "悬浮窗的字体颜色"
+msgstr "OSD 的字体颜色"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:326
 #, kde-format
 msgid "The color of the OSD text. The color is specified in RGB, a comma-separated list containing three integers between 0 and 255."
-msgstr "悬浮窗文字的颜色。颜色应以逗号分隔，按 RGB 填写 0 至 255 之间的三个数。"
+msgstr "OSD 文字的颜色。颜色应以逗号分隔，按 RGB 填写 0 至 255 之间的三个数。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:330
 #, kde-format
 msgid "Font scaling for OSD"
-msgstr "悬浮窗的字体缩放"
+msgstr "OSD 的字体缩放"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:331
 #, kde-format
 msgid "The scaling multiplier for the OSD font, in percent-of-normal. 100 is &#8220;normal size&#8221;."
-msgstr "悬浮窗的字体缩放倍数，以普通字体大小的百分比为单位。100 为“普通大小”。"
+msgstr "OSD 的字体缩放倍数，以普通字体大小的百分比为单位。100 为“普通大小”。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:337
@@ -979,43 +979,43 @@ msgstr "提醒显示时长 (毫秒)"
 #: amarokconfig.kcfg:338
 #, kde-format
 msgid "The time in milliseconds to show the OSD. A value of 0 means never hide. The default value is 5000 ms."
-msgstr "悬浮窗的显示时间 (毫秒)。0 则为永不隐藏，默认值为 5000 ms。"
+msgstr "OSD 的显示时间 (毫秒)。0 则为永不隐藏，默认值为 5000 ms。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:343
 #, kde-format
 msgid "Y position offset"
-msgstr "显示位置 (纵坐标)"
+msgstr "纵向显示位置"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:344
 #, kde-format
 msgid "The Y position of the OSD relative to the chosen screen and OSD alignment. If Top alignment is chosen the Y offset is the space between the upper part of the OSD and the top of the screen. If Bottom alignment is chosen the Y offset is the space between the bottom part of the OSD and the bottom of the screen."
-msgstr "悬浮窗在所选屏幕上的纵坐标和对齐方式。若选择顶端对齐，所填数值则为屏幕顶端至悬浮窗上边缘的空间；如果选择底端对齐，所填数值则为屏幕底端至悬浮窗下边缘的空间。"
+msgstr "OSD 在所选屏幕上的纵向位置和对齐方式。若选择顶端对齐，所填数值则为屏幕顶端至 OSD 上边缘的距离；如果选择底端对齐，所填数值则为屏幕底端至 OSD 下边缘的距离。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:350
 #, kde-format
 msgid "OSD screen"
-msgstr "显示悬浮窗的屏幕"
+msgstr "显示 OSD 的屏幕"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:351
 #, kde-format
 msgid "The screen that should display the OSD. For single-headed environments this setting should be 0."
-msgstr "用于显示悬浮窗的屏幕，只有一个显示器时，此设置应为 0。"
+msgstr "用于显示 OSD 的屏幕，只有一个显示器时，此设置应为 0。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #: amarokconfig.kcfg:355
 #, kde-format
 msgid "Align OSD to"
-msgstr "将悬浮窗对齐至"
+msgstr "将 OSD 对齐至"
 
 #. i18n: ectx: whatsthis, entry, group (OSD)
 #: amarokconfig.kcfg:356
 #, kde-format
 msgid "The relative position of the OSD. Possible choices are Left, Middle, Right and Center."
-msgstr "悬浮窗的相对位置，可选项为：居左、居中、居右和正中心。"
+msgstr "OSD 的相对位置：居左、居中、居右和正中心。"
 
 #. i18n: ectx: label, entry, group (OSD)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_OsdHideOnFullscreen)
@@ -1035,7 +1035,7 @@ msgstr "当打开其它程序并全屏后，不显示悬浮窗。"
 #: amarokconfig.kcfg:375
 #, kde-format
 msgid "Resume playback of last played track on startup"
-msgstr "启动时继续播放上次播放的歌曲"
+msgstr "启动时继续播放歌曲"
 
 #. i18n: ectx: whatsthis, entry, group (Session)
 #: amarokconfig.kcfg:376
@@ -1089,37 +1089,37 @@ msgstr "上次退出时播放的歌曲，-1 则代表当时没有正在播放的
 #: amarokconfig.kcfg:399
 #, kde-format
 msgid "Number (from the top) of the last active browser."
-msgstr "从上到下数，一共要启用的浏览器数量。"
+msgstr "从上到下列出上次使用的浏览器。"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:405
 #, kde-format
 msgid "Whether Collections folders are scanned recursively"
-msgstr "是否要递归式地搜索收藏集文件夹"
+msgstr "递归式扫描收藏集文件夹"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:409
 #, kde-format
 msgid "Whether Collection folders are rescanned on change"
-msgstr "收藏集文件夹发生变化时，是否需要重新扫描"
+msgstr "收藏集文件夹发生变化时进行重新扫描"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:413
 #, kde-format
 msgid "Whether meta data changes are written back"
-msgstr "是否将元数据更改写入至原文件"
+msgstr "将元数据更改写入回文件内"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:417
 #, kde-format
 msgid "Whether changes to the track statistics are written back"
-msgstr "是否将歌曲统计数据更改写入至原文件"
+msgstr "将歌曲的统计数据变动写入回文件内"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:421
 #, kde-format
 msgid "Whether changes to the album cover are written back"
-msgstr "是否将专辑封面更改写入至原文件"
+msgstr "将专辑封面的变动写入回文件内"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:425
@@ -1137,19 +1137,19 @@ msgstr "收藏集中的文件夹列表"
 #: amarokconfig.kcfg:432
 #, kde-format
 msgid "Whether track numbers are shown in the collection browser."
-msgstr "是否在收藏集浏览器中显示音轨编号？"
+msgstr "在收藏集浏览器中显示音轨编号。"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:436
 #, kde-format
 msgid "Whether years are shown in the collection browser."
-msgstr "是否在收藏集浏览器中显示年份。"
+msgstr "在收藏集浏览器中显示年份。"
 
 #. i18n: ectx: label, entry, group (Collection)
 #: amarokconfig.kcfg:440
 #, kde-format
 msgid "Whether to use Mozilla's Character Set Detector to try to guess ID3 tag encodings."
-msgstr "是否要使用 Mozilla 的字符集探测器来猜测 ID3 标签的编码。"
+msgstr "使用 Mozilla 的字符集探测器猜测 ID3 标签的编码。"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:447
@@ -1161,7 +1161,7 @@ msgstr "上传已播放的音乐信息"
 #: amarokconfig.kcfg:448
 #, kde-format
 msgid "Whether played songs are submitted to Audioscrobbler"
-msgstr "是否将已播放的音乐信息上传至 Audioscrobbler"
+msgstr "将已播放的音乐信息上传至 Audioscrobbler"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:452
@@ -1174,7 +1174,7 @@ msgstr "用户名"
 #: amarokconfig.kcfg:453
 #, kde-format
 msgid "The username to use for connecting to Audioscrobbler"
-msgstr "用于连接至 Audioscrobbler 的用户名"
+msgstr "Audioscrobbler 用户名"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
@@ -1192,7 +1192,7 @@ msgstr "密码"
 #: amarokconfig.kcfg:458
 #, kde-format
 msgid "The password to use for connecting to Audioscrobbler"
-msgstr "用于连接至 Audioscrobbler 的密码"
+msgstr "Audioscrobbler 密码"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:462
@@ -1204,7 +1204,7 @@ msgstr "发送作曲家数据"
 #: amarokconfig.kcfg:463
 #, kde-format
 msgid "Use composer data in Last.fm as artist"
-msgstr "将 Last.fm 上的作曲家数据用作为歌曲的艺人信息"
+msgstr "从 Last.fm 获取歌曲的艺人信息"
 
 #. i18n: ectx: label, entry, group (Scrobbler)
 #: amarokconfig.kcfg:467
@@ -1216,7 +1216,7 @@ msgstr "获取相似艺人"
 #: amarokconfig.kcfg:468
 #, kde-format
 msgid "Whether similar songs are retrieved from Audioscrobbler"
-msgstr "是否从 Audioscrobbler 上获取相似的歌曲"
+msgstr "从 Audioscrobbler 上获取相似歌曲"
 
 #. i18n: ectx: label, entry, group (MediaDevice)
 #: amarokconfig.kcfg:475
@@ -1264,7 +1264,7 @@ msgstr "卸载命令"
 #: amarokconfig.kcfg:488
 #, kde-format
 msgid "The umount command used for the media device connection."
-msgstr "用于卸载媒体设备连接的命令。"
+msgstr "用于卸载媒体设备的命令。"
 
 #. i18n: ectx: label, entry, group (MediaDevice)
 #: amarokconfig.kcfg:491
@@ -1276,7 +1276,7 @@ msgstr "自动删除播客"
 #: amarokconfig.kcfg:492
 #, kde-format
 msgid "Whether podcast shows already played are automatically deleted when media device is connected."
-msgstr "是否在媒体设备连接时自动删除已播放的播客。"
+msgstr "在媒体设备连接时自动删除已播放的播客。"
 
 #. i18n: ectx: label, entry, group (MediaDevice)
 #: amarokconfig.kcfg:495
@@ -1288,7 +1288,7 @@ msgstr "同步统计信息"
 #: amarokconfig.kcfg:496
 #, kde-format
 msgid "Whether Amarok statistics should be synchronized with play count/ratings on device and whether tracks played should be submitted to Last.fm."
-msgstr "是否将 Amarok 统计数据与设备上的播放次数、评分同步，并播放过的歌曲信息上传到 last.fm。"
+msgstr "将 Amarok 统计数据与设备同步，并将播放过的歌曲信息上传至 Last.fm。"
 
 #. i18n: ectx: label, entry, group (Daap)
 #: amarokconfig.kcfg:502
@@ -1300,7 +1300,7 @@ msgstr "手动添加的服务器"
 #: amarokconfig.kcfg:503
 #, kde-format
 msgid "Music Sharing servers added by the user."
-msgstr "用户添加的音乐分享服务器。"
+msgstr "用户添加的音乐共享服务器。"
 
 #. i18n: ectx: label, entry, group (Daap)
 #: amarokconfig.kcfg:506
@@ -1312,37 +1312,37 @@ msgstr "服务器密码"
 #: amarokconfig.kcfg:507
 #, kde-format
 msgid "Passwords stored by hostname."
-msgstr "按各个主机名来储存的密码。"
+msgstr "按主机名储存的密码。"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:513
 #, kde-format
 msgid "Include track names in matching"
-msgstr "搜索时包含歌曲名"
+msgstr "按歌曲名搜索"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:517
 #, kde-format
 msgid "Include album names in matching"
-msgstr "搜索时包含专辑名"
+msgstr "按专辑名搜索"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:521
 #, kde-format
 msgid "Include artist names in matching"
-msgstr "搜索时包含艺人姓名"
+msgstr "按艺人名搜索"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:525
 #, kde-format
 msgid "Include genre names in matching"
-msgstr "搜索时包含流派名"
+msgstr "按流派名搜索"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:529
 #, kde-format
 msgid "Include composer names in matching"
-msgstr "搜索时包含作曲家姓名"
+msgstr "按作曲家姓名搜索"
 
 #. i18n: ectx: label, entry, group (Playlist Search)
 #: amarokconfig.kcfg:533 amarokconfig.kcfg:537
@@ -1360,7 +1360,7 @@ msgstr "启动时加载的布局的名称"
 #: amarokconfig.kcfg:551
 #, kde-format
 msgid "Whether Amarok uses its own internal database, as opposed to an external engine."
-msgstr "Amarok 应使用内部数据库还是外部数据库。"
+msgstr "Amarok 应该使用内部还是外部数据库。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:555
@@ -1372,49 +1372,49 @@ msgstr "要连接的外部服务器的主机名。"
 #: amarokconfig.kcfg:559
 #, kde-format
 msgid "Which server port to connect to the database engine."
-msgstr "要连接的数据库引擎服务器的端口号。"
+msgstr "要连接的数据库服务器端口号。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:563
 #, kde-format
 msgid "The name of the database Amarok will use. The user should have sufficient access permissions."
-msgstr "Amarok 将使用的数据库名称，用户应具有足够的访问权限。"
+msgstr "Amarok 使用的数据库名称，请确保您有访问数据库的权限。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:567
 #, kde-format
 msgid "Username used to access the external database."
-msgstr "用于访问外部数据库的用户名。"
+msgstr "外部数据库用户名。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:571
 #, kde-format
 msgid "Password for the external database user."
-msgstr "外部数据库的用户密码。"
+msgstr "外部数据库密码。"
 
 #. i18n: ectx: label, entry, group (MySQL)
 #: amarokconfig.kcfg:575
 #, kde-format
 msgid "Keeps a running count to know when run a CHECK."
-msgstr "统计运行次数来确定进行检查的时机。"
+msgstr "统计运行次数以确定执行数据库 CHECK 命令的时机。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #: amarokconfig.kcfg:582
 #, kde-format
 msgid "Whether to enable Amarok's scripting module."
-msgstr "是否启用 Amarok 的脚本模块。"
+msgstr "启用 Amarok 脚本模块。"
 
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:583
 #, kde-format
 msgid "Enable/Disable Amarok's scripting module."
-msgstr "启用或禁用 Amarok 的脚本模块。"
+msgstr "启用或禁用 Amarok 脚本模块。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #: amarokconfig.kcfg:587
 #, kde-format
 msgid "Whether to automatically update built-in scripts"
-msgstr "是否自动更新内置脚本"
+msgstr "自动更新内置脚本"
 
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:588
@@ -1427,27 +1427,27 @@ msgstr "启用或禁用内置脚本的自动更新。"
 #: amarokconfig.kcfg:592 amarokconfig.kcfg:593
 #, kde-format
 msgid "Whether to enable the script console."
-msgstr "是否启用脚本控制台。"
+msgstr "启用脚本控制台。"
 
 #. i18n: ectx: label, entry, group (ScriptManager)
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
 #: amarokconfig.kcfg:597 amarokconfig.kcfg:598
 #, kde-format
 msgid "Whether to display a warning about scripts accessing deprecated APIs."
-msgstr "在脚本调用已废弃的 API 时，是否显示警告。"
+msgstr "在脚本调用已废弃的 API 时显示警告。"
 
 #. i18n: ectx: label, entry, group (ScriptConsole)
 #. i18n: ectx: whatsthis, entry, group (ScriptConsole)
 #: amarokconfig.kcfg:605 amarokconfig.kcfg:606
 #, kde-format
 msgid "Whether to save the current session on exit."
-msgstr "退出时是否保存当时的会话。"
+msgstr "退出时保存当前会话。"
 
 #. i18n: ectx: label, entry, group (Moodbar)
 #: amarokconfig.kcfg:613
 #, kde-format
 msgid "Whether to show the moodbar of the current track, if available, in the progress slider"
-msgstr "是否在可显示情绪条时，将其显示在进度条内"
+msgstr "在可显示情绪条时，将情绪条显示在进度条内"
 
 #. i18n: ectx: whatsthis, entry, group (Moodbar)
 #: amarokconfig.kcfg:614
@@ -2724,7 +2724,7 @@ msgstr "正在导入音乐"
 #: configdialog/dialogs/CollectionConfig.ui:77
 #, kde-format
 msgid "Whether Amarok should transcode tracks when they are copied or moved to Local Collection."
-msgstr "是否在复制或移动歌曲至本地收藏集时进行转码。"
+msgstr "在复制或移动歌曲至本地收藏集时进行转码。"
 
 #. i18n: ectx: property (text), widget (QLabel, transcodeLabel)
 #: configdialog/dialogs/CollectionConfig.ui:70
@@ -2921,7 +2921,7 @@ msgstr "显示托盘图标(&I)"
 #: configdialog/dialogs/GeneralConfig.ui:45
 #, kde-format
 msgid "Check to enable the automatic retrieval of cover art from the Internet."
-msgstr "勾选以启用从互联网上自动获取封面"
+msgstr "从互联网上自动获取专辑封面。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoGetCoverArt)
 #: configdialog/dialogs/GeneralConfig.ui:48
@@ -3411,7 +3411,7 @@ msgstr "系统挂起选项"
 #: configdialog/dialogs/PlaybackConfig.ui:162
 #, kde-format
 msgid "If enabled, Amarok will prevent the system from automatically suspending if it is playing a track"
-msgstr "启用后，在播放歌曲时 Amarok 会阻止系统进入自动挂起状态。"
+msgstr "启用后，播放歌曲时系统不会自动进入挂起状态。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_InhibitSuspend)
 #: configdialog/dialogs/PlaybackConfig.ui:165
@@ -5683,7 +5683,7 @@ msgstr "音乐文件夹："
 #: core-impl/collections/umscollection/UmsConfiguration.ui:104
 #, kde-format
 msgid "Filename scheme of tracks that are added to the device"
-msgstr "歌曲的文件名结构已添加到此设备内"
+msgstr "歌曲的文件命名规则已添加到此设备内"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: core-impl/collections/umscollection/UmsConfiguration.ui:176
@@ -8613,7 +8613,7 @@ msgstr "保存并关闭(&V)"
 #, no-c-format, kde-format
 msgctxt "Please do not translate the %foo% words as they define a syntax used internally by a parser to describe a filename."
 msgid "The following tokens can be used to define a filename scheme:<br>                           <font color=\"%1\">%track%</font>, <font color=\"%2\">%title%</font>,                           <font color=\"%3\">%artist%</font>, <font color=\"%4\">%composer%</font>,                           <font color=\"%5\">%year%</font>, <font color=\"%6\">%album%</font>,                           <font color=\"%7\">%albumartist%</font>, <font color=\"%8\">%comment%</font>,                           <font color=\"%9\">%genre%</font>, %ignore%."
-msgstr "您可使用以下指代词来定义文件名结构：<br>                           <font color=\"%1\">%track%</font>、<font color=\"%2\">%title%</font>、                           <font color=\"%3\">%artist%</font>、<font color=\"%4\">%composer%</font>、                           <font color=\"%5\">%year%</font>、<font color=\"%6\">%album%</font>、                           <font color=\"%7\">%albumartist%</font>、<font color=\"%8\">%comment%</font>、                           <font color=\"%9\">%genre%</font>、%ignore%。"
+msgstr "您可使用以下指代词来定义文件命名规则：<br>                           <font color=\"%1\">%track%</font>、<font color=\"%2\">%title%</font>、                           <font color=\"%3\">%artist%</font>、<font color=\"%4\">%composer%</font>、                           <font color=\"%5\">%year%</font>、<font color=\"%6\">%album%</font>、                           <font color=\"%7\">%albumartist%</font>、<font color=\"%8\">%comment%</font>、                           <font color=\"%9\">%genre%</font>、%ignore%。"
 
 #: dialogs/TagGuesserDialog.cpp:223
 #, kde-format
@@ -11749,7 +11749,7 @@ msgstr "播放列表总时间条件设置"
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:32
 #, kde-format
 msgid "Whether the duration of the generated playlist should be shorter than, equal to, or longer than the specified value."
-msgstr "指定生成的播放列表总时间应短于、等于或长于此值。"
+msgstr "使生成的播放列表总时间短于、等于或长于某个值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:39
@@ -11844,7 +11844,7 @@ msgstr "播放列表文件总大小设置"
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:32
 #, kde-format
 msgid "Whether the total size of all files in the generated playlist should be less than, equal to, or more than the specified value."
-msgstr "指定生成的播放列表文件总大小应小于、等于或大于此值。"
+msgstr "使生成的播放列表文件总大小小于、等于或大于某个值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonInt)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonTime)
@@ -11955,7 +11955,7 @@ msgstr "播放列表长度条件设置"
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:32
 #, kde-format
 msgid "Whether the number of tracks in the generated playlist should be less than, equal to, or more than the specified value."
-msgstr "指定生成的播放列表歌曲数量应小于、等于或大于此值。"
+msgstr "使生成的播放列表歌曲数量小于、等于或大于某个值。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:39
@@ -12254,7 +12254,7 @@ msgstr "反转："
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:106
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified value."
-msgstr "指定 AGP 所选歌曲应小于、等于或大于此值。"
+msgstr "使 AGP 所选的歌曲小于、等于或大于某个值。"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_ValueInt)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:133
@@ -12274,7 +12274,7 @@ msgstr "AGP 匹配歌曲与指定值的精确度。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:226
 #, kde-format
 msgid "Whether the APG should choose tracks that are before, on, or after a specific date; or whether it should choose tracks that are within a certain time range."
-msgstr "APG 所选歌曲的日期应在此值之前、之内、之后或是一段时间范围内。"
+msgstr "使 APG 所选歌曲的日期在某日之前、之内、之后、或是一段时间范围内。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonDate)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:248
@@ -12306,7 +12306,7 @@ msgstr "APG 匹配歌曲与指定日期的精确度。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:405
 #, kde-format
 msgid "Whether the APG should match tracks that equal, start with, end with, or contain the specified string."
-msgstr "APG 匹配的歌曲应与此字符串相同、以此字符串开头、以此字符串结尾或包含此字符串。"
+msgstr "使 APG 匹配的歌曲与此字符串相同、以此字符串开头、以此字符串结尾或包含此字符串。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:409
@@ -12342,7 +12342,7 @@ msgstr "APG 用于匹配歌曲的字符串。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:460
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified time."
-msgstr "指定 APG 所选歌曲应早于、等于或是晚于的时间。"
+msgstr "使 APG 所选歌曲早于、等于或是晚于某个时间。"
 
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_TimeValue)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:487
@@ -12362,7 +12362,7 @@ msgstr "APG 匹配歌曲与指定时间的精确度。"
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:597
 #, kde-format
 msgid "Whether the APG should choose tracks that are less than, equal to, or greater than the specified rating."
-msgstr "指定 APG 所选歌曲应小于、等于或是大于的评分。"
+msgstr "使 APG 所选歌曲小于、等于或是大于某个评分。"
 
 #. i18n: ectx: property (whatsThis), widget (KRatingWidget, rating_RatingValue)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:624
@@ -14877,7 +14877,7 @@ msgstr "将当前视图的书签复制到剪贴板"
 #: widgets/FilenameLayoutWidget.cpp:78
 #, kde-format
 msgid "Scheme"
-msgstr "文件名结构"
+msgstr "规则"
 
 #: widgets/FilenameLayoutWidget.cpp:84
 #, kde-format
@@ -14887,7 +14887,7 @@ msgstr "预设："
 #: widgets/FilenameLayoutWidget.cpp:88
 #, kde-format
 msgid "A list of selectable filename scheme/format presets."
-msgstr "可选的文件名结构或格式的预设列表。"
+msgstr "可选的文件命名规则或格式的预设列表。"
 
 #: widgets/FilenameLayoutWidget.cpp:92
 #, kde-format
@@ -14897,7 +14897,7 @@ msgstr "添加预设"
 #: widgets/FilenameLayoutWidget.cpp:93
 #, kde-format
 msgid "Saves the current scheme/format as new preset."
-msgstr "将当前结构或格式保存为新预设"
+msgstr "将当前规则或格式保存为新预设"
 
 #: widgets/FilenameLayoutWidget.cpp:96
 #, kde-format
@@ -14907,7 +14907,7 @@ msgstr "更新预设"
 #: widgets/FilenameLayoutWidget.cpp:97
 #, kde-format
 msgid "Updates the preset with the current scheme/format."
-msgstr "按当前结构或格式更新预设。"
+msgstr "按当前规则或格式更新预设。"
 
 #: widgets/FilenameLayoutWidget.cpp:100
 #, kde-format
