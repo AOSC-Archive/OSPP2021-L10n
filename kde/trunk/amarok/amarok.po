@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:16+0000\n"
-"PO-Revision-Date: 2021-08-09 11:31\n"
+"PO-Revision-Date: 2021-08-10 09:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -37,13 +37,13 @@ msgstr "默认"
 #: ../data/DefaultPlaylistLayouts.xml:36 playlist/layouts/PlaylistLayoutEditDialog.cpp:512
 #, kde-format
 msgid "No Grouping"
-msgstr "无分组"
+msgstr "不分组"
 
 #. i18n: tag layout attribute name
 #: ../data/DefaultPlaylistLayouts.xml:60
 #, kde-format
 msgid "No Grouping (Single Line)"
-msgstr "未分组 (单行)"
+msgstr "不分组 (单行显示)"
 
 #. i18n: tag layout attribute name
 #: ../data/DefaultPlaylistLayouts.xml:77
@@ -89,7 +89,7 @@ msgstr "关于(&A)"
 #: aboutdialog/ExtendedAboutDialog.cpp:220
 #, kde-format
 msgid "Get data from openDesktop.org to learn more about the team"
-msgstr "从 openDesktop.org 获取更多信息并详细了解此团队"
+msgstr "从 openDesktop.org 了解关于本团队的更多信息"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:232
 #, kde-format
@@ -100,7 +100,7 @@ msgstr "请访问 <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> 网�
 #: aboutdialog/ExtendedAboutDialog.cpp:243
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgstr "请将错误报告给 <a href=\"mailto:%1\">%2</a>。\n"
+msgstr "请将错误报告至 <a href=\"mailto:%1\">%2</a>。\n"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:264
 #, kde-format
@@ -115,7 +115,7 @@ msgstr "作者(&U)"
 #: aboutdialog/ExtendedAboutDialog.cpp:278
 #, kde-format
 msgid "Get data from openDesktop.org to learn more about contributors"
-msgstr "从 openDesktop.org 获取更多信息并详细了解贡献者"
+msgstr "在 openDesktop.org 上了解关于贡献者们的更多信息"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:294
 #, kde-format
@@ -125,12 +125,12 @@ msgstr "贡献者(&C)"
 #: aboutdialog/ExtendedAboutDialog.cpp:307
 #, kde-format
 msgid "Get data from openDesktop.org to learn more about our generous donors"
-msgstr "从 openDesktop.org 获取更多信息并详细了解这些慷慨的捐赠者"
+msgstr "在 openDesktop.org 上了解关于捐赠者们的更多信息"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:326
 #, kde-format
 msgid "<p>Each year in October the Amarok team organizes a funding drive called <b>Roktober</b>.</p><p>If you want your name mentioned on this list <a href=\"http://amarok.kde.org/donations\"> donate during Roktober</a> and opt-in.</p>"
-msgstr "<p>每年十月，Amarok 团队都会组织一次名为 <b>Roktober</b> 的筹款活动。</p><p>如果您想在此列表上留下芳名，请参与 Roktober <a href=\"http://amarok.kde.org/donations\">并捐赠</a>。</p>"
+msgstr "<p>每年十月，Amarok 团队都会组织一次名为 <b>Roktober</b> 的筹款活动。</p><p>如果您想在此列表上留下芳名，请参与 <a href=\"http://amarok.kde.org/donations\">Roktober 捐赠活动</a>。</p>"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:335
 #, kde-format
@@ -160,13 +160,13 @@ msgstr "发送邮件给贡献者"
 #: aboutdialog/OcsPersonItem.cpp:103 aboutdialog/OcsPersonItem.cpp:274
 #, kde-format
 msgid "Visit contributor's homepage"
-msgstr "访问贡献者的主页"
+msgstr "查看此贡献者的个人主页"
 
 #: aboutdialog/OcsPersonItem.cpp:179
 #, kde-format
 msgctxt "A person's location: City, Country"
 msgid "%1, %2"
-msgstr "%1, %2"
+msgstr "%2，%1"
 
 #: aboutdialog/OcsPersonItem.cpp:199
 #, kde-format
@@ -191,7 +191,7 @@ msgstr "访问 openDesktop.org 并查看 %1 的个人资料"
 #: aboutdialog/OcsPersonItem.cpp:253
 #, kde-format
 msgid "Visit contributor's blog"
-msgstr "访问贡献者的博客"
+msgstr "查看此贡献者的博客"
 
 #: aboutdialog/OcsPersonItem.cpp:258
 #, kde-format
@@ -275,7 +275,7 @@ msgstr "访问此贡献者在 StackOverflow 上的个人资料"
 #: services/ampache/NewServerWidget.ui:17
 #, kde-format
 msgid "Name"
-msgstr "名字"
+msgstr "名称"
 
 #: ActionClasses.cpp:88
 #, kde-format
@@ -285,7 +285,7 @@ msgstr "Amarok 菜单"
 #: ActionClasses.cpp:179
 #, kde-format
 msgid "Play/Pause"
-msgstr "播放／暂停"
+msgstr "播放/暂停"
 
 #: ActionClasses.cpp:316
 #, kde-format
@@ -739,7 +739,7 @@ msgstr "静音状态"
 #: amarokconfig.kcfg:200
 #, kde-format
 msgid "Mute/Unmute sound."
-msgstr "静音／取消静音。"
+msgstr "静音/取消静音。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:204
@@ -1831,7 +1831,7 @@ msgstr "本月内添加"
 #, kde-format
 msgctxt "separator between collection browser level categories, i.e. the ' / ' in 'Artist / Album'"
 msgid " / "
-msgstr "／"
+msgstr " / "
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:211
 #, kde-format
@@ -13041,13 +13041,13 @@ msgstr "下载"
 #: services/magnatune/MagnatuneStore.cpp:223
 #, kde-format
 msgid "Genre / Artist"
-msgstr "流派／艺人"
+msgstr "流派 / 艺人"
 
 #: services/jamendo/JamendoService.cpp:158
 #: services/magnatune/MagnatuneStore.cpp:226
 #, kde-format
 msgid "Genre / Artist / Album"
-msgstr "流派／艺人／专辑"
+msgstr "流派 / 艺人 / 专辑"
 
 #: services/jamendo/JamendoService.cpp:193
 #, kde-format
@@ -13927,7 +13927,7 @@ msgstr "Magnatune.com 是一家另类的唱片公司，其座右铭为“我们�
 #: services/magnatune/MagnatuneStore.cpp:217
 #, kde-format
 msgid "Artist / Album"
-msgstr "艺人／专辑"
+msgstr "艺人 / 专辑"
 
 #: services/magnatune/MagnatuneStore.cpp:241
 #, kde-format
