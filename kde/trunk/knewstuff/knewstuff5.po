@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-03 00:14+0000\n"
-"PO-Revision-Date: 2021-08-11 14:08\n"
+"PO-Revision-Date: 2021-08-11 15:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: attica/atticaprovider.cpp:167
 #, kde-format
 msgid "All categories are missing"
-msgstr "缺少所有分类"
+msgstr "未找到任何分类"
 
 #: attica/atticaprovider.cpp:479
 #, kde-format
@@ -123,17 +123,17 @@ msgstr "无法初始化 %1 的安装处理程序\n"
 #: core/engine.cpp:353
 #, kde-format
 msgid "Loading provider information"
-msgstr "正在供应者信息"
+msgstr "正在加载内容提供者的信息"
 
 #: core/engine.cpp:414
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
-msgstr "无法从文件装载资源提供者信息：%1"
+msgstr "无法从文件 %1 中加载资源提供者的信息"
 
 #: core/engine.cpp:444
 #, kde-format
 msgid "Error initializing provider."
-msgstr "初始化提供者出错。"
+msgstr "初始化内容提供者时出错。"
 
 #: core/engine.cpp:448 core/engine.cpp:1016
 #, kde-format
@@ -143,12 +143,12 @@ msgstr "正在装入数据"
 #: core/engine.cpp:490
 #, kde-format
 msgid "Loading data from provider"
-msgstr "从供应者装入数据"
+msgstr "正在从内容提供者处加载数据"
 
 #: core/engine.cpp:495
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
-msgstr "从文件 %1 装载提供者信息失败"
+msgstr "从文件 %1 中加载内容提供者信息时失败"
 
 #: core/engine.cpp:743
 #, kde-format
@@ -421,7 +421,7 @@ msgstr "服务器：%1"
 #: downloadwidget.cpp:187
 #, kde-format
 msgid "<br />Provider: %1"
-msgstr "<br />提供者：%1"
+msgstr "<br />内容提供者：%1"
 
 #: downloadwidget.cpp:188
 #, kde-format
@@ -431,7 +431,7 @@ msgstr "<br />版本：%1"
 #: downloadwidget.cpp:190
 #, kde-format
 msgid "Provider information"
-msgstr "提供者信息"
+msgstr "内容提供者信息"
 
 #: downloadwidget.cpp:203
 #, kde-format
@@ -456,7 +456,7 @@ msgstr "细节视图模式"
 #: downloadwidget.cpp:279
 #, kde-format
 msgid "All Providers"
-msgstr "所有提供者"
+msgstr "所有内容提供者"
 
 #: downloadwidget.cpp:286
 #, kde-format
@@ -467,7 +467,7 @@ msgstr "所有类别"
 #: downloadwidget.ui:54
 #, kde-format
 msgid "Provider:"
-msgstr "提供者："
+msgstr "内容提供者："
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #: downloadwidget.ui:71 qtquick/qml/Page.qml:411
@@ -1120,7 +1120,7 @@ msgstr "KDE 商店"
 #, kde-format
 msgctxt "An unnamed provider"
 msgid "Your Provider"
-msgstr "您定义的内容提供者"
+msgstr "您添加的内容提供者"
 
 #: qtquick/qml/UploadPage.qml:109
 #, kde-format
