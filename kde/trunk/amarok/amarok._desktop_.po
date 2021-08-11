@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:26+0000\n"
-"PO-Revision-Date: 2021-08-09 08:57\n"
+"PO-Revision-Date: 2021-08-11 13:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -226,37 +226,37 @@ msgstr "Amarok 信息视图部件"
 #: src/core-impl/collections/audiocd/amarok_collection-audiocdcollection.desktop:4
 msgctxt "Name"
 msgid "AudioCd Collection"
-msgstr "音频 CD 收藏"
+msgstr "音频 CD 收藏集"
 
 #: src/core-impl/collections/audiocd/amarok_collection-audiocdcollection.desktop:55
 msgctxt "Comment"
 msgid "AudioCd collection plugin for Amarok"
-msgstr "Amarok 的音频 CD 收藏插件"
+msgstr "Amarok 的音频 CD 收藏集插件"
 
 #: src/core-impl/collections/daap/amarok_collection-daapcollection.desktop:4
 msgctxt "Name"
 msgid "DAAP Collection"
-msgstr "DAAP 收藏"
+msgstr "DAAP 收藏集"
 
 #: src/core-impl/collections/daap/amarok_collection-daapcollection.desktop:61
 msgctxt "Comment"
 msgid "DAAP collection plugin for Amarok"
-msgstr "Amarok 的 DAAP 收藏插件"
+msgstr "Amarok 的 DAAP 收藏集插件"
 
 #: src/core-impl/collections/db/sql/mysqlcollection/amarok_collection-mysqlcollection.desktop:4
 msgctxt "Name"
 msgid "MySQL Collection"
-msgstr "MySQL 收藏"
+msgstr "MySQL 收藏集"
 
 #: src/core-impl/collections/db/sql/mysqlcollection/amarok_collection-mysqlcollection.desktop:39
 msgctxt "Comment"
 msgid "Collection plugin for Amarok"
-msgstr "Amarok 的收藏插件"
+msgstr "Amarok 的收藏集插件"
 
 #: src/core-impl/collections/ipodcollection/amarok_collection-ipodcollection.desktop:4
 msgctxt "Name"
 msgid "iPod, iPad & iPhone Collection"
-msgstr "iPod, iPad 和 iPhone 收藏"
+msgstr "iPod, iPad 和 iPhone 收藏集"
 
 #: src/core-impl/collections/ipodcollection/amarok_collection-ipodcollection.desktop:47
 msgctxt "Comment"
@@ -266,7 +266,7 @@ msgstr "在 Amarok 中将 iPod 类设备作为收藏集的插件"
 #: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:4
 msgctxt "Name"
 msgid "Media Device Collection"
-msgstr "媒体设备收藏"
+msgstr "媒体设备收藏集"
 
 #: src/core-impl/collections/mediadevicecollection/amarok_collection-mediadevicecollection.desktop:59
 msgctxt "Comment"
@@ -276,17 +276,17 @@ msgstr "Amarok 的媒体设备收藏集插件"
 #: src/core-impl/collections/mtpcollection/amarok_collection-mtpcollection.desktop:4
 msgctxt "Name"
 msgid "MTP Collection"
-msgstr "MTP 收藏"
+msgstr "MTP 收藏集"
 
 #: src/core-impl/collections/mtpcollection/amarok_collection-mtpcollection.desktop:59
 msgctxt "Comment"
 msgid "MTP collection plugin for Amarok"
-msgstr "Amarok 的 MTP 收藏插件"
+msgstr "Amarok 的 MTP 收藏集插件"
 
 #: src/core-impl/collections/playdarcollection/amarok_collection-playdarcollection.desktop:4
 msgctxt "Name"
 msgid "Playdar Collection"
-msgstr "Playdar 收藏"
+msgstr "Playdar 收藏集"
 
 #: src/core-impl/collections/playdarcollection/amarok_collection-playdarcollection.desktop:49
 msgctxt "Comment"
@@ -296,17 +296,17 @@ msgstr "Playdar 内可找到的音乐"
 #: src/core-impl/collections/umscollection/amarok_collection-umscollection.desktop:4
 msgctxt "Name"
 msgid "Universal Mass Storage Collection"
-msgstr "通用大容量存储收藏"
+msgstr "通用大容量存储收藏集"
 
 #: src/core-impl/collections/upnpcollection/amarok_collection-upnpcollection.desktop:4
 msgctxt "Name"
 msgid "UPnP Collection"
-msgstr "UPnP 收藏"
+msgstr "UPnP 收藏集"
 
 #: src/core-impl/collections/upnpcollection/amarok_collection-upnpcollection.desktop:59
 msgctxt "Comment"
 msgid "UPnP collection plugin for Amarok"
-msgstr "Amarok 的 UPnP 收藏插件"
+msgstr "Amarok 的 UPnP 收藏集插件"
 
 #: src/core-impl/storage/sql/mysqlestorage/amarok_storage-mysqlestorage.desktop:4
 msgctxt "Name"
