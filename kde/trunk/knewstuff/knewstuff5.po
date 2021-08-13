@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-03 00:14+0000\n"
-"PO-Revision-Date: 2021-08-12 15:13\n"
+"PO-Revision-Date: 2021-08-13 09:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -68,12 +68,12 @@ msgstr "向服务器发送请求的次数过多，请几分钟后再试。"
 #: attica/atticaprovider.cpp:593
 #, kde-format
 msgid "The Open Collaboration Services instance %1 does not support the attempted function."
-msgstr "开放协作服务 (Open Collaboration Services) 的实例 %1 不支持此功能。"
+msgstr "Open Collaboration Services 的实例 %1 不支持此功能。"
 
 #: attica/atticaprovider.cpp:597
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
-msgstr "开放协作服务 (Open Collaboration Services) 的 API 出现了未知错误。(%1)"
+msgstr "Open Collaboration Services 的 API 出现了未知错误。(%1)"
 
 #: button.cpp:41
 #, kde-format
@@ -290,7 +290,7 @@ msgid "The installation failed while attempting to run the command:\n"
 "%1\n\n"
 "The returned output was:\n"
 "%2"
-msgstr "安装失败于以下命令：\n"
+msgstr "安装程序运行以下命令时出错：\n"
 "%1\n\n"
 "返回的输出为：\n"
 "%2"
@@ -301,7 +301,7 @@ msgid "The installation failed with code %1 while attempting to run the command:
 "%2\n\n"
 "The returned output was:\n"
 "%3"
-msgstr "安装失败于以下命令，退出代码为 %1：\n"
+msgstr "安装程序运行以下命令时出错，退出代码为 %1：\n"
 "%2\n\n"
 "返回的输出为：\n"
 "%3"
@@ -309,12 +309,12 @@ msgstr "安装失败于以下命令，退出代码为 %1：\n"
 #: core/installation.cpp:758
 #, kde-format
 msgid "The removal of %1 failed, as the installed file %2 could not be automatically removed. You can attempt to manually delete this file, if you believe this is an error."
-msgstr "%1 卸载失败，因为无法自动删除已安装的文件 %2。如果您认为这是安装程序出错，可以尝试手动删除这个文件。"
+msgstr "%1 卸载失败，因为无法自动删除已安装的文件 %2。如果您认为这是安装程序的问题，可以尝试手动删除这个文件。"
 
 #: core/installation.cpp:821
 #, kde-format
 msgid "The removal of %1 failed, as the installed package does not contain a correct KPackage structure."
-msgstr "%1 卸载失败，因为已安装的软件包不是 KPackage 架构的软件包。"
+msgstr "%1 卸载失败，因为已安装的软件包不是 KPackage 架构。"
 
 #: core/installation.cpp:826
 #, kde-format
@@ -324,7 +324,7 @@ msgstr "%1 卸载失败，因为安装程序不支持此类已安装的软件包
 #: core/installation.cpp:833
 #, kde-format
 msgid "The removal of %1 failed, as the installed package does not contain any useful meta information, which means it is not a valid KPackage."
-msgstr "%1 卸载失败，因为已安装的软件包中不含任何有用的元数据，即该软件包不是有效的 KPackage。"
+msgstr "%1 卸载失败，因为已安装的软件包中不含任何有用的元数据信息，即不为有效的 KPackage。"
 
 #: core/installation.cpp:873
 #, kde-format
@@ -339,7 +339,7 @@ msgstr "%1 卸载失败，因为已安装的文件不属于 KPackage。有问题
 #: core/installation.cpp:886
 #, kde-format
 msgid "The removal of %1 failed, as there seems to somehow be more than one thing installed, which is not supposed to be possible for KPackage based entries."
-msgstr "%1 卸载失败，因为有多个不是 KPackage 的项目已被安装。"
+msgstr "%1 卸载失败，因为已安装了多个不属于 KPackage 的项目。"
 
 #: core/installation.cpp:919
 #, kde-format
@@ -360,7 +360,7 @@ msgstr "无法创建软件包管理任务，通常是因为软件包已损坏。
 #: core/jobs/kpackagejob.cpp:121
 #, kde-format
 msgid "Could not create a package installer for the service type %1: The installer does not have a valid structure"
-msgstr "无法为服务类型 %1 创建软件包安装程序：此安装程序没有有效的架构"
+msgstr "无法为服务类型 %1 创建软件包安装程序：此安装程序不含有效的架构"
 
 #: core/jobs/kpackagejob.cpp:125
 #, kde-format
@@ -370,7 +370,7 @@ msgstr "KPackage 安装程序不支持服务类型 %1"
 #: core/security.cpp:69
 #, kde-format
 msgid "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that <i>gpg</i> is installed, otherwise verification of downloaded resources will not be possible.</qt>"
-msgstr "<qt>无法启动 <i>gpg</i> 获取可用的密钥。请确定 <i>gpg</i> 已安装，否则将无法校验下载的资源。</qt>"
+msgstr "<qt>无法启动 <i>gpg</i> 并获取可用密钥。请确保 <i>gpg</i> 已安装，否则将无法校验已下载的资源。</qt>"
 
 #: core/security.cpp:191
 #, kde-format
@@ -380,7 +380,7 @@ msgstr "<qt>输入密钥 <b>0x%1</b> 的密码句，该密钥属于 <br /><i>%2&
 #: core/security.cpp:264
 #, kde-format
 msgid "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure that <i>gpg</i> is installed, otherwise verification of downloaded resources will not be possible.</qt>"
-msgstr "<qt>无法启动 <i>gpg</i> 检查文件的有效性。请确定 <i>gpg</i> 已安装，否则将无法校验下载的资源。</qt>"
+msgstr "<qt>无法启动 <i>gpg</i> 来检查文件的有效性。请确保 <i>gpg</i> 已安装，否则将无法校验已下载的资源。</qt>"
 
 #: core/security.cpp:320
 #, kde-format
@@ -395,7 +395,7 @@ msgstr "选择签名密钥"
 #: core/security.cpp:348
 #, kde-format
 msgid "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is installed, otherwise signing of the resources will not be possible.</qt>"
-msgstr "<qt>无法启动 <i>gpg</i> 并签名文件。请确定 <i>gpg</i> 已安装，否则将对资源签名。</qt>"
+msgstr "<qt>无法启动 <i>gpg</i> 并签名文件。请确保 <i>gpg</i> 已安装，否则将无法对资源进行签名。</qt>"
 
 #: downloaddialog.cpp:69 downloadwidget.cpp:213
 #, kde-format
@@ -406,12 +406,12 @@ msgstr "获取资源"
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
-msgstr "%1 附加程序安装器"
+msgstr "%1 的附加组件安装器"
 
 #: downloadwidget.cpp:123
 #, kde-format
 msgid "Timeout. Check Internet connection."
-msgstr "超时。请检查互联网连接。"
+msgstr "请求超时，请检查互联网连接。"
 
 #: downloadwidget.cpp:186
 #, kde-format
@@ -451,7 +451,7 @@ msgstr "图标视图模式"
 #: downloadwidget.cpp:264
 #, kde-format
 msgid "Details view mode"
-msgstr "细节视图模式"
+msgstr "详情视图模式"
 
 #: downloadwidget.cpp:279
 #, kde-format
@@ -473,7 +473,7 @@ msgstr "内容提供者："
 #: downloadwidget.ui:71 qtquick/qml/Page.qml:411
 #, kde-format
 msgid "Category:"
-msgstr "类别："
+msgstr "分类："
 
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
 #: downloadwidget.ui:90
@@ -547,7 +547,7 @@ msgstr "卸载"
 #: downloadwidget.ui:589
 #, kde-format
 msgid "Become a Fan"
-msgstr "我迷上它了"
+msgstr "成为粉丝"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
 #: downloadwidget.ui:596 qtquick/qml/DownloadItemsSheet.qml:55
@@ -601,31 +601,31 @@ msgstr "配置菜单"
 #: kmoretools/kmoretoolsconfigdialog_p.cpp:172
 #, kde-format
 msgid "Configure menu - %1"
-msgstr "配置菜单 - %1"
+msgstr "配置菜单——%1"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:177
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current folder"
-msgstr "%1 - 当前文件夹"
+msgstr "%1——当前文件夹"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:184
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current device"
-msgstr "%1 - 当前设备"
+msgstr "%1——当前设备"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:195
 #, kde-format
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - all devices"
-msgstr "%1 - 全部设备"
+msgstr "%1——全部设备"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:25
 #, kde-format
 msgid "Main section"
-msgstr "主要节"
+msgstr "主要区域"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:58
@@ -643,13 +643,13 @@ msgstr "上移"
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:100
 #, kde-format
 msgid "Move to Main section"
-msgstr "移动到主要节"
+msgstr "移动到主要区域"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:121
 #, kde-format
 msgid "Move to More section"
-msgstr "移动到更多节"
+msgstr "移动到更多区域"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonReset)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:142
@@ -661,13 +661,13 @@ msgstr "重置"
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:161
 #, kde-format
 msgid "More section"
-msgstr "更多节"
+msgstr "更多区域"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:213
 #, kde-format
 msgid "For this menu there are some more tools suggested which are currently not installed:"
-msgstr "此菜单有些建议的工具当前未安装："
+msgstr "此菜单建议您安装以下工具："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:223
@@ -679,7 +679,7 @@ msgstr "更多工具..."
 #, kde-format
 msgctxt "The first entry in the category selection list (also the default value)"
 msgid "All Categories"
-msgstr "所有类别"
+msgstr "全部分类"
 
 #: qtquick/categoriesmodel.cpp:95
 #, kde-format
@@ -727,7 +727,7 @@ msgstr "选择安装选项"
 #: qtquick/qml/DownloadItemsSheet.qml:42
 #, kde-format
 msgid "Please select the option you wish to install from the list of downloadable items below. If it is unclear which you should chose out of the available options, please contact the author of this item and ask that they clarify this through the naming of the items."
-msgstr "请从下载列表中选择您要安装的项目。如果您不知道选哪个，请联系项目的作者，让项目的命名更加清晰。"
+msgstr "请从下载列表中选择您要安装的项目。如果您不知道选哪个，请联系项目的作者起一个更清楚的名字。"
 
 #: qtquick/qml/EntryDetails.qml:49
 #, kde-format
@@ -739,13 +739,13 @@ msgstr "正在从 %2 安装 %1"
 #, kde-format
 msgctxt "Status message to be shown when the entry is in the process of being installed OR uninstalled"
 msgid "Currently working on the item %1 by %2. Please wait..."
-msgstr "正在安装或卸载 %2 的 %1，请稍后..."
+msgstr "正在处理 %2 的 %1，请稍后..."
 
 #: qtquick/qml/EntryDetails.qml:67
 #, kde-format
 msgctxt "Status message to be shown when the entry is in the process of being updated"
 msgid "Currently updating the item %1 by %2. Please wait..."
-msgstr "正在更新 %1，作者 %2。请等待..."
+msgstr "正在更新 %2 的 %1。请稍后..."
 
 #: qtquick/qml/EntryDetails.qml:69
 #, kde-format
@@ -757,7 +757,7 @@ msgstr "此项处于无效或未知状态。<a href=\"https://bugs.kde.org/enter
 #, kde-format
 msgctxt "Combined title for the entry details page made of the name of the entry, and the author's name"
 msgid "%1 by %2"
-msgstr "%1，作者 %2"
+msgstr "%2 的 %1"
 
 #: qtquick/qml/EntryDetails.qml:87 qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:49
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:42
@@ -794,7 +794,7 @@ msgstr "卸载"
 #: qtquick/qml/EntryDetails.qml:153
 #, kde-format
 msgid "Comments and Reviews:"
-msgstr "评论和评价："
+msgstr "评论："
 
 #: qtquick/qml/EntryDetails.qml:155
 #, kde-format
@@ -845,13 +845,13 @@ msgstr "显示全部"
 #, kde-format
 msgctxt "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
-msgstr "仅安装的"
+msgstr "仅已安装"
 
 #: qtquick/qml/NewStuffList.qml:70
 #, kde-format
 msgctxt "List option which will set the filter so only installed items with updates available are shown"
 msgid "Updateable Only"
-msgstr "仅可升级"
+msgstr "仅可更新"
 
 #: qtquick/qml/NewStuffList.qml:82
 #, kde-format
@@ -901,17 +901,17 @@ msgstr "预览"
 #: qtquick/qml/Page.qml:220
 #, kde-format
 msgid "Detailed Tiles View Mode"
-msgstr "详尽的卡片视图模式"
+msgstr "详细卡片视图模式"
 
 #: qtquick/qml/Page.qml:228
 #, kde-format
 msgid "Icons Only View Mode"
-msgstr "仅有图标的视图模式"
+msgstr "仅图标视图模式"
 
 #: qtquick/qml/Page.qml:236
 #, kde-format
 msgid "Large Preview View Mode"
-msgstr "宽大的预览视图模式"
+msgstr "宽大预览视图模式"
 
 #: qtquick/qml/Page.qml:246
 #, kde-format
@@ -927,7 +927,7 @@ msgstr "可更新"
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show All Entries"
-msgstr "显示全部项"
+msgstr "显示所有项"
 
 #: qtquick/qml/Page.qml:277
 #, kde-format
@@ -966,7 +966,7 @@ msgstr "最新的在前"
 #, kde-format
 msgctxt "List option which will set the sort order to be alphabetical based on the name"
 msgid "Sort Alphabetically By Name"
-msgstr "按名字的字母排序"
+msgstr "按名称的字母排序"
 
 #: qtquick/qml/Page.qml:336
 #, kde-format
@@ -999,7 +999,7 @@ msgstr "转到..."
 #, kde-format
 msgctxt "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Loading more..."
-msgstr "正在装入更多..."
+msgstr "正在加载更多内容..."
 
 #: qtquick/qml/Page.qml:507
 #, kde-format
@@ -1023,7 +1023,7 @@ msgstr "%1 <i>(作者)</i>"
 #, kde-format
 msgctxt "Title for the page containing a view of the comments for the entry"
 msgid "Comments and Reviews for %1"
-msgstr "%1 的评论和评价"
+msgstr "%1 的评论"
 
 #: qtquick/qml/private/EntryCommentsPage.qml:30
 #, kde-format
@@ -1035,13 +1035,13 @@ msgstr "显示所有评论"
 #, kde-format
 msgctxt "Title for the item which is checked when only comments which are reviews should be shown"
 msgid "Show Reviews Only"
-msgstr "只显示评价"
+msgstr "只显示评论"
 
 #: qtquick/qml/private/EntryCommentsPage.qml:42
 #, kde-format
 msgctxt "Title for the item which is checked when comments which are reviews, and their children should be shown"
 msgid "Show Reviews and Replies"
-msgstr "显示评价和回复"
+msgstr "显示评论和回复"
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:140
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:187
@@ -1108,7 +1108,7 @@ msgstr "上传新资源：%1"
 #, kde-format
 msgctxt "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Updating information..."
-msgstr "获取新信息..."
+msgstr "正在更新信息..."
 
 #: qtquick/qml/UploadPage.qml:95
 #, kde-format
@@ -1150,7 +1150,7 @@ msgstr "若要上传新条目或为已有条目添加内容，请打开内容提
 #, kde-format
 msgctxt "An informational message which is shown to inform the user they are not authorized to use GetHotNewStuff functionality"
 msgid "You are not authorized to Get Hot New Stuff. If you think this is in error, please contact the person in charge of your permissions."
-msgstr "您未被授权使用获取新热门内容。如果您认为这是错误的，请联系管理员。"
+msgstr "您未被授权使用百宝箱。如有任何问题，请联系管理员。"
 
 #: qtquick/searchpresetmodel.cpp:58
 #, kde-format
@@ -1227,7 +1227,7 @@ msgstr "搜索预设：%1"
 #: tools/knewstuff-dialog/main.cpp:31
 #, kde-format
 msgid "The KNSRC file you want to show. If none is passed, you will be presented with a dialog which lets you switch between all the config files installed into the systemwide knsrc file location"
-msgstr "您想要显示的 KNSRC 文件。如果没有填写，则会显示一个对话框；让您在系统 KNSRC 文件位置中安装的所有配置文件里进行选择。"
+msgstr "您想要显示的 KNSRC 文件。如果没有填写，则会显示一个对话框，并让您在系统 KNSRC 文件位置中安装的所有配置文件里进行选择。"
 
 #: tools/knewstuff-dialog/main.cpp:35
 #, kde-format
@@ -1275,7 +1275,7 @@ msgstr "捐赠"
 msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
 msgid "Knowledgebase (no entries)"
 msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] "知识库(%1 项)"
+msgstr[0] "知识库 (%1 个条目)"
 
 #: ui/entrydetailsdialog.cpp:121
 #, kde-format
@@ -1300,7 +1300,7 @@ msgstr "<br />大小：%1"
 #, kde-format
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
-msgstr "根据 <i>%1</i>"
+msgstr "作者 <i>%1</i>"
 
 #: ui/itemsgridviewdelegate.cpp:176 ui/itemsviewdelegate.cpp:262
 #, kde-format
@@ -1318,17 +1318,17 @@ msgstr[0] "%1 次下载"
 #: ui/itemsgridviewdelegate.cpp:245 ui/itemsviewdelegate.cpp:342
 #, kde-format
 msgid "Loading Preview"
-msgstr "正在装入预览"
+msgstr "正在加载预览"
 
 #: ui/itemsgridviewdelegate.cpp:272 ui/itemsviewdelegate.cpp:184
 #, kde-format
 msgid "Details"
-msgstr "细节"
+msgstr "详情"
 
 #: ui/itemsgridviewdelegate.cpp:334 ui/itemsviewdelegate.cpp:122
 #, kde-format
 msgid "Updating"
-msgstr "更新中"
+msgstr "正在更新"
 
 #: ui/itemsgridviewdelegate.cpp:344 ui/itemsviewdelegate.cpp:132
 #, kde-format
