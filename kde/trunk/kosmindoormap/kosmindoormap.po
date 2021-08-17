@@ -1,0 +1,1600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-30 00:16+0000\n"
+"PO-Revision-Date: 2021-08-17 15:26\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kosmindoormap/kosmindoormap.pot\n"
+"X-Crowdin-File-ID: 24874\n"
+
+#: map-quick/osmelementinformationmodel.cpp:124
+#, kde-format
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: map-quick/osmelementinformationmodel.cpp:375
+#, kde-format
+msgid "Opening Hours"
+msgstr "营业时间"
+
+#: map-quick/osmelementinformationmodel.cpp:376
+#, kde-format
+msgid "Contact"
+msgstr "联系方式"
+
+#: map-quick/osmelementinformationmodel.cpp:377
+#, kde-format
+msgid "Payment"
+msgstr "支付方式"
+
+#: map-quick/osmelementinformationmodel.cpp:378
+#, kde-format
+msgid "Toilets"
+msgstr "洗手间"
+
+#: map-quick/osmelementinformationmodel.cpp:379
+#, kde-format
+msgid "Accessibility"
+msgstr "无障碍"
+
+#: map-quick/osmelementinformationmodel.cpp:380
+#, kde-format
+msgid "Parking"
+msgstr "停车场"
+
+#: map-quick/osmelementinformationmodel.cpp:381
+#, kde-format
+msgid "Operator"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:407
+#, kde-format
+msgid "Formerly"
+msgstr "原名"
+
+#: map-quick/osmelementinformationmodel.cpp:408
+#, kde-format
+msgid "Routes"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:409
+#, kde-format
+msgid "Cuisine"
+msgstr "烹饪"
+
+#: map-quick/osmelementinformationmodel.cpp:410
+#, kde-format
+msgid "Diet"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:411
+#, kde-format
+msgid "Takeaway"
+msgstr "外带"
+
+#: map-quick/osmelementinformationmodel.cpp:412
+#, kde-format
+msgctxt "electrical power socket"
+msgid "Socket"
+msgstr "插座"
+
+#: map-quick/osmelementinformationmodel.cpp:414
+#, kde-format
+msgid "Fee"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:415
+#, kde-format
+msgid "Authentication"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:416
+#, kde-format
+msgid "Bicycle parking"
+msgstr "自行车停车场"
+
+#: map-quick/osmelementinformationmodel.cpp:417
+#, kde-format
+msgid "Capacity"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:418
+#, kde-format
+msgid "Disabled parking spaces"
+msgstr "残障人士停车位"
+
+#: map-quick/osmelementinformationmodel.cpp:419
+#, kde-format
+msgid "Women parking spaces"
+msgstr "女性停车位"
+
+#: map-quick/osmelementinformationmodel.cpp:420
+#, kde-format
+msgid "Parent parking spaces"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:421
+#, kde-format
+msgid "Parking spaces for charging"
+msgstr "带充电的停车位"
+
+#: map-quick/osmelementinformationmodel.cpp:422
+#, kde-format
+msgid "Maximum stay"
+msgstr "最长停留时间"
+
+#: map-quick/osmelementinformationmodel.cpp:423
+#, kde-format
+msgid "Diaper changing table"
+msgstr "婴儿尿布台"
+
+#: map-quick/osmelementinformationmodel.cpp:425
+#, kde-format
+msgid "Address"
+msgstr "地址"
+
+#: map-quick/osmelementinformationmodel.cpp:426
+#, kde-format
+msgid "Phone"
+msgstr "电话"
+
+#: map-quick/osmelementinformationmodel.cpp:427
+#, kde-format
+msgid "Email"
+msgstr "电子邮箱"
+
+#: map-quick/osmelementinformationmodel.cpp:428
+#, kde-format
+msgid "Website"
+msgstr "网址"
+
+#: map-quick/osmelementinformationmodel.cpp:429
+#, kde-format
+msgid "Cash"
+msgstr "现金"
+
+#: map-quick/osmelementinformationmodel.cpp:430
+#, kde-format
+msgid "Digital"
+msgstr "数字支付"
+
+#: map-quick/osmelementinformationmodel.cpp:431
+#, kde-format
+msgid "Debit cards"
+msgstr "借记卡"
+
+#: map-quick/osmelementinformationmodel.cpp:432
+#, kde-format
+msgid "Credit cards"
+msgstr "信用卡"
+
+#: map-quick/osmelementinformationmodel.cpp:433
+#, kde-format
+msgid "Stored value cards"
+msgstr "储值卡"
+
+#: map-quick/osmelementinformationmodel.cpp:434
+#, kde-format
+msgid "Wheelchair access"
+msgstr "轮椅入口"
+
+#: map-quick/osmelementinformationmodel.cpp:435
+#, kde-format
+msgid "Central key"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:437
+#, kde-format
+msgctxt "transport network"
+msgid "Network"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel.cpp:501
+#, kde-format
+msgid "only %1"
+msgstr "仅限%1"
+
+#: map-quick/osmelementinformationmodel.cpp:503
+#, kde-format
+msgid "no %1"
+msgstr "不含%1"
+
+#: map-quick/osmelementinformationmodel.cpp:528
+#, kde-format
+msgctxt "electrical current/Ampere value"
+msgid "%1 A"
+msgstr "%1 A"
+
+#: map-quick/osmelementinformationmodel.cpp:536
+#, kde-format
+msgctxt "electrical power/kilowatt value"
+msgid "%1 kW"
+msgstr "%1 kW"
+
+#: map-quick/osmelementinformationmodel.cpp:604
+#: map-quick/osmelementinformationmodel.cpp:738
+#, kde-format
+msgid "yes"
+msgstr "支持"
+
+#: map-quick/osmelementinformationmodel.cpp:607
+#, kde-format
+msgctxt "payment option"
+msgid "coins only"
+msgstr "仅限硬币"
+
+#: map-quick/osmelementinformationmodel.cpp:610
+#, kde-format
+msgctxt "payment option"
+msgid "notes only"
+msgstr "仅限本票"
+
+#: map-quick/osmelementinformationmodel.cpp:612
+#: map-quick/osmelementinformationmodel.cpp:741
+#, kde-format
+msgid "no"
+msgstr "不支持"
+
+#: map-quick/osmelementinformationmodel_data.cpp:21
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Alcohol"
+msgstr "售酒商店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:22
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "ATM"
+msgstr "ATM"
+
+#: map-quick/osmelementinformationmodel_data.cpp:23
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Attraction"
+msgstr "景区商店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:24
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bag"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:25
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bakery"
+msgstr "面包店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:26
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bank"
+msgstr "银行"
+
+#: map-quick/osmelementinformationmodel_data.cpp:27
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bar"
+msgstr "酒吧"
+
+#: map-quick/osmelementinformationmodel_data.cpp:28
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Beauty"
+msgstr "美容院"
+
+#: map-quick/osmelementinformationmodel_data.cpp:29
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bed"
+msgstr "床上用品店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:30
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Beverages"
+msgstr "饮料店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:31
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle"
+msgstr "自行车店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:32
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle Parking"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:33
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle Rental"
+msgstr "自行车出租店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:34
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Books"
+msgstr "书店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:35
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Boutique"
+msgstr "时装店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:36
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Bureau de Change"
+msgstr "找换店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:37
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Butcher"
+msgstr "肉铺"
+
+#: map-quick/osmelementinformationmodel_data.cpp:38
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Cafe"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:39
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Car"
+msgstr "汽车店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:40
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Car Rental"
+msgstr "汽车出租店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:41
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Car Sharing"
+msgstr "共享汽车店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:42
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Charging Station"
+msgstr "充电站"
+
+#: map-quick/osmelementinformationmodel_data.cpp:43
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Chemist"
+msgstr "药店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:44
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Chocolate"
+msgstr "巧克力店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:45
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Cinema"
+msgstr "电影院"
+
+#: map-quick/osmelementinformationmodel_data.cpp:46
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Clothes"
+msgstr "服装店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:47
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Coffee"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:48
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Computer"
+msgstr "电脑店"
+
+#: map-quick/osmelementinformationmodel_data.cpp:49
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Confectionery"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:50
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Convenience Store"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:51
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Copy Shop"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:52
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Cosmetics"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:53
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Court House"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:54
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Deli"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:55
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Department Store"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:56
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Doctor"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:57
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hardware Store"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:58
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Drinking Water"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:59
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Dry Cleaning"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:60
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Electronics"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:61
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Fashion"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:62
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Fast Food"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:63
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Ferry Terminal"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:64
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Florist"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:65
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Food Court"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:66
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Fountain"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:67
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Furniture"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:68
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Garden Center"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:69
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Gift Shop"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:70
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Greengrocer"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:71
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Guest House"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:72
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hairdresser"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:73
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hearing Aids"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:74
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hospital"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:75
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hostel"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:76
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Hotel"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:77
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Houseware"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:78
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Ice Cream"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:79
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Information"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:80
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Interior Decoration"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:81
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Internet Cafe"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:82
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Jewelry"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:83
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Kiosk"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:84
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Laundry"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:85
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Library"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:86
+#: map-quick/osmelementinformationmodel_data.cpp:90
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Locker"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:87
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Locksmith"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:88
+#: map-quick/osmelementinformationmodel_data.cpp:89
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Lost & Found"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:91
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Mall"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:92
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Medical Supply"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:93
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Mobile Phone"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:94
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Money Transfer"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:95
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Motorcycle Parking"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:96
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Museum"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:97
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Music"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:98
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Musical Instruments"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:99
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Newsagent"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:100
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Office"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:101
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Optician"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:102
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Outdoor"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:103
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Paint"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:104
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Parking"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:105
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Parking Tickets"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:106
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Pastry"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:107
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Perfumery"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:108
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Pet"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:109
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Pharmacy"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:110
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Photo"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:111
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Place of Worship"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:112
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Police"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:113
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Post Box"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:114
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Post Office"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:115
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Pub"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:116
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Public Transport Tickets"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:117
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Recycling"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:118
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Restaurant"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:119
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "School"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:120
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Seafood"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:121
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Shoes"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:122
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Shop"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:123
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Social Facility"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:124
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Souvenirs"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:125
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Sports"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:126
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Stationery"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:127
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Supermarket"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:128
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Tailor"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:129
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Tattoo"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:130
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Taxi"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:131
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Tea"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:132
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Theatre"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:133
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Tickets"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:134
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Tobacco"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:135
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Toilets"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:136
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Town Hall"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:137
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Toys"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:138
+#: map-quick/osmelementinformationmodel_data.cpp:139
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Travel Agency"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:140
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "University"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:141
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Variety Store"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:142
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Video Games"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:143
+#: map-quick/osmelementinformationmodel_data.cpp:144
+#: map-quick/osmelementinformationmodel_data.cpp:145
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Waiting Area"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:146
+#, kde-format
+msgctxt "OSM::amenity/shop"
+msgid "Wine"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:152
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "American"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:153
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Arab"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:154
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Argentinian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:155
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Asian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:156
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Austrian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:157
+#: map-quick/osmelementinformationmodel_data.cpp:158
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "BBQ"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:159
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Brazilian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:160
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Breakfast"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:161
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Burger"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:162
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Cake"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:163
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Chicken"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:164
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Chinese"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:165
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Coffee Shop"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:166
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Cookies"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:167
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Crêpe"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:168
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Donut"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:169
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Falafel"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:170
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Fish"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:171
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Fish & Chips"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:172
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "French"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:173
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "German"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:174
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Greek"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:175
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Ice Cream"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:176
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Indian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:177
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Indonesian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:178
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "International"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:179
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Italian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:180
+#: map-quick/osmelementinformationmodel_data.cpp:193
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Pizza"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:181
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Japanese"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:182
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Juice"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:183
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Kebab"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:184
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Korean"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:185
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Lebanese"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:186
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Local"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:187
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Mediterranean"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:188
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Mexican"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:189
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Noodle"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:190
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Pakistani"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:191
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Pancake"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:192
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Pasta"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:194
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Polish"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:195
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Portuguese"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:196
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Ramen"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:197
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Regional"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:198
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Salad"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:199
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Sandwich"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:200
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Sausage"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:201
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Seafood"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:202
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Soup"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:203
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Spanish"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:204
+#: map-quick/osmelementinformationmodel_data.cpp:205
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Steak"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:206
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Sushi"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:207
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Tapas"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:208
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Thai"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:209
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Turkish"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:210
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Vegetarian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:211
+#, kde-format
+msgctxt "OSM::cuisine"
+msgid "Vietnamese"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:223
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "gluten free"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:224
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "halal"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:225
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "kosher"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:226
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "lactose free"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:227
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "vegan"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:228
+#, kde-format
+msgctxt "OSM::diet_type"
+msgid "vegetarian"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:256
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "American Express"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:257
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Apple Pay"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:258
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Diners Club"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:259
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Discover Card"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:260
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "JCB"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:261
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Girocard"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:262
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Google Pay"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:263
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Maestro"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:264
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Mastercard"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:265
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "UnionPay"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:266
+#: map-quick/osmelementinformationmodel_data.cpp:267
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "V Pay"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:268
+#, kde-format
+msgctxt "OSM::payment_method"
+msgid "Visa"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:272
+#, kde-format
+msgctxt "OSM::wheelchair_access"
+msgid "limited"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:273
+#, kde-format
+msgctxt "OSM::wheelchair_access"
+msgid "no"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:274
+#, kde-format
+msgctxt "OSM::wheelchair_access"
+msgid "yes"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:286
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Chademo"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:287
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Schuko"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:288
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:289
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla Supercharger"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:290
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla Supercharger CCS"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:291
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:292
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2 cable"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:293
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2 CCS"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:294
+#, kde-format
+msgctxt "OSM::charging_station_socket"
+msgid "Type E"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:306
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "app"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:307
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "membership card"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:308
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "NFC"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:309
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "none"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:310
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "phone call"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:311
+#, kde-format
+msgctxt "OSM::charging_station_authentication"
+msgid "SMS"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:318
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "anchors"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:319
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "bollard"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:320
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "building"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:321
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "ground slots"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:322
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "lockers"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:323
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "racks"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:324
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "shed"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:325
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "stands"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:326
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "wall loops"
+msgstr ""
+
+#: map-quick/osmelementinformationmodel_data.cpp:327
+#, kde-format
+msgctxt "OSM::bicycle_parking"
+msgid "wide stands"
+msgstr ""
+

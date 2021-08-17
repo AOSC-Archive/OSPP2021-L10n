@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-01-13 03:13+0100\n"
+"PO-Revision-Date: 2021-08-17 15:26\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kosmindoormap/org.kde.kosmindoormap.appdata.pot\n"
+"X-Crowdin-File-ID: 25204\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kosmindoormap.appdata.xml:10
+msgid "KDE OSM Indoor Map"
+msgstr "KDE OSM 室内地图"
+
+#. (itstool) path: component/summary
+#: org.kde.kosmindoormap.appdata.xml:11
+msgid "OSM indoor map demo application"
+msgstr "OSM 室内地图演示应用"
+
+#. (itstool) path: description/p
+#: org.kde.kosmindoormap.appdata.xml:13
+msgid "Demo application for KDE's OSM indoor map component."
+msgstr "KDE OSM 室内地图组件的演示应用"
+
