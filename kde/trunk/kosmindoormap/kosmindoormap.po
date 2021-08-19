@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-05-30 00:16+0000\n"
-"PO-Revision-Date: 2021-08-17 15:26\n"
+"PO-Revision-Date: 2021-08-19 11:49\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -70,7 +70,7 @@ msgstr ""
 #: map-quick/osmelementinformationmodel.cpp:409
 #, kde-format
 msgid "Cuisine"
-msgstr "烹饪"
+msgstr "菜式"
 
 #: map-quick/osmelementinformationmodel.cpp:410
 #, kde-format
@@ -136,7 +136,7 @@ msgstr "最长停留时间"
 #: map-quick/osmelementinformationmodel.cpp:423
 #, kde-format
 msgid "Diaper changing table"
-msgstr "婴儿尿布台"
+msgstr "婴儿护理台"
 
 #: map-quick/osmelementinformationmodel.cpp:425
 #, kde-format
@@ -249,7 +249,7 @@ msgstr "不支持"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Alcohol"
-msgstr "售酒商店"
+msgstr "酒类经销商"
 
 #: map-quick/osmelementinformationmodel_data.cpp:22
 #, kde-format
@@ -261,7 +261,7 @@ msgstr "ATM"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Attraction"
-msgstr "景区商店"
+msgstr "景点"
 
 #: map-quick/osmelementinformationmodel_data.cpp:24
 #, kde-format
@@ -333,13 +333,13 @@ msgstr "书店"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Boutique"
-msgstr "时装店"
+msgstr "精品店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:36
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Bureau de Change"
-msgstr "找换店"
+msgstr "外币兑换所"
 
 #: map-quick/osmelementinformationmodel_data.cpp:37
 #, kde-format
@@ -351,7 +351,7 @@ msgstr "肉铺"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Cafe"
-msgstr ""
+msgstr "小餐馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:39
 #, kde-format
@@ -405,7 +405,7 @@ msgstr "服装店"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Coffee"
-msgstr ""
+msgstr "咖啡厅"
 
 #: map-quick/osmelementinformationmodel_data.cpp:48
 #, kde-format
@@ -417,43 +417,43 @@ msgstr "电脑店"
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Confectionery"
-msgstr ""
+msgstr "糖果店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:50
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Convenience Store"
-msgstr ""
+msgstr "便利店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:51
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Copy Shop"
-msgstr ""
+msgstr "打印店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:52
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Cosmetics"
-msgstr ""
+msgstr "美妆店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:53
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Court House"
-msgstr ""
+msgstr "法院"
 
 #: map-quick/osmelementinformationmodel_data.cpp:54
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Deli"
-msgstr ""
+msgstr "熟食店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:55
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Department Store"
-msgstr ""
+msgstr "百货商店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:56
 #, kde-format
@@ -465,133 +465,133 @@ msgstr ""
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hardware Store"
-msgstr ""
+msgstr "五金店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:58
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Drinking Water"
-msgstr ""
+msgstr "直饮水"
 
 #: map-quick/osmelementinformationmodel_data.cpp:59
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Dry Cleaning"
-msgstr ""
+msgstr "干洗店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:60
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Electronics"
-msgstr ""
+msgstr "电器店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:61
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Fashion"
-msgstr ""
+msgstr "时装店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:62
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Fast Food"
-msgstr ""
+msgstr "快餐店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:63
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Ferry Terminal"
-msgstr ""
+msgstr "渡轮码头"
 
 #: map-quick/osmelementinformationmodel_data.cpp:64
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Florist"
-msgstr ""
+msgstr "花店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:65
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Food Court"
-msgstr ""
+msgstr "美食广场"
 
 #: map-quick/osmelementinformationmodel_data.cpp:66
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Fountain"
-msgstr ""
+msgstr "喷泉"
 
 #: map-quick/osmelementinformationmodel_data.cpp:67
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Furniture"
-msgstr ""
+msgstr "家具店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:68
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Garden Center"
-msgstr ""
+msgstr "园艺中心"
 
 #: map-quick/osmelementinformationmodel_data.cpp:69
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Gift Shop"
-msgstr ""
+msgstr "礼品店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:70
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Greengrocer"
-msgstr ""
+msgstr "蔬果店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:71
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Guest House"
-msgstr ""
+msgstr "宾馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:72
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hairdresser"
-msgstr ""
+msgstr "理发店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:73
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hearing Aids"
-msgstr ""
+msgstr "助听器专卖店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:74
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hospital"
-msgstr ""
+msgstr "医院"
 
 #: map-quick/osmelementinformationmodel_data.cpp:75
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hostel"
-msgstr ""
+msgstr "旅馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:76
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Hotel"
-msgstr ""
+msgstr "酒店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:77
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Houseware"
-msgstr ""
+msgstr "家居用品店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:78
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Ice Cream"
-msgstr ""
+msgstr "冰淇淋店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:79
 #, kde-format
@@ -603,141 +603,141 @@ msgstr ""
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Interior Decoration"
-msgstr ""
+msgstr "室内装潢公司"
 
 #: map-quick/osmelementinformationmodel_data.cpp:81
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Internet Cafe"
-msgstr ""
+msgstr "网咖"
 
 #: map-quick/osmelementinformationmodel_data.cpp:82
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Jewelry"
-msgstr ""
+msgstr "珠宝店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:83
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Kiosk"
-msgstr ""
+msgstr "信息亭"
 
 #: map-quick/osmelementinformationmodel_data.cpp:84
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Laundry"
-msgstr ""
+msgstr "洗衣房"
 
 #: map-quick/osmelementinformationmodel_data.cpp:85
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Library"
-msgstr ""
+msgstr "图书馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:86
 #: map-quick/osmelementinformationmodel_data.cpp:90
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Locker"
-msgstr ""
+msgstr "锁店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:87
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Locksmith"
-msgstr ""
+msgstr "修锁店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:88
 #: map-quick/osmelementinformationmodel_data.cpp:89
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Lost & Found"
-msgstr ""
+msgstr "失物招领"
 
 #: map-quick/osmelementinformationmodel_data.cpp:91
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Mall"
-msgstr ""
+msgstr "购物中心"
 
 #: map-quick/osmelementinformationmodel_data.cpp:92
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Medical Supply"
-msgstr ""
+msgstr "医疗器械店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:93
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Mobile Phone"
-msgstr ""
+msgstr "手机店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:94
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Money Transfer"
-msgstr ""
+msgstr "汇款点"
 
 #: map-quick/osmelementinformationmodel_data.cpp:95
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Motorcycle Parking"
-msgstr ""
+msgstr "摩托车停车场"
 
 #: map-quick/osmelementinformationmodel_data.cpp:96
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Museum"
-msgstr ""
+msgstr "博物馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:97
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Music"
-msgstr ""
+msgstr "音乐馆"
 
 #: map-quick/osmelementinformationmodel_data.cpp:98
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Musical Instruments"
-msgstr ""
+msgstr "乐器店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:99
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Newsagent"
-msgstr ""
+msgstr "报刊店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:100
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Office"
-msgstr ""
+msgstr "办公室"
 
 #: map-quick/osmelementinformationmodel_data.cpp:101
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Optician"
-msgstr ""
+msgstr "眼镜店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:102
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Outdoor"
-msgstr ""
+msgstr "户外用品店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:103
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Paint"
-msgstr ""
+msgstr "油漆店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:104
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Parking"
-msgstr ""
+msgstr "停车场"
 
 #: map-quick/osmelementinformationmodel_data.cpp:105
 #, kde-format
@@ -749,7 +749,7 @@ msgstr ""
 #, kde-format
 msgctxt "OSM::amenity/shop"
 msgid "Pastry"
-msgstr ""
+msgstr "糕点店"
 
 #: map-quick/osmelementinformationmodel_data.cpp:107
 #, kde-format
