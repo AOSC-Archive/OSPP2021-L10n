@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-12 00:25+0000\n"
+"PO-Revision-Date: 2021-08-20 08:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kalarm/kalarm._desktop_.pot\n"
+"X-Crowdin-File-ID: 8328\n"
+"Language: zh_CN\n"
+
+#: src/data/kalarm.autostart.desktop:3 src/data/org.kde.kalarm.desktop:2
+#: src/data/org.kde.kalarm.rtcwake.actions:2
+msgctxt "Name"
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: src/data/kalarm.autostart.desktop:77
+msgctxt "Comment"
+msgid "KAlarm autostart at login"
+msgstr "登录时自动运行 KAlarm"
+
+#: src/data/kalarm.notifyrc:4
+msgctxt "Comment"
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: src/data/kalarm.notifyrc:32
+msgctxt "Name"
+msgid "Alarm message"
+msgstr "闹钟信息"
+
+#: src/data/kalarm.notifyrc:60
+msgctxt "Name"
+msgid "Alarm message with beep"
+msgstr "闹钟响铃信息"
+
+#: src/data/kalarm.notifyrc:88
+msgctxt "Name"
+msgid "Spoken alarm message"
+msgstr "语音播报闹钟信息"
+
+#: src/data/kalarm.notifyrc:116
+msgctxt "Name"
+msgid "Alarm error message"
+msgstr "闹钟错误信息"
+
+#: src/data/org.kde.kalarm.desktop:76
+msgctxt "GenericName"
+msgid "Personal Alarm Scheduler"
+msgstr "个人提醒和计划任务"
+
+#: src/data/org.kde.kalarm.rtcwake.actions:75
+msgctxt "Name"
+msgid "Set RTC wakeup time"
+msgstr "设置实时时钟唤醒时间"
+
+#: src/data/org.kde.kalarm.rtcwake.actions:120
+msgctxt "Description"
+msgid "Set RTC wake-from-suspend time"
+msgstr "设置实时时钟从睡眠中唤醒时间"
+

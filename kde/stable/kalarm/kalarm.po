@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-02 01:36+0000\n"
-"PO-Revision-Date: 2021-08-19 16:09\n"
+"PO-Revision-Date: 2021-08-20 11:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -452,7 +452,7 @@ msgstr "闹钟名称"
 #: commandoptions.cpp:147
 #, kde-format
 msgid "Display alarm message as a notification"
-msgstr ""
+msgstr "将闹钟信息作为通知显示"
 
 #: commandoptions.cpp:150
 #, kde-format
@@ -707,14 +707,14 @@ msgstr "提醒消息窗口的默认背景颜色。"
 #, kde-format
 msgctxt "@label"
 msgid "Enable alarm names"
-msgstr ""
+msgstr "启用“闹钟名称”"
 
 #. i18n: ectx: whatsthis, entry (UseAlarmName), group (General)
 #: data/kalarmconfig.kcfg:96
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose whether to be able to give alarms a name. This is a convenience to help you to identify alarms."
-msgstr ""
+msgstr "允许您设定闹钟名称，此项可便于让您分辨各个闹钟。"
 
 #. i18n: ectx: label, entry (MessageFont), group (General)
 #: data/kalarmconfig.kcfg:101
@@ -756,7 +756,7 @@ msgstr "如果近期没有提醒即将发生，就在系统托盘中隐藏"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "<p>Enter -1 to auto-hide KAlarm's icon in the system tray when there are no active alarms.</p><p>To auto-hide the system tray icon when there are no alarms due within a set period of time, enter the time period in minutes.</p><p>Enter 0 to always show the system tray icon.</p>"
-msgstr "<p>输入 -1 后，KAlarm 无闹钟时会自动隐藏系统托盘图标。</p><p>若要在无闹钟的一段时间后隐藏系统托盘图标，可输入一段时间长度 (以分钟计)。</p><p>输入 0 则会始终显示系统托盘图标。</p>"
+msgstr "<p>输入 -1 后，KAlarm 在无活动闹钟时会自动隐藏系统托盘图标。</p><p>若要在无活动闹钟的一段时间后隐藏系统托盘图标，可输入一段时间长度 (以分钟计)。</p><p>输入 0 则会始终显示系统托盘图标。</p>"
 
 #. i18n: ectx: label, entry (NoAutoHideSystemTrayDesktops), group (General)
 #: data/kalarmconfig.kcfg:119
@@ -1144,14 +1144,14 @@ msgstr "输入闹钟响铃前唤醒系统的分钟数，此项可确保系统在
 #, kde-format
 msgctxt "@label"
 msgid "Alarm message display method"
-msgstr ""
+msgstr "闹钟信息显示方式"
 
 #. i18n: ectx: whatsthis, entry (DefaultDisplayMethod), group (Defaults)
 #: data/kalarmconfig.kcfg:282
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Default setting in the alarm edit dialog for \"display method\", to determine whether to display alarm messages in windows or in system notifications."
-msgstr ""
+msgstr "编辑闹钟对话框中，“显示方式”的默认设置。闹钟信息将在窗口或系统通知中显示。"
 
 #. i18n: ectx: label, entry (DefaultLateCancel), group (Defaults)
 #: data/kalarmconfig.kcfg:290
@@ -1958,7 +1958,7 @@ msgstr "您必须选择一个用于保存提醒的日历"
 #, kde-format
 msgctxt "@action:Button"
 msgid "Fewer Options <<"
-msgstr ""
+msgstr "更少选项 <<"
 
 #: editdlg.cpp:1240
 #, kde-format
@@ -1988,19 +1988,19 @@ msgstr "选择日志文件"
 #, kde-format
 msgctxt "@label:listbox How to display alarms"
 msgid "Display method:"
-msgstr ""
+msgstr "显示方式："
 
 #: editdlgtypes.cpp:90
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Window"
-msgstr ""
+msgstr "窗口"
 
 #: editdlgtypes.cpp:91
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Notification"
-msgstr ""
+msgstr "通知"
 
 #: editdlgtypes.cpp:92
 #, kde-format
@@ -2090,7 +2090,7 @@ msgstr "选择一个要显示的文本或图像文件。"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select whether to display the alarm in a window or by the notification system."
-msgstr ""
+msgstr "闹钟将显示于窗口内或系统通知中。"
 
 #: editdlgtypes.cpp:276
 #, kde-format
@@ -2726,7 +2726,7 @@ msgstr "展开窗口"
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Calendar Files"
-msgstr ""
+msgstr "导入日历文件"
 
 #: functions.cpp:916
 #, kde-format
@@ -2954,13 +2954,13 @@ msgstr "%1：未找到事件 <resource>%2</resource>，或是它不可编辑"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Alarms are configured to be archived, but this is not possible because no writable archived alarm calendar is enabled.<nl/><nl/>To fix this, use <interface>View | Show Calendars</interface> to check or change calendar statuses."
-msgstr ""
+msgstr "无法归档此闹钟，因为没有启用可写入的归档闹钟日历。<nl/><nl/>若要修复此问题，请点击<interface>视图 | 显示日历</interface>来检查或修改日历的状态。"
 
 #: kalarmapp.cpp:1515
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Alarms are configured to be archived, but this is not possible because no archived alarm calendar is set as default.<nl/><nl/>To fix this, use <interface>View | Show Calendars</interface>, select an archived alarms calendar, and check <interface>Use as Default for Archived Alarms</interface>."
-msgstr ""
+msgstr "无法归档此闹钟，因为没有默认可写入的归档闹钟日历。<nl/><nl/>若要修复此问题，请点击<interface>视图 | 显示日历</interface>，选中一个归档闹钟日历，并勾选<interface>作为归档闹钟的默认日历</interface>。"
 
 #: kalarmapp.cpp:2482
 #, kde-format
@@ -3196,7 +3196,7 @@ msgstr "执行命令失败："
 #, kde-format
 msgctxt "@info"
 msgid "Failed to execute command (not found or not executable)"
-msgstr ""
+msgstr "无法执行命令 (未找到或无法执行命令)"
 
 #: lib/shellprocess.cpp:150
 #, kde-format
@@ -3265,7 +3265,7 @@ msgstr "KDE 的个人提醒、命令和电子邮件计划程序"
 #: main.cpp:44
 #, kde-format
 msgid "Copyright © 2001-%1, David Jarvie"
-msgstr ""
+msgstr "Copyright © 2001-%1, David Jarvie"
 
 #: mainwindow.cpp:418
 #, kde-kuit-format
@@ -3625,7 +3625,7 @@ msgstr "编辑"
 #, kde-format
 msgctxt "@action:button"
 msgid "Defer"
-msgstr ""
+msgstr "推迟"
 
 #: messagewindow.cpp:232
 #, kde-format
@@ -3703,7 +3703,7 @@ msgstr "推迟(&D)..."
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Defer the alarm until later"
-msgstr ""
+msgstr "推迟闹钟"
 
 #: messagewindow.cpp:459
 #, kde-kuit-format
@@ -3883,7 +3883,7 @@ msgstr "电子邮件提醒设置"
 #, kde-format
 msgctxt "@title:tab"
 msgid "Alarm Defaults"
-msgstr ""
+msgstr "闹钟默认设置"
 
 #: prefdlg.cpp:175
 #, kde-format
@@ -3955,13 +3955,13 @@ msgstr "选中此项将在退出 <application>KAlarm</application> 前显示警�
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable alarm names"
-msgstr ""
+msgstr "启用“闹钟名称”"
 
 #: prefdlg.cpp:458
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to have the option to give alarms a name. This is a convenience to help you to identify alarms."
-msgstr ""
+msgstr "允许您设定闹钟名称，此项可便于让您分辨各个闹钟。"
 
 #: prefdlg.cpp:466
 #, kde-format
@@ -4363,7 +4363,7 @@ msgstr "常规"
 #, kde-format
 msgctxt "@title:tab Settings specific to alarm type"
 msgid "Type Specific"
-msgstr ""
+msgstr "不同闹钟的特定项"
 
 #: prefdlg.cpp:1224
 #, kde-format
@@ -4375,7 +4375,7 @@ msgstr "字体和颜色"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The default setting for the alarm message display method in the alarm edit dialog."
-msgstr ""
+msgstr "编辑闹钟对话框中，闹钟显示方式的默认设置。"
 
 #: prefdlg.cpp:1264
 #, kde-format
@@ -4477,13 +4477,13 @@ msgstr "输入要在提醒编辑对话框中所使用的默认声音文件。"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select to set the default volume for sound files in the alarm edit dialog."
-msgstr ""
+msgstr "设置闹钟编辑对话框中声音文件的默认音量。"
 
 #: prefdlg.cpp:1396
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The default volume for sound files in the alarm edit dialog."
-msgstr ""
+msgstr "闹钟编辑对话框中声音文件的默认音量。"
 
 #: prefdlg.cpp:1406
 #, kde-format
@@ -4549,7 +4549,7 @@ msgstr "如果没有活动的提醒，就自动隐藏"
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Check to automatically hide <application>KAlarm</application>'s icon in the system tray if there are no active alarms. When hidden, the icon can always be made visible by use of the system tray option to show hidden icons."
-msgstr "选中后，<application>KAlarm</application> 无闹钟时会自动隐藏系统托盘图标。隐藏后，您仍可以通过系统托盘选项来重新显示系统托盘图标。"
+msgstr "选中后，<application>KAlarm</application> 在无活动闹钟时会自动隐藏系统托盘图标。隐藏后，您仍可以通过系统托盘选项来重新显示系统托盘图标。"
 
 #: prefdlg.cpp:1714
 #, kde-kuit-format
@@ -5317,31 +5317,31 @@ msgstr "<para>%1</para><para><warning>如果您和其他使用着旧版 <applica
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Directory Resource"
-msgstr ""
+msgstr "导入目录资源"
 
 #: resources/dirresourceimportdialog.cpp:39
 #, kde-format
 msgctxt "@title:tab"
 msgid "Import Calendar Directory Resource"
-msgstr ""
+msgstr "导入日历目录资源"
 
 #: resources/dirresourceimportdialog.cpp:46
 #, kde-format
 msgctxt "@title:tab"
 msgid "Import Active Alarms"
-msgstr ""
+msgstr "导入活动闹钟"
 
 #: resources/dirresourceimportdialog.cpp:55
 #, kde-format
 msgctxt "@title:tab"
 msgid "Import Archived Alarms"
-msgstr ""
+msgstr "导入已归档的闹钟"
 
 #: resources/dirresourceimportdialog.cpp:64
 #, kde-format
 msgctxt "@title:tab"
 msgid "Import Alarm Templates"
-msgstr ""
+msgstr "导入闹钟模板"
 
 #: resources/dirresourceimportdialog.cpp:191
 #, kde-format
@@ -5366,61 +5366,61 @@ msgstr "提醒模板"
 #, kde-format
 msgctxt "@item:inlistbox File type selection filter"
 msgid "Calendar files"
-msgstr ""
+msgstr "日历文件"
 
 #: resources/dirresourceimportdialog.cpp:397
 #: resources/singlefileresourceconfigdialog.cpp:212
 #, kde-format
 msgctxt "@info:status"
 msgid "Checking file information..."
-msgstr ""
+msgstr "正在检查文件信息..."
 
 #: resources/dirresourceimportdialog.cpp:405
 #: resources/dirresourceimportdialog.cpp:453
 #, kde-format
 msgctxt "@info:status"
 msgid "Error! File already exists."
-msgstr ""
+msgstr "错误！文件已存在。"
 
 #: resources/dirresourceimportdialog.cpp:411
 #: resources/dirresourceimportdialog.cpp:462
 #, kde-format
 msgctxt "@info:status"
 msgid "Error! Cannot create file (directory does not exist)."
-msgstr ""
+msgstr "错误！无法创建文件 (目录不存在)。"
 
 #: resources/dirresourceimportdialog.cpp:416
 #: resources/dirresourceimportdialog.cpp:464
 #, kde-format
 msgctxt "@info:status"
 msgid "Error! Cannot create file (directory is not writable)."
-msgstr ""
+msgstr "错误！无法创建文件 (无法写入目录)。"
 
 #: resources/dirresourceimportdialog.cpp:470
 #, kde-format
 msgctxt "@info"
 msgid "Error! Cannot create file (directory does not exist)."
-msgstr ""
+msgstr "错误！无法创建文件 (目录不存在)。"
 
 #: resources/dirresourceimportdialog.cpp:472
 #, kde-format
 msgctxt "@info"
 msgid "Error! Cannot create file (directory is not writable)."
-msgstr ""
+msgstr "错误！无法创建文件 (无法写入目录)。"
 
 #. i18n: ectx: property (text), widget (QLabel, warning1)
 #: resources/dirresourceimportdialog_intro.ui:12
 #, kde-format
 msgctxt "@info"
 msgid "KAlarm no longer supports calendar directory resources. In order to continue using the contents of the directory resource below, you must import it into a KAlarm calendar file resource."
-msgstr ""
+msgstr "KAlarm 已不再支持日历目录资源。若要继续使用下列目录资源，您必须将其导入至 KAlarm 日历文件资源内。"
 
 #. i18n: ectx: property (text), widget (QLabel, warning2)
 #: resources/dirresourceimportdialog_intro.ui:22
 #, kde-format
 msgctxt "@info"
 msgid "KAlarm no longer supports calendar directory resources. In order to continue using the contents of the directory resource below, you must import each of its alarm types into separate KAlarm calendar file resources."
-msgstr ""
+msgstr "KAlarm 已不再支持日历目录资源。若要继续使用下列目录资源，您必须将其中不同类型的闹钟分别导入至 KAlarm 日历文件资源内。"
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
@@ -5429,49 +5429,49 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Display name:"
-msgstr ""
+msgstr "显示名称："
 
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #: resources/dirresourceimportdialog_intro.ui:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Calendar directory:"
-msgstr ""
+msgstr "日历目录："
 
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #: resources/dirresourceimportdialog_intro.ui:57
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Alarm types:"
-msgstr ""
+msgstr "闹钟类型："
 
 #. i18n: ectx: property (text), widget (QLabel, note)
 #: resources/dirresourceimportdialog_intro.ui:74
 #, kde-format
 msgctxt "@info"
 msgid "If you prefer, you can import this calendar directory resource later, by using the Import Alarms menu option to import the calendar files contained within it."
-msgstr ""
+msgstr "您也可稍后通过“导入闹钟”的菜单项导入日历文件中的日历目录资源。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mergeRadio)
 #: resources/dirresourceimportdialog_type.ui:9
 #, kde-format
 msgctxt "@option:radio"
 msgid "Import into existing calendar file resource"
-msgstr ""
+msgstr "导入至已有的日历文件资源"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, mergeResource)
 #: resources/dirresourceimportdialog_type.ui:22
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the resource to import the directory resource's alarms into."
-msgstr ""
+msgstr "选择导入目录资源闹钟的资源。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, newRadio)
 #: resources/dirresourceimportdialog_type.ui:45
 #, kde-format
 msgctxt "@option:radio"
 msgid "Import into new calendar file resource"
-msgstr ""
+msgstr "导入至新的日历文件资源"
 
 #. i18n: ectx: property (text), widget (QLabel, pathLabel)
 #: resources/dirresourceimportdialog_type.ui:60
@@ -5479,14 +5479,14 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
-msgstr ""
+msgstr "文件名："
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, pathRequester)
 #: resources/dirresourceimportdialog_type.ui:70
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the file to contain this resource. The file must not already exist."
-msgstr ""
+msgstr "选择要包含此资源的文件，此文件必须不是已经存在的文件。"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathRequester)
 #: resources/dirresourceimportdialog_type.ui:75
@@ -5495,59 +5495,61 @@ msgctxt "@info:whatsthis"
 msgid "Select the file to contain this resource.\n"
 "The file must not already exist.\n"
 "Note that if the URL of a remote file is specified, monitoring for file changes will not work."
-msgstr ""
+msgstr "选择要包含此资源的文件，\n"
+"此文件必须不是已经存在的文件。\n"
+"注意，如果指定了远程文件的 URL，将无法监测文件更改。"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, nameText)
 #: resources/dirresourceimportdialog_type.ui:105
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enter the name used to identify this resource in displays."
-msgstr ""
+msgstr "输入用于在界面中区分此资源的名字。"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, nameText)
 #: resources/dirresourceimportdialog_type.ui:108
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the name used to identify this resource in displays."
-msgstr ""
+msgstr "输入用于在界面中区分此资源的名字。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noRadio)
 #: resources/dirresourceimportdialog_type.ui:133
 #, kde-format
 msgctxt "@option:radio"
 msgid "Do not import"
-msgstr ""
+msgstr "不导入"
 
 #: resources/fileresource.cpp:308 resources/fileresource.cpp:434
 #, kde-format
 msgctxt "@info"
 msgid "Resource is not configured."
-msgstr ""
+msgstr "资源尚未配置。"
 
 #: resources/fileresource.cpp:337 resources/fileresource.cpp:352
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error loading calendar <resource>%1</resource>."
-msgstr ""
+msgstr "加载日历 <resource>%1</resource> 时出错。"
 
 #: resources/fileresource.cpp:412 resources/fileresource.cpp:451
 #: resources/fileresource.cpp:461
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error saving calendar <resource>%1</resource>."
-msgstr ""
+msgstr "保存日历 <resource>%1</resource> 时出错。"
 
 #: resources/fileresource.cpp:441
 #, kde-format
 msgctxt "@info"
 msgid "Resource is read-only."
-msgstr ""
+msgstr "资源为只读文件。"
 
 #: resources/fileresource.cpp:446
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Calendar file is in wrong format: <filename>%1</filename>."
-msgstr ""
+msgstr "日历文件格式错误：<filename>%1</filename>。"
 
 #: resources/fileresourcecalendarupdater.cpp:115
 #, kde-kuit-format
@@ -5559,19 +5561,19 @@ msgstr "无法更新日历 <resource>%1</resource> 的格式。"
 #, kde-format
 msgctxt "@title:window"
 msgid "Calendar Configuration"
-msgstr ""
+msgstr "日历配置"
 
 #: resources/fileresourcecreator.cpp:55
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Select storage type of new calendar:"
-msgstr ""
+msgstr "选择新日历的存储类型："
 
 #: resources/fileresourcecreator.cpp:137
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error!  The file <filename>%1</filename> is already used by an existing resource."
-msgstr ""
+msgstr "错误！文件 <filename>%1</filename> 已被其它资源使用。"
 
 #: resources/fileresourcemigrator.cpp:554
 #, kde-format
@@ -5595,7 +5597,7 @@ msgstr "提醒模板"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Failed to create default calendar <resource>%1</resource></para><para>Location: <filename>%2</filename></para>"
-msgstr ""
+msgstr "<para>无法创建默认日历 <resource>%1</resource></para><para>位置：<filename>%2</filename></para>"
 
 #: resources/resourcedatamodelbase.cpp:66
 #, kde-format
@@ -5655,13 +5657,13 @@ msgstr "重复"
 #, kde-format
 msgctxt "@title:column"
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 #: resources/resourcedatamodelbase.cpp:122
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: resources/resourcedatamodelbase.cpp:124
 #, kde-format
@@ -5763,7 +5765,7 @@ msgstr "提醒类型(消息、文件、命令或电子邮件)"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Alarm name, or alarm text if name is blank"
-msgstr ""
+msgstr "闹钟名称或闹钟文本 (如名称为空)"
 
 #: resources/resourcedatamodelbase.cpp:567
 #, kde-format
@@ -5866,13 +5868,13 @@ msgstr "搜索"
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "KAlarm Calendar File"
-msgstr ""
+msgstr "KAlarm 日历文件"
 
 #: resources/resourcetype.cpp:346
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "KAlarm Calendar Directory"
-msgstr ""
+msgstr "KAlarm 日历目录"
 
 #: resources/resourcetype.cpp:347
 #, kde-format
@@ -5896,75 +5898,75 @@ msgstr "目录"
 #, kde-format
 msgctxt "@info"
 msgid "A previous load is still in progress."
-msgstr ""
+msgstr "之前的加载操作仍在进行。"
 
 #: resources/singlefileresource.cpp:181 resources/singlefileresource.cpp:337
 #, kde-format
 msgctxt "@info"
 msgid "A previous save is still in progress."
-msgstr ""
+msgstr "之前的保存操作仍在进行。"
 
 #: resources/singlefileresource.cpp:230
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not create calendar file <filename>%1</filename>."
-msgstr ""
+msgstr "无法创建日历文件 <filename>%1</filename>。"
 
 #: resources/singlefileresource.cpp:568
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load file <filename>%1</filename>."
-msgstr ""
+msgstr "无法加载文件 <filename>%1</filename>。"
 
 #: resources/singlefileresource.cpp:600
 #, kde-format
 msgctxt "@info"
 msgid "Calendar not open."
-msgstr ""
+msgstr "日历未打开。"
 
 #: resources/singlefileresource.cpp:613
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not save file <filename>%1</filename>."
-msgstr ""
+msgstr "无法保存文件 <filename>%1</filename>。"
 
 #: resources/singlefileresource.cpp:704
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load file <filename>%1</filename>. (%2)"
-msgstr ""
+msgstr "无法加载文件 <filename>%1</filename>。(%2)"
 
 #: resources/singlefileresource.cpp:744
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not save file <filename>%1</filename>. (%2)"
-msgstr ""
+msgstr "无法保存文件 <filename>%1</filename>。(%2)"
 
 #: resources/singlefileresourceconfigdialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Calendar"
-msgstr ""
+msgstr "配置日历"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pathGroupBox)
 #: resources/singlefileresourceconfigdialog.ui:17
 #, kde-format
 msgctxt "@title:group"
 msgid "Calendar File"
-msgstr ""
+msgstr "日历文件"
 
 #. i18n: ectx: property (html), widget (KTextEdit, pathDescription)
 #: resources/singlefileresourceconfigdialog.ui:64
 #, kde-format
 msgid "Select the file whose contents should be represented by this resource. If the file does not exist, it will be created. The URL of a remote file can also be specified, but note that monitoring for file changes will not work in this case."
-msgstr ""
+msgstr "选择内容可代表此资源的文件。若文件不存在，则文件会被自动创建。您也可指定远程文件的 URL，但需注意此方法无法监视文件更改。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, activeRadio)
 #: resources/singlefileresourceconfigdialog.ui:82
 #, kde-format
 msgctxt "@option:radio"
 msgid "Acti&ve Alarms"
-msgstr ""
+msgstr "活动闹钟(&V)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, archivedRadio)
 #: resources/singlefileresourceconfigdialog.ui:95
