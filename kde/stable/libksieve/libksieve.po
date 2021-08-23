@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-15 01:41+0000\n"
-"PO-Revision-Date: 2021-08-22 15:31\n"
+"PO-Revision-Date: 2021-08-23 08:09\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -300,7 +300,7 @@ msgstr "参数："
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:94
 #, kde-format
 msgid "The \"convert\" action specifies that all body parts with a media type equal to \"media-type\" be converted to the media type in \"media-type\" using conversion parameters."
-msgstr "“convert”操作会使用转换参数，将主体部分中所有符合“media-type”媒体类型的内容，转换为“media-type”内媒体类型的内容。"
+msgstr "“convert”操作会使用转换参数，将正文部分中所有符合“media-type”媒体类型的内容，转换为“media-type”内媒体类型的内容。"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:24
 #, kde-format
@@ -468,7 +468,7 @@ msgstr "使用列表"
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:139
 #, kde-format
 msgid "The \"redirect\" action is used to send the message to another user at a supplied address, as a mail forwarding feature does.  The \"redirect\" action makes no changes to the message body or existing headers, but it may add new headers."
-msgstr "“redirect”操作类似于邮件转发功能，可用于发送消息给某个地址的其它用户。“redirect”操作不改变消息主题或已存在的消息头，但会加入新的消息头。"
+msgstr "“redirect”操作类似于邮件转发功能，可用于发送消息给某个地址的其它用户。“redirect”操作不改变消息正文或已存在的消息头，但会加入新的消息头。"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:143
 #, kde-format
@@ -493,7 +493,7 @@ msgstr "移除标记"
 #: ksieveui/autocreatescripts/sieveactions/sieveactionremoveflags.cpp:25
 #, kde-format
 msgid "Removeflag is used to remove flags from a list of [IMAP] flags. Removeflag clears flags previously set by \"set\"/\"addflag\". Calling removeflag with a flag that wasn't set before is not an error and is ignored."
-msgstr "Addflag 用于在 [IMAP] 标记列表中删除标记。它会使用“set”和“addflag”清除之前设置的标记，调用 removeflag 清除未设置的标记会被忽略，且不会产生任何错误。"
+msgstr "Removeflag 用于在 [IMAP] 标记列表中删除标记。它会使用“set”和“addflag”清除之前设置的标记，调用 removeflag 清除未设置的标记会被忽略，且不会产生任何错误。"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:24
 #, kde-format
@@ -612,7 +612,7 @@ msgstr "“vacation”操作实现了一个可用于多种版本的 Unix 上，�
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:200
 #, kde-format
 msgid "Through the \":days\" parameter, it limits the number of auto-replies to the same sender to one per [n] days, for a specified number of days. But there are cases when one needs more granularity, if one would like to generate \"vacation\" replies more frequently."
-msgstr "通过“:days”参数，它会限制每几天内，向同发件人自动回复的数量。但若需要更频繁地生成“vacation”回复，则需要更精细的粒度。"
+msgstr "通过“:days”参数，它会限制每 [n] 天内，向同发件人自动回复的数量。但若需要更频繁地生成“vacation”回复，则需要更精细的粒度。"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:202
 #, kde-format
@@ -802,7 +802,7 @@ msgstr "使用“;”来分隔电子邮件地址"
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:95
 #, kde-format
 msgid "The \"address\" test matches Internet addresses in structured headers that contain addresses.  It returns true if any header contains any key in the specified part of the address, as modified by the comparator and the match keyword."
-msgstr ""
+msgstr "“address”测试会在含有地址的结构头中匹配 Internet 地址。如果有消息头被比较器修改或匹配关键词后，在地址的特定部分包含密钥，此测试将返回真。"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionbody.cpp:20
 #, kde-format
@@ -812,7 +812,7 @@ msgstr "正文"
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionbody.cpp:85
 #, kde-format
 msgid "The body test matches content in the body of an email message, that is, anything following the first empty line after the header.  (The empty line itself, if present, is not considered to be part of the body.)"
-msgstr ""
+msgstr "正文测试会匹配电子邮件中的正文内容，也就是消息头后首行空行下的内容。(空行不为正文内容)"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditioncurrentdate.cpp:21
 #, kde-format
@@ -822,7 +822,7 @@ msgstr "当前日期"
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditioncurrentdate.cpp:78
 #, kde-format
 msgid "The currentdate test is similar to the date test, except that it operates on the current date/time rather than a value extracted from the message header."
-msgstr ""
+msgstr "currentdate 测试类似于 date 测试，只不过它会在当前日期或时间下运行，而不会根据消息头中的值来运行。"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiondate.cpp:23
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:43
@@ -834,7 +834,7 @@ msgstr "日期"
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiondate.cpp:93
 #, kde-format
 msgid "The date test matches date/time information derived from headers containing date-time values."
-msgstr ""
+msgstr "date 测试会从消息头中匹配日期或时间信息。"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:24
 #, kde-format
@@ -859,7 +859,7 @@ msgstr "项目："
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:90
 #, kde-format
 msgid "The environment test retrieves the item of environment information specified by the name string and matches it to the values specified in the key-list argument."
-msgstr ""
+msgstr "environment 测试会按名称字符串获取环境信息，并用键参数列表匹配对应的值。"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:22
 #, kde-format
