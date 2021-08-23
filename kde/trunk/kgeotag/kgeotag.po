@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-01-18 02:33+0100\n"
-"PO-Revision-Date: 2021-08-10 09:06\n"
+"PO-Revision-Date: 2021-08-23 12:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -76,7 +76,7 @@ msgstr "保存设置"
 #: src/AutomaticMatchingWidget.cpp:140 src/MainWindow.cpp:932
 #, kde-format
 msgid "(Re)Assign all images"
-msgstr "(重新) 分配所有图片"
+msgstr "(重新) 分配所有图像"
 
 #: src/AutomaticMatchingWidget.cpp:145 src/ImagesListView.cpp:80
 #: src/MainWindow.cpp:1018
@@ -97,7 +97,7 @@ msgstr "仅搜索插值匹配项"
 #: src/AutomaticMatchingWidget.cpp:164
 #, kde-format
 msgid "Exclude manually tagged images"
-msgstr "不包含已手动标记的图片"
+msgstr "不包含已手动标记的图像"
 
 #: src/AutomaticMatchingWidget.cpp:197
 #, kde-format
@@ -348,12 +348,12 @@ msgstr "无法解析服务器响应：无法读取海拔值"
 #: src/FixDriftWidget.cpp:27
 #, kde-format
 msgid "Images' time zone"
-msgstr "图片的时区"
+msgstr "图像的时区"
 
 #: src/FixDriftWidget.cpp:31
 #, kde-format
 msgid "The images were taken in the following timezone:"
-msgstr "此图片摄于以下时区："
+msgstr "此图像摄于以下时区："
 
 #: src/FixDriftWidget.cpp:59
 #, kde-format
@@ -363,7 +363,7 @@ msgstr "相机时间偏差"
 #: src/FixDriftWidget.cpp:63
 #, kde-format
 msgid "Deviation between image dates and the (exact) GPS data time:"
-msgstr "图片日期与 (精确的) GPS 数据时间之间的偏差："
+msgstr "图像日期与 (精确的) GPS 数据时间之间的偏差："
 
 #: src/FixDriftWidget.cpp:75
 #, kde-format
@@ -388,7 +388,7 @@ msgstr "保存时修正文件的时间和日期"
 #: src/ImagesListView.cpp:59
 #, kde-format
 msgid "Select all images"
-msgstr "选择所有图片"
+msgstr "选择所有图像"
 
 #: src/ImagesListView.cpp:63
 #, kde-format
@@ -398,17 +398,17 @@ msgstr "选择"
 #: src/ImagesListView.cpp:65 src/MainWindow.cpp:114
 #, kde-format
 msgid "All images"
-msgstr "所有图片"
+msgstr "所有图像"
 
 #: src/ImagesListView.cpp:67
 #, kde-format
 msgid "All images without coordinates"
-msgstr "所有无坐标的图片"
+msgstr "所有无坐标的图像"
 
 #: src/ImagesListView.cpp:70
 #, kde-format
 msgid "All images with coordinates"
-msgstr "所有带坐标的图片"
+msgstr "所有带坐标的图像"
 
 #: src/ImagesListView.cpp:76 src/MainWindow.cpp:173
 #, kde-format
@@ -452,7 +452,7 @@ msgstr "放弃更改"
 #, kde-format
 msgid "Remove image"
 msgid_plural "Remove images"
-msgstr[0] "删除图片"
+msgstr[0] "删除图像"
 
 #: src/ImagesListView.cpp:175
 #, kde-format
@@ -505,22 +505,22 @@ msgstr "维护人员"
 #: src/MainWindow.cpp:88 src/MainWindow.cpp:431
 #, kde-format
 msgid "Add images and/or GPX tracks"
-msgstr "添加图片和 (或) GPX 轨迹"
+msgstr "添加图像和 (或) GPX 轨迹"
 
 #: src/MainWindow.cpp:94 src/MainWindow.cpp:475
 #, kde-format
 msgid "Add all images and tracks from directory"
-msgstr "添加目录中的所有图片和轨迹"
+msgstr "添加目录中的所有图像和轨迹"
 
 #: src/MainWindow.cpp:103
 #, kde-format
 msgid "All processed and saved images"
-msgstr "所有已处理并保存的图片"
+msgstr "所有已处理并保存的图像"
 
 #: src/MainWindow.cpp:109
 #, kde-format
 msgid "All images that already had coordinates"
-msgstr "所有已有坐标的图片"
+msgstr "所有已有坐标的图像"
 
 #: src/MainWindow.cpp:118
 #, kde-format
@@ -530,12 +530,12 @@ msgstr "所有轨迹"
 #: src/MainWindow.cpp:122
 #, kde-format
 msgid "All images and tracks (reset)"
-msgstr "所有图片和轨迹 (重置)"
+msgstr "所有图像和轨迹 (重置)"
 
 #: src/MainWindow.cpp:128
 #, kde-format
 msgid "Save changed images"
-msgstr "保存已修改的图片"
+msgstr "保存已修改的图像"
 
 #: src/MainWindow.cpp:140
 #, kde-format
@@ -565,7 +565,7 @@ msgstr "地图"
 #: src/MainWindow.cpp:206
 #, kde-format
 msgid "Unassigned images"
-msgstr "尚未被分配的图片"
+msgstr "尚未被分配的图像"
 
 #: src/MainWindow.cpp:229
 #, kde-format
@@ -575,12 +575,12 @@ msgstr "轨迹"
 #: src/MainWindow.cpp:280
 #, kde-format
 msgid "Assigned images"
-msgstr "已分配的图片"
+msgstr "已分配的图像"
 
 #: src/MainWindow.cpp:288
 #, kde-format
 msgid "Images"
-msgstr "图片"
+msgstr "图像"
 
 #: src/MainWindow.cpp:356
 #, kde-format
@@ -590,7 +590,7 @@ msgstr "关闭 KGeoTag"
 #: src/MainWindow.cpp:357
 #, kde-format
 msgid "<p>There are pending changes to images that haven't been saved yet. All changes will be discarded if KGeoTag is closed now.</p><p>Do you want to close the program anyway?</p>"
-msgstr "<p>一些对图片的更改尚未被保存，现在关闭 KGeoTag 会使这些更改丢失。</p><p>您仍要关闭本程序吗？</p>"
+msgstr "<p>一些图像的更改尚未被保存，现在关闭 KGeoTag 会使这些更改丢失。</p><p>您仍要关闭本程序吗？</p>"
 
 #: src/MainWindow.cpp:379
 #, kde-format
@@ -773,7 +773,7 @@ msgstr "<p>从已加载的 GPX 文件中检测到了一个大致准确的时区�
 #: src/MainWindow.cpp:686
 #, kde-format
 msgid "Loading images ..."
-msgstr "正在加载图片..."
+msgstr "正在加载图像..."
 
 #: src/MainWindow.cpp:686 src/MainWindow.cpp:959 src/MainWindow.cpp:1166
 #, kde-format
@@ -783,29 +783,29 @@ msgstr "取消"
 #: src/MainWindow.cpp:712
 #, kde-format
 msgid "<p><b>Loading image failed</b></p><p>Could not read <kbd>%1</kbd>.</p>"
-msgstr "<p><b>图片加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
+msgstr "<p><b>图像加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
 
 #: src/MainWindow.cpp:718
 #, kde-format
 msgctxt "Message with a fraction of processed files added in round braces"
 msgid "<p><b>Loading image failed (%1/%2)</b></p><p>Could not read <kbd>%3</kbd>.</p>"
-msgstr "<p><b>图片加载失败 (%1/%2)</b></p><p>无法读取 <kbd>%3</kbd>。</p>"
+msgstr "<p><b>图像加载失败 (%1/%2)</b></p><p>无法读取 <kbd>%3</kbd>。</p>"
 
 #: src/MainWindow.cpp:727
 #, kde-format
 msgid "<p><b>Loading image's Exif header or XMP sidecar file failed</b></p><p>Could not read <kbd>%1</kbd>.</p>"
-msgstr "<p><b>图片的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
+msgstr "<p><b>图像的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%1</kbd>。</p>"
 
 #: src/MainWindow.cpp:733
 #, kde-format
 msgctxt "Message with a fraction of processed files added in round braces"
 msgid "<p><b>Loading image's Exif header or XMP sidecar file failed</b></p><p>Could not read <kbd>%2</kbd>.</p>"
-msgstr "<p><b>图片的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%2</kbd>。</p>"
+msgstr "<p><b>图像的 Exif 头信息和 XMP 附带文件加载失败</b></p><p>无法读取 <kbd>%2</kbd>。</p>"
 
 #: src/MainWindow.cpp:745
 #, kde-format
 msgid "<p>Please check if this file is actually a supported image and if you have read access to it.</p>"
-msgstr "<p>请检查文件是否为 KGeoTag 支持的图片，并检查您是否有它的读取权限。</p>"
+msgstr "<p>请检查文件是否为 KGeoTag 支持的图像，并检查您是否有它的读取权限。</p>"
 
 #: src/MainWindow.cpp:749
 #, kde-format
@@ -821,46 +821,46 @@ msgstr "<p>您可以重新尝试加载此文件、跳过加载或直接取消加
 #: src/MainWindow.cpp:801 src/MainWindow.cpp:805 src/MainWindow.cpp:837
 #, kde-format
 msgid "Add images"
-msgstr "添加图片"
+msgstr "添加图像"
 
 #: src/MainWindow.cpp:792
 #, kde-format
 msgid "Successfully added one image!"
 msgid_plural "Successfully added %1 images!"
-msgstr[0] "成功添加了 %1 张图片！"
+msgstr[0] "成功添加了 %1 张图像！"
 
 #: src/MainWindow.cpp:798
 #, kde-format
 msgid "Could not add any new images, all requested images failed to load!"
-msgstr "无法添加新图片，请求的图片都已加载失败！"
+msgstr "无法添加新图像，请求的图像都已加载失败！"
 
 #: src/MainWindow.cpp:802
 #, kde-format
 msgid "Could not add any new images, all requested images have already been loaded!"
-msgstr "无法添加新图片，请求的图片都已经加载过了！"
+msgstr "无法添加新图像，请求的图像都已经加载过了！"
 
 #: src/MainWindow.cpp:806
 #, kde-format
 msgid "Could not add any new images, all requested images failed to load or have already been loaded!"
-msgstr "无法添加新图片，请求的图片都已加载失败或已经加载过了！"
+msgstr "无法添加新图像，请求的图像都已加载失败或已经加载过了！"
 
 #: src/MainWindow.cpp:810
 #, kde-format
 msgid "<p>Successfully added image!</p>"
 msgid_plural "<p>Successfully added %1 images!</p>"
-msgstr[0] "<p>成功添加了 %1 张图片！</p>"
+msgstr[0] "<p>成功添加了 %1 张图像！</p>"
 
 #: src/MainWindow.cpp:815
 #, kde-format
 msgid "<p>One image failed to load.</p>"
 msgid_plural "<p>%1 images failed to load.</p>"
-msgstr[0] "<p>%1 张图片加载失败。</p>"
+msgstr[0] "<p>%1 张图像加载失败。</p>"
 
 #: src/MainWindow.cpp:819
 #, kde-format
 msgid "<p>One image has already been loaded.</p>"
 msgid_plural "<p>%1 images have already been loaded.</p>"
-msgstr[0] "<p>%1 张图片已经加载过了。</p>"
+msgstr[0] "<p>%1 张图像已经加载过了。</p>"
 
 #: src/MainWindow.cpp:828
 #, kde-format
@@ -872,13 +872,13 @@ msgstr "<p>%1，%2。</p>"
 #, kde-format
 msgid "One image failed to load"
 msgid_plural "%1 images failed to load"
-msgstr[0] "%1 张图片加载失败"
+msgstr[0] "%1 张图像加载失败"
 
 #: src/MainWindow.cpp:832
 #, kde-format
 msgid "one image has already been loaded"
 msgid_plural "%1 images have already been loaded"
-msgstr[0] "%1 张图片已经加载过了"
+msgstr[0] "%1 张图像已经加载过了"
 
 #: src/MainWindow.cpp:861 src/MainWindow.cpp:891
 #, kde-format
@@ -890,23 +890,23 @@ msgstr "“%1”"
 #, kde-format
 msgid "1 image"
 msgid_plural "%1 images"
-msgstr[0] "%1 张图片"
+msgstr[0] "%1 张图像"
 
 #: src/MainWindow.cpp:894
 #, kde-format
 msgid "1 image (%2)"
 msgid_plural "%1 images (%2)"
-msgstr[0] "%1 张图片 (%2)"
+msgstr[0] "%1 张图像 (%2)"
 
 #: src/MainWindow.cpp:895
 #, kde-format
 msgid "all images have the same coordinates"
-msgstr "所有图片都拥有相同坐标"
+msgstr "所有图像都拥有相同坐标"
 
 #: src/MainWindow.cpp:896
 #, kde-format
 msgid "coordinates differ across the images"
-msgstr "各个图片的坐标有所不同"
+msgstr "各个图像的坐标有所不同"
 
 #: src/MainWindow.cpp:932 src/MainWindow.cpp:1146 src/MainWindow.cpp:1513
 #: src/MainWindow.cpp:1529 src/MainWindow.cpp:1558 src/MainWindow.cpp:1594
@@ -917,7 +917,7 @@ msgstr "无需任何操作"
 #: src/MainWindow.cpp:959
 #, kde-format
 msgid "Assigning images ..."
-msgstr "正在分配图片..."
+msgstr "正在分配图像..."
 
 #: src/MainWindow.cpp:1023
 #, kde-format
@@ -1060,7 +1060,7 @@ msgstr "无法保存更改！"
 #: src/MainWindow.cpp:1343
 #, kde-format
 msgid "<p>Some changes could not be saved!</p><p>Successfully saved %1 of %2 images.</p>"
-msgstr "<p>无法保存部分更改</p><p>已成功保存 %2 张中的 %1 张图片。</p>"
+msgstr "<p>无法保存部分更改</p><p>已成功保存 %2 张中的 %1 张图像。</p>"
 
 #: src/MainWindow.cpp:1348
 #, kde-format
@@ -1096,38 +1096,38 @@ msgstr "无法获取海拔数据：所选的海拔数据集中没有部分所需
 #, kde-format
 msgid "The image has pending changes! Do you really want to remove it and discard the changes?"
 msgid_plural "At least one of the images has pending changes. Do you really want to remove them and discard all changes?"
-msgstr[0] "有一张或多张图片的更改未保存，您确定要删除这些图片并放弃所有更改吗？"
+msgstr[0] "有一张或多张图像的更改未保存，您确定要删除这些图像并放弃所有更改吗？"
 
 #: src/MainWindow.cpp:1512 src/MainWindow.cpp:1520
 #, kde-format
 msgid "Remove all processed and saved images"
-msgstr "删除所有已处理和已保存的图片"
+msgstr "删除所有已处理和已保存的图像"
 
 #: src/MainWindow.cpp:1521 src/MainWindow.cpp:1537
 #, kde-format
 msgid "Removed one image"
 msgid_plural "Removed %1 images"
-msgstr[0] "已删除 %1 张图片"
+msgstr[0] "已删除 %1 张图像"
 
 #: src/MainWindow.cpp:1528 src/MainWindow.cpp:1536
 #, kde-format
 msgid "Remove images that already had coordinates"
-msgstr "删除已有坐标信息的图片"
+msgstr "删除已有坐标信息的图像"
 
 #: src/MainWindow.cpp:1543 src/MainWindow.cpp:1558
 #, kde-format
 msgid "Remove all images"
-msgstr "删除所有图片"
+msgstr "删除所有图像"
 
 #: src/MainWindow.cpp:1544
 #, kde-format
 msgid "<p>There are pending changes to images that haven't been saved yet. All changes will be discarded if all images are removed now.</p><p>Do you really want to remove all images anyway?</p>"
-msgstr "<p>一些对图片的更改尚未被保存，现在删除所有图片会使这些更改丢失。</p><p>您确定要删除所有图片吗？</p>"
+msgstr "<p>一些对图像的更改尚未被保存，现在删除所有图像会使这些更改丢失。</p><p>您确定要删除所有图像吗？</p>"
 
 #: src/MainWindow.cpp:1593
 #, kde-format
 msgid "Remove all images and tracks (reset)"
-msgstr "删除所有图片和轨迹 (重置)"
+msgstr "删除所有图像和轨迹 (重置)"
 
 #: src/MapCenterInfo.cpp:42
 #, kde-format
@@ -1147,7 +1147,7 @@ msgstr "十字准星"
 #: src/PreviewWidget.cpp:34
 #, kde-format
 msgid "Image:"
-msgstr "图片："
+msgstr "图像："
 
 #: src/PreviewWidget.cpp:43 src/PreviewWidget.cpp:121
 #, kde-format
@@ -1199,7 +1199,7 @@ msgstr "日期/时间\n"
 #: src/RetrySkipAbortDialog.cpp:26
 #, kde-format
 msgid "Skip current image"
-msgstr "跳过当前图片"
+msgstr "跳过当前图像"
 
 #: src/SettingsDialog.cpp:34
 #, kde-format
@@ -1214,12 +1214,12 @@ msgstr "KGeoTag 设置"
 #: src/SettingsDialog.cpp:58
 #, kde-format
 msgid "Image lists"
-msgstr "图片列表"
+msgstr "图像列表"
 
 #: src/SettingsDialog.cpp:64
 #, kde-format
 msgid "<p>Loaded images can either be listed in two different lists (one for all images without and one for images with coordinates), or using a combined consecutive list for all images.</p><p>Use the following images list(s) mode:</p>"
-msgstr "<p>已加载的图片会被列在两个不同的列表内 (一个包含所有无坐标的图片，一个包含有坐标的图片)，或被列在同一个混合列表中。</p><p>将使用以下图片列表模式：</p>"
+msgstr "<p>已加载的图像会被列在两个不同的列表内 (一个包含所有无坐标的图像，一个包含有坐标的图像)，或被列在同一个混合列表中。</p><p>将使用以下图像列表模式：</p>"
 
 #: src/SettingsDialog.cpp:74
 #, kde-format
@@ -1229,7 +1229,7 @@ msgstr "分为“已分配”列表和“未分配”列表"
 #: src/SettingsDialog.cpp:75
 #, kde-format
 msgid "One combined list for all images"
-msgstr "所有图片都列在同一个混合列表内"
+msgstr "所有图像都列在同一个混合列表内"
 
 #: src/SettingsDialog.cpp:83
 #, kde-format
