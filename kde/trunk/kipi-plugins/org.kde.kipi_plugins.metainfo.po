@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2020-08-04 02:12+0200\n"
+"PO-Revision-Date: 2021-08-24 08:20\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kipi-plugins/org.kde.kipi_plugins.metainfo.pot\n"
+"X-Crowdin-File-ID: 11747\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kipi_plugins.metainfo.xml:6
+msgid "KIPI Plugins"
+msgstr "KIPI 插件"
+
+#. (itstool) path: component/summary
+#: org.kde.kipi_plugins.metainfo.xml:7
+msgid "Plugins for KDE applications to export images"
+msgstr "KDE 应用程序用于导出图像的插件"
+
+#. (itstool) path: description/p
+#: org.kde.kipi_plugins.metainfo.xml:9
+msgid "These plugins export image to various services such as Mediawiki or Facebook or a local album."
+msgstr "这些插件可将图像导出至如 Mediawiki、Facebook 或本地相册之类的各种服务上。"
+
+#. (itstool) path: description/p
+#: org.kde.kipi_plugins.metainfo.xml:10
+msgid "They add export features to Gwenview and Spectacle."
+msgstr "它们给 Gwenview 和 Spectacle 添加了导出功能。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kipi_plugins.metainfo.xml:17
+msgid "KIPI Plugins as used in Gwenview."
+msgstr "Gwenview 中的 KIPI 插件。"
+
