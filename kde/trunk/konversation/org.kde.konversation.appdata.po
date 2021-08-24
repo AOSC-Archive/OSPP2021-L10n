@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-06-28 00:19+0000\n"
+"PO-Revision-Date: 2021-08-24 08:33\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/konversation/org.kde.konversation.appdata.pot\n"
+"X-Crowdin-File-ID: 5965\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.konversation.appdata.xml:6
+msgid "Konversation"
+msgstr "Konversation"
+
+#. (itstool) path: component/summary
+#: org.kde.konversation.appdata.xml:7
+msgid "IRC client"
+msgstr "IRC 客户端"
+
+#. (itstool) path: description/p
+#: org.kde.konversation.appdata.xml:9
+msgid "Konversation is a user-friendly Internet Relay Chat (IRC) client by KDE. It provides easy access to standard IRC networks such as Libera, where the KDE IRC channels can be found."
+msgstr "Konversation 是一个由 KDE 团队打造的、便于使用的 Internet Relay Chat (IRC) 客户端。它可轻松访问如 Libera 在内的标准 IRC 网络，也能在此找到 KDE 的 IRC 频道。"
+
+#. (itstool) path: description/p
+#: org.kde.konversation.appdata.xml:14
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:16
+msgid "Standard IRC features"
+msgstr "标准 IRC 特性"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:17
+msgid "SSL server support"
+msgstr "SSL 服务器支持"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:18
+msgid "Bookmarking support"
+msgstr "书签支持"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:19
+msgid "Easy to use graphical user interface"
+msgstr "易用的图形用户界面"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:20
+msgid "Multiple servers and channels in one single window"
+msgstr "在同一个窗口中使用多个服务器和频道"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:21
+msgid "DCC file transfer"
+msgstr "DCC 文件传输"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:22
+msgid "Multiple identities for different servers"
+msgstr "为不同服务器使用多个身份"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:23
+msgid "Text decorations and colors"
+msgstr "文本修饰和颜色"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:24
+msgid "OnScreen Display for notifications"
+msgstr "屏显提示"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:25
+msgid "Automatic UTF-8 detection"
+msgstr "自动 UTF-8 检测"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:26
+msgid "Per channel encoding support"
+msgstr "支持每个频道单独设定编码"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:27
+msgid "Theme support for nick icons"
+msgstr "支持昵称图标主题"
+
+#. (itstool) path: ul/li
+#: org.kde.konversation.appdata.xml:28
+msgid "Highly configurable"
+msgstr "高度可配置"
+
