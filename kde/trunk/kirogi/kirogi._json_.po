@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-04-06 00:30+0000\n"
+"PO-Revision-Date: 2021-08-26 12:51\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kirogi/kirogi._json_.pot\n"
+"X-Crowdin-File-ID: 10866\n"
+"Language: zh_CN\n"
+
+#: src/plugins/mavlink/kirogimavlinkplugin.json
+msgctxt "Name"
+msgid "MAVLink"
+msgstr "MAVLink"
+
+#: src/plugins/parrot/kirogiparrotplugin.json
+msgctxt "Name"
+msgid "Parrot"
+msgstr "Parrot"
+
+#: src/plugins/ryzetello/kirogiryzetelloplugin.json
+msgctxt "Name"
+msgid "Ryze Tello"
+msgstr "Ryze Tello"
+
+#: src/plugins/mavlink/kirogimavlinkplugin.json
+msgctxt "Description"
+msgid "A Kirogi plugin to support MAVLink vehicles"
+msgstr "用于支持 MAVLink 协议载具的插件"
+
+#: src/plugins/parrot/kirogiparrotplugin.json
+msgctxt "Description"
+msgid "A Kirogi plugin to support Parrot UAVs"
+msgstr "用于支持 Parrot 无人机的 Kirogi 插件"
+
+#: src/plugins/ryzetello/kirogiryzetelloplugin.json
+msgctxt "Description"
+msgid "A Kirogi plugin to support the Ryze Tello UAV"
+msgstr "用于支持 Ryze Tello 无人机的插件"
+
+#: src/plugins/mavlink/kirogimavlinkplugin.json
+msgctxt "Authors Name"
+msgid "Patrick José Pereira"
+msgstr "Patrick José Pereira"
+
+#: src/plugins/parrot/kirogiparrotplugin.json
+#: src/plugins/ryzetello/kirogiryzetelloplugin.json
+msgctxt "Authors Name"
+msgid "Eike Hein"
+msgstr "Eike Hein"
+
