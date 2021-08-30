@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-27 00:26+0000\n"
+"PO-Revision-Date: 2021-08-30 11:43\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/korganizer/korganizer._desktop_.pot\n"
+"X-Crowdin-File-ID: 8382\n"
+"Language: zh_CN\n"
+
+#: korgac/org.kde.korgac.desktop:2
+msgctxt "Name"
+msgid "KOrganizer Reminder Client"
+msgstr "KOrganizer 提醒客户端"
+
+#: korgac/org.kde.korgac.desktop:64
+msgctxt "GenericName"
+msgid "KOrganizer Reminder Daemon Client"
+msgstr "KOrganizer 提醒守护进程的客户端"
+
+#: src/data/korganizer.knsrc:2
+msgctxt "Name"
+msgid "KOrganizer Calendar"
+msgstr "KOrganizer 日历"
+
+#: src/interfaces/korganizer/korganizerpart.desktop:2
+msgctxt "Name"
+msgid "KOrganizer Part Interface"
+msgstr "KOrganizer 部件界面"
+
+#: src/interfaces/korganizer/korganizerpart.desktop:53
+msgctxt "Comment"
+msgid "KOrganizer Part"
+msgstr "KOrganizer 部件"
+
+#: src/kcmconfigs/korganizer_configcolorsandfonts.desktop:12
+msgctxt "Name"
+msgid "Colors and Fonts"
+msgstr "颜色和字体"
+
+#: src/kcmconfigs/korganizer_configcolorsandfonts.desktop:62
+msgctxt "Comment"
+msgid "KOrganizer Colors and Fonts Configuration"
+msgstr "KOrganizer 颜色和字体配置"
+
+#: src/kcmconfigs/korganizer_configdesignerfields.desktop:12
+msgctxt "Name"
+msgid "Custom Pages"
+msgstr "定制页"
+
+#: src/kcmconfigs/korganizer_configdesignerfields.desktop:78
+msgctxt "Comment"
+msgid "Configure the Custom Pages"
+msgstr "配置定制页"
+
+#: src/kcmconfigs/korganizer_configfreebusy.desktop:12
+msgctxt "Name"
+msgid "Free/Busy"
+msgstr "空闲/忙碌"
+
+#: src/kcmconfigs/korganizer_configfreebusy.desktop:79
+msgctxt "Comment"
+msgid "KOrganizer Free/Busy Configuration"
+msgstr "KOrganizer 空闲/忙碌配置"
+
+#: src/kcmconfigs/korganizer_configgroupscheduling.desktop:12
+msgctxt "Name"
+msgid "Group Scheduling"
+msgstr "组日程安排"
+
+#: src/kcmconfigs/korganizer_configgroupscheduling.desktop:76
+msgctxt "Comment"
+msgid "KOrganizer Group Scheduling Configuration"
+msgstr "Korganizer 组日程安排配置"
+
+#: src/kcmconfigs/korganizer_configmain.desktop:12
+msgctxt "Name"
+msgid "General"
+msgstr "通用"
+
+#: src/kcmconfigs/korganizer_configmain.desktop:84
+msgctxt "Comment"
+msgid "KOrganizer Main Configuration"
+msgstr "KOrganizer 主要配置"
+
+#: src/kcmconfigs/korganizer_configplugins.desktop:12
+msgctxt "Name"
+msgid "Plugins"
+msgstr "插件"
+
+#: src/kcmconfigs/korganizer_configplugins.desktop:81
+msgctxt "Comment"
+msgid "KOrganizer Plugin Configuration"
+msgstr "KOrganizer 插件配置"
+
+#: src/kcmconfigs/korganizer_configtime.desktop:12
+msgctxt "Name"
+msgid "Time and Date"
+msgstr "时间和日期"
+
+#: src/kcmconfigs/korganizer_configtime.desktop:65
+msgctxt "Comment"
+msgid "KOrganizer Time and Date Configuration"
+msgstr "KOrganizer 时间和日期配置"
+
+#: src/kcmconfigs/korganizer_configviews.desktop:12
+msgctxt "Name"
+msgid "Views"
+msgstr "查看"
+
+#: src/kcmconfigs/korganizer_configviews.desktop:83
+msgctxt "Comment"
+msgid "KOrganizer View Configuration"
+msgstr "KOrganizer 视图配置"
+
+#: src/kcmconfigs/korganizer_userfeedback.desktop:11
+msgctxt "Name"
+msgid "User Feedback"
+msgstr "用户反馈"
+
+#: src/kcmconfigs/korganizer_userfeedback.desktop:31
+msgctxt "Comment"
+msgid "KOrganizer User Feedback Configuration"
+msgstr "KOrganizer 用户反馈配置"
+
+#: src/kontactplugin/korganizer/journalplugin.desktop:18
+msgctxt "Comment"
+msgid "Kontact KOrganizer Journal Plugin"
+msgstr "Kontact KOrganizer 日记插件"
+
+#: src/kontactplugin/korganizer/journalplugin.desktop:76
+msgctxt "Name"
+msgid "Journal"
+msgstr "日记"
+
+#: src/kontactplugin/korganizer/kcmapptsummary.desktop:11
+msgctxt "Name"
+msgid "Upcoming Events"
+msgstr "近期事件"
+
+#: src/kontactplugin/korganizer/kcmapptsummary.desktop:63
+msgctxt "Comment"
+msgid "Upcoming Events Summary Setup"
+msgstr "近期事件摘要设置"
+
+#: src/kontactplugin/korganizer/kcmtodosummary.desktop:11
+msgctxt "Name"
+msgid "Pending To-dos"
+msgstr "未决的待办事宜"
+
+#: src/kontactplugin/korganizer/kcmtodosummary.desktop:63
+msgctxt "Comment"
+msgid "Pending To-dos Summary Setup"
+msgstr "未决待办事项摘要设置"
+
+#: src/kontactplugin/korganizer/korganizerplugin.desktop:20
+msgctxt "Comment"
+msgid "Kontact KOrganizer Plugin"
+msgstr "Kontact KOrganizer 插件"
+
+#: src/kontactplugin/korganizer/korganizerplugin.desktop:87
+msgctxt "Name"
+msgid "Calendar"
+msgstr "日历"
+
+#: src/kontactplugin/korganizer/todoplugin.desktop:18
+msgctxt "Comment"
+msgid "Kontact KOrganizer To-do List Plugin"
+msgstr "Kontact KOrganizer 待办清单插件"
+
+#: src/kontactplugin/korganizer/todoplugin.desktop:76
+msgctxt "Name"
+msgid "To-do List"
+msgstr "待办事项列表"
+
+#: src/kontactplugin/specialdates/kcmsdsummary.desktop:11
+msgctxt "Name"
+msgid "Upcoming Special Dates"
+msgstr "即将到来的特殊日期"
+
+#: src/kontactplugin/specialdates/kcmsdsummary.desktop:64
+msgctxt "Comment"
+msgid "Upcoming Special Dates Summary Setup"
+msgstr "近期日期摘要设置"
+
+#: src/kontactplugin/specialdates/specialdatesplugin.desktop:16
+msgctxt "Name"
+msgid "Special Dates"
+msgstr "特殊日期"
+
+#: src/kontactplugin/specialdates/specialdatesplugin.desktop:83
+msgctxt "Comment"
+msgid "Special Dates Plugin"
+msgstr "特殊日期插件"
+
+#: src/korganizer-import.desktop:3 src/korganizer_part.desktop:3
+#: src/org.kde.korganizer.desktop:3
+msgctxt "Comment"
+msgid "Calendar and Scheduling Program"
+msgstr "日历和日程安排程序"
+
+#: src/korganizer-import.desktop:78 src/korganizer_part.desktop:76
+#: src/org.kde.korganizer.desktop:78
+msgctxt "Name"
+msgid "KOrganizer"
+msgstr "KOrganizer"
+
+#: src/korganizer-import.desktop:147 src/org.kde.korganizer.desktop:147
+msgctxt "GenericName"
+msgid "Personal Organizer"
+msgstr "个人日程安排工具"
+
+#: src/korganizer-view.desktop:2
+msgctxt "Name"
+msgid "KOrganizer View"
+msgstr "KOrganizer 视图"
+
+#: src/korganizer-view.desktop:25
+msgctxt "Comment"
+msgid "Display incidence specified by URL"
+msgstr "显示由 URL 指定的事件"
+
