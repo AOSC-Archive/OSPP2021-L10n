@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-26 00:25+0000\n"
+"PO-Revision-Date: 2021-08-30 11:43\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/konqueror/konqueror._desktop_.pot\n"
+"X-Crowdin-File-ID: 8196\n"
+"Language: zh_CN\n"
+
+#: kfmclient.desktop:10 kfmclient_dir.desktop:11 kfmclient_html.desktop:9
+#: kfmclient_war.desktop:9 konqbrowser.desktop:7 org.kde.konqueror.desktop:4
+msgctxt "Name"
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: konqbrowser.desktop:99
+msgctxt "GenericName"
+msgid "Web Browser"
+msgstr "网页浏览器"
+
+#: konqy_preload.desktop:4
+msgctxt "Name"
+msgid "Konqueror preloading during desktop environment startup"
+msgstr "在桌面环境启动时预先加载 Konqueror"
+
+#: libkonq/src/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "书签工具栏"
+
+#: org.kde.konqueror.desktop:96
+msgctxt "GenericName"
+msgid "Web Browser, File Manager and Viewer"
+msgstr "Web 浏览器，文件管理器和查看器"
+
+#: org.kde.konqueror.desktop:131
+msgctxt "Comment"
+msgid "KDE File Manager & Web Browser"
+msgstr "KDE 文件管理器和 Web 浏览器"
+
+#: plugins/akregator/akregator_konqfeedicon.desktop:2
+msgctxt "Name"
+msgid "Konqueror Feed Icon"
+msgstr "Konqueror 种子图标"
+
+#: plugins/akregator/akregator_konqfeedicon.desktop:65
+msgctxt "Comment"
+msgid "Displays an icon in the status bar if the page contains a feed"
+msgstr "如果页面上包含种子，就在状态栏上显示一个图标"
+
+#: plugins/akregator/akregator_konqplugin.desktop:7
+msgctxt "Name"
+msgid "Add Feed to Akregator"
+msgstr "向 Akregator 添加种子"
+
+#: plugins/akregator/akregator_konqplugin.desktop:73
+msgctxt "Comment"
+msgid "Adds selected feed to Akregator"
+msgstr "向 Akregator 添加选中的种子"
+
+#: plugins/autorefresh/autorefresh.desktop:11
+msgctxt "Name"
+msgid "Auto Refresh"
+msgstr "自动刷新"
+
+#: plugins/autorefresh/autorefresh.desktop:71
+msgctxt "Comment"
+msgid "Auto Refresh plugin"
+msgstr "自动刷新插件"
+
+#: plugins/babelfish/plugin_translator.desktop:11
+msgctxt "Name"
+msgid "Translate"
+msgstr "翻译"
+
+#: plugins/babelfish/plugin_translator.desktop:77
+msgctxt "Comment"
+msgid "Language translation for the current page using Google"
+msgstr "使用 Google 对当前页面的翻译"
+
+#: plugins/dirfilter/dirfilterplugin.desktop:11
+msgctxt "Name"
+msgid "Directory Filter"
+msgstr "目录过滤器"
+
+#: plugins/dirfilter/dirfilterplugin.desktop:72
+msgctxt "Comment"
+msgid "Filter directory view using an attribute filter"
+msgstr "使用一个属性过滤器过滤目录视图"
+
+#: plugins/fsview/fsview.desktop:9
+msgctxt "Name"
+msgid "File Size Viewer"
+msgstr "文件大小查看器"
+
+#: plugins/fsview/fsview.desktop:70
+msgctxt "Comment"
+msgid "View your filesystem as a TreeMap"
+msgstr "按树形图查看您的文件系统"
+
+#: plugins/fsview/fsview_part.desktop.in:2
+msgctxt "Name"
+msgid "File Size View"
+msgstr "文件大小视图"
+
+#: plugins/fsview/fsview_part.desktop.in:63
+msgctxt "Comment"
+msgid "Enables a proportional view of directories and files based on file size"
+msgstr "启用一个基于文件大小的查看目录和文件的比例视图"
+
+#: plugins/imagerotation/imageconverter.desktop:6
+msgctxt "X-KDE-Submenu"
+msgid "Convert To"
+msgstr "转换为"
+
+#: plugins/imagerotation/imageconverter.desktop:74
+msgctxt "Name"
+msgid "JPEG"
+msgstr "JPEG"
+
+#: plugins/imagerotation/imageconverter.desktop:147
+msgctxt "Name"
+msgid "PNG"
+msgstr "PNG"
+
+#: plugins/imagerotation/imageconverter.desktop:220
+msgctxt "Name"
+msgid "TIFF"
+msgstr "TIFF"
+
+#: plugins/imagerotation/imageconverter.desktop:287
+msgctxt "Name"
+msgid "GIF"
+msgstr "GIF"
+
+#: plugins/imagerotation/jpegorient.desktop:6
+msgctxt "X-KDE-Submenu"
+msgid "Transform Image"
+msgstr "图像变换"
+
+#: plugins/imagerotation/jpegorient.desktop:75
+msgctxt "Name"
+msgid "Rotate Clockwise"
+msgstr "顺时针旋转"
+
+#: plugins/imagerotation/jpegorient.desktop:144
+msgctxt "Name"
+msgid "Rotate Counter-Clockwise"
+msgstr "逆时针旋转"
+
+#: plugins/imagerotation/jpegorient.desktop:218
+msgctxt "Name"
+msgid "Flip Vertically"
+msgstr "垂直翻转"
+
+#: plugins/imagerotation/jpegorient.desktop:290
+msgctxt "Name"
+msgid "Flip Horizontally"
+msgstr "水平翻转"
+
+#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop.in:12
+msgctxt "Name"
+msgid "HTML Settings"
+msgstr "HTML 设置"
+
+#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop.in:38
+msgctxt "Comment"
+msgid "A fast way to change the HTML settings"
+msgstr "一种快速更改 HTML 设置的方法"
+
+#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:10
+msgctxt "Name"
+msgid "Image Gallery"
+msgstr "图片库"
+
+#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:72
+msgctxt "Comment"
+msgid "An easy way to generate an HTML image gallery"
+msgstr "一种生成 HTML 图片集的便捷方式"
+
+#: plugins/searchbar/searchbar.desktop:13
+msgctxt "Name"
+msgid "Search Bar"
+msgstr "搜索栏"
+
+#: plugins/searchbar/searchbar.desktop:77
+msgctxt "Comment"
+msgid "Provides a text box for easier access to search engines like Google."
+msgstr "提供一个可以易于访问像 Google 这样的搜索引擎的文本框"
+
+#: plugins/shellcmdplugin/kshellcmdplugin.desktop:13
+msgctxt "Name"
+msgid "Shell Command Plugin"
+msgstr "Shell 命令插件"
+
+#: plugins/shellcmdplugin/kshellcmdplugin.desktop:100
+msgctxt "Comment"
+msgid "Shell Command Plugin for Konqueror"
+msgstr "Konqueror 的 Shell 命令插件"
+
+#: plugins/ttsplugin/khtmltts.desktop:13
+msgctxt "Name"
+msgid "Text-to-Speech"
+msgstr "文本到语音"
+
+#: plugins/ttsplugin/khtmltts.desktop:99
+msgctxt "Comment"
+msgid "Produces audio output for text in the current page"
+msgstr "将当前页面中的文本生成为语音输出"
+
+#: plugins/uachanger/uachangerplugin.desktop:11
+msgctxt "Name"
+msgid "UserAgent Changer"
+msgstr "UserAgent 变更器"
+
+#: plugins/uachanger/uachangerplugin.desktop:72
+msgctxt "Comment"
+msgid "Allows the detected UserAgent to be modified"
+msgstr "允许用户修改被检测的 UserAgent"
+
+#: plugins/webarchiver/plugin_webarchiver.desktop:11
+msgctxt "Name"
+msgid "Web Archiver"
+msgstr "网页压缩器"
+
+#: plugins/webarchiver/plugin_webarchiver.desktop:67
+msgctxt "Comment"
+msgid "Creates archives of websites"
+msgstr "为网站创建压缩包"
+
+#: plugins/webarchiver/thumbnailer/webarchivethumbnail.desktop:3
+msgctxt "Name"
+msgid "Web Archives and HTML files"
+msgstr "网页压缩包和 HTML 文件"
+
+#: settings/bookmarks/bookmarks.desktop:9
+#: sidebar/default_entries/bookmarks.desktop:12
+#: sidebar/trees/init/bookmarks_module.desktop:5
+msgctxt "Name"
+msgid "Bookmarks"
+msgstr "书签"
+
+#: settings/bookmarks/bookmarks.desktop:101
+msgctxt "Comment"
+msgid "Configure the bookmarks home page"
+msgstr "配置书签主页"
+
+#: settings/bookmarks/bookmarks.desktop:179
+msgctxt "X-KDE-Keywords"
+msgid "Bookmarks"
+msgstr "书签"
+
+#: settings/konq/filebehavior.desktop:9
+msgctxt "Name"
+msgid "Behavior"
+msgstr "行为"
+
+#: settings/konq/filebehavior.desktop:103
+msgctxt "Comment"
+msgid "You can configure how Konqueror behaves as a file manager here"
+msgstr "您可以在这里配置 Konqueror 的文件管理器行为"
+
+#: settings/konq/filebehavior.desktop:196
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,behavior,behaviour,memory usage,Home URL,network operations,progress dialog,trash can,delete,confirmation"
+msgstr "文件管理器,提示,文件提示,独立窗口,子窗口,行为,内存使用率,主文件夹,网络操作,进度对话框,回收站,删除,确认"
+
+#: settings/konqhtml/css/kcmcss.desktop:10
+msgctxt "Name"
+msgid "Stylesheets"
+msgstr "样式表"
+
+#: settings/konqhtml/css/kcmcss.desktop:102
+msgctxt "Comment"
+msgid "Configure the stylesheets used to render web pages"
+msgstr "配置用来渲染网页的样式表"
+
+#: settings/konqhtml/css/kcmcss.desktop:195
+msgctxt "X-KDE-Keywords"
+msgid "CSS,HTML,style,stylesheet,accessibility"
+msgstr "样式,样式表,辅助,访问性"
+
+#: settings/konqhtml/khtml_appearance.desktop:11
+msgctxt "Name"
+msgid "Appearance"
+msgstr "外观"
+
+#: settings/konqhtml/khtml_appearance.desktop:105
+msgctxt "Comment"
+msgid "Configure how to display web pages"
+msgstr "配置如何显示网页"
+
+#: settings/konqhtml/khtml_appearance.desktop:176
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,kfm,browser,html,web,www,fonts,charsets,character sets,encoding"
+msgstr "浏览器,网络,字体,字符,字符集,编码"
+
+#: settings/konqhtml/khtml_behavior.desktop:10
+msgctxt "Name"
+msgid "Web Behavior"
+msgstr "网页行为"
+
+#: settings/konqhtml/khtml_behavior.desktop:100
+msgctxt "Comment"
+msgid "Configure the browser behavior"
+msgstr "配置浏览器行为"
+
+#: settings/konqhtml/khtml_behavior.desktop:191
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,kfm,browser,html,web,www,fonts,colours,colors,java,javascript,cursor,links,images,charsets,character sets,encoding"
+msgstr "浏览器,网络,字体,颜色,光标,链接,图像,字符,字符集,编码"
+
+#: settings/konqhtml/khtml_filter.desktop:11
+msgctxt "Name"
+msgid "AdBlocK Filters"
+msgstr "广告拦截过滤器"
+
+#: settings/konqhtml/khtml_filter.desktop:103
+msgctxt "Comment"
+msgid "Configure Konqueror AdBlocK filters"
+msgstr "配置 Konqueror 的广告拦截过滤器"
+
+#: settings/konqhtml/khtml_general.desktop:11
+msgctxt "Name|Konqeuror settings relevant to both web browsing and file management."
+msgid "General"
+msgstr "常规"
+
+#: settings/konqhtml/khtml_general.desktop:81
+msgctxt "Comment"
+msgid "Configure general Konqueror behavior"
+msgstr "配置 Konqueror 的常规行为"
+
+#: settings/konqhtml/khtml_general.desktop:162
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,tabs"
+msgstr "标签页"
+
+#: settings/konqhtml/khtml_java_js.desktop:9
+msgctxt "Name"
+msgid "Java & JavaScript"
+msgstr "Java 和 JavaScript"
+
+#: settings/konqhtml/khtml_java_js.desktop:102
+msgctxt "Comment"
+msgid "Configure the behavior of Java and JavaScript"
+msgstr "配置 Java 和 JavaScript 的行为"
+
+#: settings/konqhtml/khtml_java_js.desktop:194
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,kfm,browser,html,web,www,java,javascript"
+msgstr "konqueror,kfm,browser,html,web,www,java,javascript,浏览器,网络"
+
+#: settings/performance/kcmkonqyperformance.desktop:9
+msgctxt "Name"
+msgid "Performance"
+msgstr "性能"
+
+#: settings/performance/kcmkonqyperformance.desktop:100
+msgctxt "Comment"
+msgid "Configure settings that can improve Konqueror performance"
+msgstr "配置提高 Konqueror 性能的设置"
+
+#: settings/performance/kcmkonqyperformance.desktop:191
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,reuse,preloading"
+msgstr "konqueror,reuse,preloading,复用,预加载"
+
+#: settings/performance/kcmperformance.desktop:8
+msgctxt "Name"
+msgid "KDE Performance"
+msgstr "KDE 性能"
+
+#: settings/performance/kcmperformance.desktop:99
+msgctxt "Comment"
+msgid "Configure settings that can improve KDE performance"
+msgstr "配置提高 KDE 性能的设置"
+
+#: settings/performance/kcmperformance.desktop:190
+msgctxt "X-KDE-Keywords"
+msgid "performance,speed,memory,improve"
+msgstr "performance,speed,memory,improve,性能,速度,内存,改善"
+
+#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
+msgctxt "Name"
+msgid "Bookmarks SideBar Module"
+msgstr "书签侧边栏模块"
+
+#: sidebar/default_entries/bookmarks.desktop:104
+#: sidebar/trees/init/bookmarks_module.desktop:97
+msgctxt "Comment"
+msgid "This is the list of your bookmarks, for a faster access"
+msgstr "这是您的书签列表，以便使得访问更加快速"
+
+#: sidebar/default_entries/fonts.desktop:11
+msgctxt "Name"
+msgid "Fonts"
+msgstr "字体"
+
+#: sidebar/default_entries/fonts.desktop:87
+msgctxt "Comment"
+msgid "Personal and System fonts list."
+msgstr "个人和系统字体列表。"
+
+#: sidebar/default_entries/history.desktop:7
+#: sidebar/history_module/kcmhistory.desktop:9
+msgctxt "Name"
+msgid "History"
+msgstr "历史"
+
+#: sidebar/default_entries/history.desktop:100
+msgctxt "Comment"
+msgid "This is the history of the URLs you have recently visited. You can sort them in many ways."
+msgstr "这是您曾经浏览过的 URL 历史。您可以以多种方式对其排序。"
+
+#: sidebar/default_entries/home.desktop:10
+msgctxt "Name"
+msgid "Home Folder"
+msgstr "主文件夹"
+
+#: sidebar/default_entries/home.desktop:102
+msgctxt "Comment"
+msgid "This folder contains your personal files"
+msgstr "这个文件夹包含了您的个人文件"
+
+#: sidebar/default_entries/places.desktop:9
+msgctxt "Name"
+msgid "Places"
+msgstr "位置"
+
+#: sidebar/default_entries/places.desktop:85
+msgctxt "Comment"
+msgid "This is the list of places."
+msgstr "这是位置列表。"
+
+#: sidebar/default_entries/remote.desktop:11
+msgctxt "Name"
+msgid "Remote"
+msgstr "远程"
+
+#: sidebar/default_entries/root.desktop:11
+msgctxt "Name"
+msgid "Root Folder"
+msgstr "根文件夹"
+
+#: sidebar/default_entries/root.desktop:102
+msgctxt "Comment"
+msgid "This is the root of the filesystem"
+msgstr "这是文件系统的根"
+
+#: sidebar/default_entries/services.desktop:10
+#: sidebar/trees/init/services/.directory:3
+msgctxt "Name"
+msgid "Services"
+msgstr "服务"
+
+#: sidebar/history_module/kcmhistory.desktop:102
+msgctxt "Comment"
+msgid "Configure the history sidebar"
+msgstr "配置历史侧边栏"
+
+#: sidebar/history_module/kcmhistory.desktop:192
+msgctxt "X-KDE-Keywords"
+msgid "history,expire"
+msgstr "历史,过期"
+
+#: sidebar/history_module/konqsidebar_history.desktop:4
+msgctxt "Name"
+msgid "History SideBar Module"
+msgstr "历史侧边栏模块"
+
+#: sidebar/konq_sidebartng.desktop.in:16
+msgctxt "Name"
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: sidebar/places_module/konqsidebar_places.desktop:3
+msgctxt "Name"
+msgid "Places SideBar Module"
+msgstr "位置侧边栏模块"
+
+#: sidebar/tree_module/konqsidebar_tree.desktop:4
+msgctxt "Name"
+msgid "Tree SideBar Module"
+msgstr "树状侧边栏模块"
+
+#: sidebar/trees/init/dirtree_module.desktop:5
+#: sidebar/trees/konqsidebar_tree.desktop:4
+msgctxt "Name"
+msgid "Folder"
+msgstr "文件夹"
+
+#: sidebar/trees/init/remote/.directory:2
+msgctxt "Name"
+msgid "Network"
+msgstr "网络"
+
+#: sidebar/trees/init/remote/ftp/.directory:2
+msgctxt "Name"
+msgid "FTP Archives"
+msgstr "FTP 归档"
+
+#: sidebar/trees/init/remote/ftp/kde_ftp.desktop:5
+msgctxt "Name"
+msgid "KDE Official FTP"
+msgstr "KDE 官方 FTP"
+
+#: sidebar/trees/init/remote/web/apps_web.desktop:4
+msgctxt "Name"
+msgid "KDE Applications"
+msgstr "KDE 应用程序"
+
+#: sidebar/trees/init/remote/web/.directory:2
+msgctxt "Name"
+msgid "Web Sites"
+msgstr "网站"
+
+#: sidebar/trees/init/remote/web/dot_web.desktop:4
+msgctxt "Name"
+msgid "KDE News"
+msgstr "KDE 新闻"
+
+#: sidebar/trees/init/remote/web/kde_web.desktop:4
+msgctxt "Name"
+msgid "KDE Home Page"
+msgstr "KDE 主页"
+
+#: sidebar/trees/init/remote/web/look_web.desktop:4
+msgctxt "Name"
+msgid "KDE Eye Candy"
+msgstr "KDE 美化"
+
+#: sidebar/trees/init/services/applications.desktop:5
+msgctxt "Name"
+msgid "Applications"
+msgstr "应用版本"
+
+#: sidebar/trees/init/services/printsystem.desktop:5
+msgctxt "Name"
+msgid "Print System Browser"
+msgstr "打印系统浏览器"
+
+#: sidebar/web_module/konqsidebar_web.desktop:4
+msgctxt "Name"
+msgid "Web SideBar Module"
+msgstr "网页侧边栏模块"
+
+#: webenginepart/src/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "Konqueror 的关于页面"
+
+#: webenginepart/src/webenginepart.desktop:3
+msgctxt "Comment"
+msgid "Embeddable HTML component"
+msgstr "可嵌入的 HTML 组件"
+
+#: webenginepart/src/webenginepart.desktop:46
+msgctxt "Name"
+msgid "WebEngine"
+msgstr "WebEngine"
+
