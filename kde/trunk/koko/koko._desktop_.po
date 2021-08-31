@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-27 00:28+0000\n"
+"PO-Revision-Date: 2021-08-31 01:54\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/koko/koko._desktop_.pot\n"
+"X-Crowdin-File-ID: 8962\n"
+"Language: zh_CN\n"
+
+#: src/koko.notifyrc:5 src/org.kde.koko.desktop:4
+msgctxt "Name"
+msgid "Koko"
+msgstr "Koko"
+
+#: src/koko.notifyrc:42
+msgctxt "Name"
+msgid "Sharing success"
+msgstr "共享成功"
+
+#: src/koko.notifyrc:72
+msgctxt "Comment"
+msgid "Image Shared Successfully"
+msgstr "图像共享成功"
+
+#: src/koko.notifyrc:105
+msgctxt "Name"
+msgid "Sharing failed"
+msgstr "共享失败"
+
+#: src/koko.notifyrc:135
+msgctxt "Comment"
+msgid "Image Sharing failed"
+msgstr "图像共享失败"
+
+#: src/org.kde.koko.desktop:39
+msgctxt "GenericName"
+msgid "Image Gallery"
+msgstr "图片库"
+
+#: src/org.kde.koko.desktop:74
+msgctxt "Comment"
+msgid "An Image gallery application"
+msgstr "一个图片库应用程序"
+
