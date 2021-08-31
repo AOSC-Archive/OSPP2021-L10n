@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-06-12 00:18+0000\n"
+"PO-Revision-Date: 2021-08-31 08:00\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kasts/org.kde.kasts.appdata.pot\n"
+"X-Crowdin-File-ID: 25424\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kasts.appdata.xml:9
+msgid "Kasts"
+msgstr "Kasts"
+
+#. (itstool) path: component/summary
+#: org.kde.kasts.appdata.xml:10
+msgid "Podcast application for mobile devices"
+msgstr "为移动设备打造的播客应用程序"
+
+#. (itstool) path: component/developer_name
+#: org.kde.kasts.appdata.xml:15
+msgid "The KDE Community"
+msgstr "KDE 社区"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:17
+msgid "Kasts is a mobile podcast application"
+msgstr "Kasts 是一个移动播客应用程序"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:29
+msgid "Kasts feed list on the desktop"
+msgstr "在桌面上运行的 Kasts 订阅列表"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:33
+msgid "Kasts on a phone"
+msgstr "在手机上运行的 Kasts"
+
