@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-05-14 00:20+0000\n"
+"PO-Revision-Date: 2021-09-02 09:04\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/krecorder/org.kde.krecorder.appdata.pot\n"
+"X-Crowdin-File-ID: 24488\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.krecorder.appdata.xml:11
+msgid "Recorder"
+msgstr "录音机"
+
+#. (itstool) path: component/summary
+#: org.kde.krecorder.appdata.xml:12
+msgid "Audio Recorder"
+msgstr "音频录制器"
+
+#. (itstool) path: component/developer_name
+#: org.kde.krecorder.appdata.xml:18
+msgid "KDE Community"
+msgstr "KDE 社区"
+
+#. (itstool) path: description/p
+#: org.kde.krecorder.appdata.xml:20
+msgid "Recorder is a simple, cross-platform audio recording application."
+msgstr "录音机是一个简单、跨平台的录音应用程序。"
+
