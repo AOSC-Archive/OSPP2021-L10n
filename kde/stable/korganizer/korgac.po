@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-12 01:40+0000\n"
-"PO-Revision-Date: 2021-08-30 11:46\n"
+"PO-Revision-Date: 2021-09-02 07:42\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -115,7 +115,7 @@ msgstr "提醒：点击标题切换各项目的详情"
 #, kde-format
 msgctxt "@title:column reminder summary"
 msgid "Summary"
-msgstr "主题"
+msgstr "摘要"
 
 #: alarmdialog.cpp:206
 #, kde-format
@@ -133,7 +133,7 @@ msgstr "触发时间"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The event or to-do summary"
-msgstr "日程或待办事项的主题"
+msgstr "日程或待办事项的摘要"
 
 #: alarmdialog.cpp:214
 #, kde-format
