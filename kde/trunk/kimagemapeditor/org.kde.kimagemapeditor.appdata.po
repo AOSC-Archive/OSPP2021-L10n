@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-11-15 03:57+0100\n"
+"PO-Revision-Date: 2021-09-02 11:05\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kimagemapeditor/org.kde.kimagemapeditor.appdata.pot\n"
+"X-Crowdin-File-ID: 6542\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kimagemapeditor.appdata.xml:6
+msgid "KImageMapEditor"
+msgstr "KImageMapEditor"
+
+#. (itstool) path: component/summary
+#: org.kde.kimagemapeditor.appdata.xml:7
+msgid "HTML Image Map Editor"
+msgstr "HTML 图像映射编辑器"
+
+#. (itstool) path: description/p
+#: org.kde.kimagemapeditor.appdata.xml:9
+msgid "KImageMapEditor is an editor of image maps embedded inside HTML files, based on the &lt;map&gt; tag."
+msgstr "KImageMapEditor 是一个基于 &lt;map&gt; 标签，编辑 HTML 文件中图像映射的编辑器。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kimagemapeditor.appdata.xml:14
+msgid "Editing HTML image map in KImageMapEditor"
+msgstr "在 KImageMapEditor 中编辑 HTML 图像映射"
+
