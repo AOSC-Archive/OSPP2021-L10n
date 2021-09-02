@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2019-05-30 03:11+0200\n"
+"PO-Revision-Date: 2021-09-02 02:26\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/ktimetracker/org.kde.ktimetracker.appdata.pot\n"
+"X-Crowdin-File-ID: 11823\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#. (itstool) path: screenshot/caption
+#: org.kde.ktimetracker.appdata.xml:6 org.kde.ktimetracker.appdata.xml:16
+msgid "KTimeTracker"
+msgstr "KTimeTracker"
+
+#. (itstool) path: component/summary
+#: org.kde.ktimetracker.appdata.xml:7
+msgid "Personal Time Tracker"
+msgstr "个人时间追踪器"
+
+#. (itstool) path: description/p
+#: org.kde.ktimetracker.appdata.xml:9
+msgid "KTimeTracker helps you track your personal time spent on various tasks and projects."
+msgstr "KTimeTracker 可帮助您追踪花在各种任务和项目上的个人时间。"
+
+#. (itstool) path: description/p
+#: org.kde.ktimetracker.appdata.xml:10
+msgid "It is useful for tracking billable hours and can report the hours logged by task and day."
+msgstr "它有助于追踪带薪时间，并可按任务和日期报告小时数。"
+
+#. (itstool) path: description/p
+#: org.kde.ktimetracker.appdata.xml:11
+msgid "With KTimeTracker, you can organize a broken-down project as subtasks with unlimited nesting. The standard keyboard and mouse shortcuts are simple and make the tool really comfortable and intuitive to use."
+msgstr "通过 KTimeTracker，您可以将零碎的项目整理成无限套的小任务。简易标准的键鼠快捷键使本工具十分舒适且直观使用。"
+
