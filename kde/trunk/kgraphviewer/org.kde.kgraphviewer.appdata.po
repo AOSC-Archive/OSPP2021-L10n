@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2017-05-15 03:13+0200\n"
+"PO-Revision-Date: 2021-09-03 08:40\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kgraphviewer/org.kde.kgraphviewer.appdata.pot\n"
+"X-Crowdin-File-ID: 6165\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kgraphviewer.appdata.xml:6
+msgid "KGraphViewer"
+msgstr "KGraphViewer"
+
+#. (itstool) path: component/summary
+#: org.kde.kgraphviewer.appdata.xml:7
+msgid "A Graphviz DOT graph viewer"
+msgstr "Graphviz DOT 图形查看器"
+
+#. (itstool) path: description/p
+#: org.kde.kgraphviewer.appdata.xml:9
+msgid "KGraphViewer is a Graphviz DOT graph file viewer, aimed to replace the other outdated Graphviz tools. Graphs are commonly used in scientific domains and particularly in computer science."
+msgstr "KGraphViewer 是 Graphviz DOT 图形文件查看器，旨在替换其他过时的 Graphviz 工具。Graphs 通常用于科学领域，特别是计算机科学。"
+
+#. (itstool) path: description/p
+#: org.kde.kgraphviewer.appdata.xml:13
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:15
+msgid "Zooming"
+msgstr "缩放"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:16
+msgid "Threaded loading of several graphs in tabs"
+msgstr "在标签页中多线程加载图表"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:17
+msgid "Saving of the recent files list"
+msgstr "保存最近使用的文件列表"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:18
+msgid "Manual reload of files"
+msgstr "手动重新加载文件"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:19
+msgid "Display of a bird-eye view of the graph"
+msgstr "显示图形的鸟瞰图"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:20
+msgid "Moving of the graph by dragging"
+msgstr "拖拽移动图表"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:21
+msgid "Full featured printing"
+msgstr "全功能打印"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:22
+msgid "Perfect drawing of all graphviz example graphs"
+msgstr "完美绘制所有 Graphviz 实例图表"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:23
+msgid "Automatically choose dot for directed graphs and neato for undirected"
+msgstr "自动为有向图使用 dot 并为无向图使用 neato。"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:24
+msgid "Possibility to use an arbitrary layout algorithm as soon as it produces xdot format"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:25
+msgid "Automatic reloading with user confirmation of (externally) modified files (configurable)"
+msgstr "自动重新加载用户外部修改的文件 (可配置)"
+
+#. (itstool) path: ul/li
+#: org.kde.kgraphviewer.appdata.xml:26
+msgid "Open new instances as new tabs in the old one (configurable)"
+msgstr "以新标签打开新实例(可配置)"
+
