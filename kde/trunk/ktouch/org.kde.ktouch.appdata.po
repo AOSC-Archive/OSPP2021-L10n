@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2019-11-10 02:58+0100\n"
+"PO-Revision-Date: 2021-09-07 07:16\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/ktouch/org.kde.ktouch.appdata.pot\n"
+"X-Crowdin-File-ID: 5171\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.ktouch.appdata.xml:6
+msgid "KTouch"
+msgstr "KTouch"
+
+#. (itstool) path: component/summary
+#: org.kde.ktouch.appdata.xml:7
+msgid "Touch Typing Tutor"
+msgstr "盲打练习辅导工具"
+
+#. (itstool) path: description/p
+#: org.kde.ktouch.appdata.xml:9
+msgid "KTouch is a typewriter trainer for learning to touch type. It provides you with text to train on and adjusts to different levels depending on how good you are. It displays your keyboard and indicates which key to press next and which is the correct finger to use. You learn typing with all fingers, step by step, without having to look down at the keyboard to find your keys. It is convenient for all ages and the perfect typing tutor for schools, universities, and personal use. KTouch ships with dozens of different courses in many languages and a comfortable course editor. Different keyboard layouts are supported and new user-defined layouts can be created. During training, KTouch collects comprehensive statistical information to help you or your teacher to analyze your progress."
+msgstr "KTouch 是盲打训练工具。它为您提供文字训练，并根据您的表现调整难度。KTouch 会显示一个键盘并指出下一个要按的按键。它便于全年龄的人群使用，无论是对中小学、大学、还是个人来说，都是绝佳的打字练习辅导工具。KTouch 为各种语言提供了许多不同的课程，并有着舒适的课程编辑器。支持不同的键盘布局，且可由用户创建新的布局。KTouch 还会收集训练过程中的综合数据信息，帮助您或您的老师分析您的进度。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ktouch.appdata.xml:17
+msgid "Training with KTouch"
+msgstr "KTouch 练习界面"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ktouch.appdata.xml:21
+msgid "Selecting a Lesson for Training"
+msgstr "选择训练课程"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ktouch.appdata.xml:25
+msgid "Reviewing Typing Performance after Finishing a Lesson"
+msgstr "在完成课程后查看打字表现"
+
+#. (itstool) path: component/developer_name
+#: org.kde.ktouch.appdata.xml:30
+msgid "The KDE Community"
+msgstr "KDE 社区"
+
