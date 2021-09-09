@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-04-14 00:27+0000\n"
+"PO-Revision-Date: 2021-09-09 02:51\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/krename/krename._desktop_.pot\n"
+"X-Crowdin-File-ID: 8872\n"
+"Language: zh_CN\n"
+
+#: src/org.kde.krename.desktop:7
+msgctxt "Name"
+msgid "KRename"
+msgstr "KRename"
+
+#: src/org.kde.krename.desktop:43
+msgctxt "GenericName"
+msgid "Batch File Renamer"
+msgstr "文件批量重命名工具"
+
+#: src/servicemenus/krename_all_nonrec.desktop:10
+msgctxt "Name"
+msgid "Rename with KRename"
+msgstr "使用 KRename 重命名"
+
+#: src/servicemenus/krename_dir_rec.desktop:10
+msgctxt "Name"
+msgid "Rename with KRename (with subfolders)"
+msgstr "使用 KRename 重命名 (包括子文件夹)"
+
