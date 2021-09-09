@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-11-08 03:52+0100\n"
+"PO-Revision-Date: 2021-09-09 07:23\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kiten/org.kde.kiten.appdata.pot\n"
+"X-Crowdin-File-ID: 4372\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kiten.appdata.xml:6
+msgid "Kiten"
+msgstr "Kiten"
+
+#. (itstool) path: component/summary
+#: org.kde.kiten.appdata.xml:7
+msgid "Japanese Reference and Study Tool"
+msgstr "日语参考/学习工具"
+
+#. (itstool) path: description/p
+#: org.kde.kiten.appdata.xml:9
+msgid "Kiten is a Japanese reference and study tool. It features an English to Japanese and Japanese to English dictionary, as well as a Kanji dictionary. For the Kanji dictionary there are multiple ways supported to look up characters."
+msgstr "Kiten 是一款日文参考与学习工具。它提供了英译日词典、日译英词典及日语汉字词典。日语汉字词典还支持多种方式查询字词。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kiten.appdata.xml:17
+msgid "Practicing Japanese dictionary with Kiten"
+msgstr "使用 Kiten 练习日语词典"
+
