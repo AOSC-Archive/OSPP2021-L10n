@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2019-09-05 03:00+0200\n"
+"PO-Revision-Date: 2021-09-09 08:03\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kolf/org.kde.kolf.appdata.pot\n"
+"X-Crowdin-File-ID: 6495\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kolf.appdata.xml:6
+msgid "Kolf"
+msgstr "Kolf"
+
+#. (itstool) path: component/summary
+#: org.kde.kolf.appdata.xml:7
+msgid "Miniature Golf"
+msgstr "迷你高尔夫"
+
+#. (itstool) path: description/p
+#: org.kde.kolf.appdata.xml:9
+msgid "Kolf is a miniature golf game. The game is played from an overhead view, with a hort bar representing the golf club. Kolf features many different types of objects, such water hazards, slopes, sand traps, and black holes (warps), among others."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.kolf.appdata.xml:14
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.kolf.appdata.xml:16
+msgid "Single and Multi-player (up to ten players) modes"
+msgstr "单人模式及多人 (最高十位玩家) 模式"
+
+#. (itstool) path: ul/li
+#: org.kde.kolf.appdata.xml:17
+msgid "High scores table"
+msgstr "高分表"
+
+#. (itstool) path: ul/li
+#: org.kde.kolf.appdata.xml:18
+msgid "Dynamic courses"
+msgstr "动态高尔夫球场"
+
+#. (itstool) path: ul/li
+#: org.kde.kolf.appdata.xml:19
+msgid "Third-party courses"
+msgstr "第三方高尔夫球场"
+
+#. (itstool) path: ul/li
+#: org.kde.kolf.appdata.xml:20
+msgid "Course editor"
+msgstr "高尔夫球场编辑器"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kolf.appdata.xml:29
+msgid "Initial screen of Kolf"
+msgstr "Kolf 的初始界面"
+
