@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-17 00:25+0000\n"
+"PO-Revision-Date: 2021-09-09 02:26\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kaidan/kaidan._desktop_.pot\n"
+"X-Crowdin-File-ID: 11871\n"
+"Language: zh_CN\n"
+
+#: misc/im.kaidan.kaidan.desktop:5 misc/kaidan.notifyrc:30
+#: misc/ubuntu-touch/kaidan.desktop:4
+msgctxt "Name"
+msgid "Kaidan"
+msgstr "Kaidan"
+
+#: misc/im.kaidan.kaidan.desktop:34
+msgctxt "GenericName"
+msgid "Jabber IM Client"
+msgstr "Jabber IM 客户端"
+
+#: misc/im.kaidan.kaidan.desktop:60
+msgctxt "Comment"
+msgid "A QtQuick Jabber client"
+msgstr "QtQuick Jabber 客户端"
+
+#: misc/im.kaidan.kaidan.desktop:86
+msgctxt "Keywords"
+msgid "chat;messaging;im;jabber;xmpp;qt;network;"
+msgstr "聊天;消息;im;即时通讯;jabber;xmpp;qt;网络;"
+
+#: misc/kaidan.notifyrc:4
+msgctxt "Comment"
+msgid "A user-friendly XMPP client for every device"
+msgstr "跨平台的用户友好型 XMPP 客户端"
+
+#: misc/kaidan.notifyrc:61
+msgctxt "Name"
+msgid "New message"
+msgstr "新消息"
+
+#: misc/kaidan.notifyrc:90
+msgctxt "Comment"
+msgid "You have received a new message"
+msgstr "您收到了一条新消息"
+

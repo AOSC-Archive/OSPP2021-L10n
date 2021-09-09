@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-05-29 00:16+0000\n"
+"PO-Revision-Date: 2021-09-09 02:26\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kaidan/im.kaidan.kaidan.appdata.pot\n"
+"X-Crowdin-File-ID: 25236\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: im.kaidan.kaidan.appdata.xml:4
+msgid "Kaidan"
+msgstr "Kaidan"
+
+#. (itstool) path: component/summary
+#: im.kaidan.kaidan.appdata.xml:5
+msgid "Kaidan, a simple and user-friendly Jabber/XMPP client for every device and platform"
+msgstr "Kaidan 是一款用户友好型的跨平台 Jabber/XMPP 客户端"
+
+#. (itstool) path: component/developer_name
+#: im.kaidan.kaidan.appdata.xml:8
+msgid "Kaidan Developers &amp; Contributors"
+msgstr "Kaidan 开发者及贡献者"
+
+#. (itstool) path: description/p
+#: im.kaidan.kaidan.appdata.xml:10
+msgid "Kaidan is a simple, user-friendly Jabber/XMPP client providing a modern user-interface using Kirigami and QtQuick. The back-end of Kaidan is entirely written in C++ using the qxmpp XMPP client library and Qt 5."
+msgstr "Kaidan 是一款使用 Kirigami 和 QtQuick 框架，提供现代用户界面的简单易用型 Jabber/XMPP 客户端。Kaidan 的后端使用了 gxmpp XMPP 客户端库和 Qt5，并完全由 C++ 所写。"
+
+#. (itstool) path: description/p
+#: im.kaidan.kaidan.appdata.xml:11
+msgid "Kaidan is not finished yet, so don’t expect it working as well as a finished client will do."
+msgstr "Kaidan 尚未完成，所以请不要期待它能和成品客户端一般完美。"
+
+#. (itstool) path: description/p
+#: im.kaidan.kaidan.appdata.xml:12
+msgid "For a list of supported XEPs, have a look at the Wiki."
+msgstr "若要了解支持的 XEP 列表，请参阅 Wiki 页面。"
+
+#. (itstool) path: screenshot/caption
+#: im.kaidan.kaidan.appdata.xml:28
+msgid "Example chat on a desktop and on a mobile device"
+msgstr "在桌面端和移动端上的聊天示例"
+
