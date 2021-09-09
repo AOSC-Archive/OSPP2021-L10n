@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-02-11 02:33+0100\n"
+"PO-Revision-Date: 2021-09-09 03:17\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kid3/org.kde.kid3.appdata.pot\n"
+"X-Crowdin-File-ID: 12230\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kid3.appdata.xml:7
+msgid "Kid3"
+msgstr "Kid3"
+
+#. (itstool) path: component/summary
+#: org.kde.kid3.appdata.xml:8
+msgid "Edit audio file metadata"
+msgstr "编辑音频文件元数据"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:10
+msgid "With Kid3, an audio tag editor, you can edit tags in MP3, Ogg/Vorbis, DSF, FLAC, Opus, MPC, APE, MP4/AAC, MP2, Speex, TrueAudio, WavPack, WMA, WAV, AIFF and tracker files."
+msgstr "Kid3 是一个音频标签编辑器，您可以使用它编辑 MP3, Ogg/Vorbis, DSF, FLAC, Opus, MPC, APE, MP4/AAC, MP2, Speex, TrueAudio, WavPack, WMA, WAV, AIF 和 Tracker 文件。"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:15
+msgid "All frames in the ID3 tags of MP3 files can be edited, and it is possible to convert between ID3v1.1, ID3v2.3 and ID3v2.4. Synchronized lyrics can be edited, imported and exported to LRC Karaoke files."
+msgstr "可编辑 MP3 文件中 ID3 标签内的所有帧，并能在 ID3v1.1、ID3v2.3 和 ID3v2.4 转换。不仅能编辑同步歌词，还能导入或导出 LRC Karaoke 文件。"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:20
+msgid "The tags of multiple files can be set together. It is possible to generate tags from file names or the contents of other tag fields and to generate file names from tags and rename folders from tags. Automatic case conversion and string replacement help to keep tags consistent."
+msgstr "一同设置多个文件的标签。可从文件名或其它标签字段中的内容生成标签、根据标签生成文件名或根据标签重命名文件夹。并能通过自动转换大小写和字符串替换保持标签一致性。"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:26
+msgid "Album data can be imported from gnudb.org, MusicBrainz, Discogs, Amazon; automatic batch import is available for multiple folders. It is also possible to export data and generate play lists."
+msgstr "可从 gnudb.org、MusicBrainz、Discogs 或 Amazon 上导入专辑数据，还支持自动多文件夹批量导入功能。您还可导出数据并生成播放列表。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kid3.appdata.xml:35
+msgid "Kid3 main window"
+msgstr "Kid3 主窗口"
+
+#. (itstool) path: component/developer_name
+#: org.kde.kid3.appdata.xml:41
+msgid "Urs Fleisch"
+msgstr "Urs Fleisch"
+
