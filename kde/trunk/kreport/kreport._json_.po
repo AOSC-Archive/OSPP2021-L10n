@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-04-06 00:29+0000\n"
+"PO-Revision-Date: 2021-09-09 02:11\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kreport/kreport._json_.pot\n"
+"X-Crowdin-File-ID: 8956\n"
+"Language: zh_CN\n"
+
+#: src/items/check/check.json
+msgctxt "Name"
+msgid "Check box"
+msgstr "复选框"
+
+#: src/items/field/field.json
+msgctxt "Name"
+msgid "Field"
+msgstr "字段"
+
+#: src/items/image/image.json
+msgctxt "Name"
+msgid "Image"
+msgstr "图像"
+
+#: src/items/label/label.json
+msgctxt "Name"
+msgid "Label"
+msgstr "标签"
+
+#: src/items/text/text.json
+msgctxt "Name"
+msgid "Text"
+msgstr "文本"
+
+#: src/plugins/barcode/kreport_barcodeplugin.json
+msgctxt "Name"
+msgid "Barcode"
+msgstr "条形码"
+
+#: src/plugins/chart/kreport_chartplugin.json
+msgctxt "Name"
+msgid "Chart"
+msgstr "图表"
+
+#: src/plugins/maps/kreport_mapsplugin.json
+msgctxt "Name"
+msgid "Maps"
+msgstr "映射"
+
+#: src/plugins/web/kreport_webplugin.json
+msgctxt "Name"
+msgid "Web browser"
+msgstr "网页浏览器"
+
+#: src/items/check/check.json
+msgctxt "Description"
+msgid "Check box element for Reports"
+msgstr "KReport给报表使用的复选框元素"
+
+#: src/items/field/field.json
+msgctxt "Description"
+msgid "Field element for Reports"
+msgstr "给报表使用的字段元素"
+
+#: src/items/image/image.json
+msgctxt "Description"
+msgid "Image element for Reports"
+msgstr "给报表使用的图像元素"
+
+#: src/items/label/label.json
+msgctxt "Description"
+msgid "Label element for Reports"
+msgstr "给报表使用的标签元素"
+
+#: src/items/text/text.json
+msgctxt "Description"
+msgid "Text element for Reports"
+msgstr "给报表使用的文本元素"
+
+#: src/plugins/barcode/kreport_barcodeplugin.json
+msgctxt "Description"
+msgid "Barcode element for Reports"
+msgstr "给报表使用的条形码元素"
+
+#: src/plugins/chart/kreport_chartplugin.json
+msgctxt "Description"
+msgid "Chart element for Reports"
+msgstr "给报表使用的图表元素"
+
+#: src/plugins/maps/kreport_mapsplugin.json
+msgctxt "Description"
+msgid "Maps element for Reports"
+msgstr "给报表使用的地图元素"
+
+#: src/plugins/web/kreport_webplugin.json
+msgctxt "Description"
+msgid "Web browser element for Reports"
+msgstr "给报表使用的网页浏览器元素"
+
+#: src/items/check/check.json src/items/field/field.json
+#: src/items/image/image.json src/items/label/label.json
+#: src/items/text/text.json src/plugins/barcode/kreport_barcodeplugin.json
+#: src/plugins/chart/kreport_chartplugin.json
+#: src/plugins/maps/kreport_mapsplugin.json
+#: src/plugins/web/kreport_webplugin.json
+msgctxt "Authors Name"
+msgid "Kexi Team"
+msgstr "Kexi 团队"
+
