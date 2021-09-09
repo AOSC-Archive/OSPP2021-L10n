@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-08-31 00:24+0000\n"
+"PO-Revision-Date: 2021-09-09 07:00\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kronometer/org.kde.kronometer.appdata.pot\n"
+"X-Crowdin-File-ID: 5901\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kronometer.appdata.xml:8
+msgid "Kronometer"
+msgstr "Kronometer"
+
+#. (itstool) path: component/summary
+#: org.kde.kronometer.appdata.xml:9
+msgid "Chronometer"
+msgstr "计时器"
+
+#. (itstool) path: description/p
+#: org.kde.kronometer.appdata.xml:11
+msgid "Kronometer is a stopwatch application. It features the basic stopwatch actions (pause/resume/reset/laps), as well as the ability to save the times and resume them later. Kronometer is part of the KDE Extragear collection, within the Utils sub-module."
+msgstr "Kronometer 是一个秒表应用程序。它具有基本的秒表功能 (暂停/恢复/归零/圈数)，也有保存时间和稍后恢复的功能。Kronmeter 是 KDE Extragear 集合的一部分，属于小工具模块。"
+
+#. (itstool) path: description/p
+#: org.kde.kronometer.appdata.xml:14
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:16
+msgid "Start/pause/resume the stopwatch widget"
+msgstr "开始/暂停/恢复秒表小部件"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:17
+msgid "Laps recording: you can capture the stopwatch time when you want"
+msgstr "圈数记录：您可以随时捕获秒表时间"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:18
+msgid "Lap times sorting: you can easily find the shortest lap time or the longest one"
+msgstr "圈时排序：您可以轻松地找出最短和最长的圈时间"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:19
+msgid "Reset the stopwatch widget and the lap times"
+msgstr "重置秒表小部件和单圈时间"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:20
+msgid "Time format settings: you can choose the stopwatch granularity"
+msgstr "时间格式设置： 您可以选择秒表粒度"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:21
+msgid "Times saving and resuming: you can save the stopwatch status and resume it later"
+msgstr "保存和恢复时间： 您可以保存秒表状态并在以后继续"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:22
+msgid "Font customization: you can choose the fonts for each of the stopwatch digits"
+msgstr "自定义字体： 您可以为每个秒表数字选择字体"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:23
+msgid "Color customization: you can choose the color for the stopwatch digits and the stopwatch background"
+msgstr "颜色自定义功能： 您可以选择秒表位数和秒表背景的颜色"
+
+#. (itstool) path: ul/li
+#: org.kde.kronometer.appdata.xml:24
+msgid "Lap times export: you can export the lap times to a file using the JSON or CSV format"
+msgstr "圈时间导出：您可以将各圈时间导出为 JSON 格式或 CSV 格式的文件"
+
