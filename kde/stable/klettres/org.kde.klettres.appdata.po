@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-11-08 03:52+0100\n"
+"PO-Revision-Date: 2021-09-11 08:37\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/klettres/org.kde.klettres.appdata.pot\n"
+"X-Crowdin-File-ID: 4400\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.klettres.appdata.xml:6
+msgid "KLettres"
+msgstr "KLettres"
+
+#. (itstool) path: component/summary
+#: org.kde.klettres.appdata.xml:7
+msgid "Learn The Alphabet"
+msgstr "学习字母"
+
+#. (itstool) path: description/p
+#: org.kde.klettres.appdata.xml:9
+msgid "KLettres is an application specially designed to help the user to learn an alphabet in a new language and then to learn to read simple syllables. The user can be a young child aged from two and a half or an adult that wants to learn the basics of a foreign language. There are currently 25 languages available: Arabian, Brazilian Portuguese, Czech, Danish, Dutch, British English, US English, Phonics English, French, German, Hebrew, Hungarian, Italian, Kannada, Low Saxon, Malayalam, Norwegian Bokmål, Punjabi, Luganda, Romanized Hindi, Russian, Spanish, Slovak, Telugu and Ukrainian. KLettres provides a special user interface and themes for younger users."
+msgstr "KLettres 是一个特别设计于帮助用户学习新语言字母，并学习阅读简单音节的应用程序。用户可以为两岁半的幼儿，或是项学习外语基础的成年人。目前有 25 种语言：阿拉伯语、巴西葡萄牙语、捷克语、丹麦语、荷兰语、英式英语、美式英语、自然拼读英语、法语、德语、希伯来语、匈牙利语、意大利语、卡纳达语、低撒克逊语、马拉雅拉姆语、挪威博克马尔语、旁遮普语、卢干达语、罗马化印地语、俄语、西班牙语、斯洛伐克语、泰卢固语和乌克兰语。KLettres 可为年轻用户提供特殊用户界面和主题。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.klettres.appdata.xml:17
+msgid "KLettres training session"
+msgstr "KLettres 培训课程"
+
