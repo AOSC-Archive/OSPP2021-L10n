@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-11-08 03:54+0100\n"
+"PO-Revision-Date: 2021-09-11 07:14\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/ksquares/org.kde.ksquares.appdata.pot\n"
+"X-Crowdin-File-ID: 5623\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.ksquares.appdata.xml:6
+msgid "KSquares"
+msgstr "KSquares"
+
+#. (itstool) path: component/summary
+#: org.kde.ksquares.appdata.xml:7
+msgid "Connect the dots to create squares"
+msgstr "通过点连接创建方形"
+
+#. (itstool) path: description/p
+#: org.kde.ksquares.appdata.xml:9
+msgid "KSquares is a game modeled after the well known pen and paper based game of Dots and Boxes. Each player takes it in turns to draw a line between two adjacent dots on the board. The objective is to complete more squares than your opponents."
+msgstr "KSquares 是一款模仿知名纸笔游戏——点格棋的游戏。每位玩家轮流在棋盘两个相邻点间画线，目标是比对手画出更多正方形。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ksquares.appdata.xml:16
+msgid "The typical board position in KSquares"
+msgstr "KSquares 中的典型棋盘位"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ksquares.appdata.xml:20
+msgid "The completed squares in KSquares"
+msgstr "KSquares 中画出的完整正方形"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.ksquares.appdata.xml:24
+msgid "An initial board in KSquares"
+msgstr "KSquares 中的初始棋盘"
+
