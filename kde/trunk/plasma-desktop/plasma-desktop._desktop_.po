@@ -1,0 +1,1040 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-07 00:32+0000\n"
+"PO-Revision-Date: 2021-09-11 14:29\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plasma-desktop/plasma-desktop._desktop_.pot\n"
+"X-Crowdin-File-ID: 8256\n"
+"Language: zh_CN\n"
+
+#: applets/icontasks/metadata.desktop:2
+msgctxt "Name"
+msgid "Icons-only Task Manager"
+msgstr "图标任务管理器"
+
+#: applets/icontasks/metadata.desktop:55
+msgctxt "Comment"
+msgid "Switch between running applications"
+msgstr "在运行中的应用程序间切换"
+
+#: applets/keyboardlayout/metadata.desktop:2
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "键盘布局"
+
+#: applets/keyboardlayout/metadata.desktop:85
+msgctxt "Comment"
+msgid "Show/switch keyboard layout"
+msgstr "显示/切换键盘布局"
+
+#: applets/kicker/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Application Menu"
+msgstr "应用程序菜单"
+
+#: applets/kicker/package/metadata.desktop:57
+msgctxt "Comment"
+msgid "A launcher based on cascading popup menus"
+msgstr "基于层叠弹出窗口的启动器"
+
+#: applets/kickoff/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Application Launcher"
+msgstr "程序启动器"
+
+#: applets/kickoff/package/metadata.desktop:89
+msgctxt "Comment"
+msgid "Launcher to start applications"
+msgstr "应用程序的启动器"
+
+#: applets/kimpanel/backend/ibus/emojier/app/org.kde.plasma.emojier.desktop:3
+msgctxt "Name"
+msgid "Emoji Selector"
+msgstr "绘文字选取器"
+
+#: applets/kimpanel/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Input Method Panel"
+msgstr "输入法面板"
+
+#: applets/kimpanel/package/metadata.desktop:49
+msgctxt "Comment"
+msgid "A generic input method panel"
+msgstr "通用输入法面板"
+
+#: applets/kimpanel/package/metadata.desktop:95
+msgctxt "Keywords"
+msgid "Input;IM;"
+msgstr "Input;IM;输入法;输入;"
+
+#: applets/margins-separator/metadata.desktop:2
+msgctxt "Name"
+msgid "Margins Separator"
+msgstr "边距分隔符"
+
+#: applets/margins-separator/metadata.desktop:35
+msgctxt "Comment"
+msgid "To be used as a separator between margin areas in themes that support them"
+msgstr "用于边距之间的分隔符，仅适用于支持的主题"
+
+#: applets/margins-separator/metadata.desktop:71
+msgctxt "Keywords"
+msgid "separator"
+msgstr "separator,分隔符,分割"
+
+#: applets/minimizeall/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Minimize all Windows"
+msgstr "最小化所有窗口"
+
+#: applets/minimizeall/package/metadata.desktop:43
+msgctxt "Comment"
+msgid "Shows the desktop by minimizing all windows"
+msgstr "最小化所有窗口以显示桌面"
+
+#: applets/pager/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Pager"
+msgstr "调度器"
+
+#: applets/pager/package/metadata.desktop:87
+msgctxt "Comment"
+msgid "Switch between virtual desktops"
+msgstr "在虚拟桌面间切换"
+
+#: applets/showActivityManager/package/metadata.desktop:2
+#: kcms/activities/kcm_activities.desktop:14
+msgctxt "Name"
+msgid "Activities"
+msgstr "活动"
+
+#: applets/showActivityManager/package/metadata.desktop:65
+msgctxt "Comment"
+msgid "Shows the activity manager"
+msgstr "显示活动管理器"
+
+#: applets/showdesktop/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Show Desktop"
+msgstr "显示桌面"
+
+#: applets/showdesktop/package/metadata.desktop:43
+msgctxt "Comment"
+msgid "Shows the desktop by moving windows aside"
+msgstr "移动窗口到一边来显示桌面"
+
+#: applets/taskmanager/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Task Manager"
+msgstr "任务管理器"
+
+#: applets/taskmanager/package/metadata.desktop:85
+msgctxt "Comment"
+msgid "Switch between tasks"
+msgstr "在任务间切换"
+
+#: applets/trash/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Trashcan"
+msgstr "回收站"
+
+#: applets/trash/package/metadata.desktop:83
+msgctxt "Comment"
+msgid "Provides access to the files sent to trash"
+msgstr "访问回收站中的文件"
+
+#: applets/window-list/metadata.desktop:2
+msgctxt "Name"
+msgid "Window list"
+msgstr "窗口列表"
+
+#: applets/window-list/metadata.desktop:57
+msgctxt "Comment"
+msgid "Plasmoid to show list of opened windows."
+msgstr "显示已打开窗口的 Plasmoid 部件。"
+
+#: containments/desktop/package/metadata.desktop:2
+#: desktoppackage/metadata.desktop:50
+msgctxt "Name"
+msgid "Desktop"
+msgstr "桌面"
+
+#: containments/desktop/package/metadata.desktop:92
+msgctxt "Comment"
+msgid "A clean and simple layout"
+msgstr "简洁的布局"
+
+#: containments/folder/metadata.desktop:2
+msgctxt "Name"
+msgid "Folder View"
+msgstr "文件夹视图"
+
+#: containments/folder/metadata.desktop:52
+msgctxt "Comment"
+msgid "Display the contents of folders"
+msgstr "显示文件夹的内容"
+
+#: containments/panel/metadata.desktop:3
+msgctxt "Name"
+msgid "Panel"
+msgstr "面板"
+
+#: containments/panel/plasma-containment-panel.desktop:2
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.desktop:2
+msgctxt "Name"
+msgid "Empty Panel"
+msgstr "空面板"
+
+#: containments/panel/plasma-containment-panel.desktop:58
+msgctxt "Comment"
+msgid "A simple linear panel"
+msgstr "简单的线性面板"
+
+#: desktoppackage/metadata.desktop:2
+msgctxt "Comment"
+msgid "Desktop view furniture"
+msgstr "桌面视图家具"
+
+#: kaccess/kaccess.desktop:3 kcms/access/kcm_access.desktop:13
+#: kcms/access/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: kaccess/kaccess.notifyrc:3
+msgctxt "Comment"
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: kaccess/kaccess.notifyrc:97
+msgctxt "Name"
+msgid "A modifier key has become active"
+msgstr "修饰键已经激活"
+
+#: kaccess/kaccess.notifyrc:176
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now active"
+msgstr "修饰键(如 Shift 或 Ctrl)更改了其状态，现已激活"
+
+#: kaccess/kaccess.notifyrc:256
+msgctxt "Name"
+msgid "A modifier key has become inactive"
+msgstr "修饰键现已停用"
+
+#: kaccess/kaccess.notifyrc:335
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now inactive"
+msgstr "修饰键(如 Shift 或 Ctrl)更改了其状态，现已停用"
+
+#: kaccess/kaccess.notifyrc:415
+msgctxt "Name"
+msgid "A modifier key has been locked"
+msgstr "修饰键现已锁定"
+
+#: kaccess/kaccess.notifyrc:495
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has been locked and is now active for all of the following keypresses"
+msgstr "修饰键(如 Shift 或 Ctrl)已被锁定，现在将适用于后续按键"
+
+#: kaccess/kaccess.notifyrc:575
+msgctxt "Name"
+msgid "A lock key has been activated"
+msgstr "锁定键现已激活"
+
+#: kaccess/kaccess.notifyrc:656
+msgctxt "Comment"
+msgid "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now active"
+msgstr "锁定键(如 Caps Lock 或 Num Lock)更改了其状态，现已激活"
+
+#: kaccess/kaccess.notifyrc:736
+msgctxt "Name"
+msgid "A lock key has been deactivated"
+msgstr "锁定键现已停用"
+
+#: kaccess/kaccess.notifyrc:817
+msgctxt "Comment"
+msgid "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now inactive"
+msgstr "锁定键(如 Caps Lock 或 Num Lock)更改了其状态，现已停用"
+
+#: kaccess/kaccess.notifyrc:897
+msgctxt "Name"
+msgid "Sticky keys has been enabled or disabled"
+msgstr "启用或禁用了粘滞键"
+
+#: kaccess/kaccess.notifyrc:975
+msgctxt "Comment"
+msgid "Sticky keys has been enabled or disabled"
+msgstr "启用或禁用了粘滞键"
+
+#: kaccess/kaccess.notifyrc:1058
+msgctxt "Name"
+msgid "Slow keys has been enabled or disabled"
+msgstr "启用或禁用了筛选键"
+
+#: kaccess/kaccess.notifyrc:1135
+msgctxt "Comment"
+msgid "Slow keys has been enabled or disabled"
+msgstr "启用或禁用了筛选键"
+
+#: kaccess/kaccess.notifyrc:1217
+msgctxt "Name"
+msgid "Bounce keys has been enabled or disabled"
+msgstr "启用或禁用了撞击键"
+
+#: kaccess/kaccess.notifyrc:1293
+msgctxt "Comment"
+msgid "Bounce keys has been enabled or disabled"
+msgstr "启用或禁用了撞击键"
+
+#: kaccess/kaccess.notifyrc:1374
+msgctxt "Name"
+msgid "Mouse keys has been enabled or disabled"
+msgstr "启用或禁用了鼠标键"
+
+#: kaccess/kaccess.notifyrc:1452
+msgctxt "Comment"
+msgid "Mouse keys has been enabled or disabled"
+msgstr "启用或禁用了鼠标键"
+
+#: kcms/access/kcm_access.desktop:108 kcms/access/package/metadata.desktop:96
+msgctxt "Comment"
+msgid "Configure Accessibility Options"
+msgstr "配置辅助功能选项"
+
+#: kcms/access/kcm_access.desktop:144
+msgctxt "X-KDE-Keywords"
+msgid "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,visual bell,keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys,screen reader,narrator,keyboard filters,assist,assistive,feedback,number pad cursor,orca,speech,move mouse with num pad,mouse num pad emulation,mouse number pad,numberpad mouse,mouse emulation"
+msgstr "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,visual bell,keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys,screen reader,narrator,keyboard filters,assist,assistive,feedback,number pad cursor,orca,speech,move mouse with num pad,mouse num pad emulation,mouse number pad,numberpad mouse,mouse emulation,无障碍,辅助功能,聋人,聋子,受损,听力,听觉障碍,响铃,音频响铃,视觉响铃键盘,按键,粘滞键,弹跳键,筛选键,鼠标导航,小键盘,数字键盘,数字小键盘,激活手势,手势,粘滞,修饰键,修饰,锁定键,屏幕阅读器,讲述人,阅读器,键盘过滤,辅助,辅助技术,反馈,小键盘光标,语音,小键盘移动鼠标,小键盘鼠标模拟,数字键盘鼠标,鼠标模拟"
+
+#: kcms/activities/kcm_activities.desktop:77
+msgctxt "Comment"
+msgid "Activities help you to focus on a specific task"
+msgstr "活动帮助您专注于特定任务"
+
+#: kcms/activities/kcm_activities.desktop:123
+msgctxt "X-KDE-Keywords"
+msgid "activities,activity,workspaces,alternate desktops,activity privacy,virtual desktops"
+msgstr "activities,activity,workspaces,alternate desktops,activity privacy,virtual desktops,活动,工作区,额外桌面,活动隐私,虚拟桌面"
+
+#: kcms/baloo/kcm_baloofile.desktop:14
+msgctxt "Name"
+msgid "File Search"
+msgstr "文件搜索"
+
+#: kcms/baloo/kcm_baloofile.desktop:65
+msgctxt "Comment"
+msgid "Configure File Search"
+msgstr "配置文件搜索"
+
+#: kcms/baloo/kcm_baloofile.desktop:116
+msgctxt "X-KDE-Keywords"
+msgid "search,find,files,archives,documents,filesystem,hidden files,file content,folders,directory,directories,baloo,index,indexing,indexer"
+msgstr "search,find,files,archives,documents,filesystem,hidden files,file content,folders,directory,directories,baloo,index,indexing,indexer,搜索,查询,文件,压缩包,文档,文件系统,隐藏文件,文件内容,文件夹,目录,baloo,索引,索引器,索引工具"
+
+#: kcms/baloo/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Search"
+msgstr "搜索"
+
+#: kcms/baloo/package/metadata.desktop:41
+msgctxt "Comment"
+msgid "Configure the File Indexer"
+msgstr "配置文件索引器"
+
+#: kcms/componentchooser/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Default Applications"
+msgstr "默认程序"
+
+#: kcms/componentchooser/package/metadata.desktop:88
+msgctxt "Comment"
+msgid "Choose default Applications"
+msgstr "选择默认应用程序"
+
+#: kcms/componentchooser/package/metadata.desktop:132
+msgctxt "X-KDE-Keywords"
+msgid "default applications,default apps,components,component chooser,resources,web browser,browser,internet,file manager,dolphin,email,e-mail,email client,terminal,terminal emulator,konsole,defaults,open with,file association"
+msgstr "default applications,default apps,components,component chooser,resources,web browser,browser,internet,file manager,dolphin,email,e-mail,email client,terminal,terminal emulator,konsole,defaults,open with,file association,默认应用程序,默认应用,组件,组件选择器,资源,网页浏览器,浏览器,互联网,文件管理器,电子邮件,电子邮件客户端,终端,终端模拟器,默认,打开方式,使用其它应用打开,文件关联"
+
+#: kcms/dateandtime/clock.desktop:15
+msgctxt "Name"
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: kcms/dateandtime/clock.desktop:109
+msgctxt "Comment"
+msgid "Date and Time"
+msgstr "日期和时间"
+
+#: kcms/dateandtime/clock.desktop:164
+msgctxt "X-KDE-Keywords"
+msgid "clock,date,time,time zone,timezone,ntp,synchronize,calendar,local time,region time,watch,location,place,country,countries,hours,minutes,seconds,weeks,months,years,utc"
+msgstr "clock,date,time,time zone,timezone,ntp,synchronize,calendar,local time,region time,watch,location,place,country,countries,hours,minutes,seconds,weeks,months,years,utc,时钟,日期,时间,时区,同步,日历,本地时间,地区时间,表,位置,地点,国家,小时,时,分钟,分,秒,周,月份,月,年"
+
+#: kcms/dateandtime/kcmclock_actions.actions:2
+msgctxt "Name"
+msgid "Date and Time Control Module"
+msgstr "日期和时间控制模块"
+
+#: kcms/dateandtime/kcmclock_actions.actions:76
+msgctxt "Name"
+msgid "Save the date/time settings"
+msgstr "保存日期和时间设置"
+
+#: kcms/dateandtime/kcmclock_actions.actions:147
+msgctxt "Description"
+msgid "System policies prevent you from saving the date/time settings."
+msgstr "系统安全策略不允许您保存日期/时间设置。"
+
+#: kcms/desktoppaths/desktoppath.desktop:12
+msgctxt "Name"
+msgid "Locations"
+msgstr "地点"
+
+#: kcms/desktoppaths/desktoppath.desktop:62
+msgctxt "Comment"
+msgid "Location for Personal Files"
+msgstr "个人文件位置"
+
+#: kcms/desktoppaths/desktoppath.desktop:110
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,dolphin,files,filemanager,path,paths,desktop,directory,directories,downloads,music,documents,movies,pictures,locations,file path,default folders,folders,videos,images,photos,songs,home"
+msgstr "konqueror,dolphin,files,filemanager,path,paths,desktop,directory,directories,downloads,music,documents,movies,pictures,locations,file path,default folders,folders,videos,images,photos,songs,home,文件,文件管理器,路径,桌面,目录,下载,音乐,文档,电影,图片,位置,文件路径,默认文件夹,文件夹,视频,图像,照片,歌曲,主文件夹,主目录,主页"
+
+#: kcms/input/mouse.desktop:15 kcms/mouse/mouse.desktop:15
+msgctxt "Name"
+msgid "Mouse"
+msgstr "鼠标"
+
+#: kcms/input/mouse.desktop:109 kcms/mouse/mouse.desktop:109
+msgctxt "Comment"
+msgid "Mouse Controls"
+msgstr "鼠标控制"
+
+#: kcms/input/mouse.desktop:161
+msgctxt "X-KDE-Keywords"
+msgid "mouse,mouse acceleration,mouse threshold,mouse buttons,selection,input devices,button mapping,click,icons,feedback,pointers,drag,double click,single click,right click,left click,middle click,left mapping,right handed,left handed,right-handed,left-handed,pointer device,mouse wheel,mouse emulation,mouse navigation,mouse drag and drop,mouse scrolling,mouse sensitivity,cursor sensitivity,hardware,cursor,scrolling speed,flat,adaptive,scroll wheel,invert scroll direction,acceleration profile"
+msgstr "mouse,mouse acceleration,mouse threshold,mouse buttons,selection,input devices,button mapping,click,icons,feedback,pointers,drag,double click,single click,right click,left click,middle click,left mapping,right handed,left handed,right-handed,left-handed,pointer device,mouse wheel,mouse emulation,mouse navigation,mouse drag and drop,mouse scrolling,mouse sensitivity,cursor sensitivity,hardware,cursor,scrolling speed,flat,adaptive,scroll wheel,invert scroll direction,acceleration profile,鼠标,鼠标加速度,指针精确度,鼠标加速阈值,鼠标按钮,鼠标按键,选择区域,选区,输入设备,按键映射,点击,图标,反馈,指针,拖拽,双击,单击,右击,左击,中键点击,点击,左键映射,右手习惯,惯用右手,右利手,左手习惯,惯用左手,左利手,光标设备,鼠标滚轮,鼠标拖放,鼠标滚动,鼠标灵敏度,光标灵敏度,硬件,光标,滚动速度,平滑,自适应,滚轮,反向滚动,反转滚动方向,加速曲线,加速配置,加速曲线参数,加速配置文件"
+
+#: kcms/joystick/joystick.desktop:15
+msgctxt "Comment"
+msgid "Calibrate Game Controller"
+msgstr "校准游戏控制器"
+
+#: kcms/joystick/joystick.desktop:52
+msgctxt "Name"
+msgid "Game Controller"
+msgstr "游戏控制器"
+
+#: kcms/joystick/joystick.desktop:91
+msgctxt "X-KDE-Keywords"
+msgid "joystick,gamepad,controller,hardware,games,gaming,pad,devices,joypad,analog sticks,calibrate,calibration,directional buttons,axis,videogames,button,buttons,inputs"
+msgstr "joystick,gamepad,controller,hardware,games,gaming,pad,devices,joypad,analog sticks,calibrate,calibration,directional buttons,axis,videogames,button,buttons,inputs,控制杆,摇杆,游戏手柄,手柄,硬件,游戏,设备,模拟摇杆,校准,方向键,十字键,轴,手柄轴,电子游戏,视频游戏,按键,输入"
+
+#: kcms/kded/kcmkded.desktop:13 kcms/kded/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Background Services"
+msgstr "后台服务"
+
+#: kcms/kded/kcmkded.desktop:63 kcms/kded/package/metadata.desktop:52
+msgctxt "Comment"
+msgid "Configure background services"
+msgstr "配置后台服务"
+
+#: kcms/kded/kcmkded.desktop:101
+msgctxt "X-KDE-Keywords"
+msgid "KDED,daemon,services,background,ram"
+msgstr "KDED,daemon,services,background,ram,守护进程,服务,后台,内存"
+
+#: kcms/keyboard/kcm_keyboard.desktop:16
+msgctxt "Name"
+msgid "Keyboard"
+msgstr "键盘"
+
+#: kcms/keyboard/kcm_keyboard.desktop:109
+msgctxt "Comment"
+msgid "Keyboard Hardware and Layout"
+msgstr "键盘硬件和布局"
+
+#: kcms/keyboard/kcm_keyboard.desktop:162
+msgctxt "X-KDE-Keywords"
+msgid "keyboard,keyboard repeat,click volume,input devices,repeat,volume,numlock,numpad,number pad,keyboard type,keyboard model,keyboard layout,key layout,language,alternate keyboard,keyboard switching,ctrl key,caps lock,esperanto,circumflex,tilde,cedilla,diacritics,accents,function keys,kill x server,LED keyboard,compose key,hardware,type,typing,shift,meta,alt,alt gr,fn,space bar,spacebar,qwerty,qwertz,azerty,dvorak"
+msgstr "keyboard,keyboard repeat,click volume,input devices,repeat,volume,numlock,numpad,number pad,keyboard type,keyboard model,keyboard layout,key layout,language,alternate keyboard,keyboard switching,ctrl key,caps lock,esperanto,circumflex,tilde,cedilla,diacritics,accents,function keys,kill x server,LED keyboard,compose key,hardware,type,typing,shift,meta,alt,alt gr,fn,space bar,spacebar,qwerty,qwertz,azerty,dvorak,键盘,键盘重复,按键音量,输入设备,重复,音量,数字锁定,数字锁,数字键盘,小键盘,数字小键盘,键盘类型,键盘型号,键盘布局,按键布局,语言,额外键盘,键盘切换,ctrl 键,大写锁定,世界语,音调符号,扬抑符,腭化符号,鼻音化符号,波浪号,下加符,软音符,变音符,附加符号,重音符号,功能键,杀死 X 服务端,关闭 X 服务端,停止 X 服务端,LED 键盘,compose 键,硬件,输入,空格键"
+
+#: kcms/keyboard/keyboard.desktop:11
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "键盘守护进程"
+
+#: kcms/keyboard/keyboard.desktop:77
+msgctxt "Comment"
+msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgstr "启用通过快捷键或者系统托盘切换键盘布局"
+
+#: kcms/keys/kcm_keys.desktop:13 kcms/keys/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: kcms/keys/kcm_keys.desktop:52 kcms/keys/package/metadata.desktop:41
+msgctxt "Comment"
+msgid "Configure Keyboard Shortcuts"
+msgstr "配置键盘快捷键"
+
+#: kcms/keys/kcm_keys.desktop:90
+msgctxt "X-KDE-Keywords"
+msgid "keys,global key bindings,key scheme,key bindings,shortcuts,application shortcuts,global shortcuts,keyboard,hotkeys,macro"
+msgstr "keys,global key bindings,key scheme,key bindings,shortcuts,application shortcuts,global shortcuts,keyboard,hotkeys,macro,按键,全局键绑定,按键方案,快捷键,应用程序快捷键,应用快捷键,全局快捷键,键盘,热键,宏"
+
+#: kcms/ksmserver/package/metadata.desktop:12
+msgctxt "Name"
+msgid "Desktop Session"
+msgstr "桌面会话"
+
+#: kcms/ksmserver/package/metadata.desktop:65
+msgctxt "Comment"
+msgid "Desktop Session Login and Logout"
+msgstr "桌面会话登录和注销"
+
+#: kcms/ksmserver/package/metadata.desktop:115
+msgctxt "X-KDE-Keywords"
+msgid "ksmserver,session,login,logout,confirmation,save,restore,efi,uefi,bios,hibernate,shutdown,reboot,save apps,startup,start-up,start,firmware"
+msgstr "ksmserver,session,login,logout,confirmation,save,restore,efi,uefi,bios,hibernate,shutdown,reboot,save apps,startup,start-up,start,firmware,会话,登录,注销,确认,保存,恢复,休眠,关机,重启,保存应用,保存应用程序,启动,固件"
+
+#: kcms/ksplash/kcm_splashscreen.desktop:14
+#: kcms/ksplash/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Splash Screen"
+msgstr "欢迎屏幕"
+
+#: kcms/ksplash/kcm_splashscreen.desktop:66
+#: kcms/ksplash/package/metadata.desktop:54
+msgctxt "Comment"
+msgid "Choose splash screen theme"
+msgstr "选择欢迎屏幕主题"
+
+#: kcms/ksplash/kcm_splashscreen.desktop:106
+msgctxt "X-KDE-Keywords"
+msgid "splash screen,splash theme,start-up,startup,loading,starting screen,loading screen,logo,start screen,welcome screen"
+msgstr "splash screen,splash theme,start-up,startup,loading,starting screen,loading screen,logo,start screen,welcome screen,欢迎屏幕,欢迎主题,启动,加载,启动屏,启动屏幕,加载屏,加载屏幕,标识"
+
+#: kcms/ksplash/ksplash.knsrc:2
+msgctxt "Name"
+msgid "Splash Screens"
+msgstr "欢迎屏幕"
+
+#: kcms/landingpage/kcm_landingpage.desktop:11
+#: kcms/landingpage/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Quick Settings"
+msgstr "快速设置"
+
+#: kcms/landingpage/kcm_landingpage.desktop:44
+msgctxt "Comment"
+msgid "Landing page with some basic settings"
+msgstr "带有基本设置的主页面"
+
+#: kcms/landingpage/package/metadata.desktop:35
+msgctxt "Comment"
+msgid "Quickly change basic settings"
+msgstr "快速更改基本设置"
+
+#: kcms/launch/kcm_launchfeedback.desktop:13
+#: kcms/launch/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Launch Feedback"
+msgstr "启动反馈"
+
+#: kcms/launch/kcm_launchfeedback.desktop:101
+#: kcms/launch/package/metadata.desktop:90
+msgctxt "Comment"
+msgid "Application Launch Feedback"
+msgstr "应用程序启动反馈"
+
+#: kcms/launch/kcm_launchfeedback.desktop:154
+msgctxt "X-KDE-Keywords"
+msgid "application,app,start,launch,busy,cursor,feedback,mouse,pointer,bounce,bouncing,rotating,spinning,startup,start-up,program,report,taskbar,animation,loading"
+msgstr "application,app,start,launch,busy,cursor,feedback,mouse,pointer,bounce,bouncing,rotating,spinning,startup,start-up,program,report,taskbar,animation,loading,应用程序,应用,启动,忙,光标,反馈,鼠标,指针,弹跳,跳动,旋转,程序,报告,任务栏,动画,加载"
+
+#: kcms/mouse/mouse.desktop:160
+msgctxt "X-KDE-Keywords"
+msgid "mouse,mouse acceleration,mouse threshold,mouse buttons,selection,cursor shape,input devices,button mapping,click,icons,feedback,pointers,drag,double click,single click,right click,left click,middle click,left mapping,right handed,left handed,pointer device,mouse wheel,mouse emulation,mouse navigation,mouse drag and drop,mouse scrolling,mouse sensitivity,cursor sensitivity,hardware,cursor,scrolling speed,flat,adaptive,scroll wheel,invert scroll direction,acceleration profile"
+msgstr "mouse,mouse acceleration,mouse threshold,mouse buttons,selection,input devices,button mapping,click,icons,feedback,pointers,drag,double click,single click,right click,left click,middle click,left mapping,right handed,left handed,right-handed,left-handed,pointer device,mouse wheel,mouse emulation,mouse navigation,mouse drag and drop,mouse scrolling,mouse sensitivity,cursor sensitivity,hardware,cursor,scrolling speed,flat,adaptive,scroll wheel,invert scroll direction,acceleration profile,鼠标,鼠标加速度,指针精确度,鼠标加速阈值,鼠标按钮,鼠标按键,选择区域,选区,光标形状,指针形状,输入设备,按键映射,点击,图标,反馈,指针,拖拽,双击,单击,右击,左击,中键点击,点击,左键映射,右手习惯,惯用右手,右利手,左手习惯,惯用左手,左利手,光标设备,鼠标滚轮,鼠标拖放,鼠标滚动,鼠标灵敏度,光标灵敏度,硬件,光标,滚动速度,平滑,自适应,滚轮,反向滚动,反转滚动方向,加速曲线,加速配置,加速曲线参数,加速配置文件"
+
+#: kcms/qtquicksettings/qtquicksettings.desktop:11
+msgctxt "Name"
+msgid "Plasma Renderer"
+msgstr "Plasma 渲染器"
+
+#: kcms/runners/kcm_plasmasearch.desktop:12
+msgctxt "Name"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: kcms/runners/kcm_plasmasearch.desktop:53
+msgctxt "Comment"
+msgid "Configure Search Bar"
+msgstr "配置搜索栏"
+
+#: kcms/runners/kcm_plasmasearch.desktop:98
+msgctxt "X-KDE-Keywords"
+msgid "search,file,baloo,runners,krunner,launcher,app launcher,desktop search,k runner,find,plugins,computer search"
+msgstr "search,file,baloo,runners,krunner,launcher,app launcher,desktop search,k runner,find,plugins,computer search,搜索,文件,运行器,启动器,应用启动器,应用程序启动器,桌面搜索,查找,插件,计算机搜索,电脑搜索"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:2
+msgctxt "Name"
+msgid "Charge Percent"
+msgstr "电量百分比"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:76
+msgctxt "Name"
+msgid "Charge State"
+msgstr "充电状态"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:149
+msgctxt "Name|battery plugged in"
+msgid "Plugged"
+msgstr "已插入"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:205
+msgctxt "Name"
+msgid "Rechargeable"
+msgstr "可重新充电"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:275
+msgctxt "Name"
+msgid "Type"
+msgstr "文件系统"
+
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:352
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:219
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:152
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:893
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:672
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:152
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:293
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:150
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:372
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:450
+msgctxt "Name"
+msgid "Solid Device"
+msgstr "Solid 设备"
+
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:2
+msgctxt "Name"
+msgid "Device"
+msgstr "设备"
+
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:78
+msgctxt "Name"
+msgid "Major"
+msgstr "主"
+
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:148
+msgctxt "Name"
+msgid "Minor"
+msgstr "次"
+
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:2
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:2
+msgctxt "Name"
+msgid "Supported Drivers"
+msgstr "支持的驱动"
+
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:77
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:77
+msgctxt "Name"
+msgid "Supported Protocols"
+msgstr "支持的协议"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:2
+msgctxt "Name"
+msgid "Appendable"
+msgstr "可追加"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:74
+msgctxt "Name"
+msgid "Available Content"
+msgstr "可用内容"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:149
+msgctxt "Name"
+msgid "Blank"
+msgstr "空"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:222
+msgctxt "Name"
+msgid "Capacity"
+msgstr "能力"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:297
+msgctxt "Name"
+msgid "Disc Type"
+msgstr "盘片类型"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:372
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:2
+msgctxt "Name"
+msgid "Fs Type"
+msgstr "文件系统类型"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:446
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:76
+msgctxt "Name"
+msgid "Ignored"
+msgstr "忽略"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:519
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:149
+msgctxt "Name"
+msgid "Label"
+msgstr "标签"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:593
+msgctxt "Name"
+msgid "Rewritable"
+msgstr "可擦写"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:666
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:369
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:295
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:223
+msgctxt "Name"
+msgid "Size"
+msgstr "尺寸"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:742
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:299
+msgctxt "Name"
+msgid "Usage"
+msgstr "用途"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:817
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:374
+msgctxt "Name"
+msgid "Uuid"
+msgstr "UUID"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:2
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:2
+msgctxt "Name"
+msgid "Bus"
+msgstr "Bus"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:77
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:77
+msgctxt "Name"
+msgid "Drive Type"
+msgstr "驱动器类型"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:151
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:151
+msgctxt "Name"
+msgid "Hotpluggable"
+msgstr "热插拔"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:220
+msgctxt "Name"
+msgid "Read Speed"
+msgstr "读取速度"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:294
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:220
+msgctxt "Name"
+msgid "Removable"
+msgstr "移动"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:445
+msgctxt "Name"
+msgid "Supported Media"
+msgstr "支持的媒体"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:519
+msgctxt "Name"
+msgid "Write Speed"
+msgstr "写入速度"
+
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:595
+msgctxt "Name"
+msgid "Write Speeds"
+msgstr "写入速度"
+
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:2
+msgctxt "Name"
+msgid "Can Change Frequency"
+msgstr "可更改频率"
+
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:73
+msgctxt "Name"
+msgid "Instruction Sets"
+msgstr "指令集"
+
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:143
+msgctxt "Name"
+msgid "Max Speed"
+msgstr "最大速度"
+
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:218
+msgctxt "Name"
+msgid "Number"
+msgstr "数量"
+
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:2
+msgctxt "Name"
+msgid "Accessible"
+msgstr "可访问"
+
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:75
+msgctxt "Name"
+msgid "File Path"
+msgstr "文件路径"
+
+#: kcms/solid_actions/solid-actions.desktop:12
+msgctxt "Name"
+msgid "Device Actions"
+msgstr "设备动作"
+
+#: kcms/solid_actions/solid-actions.desktop:85
+msgctxt "Comment"
+msgid "Manage actions available to the user when connecting new devices"
+msgstr "管理当新设备连接时的系统动作"
+
+#: kcms/solid_actions/solid-actions.desktop:140
+msgctxt "X-KDE-Keywords"
+msgid "Solid Devices Actions,device actions,open with,play,download,browse,transfer"
+msgstr "Solid Devices Actions,device actions,open with,play,download,browse,transfer,Solid 设备操作,设备操作,打开方式,播放,下载,浏览,传输"
+
+#: kcms/solid_actions/solid-device-type.desktop:4
+msgctxt "Name"
+msgid "Solid Device Type"
+msgstr "Solid 设备类型"
+
+#: kcms/spellchecking/spellchecking.desktop:13
+msgctxt "Name"
+msgid "Spell Check"
+msgstr "拼写检查"
+
+#: kcms/spellchecking/spellchecking.desktop:68
+msgctxt "Comment"
+msgid "Spell Checker Dictionaries and Options"
+msgstr "拼写检查器的词典和选项"
+
+#: kcms/spellchecking/spellchecking.desktop:119
+msgctxt "X-KDE-Keywords"
+msgid "spell,spellings,grammar check,grammatical check,spell check,autocorrect,auto correct,words,phrases,wrong words,linguistics,semantic,alphabet,correction"
+msgstr "spell,spellings,grammar check,grammatical check,spell check,autocorrect,auto correct,words,phrases,wrong words,linguistics,semantic,alphabet,correction,拼写,语法检查,拼写检查,自动更正,词汇,词组,错误词汇,语言学,语义学,字母表,更正"
+
+#: kcms/touchpad/dataengine/plasma-dataengine-touchpad.desktop:2
+msgctxt "Name"
+msgid "Touchpad DataEngine"
+msgstr "触摸板数据引擎"
+
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:14
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:2
+#: kcms/touchpad/kded/kded_touchpad.desktop:9
+msgctxt "Name"
+msgid "Touchpad"
+msgstr "触摸板"
+
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:63
+msgctxt "Comment"
+msgid "Touchpad settings"
+msgstr "触摸板设置"
+
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:111
+msgctxt "X-KDE-Keywords"
+msgid "touchpad,synaptics,alps,elantech,elan,cirque,libinput,hardware,laptop,touch devices,click,left click,right click,middle click,click emulation,tap,tap to click,tap-to-click,fingers,two fingers tap,three fingers tap,four fingers tap,swipe,gestures,natural scrolling,invert scroll,inverted scrolling,acceleration,palm rejection,left-handed mode,left handed mode,right-handed mode,right handed mode,disable while typing"
+msgstr "touchpad,synaptics,alps,elantech,elan,cirque,libinput,hardware,laptop,touch devices,click,left click,right click,middle click,click emulation,tap,tap to click,tap-to-click,fingers,two fingers tap,three fingers tap,four fingers tap,swipe,gestures,natural scrolling,invert scroll,inverted scrolling,acceleration,palm rejection,left-handed mode,left handed mode,right-handed mode,right handed mode,disable while typing,触控板,硬件,笔记本,触控设备,点击,左击,左键点击,右击,右键点击,中键点击,点击模拟,轻击,轻触点击,手指,双指轻触,三指轻触,四指轻触,滑动,手势,自然滚动,反向滚动,加速度,防手掌误触,左手习惯模式,惯用左手模式,左利手模式,右手习惯模式,惯用右手模式,右利手模式,打字时禁用"
+
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:52
+msgctxt "Comment"
+msgid "Touchpad"
+msgstr "触摸板"
+
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:103
+msgctxt "Name"
+msgid "Touchpad was disabled"
+msgstr "触摸板已禁用"
+
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:150
+msgctxt "Comment"
+msgid "Touchpad was disabled because mouse is detected"
+msgstr "因为检测到鼠标，触摸板已禁用"
+
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:201
+msgctxt "Name"
+msgid "Touchpad was enabled"
+msgstr "触摸板已启用"
+
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:248
+msgctxt "Comment"
+msgid "Touchpad was enabled because the mouse was unplugged"
+msgstr "因为鼠标已拔出，触摸板已禁用"
+
+#: kcms/touchpad/kded/kded_touchpad.desktop:58
+msgctxt "Comment"
+msgid "Enables or disables touchpad"
+msgstr "启用或禁用触摸板"
+
+#: kcms/users/kcm_users.desktop:9
+msgctxt "Name"
+msgid "Users"
+msgstr "用户"
+
+#: kcms/users/kcm_users.desktop:48
+msgctxt "Comment"
+msgid "Manage user accounts"
+msgstr "管理用户帐户."
+
+#: kcms/users/kcm_users.desktop:86
+msgctxt "X-KDE-Keywords"
+msgid "users,accounts,profile picture,profile photo,avatar,name,password,passwords,email,e-mail,administrator,root user,standard user,profile,delete user,delete account,pfp"
+msgstr "users,accounts,profile picture,profile photo,avatar,name,password,passwords,email,e-mail,administrator,root user,standard user,profile,delete user,delete account,pfp,用户,账户,个人资料头像,头像,名字,密码,电子邮件,电子邮箱,电子邮件地址,管理员,root 用户,标准用户,个人资料,删除用户,删除账户"
+
+#: kcms/users/package/metadata.desktop:2
+msgctxt "Name"
+msgid "User Accounts"
+msgstr "用户账户"
+
+#: kcms/users/package/metadata.desktop:40
+msgctxt "Comment"
+msgid "Manage users"
+msgstr "管理用户"
+
+#: kcms/workspaceoptions/kcm_workspace.desktop:10
+#: kcms/workspaceoptions/package/metadata.desktop:2
+msgctxt "Name"
+msgid "General Behavior"
+msgstr "常规行为"
+
+#: kcms/workspaceoptions/kcm_workspace.desktop:51
+#: kcms/workspaceoptions/package/metadata.desktop:43
+msgctxt "Comment"
+msgid "Configure general workspace behavior"
+msgstr "配置工作空间的常规行为"
+
+#: kcms/workspaceoptions/kcm_workspace.desktop:91
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select"
+msgstr "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,工作区,外壳,部件版,面板,工具提示,悬停信息,信息提示,点击,单击,双击,动画速度,行为,打开文件,选择文件,滚动条,视觉反馈,状态,点击打开,点击选择"
+
+#: knetattach/org.kde.knetattach.desktop:2
+msgctxt "Name"
+msgid "KNetAttach"
+msgstr "KNetAttach"
+
+#: knetattach/org.kde.knetattach.desktop:91
+msgctxt "GenericName"
+msgid "Network Folder Wizard"
+msgstr "网络文件夹向导"
+
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:2
+msgctxt "Name"
+msgid "Application Menu Bar"
+msgstr "应用程序菜单栏"
+
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:49
+msgctxt "Comment"
+msgid "Panel containing the global menu applet"
+msgstr "包含全局菜单部件的面板"
+
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:2
+msgctxt "Name"
+msgid "Default Panel"
+msgstr "默认面板"
+
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:55
+msgctxt "Comment"
+msgid "Default panel featuring application launcher, task manager and system tray"
+msgstr "默认面板具有应用程序启动器，任务管理器和系统托盘"
+
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.desktop:58
+msgctxt "Comment"
+msgid "Empty panel"
+msgstr "空面板"
+
+#: runners/kwin/plasma-runner-kwin.desktop:2
+msgctxt "Name"
+msgid "KWin"
+msgstr "KWin"
+
+#: runners/kwin/plasma-runner-kwin.desktop:48
+msgctxt "Comment"
+msgid "Interact with the Plasma Compositor"
+msgstr "和 Plasma 混成器进行交互"
+
+#: runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:2
+msgctxt "Name"
+msgid "Plasma Desktop Shell"
+msgstr "Plasma 桌面外壳"
+
+#: runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:70
+msgctxt "Comment"
+msgid "Interact with the Plasma desktop shell"
+msgstr "和 Plasma 桌面外壳进行交互"
+
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:8
+msgctxt "X-KDE-Keywords"
+msgid "Mount,Removable,Devices,Automatic"
+msgstr "Mount,Removable,Devices,Automatic,挂载,移动,设备,自动"
+
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:54
+msgctxt "Name"
+msgid "Removable Devices"
+msgstr "移动设备"
+
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:102
+msgctxt "Comment"
+msgid "Configure automatic handling of removable storage media"
+msgstr "配置移动存储介质自动处理"
+
+#: solid-device-automounter/kded/device_automounter.desktop:10
+msgctxt "Name"
+msgid "Removable Device Automounter"
+msgstr "移动设备自动挂载器"
+
+#: solid-device-automounter/kded/device_automounter.desktop:55
+msgctxt "Comment"
+msgid "Automatically mounts devices as needed"
+msgstr "按需自动挂载设备"
+
+#: toolboxes/desktoptoolbox/metadata.desktop:2
+msgctxt "Name"
+msgid "Declarative Toolbox"
+msgstr "描述工具箱"
+
+#: toolboxes/desktoptoolbox/metadata.desktop:51
+msgctxt "Comment"
+msgid "Manage Plasma"
+msgstr "管理 Plasma"
+
+#: toolboxes/paneltoolbox/metadata.desktop:2
+msgctxt "Name"
+msgid "Panel Toolbox"
+msgstr "面板工具箱"
+
+#: toolboxes/paneltoolbox/metadata.desktop:55
+msgctxt "Comment"
+msgid "Manage Plasma panel"
+msgstr "管理 Plasma 面板 "
+
+#: toolboxes/plasma-toolbox-paneltoolbox.desktop:2
+msgctxt "Comment"
+msgid "Default panel toolbox for the Plasma desktop shell"
+msgstr "Plasma 桌面外壳的默认面板工具箱"
+
+#: toolboxes/plasma-toolbox-paneltoolbox.desktop:63
+msgctxt "Name"
+msgid "Panel toolbox"
+msgstr "面板工具箱"
+
