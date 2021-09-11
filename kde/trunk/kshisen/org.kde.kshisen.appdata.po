@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2018-12-30 03:02+0100\n"
+"PO-Revision-Date: 2021-09-11 07:06\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kshisen/org.kde.kshisen.appdata.pot\n"
+"X-Crowdin-File-ID: 5687\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.kshisen.appdata.xml:6
+msgid "KShisen"
+msgstr "KShisen"
+
+#. (itstool) path: component/summary
+#: org.kde.kshisen.appdata.xml:7
+msgid "Shisen-Sho Mahjongg-like Tile Game"
+msgstr "类似连连看的麻将游戏"
+
+#. (itstool) path: description/p
+#: org.kde.kshisen.appdata.xml:9
+msgid "KShisen is a solitaire-like game played using the standard set of Mahjong tiles. Unlike Mahjong however, KShisen has only one layer of scrambled tiles."
+msgstr "KShisen 是一个使用麻将牌的类牌游戏。和麻将配对不同的是，KShisen 只有一层打乱的牌。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kshisen.appdata.xml:19
+msgid "Playing KShisen"
+msgstr "KShisen 游戏界面"
+
