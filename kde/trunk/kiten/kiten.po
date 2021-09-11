@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-30 00:13+0000\n"
-"PO-Revision-Date: 2021-09-09 07:23\n"
+"PO-Revision-Date: 2021-09-11 07:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -91,7 +91,7 @@ msgstr "学习"
 #: app/configlearn.ui:19
 #, kde-format
 msgid "Learn mode is disabled in this version of kiten. There are several excellent open source flashcard programs available, such as Parley in kde-edu (and probably in your distro's repositories), and the anki project (https://apps.ankiweb.net/)"
-msgstr "此版本的 Kiten 禁用了学习模式。有几种出色的开源卡片教学程序可供使用，例如 KDE-Edu 中的 Parley (很可能在发行版的软件仓库内) 或 Anki 项目 (https://apps.ankiweb.net/)"
+msgstr "此版本的 Kiten 禁用了学习模式。有几种出色的开源题卡程序可供使用，例如 KDE-Edu 中的 Parley (很可能在发行版的软件仓库内) 或 Anki 项目 (https://apps.ankiweb.net/)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConfigSearching)
 #: app/configsearching.ui:13 app/configuredialog.cpp:47
