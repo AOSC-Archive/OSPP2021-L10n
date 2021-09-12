@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
+"PO-Revision-Date: 2021-09-12 09:17\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plasma-firewall/plasma-firewall._desktop_.pot\n"
+"X-Crowdin-File-ID: 24470\n"
+"Language: zh_CN\n"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:4
+msgctxt "Name"
+msgid "Uncomplicated Firewall"
+msgstr "UFW"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:38
+msgctxt "Name"
+msgid "Query Firewall"
+msgstr "查询防火墙"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:69
+msgctxt "Description"
+msgid "Query firewall status"
+msgstr "查询防火墙状态"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:103
+msgctxt "Name"
+msgid "View Firewall Logs"
+msgstr "查看防火墙日志"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:134
+msgctxt "Description"
+msgid "View firewall logs"
+msgstr "查看防火墙日志"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:168
+msgctxt "Name"
+msgid "Modify Firewall"
+msgstr "修改防火墙"
+
+#: kcm/backends/ufw/helper/org.kde.ufw.actions:199
+msgctxt "Description"
+msgid "Modify firewall settings"
+msgstr "修改防火墙设置"
+
+#: kcm/kcm_firewall.desktop:14 kcm/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Firewall"
+msgstr "防火墙"
+
+#: kcm/kcm_firewall.desktop:46
+msgctxt "Comment"
+msgid "Control your network rules"
+msgstr "控制本机的网络规则"
+
+#: kcm/kcm_firewall.desktop:77
+msgctxt "X-KDE-Keywords"
+msgid "firewall,network,security,block,allow,internet,web,websites,whitelist,blacklist,allowlist,blocklist,ports,rules,connections,udp,tcp,ip,address,ipv4,ipv6,protection,privacy,local address,remote address,gateway,localhost,ufw,firewalld,firewall rules,firewall exception,firewall exceptions,origin,destination,protocol,interface"
+msgstr "firewall,network,security,block,allow,internet,web,websites,whitelist,blacklist,allowlist,blocklist,ports,rules,connections,udp,tcp,ip,address,ipv4,ipv6,protection,privacy,local address,remote address,gateway,localhost,ufw,firewalld,firewall rules,firewall exception,firewall exceptions,origin,destination,protocol,interface,防火墙,网络,安全,屏蔽,允许,互联网,网络,网站,白名单,黑名单,允许名单,屏蔽名单,端口,规则,连接,地址,保护,隐私,本地地址,远程地址,网关,本地主机,防火墙规则,防火墙例外,源,目标,协议,接口"
+
+#: kcm/package/metadata.desktop:34
+msgctxt "Comment"
+msgid "Adjust your firewall settings"
+msgstr "调整本机的防火墙设置"
+
