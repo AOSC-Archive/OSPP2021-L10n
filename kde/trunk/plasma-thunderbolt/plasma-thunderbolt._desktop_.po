@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
+"PO-Revision-Date: 2021-09-12 09:20\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plasma-thunderbolt/plasma-thunderbolt._desktop_.pot\n"
+"X-Crowdin-File-ID: 10626\n"
+"Language: zh_CN\n"
+
+#: src/kcm/kcm_bolt.desktop:11 src/kcm/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Thunderbolt"
+msgstr "雷电接口"
+
+#: src/kcm/kcm_bolt.desktop:46 src/kcm/package/metadata.desktop:37
+msgctxt "Comment"
+msgid "Thunderbolt Device Management"
+msgstr "雷电接口设备管理"
+
+#: src/kcm/kcm_bolt.desktop:81
+msgctxt "X-KDE-Keywords"
+msgid "thunderbolt,hardware,device,protocol,thunderbolt protocol,transfer,usb,usb-c,pci-e,external devices"
+msgstr "thunderbolt,hardware,device,protocol,thunderbolt protocol,transfer,usb,usb-c,pci-e,external devices,雷电,硬件,设备,协议,雷电协议,传输,外部设备"
+
+#: src/kded/kded_bolt.desktop:2 src/kded/kded_bolt.notifyrc:3
+msgctxt "Name"
+msgid "Thunderbolt Device Monitor"
+msgstr "雷电接口设备监视器"
+
+#: src/kded/kded_bolt.desktop:37 src/kded/kded_bolt.notifyrc:38
+msgctxt "Comment"
+msgid "Thunderbolt Device Monitor"
+msgstr "雷电接口设备监视器"
+
+#: src/kded/kded_bolt.notifyrc:75
+msgctxt "Name"
+msgid "Warning"
+msgstr "警告"
+
+#: src/kded/kded_bolt.notifyrc:110
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr "用于发出警告通知"
+
+#: src/kded/kded_bolt.notifyrc:147
+msgctxt "Name"
+msgid "Error"
+msgstr "错误"
+
+#: src/kded/kded_bolt.notifyrc:182
+msgctxt "Comment"
+msgid "Used for error notifications"
+msgstr "用于发出错误通知"
+
+#: src/kded/kded_bolt.notifyrc:220
+msgctxt "Name"
+msgid "Unauthorized device is plugged in"
+msgstr "未授权设备已被插入"
+
+#: src/kded/kded_bolt.notifyrc:255
+msgctxt "Comment"
+msgid "An unauthorized Thunderbolt device has been plugged into the computer"
+msgstr "一个未经授权的雷电接口设备已被插入到本机"
+
+#: src/kded/kded_bolt.notifyrc:294
+msgctxt "Name"
+msgid "Error during device authorization"
+msgstr "设备授权时出错"
+
+#: src/kded/kded_bolt.notifyrc:329
+msgctxt "Comment"
+msgid "An error occurred while authorizing or blocking a Thunderbolt device"
+msgstr "授权或屏蔽雷电接口设备时发生错误"
+
