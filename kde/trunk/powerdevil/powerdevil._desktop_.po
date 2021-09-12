@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
+"PO-Revision-Date: 2021-09-12 09:52\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/powerdevil/powerdevil._desktop_.pot\n"
+"X-Crowdin-File-ID: 8276\n"
+"Language: zh_CN\n"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:6
+msgctxt "Name"
+msgid "Screen brightness"
+msgstr "屏幕亮度"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:55
+msgctxt "Comment"
+msgid "Basic Controls for brightness"
+msgstr "亮度基本控制"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.desktop:6
+msgctxt "Name"
+msgid "Dim screen"
+msgstr "屏幕变暗"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.desktop:54
+msgctxt "Comment"
+msgid "Dims gradually the display on a time basis"
+msgstr "在一定时间逐渐降低屏幕亮度"
+
+#: daemon/actions/bundled/powerdevildpmsaction.desktop:5
+msgctxt "Name"
+msgid "Screen Energy Saving"
+msgstr "屏幕节能"
+
+#: daemon/actions/bundled/powerdevildpmsaction.desktop:54
+msgctxt "Comment"
+msgid "Controls DPMS settings"
+msgstr "控制屏幕电源管理设置"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:7
+msgctxt "Name"
+msgid "Button events handling"
+msgstr "按键事件处理"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:56
+msgctxt "Comment"
+msgid "Performs an action whenever a button is pressed"
+msgstr "按键时执行操作"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.desktop:6
+msgctxt "Name"
+msgid "Keyboard backlight"
+msgstr "键盘背光"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.desktop:54
+msgctxt "Comment"
+msgid "Basic Controls for the keyboard backlight brightness"
+msgstr "键盘背光亮度基本控制"
+
+#: daemon/actions/bundled/powerdevilpowerprofileaction.desktop:5
+msgctxt "Name"
+msgid "Power management profile"
+msgstr "电源管理配置方案"
+
+#: daemon/actions/bundled/powerdevilpowerprofileaction.desktop:34
+msgctxt "Comment"
+msgid "Apply a power management profile"
+msgstr "应用电源管理配置方案"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:6
+msgctxt "Name"
+msgid "Run script"
+msgstr "运行脚本"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:56
+msgctxt "Comment"
+msgid "Runs a custom script"
+msgstr "运行自定义脚本"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:6
+msgctxt "Name"
+msgid "Suspend session"
+msgstr "挂起会话"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:56
+msgctxt "Comment"
+msgid "Suspends the session"
+msgstr "挂起会话"
+
+#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:6
+msgctxt "Name"
+msgid "Wireless"
+msgstr "无线"
+
+#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:52
+msgctxt "Comment"
+msgid "Turns off signal-transmitting devices"
+msgstr "关闭信号收发设备"
+
+#: daemon/actions/powerdevilaction.desktop:5
+msgctxt "Comment"
+msgid "Power Management Action Extension"
+msgstr "电源管理操作扩展程序"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:2
+#: daemon/backends/upower/discretegpu_helper_actions.actions:2
+#: daemon/chargethreshold_helper_actions.actions:2
+msgctxt "Name"
+msgid "KDE"
+msgstr "KDE"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:55
+msgctxt "Name"
+msgid "Get maximum brightness value"
+msgstr "获取最大亮度"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:104
+#: daemon/backends/upower/backlight_helper_actions.actions:205
+msgctxt "Description"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "系统安全策略不允许获取亮度级别。"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:156
+msgctxt "Name"
+msgid "Get brightness"
+msgstr "获取亮度"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:257
+msgctxt "Name"
+msgid "Set brightness"
+msgstr "设置亮度"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:306
+msgctxt "Description"
+msgid "System policies prevent you from setting the brightness level."
+msgstr "系统安全策略不允许设置亮度级别。"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:357
+msgctxt "Name"
+msgid "Get syspath"
+msgstr "获取系统路径"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:403
+msgctxt "Description"
+msgid "System policies prevent you from getting the syspath"
+msgstr "系统安全策略不允许获取系统路径"
+
+#: daemon/backends/upower/discretegpu_helper_actions.actions:55
+msgctxt "Name"
+msgid "Check existence of discrete gpu"
+msgstr "检查是否存在独立 GPU"
+
+#: daemon/backends/upower/discretegpu_helper_actions.actions:99
+msgctxt "Description"
+msgid "System policies prevent you from checking the existence of discrete gpu."
+msgstr "系统安全策略不允许检查是否存在独立 GPU。"
+
+#: daemon/backends/upower/powerdevilupowerbackend.desktop:7
+msgctxt "Name"
+msgid "UPower PowerDevil Backend"
+msgstr "UPower PowerDevil 后端"
+
+#: daemon/backends/upower/powerdevilupowerbackend.desktop:53
+msgctxt "Comment"
+msgid "Use KDE Power Management system through freedesktop.org upower daemon"
+msgstr "通过 freedesktop.org 的 upower 守护程序使用 KDE 电源管理系统"
+
+#: daemon/chargethreshold_helper_actions.actions:55
+msgctxt "Name"
+msgid "Get current battery charge limit"
+msgstr "获取当前电池充电上限"
+
+#: daemon/chargethreshold_helper_actions.actions:87
+msgctxt "Description"
+msgid "System policies prevent you from getting the current battery charge limit."
+msgstr "系统安全策略不允许获取当前电池充电上限。"
+
+#: daemon/chargethreshold_helper_actions.actions:124
+msgctxt "Name"
+msgid "Set battery charge limit"
+msgstr "设置电池充电上限"
+
+#: daemon/chargethreshold_helper_actions.actions:157
+msgctxt "Description"
+msgid "System policies prevent you from setting a battery charge limit."
+msgstr "系统安全策略不允许设置电池充电上限。"
+
+#: daemon/powerdevil.desktop.cmake:4 powerdevil.notifyrc:2
+msgctxt "Name"
+msgid "Power Management"
+msgstr "电源管理"
+
+#: daemon/powerdevil.desktop.cmake:59
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr "电池、显示器和 CPU 电源管理及通知"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:13
+msgctxt "Name"
+msgid "Activity Power Settings"
+msgstr "活动电源设置"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:45
+msgctxt "Comment"
+msgid "Per-Activity Power Management"
+msgstr "基于活动的电源管理"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:93
+msgctxt "X-KDE-Keywords"
+msgid "system,power,power management,energy,laptop,battery,suspension,AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power saving,charging,charge,discharge,discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,power button,power buttons,low battery,plug,unplug,activity,activities,workspaces,workspace,special behavior"
+msgstr "system,power,power management,energy,laptop,battery,suspension,AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power saving,charging,charge,discharge,discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,power button,power buttons,low battery,plug,unplug,activity,activities,workspaces,workspace,special behavior,系统,电源,电源管理,能源,笔记本,电池,挂起,交流电,休眠,亮度,性能,性能模式,盖子,省电,省电模式,充电,放电,屏幕变暗,睡眠,锁屏,关闭屏幕,关闭,电源按钮,低电量,插入,插头,插座,拔出,活动,工作区,特殊行为"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:13
+msgctxt "Name"
+msgid "Advanced Power Settings"
+msgstr "高级电源设置"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:45
+msgctxt "Comment"
+msgid "Advanced Power Management Settings"
+msgstr "高级电源管理设置"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:94
+msgctxt "X-KDE-Keywords"
+msgid "system,power,power management,advanced,energy,laptop,battery,suspension,AC,suspend,hibernate,lid,charge,charging,limit,charge limit,charging limit,suspending,hibernating,discharge,discharging,turn off,battery levels,low battery,low level,critical level,power notifications"
+msgstr "system,power,power management,advanced,energy,laptop,battery,suspension,AC,suspend,hibernate,lid,charge,charging,limit,charge limit,charging limit,suspending,hibernating,discharge,discharging,turn off,battery levels,low battery,low level,critical level,power notifications,系统,电源,电源管理,高级,能源,笔记本,电池,挂起,交流电,休眠,盖子,充电,限制,充电限制,放电,关闭,电池电量,低电量,电量危急,危急电量临界值,电源通知"
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:13
+msgctxt "Name"
+msgid "Energy Saving"
+msgstr "节能"
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:63
+msgctxt "Comment"
+msgid "Energy Saving"
+msgstr "节能"
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:113
+msgctxt "X-KDE-Keywords"
+msgid "system,power,power management,energy,laptop,battery,suspension,AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power saving,charging,charge,discharge,discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,power button,power buttons,low battery,plug,unplug"
+msgstr "system,power,power management,energy,laptop,battery,suspension,AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power saving,charging,charge,discharge,discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,power button,power buttons,low battery,plug,unplug,activity,activities,workspaces,workspace,special behavior,系统,电源,电源管理,能源,笔记本,电池,挂起,交流电,休眠,亮度,性能,性能模式,盖子,省电,省电模式,充电,放电,屏幕变暗,睡眠,锁屏,关闭屏幕,关闭,电源按钮,低电量,插入,插头,插座,拔出"
+
+#: powerdevil.notifyrc:52
+msgctxt "Comment"
+msgid "Power Management System"
+msgstr "电源管理系统"
+
+#: powerdevil.notifyrc:103
+msgctxt "Name"
+msgid "Warning"
+msgstr "警告"
+
+#: powerdevil.notifyrc:152
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr "用于发出警告通知"
+
+#: powerdevil.notifyrc:202
+msgctxt "Name"
+msgid "Notification"
+msgstr "通知"
+
+#: powerdevil.notifyrc:252
+msgctxt "Comment"
+msgid "Used for standard notifications"
+msgstr "用于标准通知"
+
+#: powerdevil.notifyrc:302
+msgctxt "Name"
+msgid "Critical notification"
+msgstr "危急通知"
+
+#: powerdevil.notifyrc:351
+msgctxt "Comment"
+msgid "Notifies a critical event"
+msgstr "危急事件通知"
+
+#: powerdevil.notifyrc:401
+msgctxt "Name"
+msgid "Battery Low"
+msgstr "电池电量低"
+
+#: powerdevil.notifyrc:449
+msgctxt "Comment"
+msgid "Your battery has reached low level"
+msgstr "电池电量低"
+
+#: powerdevil.notifyrc:503
+msgctxt "Name"
+msgid "Battery Critical"
+msgstr "电池电量危急"
+
+#: powerdevil.notifyrc:551
+msgctxt "Comment"
+msgid "Your battery has reached critical level. This notification triggers a countdown before doing the configured action, hence it is strongly advised to leave that on."
+msgstr "电池电量危急。系统通知将会在倒计时完毕后执行预先配置的操作，强烈建议您保留此设定为开启。"
+
+#: powerdevil.notifyrc:605
+msgctxt "Name"
+msgid "Charge Complete"
+msgstr "充电完成"
+
+#: powerdevil.notifyrc:652
+msgctxt "Comment"
+msgid "The battery is fully charged"
+msgstr "电池已经充满"
+
+#: powerdevil.notifyrc:705
+msgctxt "Name"
+msgid "Peripheral Battery Low"
+msgstr "外设电池电量低"
+
+#: powerdevil.notifyrc:750
+msgctxt "Comment"
+msgid "The battery in a connected device, such as mouse or keyboard, is low"
+msgstr "外设，如鼠标或键盘的电池电量低"
+
+#: powerdevil.notifyrc:801
+msgctxt "Name"
+msgid "Power source connected"
+msgstr "电源已连接"
+
+#: powerdevil.notifyrc:834
+msgctxt "Comment"
+msgid "The power source has been connected"
+msgstr "电源已连接"
+
+#: powerdevil.notifyrc:873
+msgctxt "Name"
+msgid "Power source disconnected"
+msgstr "电源已断开连接"
+
+#: powerdevil.notifyrc:906
+msgctxt "Comment"
+msgid "The power source has been disconnected"
+msgstr "电源已断开连接"
+
