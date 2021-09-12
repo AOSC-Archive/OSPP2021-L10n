@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
+"PO-Revision-Date: 2021-09-12 09:33\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/bluedevil/bluedevil._desktop_.pot\n"
+"X-Crowdin-File-ID: 8220\n"
+"Language: zh_CN\n"
+
+#: src/applet/package/metadata.desktop:2 src/bluedevil.notifyrc:3
+#: src/kcm/package/metadata.desktop:2
+#: src/kio/bluetooth/bluetooth-network.desktop:3
+msgctxt "Name"
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: src/applet/package/metadata.desktop:51
+msgctxt "Comment"
+msgid "Bluetooth status and control"
+msgstr "蓝牙状态和控制"
+
+#: src/bluedevil.notifyrc:51
+msgctxt "Comment"
+msgid "Bluetooth system"
+msgstr "蓝牙系统"
+
+#: src/bluedevil.notifyrc:102
+msgctxt "Name"
+msgid "Authorization Requested"
+msgstr "要求认证"
+
+#: src/bluedevil.notifyrc:150
+msgctxt "Comment"
+msgid "A device wants to connect"
+msgstr "一个设备想要连接"
+
+#: src/bluedevil.notifyrc:202
+msgctxt "Name"
+msgid "Confirm PIN"
+msgstr "确认 PIN"
+
+#: src/bluedevil.notifyrc:250
+msgctxt "Comment"
+msgid "Confirm a device request using matching PINs"
+msgstr "通过 PIN 匹配确认设备请求"
+
+#: src/bluedevil.notifyrc:301
+msgctxt "Name"
+msgid "Request PIN"
+msgstr "请求 PIN"
+
+#: src/bluedevil.notifyrc:349
+msgctxt "Comment"
+msgid "A PIN is needed"
+msgstr "需要 PIN"
+
+#: src/bluedevil.notifyrc:402
+msgctxt "Name"
+msgid "Incoming File"
+msgstr "正在传入的文件"
+
+#: src/bluedevil.notifyrc:451
+msgctxt "Comment"
+msgid "Incoming file transfer"
+msgstr "正在传入的文件传输"
+
+#: src/bluedevil.notifyrc:503
+msgctxt "Name"
+msgid "Connection Failed"
+msgstr "连接失败"
+
+#: src/bluedevil.notifyrc:551
+msgctxt "Comment"
+msgid "Connection to device failed"
+msgstr "连接设备失败"
+
+#: src/bluedevil.notifyrc:603
+msgctxt "Name"
+msgid "Device Setup Finished"
+msgstr "设备完成设置"
+
+#: src/bluedevil.notifyrc:638
+msgctxt "Comment"
+msgid "Setting up a Bluetooth device finished successfully"
+msgstr "蓝牙设备设置成功"
+
+#: src/kcm/package/metadata.desktop:50
+msgctxt "Comment"
+msgid "Manage Bluetooth devices"
+msgstr "管理蓝牙设备"
+
+#: src/kcm/package/metadata.desktop:83
+msgctxt "X-KDE-Keywords"
+msgid "bluetooth,hardware,connection,devices,find devices,connect,disconnect,send file,receive file,transfer,wireless,visible,adapter,pin,trusted devices"
+msgstr "bluetooth,hardware,connection,devices,find devices,connect,disconnect,send file,receive file,transfer,wireless,visible,adapter,pin,trusted devices,蓝牙,硬件,连接,设备,查找设备,断开连接,发送文件,接收文件,传输,无线,可见性,适配器,已信任设备,信任设备,已信任的设备,信任的设备"
+
+#: src/sendfile/org.kde.bluedevilsendfile.desktop:2
+msgctxt "Name"
+msgid "BlueDevil Send File"
+msgstr "BlueDevil 文件发送"
+
+#: src/sendfile/org.kde.bluedevilsendfile.desktop:48
+msgctxt "GenericName"
+msgid "BlueDevil Send File"
+msgstr "BlueDevil 文件发送"
+
+#: src/sendfile/org.kde.bluedevilsendfile.desktop:94
+msgctxt "Comment"
+msgid "BlueDevil Send File"
+msgstr "BlueDevil 文件发送"
+
+#: src/wizard/org.kde.bluedevilwizard.desktop:2
+msgctxt "Name"
+msgid "BlueDevil Wizard"
+msgstr "BlueDevil 向导"
+
+#: src/wizard/org.kde.bluedevilwizard.desktop:50
+msgctxt "GenericName"
+msgid "BlueDevil Wizard"
+msgstr "BlueDevil 向导"
+
+#: src/wizard/org.kde.bluedevilwizard.desktop:98
+msgctxt "Comment"
+msgid "BlueDevil Wizard"
+msgstr "BlueDevil 向导"
+
