@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
+"PO-Revision-Date: 2021-09-12 09:25\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plymouth-kcm/plymouth-kcm._desktop_.pot\n"
+"X-Crowdin-File-ID: 8272\n"
+"Language: zh_CN\n"
+
+#: src/kcmplymouth_actions.actions:2
+msgctxt "Name"
+msgid "Plymouth Control Module"
+msgstr "Plymouth 控制模块"
+
+#: src/kcmplymouth_actions.actions:46
+msgctxt "Name"
+msgid "Save the Plymouth Theme"
+msgstr "保存 Plymouth 主题"
+
+#: src/kcmplymouth_actions.actions:86
+msgctxt "Description"
+msgid "System policies prevent you from applying the Plymouth theme."
+msgstr "系统策略阻止您应用 Plymouth 主题。"
+
+#: src/kcmplymouth_actions.actions:129
+msgctxt "Name"
+msgid "Install a new Plymouth Theme"
+msgstr "安装一个新的 Plymouth 主题"
+
+#: src/kcmplymouth_actions.actions:169
+msgctxt "Description"
+msgid "System policies prevent you from installing a Plymouth theme."
+msgstr "系统策略阻止您安装 Plymouth 主题。"
+
+#: src/kcmplymouth_actions.actions:212
+msgctxt "Name"
+msgid "Uninstall a new Plymouth Theme"
+msgstr "卸载新的 Plymouth 主题"
+
+#: src/kcmplymouth_actions.actions:252
+msgctxt "Description"
+msgid "System policies prevent you from uninstalling a Plymouth theme."
+msgstr "系统策略阻止您卸载 Plymouth 主题。"
+
+#: src/kcm_plymouth.desktop:13
+msgctxt "Name"
+msgid "Boot Splash Screen"
+msgstr "启动屏幕"
+
+#: src/kcm_plymouth.desktop:48
+msgctxt "Comment"
+msgid "Choose Plymouth boot splash screen"
+msgstr "选择 Plymouth 启动屏幕"
+
+#: src/kcm_plymouth.desktop:83
+msgctxt "X-KDE-Keywords"
+msgid "plymouth,splash,splash screen,boot splash,boot logo,boot theme,startup,start-up,start up,theme,visual,skin,boot up,boot-up,initialize,initialization"
+msgstr "plymouth,splash,splash screen,boot splash,boot logo,boot theme,startup,start-up,start up,theme,visual,skin,boot up,boot-up,initialize,initialization,欢迎屏幕,启动屏幕,启动图标,启动标识,启动主题,启动,主题,视觉效果,视觉,皮肤,初始化"
+
+#: src/package/metadata.desktop:2
+msgctxt "Name"
+msgid "System Splash"
+msgstr "系统启动屏幕"
+
+#: src/package/metadata.desktop:43
+msgctxt "Comment"
+msgid "Plymouth splash screen"
+msgstr "Plymouth 启动屏幕"
+
