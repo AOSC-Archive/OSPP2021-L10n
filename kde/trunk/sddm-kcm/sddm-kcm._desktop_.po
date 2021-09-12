@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-11 00:27+0000\n"
+"PO-Revision-Date: 2021-09-12 09:30\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/sddm-kcm/sddm-kcm._desktop_.pot\n"
+"X-Crowdin-File-ID: 8278\n"
+"Language: zh_CN\n"
+
+#: kcm_sddm.actions:2
+msgctxt "Name"
+msgid "SDDM"
+msgstr "SDDM"
+
+#: kcm_sddm.actions:52
+msgctxt "Name"
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: kcm_sddm.actions:98
+msgctxt "Description"
+msgid "Save Settings in SDDM"
+msgstr "保存 SDDM 设置"
+
+#: kcm_sddm.actions:147
+msgctxt "Name"
+msgid "Install an SDDM theme"
+msgstr "安装 SDDM 主题"
+
+#: kcm_sddm.actions:191
+msgctxt "Description"
+msgid "Extracts a zip file containing an SDDM theme to the SDDM theme location"
+msgstr "解压缩包含 SDDM 主题的 ZIP 文件到 SDDM 主题路径"
+
+#: kcm_sddm.actions:237
+msgctxt "Name"
+msgid "Uninstall an SDDM theme"
+msgstr "卸载 SDDM 主题"
+
+#: kcm_sddm.actions:281
+msgctxt "Description"
+msgid "Removes a previously installed SDDM theme"
+msgstr "移除已经安装的 SDDM 主题"
+
+#: kcm_sddm.actions:328
+msgctxt "Name"
+msgid "Synchronize Settings"
+msgstr "同步设置"
+
+#: kcm_sddm.actions:365
+msgctxt "Description"
+msgid "Synchronizes user settings with SDDM settings"
+msgstr "同步包括 SDDM 设置在内的用户设置"
+
+#: kcm_sddm.actions:405
+msgctxt "Name"
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: kcm_sddm.actions:442
+msgctxt "Description"
+msgid "Resets SDDM settings so there are not user settings"
+msgstr "重置 SDDM 设置以清除用户设置"
+
+#: kcm_sddm.desktop:11
+msgctxt "X-KDE-Keywords"
+msgid "sddm,display manager,themes,login theme,login screen,login skin,login visual,login look,logout,enter,authentication screen,sync settings,synchronize settings,session,default session,default user,user uid,login as,authenticate as,command to shutdown,command to restart"
+msgstr "sddm,display manager,themes,login theme,login screen,login skin,login visual,login look,logout,enter,authentication screen,sync settings,synchronize settings,session,default session,default user,user uid,login as,authenticate as,command to shutdown,command to restart,显示管理器,主题,登录主题,登录屏幕,登录皮肤,登录视觉效果,登录外观,注销,进入,身份验证屏幕,同步设置,会话,默认会话,默认用户,用户 uid,登录身份,认证身份,关机命令,重启命令"
+
+#: kcm_sddm.desktop:21 src/package/metadata.desktop:14
+msgctxt "Name"
+msgid "Login Screen (SDDM)"
+msgstr "登录屏幕 (SDDM)"
+
+#: kcm_sddm.desktop:69 src/package/metadata.desktop:62
+msgctxt "Comment"
+msgid "Configure Login Manager"
+msgstr "配置登录管理器"
+
+#: sddmtheme.knsrc:4
+msgctxt "Name"
+msgid "Login Screen"
+msgstr "登录屏幕"
+
