@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-06 00:29+0000\n"
+"PO-Revision-Date: 2021-09-12 09:12\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plasma-pa/plasma-pa._desktop_.pot\n"
+"X-Crowdin-File-ID: 8262\n"
+"Language: zh_CN\n"
+
+#: applet/metadata.desktop:2
+msgctxt "Name"
+msgid "Audio Volume"
+msgstr "音频音量"
+
+#: applet/metadata.desktop:48
+msgctxt "Comment"
+msgid "Adjust the volume of devices and applications"
+msgstr "调整设备和程序的音量"
+
+#: src/kcm/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Audio"
+msgstr "音频"
+
+#: src/kcm/package/metadata.desktop:41
+msgctxt "Comment"
+msgid "Configure audio devices and volume"
+msgstr "配置音频设备和音量"
+
+#: src/kcm/package/metadata.desktop:95
+msgctxt "X-KDE-Keywords"
+msgid "sound,volume,output,input,speakers,microphone,audio,music,hardware,devices,alsa,pulseaudio,pipewire,jack,hdmi,recording,playback,streams,sink,balance,audio balance,mono,stereo,surround,sound card,right speaker,left speaker,center speaker,notification sounds,analog,digital,headphone,headphones,earbuds,headset,earpiece,channel,channels,2.0,2.1,5.1,6.1,7.1"
+msgstr "sound,volume,output,input,speakers,microphone,audio,music,hardware,devices,alsa,pulseaudio,pipewire,jack,hdmi,recording,playback,streams,sink,balance,audio balance,mono,stereo,surround,sound card,right speaker,left speaker,center speaker,notification sounds,analog,digital,headphone,headphones,earbuds,headset,earpiece,channel,channels,2.0,2.1,5.1,6.1,7.1,声音,音量,输出,输入,扬声器,麦克风,音频,音乐,硬件,设备,录音,播放,流,平衡,音频平衡,单声道,立体声,环绕声,声卡,右扬声器,左扬声器,中扬声器,通知声,模拟,数字,耳机,耳塞,头戴式,头戴式耳机,听筒,声道"
+
