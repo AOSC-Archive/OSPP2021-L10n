@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-14 01:52+0000\n"
+"PO-Revision-Date: 2021-09-13 16:43\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kmymoney/kmymoney._json_.pot\n"
+"X-Crowdin-File-ID: 9608\n"
+"Language: zh_CN\n"
+
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+msgctxt "Name"
+msgid "Check printing"
+msgstr "支票打印"
+
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Name"
+msgid "CSV Exporter"
+msgstr "CSV 导出工具"
+
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Name"
+msgid "CSV Importer"
+msgstr "CSV 导入工具"
+
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+msgctxt "Name"
+msgid "GNC Importer"
+msgstr "GNC 导入工具"
+
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+msgctxt "Name"
+msgid "IBAN/BIC Data"
+msgstr "国际银行账号/银行识别码数据"
+
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+msgctxt "Name"
+msgid "iCalendar"
+msgstr "iCalendar"
+
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Name"
+msgid "KBanking"
+msgstr "KBanking"
+
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Name"
+msgid "OFX Importer"
+msgstr "OFX 导入工具"
+
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+msgctxt "Name"
+msgid "onlinejobpluginmockup"
+msgstr "onlinejobpluginmockup"
+
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Name"
+msgid "SEPA orders"
+msgstr "单一欧元支付区订单"
+
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+msgctxt "Name"
+msgid "QIF Exporter"
+msgstr "QIF 导出工具"
+
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Name"
+msgid "QIF Importer"
+msgstr "QIF 导入工具"
+
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Name"
+msgid "Reconciliation report"
+msgstr "对帐报告"
+
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Name"
+msgid "SQL Storage"
+msgstr "SQL 存储"
+
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Name"
+msgid "Budget view"
+msgstr "预算视图"
+
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+msgctxt "Name"
+msgid "Forecast view"
+msgstr "预测视图"
+
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Name"
+msgid "Online job outbox view"
+msgstr "线上任务发件箱视图"
+
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Name"
+msgid "Reports view"
+msgstr "报表视图"
+
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Name"
+msgid "Woob"
+msgstr "Woob"
+
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Name"
+msgid "XML Storage"
+msgstr "XML 存储"
+
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+msgctxt "Description"
+msgid "Provides the capability to print checks"
+msgstr "提供支票打印功能"
+
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Description"
+msgid "Add CSV exporting to KMyMoney"
+msgstr "为 KMyMoney 添加 CSV 导出服务"
+
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Description"
+msgid "Add CSV importing to KMyMoney"
+msgstr "为 KMyMoney 添加 CSV 导入服务"
+
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+msgctxt "Description"
+msgid "Add GnuCash importing to KMyMoney"
+msgstr "为 KMyMoney 添加 GnuCash 导入服务"
+
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+msgctxt "Description"
+msgid "Adds predefined IBAN/BIC numbers to KMyMoney"
+msgstr "为 KMyMoney 添加预定义的国际银行账号/银行识别码"
+
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+msgctxt "Description"
+msgid "Exports schedules to iCalendar files"
+msgstr "将日程表导出为 iCalebdar 文件"
+
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Description"
+msgid "Add HBCI/FinTs, OFX and PayPal online banking to KMyMoney"
+msgstr "将 HBCI (FinTs)、OFX 或 PayPal 网上银行添加到 KMyMoney"
+
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Description"
+msgid "Add OFX importing to KMyMoney"
+msgstr "为 KMyMoney 添加 QFX 导入服务"
+
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+msgctxt "Description"
+msgid "If mapped to an account, it pretends it could handle all onlineTasks (for developers only)."
+msgstr "绑定到账号上会假装可以处理所有在线任务 (仅限开发者用)"
+
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Description"
+msgid "Order types for single european payment area (SEPA) orders"
+msgstr "单一欧元支付区订单类型"
+
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+msgctxt "Description"
+msgid "Add QIF exporting to KMyMoney"
+msgstr "为 KMyMoney 添加 QIF 导出服务"
+
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Description"
+msgid "Add QIF importing to KMyMoney"
+msgstr "为 KMyMoney 添加 QIF 导入服务"
+
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Description"
+msgid "Creates a report after each reconciliation containing data about the reconciliation process"
+msgstr "每次对账后生成包含对账过程数据的报表"
+
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Description"
+msgid "Adds SQL storage support to KMyMoney"
+msgstr "为 KMyMoney 添加 SQL 存储支持"
+
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Description"
+msgid "Adds budget view to KMyMoney"
+msgstr "为 KMyMoney 添加预算视图"
+
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+msgctxt "Description"
+msgid "Adds forecast view to KMyMoney"
+msgstr "为 KMyMoney 添加预测视图"
+
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Description"
+msgid "Adds online job outbox view to KMyMoney"
+msgstr "为 KMyMoney 添加在线任务发件箱视图"
+
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Description"
+msgid "Adds reports view to KMyMoney"
+msgstr "为 KMyMoney 添加报告视图"
+
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Description"
+msgid "Plugin for Woob"
+msgstr "Woob 插件"
+
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Description"
+msgid "Adds XML storage support to KMyMoney"
+msgstr "为 KMyMoney 添加 XML 存储支持"
+
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Authors Name"
+msgid "Cristian Oneț"
+msgstr "Cristian Oneț"
+
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Authors Name"
+msgid "Allan Anderson"
+msgstr "Allan Anderson"
+
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Authors Name"
+msgid "Allan Anderson,Łukasz Wojniłowicz"
+msgstr "Allan Anderson,Łukasz Wojniłowicz"
+
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Authors Name"
+msgid "Michael Edwardes"
+msgstr "Michael Edwardes"
+
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Authors Name"
+msgid "Christian Dávid"
+msgstr "Christian Dávid"
+
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Authors Name"
+msgid "Martin Preuss,Thomas Baumgart,Christian Dávid"
+msgstr "Martin Preuss,Thomas Baumgart,Christian Dávid"
+
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Authors Name"
+msgid "Ace Jones,Thomas Baumgart"
+msgstr "Ace Jones,Thomas Baumgart"
+
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Authors Name"
+msgid "Christian David"
+msgstr "Christian David"
+
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Authors Name"
+msgid "Tony Bloomfield,Łukasz Wojniłowicz"
+msgstr "Tony Bloomfield,Łukasz Wojniłowicz"
+
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Authors Name"
+msgid "Darren Gould"
+msgstr "Darren Gould"
+
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Authors Name"
+msgid "Alvaro Soliverez,Łukasz Wojniłowicz"
+msgstr "Alvaro Soliverez,Łukasz Wojniłowicz"
+
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Authors Name"
+msgid "Romain Bignon"
+msgstr "Romain Bignon"
+
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Authors Name"
+msgid "Kevin Tambascio,Thomas Baumgart,Ace Jones,Łukasz Wojniłowicz"
+msgstr "Kevin Tambascio,Thomas Baumgart,Ace Jones,Łukasz Wojniłowicz"
+
