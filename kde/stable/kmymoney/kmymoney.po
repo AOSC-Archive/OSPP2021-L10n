@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-06 01:54+0000\n"
-"PO-Revision-Date: 2021-09-13 16:43\n"
+"PO-Revision-Date: 2021-09-14 08:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2698,7 +2698,7 @@ msgstr "KMyMoney"
 #: kmymoney/dialogs/kmymoneysplittable.cpp:769
 #, kde-format
 msgid "You need to assign a category to this split before it can be entered."
-msgstr "您必须在输入交易拆分信息前选择其分类。"
+msgstr "您必须在输入交易拆分信息前选择其类别。"
 
 #: kmymoney/dialogs/kmymoneysplittable.cpp:769
 #, kde-format
@@ -3842,7 +3842,7 @@ msgstr "标签"
 #: kmymoney/dialogs/settings/ksettingsgeneral.ui:370
 #, kde-format
 msgid "Show title bar on each page"
-msgstr "每页均显示标题栏"
+msgstr "在每个页面上显示标题栏"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_syncLedgerInvestment)
 #: kmymoney/dialogs/settings/ksettingsgeneral.ui:377
@@ -5825,12 +5825,12 @@ msgstr "无法加入账户：%1"
 #: kmymoney/kmymoney.cpp:2679
 #, kde-format
 msgid "<p><b>%1</b> cannot be moved to institution <b>%2</b>. Reason: %3</p>"
-msgstr ""
+msgstr "<p>无法将 <b>%1</b> 移动到金融机构 <b>%2</b> 中。原因：%3</p>"
 
 #: kmymoney/kmymoney.cpp:2692
 #, kde-format
 msgid "<p><b>%1</b> cannot be moved to <b>%2</b>. Reason: %3</p>"
-msgstr ""
+msgstr "<p>无法将 <b>%1</b> 移动到 <b>%2</b> 中。原因：%3</p>"
 
 #: kmymoney/kmymoney.cpp:2781
 #, kde-format
@@ -6269,7 +6269,7 @@ msgstr "F"
 #, kde-format
 msgctxt "Flag for unknown reconciliation state"
 msgid "?"
-msgstr ""
+msgstr "？"
 
 #: kmymoney/kmymoneyutils.cpp:462 kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:115
 #: kmymoney/wizards/kmymoneywizard_p.h:80
@@ -6373,7 +6373,7 @@ msgstr "正在装入 %1..."
 #: kmymoney/main.cpp:113
 #, kde-format
 msgid "language to be used"
-msgstr ""
+msgstr "要使用的语言"
 
 #: kmymoney/main.cpp:117
 #, kde-format
@@ -6480,7 +6480,7 @@ msgstr "总值"
 #, kde-format
 msgctxt "IBAN, SWIFT, etc."
 msgid "Sort Code"
-msgstr ""
+msgstr "类型代码"
 
 #: kmymoney/models/accountsmodel.cpp:1117
 #, kde-format
@@ -6690,7 +6690,7 @@ msgstr "份额"
 #: kmymoney/models/splitmodel.cpp:110
 #, kde-format
 msgid "Cost Center"
-msgstr ""
+msgstr "开销中心"
 
 #: kmymoney/models/splitmodel.cpp:114
 #, kde-format
@@ -7215,7 +7215,7 @@ msgstr ""
 #: kmymoney/mymoney/mymoneyfile.cpp:2723
 #, kde-format
 msgid "Zambian Kwacha (old)"
-msgstr ""
+msgstr "赞比亚克瓦查 (旧)"
 
 #: kmymoney/mymoney/mymoneyfile.cpp:2731
 #, kde-format
@@ -8517,7 +8517,7 @@ msgstr "收款人"
 #, kde-format
 msgctxt "Schedule group"
 msgid "Bills"
-msgstr ""
+msgstr "账单"
 
 #: kmymoney/mymoney/storage/schedulesmodel.cpp:152
 #, kde-format
@@ -8535,13 +8535,13 @@ msgstr ""
 #, kde-format
 msgctxt "Schedule group"
 msgid "Loans"
-msgstr ""
+msgstr "贷款"
 
 #: kmymoney/mymoney/storage/schedulesmodel.cpp:179
 #, kde-format
 msgctxt "Schedule header"
 msgid "Type/Name"
-msgstr ""
+msgstr "类型或名称"
 
 #: kmymoney/mymoney/storage/schedulesmodel.cpp:180
 #, kde-format
@@ -8571,7 +8571,7 @@ msgstr ""
 #, kde-format
 msgctxt "Schedule header"
 msgid "Frequency"
-msgstr ""
+msgstr "频率"
 
 #: kmymoney/mymoney/storage/schedulesmodel.cpp:185
 #, kde-format
@@ -8590,7 +8590,7 @@ msgstr "已完成"
 #, kde-format
 msgctxt "It's about printing bank checks"
 msgid "Check printing"
-msgstr ""
+msgstr "打印本票"
 
 #: kmymoney/plugins/checkprinting/checkprinting.cpp:80
 #, kde-format
@@ -8787,7 +8787,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item This comes after the hundred value digit"
 msgid " Hundred"
-msgstr ""
+msgstr " 百"
 
 #: kmymoney/plugins/checkprinting/numbertowords.cpp:38
 #, kde-format
@@ -8990,7 +8990,7 @@ msgstr ""
 #: kmymoney/plugins/csv/export/csvexporter.cpp:43
 #, kde-format
 msgid "CSV exporter"
-msgstr ""
+msgstr "CSV 导出工具"
 
 #: kmymoney/plugins/csv/export/csvexporter.cpp:70
 #, kde-format
@@ -9432,7 +9432,7 @@ msgstr "删除"
 #: kmymoney/plugins/csv/import/csvimporter.cpp:42
 #, kde-format
 msgid "CSV importer"
-msgstr ""
+msgstr "CSV 导入工具"
 
 #: kmymoney/plugins/csv/import/csvimporter.cpp:70
 #, kde-format
@@ -10302,7 +10302,7 @@ msgstr "删除股份"
 #: kmymoney/plugins/gnc/import/gncimporter.cpp:42
 #, kde-format
 msgid "GnuCash importer"
-msgstr ""
+msgstr "GnuCash 导入工具"
 
 #: kmymoney/plugins/gnc/import/gncimporter.cpp:137
 #, kde-format
@@ -10785,12 +10785,12 @@ msgstr "%1不是一个投资账户。您想为它建立一个账户吗？"
 #: kmymoney/plugins/ibanbicdata/ibanbicdata.cpp:24
 #, kde-format
 msgid "IBAN/BIC Data"
-msgstr ""
+msgstr "IBAN 或 BIC 数据"
 
 #: kmymoney/plugins/icalendar/export/icalendarexporter.cpp:51
 #, kde-format
 msgid "iCalendar exporter"
-msgstr ""
+msgstr "iCalendar 导出工具"
 
 #: kmymoney/plugins/icalendar/export/icalendarexporter.cpp:67
 #, kde-format
@@ -11216,17 +11216,17 @@ msgstr ""
 #: kmymoney/plugins/kbanking/views/kbjobview.ui:32
 #, kde-format
 msgid "Dequeue"
-msgstr ""
+msgstr "移出队列"
 
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:68
 #, kde-format
 msgid "Dequeue selected job"
-msgstr ""
+msgstr "将所选任务从队列中移除"
 
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:69
 #, kde-format
 msgid "Remove the selected job from the list"
-msgstr ""
+msgstr "将所选任务从列表中移除"
 
 #. i18n: ectx: property (text), widget (QPushButton, executeButton)
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:70
@@ -11239,13 +11239,13 @@ msgstr "执行"
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:73
 #, kde-format
 msgid "Execute all jobs in the queue"
-msgstr ""
+msgstr "执行队列中的所有任务"
 
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:129
 #, kde-format
 msgctxt "Warning message"
 msgid "There are no jobs in the queue."
-msgstr ""
+msgstr "队列中没有任务。"
 
 #: kmymoney/plugins/kbanking/views/kbjobview.cpp:130
 #, kde-format
@@ -11534,7 +11534,8 @@ msgstr "正在载入银行列表..."
 #, kde-format
 msgid "Getting list of banks from https://www.ofxhome.com/\n"
 "This may take some time depending on the available bandwidth."
-msgstr ""
+msgstr "正在从 https://www.ofxhome.com/ 上获取银行列表\n"
+"获取速度取决于您的网速。"
 
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:260
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:314
@@ -12103,7 +12104,7 @@ msgstr ""
 #: kmymoney/plugins/ofx/import/ofximporter.cpp:127
 #, kde-format
 msgid "OFX Importer"
-msgstr ""
+msgstr "OFX 导入工具"
 
 #: kmymoney/plugins/ofx/import/ofximporter.cpp:154
 #, kde-format
@@ -12675,7 +12676,7 @@ msgstr ""
 #: kmymoney/plugins/qif/export/qifexporter.cpp:38
 #, kde-format
 msgid "QIF exporter"
-msgstr ""
+msgstr "QIF 导出工具"
 
 #: kmymoney/plugins/qif/export/qifexporter.cpp:65
 #: kmymoney/plugins/qif/import/qifimporter.cpp:69
@@ -12979,7 +12980,7 @@ msgstr ""
 #: kmymoney/plugins/qif/import/qifimporter.cpp:42
 #, kde-format
 msgid "QIF importer"
-msgstr ""
+msgstr "QIF 导入工具"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KReconciliationReportDlgDecl)
 #: kmymoney/plugins/reconciliationreport/kreconciliationreportdlgdecl.ui:14
@@ -13096,7 +13097,7 @@ msgstr[0] ""
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:278
 #, kde-format
 msgid "Outstanding charges"
-msgstr ""
+msgstr "未支付的费用"
 
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:278
 #, kde-format
@@ -13107,7 +13108,7 @@ msgstr ""
 #, kde-format
 msgid "One outstanding charges of"
 msgid_plural "Total of %1 outstanding charges amounting to"
-msgstr[0] ""
+msgstr[0] "共 %1 笔未支付的费用，总计金额为"
 
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:313
 #, kde-format
@@ -13323,7 +13324,7 @@ msgstr "创建数据库 %1 时出错；您是否有创建权限？"
 #: kmymoney/plugins/sql/sqlstorage.cpp:81
 #, kde-format
 msgid "SQL storage"
-msgstr ""
+msgstr "SQL 存储"
 
 #: kmymoney/plugins/sql/sqlstorage.cpp:148
 #, kde-format
@@ -13395,7 +13396,7 @@ msgstr "无法打开和创建数据库%1]n 重试“另存为数据库”，并�
 #: kmymoney/plugins/views/budget/budgetview.cpp:29
 #, kde-format
 msgid "Budgets view"
-msgstr ""
+msgstr "预算视图"
 
 #: kmymoney/plugins/views/budget/kbudgetvalues.cpp:234
 #, kde-format
@@ -13455,7 +13456,7 @@ msgstr "预算%1"
 #: kmymoney/plugins/views/budget/kbudgetview.cpp:106
 #, kde-format
 msgid "Budget %1 %2"
-msgstr ""
+msgstr "预算 %1 %2"
 
 #: kmymoney/plugins/views/budget/kbudgetview.cpp:120
 #: kmymoney/plugins/views/budget/kbudgetview.cpp:166
@@ -13732,7 +13733,7 @@ msgstr "名称"
 #: kmymoney/plugins/views/forecast/forecastview.cpp:29
 #, kde-format
 msgid "Forecast view"
-msgstr ""
+msgstr "预测视图"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_forecastButton)
 #: kmymoney/plugins/views/forecast/forecastview.cpp:42
@@ -14150,12 +14151,12 @@ msgstr ""
 #, kde-format
 msgctxt "The user selected credit transfers to send. But they cannot be sent."
 msgid "Cannot send selection"
-msgstr ""
+msgstr "无法发送所选内容"
 
 #: kmymoney/plugins/views/onlinejoboutbox/konlinejoboutboxview.cpp:319
 #, kde-format
 msgid "Not all selected credit transfers can be sent because some of them are invalid or were already sent."
-msgstr ""
+msgstr "由于部分信用转账无效或已发出，故未发送全部所选记录"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sendMail)
 #. i18n: ectx: property (text), widget (QPushButton, buttonSend)
@@ -14303,7 +14304,7 @@ msgstr ""
 #: kmymoney/plugins/views/reports/reportsview.cpp:39
 #, kde-format
 msgid "Reports view"
-msgstr ""
+msgstr "报表视图"
 
 #: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.cpp:42
 #, kde-format
@@ -15649,7 +15650,8 @@ msgstr ""
 #, kde-format
 msgid "*.css|CSS files\n"
 "*|All files (*)"
-msgstr ""
+msgstr "*.css|CSS 文件\n"
+"*|所有文件 (*)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ReportTabPerformance)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ReportTabCapitalGain)
@@ -16260,7 +16262,7 @@ msgstr "历史"
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:128
 #, kde-format
 msgid "Loading Woob backend..."
-msgstr ""
+msgstr "正在加载 Woob 后端..."
 
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:129
 #, kde-format
@@ -16282,13 +16284,15 @@ msgstr ""
 #, kde-format
 msgid "No backends available.\n"
 "Add one using woob config-qt."
-msgstr ""
+msgstr "无可用后端。\n"
+"请使用 woob config-qt 添加一个。"
 
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:181
 #, kde-format
 msgid "No accounts available.\n"
 "Check your backend configuration in woob config-qt."
-msgstr ""
+msgstr "无可用账户。\n"
+"请检查 woob config-qt 的后端配置。"
 
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:190
 #, kde-format
@@ -16328,22 +16332,22 @@ msgstr ""
 #: kmymoney/plugins/woob/woob.cpp:61
 #, kde-format
 msgid "Woob plugin failed to fully initialize, most likely due to a missing or a misconfigured Python environment. Please refer to the manual on how to fix it."
-msgstr ""
+msgstr "无法初始化 Woob 插件，很可能是因为 Python 环境缺失或配置错误。请参阅手册修复此问题。"
 
 #: kmymoney/plugins/woob/woob.cpp:67
 #, kde-format
 msgid "Woob plugin failed to fully initialize, most likely due to a missing or a misconfigured Woob Python module. Please refer to the manual on how to fix it."
-msgstr ""
+msgstr "无法初始化 Woob 插件，很可能是因为 Woob Python 模块缺失或配置错误。请参阅手册修复此问题。"
 
 #: kmymoney/plugins/woob/woob.cpp:88
 #, kde-format
 msgid "Woob"
-msgstr ""
+msgstr "Woob"
 
 #: kmymoney/plugins/woob/woob.cpp:131
 #, kde-format
 msgid "Woob configuration"
-msgstr ""
+msgstr "Woob 配置"
 
 #: kmymoney/plugins/woob/woob.cpp:183
 #, kde-format
@@ -16353,12 +16357,12 @@ msgstr ""
 #: kmymoney/plugins/xml/kcm_xmlstorage.cpp:34
 #, kde-format
 msgid "GPG installation not found or not working properly."
-msgstr ""
+msgstr "未找到 GPG 安装程序，或安装程序运行异常。"
 
 #: kmymoney/plugins/xml/kcm_xmlstorage.cpp:153
 #, kde-format
 msgid "No GPG secret keys found, please run gpg[2] --gen-key or import keys into gpg"
-msgstr ""
+msgstr "未找到 GPG 私钥，请运行 gpg[2] --gen-key 或向 gpg 导入密钥。"
 
 #: kmymoney/plugins/xml/kcm_xmlstorage.cpp:168
 #: kmymoney/plugins/xml/ksettingsgpg.cpp:206
@@ -16478,17 +16482,17 @@ msgstr "正在保存预算..."
 #: kmymoney/plugins/xml/mymoneystoragexml.cpp:1811
 #, kde-format
 msgid "Saving online banking orders..."
-msgstr ""
+msgstr "正在保存网上银行订单..."
 
 #: kmymoney/plugins/xml/mymoneystoragexml.cpp:1829
 #, kde-format
 msgid "Saving costcenters..."
-msgstr ""
+msgstr "正在保存 costcenters..."
 
 #: kmymoney/plugins/xml/xmlstorage.cpp:66
 #, kde-format
 msgid "XML storage"
-msgstr ""
+msgstr "XML 存储"
 
 #: kmymoney/plugins/xml/xmlstorage.cpp:346
 #, kde-format
@@ -16642,7 +16646,8 @@ msgstr "在密钥环中存在恢复密钥"
 #, kde-format
 msgid "You can specify to encrypt the data also with the KMyMoney recover key. Only the core KMyMoney developers are in possession of the respective private key required to read back such encrypted data.<p>\n\n"
 "This mechanism is provided for the case that you have lost your key and cannot access your data anymore. With this option activated, the KMyMoney developers can decrypt the data and supply you with it in a readable form. Please be prepared, that you have to answer a few detailed questions about the contents of your data before we will send it out."
-msgstr ""
+msgstr "您可以同时使用 KMyMoney 恢复密钥来加密数据。只有 KMyMoney 核心开发者拥有密钥，才可读取此类加密数据。<p>\n\n"
+"这种机制可避免您因丢失密钥而无法读取数据。启用此选项后，KMyMoney 的开发者便可解密数据，并将数据以表格形式发还给您。在发还数据前，您还需要回答几个数据相关的问题。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EncryptRecover)
 #: kmymoney/plugins/xml/xmlstoragesettings.ui:181
@@ -16798,7 +16803,7 @@ msgstr ""
 #: kmymoney/settings/kmymoney.kcfg:138
 #, kde-format
 msgid "Show title bar on each view"
-msgstr ""
+msgstr "在每个视图上显示标题栏"
 
 #. i18n: ectx: label, entry (stringMatchFromStart), group (General Options)
 #: kmymoney/settings/kmymoney.kcfg:142
@@ -16846,7 +16851,7 @@ msgstr "在主页中显示账户限制信息"
 #: kmymoney/settings/kmymoney.kcfg:172
 #, kde-format
 msgid "Show balance status on the Homepage for accounts where data imports include balance information."
-msgstr ""
+msgstr "在首页显示各账户的余额"
 
 #. i18n: ectx: label, entry (ShowCountOfUnmarkedTransactions), group (Homepage Options)
 #: kmymoney/settings/kmymoney.kcfg:176
@@ -16876,7 +16881,7 @@ msgstr ""
 #: kmymoney/settings/kmymoney.kcfg:192
 #, kde-format
 msgid "Hide zero balance liabilities on the Homepage"
-msgstr ""
+msgstr "隐藏首页上零余额负债的账户"
 
 #. i18n: ectx: label, entry (useCustomColors), group (Color Options)
 #: kmymoney/settings/kmymoney.kcfg:198
@@ -17253,7 +17258,7 @@ msgstr "无法删除账户“%1”。原因：%2"
 #: kmymoney/views/kaccountsview.cpp:352
 #, kde-format
 msgid "<qt>You have closed this account. It remains in the system because you have transactions which still refer to it, but it is not shown in the views. You can make it visible again by going to the View menu and selecting <b>Show all accounts</b> or by deselecting the <b>Do not show closed accounts</b> setting.</qt>"
-msgstr ""
+msgstr "<qt>您已关闭此账户，但视图外仍有该账户相关的交易，故此账户仍留存在系统中。您可以在视图菜单中选择<b>显示所有账户</b>或取消选择<b>不显示已关闭账户</b>来查看相关交易。</qt>"
 
 #: kmymoney/views/kaccountsview.cpp:352
 #, kde-format
@@ -17415,7 +17420,7 @@ msgstr "对帐"
 #: kmymoney/views/kgloballedgerview.cpp:245
 #, kde-format
 msgid "Reconcile - disabled because you are currently reconciling <b>%1</b>"
-msgstr ""
+msgstr "核对——您正在核对 <b>%1</b>，故已禁用此操作"
 
 #: kmymoney/views/kgloballedgerview.cpp:309
 #, kde-format
@@ -17425,13 +17430,13 @@ msgstr "复制当前选中的交易"
 #: kmymoney/views/kgloballedgerview.cpp:313
 #, kde-format
 msgid "Add reversing transactions to the currently selected"
-msgstr ""
+msgstr "向所选交易添加反向交易"
 
 #: kmymoney/views/kgloballedgerview.cpp:364
 #, kde-format
 msgctxt "Button text for unmatch transaction"
 msgid "Unmatch"
-msgstr ""
+msgstr "取消匹配"
 
 #: kmymoney/views/kgloballedgerview.cpp:445
 #, kde-format
@@ -17514,7 +17519,7 @@ msgstr "无法在交易类别上下文里修改交易。"
 #: kmymoney/views/kgloballedgerview.cpp:1180
 #, kde-format
 msgid "Cannot create or edit any transactions in Account %1 as it is closed"
-msgstr ""
+msgstr "账户 %1 已关闭，您无法创建或编辑相关交易信息"
 
 #: kmymoney/views/kgloballedgerview.cpp:1202
 #, kde-format
@@ -17545,12 +17550,12 @@ msgstr "您对本交易的修改尚未保存，是否取消？<p>- <b>是</b>取
 #: kmymoney/views/kgloballedgerview.cpp:1383
 #, kde-format
 msgid "End transaction edit"
-msgstr ""
+msgstr "结束交易编辑"
 
 #: kmymoney/views/kgloballedgerview.cpp:1383
 #, kde-format
 msgid "<p>Please select what you want to do: discard or save the changes.</p><p>You can also set an option to save the transaction automatically when e.g. selecting another transaction.</p>"
-msgstr ""
+msgstr "<p>您尚未保存交易修改，要保存吗？</p><p>您还可以设置相关选项，在如选择其它交易时自动保存。</p>"
 
 #: kmymoney/views/kgloballedgerview.cpp:1495
 #, kde-format
@@ -17587,7 +17592,7 @@ msgstr ""
 #: kmymoney/views/kgloballedgerview.cpp:1705
 #, kde-format
 msgid "Date: %1"
-msgstr ""
+msgstr "日期：%1"
 
 #: kmymoney/views/kgloballedgerview.cpp:1708
 #, kde-format
@@ -17598,7 +17603,7 @@ msgstr "未知"
 #: kmymoney/views/kgloballedgerview.cpp:1712
 #, kde-format
 msgid "Payee: %1"
-msgstr ""
+msgstr "收款人：%1"
 
 #: kmymoney/views/kgloballedgerview.cpp:1715
 #: kmymoney/wizards/newaccountwizard/kaccountsummarypage.cpp:192
@@ -17610,7 +17615,7 @@ msgstr "金额: %1"
 #: kmymoney/views/kgloballedgerview.cpp:1718
 #, kde-format
 msgid "Memo: %1"
-msgstr ""
+msgstr "备忘：%1"
 
 #: kmymoney/views/kgloballedgerview.cpp:1989
 #, kde-format
@@ -17644,20 +17649,20 @@ msgstr "对帐单支付详细信息"
 #, kde-format
 msgid "%1 deposit (%2)"
 msgid_plural "%1 deposits (%2)"
-msgstr[0] ""
+msgstr[0] "%1 笔存款 (%2)"
 
 #: kmymoney/views/kgloballedgerview_p.h:820
 #, kde-format
 msgid "%1 charge (%2)"
 msgid_plural "%1 charges (%2)"
-msgstr[0] ""
+msgstr[0] "%1 笔赊购账 (%2)"
 
 #: kmymoney/views/kgloballedgerview_p.h:822
 #: kmymoney/views/kgloballedgerview_p.h:830
 #, kde-format
 msgid "%1 payment (%2)"
 msgid_plural "%1 payments (%2)"
-msgstr[0] ""
+msgstr[0] "%1 笔付款 (%2)"
 
 #: kmymoney/views/kgloballedgerview_p.h:825
 #, kde-format
@@ -17681,7 +17686,7 @@ msgstr "对帐单金额：%1"
 #, kde-format
 msgctxt "Cleared balance"
 msgid "Cleared: %1"
-msgstr ""
+msgstr "已结清：%1"
 
 #: kmymoney/views/kgloballedgerview_p.h:1021
 #, kde-format
@@ -17696,7 +17701,7 @@ msgstr "未对帐过"
 #: kmymoney/views/kgloballedgerview_p.h:1139
 #, kde-format
 msgid "Cannot process transactions in account %1, which is closed."
-msgstr ""
+msgstr "账户 %1 已关闭，无法处理相关交易。"
 
 #: kmymoney/views/kgloballedgerview_p.h:1145
 #, kde-format
@@ -17706,7 +17711,7 @@ msgstr "无法处理未被选中的交易。"
 #: kmymoney/views/kgloballedgerview_p.h:1233
 #, kde-format
 msgid "Unable to delete transaction(s)"
-msgstr ""
+msgstr "无法删除交易"
 
 #: kmymoney/views/kgloballedgerview_p.h:1262
 #, kde-format
@@ -17844,7 +17849,7 @@ msgstr "到最小余额/最大信用额"
 msgctxt "Forecast days"
 msgid "%1 Day Forecast"
 msgid_plural "%1 Day Forecast"
-msgstr[0] ""
+msgstr[0] "%1 天预测"
 
 #: kmymoney/views/khomeview_p.h:1057
 #, kde-format
@@ -18028,17 +18033,17 @@ msgstr "账簿"
 #: kmymoney/views/kmymoneyview.cpp:149
 #, kde-format
 msgid "New ledger"
-msgstr ""
+msgstr "新建账簿"
 
 #: kmymoney/views/kmymoneyview.cpp:334
 #, kde-format
 msgid "Do you want to show <b>%1</b> column on every loaded view?"
-msgstr ""
+msgstr "你想在每个已加载的视图上显示 <b>%1</b> 列吗？"
 
 #: kmymoney/views/kmymoneyview.cpp:336
 #, kde-format
 msgid "Do you want to hide <b>%1</b> column on every loaded view?"
-msgstr ""
+msgstr "你想在每个已加载的视图上隐藏 <b>%1</b> 列吗？"
 
 #: kmymoney/views/kmymoneyview.cpp:431
 #, kde-format
@@ -18108,7 +18113,7 @@ msgstr ""
 #: kmymoney/views/kmymoneyview.cpp:621
 #, kde-format
 msgid "Unable to add schedule: %1"
-msgstr ""
+msgstr "无法添加计划：%1"
 
 #: kmymoney/views/kpayeesview.cpp:174
 #, kde-format
@@ -18187,25 +18192,25 @@ msgstr "用它来开始重命名选中的收款人。"
 #: kmymoney/views/kpayeesview.ui:70
 #, kde-format
 msgid "Delete selected payee(s)"
-msgstr ""
+msgstr "删除所选收款人"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_deleteButton)
 #: kmymoney/views/kpayeesview.ui:73
 #, kde-format
 msgid "Use this to delete the selected payee. You can also select multiple payees to be deleted."
-msgstr ""
+msgstr "使用此选项删除所选的收款人 (可多选)。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_mergeButton)
 #: kmymoney/views/kpayeesview.ui:86
 #, kde-format
 msgid "Merge multiple selected payees"
-msgstr ""
+msgstr "合并选中的多个收款人"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_mergeButton)
 #: kmymoney/views/kpayeesview.ui:89
 #, kde-format
 msgid "Use this to merge multiple selected payees."
-msgstr ""
+msgstr "使用此选项合并选中的多个收款人。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_mergeButton)
 #: kmymoney/views/kpayeesview.ui:92
@@ -18300,13 +18305,13 @@ msgstr "此列表中包含了从外部数据源中导入交易时，用来匹配
 #: kmymoney/views/kpayeesview.ui:448
 #, kde-format
 msgid "Default Category"
-msgstr ""
+msgstr "默认类别"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkEnableDefaultCategory)
 #: kmymoney/views/kpayeesview.ui:454
 #, kde-format
 msgid "Use the default category for new transactions with this payee"
-msgstr ""
+msgstr "此收款人后续交易的默认分类"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDefaultCategory)
 #: kmymoney/views/kpayeesview.ui:463
@@ -18593,37 +18598,37 @@ msgstr ""
 #: kmymoney/views/ktagsview.ui:52
 #, kde-format
 msgid "Creates a new tag"
-msgstr ""
+msgstr "创建新标签"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_newButton)
 #: kmymoney/views/ktagsview.ui:55
 #, kde-format
 msgid "Use this to create a new tag."
-msgstr ""
+msgstr "使用此选项创建新标签。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_renameButton)
 #: kmymoney/views/ktagsview.ui:65
 #, kde-format
 msgid "Rename the current selected tag"
-msgstr ""
+msgstr "重命名当前所选的标签"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_renameButton)
 #: kmymoney/views/ktagsview.ui:68
 #, kde-format
 msgid "Use this to start renaming the selected tag."
-msgstr ""
+msgstr "使用此选项重命名所选标签。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_deleteButton)
 #: kmymoney/views/ktagsview.ui:78
 #, kde-format
 msgid "Delete the current selected tag"
-msgstr ""
+msgstr "删除当前所选的标签"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_deleteButton)
 #: kmymoney/views/ktagsview.ui:81
 #, kde-format
 msgid "Use this to delete the selected tag."
-msgstr ""
+msgstr "使用此选项删除所选标签。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGroup)
 #: kmymoney/views/ktagsview.ui:215
@@ -18780,42 +18785,42 @@ msgstr "* 用户界面更改"
 #: kmymoney/views/kwelcomepage.cpp:229
 #, kde-format
 msgid "- Show more tooltips why features are not available"
-msgstr ""
+msgstr "- 显示更多工具提示，解释功能无法使用的原因"
 
 #: kmymoney/views/kwelcomepage.cpp:230
 #, kde-format
 msgid "- Improved compatibility with dark color schemes"
-msgstr ""
+msgstr "- 提高了与深色主题的兼容性"
 
 #: kmymoney/views/kwelcomepage.cpp:231
 #, kde-format
 msgid "- Fast switching of main views via Ctrl + number key"
-msgstr ""
+msgstr "- 使用 Ctrl + 数字键快速切换主视图"
 
 #: kmymoney/views/kwelcomepage.cpp:232
 #, kde-format
 msgid "- Improved keyboard navigation"
-msgstr ""
+msgstr "- 提升了键盘导航的体验"
 
 #: kmymoney/views/kwelcomepage.cpp:233
 #, kde-format
 msgid "- View columns are user selectable"
-msgstr ""
+msgstr "- 用户现在可以选择视图列"
 
 #: kmymoney/views/kwelcomepage.cpp:234
 #, kde-format
 msgid "- Use QWebEngine in favor of KHTML when available"
-msgstr ""
+msgstr "- 尽量使用 QWebEngine 加载 KHTML"
 
 #: kmymoney/views/kwelcomepage.cpp:236
 #, kde-format
 msgid "* Im-/Exporter"
-msgstr ""
+msgstr "* 导入工具或导出工具"
 
 #: kmymoney/views/kwelcomepage.cpp:237
 #, kde-format
 msgid "- Added support for Woob"
-msgstr ""
+msgstr "- 添加了对 Woob 的支持"
 
 #: kmymoney/views/kwelcomepage.cpp:238
 #, kde-format
@@ -18825,12 +18830,12 @@ msgstr "- 改进CSV导入器"
 #: kmymoney/views/kwelcomepage.cpp:239
 #, kde-format
 msgid "- Added CSV exporter"
-msgstr ""
+msgstr "- 添加了 CSV 导出工具"
 
 #: kmymoney/views/kwelcomepage.cpp:240
 #, kde-format
 msgid "- Improved payee matching when importing transactions"
-msgstr ""
+msgstr "- 导入交易：改进了收款人的匹配规则"
 
 #: kmymoney/views/kwelcomepage.cpp:242
 #, kde-format
@@ -18840,22 +18845,22 @@ msgstr "* 在线服务"
 #: kmymoney/views/kwelcomepage.cpp:243
 #, kde-format
 msgid "- Updated list of application versions for OFX direct import"
-msgstr ""
+msgstr "- OFX 直接导入：更新了应用程序版本列表"
 
 #: kmymoney/views/kwelcomepage.cpp:244
 #, kde-format
 msgid "- Get rid of Yahoo as price source"
-msgstr ""
+msgstr "- 摆脱了对雅虎汇率源的依赖"
 
 #: kmymoney/views/kwelcomepage.cpp:245
 #, kde-format
 msgid "- Supporting OFX client uid required by some banks"
-msgstr ""
+msgstr "- 支持 OFX 客户端 uid，部分银行需要依赖此参数"
 
 #: kmymoney/views/kwelcomepage.cpp:246
 #, kde-format
 msgid "- Support price download by ISIN"
-msgstr ""
+msgstr "- 支持下载 ISIN 汇率"
 
 #: kmymoney/views/ledgerdelegate.cpp:189 kmymoney/widgets/register.cpp:1729
 #, kde-format
@@ -18929,7 +18934,7 @@ msgstr "下一财年"
 #: kmymoney/views/ledgerdelegate.cpp:276
 #, kde-format
 msgid "Online statement balance: %1"
-msgstr ""
+msgstr "网上对帐单余额：%1"
 
 #: kmymoney/views/newspliteditor.cpp:121 kmymoney/views/newtransactioneditor.cpp:234
 #, kde-format
@@ -19141,7 +19146,7 @@ msgstr "份额"
 #: kmymoney/widgets/investtransaction.cpp:279
 #, kde-format
 msgid "Fee Amount"
-msgstr ""
+msgstr "手续费金额"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_groupList)
 #: kmymoney/widgets/kaccounttemplateselector.ui:18
@@ -19462,7 +19467,7 @@ msgstr "前3个月到今后3个月"
 #: kmymoney/widgets/kmymoneytagcombo.cpp:95
 #, kde-format
 msgid "Closed tags cannot be used."
-msgstr ""
+msgstr "无法使用已关闭的标签。"
 
 #: kmymoney/widgets/kmymoneytagcombo.cpp:96
 #, kde-format
@@ -19472,12 +19477,12 @@ msgstr "已关闭标签"
 #: kmymoney/widgets/kmymoneytagcombo.cpp:101
 #, kde-format
 msgid "The tag is already present."
-msgstr ""
+msgstr "此标签已存在。"
 
 #: kmymoney/widgets/kmymoneytagcombo.cpp:102
 #, kde-format
 msgid "Duplicate tag"
-msgstr ""
+msgstr "标签已重复"
 
 #. i18n: ectx: property (text), widget (QLabel, icon)
 #: kmymoney/widgets/kmymoneyvalidationfeedback.ui:17
@@ -19749,7 +19754,7 @@ msgstr "上次对帐"
 #: kmymoney/widgets/register.cpp:1711
 #, kde-format
 msgid "Reconciled Balance: %1"
-msgstr ""
+msgstr "已核对余额：%1"
 
 #: kmymoney/widgets/register.cpp:1722
 #, kde-format
@@ -19968,7 +19973,7 @@ msgstr "利息/费用"
 #: kmymoney/wizards/endingbalancedlg/interestchargecheckingswizardpage.ui:12
 #, kde-format
 msgid "If necessary, enter information about interest or charges here. KMyMoney will create transactions and mark them as cleared."
-msgstr ""
+msgstr "必要时，在此处输入利息和费用。KMyMoney 会自动生成并结清交易记录。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: kmymoney/wizards/endingbalancedlg/interestchargecheckingswizardpage.ui:134
@@ -20033,7 +20038,7 @@ msgstr "帮助(&H)"
 #: kmymoney/wizards/kmymoneywizard_p.h:161
 #, kde-format
 msgid "No Title specified"
-msgstr ""
+msgstr "未指定标题"
 
 #: kmymoney/wizards/kmymoneywizard_p.h:274
 #, kde-format
@@ -21431,7 +21436,7 @@ msgstr "找到证券"
 #: kmymoney/wizards/newinvestmentwizard/knewinvestmentwizard.cpp:267
 #, kde-format
 msgid "Unexpected error occurred while adding new investment"
-msgstr ""
+msgstr "添加新投资交易时发生了未知错误"
 
 #: kmymoney/wizards/newinvestmentwizard/knewinvestmentwizard.cpp:283
 #, kde-format
