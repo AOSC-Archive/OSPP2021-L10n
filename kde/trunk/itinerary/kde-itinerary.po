@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-11 00:18+0000\n"
-"PO-Revision-Date: 2021-08-12 14:49\n"
+"POT-Creation-Date: 2021-09-06 00:19+0000\n"
+"PO-Revision-Date: 2021-09-24 03:27\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -87,52 +87,58 @@ msgstr "应用程序版本：%1"
 msgid "Extractor capabilities:"
 msgstr "数据提取器特性列表："
 
-#: app/applicationcontroller.cpp:303
+#: app/applicationcontroller.cpp:307
 #, kde-format
 msgid "Download failed: %1"
 msgstr "下载失败：%1"
 
-#: app/applicationcontroller.cpp:324 app/applicationcontroller.cpp:484
-#: app/applicationcontroller.cpp:499
+#: app/applicationcontroller.cpp:328 app/applicationcontroller.cpp:488
+#: app/applicationcontroller.cpp:503
 #, kde-format
 msgid "Import failed: %1"
 msgstr "导入失败：%1"
 
-#: app/applicationcontroller.cpp:329
+#: app/applicationcontroller.cpp:333
 #, kde-format
 msgid "Import failed: File too large."
 msgstr "导入失败：文件太大。"
 
-#: app/applicationcontroller.cpp:387 app/applicationcontroller.cpp:556
+#: app/applicationcontroller.cpp:391 app/applicationcontroller.cpp:560
+#: app/applicationcontroller.cpp:570
 #, kde-format
 msgid "One reservation imported."
 msgid_plural "%1 reservations imported."
 msgstr[0] "已导入 %1 个预约。"
 
-#: app/applicationcontroller.cpp:394
+#: app/applicationcontroller.cpp:398
 #, kde-format
 msgid "Health certificate imported."
 msgstr "已导入健康证书。"
 
-#: app/applicationcontroller.cpp:399
+#: app/applicationcontroller.cpp:403
 #, kde-format
 msgid "Nothing imported."
 msgstr "您提供的信息中没有可被导入的内容。"
 
-#: app/applicationcontroller.cpp:438 app/applicationcontroller.cpp:463
+#: app/applicationcontroller.cpp:442 app/applicationcontroller.cpp:467
 #, kde-format
 msgid "Export failed: %1"
 msgstr "导出失败：%1"
 
-#: app/applicationcontroller.cpp:451 app/applicationcontroller.cpp:476
+#: app/applicationcontroller.cpp:455 app/applicationcontroller.cpp:480
 #, kde-format
 msgid "Export completed."
 msgstr "导出完成。"
 
-#: app/applicationcontroller.cpp:523
+#: app/applicationcontroller.cpp:527
 #, kde-format
 msgid "Import completed."
 msgstr "导入完成。"
+
+#: app/BarcodeScanModeController.qml:29
+#, kde-format
+msgid "In barcode scanning mode"
+msgstr "条形码扫描模式"
 
 #: app/BusDelegate.qml:24 app/TrainDelegate.qml:24 app/TransferDelegate.qml:43
 #, kde-format
@@ -159,59 +165,65 @@ msgstr "到达时间：%1"
 msgid "Bus Ticket"
 msgstr "车票"
 
-#: app/BusPage.qml:30 app/TrainPage.qml:46
+#: app/BusPage.qml:29 app/EventPage.qml:26 app/FlightPage.qml:35
+#: app/HealthCertificatePage.qml:22 app/PkPassPage.qml:25 app/TrainPage.qml:27
+#, kde-format
+msgid "Barcode Scan Mode"
+msgstr "条形码扫描模式"
+
+#: app/BusPage.qml:39 app/TrainPage.qml:55
 #, kde-format
 msgid "Alternatives"
 msgstr "备选车次"
 
-#: app/BusPage.qml:68 app/TrainEditor.qml:45 app/TrainPage.qml:128
+#: app/BusPage.qml:84 app/TrainEditor.qml:45 app/TrainPage.qml:144
 #, kde-format
 msgid "Departure"
 msgstr "出发时间"
 
-#: app/BusPage.qml:71 app/BusPage.qml:90 app/CarRentalPage.qml:27
-#: app/CarRentalPage.qml:45 app/FlightPage.qml:100 app/FlightPage.qml:132
+#: app/BusPage.qml:87 app/BusPage.qml:106 app/CarRentalPage.qml:27
+#: app/CarRentalPage.qml:45 app/FlightPage.qml:115 app/FlightPage.qml:147
 #, kde-format
 msgid "Time:"
 msgstr "时间："
 
-#: app/BusPage.qml:75 app/BusPage.qml:94 app/TrainEditor.qml:50
+#: app/BusPage.qml:91 app/BusPage.qml:110 app/TrainEditor.qml:50
 #: app/TrainEditor.qml:67
 #, kde-format
 msgid "Station:"
 msgstr "站点："
 
-#: app/BusPage.qml:86 app/TrainEditor.qml:62 app/TrainPage.qml:178
+#: app/BusPage.qml:102 app/TrainEditor.qml:62 app/TrainPage.qml:194
 #, kde-format
 msgid "Arrival"
 msgstr "到达时间"
 
-#: app/BusPage.qml:105 app/TrainEditor.qml:79 app/TrainPage.qml:227
+#: app/BusPage.qml:121 app/TrainEditor.qml:79 app/TrainPage.qml:243
 #, kde-format
 msgid "Seat"
 msgstr "座位"
 
-#: app/BusPage.qml:109 app/FlightEditor.qml:57 app/FlightPage.qml:82
-#: app/TrainEditor.qml:89 app/TrainPage.qml:239
+#: app/BusPage.qml:125 app/FlightEditor.qml:57 app/FlightPage.qml:97
+#: app/TrainEditor.qml:89 app/TrainPage.qml:255
 #, kde-format
 msgid "Seat:"
 msgstr "座位："
 
-#: app/BusPage.qml:115 app/FlightPage.qml:155 app/TrainEditor.qml:100
-#: app/TrainPage.qml:271
+#: app/BusPage.qml:131 app/FlightPage.qml:170 app/TrainEditor.qml:100
+#: app/TrainPage.qml:287
 #, kde-format
 msgid "Booking"
 msgstr "预订"
 
-#: app/BusPage.qml:119 app/CarRentalPage.qml:87 app/FlightPage.qml:161
-#: app/TrainEditor.qml:104 app/TrainPage.qml:275
+#: app/BusPage.qml:135 app/CarRentalPage.qml:87 app/FlightPage.qml:176
+#: app/TrainEditor.qml:104 app/TrainPage.qml:291
 #, kde-format
 msgid "Reference:"
 msgstr "参考："
 
-#: app/BusPage.qml:123 app/CarRentalPage.qml:83 app/FlightPage.qml:161
+#: app/BusPage.qml:139 app/CarRentalPage.qml:83 app/FlightPage.qml:176
 #: app/HotelPage.qml:69 app/RestaurantPage.qml:73 app/TrainEditor.qml:108
-#: app/TrainPage.qml:279
+#: app/TrainPage.qml:295
 #, kde-format
 msgid "Under name:"
 msgstr "乘客姓名："
@@ -241,7 +253,7 @@ msgstr "出租车"
 msgid "Pick-up"
 msgstr "上车"
 
-#: app/CarRentalPage.qml:31 app/CarRentalPage.qml:49 app/EventPage.qml:44
+#: app/CarRentalPage.qml:31 app/CarRentalPage.qml:49 app/EventPage.qml:59
 #: app/HotelPage.qml:35 app/RestaurantPage.qml:35 app/TouristAttractionPage.qml:31
 #, kde-format
 msgid "Location:"
@@ -257,8 +269,8 @@ msgstr "下车"
 msgid "Vehicle"
 msgstr "车辆"
 
-#: app/CarRentalPage.qml:63 app/HealthCertificateTest.qml:62
-#: app/HealthCertificateVaccination.qml:62
+#: app/CarRentalPage.qml:63 app/HealthCertificateTest.qml:69
+#: app/HealthCertificateVaccination.qml:69
 #, kde-format
 msgid "Type:"
 msgstr "类型："
@@ -295,7 +307,7 @@ msgstr "更早"
 msgid "Later"
 msgstr "更晚"
 
-#: app/DepartureQueryPage.qml:57 app/JourneySectionDelegate.qml:36
+#: app/DepartureQueryPage.qml:57 app/JourneySectionDelegate.qml:38
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
@@ -318,8 +330,8 @@ msgstr "数据提供者：%1"
 msgid "Do you really want to delete this event?"
 msgstr "您确定要删除此活动吗？"
 
-#: app/DetailsPage.qml:50 app/DetailsPage.qml:142 app/DocumentsPage.qml:79
-#: app/HealthCertificatePage.qml:28 app/HealthCertificatePage.qml:45
+#: app/DetailsPage.qml:50 app/DetailsPage.qml:142 app/DocumentsPage.qml:81
+#: app/HealthCertificatePage.qml:36 app/HealthCertificatePage.qml:53
 #: app/TimelinePage.qml:44
 #, kde-format
 msgid "Delete"
@@ -391,27 +403,27 @@ msgstr "添加文档"
 msgid "All Files (*.*)"
 msgstr "所有文件 (*.*)"
 
-#: app/DocumentsPage.qml:52
+#: app/DocumentsPage.qml:54
 #, kde-format
 msgid "Open Document"
 msgstr "打开文档"
 
-#: app/DocumentsPage.qml:57
+#: app/DocumentsPage.qml:59
 #, kde-format
 msgid "Delete Document"
 msgstr "删除文档"
 
-#: app/DocumentsPage.qml:72
+#: app/DocumentsPage.qml:74
 #, kde-format
 msgid "Do you really want to delete this document?"
 msgstr "您确定要删除此文档吗？"
 
-#: app/DocumentsPage.qml:93
+#: app/DocumentsPage.qml:95
 #, kde-format
 msgid "Add Document..."
 msgstr "添加文档…"
 
-#: app/DocumentsPage.qml:104
+#: app/DocumentsPage.qml:106
 #, kde-format
 msgid "No documents attached to this reservation."
 msgstr "没有附加到此预订的文件。"
@@ -458,18 +470,18 @@ msgctxt "event as in concert/conference/show, not as in appointment"
 msgid "Event"
 msgstr "活动"
 
-#: app/EventPage.qml:56
+#: app/EventPage.qml:71
 #, kde-format
 msgctxt "time of entrance"
 msgid "Entrance:"
 msgstr "入场时间："
 
-#: app/EventPage.qml:61
+#: app/EventPage.qml:76
 #, kde-format
 msgid "Start Time:"
 msgstr "开始时间："
 
-#: app/EventPage.qml:65
+#: app/EventPage.qml:80
 #, kde-format
 msgid "End Time:"
 msgstr "结束时间："
@@ -584,7 +596,7 @@ msgstr "编辑航班"
 msgid "Boarding time:"
 msgstr "登机时间："
 
-#: app/FlightEditor.qml:74 app/FlightPage.qml:97
+#: app/FlightEditor.qml:74 app/FlightPage.qml:112
 #, kde-format
 msgctxt "flight departure"
 msgid "Departure"
@@ -608,64 +620,64 @@ msgctxt "flight departure gate"
 msgid "Departure gate:"
 msgstr "登机口："
 
-#: app/FlightPage.qml:17 app/FlightPage.qml:67
+#: app/FlightPage.qml:17 app/FlightPage.qml:82
 #, kde-format
 msgid "Flight"
 msgstr "航班信息"
 
-#: app/FlightPage.qml:59
+#: app/FlightPage.qml:74
 #, kde-format
 msgid "Sequence Number:"
 msgstr "登机序号："
 
-#: app/FlightPage.qml:70
+#: app/FlightPage.qml:85
 #, kde-format
 msgid "Boarding:"
 msgstr "登机："
 
-#: app/FlightPage.qml:76
+#: app/FlightPage.qml:91
 #, kde-format
 msgid "Boarding group:"
 msgstr "登机组："
 
-#: app/FlightPage.qml:88
+#: app/FlightPage.qml:103
 #, kde-format
 msgid "Airline:"
 msgstr "航空公司："
 
-#: app/FlightPage.qml:105 app/FlightPage.qml:137
+#: app/FlightPage.qml:120 app/FlightPage.qml:152
 #, kde-format
 msgid "Airport:"
 msgstr "机场："
 
-#: app/FlightPage.qml:115 app/FlightPage.qml:147
+#: app/FlightPage.qml:130 app/FlightPage.qml:162
 #, kde-format
 msgid "Terminal:"
 msgstr "航站楼："
 
-#: app/FlightPage.qml:120
+#: app/FlightPage.qml:135
 #, kde-format
 msgid "Gate:"
 msgstr "登机口："
 
-#: app/FlightPage.qml:129
+#: app/FlightPage.qml:144
 #, kde-format
 msgctxt "flight arrival"
 msgid "Arrival"
 msgstr "到达信息"
 
-#: app/FlightPage.qml:169
+#: app/FlightPage.qml:184
 #, kde-format
 msgid "Frequent Traveler Program"
 msgstr "常用旅行程序"
 
-#: app/FlightPage.qml:174
+#: app/FlightPage.qml:189
 #, kde-format
 msgctxt "name of a frequent flyer program"
 msgid "Program:"
 msgstr "程序名："
 
-#: app/FlightPage.qml:180 app/TrainPage.qml:264
+#: app/FlightPage.qml:195 app/TrainPage.qml:280
 #, kde-format
 msgid "Number:"
 msgstr "会员号："
@@ -690,12 +702,6 @@ msgstr "从 %2 开往 %3 的 %1 次列车"
 msgid "Bus %1 from %2 to %3"
 msgstr "从 %2 开往 %3 的 %1 次汽车"
 
-#: app/HealthCertificateBarcode.qml:41 app/PkPassBarcode.qml:27
-#: app/TicketTokenDelegate.qml:74
-#, kde-format
-msgid "In barcode scanning mode"
-msgstr "条形码扫描模式"
-
 #: app/healthcertificatemanager.cpp:112
 #, kde-format
 msgid "Vaccination %1/%2 (%3)"
@@ -716,154 +722,154 @@ msgstr "已痊愈 (%1)"
 msgid "Health Certificates"
 msgstr "健康证书"
 
-#: app/HealthCertificatePage.qml:23
+#: app/HealthCertificatePage.qml:31
 #, kde-format
 msgid "Import from Clipboard"
 msgstr "从剪贴板中导入"
 
-#: app/HealthCertificatePage.qml:38
+#: app/HealthCertificatePage.qml:46
 #, kde-format
 msgid "Do you really want to delete this certificate?"
 msgstr "您确定要删除此证书吗？"
 
-#: app/HealthCertificatePage.qml:94
+#: app/HealthCertificatePage.qml:103
 #, kde-format
 msgid "<p>You can import the following health certificates by scanning them with a barcode scanner app:<ul><li>European \"Digital Green Certificates\" for vaccinations, tests or recovery.</li><li>Indian vaccination certificates.</li></p>"
 msgstr "<p>您可通过条码扫描器扫描健康证书上的二维码来导入以下证书：<ul><li>欧洲“数字绿色证书”：用于证明持证人的疫苗接种情况、病毒检测结果或疾病痊愈状态。</li><li>印度疫苗接种证书。</li></p>"
 
-#: app/HealthCertificateRecovery.qml:32 app/HealthCertificateTest.qml:32
-#: app/HealthCertificateVaccination.qml:32
+#: app/HealthCertificateRecovery.qml:39 app/HealthCertificateTest.qml:39
+#: app/HealthCertificateVaccination.qml:39
 #, kde-format
 msgid "Person"
 msgstr "持证人信息"
 
-#: app/HealthCertificateRecovery.qml:37 app/HealthCertificateTest.qml:37
-#: app/HealthCertificateVaccination.qml:37
-#: app/PlaceEditor.qml:20 app/TrainPage.qml:258
+#: app/HealthCertificateRecovery.qml:44 app/HealthCertificateTest.qml:44
+#: app/HealthCertificateVaccination.qml:44
+#: app/PlaceEditor.qml:20 app/TrainPage.qml:274
 #, kde-format
 msgid "Name:"
 msgstr "姓名："
 
-#: app/HealthCertificateRecovery.qml:42 app/HealthCertificateTest.qml:42
-#: app/HealthCertificateVaccination.qml:42
+#: app/HealthCertificateRecovery.qml:49 app/HealthCertificateTest.qml:49
+#: app/HealthCertificateVaccination.qml:49
 #, kde-format
 msgid "Date of birth:"
 msgstr "出生日期："
 
-#: app/HealthCertificateRecovery.qml:47
+#: app/HealthCertificateRecovery.qml:54
 #, kde-format
 msgid "Recovery"
 msgstr "痊愈状态"
 
-#: app/HealthCertificateRecovery.qml:52
+#: app/HealthCertificateRecovery.qml:59
 #, kde-format
 msgid "Positive test:"
 msgstr "阳性检测结果："
 
-#: app/HealthCertificateRecovery.qml:56 app/HealthCertificateTest.qml:57
-#: app/HealthCertificateVaccination.qml:57
+#: app/HealthCertificateRecovery.qml:63 app/HealthCertificateTest.qml:64
+#: app/HealthCertificateVaccination.qml:64
 #, kde-format
 msgid "Disease:"
 msgstr "疾病名："
 
-#: app/HealthCertificateRecovery.qml:60
+#: app/HealthCertificateRecovery.qml:67
 #, kde-format
 msgid "Valid from:"
 msgstr "有效期自："
 
-#: app/HealthCertificateRecovery.qml:64
+#: app/HealthCertificateRecovery.qml:71
 #, kde-format
 msgid "Valid until:"
 msgstr "有效期至："
 
-#: app/HealthCertificateRecovery.qml:69 app/HealthCertificateTest.qml:87
-#: app/HealthCertificateVaccination.qml:86
+#: app/HealthCertificateRecovery.qml:76 app/HealthCertificateTest.qml:94
+#: app/HealthCertificateVaccination.qml:93
 #, kde-format
 msgid "Certificate"
 msgstr "证书信息"
 
-#: app/HealthCertificateRecovery.qml:74 app/HealthCertificateTest.qml:92
-#: app/HealthCertificateVaccination.qml:91
+#: app/HealthCertificateRecovery.qml:81 app/HealthCertificateTest.qml:99
+#: app/HealthCertificateVaccination.qml:98
 #, kde-format
 msgid "Issuer:"
 msgstr "颁发单位："
 
-#: app/HealthCertificateRecovery.qml:78 app/HealthCertificateTest.qml:96
-#: app/HealthCertificateVaccination.qml:95
+#: app/HealthCertificateRecovery.qml:85 app/HealthCertificateTest.qml:103
+#: app/HealthCertificateVaccination.qml:102
 #, kde-format
 msgid "Identifier:"
 msgstr "标识符："
 
-#: app/HealthCertificateRecovery.qml:83 app/HealthCertificateTest.qml:101
-#: app/HealthCertificateVaccination.qml:100
+#: app/HealthCertificateRecovery.qml:90 app/HealthCertificateTest.qml:108
+#: app/HealthCertificateVaccination.qml:107
 #, kde-format
 msgid "Issued:"
 msgstr "颁发时间："
 
-#: app/HealthCertificateRecovery.qml:87 app/HealthCertificateTest.qml:105
-#: app/HealthCertificateVaccination.qml:104
+#: app/HealthCertificateRecovery.qml:94 app/HealthCertificateTest.qml:112
+#: app/HealthCertificateVaccination.qml:111
 #, kde-format
 msgid "Expires:"
 msgstr "有效期至："
 
-#: app/HealthCertificateRecovery.qml:101 app/HealthCertificateTest.qml:119
-#: app/HealthCertificateVaccination.qml:118
+#: app/HealthCertificateRecovery.qml:108 app/HealthCertificateTest.qml:126
+#: app/HealthCertificateVaccination.qml:125
 #, kde-format
 msgid "Signature:"
 msgstr "签名："
 
-#: app/HealthCertificateTest.qml:47
+#: app/HealthCertificateTest.qml:54
 #, kde-format
 msgid "Test"
 msgstr "检测结果"
 
-#: app/HealthCertificateTest.qml:52 app/HealthCertificateVaccination.qml:52
+#: app/HealthCertificateTest.qml:59 app/HealthCertificateVaccination.qml:59
 #, kde-format
 msgid "Date:"
 msgstr "日期："
 
-#: app/HealthCertificateTest.qml:68
+#: app/HealthCertificateTest.qml:75
 #, kde-format
 msgid "Test:"
 msgstr "检疫项目："
 
-#: app/HealthCertificateTest.qml:73
+#: app/HealthCertificateTest.qml:80
 #, kde-format
 msgid "Result:"
 msgstr "结果："
 
-#: app/HealthCertificateTest.qml:78
+#: app/HealthCertificateTest.qml:85
 #, kde-format
 msgid "Test Center:"
 msgstr "检测机构："
 
-#: app/HealthCertificateTest.qml:82 app/HealthCertificateVaccination.qml:81
+#: app/HealthCertificateTest.qml:89 app/HealthCertificateVaccination.qml:88
 #: app/PlaceEditor.qml:87
 #, kde-format
 msgid "Country:"
 msgstr "国家："
 
-#: app/HealthCertificateVaccination.qml:47
+#: app/HealthCertificateVaccination.qml:54
 #, kde-format
 msgid "Vaccination"
 msgstr "接种情况"
 
-#: app/HealthCertificateVaccination.qml:67
+#: app/HealthCertificateVaccination.qml:74
 #, kde-format
 msgid "Vaccine:"
 msgstr "疫苗："
 
-#: app/HealthCertificateVaccination.qml:72
+#: app/HealthCertificateVaccination.qml:79
 #, kde-format
 msgid "Manufacturer:"
 msgstr "生产厂家："
 
-#: app/HealthCertificateVaccination.qml:75
+#: app/HealthCertificateVaccination.qml:82
 #, kde-format
 msgid "%1/%2"
 msgstr "%1/%2"
 
-#: app/HealthCertificateVaccination.qml:76
+#: app/HealthCertificateVaccination.qml:83
 #, kde-format
 msgid "Dose:"
 msgstr "接种次数："
@@ -1054,38 +1060,38 @@ msgstr "您确定要用新选择的行程替换已有的预订吗？"
 msgid "Replace"
 msgstr "替换"
 
-#: app/JourneySectionDelegate.qml:101
+#: app/JourneySectionDelegate.qml:103
 #, kde-format
 msgid "%1 to %2 (%3)"
 msgstr "%1 到 %2 (%3)"
 
-#: app/JourneySectionDelegate.qml:102 app/JourneySectionDelegate.qml:113
+#: app/JourneySectionDelegate.qml:104 app/JourneySectionDelegate.qml:115
 #: app/tickettokenmodel.cpp:113
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: app/JourneySectionDelegate.qml:106
+#: app/JourneySectionDelegate.qml:108
 #, kde-format
 msgid "Walk (%1)"
 msgstr "步行 (%1)"
 
-#: app/JourneySectionDelegate.qml:107
+#: app/JourneySectionDelegate.qml:109
 #, kde-format
 msgid "Walk %1 (%2)"
 msgstr "步行 %1 (%2)"
 
-#: app/JourneySectionDelegate.qml:109
+#: app/JourneySectionDelegate.qml:111
 #, kde-format
 msgid "Transfer (%1)"
 msgstr "运输 %1"
 
-#: app/JourneySectionDelegate.qml:111
+#: app/JourneySectionDelegate.qml:113
 #, kde-format
 msgid "Wait (%1)"
 msgstr "等待 (%1)"
 
-#: app/JourneySectionPage.qml:15 app/TrainPage.qml:78
+#: app/JourneySectionPage.qml:15 app/TrainPage.qml:87
 #, kde-format
 msgid "Journey Details"
 msgstr "旅程详情"
@@ -1112,7 +1118,7 @@ msgid "One change"
 msgid_plural "%1 changes"
 msgstr[0] "%1 个更改"
 
-#: app/livedatamanager.cpp:634
+#: app/livedatamanager.cpp:637
 #, kde-format
 msgid "Itinerary change"
 msgstr "行程更改"
@@ -1232,7 +1238,17 @@ msgstr "M 型"
 msgid "Type N"
 msgstr "N 型"
 
-#: app/main.cpp:234
+#: app/main.cpp:229
+#, kde-format
+msgid "Digital Travel Assistant"
+msgstr "数字旅行助理应用"
+
+#: app/main.cpp:230
+#, kde-format
+msgid "Copyright © 2018-2021 The KDE Community"
+msgstr "Copyright © 2018-2021 KDE 社区"
+
+#: app/main.cpp:237
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
 msgstr "要导入的 PkPass 文件或 JSON-LD 文件。"
@@ -1696,8 +1712,8 @@ msgstr "抵达 %1 的 %2 站台"
 msgid "Edit Train Reservation"
 msgstr "编辑火车预订"
 
-#: app/TrainEditor.qml:55 app/TrainEditor.qml:72 app/TrainPage.qml:151
-#: app/TrainPage.qml:201
+#: app/TrainEditor.qml:55 app/TrainEditor.qml:72 app/TrainPage.qml:167
+#: app/TrainPage.qml:217
 #, kde-format
 msgid "Platform:"
 msgstr "站台："
@@ -1707,7 +1723,7 @@ msgstr "站台："
 msgid "Coach:"
 msgstr "车厢："
 
-#: app/TrainEditor.qml:94 app/TrainPage.qml:245
+#: app/TrainEditor.qml:94 app/TrainPage.qml:261
 #, kde-format
 msgid "Class:"
 msgstr "座位/车厢等级："
@@ -1717,45 +1733,45 @@ msgstr "座位/车厢等级："
 msgid "Train Ticket"
 msgstr "火车票"
 
-#: app/TrainPage.qml:56
+#: app/TrainPage.qml:65
 #, kde-format
 msgid "Departure Vehicle Layout"
 msgstr "离站列车编组"
 
-#: app/TrainPage.qml:67
+#: app/TrainPage.qml:76
 #, kde-format
 msgid "Arrival Vehicle Layout"
 msgstr "到站列车编组"
 
-#: app/TrainPage.qml:131
+#: app/TrainPage.qml:147
 #, kde-format
 msgid "Departure time:"
 msgstr "起飞时间："
 
-#: app/TrainPage.qml:142 app/TrainPage.qml:192
+#: app/TrainPage.qml:158 app/TrainPage.qml:208
 #, kde-format
 msgctxt "train station"
 msgid "Station:"
 msgstr "车站："
 
-#: app/TrainPage.qml:161 app/TrainPage.qml:211
+#: app/TrainPage.qml:177 app/TrainPage.qml:227
 #, kde-format
 msgctxt "previous platform"
 msgid "(was: %1)"
 msgstr "(原定站台：%1)"
 
-#: app/TrainPage.qml:181
+#: app/TrainPage.qml:197
 #, kde-format
 msgid "Arrival time:"
 msgstr "到达时间："
 
-#: app/TrainPage.qml:233
+#: app/TrainPage.qml:249
 #, kde-format
 msgctxt "coach of a train"
 msgid "Coach:"
 msgstr "车厢："
 
-#: app/TrainPage.qml:252
+#: app/TrainPage.qml:268
 #, kde-format
 msgctxt "bonus, discount or frequent traveler program"
 msgid "Program"
@@ -1944,8 +1960,8 @@ msgstr "如何导入数据？"
 
 #: app/WelcomePage.qml:25
 #, kde-format
-msgid "<p>There's a number of ways to import data into KDE Itinerary:<ul><li>Directly opening PDF tickets or Apple Wallet passes.</li><li>From the Android calendar, for entries made via the KMail, Nextcloud or Thunderbird Itinerary plugins, and synced using DavDroid.</li><li>Via KDE Connect from the KMail Itinerary plugin.</li><li>By scanning boarding pass barcodes and pasting their content.</li></p>"
-msgstr "<p>有很多方法可以将数据导入到 KDE 行程：<ul><li>直接打开 PDF 格式的电子票券或 Apple 钱包中保存的“凭证”。</li><li>从 Android 日历中，通过 DavDroid 同步 KMail、Nextcloud 或 Thunderbird 内的行程插件生成的条目</li><li>使用 KMail 行程插件，并在其中通过 KDE Connect 发送行程。</li><li>扫描登机牌条形码或粘贴登机牌的内容。</li></p>"
+msgid "<p>There's a number of ways to import data into KDE Itinerary:<ul><li>Directly opening PDF tickets or Apple Wallet passes.</li><li>From the Android calendar, for entries made via the KMail, Nextcloud or Thunderbird Itinerary plugins, and synced using DAVx⁵.</li><li>Via KDE Connect from the KMail Itinerary plugin.</li><li>By scanning boarding pass barcodes and pasting their content.</li></p>"
+msgstr "<p>您可以通过各种方式将数据导入到 KDE 行程：<ul><li>直接打开 PDF 格式的电子票券或打开 Apple 钱包中保存的“凭证”。</li><li>从 Android 日历中，通过 DAVx⁵ 同步 KMail、Nextcloud 或 Thunderbird 内行程插件所生成的条目</li><li>使用 KMail 行程插件，并在其中通过 KDE Connect 发送行程。</li><li>扫描登机牌条形码或粘贴登机牌的内容。</li></p>"
 
 #: app/WelcomePage.qml:30
 #, kde-format
