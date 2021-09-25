@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"POT-Creation-Date: 2021-06-14 00:17+0000\n"
+"PO-Revision-Date: 2021-09-25 08:31\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/itinerary/org.kde.itinerary.appdata.pot\n"
+"X-Crowdin-File-ID: 19506\n"
+"Language: zh_CN\n"
+
+#. (itstool) path: component/name
+#: org.kde.itinerary.appdata.xml:11
+msgid "KDE Itinerary"
+msgstr "KDE Itinerary"
+
+#. (itstool) path: component/summary
+#: org.kde.itinerary.appdata.xml:12
+msgid "Digital travel assistant"
+msgstr "数字旅行助理应用"
+
+#. (itstool) path: description/p
+#: org.kde.itinerary.appdata.xml:14
+msgid "KDE Itinerary is a digital travel assistant with a priority on protecting your privacy."
+msgstr "KDE Itinerary 是一款注重保护用户隐私的数字旅行助理应用。"
+
+#. (itstool) path: description/p
+#: org.kde.itinerary.appdata.xml:15
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:17
+msgid "Timeline view of a unified travel itinerary with automatic trip grouping."
+msgstr "时间线视图，可自动分组并归类旅程。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:18
+msgid "Supports train, bus and flight bookings as well as hotel, restaurant, event and rental car reservations."
+msgstr "支持预订火车、公共汽车、航班、酒店、餐厅、活动和租车服务。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:19
+msgid "Boarding pass management."
+msgstr "登机牌管理。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:20
+msgid "Supports ticket management for multi-traveler and multi-ticket bookings."
+msgstr "支持管理多位旅客的多次订票。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:21
+msgid "Automatic booking data extraction from various input formats, performed locally on your device."
+msgstr "在设备端处理多种输入格式并自动提取预订数据。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:22
+msgid "Real-time delay and platform change information for trains."
+msgstr "提供火车延误和站台变更的实时信息。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:23
+msgid "Weather forecast for destination along your trip."
+msgstr "显示旅途中各个目的地的天气预报。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:24
+msgid "Full control over all online access."
+msgstr "完全掌控所有在线功能。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:25
+msgid "Selection of alternative train connections on unbound tickets or on missed connections."
+msgstr "使用非绑定票券或错过联运交通时改签联运火车。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:26
+msgid "Local ground transportation navigation between elements of your itinerary."
+msgstr "在各段行程间为您进行本地地面交通导航。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:27
+msgid "Train coach layout view (for some operators only)."
+msgstr "列车编组视图 (仅限某些运营商)。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:28
+msgid "Train station and airport per-floor maps based on OpenStreetMap data."
+msgstr "基于 OpenStreetMap 数据的火车站地图和机场多层地图。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:29
+msgid "Available dock-based or free-floating rental bikes can be displayed on the train station map."
+msgstr "火车站地图显示空余的有桩或无桩共享单车。"
+
+#. (itstool) path: ul/li
+#: org.kde.itinerary.appdata.xml:30
+msgid "Personal travel statistics to monitor environmental impact."
+msgstr "个人旅行统计数据，可观察您对环境的影响。"
+
+#. (itstool) path: description/p
+#: org.kde.itinerary.appdata.xml:32
+msgid "KDE Itinerary works best alongside KMail's itinerary extraction plug-in and KDE Connect, or Nextcloud Hub and DavDroid."
+msgstr "KDE Itinerary 是 KMail 行程提取插件和 KDE Connect 的最佳搭档，还能配合 Nextcloud Hub 和 DavDroid 使用。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:36
+msgid "Timeline view"
+msgstr "时间线视图"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:40
+msgid "Boarding pass view"
+msgstr "登机牌视图"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:44
+msgid "Train layout view highlighting the coach with a seat reservation"
+msgstr "列车编组视图，高亮显示了车厢中预订的座位"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:48
+msgid "Train station platform map, highlighting arrival and departure platforms"
+msgstr "火车站站台地图，高亮显示了入站和出站站台"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:52
+msgid "Train station map showing real-time availability of rental bikes"
+msgstr "显示出租自行车实时信息的火车站地图。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:56
+msgid "Detailed information for the select entity on the train station map"
+msgstr "火车站地图，显示了所选条目的详细信息"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.itinerary.appdata.xml:60
+msgid "Travel statistics view"
+msgstr "旅程统计数据视图"
+

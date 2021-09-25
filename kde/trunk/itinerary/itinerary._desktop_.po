@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-17 00:25+0000\n"
+"PO-Revision-Date: 2021-09-25 08:31\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/itinerary/itinerary._desktop_.pot\n"
+"X-Crowdin-File-ID: 19502\n"
+"Language: zh_CN\n"
+
+#: src/app/itinerary.notifyrc:4 src/app/org.kde.itinerary.desktop:2
+msgctxt "Name"
+msgid "KDE Itinerary"
+msgstr "KDE Itinerary"
+
+#: src/app/itinerary.notifyrc:29 src/app/org.kde.itinerary.desktop:55
+msgctxt "Comment"
+msgid "Travel assistance application."
+msgstr "旅行助理应用。"
+
+#: src/app/itinerary.notifyrc:56
+msgctxt "Name"
+msgid "Disruption"
+msgstr "行程服务中断"
+
+#: src/app/itinerary.notifyrc:78
+msgctxt "Comment"
+msgid "A train, bus or flight service you have reserved has disruptions or schedule changes."
+msgstr "您预订的火车、公交车或者航班发生服务中断或计划有变。"
+
+#: src/app/org.kde.itinerary.desktop:27
+msgctxt "GenericName"
+msgid "Itinerary management"
+msgstr "行程管理应用"
+
